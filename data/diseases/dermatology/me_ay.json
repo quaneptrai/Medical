@@ -1,82 +1,82 @@
 {
-  "disease_id": "DERM_005",
-  "name_vi": "Mề đay",
-  "name_en": "Urticaria",
-  "category": "dermatology",
-  "aliases": [
-    "Mày đay",
-    "Phong ngứa",
-    "Dị ứng mề đay",
-    "Nổi mày đay cấp"
-  ],
-  "description": "Phản ứng phù cấp hoặc mạn ở trung bì da do giải phóng histamin, biểu hiện bằng các sẩn phù phù nề màu hồng/đỏ, rất ngứa, xuất hiện nhanh và lặn không để lại dấu vết trong 24 giờ.",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Nổi các sẩn phù, mảng gồ trên mặt da màu hồng đỏ hoặc trắng ở giữa",
-        "name_en": "Wheals / urticarial plaques",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Ngứa da dữ dội, cảm giác châm chích nóng rát",
-        "name_en": "Intense pruritus and stinging",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Các nốt phù nổi nhanh khắp người và lặn đi trong vòng vài giờ đến dưới 24h",
-        "name_en": "Transient lesions disappearing within 24h",
-        "frequency": "common"
-      }
+    "disease_id": "DERM_002",
+    "name_vi": "Mề đay",
+    "name_en": "Urticaria",
+    "category": "dermatology",
+    "aliases": [
+        "Mày đay",
+        "Phong ngứa",
+        "Dị ứng mề đay",
+        "Nổi mày đay cấp"
     ],
-    "occasional": [
-      {
-        "name_vi": "Phù mạch (Angioedema): sưng to mí mắt, môi, tai, mu bàn tay bàn chân",
-        "name_en": "Angioedema of eyelids, lips, extremities",
-        "frequency": "occasional"
-      }
+    "description": "Phản ứng phù cấp hoặc mạn ở trung bì da do giải phóng histamin, biểu hiện bằng các sẩn phù phù nề màu hồng/đỏ, rất ngứa, xuất hiện nhanh và lặn không để lại dấu vết trong 24 giờ.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Nổi các sẩn phù, mảng gồ trên mặt da màu hồng đỏ hoặc trắng ở giữa",
+                "name_en": "Wheals / urticarial plaques",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Ngứa da dữ dội, cảm giác châm chích nóng rát",
+                "name_en": "Intense pruritus and stinging",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Các nốt phù nổi nhanh khắp người và lặn đi trong vòng vài giờ đến dưới 24h",
+                "name_en": "Transient lesions disappearing within 24h",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Phù mạch (Angioedema): sưng to mí mắt, môi, tai, mu bàn tay bàn chân",
+                "name_en": "Angioedema of eyelids, lips, extremities",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Đau bụng quặn, buồn nôn hoặc đi ngoài do phù niêm mạc ruột",
+                "name_en": "Abdominal cramping from intestinal edema",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Sưng nề to vùng môi lưỡi, họng, cảm giác nghẹn cổ họng, khó thở rít (phù nề thanh quản - Dấu hiệu Sốc phản vệ)",
+        "Chóng mặt dữ dội, tụt huyết áp, vã mồ hôi, ngất xỉu sau khi tiếp xúc dị nguyên",
+        "Khó thở cấp kèm thở khò khè sau khi ăn hải sản, uống thuốc hoặc bị ong đốt"
     ],
-    "rare": [
-      {
-        "name_vi": "Đau bụng quặn, buồn nôn hoặc đi ngoài do phù niêm mạc ruột",
-        "name_en": "Abdominal cramping from intestinal edema",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Dị ứng thức ăn (hải sản, trứng, đậu phộng)",
+        "Dị ứng thuốc (kháng sinh, NSAIDs)",
+        "Côn trùng đốt",
+        "Nhiễm virus",
+        "Thay đổi nhiệt độ nóng lạnh đột ngột",
+        "Căng thẳng"
+    ],
+    "questions_to_ask": [
+        "Các nốt mẩn ngứa này có tự lặn đi sau vài tiếng rồi lại mọc ở chỗ khác không?",
+        "Trước khi nổi mề đay bạn có ăn đồ lạ (hải sản, nhộng...), uống thuốc gì hoặc bị côn trùng đốt không?",
+        "Bạn có cảm thấy khó thở, tức ngực, nghẹn ở cổ họng hoặc sưng vù môi mắt không?"
+    ],
+    "differential_diagnoses": [
+        "Phù mạch di truyền",
+        "Viêm mạch mề đay",
+        "Hồng ban đa dạng",
+        "Viêm da tiếp xúc"
+    ],
+    "urgency": "moderate",
+    "when_to_seek_emergency": [
+        "Sưng môi, sưng lưỡi, nghẹn họng, thở rít khó thở (Sốc phản vệ nguy hiểm tính mạng)",
+        "Chóng mặt, tụt huyết áp, ngất xỉu sau khi nổi mẩn"
+    ],
+    "user_language_variants": [
+        "người nổi mẩn đỏ từng cục ngứa phát điên",
+        "nổi mề đay phù mảng mảng khắp người ngứa rát",
+        "ăn hải sản xong nổi mảng phong ngứa sưng vù môi",
+        "da nổi cục phù to ngứa gãi đến đâu nổi đến đó",
+        "nổi mày đay ngứa như kim châm lặn chỗ này mọc chỗ khác"
     ]
-  },
-  "red_flags": [
-    "Sưng nề to vùng môi lưỡi, họng, cảm giác nghẹn cổ họng, khó thở rít (phù nề thanh quản - Dấu hiệu Sốc phản vệ)",
-    "Chóng mặt dữ dội, tụt huyết áp, vã mồ hôi, ngất xỉu sau khi tiếp xúc dị nguyên",
-    "Khó thở cấp kèm thở khò khè sau khi ăn hải sản, uống thuốc hoặc bị ong đốt"
-  ],
-  "risk_factors": [
-    "Dị ứng thức ăn (hải sản, trứng, đậu phộng)",
-    "Dị ứng thuốc (kháng sinh, NSAIDs)",
-    "Côn trùng đốt",
-    "Nhiễm virus",
-    "Thay đổi nhiệt độ nóng lạnh đột ngột",
-    "Căng thẳng"
-  ],
-  "questions_to_ask": [
-    "Các nốt mẩn ngứa này có tự lặn đi sau vài tiếng rồi lại mọc ở chỗ khác không?",
-    "Trước khi nổi mề đay bạn có ăn đồ lạ (hải sản, nhộng...), uống thuốc gì hoặc bị côn trùng đốt không?",
-    "Bạn có cảm thấy khó thở, tức ngực, nghẹn ở cổ họng hoặc sưng vù môi mắt không?"
-  ],
-  "differential_diagnoses": [
-    "Phù mạch di truyền",
-    "Viêm mạch mề đay",
-    "Hồng ban đa dạng",
-    "Viêm da tiếp xúc"
-  ],
-  "urgency": "moderate",
-  "when_to_seek_emergency": [
-    "Sưng môi, sưng lưỡi, nghẹn họng, thở rít khó thở (Sốc phản vệ nguy hiểm tính mạng)",
-    "Chóng mặt, tụt huyết áp, ngất xỉu sau khi nổi mẩn"
-  ],
-  "user_language_variants": [
-    "người nổi mẩn đỏ từng cục ngứa phát điên",
-    "nổi mề đay phù mảng mảng khắp người ngứa rát",
-    "ăn hải sản xong nổi mảng phong ngứa sưng vù môi",
-    "da nổi cục phù to ngứa gãi đến đâu nổi đến đó",
-    "nổi mày đay ngứa như kim châm lặn chỗ này mọc chỗ khác"
-  ]
 }

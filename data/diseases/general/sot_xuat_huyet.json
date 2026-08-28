@@ -1,126 +1,126 @@
 {
-  "disease_id": "GENE_001",
-  "name_vi": "Sốt xuất huyết Dengue",
-  "name_en": "Dengue Fever",
-  "category": "general",
-  "aliases": [
-    "Sốt xuất huyết",
-    "Sốt Dengue",
-    "Sốt muỗi vằn",
-    "Bệnh sốt xuất huyết"
-  ],
-  "description": "Sốt xuất huyết Dengue là bệnh truyền nhiễm cấp tính do vi-rút Dengue gây ra, lây truyền qua trung gian muỗi vằn Aedes aegypti. Bệnh biểu hiện điển hình với sốt cao đột ngột liên tục, đau đầu dữ dội, đau sau hốc mắt, đau nhức cơ khớp và xuất huyết. Bệnh có thể tiến triển nặng vào giai đoạn nguy hiểm (ngày 3-7 của bệnh) gây sốc, thoát huyết tương, giảm tiểu cầu nặng và suy đa tạng nếu không được theo dõi và điều trị kịp thời.",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Sốt cao đột ngột (39-40°C), khó hạ",
-        "name_en": "Sudden high fever (39-40°C), difficult to reduce",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Đau đầu dữ dội và đau sau hốc mắt",
-        "name_en": "Severe headache and retro-orbital pain",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Đau nhức cơ và khớp toàn thân",
-        "name_en": "Severe myalgia and arthralgia",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Nổi chấm xuất huyết dưới da hoặc phát ban đỏ",
-        "name_en": "Petechiae or rash",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Chán ăn, buồn nôn, nôn mửa",
-        "name_en": "Anorexia, nausea, and vomiting",
-        "frequency": "common"
-      }
+    "disease_id": "GENE_004",
+    "name_vi": "Sốt xuất huyết Dengue",
+    "name_en": "Dengue Fever",
+    "category": "general",
+    "aliases": [
+        "Sốt xuất huyết",
+        "Sốt Dengue",
+        "Sốt muỗi vằn",
+        "Bệnh sốt xuất huyết"
     ],
-    "occasional": [
-      {
-        "name_vi": "Chảy máu cam hoặc chảy máu chân răng",
-        "name_en": "Epistaxis or gingival bleeding",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Đau bụng liên tục vùng hạ sườn phải",
-        "name_en": "Persistent right upper quadrant abdominal pain",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Nổi mẩn ngứa khi giai đoạn phục hồi",
-        "name_en": "Pruritic rash during recovery phase",
-        "frequency": "occasional"
-      }
+    "description": "Sốt xuất huyết Dengue là bệnh truyền nhiễm cấp tính do vi-rút Dengue gây ra, lây truyền qua trung gian muỗi vằn Aedes aegypti. Bệnh biểu hiện điển hình với sốt cao đột ngột liên tục, đau đầu dữ dội, đau sau hốc mắt, đau nhức cơ khớp và xuất huyết. Bệnh có thể tiến triển nặng vào giai đoạn nguy hiểm (ngày 3-7 của bệnh) gây sốc, thoát huyết tương, giảm tiểu cầu nặng và suy đa tạng nếu không được theo dõi và điều trị kịp thời.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Sốt cao đột ngột (39-40°C), khó hạ",
+                "name_en": "Sudden high fever (39-40°C), difficult to reduce",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Đau đầu dữ dội và đau sau hốc mắt",
+                "name_en": "Severe headache and retro-orbital pain",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Đau nhức cơ và khớp toàn thân",
+                "name_en": "Severe myalgia and arthralgia",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Nổi chấm xuất huyết dưới da hoặc phát ban đỏ",
+                "name_en": "Petechiae or rash",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Chán ăn, buồn nôn, nôn mửa",
+                "name_en": "Anorexia, nausea, and vomiting",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Chảy máu cam hoặc chảy máu chân răng",
+                "name_en": "Epistaxis or gingival bleeding",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Đau bụng liên tục vùng hạ sườn phải",
+                "name_en": "Persistent right upper quadrant abdominal pain",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Nổi mẩn ngứa khi giai đoạn phục hồi",
+                "name_en": "Pruritic rash during recovery phase",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Nôn ra máu hoặc đi ngoài phân đen",
+                "name_en": "Hematemesis or melena",
+                "frequency": "rare"
+            },
+            {
+                "name_vi": "Sốc sốt xuất huyết (tụt huyết áp, tay chân lạnh ẩm, mạch nhanh nhỏ)",
+                "name_en": "Dengue Shock Syndrome (hypotension, cold clammy skin)",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Đau bụng dữ dội, liên tục hoặc tăng dần (đặc biệt là vùng hạ sườn phải)",
+        "Nôn ói liên tục (nôn trên 3 lần/2 giờ hoặc 4 lần/6 giờ)",
+        "Chảy máu tự nhiên nặng: chảy máu cam khó cầm, nôn ra máu, đi ngoài phân đen, kinh nguyệt kéo dài bất thường",
+        "Lừ đừ, vật vã, bứt rứt hoặc mệt lả không thể vận động",
+        "Tay chân lạnh ngắt, ẩm, da bầm tím hoặc niêm mạc nhợt nhạt",
+        "Tiểu ít hoặc không có nước tiểu trong 6 giờ liên tục",
+        "Thở nhanh, khó thở hoặc tràn dịch đa màng (màng phổi, màng bụng)"
     ],
-    "rare": [
-      {
-        "name_vi": "Nôn ra máu hoặc đi ngoài phân đen",
-        "name_en": "Hematemesis or melena",
-        "frequency": "rare"
-      },
-      {
-        "name_vi": "Sốc sốt xuất huyết (tụt huyết áp, tay chân lạnh ẩm, mạch nhanh nhỏ)",
-        "name_en": "Dengue Shock Syndrome (hypotension, cold clammy skin)",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Trẻ em và người cao tuổi",
+        "Phụ nữ đang mang thai",
+        "Người mắc các bệnh lý nền như tiểu đường, suy thận, béo phì, bệnh tim mạch hoặc bệnh gan mãn tính",
+        "Từng nhiễm vi-rút Dengue trong quá khứ (nguy cơ tái nhiễm chủng vi-rút khác gây sốt xuất huyết nặng)",
+        "Sống hoặc du lịch đến khu vực đang có dịch sốt xuất huyết lưu hành"
+    ],
+    "questions_to_ask": [
+        "Bạn hoặc người nhà đã sốt được mấy ngày rồi và nhiệt độ cao nhất đo được là bao nhiêu?",
+        "Khi dùng thuốc hạ sốt Paracetamol thì nhiệt độ có giảm không, hay hạ xong lại sốt cao lại ngay?",
+        "Có thấy xuất hiện các chấm đỏ li ti trên da, chảy máu cam hay chảy máu chân răng không?",
+        "Có cảm giác đau nhức sâu đằng sau hốc mắt hay đau nhức toàn bộ cơ khớp không?",
+        "Hiện tại có cảm thấy đau bụng nhiều, nôn ói liên tục, bứt rứt lừ đừ hay tay chân bị lạnh không?",
+        "Xung quanh khu vực bạn sinh sống hoặc nơi làm việc hiện có ai bị sốt xuất huyết không?"
+    ],
+    "differential_diagnoses": [
+        "Cúm mùa (Cúm A/B)",
+        "COVID-19",
+        "Sốt phát ban (Sởi, Rubella)",
+        "Nhiễm trùng huyết",
+        "Sốt mò (Scrub typhus)",
+        "Sốt rét (Malaria)",
+        "Nhiễm Leptospira"
+    ],
+    "urgency": "high",
+    "when_to_seek_emergency": [
+        "Xuất hiện bất kỳ dấu hiệu cảnh báo (red flags) nào như đau bụng dữ dội, nôn ói nhiều, chảy máu bất thường",
+        "Vào giai đoạn hạ sốt (thường từ ngày thứ 3 đến ngày thứ 7) nhưng bệnh nhân mệt lả, lừ đừ, tay chân lạnh ngắt",
+        "Không thể uống nước hoặc nôn ra hết mọi thứ ăn uống vào",
+        "Người bệnh có biểu hiện lơ mơ, co giật hoặc tụt huyết áp"
+    ],
+    "user_language_variants": [
+        "Sốt cao đùng đùng 39 40 độ uống hạ sốt không đỡ",
+        "Nhức hai hốc mắt muốn văng ra ngoài",
+        "Mình mẩy đau nhức như ai lấy chày đập",
+        "Tay chân nổi mấy chấm đỏ li ti bấm vào không mất",
+        "Sốt sình sịch 3 ngày nay kèm đau bụng nôn mửa",
+        "Đang sốt cao tự nhiên hết sốt mà người mệt lả tay chân lạnh ngắt",
+        "Đánh răng bị chảy máu chân răng hoài ko cầm",
+        "Bị chảy máu cam liên tục nghi sxh",
+        "Nổi ban đỏ ngứa ngáy khắp người sau khi hết sốt",
+        "Mệt không dở nổi tay chân đau nhức xương khớp dữ dội",
+        "Đi ngoài phân đen thui kèm đau bụng dữ dội",
+        "Nhiệt độ lên tới 40 độ C người run giật nốt xuất huyết đầy tay",
+        "Sốt mỏi xơ rơ người ngợm xung quanh nhà đang có dịch sốt xuất huyết"
     ]
-  },
-  "red_flags": [
-    "Đau bụng dữ dội, liên tục hoặc tăng dần (đặc biệt là vùng hạ sườn phải)",
-    "Nôn ói liên tục (nôn trên 3 lần/2 giờ hoặc 4 lần/6 giờ)",
-    "Chảy máu tự nhiên nặng: chảy máu cam khó cầm, nôn ra máu, đi ngoài phân đen, kinh nguyệt kéo dài bất thường",
-    "Lừ đừ, vật vã, bứt rứt hoặc mệt lả không thể vận động",
-    "Tay chân lạnh ngắt, ẩm, da bầm tím hoặc niêm mạc nhợt nhạt",
-    "Tiểu ít hoặc không có nước tiểu trong 6 giờ liên tục",
-    "Thở nhanh, khó thở hoặc tràn dịch đa màng (màng phổi, màng bụng)"
-  ],
-  "risk_factors": [
-    "Trẻ em và người cao tuổi",
-    "Phụ nữ đang mang thai",
-    "Người mắc các bệnh lý nền như tiểu đường, suy thận, béo phì, bệnh tim mạch hoặc bệnh gan mãn tính",
-    "Từng nhiễm vi-rút Dengue trong quá khứ (nguy cơ tái nhiễm chủng vi-rút khác gây sốt xuất huyết nặng)",
-    "Sống hoặc du lịch đến khu vực đang có dịch sốt xuất huyết lưu hành"
-  ],
-  "questions_to_ask": [
-    "Bạn hoặc người nhà đã sốt được mấy ngày rồi và nhiệt độ cao nhất đo được là bao nhiêu?",
-    "Khi dùng thuốc hạ sốt Paracetamol thì nhiệt độ có giảm không, hay hạ xong lại sốt cao lại ngay?",
-    "Có thấy xuất hiện các chấm đỏ li ti trên da, chảy máu cam hay chảy máu chân răng không?",
-    "Có cảm giác đau nhức sâu đằng sau hốc mắt hay đau nhức toàn bộ cơ khớp không?",
-    "Hiện tại có cảm thấy đau bụng nhiều, nôn ói liên tục, bứt rứt lừ đừ hay tay chân bị lạnh không?",
-    "Xung quanh khu vực bạn sinh sống hoặc nơi làm việc hiện có ai bị sốt xuất huyết không?"
-  ],
-  "differential_diagnoses": [
-    "Cúm mùa (Cúm A/B)",
-    "COVID-19",
-    "Sốt phát ban (Sởi, Rubella)",
-    "Nhiễm trùng huyết",
-    "Sốt mò (Scrub typhus)",
-    "Sốt rét (Malaria)",
-    "Nhiễm Leptospira"
-  ],
-  "urgency": "high",
-  "when_to_seek_emergency": [
-    "Xuất hiện bất kỳ dấu hiệu cảnh báo (red flags) nào như đau bụng dữ dội, nôn ói nhiều, chảy máu bất thường",
-    "Vào giai đoạn hạ sốt (thường từ ngày thứ 3 đến ngày thứ 7) nhưng bệnh nhân mệt lả, lừ đừ, tay chân lạnh ngắt",
-    "Không thể uống nước hoặc nôn ra hết mọi thứ ăn uống vào",
-    "Người bệnh có biểu hiện lơ mơ, co giật hoặc tụt huyết áp"
-  ],
-  "user_language_variants": [
-    "Sốt cao đùng đùng 39 40 độ uống hạ sốt không đỡ",
-    "Nhức hai hốc mắt muốn văng ra ngoài",
-    "Mình mẩy đau nhức như ai lấy chày đập",
-    "Tay chân nổi mấy chấm đỏ li ti bấm vào không mất",
-    "Sốt sình sịch 3 ngày nay kèm đau bụng nôn mửa",
-    "Đang sốt cao tự nhiên hết sốt mà người mệt lả tay chân lạnh ngắt",
-    "Đánh răng bị chảy máu chân răng hoài ko cầm",
-    "Bị chảy máu cam liên tục nghi sxh",
-    "Nổi ban đỏ ngứa ngáy khắp người sau khi hết sốt",
-    "Mệt không dở nổi tay chân đau nhức xương khớp dữ dội",
-    "Đi ngoài phân đen thui kèm đau bụng dữ dội",
-    "Nhiệt độ lên tới 40 độ C người run giật nốt xuất huyết đầy tay",
-    "Sốt mỏi xơ rơ người ngợm xung quanh nhà đang có dịch sốt xuất huyết"
-  ]
 }

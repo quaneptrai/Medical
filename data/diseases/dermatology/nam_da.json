@@ -1,84 +1,84 @@
 {
-  "disease_id": "DERM_001",
-  "name_vi": "Nấm da",
-  "name_en": "Tinea / Dermatophytosis",
-  "category": "dermatology",
-  "aliases": [
-    "Hắc lào",
-    "Lác đồng tiền",
-    "Nấm da toàn thân",
-    "Nấm bẹn"
-  ],
-  "description": "Bệnh nhiễm trùng da do vi nấm sợi nông gây ra, tạo thành các tổn thương hình tròn hoặc bầu dục có bờ viền đỏ rõ rệt, mụn nước nhỏ li ti và rất ngứa.",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Ngứa da dữ dội, đặc biệt khi ra mồ hôi hoặc thời tiết nóng ẩm",
-        "name_en": "Intense pruritus with sweating",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Vết ban đỏ hình tròn hoặc bầu dục giống đồng xu có bờ viền nổi gờ",
-        "name_en": "Annular red plaque with raised active border",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Mụn nước nhỏ li ti ở rìa tổn thương",
-        "name_en": "Marginal vesicles",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Trung tâm tổn thương có xu hướng lành dần, da hơi thâm sạm và có vảy mịn",
-        "name_en": "Central clearing with fine scaling",
-        "frequency": "common"
-      }
+    "disease_id": "DERM_004",
+    "name_vi": "Nấm da",
+    "name_en": "Tinea / Dermatophytosis",
+    "category": "dermatology",
+    "aliases": [
+        "Hắc lào",
+        "Lác đồng tiền",
+        "Nấm da toàn thân",
+        "Nấm bẹn"
     ],
-    "occasional": [
-      {
-        "name_vi": "Tổn thương lan rộng ra vùng bẹn, mông, đùi hoặc kẽ ngón chân",
-        "name_en": "Lesions spreading to groin, thighs, interdigital spaces",
-        "frequency": "occasional"
-      }
+    "description": "Bệnh nhiễm trùng da do vi nấm sợi nông gây ra, tạo thành các tổn thương hình tròn hoặc bầu dục có bờ viền đỏ rõ rệt, mụn nước nhỏ li ti và rất ngứa.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Ngứa da dữ dội, đặc biệt khi ra mồ hôi hoặc thời tiết nóng ẩm",
+                "name_en": "Intense pruritus with sweating",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Vết ban đỏ hình tròn hoặc bầu dục giống đồng xu có bờ viền nổi gờ",
+                "name_en": "Annular red plaque with raised active border",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Mụn nước nhỏ li ti ở rìa tổn thương",
+                "name_en": "Marginal vesicles",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Trung tâm tổn thương có xu hướng lành dần, da hơi thâm sạm và có vảy mịn",
+                "name_en": "Central clearing with fine scaling",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Tổn thương lan rộng ra vùng bẹn, mông, đùi hoặc kẽ ngón chân",
+                "name_en": "Lesions spreading to groin, thighs, interdigital spaces",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Bội nhiễm vi khuẩn làm mụn nước hóa mủ, sưng nóng đỏ đau",
+                "name_en": "Secondary bacterial infection with pustules",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Vùng da tổn thương sưng nề to, chảy mủ vàng hôi kèm sốt cao (nhiễm trùng mô bào)",
+        "Vết nấm lan tỏa toàn thân ở người suy giảm miễn dịch hoặc đái tháo đường nặng"
     ],
-    "rare": [
-      {
-        "name_vi": "Bội nhiễm vi khuẩn làm mụn nước hóa mủ, sưng nóng đỏ đau",
-        "name_en": "Secondary bacterial infection with pustules",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Khí hậu nóng ẩm",
+        "Mặc quần áo chật, ẩm ướt",
+        "Dùng chung khăn mặt, quần áo với người bệnh",
+        "Vệ sinh kém",
+        "Tiếp xúc thú cưng bị nấm"
+    ],
+    "questions_to_ask": [
+        "Vết đỏ trên da có hình tròn giống đồng xu với viền ngoài nổi cộm và ngứa nhiều không?",
+        "Vết tổn thương xuất hiện ở vị trí nào (bẹn, mông, nách, lưng hay kẽ chân)?",
+        "Vùng da đó có đang bị chảy dịch mủ vàng hay đau nhức nhiều không?"
+    ],
+    "differential_diagnoses": [
+        "Vẩy nến thể mảng",
+        "Chàm đồng tiền (Nummular eczema)",
+        "Vẩy phấn hồng Gibert",
+        "Viêm da tiếp xúc"
+    ],
+    "urgency": "low",
+    "when_to_seek_emergency": [
+        "Vết loét da lan rộng kèm sưng đỏ nóng rát dữ dội, sốt cao rét run (nguy cơ viêm mô tế bào hoại tử)"
+    ],
+    "user_language_variants": [
+        "da nổi vết tròn tròn như đồng xu ngứa điên cuồng",
+        "bị hắc lào ngứa ở bẹn nổi mụn nước li ti",
+        "vết lác đồng tiền ở lưng viền đỏ viền mụn nước ngứa ngáy",
+        "ngứa kẽ bẹn nổi vòng đỏ rát khi ra mồ hôi",
+        "da nổi mảng đỏ hình tròn ngứa gãi trầy xước"
     ]
-  },
-  "red_flags": [
-    "Vùng da tổn thương sưng nề to, chảy mủ vàng hôi kèm sốt cao (nhiễm trùng mô bào)",
-    "Vết nấm lan tỏa toàn thân ở người suy giảm miễn dịch hoặc đái tháo đường nặng"
-  ],
-  "risk_factors": [
-    "Khí hậu nóng ẩm",
-    "Mặc quần áo chật, ẩm ướt",
-    "Dùng chung khăn mặt, quần áo với người bệnh",
-    "Vệ sinh kém",
-    "Tiếp xúc thú cưng bị nấm"
-  ],
-  "questions_to_ask": [
-    "Vết đỏ trên da có hình tròn giống đồng xu với viền ngoài nổi cộm và ngứa nhiều không?",
-    "Vết tổn thương xuất hiện ở vị trí nào (bẹn, mông, nách, lưng hay kẽ chân)?",
-    "Vùng da đó có đang bị chảy dịch mủ vàng hay đau nhức nhiều không?"
-  ],
-  "differential_diagnoses": [
-    "Vẩy nến thể mảng",
-    "Chàm đồng tiền (Nummular eczema)",
-    "Vẩy phấn hồng Gibert",
-    "Viêm da tiếp xúc"
-  ],
-  "urgency": "low",
-  "when_to_seek_emergency": [
-    "Vết loét da lan rộng kèm sưng đỏ nóng rát dữ dội, sốt cao rét run (nguy cơ viêm mô tế bào hoại tử)"
-  ],
-  "user_language_variants": [
-    "da nổi vết tròn tròn như đồng xu ngứa điên cuồng",
-    "bị hắc lào ngứa ở bẹn nổi mụn nước li ti",
-    "vết lác đồng tiền ở lưng viền đỏ viền mụn nước ngứa ngáy",
-    "ngứa kẽ bẹn nổi vòng đỏ rát khi ra mồ hôi",
-    "da nổi mảng đỏ hình tròn ngứa gãi trầy xước"
-  ]
 }

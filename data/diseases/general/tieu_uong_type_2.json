@@ -1,127 +1,127 @@
 {
-  "disease_id": "GENE_002",
-  "name_vi": "Tiểu đường type 2",
-  "name_en": "Type 2 Diabetes Mellitus",
-  "category": "general",
-  "aliases": [
-    "Đái tháo đường týp 2",
-    "Đái tháo đường tuýp 2",
-    "Tiểu đường tuýp 2",
-    "Bệnh đường huyết cao",
-    "Đái tháo đường không phụ thuộc insulin"
-  ],
-  "description": "Tiểu đường type 2 (đái tháo đường týp 2) là một bệnh lý chuyển hóa mạn tính đặc trưng bởi tình trạng tăng đường huyết do cơ thể kháng insulin hoặc sản xuất không đủ insulin. Bệnh thường tiến triển âm thầm và nếu không được kiểm soát tốt có thể dẫn đến nhiều biến chứng nguy hiểm trên tim mạch, thận, mắt, thần kinh và mạch máu.",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Khát nước liên tục và uống nhiều nước",
-        "name_en": "Polydipsia (excessive thirst)",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Đi tiểu nhiều lần (đặc biệt là ban đêm)",
-        "name_en": "Polyuria",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Nhanh đói, thèm ăn liên tục",
-        "name_en": "Polyphagia",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Mệt mỏi, uể ả kéo dài",
-        "name_en": "Fatigue",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Sút cân không rõ nguyên nhân",
-        "name_en": "Unexplained weight loss",
-        "frequency": "common"
-      }
+    "disease_id": "GENE_006",
+    "name_vi": "Tiểu đường type 2",
+    "name_en": "Type 2 Diabetes Mellitus",
+    "category": "general",
+    "aliases": [
+        "Đái tháo đường týp 2",
+        "Đái tháo đường tuýp 2",
+        "Tiểu đường tuýp 2",
+        "Bệnh đường huyết cao",
+        "Đái tháo đường không phụ thuộc insulin"
     ],
-    "occasional": [
-      {
-        "name_vi": "Nhìn mờ, thị lực suy giảm",
-        "name_en": "Blurred vision",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Tê bì, châm chích ở bàn tay hoặc bàn chân",
-        "name_en": "Numbness or tingling in extremities",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Vết thương, vết trầy xước lâu lành",
-        "name_en": "Slow-healing sores",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Nhiễm trùng da hoặc nấm âm đạo tái đi tái lại",
-        "name_en": "Frequent infections",
-        "frequency": "occasional"
-      }
+    "description": "Tiểu đường type 2 (đái tháo đường týp 2) là một bệnh lý chuyển hóa mạn tính đặc trưng bởi tình trạng tăng đường huyết do cơ thể kháng insulin hoặc sản xuất không đủ insulin. Bệnh thường tiến triển âm thầm và nếu không được kiểm soát tốt có thể dẫn đến nhiều biến chứng nguy hiểm trên tim mạch, thận, mắt, thần kinh và mạch máu.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Khát nước liên tục và uống nhiều nước",
+                "name_en": "Polydipsia (excessive thirst)",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Đi tiểu nhiều lần (đặc biệt là ban đêm)",
+                "name_en": "Polyuria",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Nhanh đói, thèm ăn liên tục",
+                "name_en": "Polyphagia",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Mệt mỏi, uể ả kéo dài",
+                "name_en": "Fatigue",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Sút cân không rõ nguyên nhân",
+                "name_en": "Unexplained weight loss",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Nhìn mờ, thị lực suy giảm",
+                "name_en": "Blurred vision",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Tê bì, châm chích ở bàn tay hoặc bàn chân",
+                "name_en": "Numbness or tingling in extremities",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Vết thương, vết trầy xước lâu lành",
+                "name_en": "Slow-healing sores",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Nhiễm trùng da hoặc nấm âm đạo tái đi tái lại",
+                "name_en": "Frequent infections",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Mảng da sẫm màu ở nếp gấp (mảng gai)",
+                "name_en": "Acanthosis nigricans",
+                "frequency": "rare"
+            },
+            {
+                "name_vi": "Rối loạn cương dương ở nam giới",
+                "name_en": "Erectile dysfunction",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Lú lẫn, sảng, nói thắt gút, mất ý thức hoặc hôn mê",
+        "Thở nhanh sâu, hơi thở có mùi trái cây chín hoặc mùi axeton",
+        "Nôn mửa dữ dội, đau bụng cấp không thể uống được nước",
+        "Đường huyết đo tại nhà > 300 mg/dL (16.7 mmol/L) kèm dấu hiệu mất nước nặng",
+        "Vã mồ hôi lạnh, run rẩy dữ dội, co giật (dấu hiệu hạ đường huyết nặng cấp tính)"
     ],
-    "rare": [
-      {
-        "name_vi": "Mảng da sẫm màu ở nếp gấp (mảng gai)",
-        "name_en": "Acanthosis nigricans",
-        "frequency": "rare"
-      },
-      {
-        "name_vi": "Rối loạn cương dương ở nam giới",
-        "name_en": "Erectile dysfunction",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Thừa cân, béo phì (đặc biệt béo bụng, BMI >= 23 ở người châu Á)",
+        "Lối sống ít vận động, không tập thể dục",
+        "Tiền sử gia đình (bố, mẹ, anh chị em) mắc bệnh tiểu đường",
+        "Tuổi từ 45 trở lên",
+        "Có tiền sử tăng huyết áp hoặc rối loạn mỡ máu (lipid máu)",
+        "Tiền sử mắc đái tháo đường thai kỳ hoặc sinh con nặng trên 4kg"
+    ],
+    "questions_to_ask": [
+        "Bạn có bị khát nước dữ dội và phải thức dậy đi tiểu nhiều lần mỗi đêm không?",
+        "Thời gian gần đây bạn có bị sút cân nhanh chóng dù vẫn ăn uống bình thường hoặc ăn nhiều hơn không?",
+        "Bạn có cảm giác tê bì, châm chích như kiến bò ở các đầu ngón tay, ngón chân không?",
+        "Các vết thương nhỏ hoặc trầy xước trên cơ thể bạn có bị lâu lành hơn bình thường không?",
+        "Trong gia đình bạn (bố mẹ, anh chị em) có ai từng bị tiểu đường không?"
+    ],
+    "differential_diagnoses": [
+        "Đái tháo đường týp 1",
+        "Đái tháo nhạt (Diabetes insipidus)",
+        "Cường giáp (Hyperthyroidism)",
+        "Nhiễm trùng đường tiết niệu",
+        "Hội chứng Cushing"
+    ],
+    "urgency": "moderate",
+    "when_to_seek_emergency": [
+        "Bệnh nhân có biểu hiện lơ mơ, gọi hỏi không phản ứng linh hoạt hoặc ngất xỉu",
+        "Thở dốc, nôn mửa liên tục không ăn uống được gì, môi khô nứt nẻ và mắt trũng sâu",
+        "Đo đường huyết thấy tăng quá cao (> 300 mg/dL) hoặc hạ quá thấp (< 70 mg/dL) kèm vã mồ hôi lạnh, run rẩy, co giật"
+    ],
+    "user_language_variants": [
+        "dạo này uống nước suốt mà vẫn thấy khát khô cổ",
+        "đêm nào cũng đái dắt 4 5 lần mệt không ngủ nổi",
+        "tự nhiên sút liền 4 5 ký không rõ nguyên do",
+        "người lúc nào cũng uể uải mệt mỏi thèm ăn ngọt",
+        "tay chân cứ tê tê như bị kiến bò",
+        "mắt dạo này mờ đi tự nhiên nhìn không rõ",
+        "bị đái đường type 2 đường huyết cao vọt",
+        "vết xước nhỏ ở chân cả tháng không lành bị sưng mủ",
+        "người mệt lả vã mồ hôi run tay chân do tuột đường",
+        "đi tiểu nước tiểu thấy có kiến bu",
+        "hay bị nấm ngứa vùng kín tái đi tái lại",
+        "khát nước vãi đái uống bao nhiêu cũng không đủ",
+        "bị tiểu đường tuýp 2 dạo này đường huyết lên 15 16 mmol"
     ]
-  },
-  "red_flags": [
-    "Lú lẫn, sảng, nói thắt gút, mất ý thức hoặc hôn mê",
-    "Thở nhanh sâu, hơi thở có mùi trái cây chín hoặc mùi axeton",
-    "Nôn mửa dữ dội, đau bụng cấp không thể uống được nước",
-    "Đường huyết đo tại nhà > 300 mg/dL (16.7 mmol/L) kèm dấu hiệu mất nước nặng",
-    "Vã mồ hôi lạnh, run rẩy dữ dội, co giật (dấu hiệu hạ đường huyết nặng cấp tính)"
-  ],
-  "risk_factors": [
-    "Thừa cân, béo phì (đặc biệt béo bụng, BMI >= 23 ở người châu Á)",
-    "Lối sống ít vận động, không tập thể dục",
-    "Tiền sử gia đình (bố, mẹ, anh chị em) mắc bệnh tiểu đường",
-    "Tuổi từ 45 trở lên",
-    "Có tiền sử tăng huyết áp hoặc rối loạn mỡ máu (lipid máu)",
-    "Tiền sử mắc đái tháo đường thai kỳ hoặc sinh con nặng trên 4kg"
-  ],
-  "questions_to_ask": [
-    "Bạn có bị khát nước dữ dội và phải thức dậy đi tiểu nhiều lần mỗi đêm không?",
-    "Thời gian gần đây bạn có bị sút cân nhanh chóng dù vẫn ăn uống bình thường hoặc ăn nhiều hơn không?",
-    "Bạn có cảm giác tê bì, châm chích như kiến bò ở các đầu ngón tay, ngón chân không?",
-    "Các vết thương nhỏ hoặc trầy xước trên cơ thể bạn có bị lâu lành hơn bình thường không?",
-    "Trong gia đình bạn (bố mẹ, anh chị em) có ai từng bị tiểu đường không?"
-  ],
-  "differential_diagnoses": [
-    "Đái tháo đường týp 1",
-    "Đái tháo nhạt (Diabetes insipidus)",
-    "Cường giáp (Hyperthyroidism)",
-    "Nhiễm trùng đường tiết niệu",
-    "Hội chứng Cushing"
-  ],
-  "urgency": "moderate",
-  "when_to_seek_emergency": [
-    "Bệnh nhân có biểu hiện lơ mơ, gọi hỏi không phản ứng linh hoạt hoặc ngất xỉu",
-    "Thở dốc, nôn mửa liên tục không ăn uống được gì, môi khô nứt nẻ và mắt trũng sâu",
-    "Đo đường huyết thấy tăng quá cao (> 300 mg/dL) hoặc hạ quá thấp (< 70 mg/dL) kèm vã mồ hôi lạnh, run rẩy, co giật"
-  ],
-  "user_language_variants": [
-    "dạo này uống nước suốt mà vẫn thấy khát khô cổ",
-    "đêm nào cũng đái dắt 4 5 lần mệt không ngủ nổi",
-    "tự nhiên sút liền 4 5 ký không rõ nguyên do",
-    "người lúc nào cũng uể uải mệt mỏi thèm ăn ngọt",
-    "tay chân cứ tê tê như bị kiến bò",
-    "mắt dạo này mờ đi tự nhiên nhìn không rõ",
-    "bị đái đường type 2 đường huyết cao vọt",
-    "vết xước nhỏ ở chân cả tháng không lành bị sưng mủ",
-    "người mệt lả vã mồ hôi run tay chân do tuột đường",
-    "đi tiểu nước tiểu thấy có kiến bu",
-    "hay bị nấm ngứa vùng kín tái đi tái lại",
-    "khát nước vãi đái uống bao nhiêu cũng không đủ",
-    "bị tiểu đường tuýp 2 dạo này đường huyết lên 15 16 mmol"
-  ]
 }

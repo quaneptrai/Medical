@@ -1,125 +1,125 @@
 {
-  "disease_id": "DIGE_008",
-  "name_vi": "Viêm gan B",
-  "name_en": "Hepatitis B",
-  "category": "digestive",
-  "aliases": [
-    "Viêm gan siêu vi B",
-    "Nhiễm HBV",
-    "Nhiễm virus viêm gan B"
-  ],
-  "description": "Viêm gan B là bệnh truyền nhiễm do virus viêm gan B (HBV) gây ra, ảnh hưởng nghiêm trọng đến gan. Bệnh có thể diễn biến cấp tính hoặc mạn tính, nguy cơ tiến triển thành xơ gan, suy gan và ung thư gan nếu không được quản lý và theo dõi kịp thời.",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Mệt mỏi kéo dài",
-        "name_en": "Fatigue",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Chán ăn, sợ mỡ",
-        "name_en": "Loss of appetite",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Vàng da, vàng mắt",
-        "name_en": "Jaundice",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Nước tiểu sẫm màu như nước trà đậm",
-        "name_en": "Dark urine",
-        "frequency": "common"
-      }
+    "disease_id": "DIGE_005",
+    "name_vi": "Viêm gan B",
+    "name_en": "Hepatitis B",
+    "category": "digestive",
+    "aliases": [
+        "Viêm gan siêu vi B",
+        "Nhiễm HBV",
+        "Nhiễm virus viêm gan B"
     ],
-    "occasional": [
-      {
-        "name_vi": "Đau tức vùng hạ sườn phải",
-        "name_en": "Right upper quadrant pain",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Buồn nôn và nôn",
-        "name_en": "Nausea and vomiting",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Sốt nhẹ về chiều",
-        "name_en": "Low-grade fever",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Đau khớp, mỏi cơ",
-        "name_en": "Joint and muscle pain",
-        "frequency": "occasional"
-      }
+    "description": "Viêm gan B là bệnh truyền nhiễm do virus viêm gan B (HBV) gây ra, ảnh hưởng nghiêm trọng đến gan. Bệnh có thể diễn biến cấp tính hoặc mạn tính, nguy cơ tiến triển thành xơ gan, suy gan và ung thư gan nếu không được quản lý và theo dõi kịp thời.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Mệt mỏi kéo dài",
+                "name_en": "Fatigue",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Chán ăn, sợ mỡ",
+                "name_en": "Loss of appetite",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Vàng da, vàng mắt",
+                "name_en": "Jaundice",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Nước tiểu sẫm màu như nước trà đậm",
+                "name_en": "Dark urine",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Đau tức vùng hạ sườn phải",
+                "name_en": "Right upper quadrant pain",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Buồn nôn và nôn",
+                "name_en": "Nausea and vomiting",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Sốt nhẹ về chiều",
+                "name_en": "Low-grade fever",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Đau khớp, mỏi cơ",
+                "name_en": "Joint and muscle pain",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Cổ trướng (bụng trướng to chứa dịch)",
+                "name_en": "Ascites",
+                "frequency": "rare"
+            },
+            {
+                "name_vi": "Dễ chảy máu răng, bầm tím dưới da",
+                "name_en": "Easy bruising and bleeding",
+                "frequency": "rare"
+            },
+            {
+                "name_vi": "Phân nhạt màu hoặc bạc màu",
+                "name_en": "Pale-colored stools",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Vàng da và mắt tiến triển nhanh, đậm màu trong thời gian ngắn",
+        "Rối loạn ý thức, lơ mơ, lú lẫn, buồn ngủ bất thường (dấu hiệu não gan)",
+        "Nôn ra máu hoặc đi ngoài phân đen như nhựa đường",
+        "Bụng phình to nhanh kèm đau tức nhiều",
+        "Chảy máu khó cầm ở niêm mạc hoặc xuất huyết nhiều chỗ dưới da"
     ],
-    "rare": [
-      {
-        "name_vi": "Cổ trướng (bụng trướng to chứa dịch)",
-        "name_en": "Ascites",
-        "frequency": "rare"
-      },
-      {
-        "name_vi": "Dễ chảy máu răng, bầm tím dưới da",
-        "name_en": "Easy bruising and bleeding",
-        "frequency": "rare"
-      },
-      {
-        "name_vi": "Phân nhạt màu hoặc bạc màu",
-        "name_en": "Pale-colored stools",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Mẹ bị nhiễm viêm gan B truyền cho con trong quá trình sinh",
+        "Quan hệ tình dục không an toàn với người nhiễm HBV",
+        "Dùng chung kim tiêm, dụng cụ xăm mình, xỏ khuyên không vô trùng",
+        "Nhân viên y tế tiếp xúc với máu/dịch cơ thể của bệnh nhân",
+        "Sử dụng chung đồ dùng cá nhân dễ dính máu (bàn chải đánh răng, dao cạo râu)"
+    ],
+    "questions_to_ask": [
+        "Bạn có nhận thấy da hoặc mắt của mình bị vàng lên gần đây không?",
+        "Nước tiểu của bạn có chuyển sang màu vàng sẫm như nước trà đặc không?",
+        "Bạn có cảm giác đau tức hay nặng ở vùng hạ sườn bên phải không?",
+        "Gia đình bạn (mẹ, anh chị em) có ai mắc bệnh viêm gan B hay xơ gan không?",
+        "Bạn đã từng làm xét nghiệm HBsAg hay tiêm phòng vắc-xin viêm gan B chưa?"
+    ],
+    "differential_diagnoses": [
+        "Viêm gan C",
+        "Viêm gan A",
+        "Viêm gan do rượu",
+        "Viêm gan do thuốc hoặc hóa chất",
+        "Bệnh gan nhiễm mỡ",
+        "Tắc mật do sỏi hoặc u"
+    ],
+    "urgency": "moderate_to_high",
+    "when_to_seek_emergency": [
+        "Người bệnh biểu hiện lơ mơ, ngủ gà, nói nhảm hoặc mất nhận thức",
+        "Ói ra máu tươi, máu cục hoặc đi cầu phân đen như bã cà phê",
+        "Bụng chướng căng to đột ngột kèm khó thở",
+        "Sốt cao kèm theo vàng da sẫm biến đổi rất nhanh"
+    ],
+    "user_language_variants": [
+        "Mắt với da dạo này cứ vàng khè ra",
+        "Nước tiểu đục vàng quánh như nước trà đặc",
+        "Đau tức ngay dưới hạ sườn bên phải",
+        "Người mệt mỏi vãi chán chả muốn ăn uống gì",
+        "Bị nhiễm siêu vi B có sao không bác sĩ",
+        "Đi khám tổng quát thấy HBsAg dương tính",
+        "Thấy chán ăn ớn mỡ người lúc nào cũng uể uải",
+        "Bị đau nhói vùng gan bên phải",
+        "Nhiễm viêm gan b mãn tính có chữa khỏi hẳn ko",
+        "Mẹ em bị viêm gan B giờ em xét nghiệm cũng bị",
+        "Da dạo này sạm đi vàng mắt ngứa ngáy khắp người",
+        "Nôn nao buồn nôn ăn gì vào cũng muốn ói"
     ]
-  },
-  "red_flags": [
-    "Vàng da và mắt tiến triển nhanh, đậm màu trong thời gian ngắn",
-    "Rối loạn ý thức, lơ mơ, lú lẫn, buồn ngủ bất thường (dấu hiệu não gan)",
-    "Nôn ra máu hoặc đi ngoài phân đen như nhựa đường",
-    "Bụng phình to nhanh kèm đau tức nhiều",
-    "Chảy máu khó cầm ở niêm mạc hoặc xuất huyết nhiều chỗ dưới da"
-  ],
-  "risk_factors": [
-    "Mẹ bị nhiễm viêm gan B truyền cho con trong quá trình sinh",
-    "Quan hệ tình dục không an toàn với người nhiễm HBV",
-    "Dùng chung kim tiêm, dụng cụ xăm mình, xỏ khuyên không vô trùng",
-    "Nhân viên y tế tiếp xúc với máu/dịch cơ thể của bệnh nhân",
-    "Sử dụng chung đồ dùng cá nhân dễ dính máu (bàn chải đánh răng, dao cạo râu)"
-  ],
-  "questions_to_ask": [
-    "Bạn có nhận thấy da hoặc mắt của mình bị vàng lên gần đây không?",
-    "Nước tiểu của bạn có chuyển sang màu vàng sẫm như nước trà đặc không?",
-    "Bạn có cảm giác đau tức hay nặng ở vùng hạ sườn bên phải không?",
-    "Gia đình bạn (mẹ, anh chị em) có ai mắc bệnh viêm gan B hay xơ gan không?",
-    "Bạn đã từng làm xét nghiệm HBsAg hay tiêm phòng vắc-xin viêm gan B chưa?"
-  ],
-  "differential_diagnoses": [
-    "Viêm gan C",
-    "Viêm gan A",
-    "Viêm gan do rượu",
-    "Viêm gan do thuốc hoặc hóa chất",
-    "Bệnh gan nhiễm mỡ",
-    "Tắc mật do sỏi hoặc u"
-  ],
-  "urgency": "moderate_to_high",
-  "when_to_seek_emergency": [
-    "Người bệnh biểu hiện lơ mơ, ngủ gà, nói nhảm hoặc mất nhận thức",
-    "Ói ra máu tươi, máu cục hoặc đi cầu phân đen như bã cà phê",
-    "Bụng chướng căng to đột ngột kèm khó thở",
-    "Sốt cao kèm theo vàng da sẫm biến đổi rất nhanh"
-  ],
-  "user_language_variants": [
-    "Mắt với da dạo này cứ vàng khè ra",
-    "Nước tiểu đục vàng quánh như nước trà đặc",
-    "Đau tức ngay dưới hạ sườn bên phải",
-    "Người mệt mỏi vãi chán chả muốn ăn uống gì",
-    "Bị nhiễm siêu vi B có sao không bác sĩ",
-    "Đi khám tổng quát thấy HBsAg dương tính",
-    "Thấy chán ăn ớn mỡ người lúc nào cũng uể uải",
-    "Bị đau nhói vùng gan bên phải",
-    "Nhiễm viêm gan b mãn tính có chữa khỏi hẳn ko",
-    "Mẹ em bị viêm gan B giờ em xét nghiệm cũng bị",
-    "Da dạo này sạm đi vàng mắt ngứa ngáy khắp người",
-    "Nôn nao buồn nôn ăn gì vào cũng muốn ói"
-  ]
 }

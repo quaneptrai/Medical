@@ -1,120 +1,120 @@
 {
-  "disease_id": "GENE_008",
-  "name_vi": "Nhiễm trùng đường tiết niệu",
-  "name_en": "Urinary Tract Infection",
-  "category": "general",
-  "aliases": [
-    "Viêm đường tiết niệu",
-    "Nhiễm khuẩn tiết niệu",
-    "Viêm bàng quang",
-    "Nhiễm trùng tiểu",
-    "Viêm bể thận"
-  ],
-  "description": "Nhiễm trùng đường tiết niệu (UTI) là tình trạng vi khuẩn (phổ biến nhất là E. coli) xâm nhập và gây viêm ở bất kỳ phần nào của hệ tiết niệu, bao gồm niệu đạo, bàng quang, niệu quản và thận. Bệnh thường gây tiểu buốt, tiểu rắt, đi tiểu nhiều lần và có thể lan lên thận gây biến chứng nặng nếu không điều trị kịp thời.",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Tiểu buốt, cảm giác đau rát khi đi tiểu",
-        "name_en": "Dysuria (painful urination)",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Tiểu rắt, buồn đi tiểu liên tục nhưng mỗi lần chỉ ra lượng ít",
-        "name_en": "Urinary frequency and urgency",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Nước tiểu đục hoặc có mùi hôi nồng bất thường",
-        "name_en": "Cloudy or foul-smelling urine",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Đau tức vùng bụng dưới hoặc đau vùng chậu",
-        "name_en": "Lower abdominal or pelvic discomfort",
-        "frequency": "common"
-      }
+    "disease_id": "GENE_003",
+    "name_vi": "Nhiễm trùng đường tiết niệu",
+    "name_en": "Urinary Tract Infection",
+    "category": "general",
+    "aliases": [
+        "Viêm đường tiết niệu",
+        "Nhiễm khuẩn tiết niệu",
+        "Viêm bàng quang",
+        "Nhiễm trùng tiểu",
+        "Viêm bể thận"
     ],
-    "occasional": [
-      {
-        "name_vi": "Tiểu ra máu (nước tiểu màu hồng, đỏ hoặc nâu)",
-        "name_en": "Hematuria (bloody urine)",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Cảm giác mệt mỏi, uể oải toàn thân",
-        "name_en": "General malaise",
-        "frequency": "occasional"
-      }
+    "description": "Nhiễm trùng đường tiết niệu (UTI) là tình trạng vi khuẩn (phổ biến nhất là E. coli) xâm nhập và gây viêm ở bất kỳ phần nào của hệ tiết niệu, bao gồm niệu đạo, bàng quang, niệu quản và thận. Bệnh thường gây tiểu buốt, tiểu rắt, đi tiểu nhiều lần và có thể lan lên thận gây biến chứng nặng nếu không điều trị kịp thời.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Tiểu buốt, cảm giác đau rát khi đi tiểu",
+                "name_en": "Dysuria (painful urination)",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Tiểu rắt, buồn đi tiểu liên tục nhưng mỗi lần chỉ ra lượng ít",
+                "name_en": "Urinary frequency and urgency",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Nước tiểu đục hoặc có mùi hôi nồng bất thường",
+                "name_en": "Cloudy or foul-smelling urine",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Đau tức vùng bụng dưới hoặc đau vùng chậu",
+                "name_en": "Lower abdominal or pelvic discomfort",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Tiểu ra máu (nước tiểu màu hồng, đỏ hoặc nâu)",
+                "name_en": "Hematuria (bloody urine)",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Cảm giác mệt mỏi, uể oải toàn thân",
+                "name_en": "General malaise",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Sốt cao kèm rét run, vã mồ hôi",
+                "name_en": "High fever with chills",
+                "frequency": "rare"
+            },
+            {
+                "name_vi": "Đau hông lưng, đau hạ sườn đằng sau",
+                "name_en": "Flank pain",
+                "frequency": "rare"
+            },
+            {
+                "name_vi": "Buồn nôn và nôn ói",
+                "name_en": "Nausea and vomiting",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Sốt cao đùng đùng kèm rét run (nghi ngờ nhiễm trùng đã lan lên thận)",
+        "Đau thắt hông lưng hoặc đau mạn sườn một/hai bên",
+        "Nôn ói liên tục, không thể ăn uống hay uống thuốc",
+        "Tiểu ra máu tươi nhiều hoặc tiểu ra mủ",
+        "Người bệnh lú lẫn, mê sảng, hạ huyết áp (dấu hiệu nhiễm trùng huyết, đặc biệt ở người già)"
     ],
-    "rare": [
-      {
-        "name_vi": "Sốt cao kèm rét run, vã mồ hôi",
-        "name_en": "High fever with chills",
-        "frequency": "rare"
-      },
-      {
-        "name_vi": "Đau hông lưng, đau hạ sườn đằng sau",
-        "name_en": "Flank pain",
-        "frequency": "rare"
-      },
-      {
-        "name_vi": "Buồn nôn và nôn ói",
-        "name_en": "Nausea and vomiting",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Nữ giới (do niệu đạo ngắn và gần hậu môn hơn nam giới)",
+        "Quan hệ tình dục với tần suất cao hoặc không an toàn",
+        "Thói quen lười uống nước, thường xuyên nhịn tiểu",
+        "Vệ sinh vùng kín không đúng cách (lau từ sau ra trước)",
+        "Tiền sử sỏi thận, phì đại tuyến tiền liệt hoặc dị dạng đường tiết niệu",
+        "Bệnh tiểu đường hoặc hệ miễn dịch suy giảm",
+        "Mới can thiệp thủ thuật tiết niệu hoặc đặt ống thông tiểu (sonde)"
+    ],
+    "questions_to_ask": [
+        "Bạn bị đau buốt hay rát mỗi khi đi tiểu từ khi nào?",
+        "Bạn có bị cảm giác mót tiểu liên tục nhưng đi chỉ ra vài giọt (tiểu rắt) không?",
+        "Màu sắc và mùi của nước tiểu có gì lạ không (đục, khai nồng, có lẫn máu)?",
+        "Bạn có bị sốt, lạnh run hoặc đau nhức ở vùng hông lưng đằng sau không?",
+        "Bạn có đang có thai, bị tiểu đường hay từng có tiền sử bị sỏi thận không?"
+    ],
+    "differential_diagnoses": [
+        "Viêm âm đạo / Viêm âm hộ do nấm hoặc vi khuẩn",
+        "Bệnh lây truyền qua đường tình dục (Lậu, Chlamydia, Herpes sinh dục)",
+        "Sỏi đường tiết niệu (Sỏi bàng quang, sỏi niệu quản)",
+        "Viêm tuyến tiền liệt (ở nam giới)",
+        "Bàng quang tăng hoạt (OAB)"
+    ],
+    "urgency": "moderate_to_high",
+    "when_to_seek_emergency": [
+        "Có triệu chứng sốt cao trên 38.5°C kèm rét run run người",
+        "Xuất hiện cơn đau dữ dội ở vùng hông lưng hoặc mạn sườn",
+        "Nôn mửa không thể giữ được nước uống hay thuốc bôi/uống",
+        "Bệnh nhân là người cao tuổi có biểu hiện lú lẫn, mệt lả, tụt huyết áp",
+        "Đi tiểu ra toàn máu tươi hoặc hoàn toàn không đi tiểu được (bí tiểu)"
+    ],
+    "user_language_variants": [
+        "Đi tiểu buốt rát kinh khủng",
+        "Tự nhiên bị đái rắt, 5 phút chạy vô toilet một lần mà ra có vài giọt",
+        "Đau rát vùng kín mỗi lần đi đái",
+        "Nước tiểu đục như nước vo gạo lại còn khai nồng",
+        "Đi đái ra máu đỏ nhạt",
+        "Cứ mót đái liên tục mà đái xong vẫn thấy chưa hết",
+        "Đau tức bụng dưới đái thốn vô cùng",
+        "Bị đái dắt mấy ngày nay chưa khỏi",
+        "Sốt rét run đùng đùng kèm đau nhức hai bên hông sau lưng",
+        "Đái rắt đái buốt dữ dội",
+        "Nước tiểu màu sẫm có mùi hôi lạ lắm",
+        "Bị buốt đường tiểu lúc về cuối bãi",
+        "Đau thốn hậu môn với đường tiểu mỗi lần đi đái"
     ]
-  },
-  "red_flags": [
-    "Sốt cao đùng đùng kèm rét run (nghi ngờ nhiễm trùng đã lan lên thận)",
-    "Đau thắt hông lưng hoặc đau mạn sườn một/hai bên",
-    "Nôn ói liên tục, không thể ăn uống hay uống thuốc",
-    "Tiểu ra máu tươi nhiều hoặc tiểu ra mủ",
-    "Người bệnh lú lẫn, mê sảng, hạ huyết áp (dấu hiệu nhiễm trùng huyết, đặc biệt ở người già)"
-  ],
-  "risk_factors": [
-    "Nữ giới (do niệu đạo ngắn và gần hậu môn hơn nam giới)",
-    "Quan hệ tình dục với tần suất cao hoặc không an toàn",
-    "Thói quen lười uống nước, thường xuyên nhịn tiểu",
-    "Vệ sinh vùng kín không đúng cách (lau từ sau ra trước)",
-    "Tiền sử sỏi thận, phì đại tuyến tiền liệt hoặc dị dạng đường tiết niệu",
-    "Bệnh tiểu đường hoặc hệ miễn dịch suy giảm",
-    "Mới can thiệp thủ thuật tiết niệu hoặc đặt ống thông tiểu (sonde)"
-  ],
-  "questions_to_ask": [
-    "Bạn bị đau buốt hay rát mỗi khi đi tiểu từ khi nào?",
-    "Bạn có bị cảm giác mót tiểu liên tục nhưng đi chỉ ra vài giọt (tiểu rắt) không?",
-    "Màu sắc và mùi của nước tiểu có gì lạ không (đục, khai nồng, có lẫn máu)?",
-    "Bạn có bị sốt, lạnh run hoặc đau nhức ở vùng hông lưng đằng sau không?",
-    "Bạn có đang có thai, bị tiểu đường hay từng có tiền sử bị sỏi thận không?"
-  ],
-  "differential_diagnoses": [
-    "Viêm âm đạo / Viêm âm hộ do nấm hoặc vi khuẩn",
-    "Bệnh lây truyền qua đường tình dục (Lậu, Chlamydia, Herpes sinh dục)",
-    "Sỏi đường tiết niệu (Sỏi bàng quang, sỏi niệu quản)",
-    "Viêm tuyến tiền liệt (ở nam giới)",
-    "Bàng quang tăng hoạt (OAB)"
-  ],
-  "urgency": "moderate_to_high",
-  "when_to_seek_emergency": [
-    "Có triệu chứng sốt cao trên 38.5°C kèm rét run run người",
-    "Xuất hiện cơn đau dữ dội ở vùng hông lưng hoặc mạn sườn",
-    "Nôn mửa không thể giữ được nước uống hay thuốc bôi/uống",
-    "Bệnh nhân là người cao tuổi có biểu hiện lú lẫn, mệt lả, tụt huyết áp",
-    "Đi tiểu ra toàn máu tươi hoặc hoàn toàn không đi tiểu được (bí tiểu)"
-  ],
-  "user_language_variants": [
-    "Đi tiểu buốt rát kinh khủng",
-    "Tự nhiên bị đái rắt, 5 phút chạy vô toilet một lần mà ra có vài giọt",
-    "Đau rát vùng kín mỗi lần đi đái",
-    "Nước tiểu đục như nước vo gạo lại còn khai nồng",
-    "Đi đái ra máu đỏ nhạt",
-    "Cứ mót đái liên tục mà đái xong vẫn thấy chưa hết",
-    "Đau tức bụng dưới đái thốn vô cùng",
-    "Bị đái dắt mấy ngày nay chưa khỏi",
-    "Sốt rét run đùng đùng kèm đau nhức hai bên hông sau lưng",
-    "Đái rắt đái buốt dữ dội",
-    "Nước tiểu màu sẫm có mùi hôi lạ lắm",
-    "Bị buốt đường tiểu lúc về cuối bãi",
-    "Đau thốn hậu môn với đường tiểu mỗi lần đi đái"
-  ]
 }

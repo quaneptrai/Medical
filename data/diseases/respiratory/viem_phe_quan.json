@@ -1,120 +1,120 @@
 {
-  "disease_id": "RESP_002",
-  "name_vi": "Viêm phế quản",
-  "name_en": "Bronchitis",
-  "category": "respiratory",
-  "aliases": [
-    "Viêm phế quản cấp",
-    "Viêm phế quản mãn",
-    "Viêm đường hô hấp dưới"
-  ],
-  "description": "Viêm phế quản là tình trạng niêm mạc của ống phế quản (đoạn dẫn khí từ khí quản vào phổi) bị viêm nhiễm và sưng tấy. Tình trạng này dẫn đến tích tụ nhầy dịch, gây ra ho kéo dài, đờm quánh và tức ngực. Bệnh có thể ở dạng cấp tính (thường do vi-rút) hoặc mãn tính (thường liên quan đến hút thuốc lá).",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Ho dai dẳng kéo dài",
-        "name_en": "Persistent cough",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Tăng tiết đờm (màu trắng, vàng hoặc xanh)",
-        "name_en": "Sputum production",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Cảm giác khò khè khi thở",
-        "name_en": "Wheezing",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Tức ngực hoặc khó chịu lồng ngực",
-        "name_en": "Chest discomfort",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Mệt mỏi, uể ả",
-        "name_en": "Fatigue",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Sốt nhẹ hoặc hâm hấp",
-        "name_en": "Low-grade fever",
-        "frequency": "common"
-      }
+    "disease_id": "RESP_005",
+    "name_vi": "Viêm phế quản",
+    "name_en": "Bronchitis",
+    "category": "respiratory",
+    "aliases": [
+        "Viêm phế quản cấp",
+        "Viêm phế quản mãn",
+        "Viêm đường hô hấp dưới"
     ],
-    "occasional": [
-      {
-        "name_vi": "Đau rát họng",
-        "name_en": "Sore throat",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Khó thở nhẹ khi vận động",
-        "name_en": "Mild shortness of breath",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Đau mỏi toàn thân",
-        "name_en": "Body aches",
-        "frequency": "occasional"
-      }
+    "description": "Viêm phế quản là tình trạng niêm mạc của ống phế quản (đoạn dẫn khí từ khí quản vào phổi) bị viêm nhiễm và sưng tấy. Tình trạng này dẫn đến tích tụ nhầy dịch, gây ra ho kéo dài, đờm quánh và tức ngực. Bệnh có thể ở dạng cấp tính (thường do vi-rút) hoặc mãn tính (thường liên quan đến hút thuốc lá).",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Ho dai dẳng kéo dài",
+                "name_en": "Persistent cough",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Tăng tiết đờm (màu trắng, vàng hoặc xanh)",
+                "name_en": "Sputum production",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Cảm giác khò khè khi thở",
+                "name_en": "Wheezing",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Tức ngực hoặc khó chịu lồng ngực",
+                "name_en": "Chest discomfort",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Mệt mỏi, uể ả",
+                "name_en": "Fatigue",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Sốt nhẹ hoặc hâm hấp",
+                "name_en": "Low-grade fever",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Đau rát họng",
+                "name_en": "Sore throat",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Khó thở nhẹ khi vận động",
+                "name_en": "Mild shortness of breath",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Đau mỏi toàn thân",
+                "name_en": "Body aches",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Ho ra sợi máu mỏng trong đờm",
+                "name_en": "Blood-streaked sputum",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Khó thở dữ dội, co kéo cơ hô hấp ở cổ và ngực",
+        "Ho ra máu tươi số lượng nhiều",
+        "Sốt cao liên tục trên 38.5°C không hạ sau khi dùng thuốc",
+        "Môi, niêm mạc hoặc đầu ngón tay bị tím tái",
+        "Lơ mơ, lú lẫn, mệt quỵ không thể nói hết câu"
     ],
-    "rare": [
-      {
-        "name_vi": "Ho ra sợi máu mỏng trong đờm",
-        "name_en": "Blood-streaked sputum",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Hút thuốc lá hoặc hít phải khói thuốc lá thụ động",
+        "Sức đề kháng yếu (người già, trẻ nhỏ, người mắc bệnh mãn tính)",
+        "Tiếp xúc thường xuyên với bụi bẩn, hóa chất độc hại, ô nhiễm môi trường",
+        "Bị mắc bệnh trào ngược dạ dày thực quản (GERD)",
+        "Thời tiết thay đổi đột ngột hoặc mùa lạnh"
+    ],
+    "questions_to_ask": [
+        "Bạn bị ho bao nhiêu ngày rồi và ho có ra đờm không?",
+        "Đờm của bạn có màu gì (trong, trắng quánh, vàng hay xanh dính máu)?",
+        "Bạn có thấy thở khò khè, rít hoặc đau rát vùng lồng ngực khi ho không?",
+        "Bạn có bị sốt không và nhiệt độ cơ thể cao nhất là bao nhiêu?",
+        "Bạn có thói quen hút thuốc lá hay làm việc trong môi trường nhiều bụi bẩn không?"
+    ],
+    "differential_diagnoses": [
+        "Viêm phổi",
+        "Hen phế quản (Suyễn)",
+        "Bệnh phổi tắc nghẽn mãn tính (COPD)",
+        "Cảm cúm / Nhiễm trùng đường hô hấp trên",
+        "Ho do trào ngược dạ dày thực quản (GERD)"
+    ],
+    "urgency": "moderate",
+    "when_to_seek_emergency": [
+        "Thở dốc, khó thở nặng, phải ngồi dậy mới thở được",
+        "Ho ra máu đờm số lượng nhiều",
+        "Sốt kéo dài trên 3 ngày kèm theo suy nhược nặng",
+        "Người bệnh có biểu hiện tím tái môi hoặc ngón tay"
+    ],
+    "user_language_variants": [
+        "ho khạc đờm xanh đờm vàng mấy hôm nay",
+        "bị ho rát cả cổ họng khè khè như bị hen",
+        "ho dai dẳng cả tuần ko khỏi ngực rát vl",
+        "tự dưng ho sặc sụa ra đờm đặc quánh",
+        "tức ngực ho có đờm sốt hâm hấp",
+        "ngực đau thắt mỗi lần ho hắt hơi",
+        "bị ho khan xong giờ ra đờm xanh lè",
+        "thở ngực cứ kêu khò khè rát lồng ngực quá",
+        "ho rộc cả ruột gan đờm dính cổ",
+        "ho nhiều về đêm tức ngực khó thở nhẹ",
+        "sốt nhẹ kèm ho khạc ra đờm đặc",
+        "bị phế quản ho rát ngực quá bác sĩ ơi",
+        "ho có đờm đặc đụn 3 4 ngày nay"
     ]
-  },
-  "red_flags": [
-    "Khó thở dữ dội, co kéo cơ hô hấp ở cổ và ngực",
-    "Ho ra máu tươi số lượng nhiều",
-    "Sốt cao liên tục trên 38.5°C không hạ sau khi dùng thuốc",
-    "Môi, niêm mạc hoặc đầu ngón tay bị tím tái",
-    "Lơ mơ, lú lẫn, mệt quỵ không thể nói hết câu"
-  ],
-  "risk_factors": [
-    "Hút thuốc lá hoặc hít phải khói thuốc lá thụ động",
-    "Sức đề kháng yếu (người già, trẻ nhỏ, người mắc bệnh mãn tính)",
-    "Tiếp xúc thường xuyên với bụi bẩn, hóa chất độc hại, ô nhiễm môi trường",
-    "Bị mắc bệnh trào ngược dạ dày thực quản (GERD)",
-    "Thời tiết thay đổi đột ngột hoặc mùa lạnh"
-  ],
-  "questions_to_ask": [
-    "Bạn bị ho bao nhiêu ngày rồi và ho có ra đờm không?",
-    "Đờm của bạn có màu gì (trong, trắng quánh, vàng hay xanh dính máu)?",
-    "Bạn có thấy thở khò khè, rít hoặc đau rát vùng lồng ngực khi ho không?",
-    "Bạn có bị sốt không và nhiệt độ cơ thể cao nhất là bao nhiêu?",
-    "Bạn có thói quen hút thuốc lá hay làm việc trong môi trường nhiều bụi bẩn không?"
-  ],
-  "differential_diagnoses": [
-    "Viêm phổi",
-    "Hen phế quản (Suyễn)",
-    "Bệnh phổi tắc nghẽn mãn tính (COPD)",
-    "Cảm cúm / Nhiễm trùng đường hô hấp trên",
-    "Ho do trào ngược dạ dày thực quản (GERD)"
-  ],
-  "urgency": "moderate",
-  "when_to_seek_emergency": [
-    "Thở dốc, khó thở nặng, phải ngồi dậy mới thở được",
-    "Ho ra máu đờm số lượng nhiều",
-    "Sốt kéo dài trên 3 ngày kèm theo suy nhược nặng",
-    "Người bệnh có biểu hiện tím tái môi hoặc ngón tay"
-  ],
-  "user_language_variants": [
-    "ho khạc đờm xanh đờm vàng mấy hôm nay",
-    "bị ho rát cả cổ họng khè khè như bị hen",
-    "ho dai dẳng cả tuần ko khỏi ngực rát vl",
-    "tự dưng ho sặc sụa ra đờm đặc quánh",
-    "tức ngực ho có đờm sốt hâm hấp",
-    "ngực đau thắt mỗi lần ho hắt hơi",
-    "bị ho khan xong giờ ra đờm xanh lè",
-    "thở ngực cứ kêu khò khè rát lồng ngực quá",
-    "ho rộc cả ruột gan đờm dính cổ",
-    "ho nhiều về đêm tức ngực khó thở nhẹ",
-    "sốt nhẹ kèm ho khạc ra đờm đặc",
-    "bị phế quản ho rát ngực quá bác sĩ ơi",
-    "ho có đờm đặc đụn 3 4 ngày nay"
-  ]
 }

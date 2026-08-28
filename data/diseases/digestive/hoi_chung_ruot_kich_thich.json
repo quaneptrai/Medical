@@ -1,113 +1,113 @@
 {
-  "disease_id": "DIGE_003",
-  "name_vi": "Hội chứng ruột kích thích",
-  "name_en": "Irritable Bowel Syndrome",
-  "category": "digestive",
-  "aliases": [
-    "Viêm đại tràng co thắt",
-    "Hội chứng đại tràng kích thích",
-    "IBS",
-    "Rối loạn chức năng ruột"
-  ],
-  "description": "Hội chứng ruột kích thích (IBS) là một rối loạn tiêu hóa mạn tính phổ biến ảnh hưởng đến ruột già. Bệnh đặc trưng bởi tình trạng đau quặn bụng, đầy hơi, chướng bụng và thay đổi thói quen đại tiện (tiêu chảy, táo bón hoặc luân phiên) mà không có bất kỳ tổn thương thực thể hay bất thường sinh hóa nào trên đường tiêu hóa.",
-  "symptoms": {
-    "common_symptoms": [
-      {
-        "name_vi": "Đau quặn bụng hoặc co thắt bụng, thường giảm sau khi đi ngoài",
-        "name_en": "Abdominal pain or cramping relieved by defecation",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Chướng bụng, đầy hơi, nhiều khí trong bụng",
-        "name_en": "Bloating and abdominal distension",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Thay đổi thói quen đại tiện (tiêu chảy, táo bón hoặc lúc lỏng lúc táo)",
-        "name_en": "Altered bowel habits (diarrhea, constipation, or alternating)",
-        "frequency": "very_common"
-      },
-      {
-        "name_vi": "Cảm giác đi ngoài không hết phân, mót rặn",
-        "name_en": "Feeling of incomplete evacuation",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Xuất hiện chất nhầy trắng trong phân",
-        "name_en": "Mucus in stool",
-        "frequency": "common"
-      }
+    "disease_id": "DIGE_001",
+    "name_vi": "Hội chứng ruột kích thích",
+    "name_en": "Irritable Bowel Syndrome",
+    "category": "digestive",
+    "aliases": [
+        "Viêm đại tràng co thắt",
+        "Hội chứng đại tràng kích thích",
+        "IBS",
+        "Rối loạn chức năng ruột"
     ],
-    "occasional_symptoms": [
-      {
-        "name_vi": "Mệt mỏi, uể ả, khó ngủ",
-        "name_en": "Fatigue and sleep disturbance",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Buồn nôn nhẹ hoặc ợ hơi",
-        "name_en": "Mild nausea or belching",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Đau lưng nhẹ hoặc đau khớp nhẹ",
-        "name_en": "Mild backache or joint pain",
-        "frequency": "rare"
-      }
+    "description": "Hội chứng ruột kích thích (IBS) là một rối loạn tiêu hóa mạn tính phổ biến ảnh hưởng đến ruột già. Bệnh đặc trưng bởi tình trạng đau quặn bụng, đầy hơi, chướng bụng và thay đổi thói quen đại tiện (tiêu chảy, táo bón hoặc luân phiên) mà không có bất kỳ tổn thương thực thể hay bất thường sinh hóa nào trên đường tiêu hóa.",
+    "symptoms": {
+        "common_symptoms": [
+            {
+                "name_vi": "Đau quặn bụng hoặc co thắt bụng, thường giảm sau khi đi ngoài",
+                "name_en": "Abdominal pain or cramping relieved by defecation",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Chướng bụng, đầy hơi, nhiều khí trong bụng",
+                "name_en": "Bloating and abdominal distension",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Thay đổi thói quen đại tiện (tiêu chảy, táo bón hoặc lúc lỏng lúc táo)",
+                "name_en": "Altered bowel habits (diarrhea, constipation, or alternating)",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "Cảm giác đi ngoài không hết phân, mót rặn",
+                "name_en": "Feeling of incomplete evacuation",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Xuất hiện chất nhầy trắng trong phân",
+                "name_en": "Mucus in stool",
+                "frequency": "common"
+            }
+        ],
+        "occasional_symptoms": [
+            {
+                "name_vi": "Mệt mỏi, uể ả, khó ngủ",
+                "name_en": "Fatigue and sleep disturbance",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Buồn nôn nhẹ hoặc ợ hơi",
+                "name_en": "Mild nausea or belching",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Đau lưng nhẹ hoặc đau khớp nhẹ",
+                "name_en": "Mild backache or joint pain",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Đi ngoài ra máu tươi hoặc phân đen như bã cà phê",
+        "Sút cân nhanh chóng không rõ nguyên nhân",
+        "Tiêu chảy nặng dai dẳng, đặc biệt là tiêu chảy ban đêm gây tỉnh giấc",
+        "Sốt kéo dài không rõ lý do",
+        "Khởi phát triệu chứng lần đầu ở người trên 50 tuổi",
+        "Sờ thấy khối u bất thường ở bụng",
+        "Thiếu máu do thiếu sắt không giải thích được"
+    ],
+    "risk_factors": [
+        "Giới tính nữ (tỷ lệ mắc cao gấp đôi nam giới)",
+        "Độ tuổi dưới 50",
+        "Thường xuyên bị căng thẳng, lo âu, trầm cảm hoặc áp lực tâm lý",
+        "Tiền sử nhiễm trùng đường ruột nặng (viêm dạ dày ruột cấp)",
+        "Tiền sử gia đình có người mắc hội chứng ruột kích thích",
+        "Mẫn cảm hoặc bất dung nạp một số loại thực phẩm (sữa, mỡ, đồ cay nóng)"
+    ],
+    "questions_to_ask": [
+        "Cơn đau bụng của bạn có xu hướng giảm đi sau khi đi đại tiện xong không?",
+        "Bạn thường bị tiêu chảy, táo bón hay lúc lỏng lúc táo thất thường?",
+        "Triệu chứng có hay bùng phát khi bạn gặp căng thẳng, stress hoặc sau khi ăn thức ăn lạ không?",
+        "Bạn có bị đi ngoài vào ban đêm làm thức giấc không?",
+        "Bạn có thấy máu trong phân hay bị sút cân không rõ nguyên nhân gần đây không?"
+    ],
+    "differential_diagnoses": [
+        "Bệnh viêm ruột mạn tính (IBD - Crohn hoặc Viêm loét đại trực tràng chảy máu)",
+        "Ung thư đại trực tràng",
+        "Bệnh Celiac (Bất dung nạp Gluten)",
+        "Bất dung nạp đường Lactose",
+        "Nhiễm trùng đường ruột / Tiêu chảy nhiễm khuẩn",
+        "Viêm đại tràng vi thể (Microscopic colitis)"
+    ],
+    "urgency": "low",
+    "when_to_seek_emergency": [
+        "Đau bụng dữ dội, dồn dập không giảm",
+        "Đi ngoài ra lượng lớn máu tươi hoặc phân đen sẫm",
+        "Sốt cao kèm rét run, vã mồ hôi, lơ mơ",
+        "Nôn liên tục, không thể ăn uống gì và có dấu hiệu mất nước nặng"
+    ],
+    "user_language_variants": [
+        "Cứ ăn xong là buồn đi ngoài liền",
+        "Sáng ra chưa kịp ăn gì đã đau bụng tháo rượt",
+        "Bụng cứ sôi ọc ọc rồi đau quặn lên đòi đi cầu",
+        "Ăn đồ lạ hay uống sữa vào là tào tháo đuổi ngay",
+        "Lúc thì táo bón cả tuần, lúc lại tiêu chảy phân sống",
+        "Căng thẳng stress là lại bị đau bụng đi ngoài",
+        "Đi ngoài xong mới thấy đỡ đau quặn bụng",
+        "Đi cầu xong vẫn thấy mót, cảm giác chưa hết phân",
+        "Bị đại tràng co thắt hay sao ấy, hay bị chướng bụng đầy hơi",
+        "Bụng dạ yếu lắm, ăn tí đồ mỡ là dở chứng ngay",
+        "Một ngày đi cầu 3 4 lần, phân lúc lỏng lúc nát",
+        "Đau bụng quặn từng cơn kèm phân dính nhầy nhầy",
+        "Sắp thi hay có việc lo lắng là bụng lại dở chứng"
     ]
-  },
-  "red_flags": [
-    "Đi ngoài ra máu tươi hoặc phân đen như bã cà phê",
-    "Sút cân nhanh chóng không rõ nguyên nhân",
-    "Tiêu chảy nặng dai dẳng, đặc biệt là tiêu chảy ban đêm gây tỉnh giấc",
-    "Sốt kéo dài không rõ lý do",
-    "Khởi phát triệu chứng lần đầu ở người trên 50 tuổi",
-    "Sờ thấy khối u bất thường ở bụng",
-    "Thiếu máu do thiếu sắt không giải thích được"
-  ],
-  "risk_factors": [
-    "Giới tính nữ (tỷ lệ mắc cao gấp đôi nam giới)",
-    "Độ tuổi dưới 50",
-    "Thường xuyên bị căng thẳng, lo âu, trầm cảm hoặc áp lực tâm lý",
-    "Tiền sử nhiễm trùng đường ruột nặng (viêm dạ dày ruột cấp)",
-    "Tiền sử gia đình có người mắc hội chứng ruột kích thích",
-    "Mẫn cảm hoặc bất dung nạp một số loại thực phẩm (sữa, mỡ, đồ cay nóng)"
-  ],
-  "questions_to_ask": [
-    "Cơn đau bụng của bạn có xu hướng giảm đi sau khi đi đại tiện xong không?",
-    "Bạn thường bị tiêu chảy, táo bón hay lúc lỏng lúc táo thất thường?",
-    "Triệu chứng có hay bùng phát khi bạn gặp căng thẳng, stress hoặc sau khi ăn thức ăn lạ không?",
-    "Bạn có bị đi ngoài vào ban đêm làm thức giấc không?",
-    "Bạn có thấy máu trong phân hay bị sút cân không rõ nguyên nhân gần đây không?"
-  ],
-  "differential_diagnoses": [
-    "Bệnh viêm ruột mạn tính (IBD - Crohn hoặc Viêm loét đại trực tràng chảy máu)",
-    "Ung thư đại trực tràng",
-    "Bệnh Celiac (Bất dung nạp Gluten)",
-    "Bất dung nạp đường Lactose",
-    "Nhiễm trùng đường ruột / Tiêu chảy nhiễm khuẩn",
-    "Viêm đại tràng vi thể (Microscopic colitis)"
-  ],
-  "urgency": "low",
-  "when_to_seek_emergency": [
-    "Đau bụng dữ dội, dồn dập không giảm",
-    "Đi ngoài ra lượng lớn máu tươi hoặc phân đen sẫm",
-    "Sốt cao kèm rét run, vã mồ hôi, lơ mơ",
-    "Nôn liên tục, không thể ăn uống gì và có dấu hiệu mất nước nặng"
-  ],
-  "user_language_variants": [
-    "Cứ ăn xong là buồn đi ngoài liền",
-    "Sáng ra chưa kịp ăn gì đã đau bụng tháo rượt",
-    "Bụng cứ sôi ọc ọc rồi đau quặn lên đòi đi cầu",
-    "Ăn đồ lạ hay uống sữa vào là tào tháo đuổi ngay",
-    "Lúc thì táo bón cả tuần, lúc lại tiêu chảy phân sống",
-    "Căng thẳng stress là lại bị đau bụng đi ngoài",
-    "Đi ngoài xong mới thấy đỡ đau quặn bụng",
-    "Đi cầu xong vẫn thấy mót, cảm giác chưa hết phân",
-    "Bị đại tràng co thắt hay sao ấy, hay bị chướng bụng đầy hơi",
-    "Bụng dạ yếu lắm, ăn tí đồ mỡ là dở chứng ngay",
-    "Một ngày đi cầu 3 4 lần, phân lúc lỏng lúc nát",
-    "Đau bụng quặn từng cơn kèm phân dính nhầy nhầy",
-    "Sắp thi hay có việc lo lắng là bụng lại dở chứng"
-  ]
 }

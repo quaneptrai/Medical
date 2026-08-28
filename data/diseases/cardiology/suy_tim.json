@@ -1,89 +1,89 @@
 {
-  "disease_id": "CARD_003",
-  "name_vi": "Suy tim",
-  "name_en": "Heart Failure",
-  "category": "cardiology",
-  "aliases": [
-    "Suy tim mạn",
-    "Suy tim ứ huyết"
-  ],
-  "description": "Tình trạng cơ tim suy yếu, không thể bơm đủ máu đáp ứng nhu cầu trao đổi chất của cơ thể, dẫn đến ứ trệ tuần hoàn phổi và ngoại biên.",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Khó thở khi gắng sức",
-        "name_en": "Exertional dyspnea",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Khó thở khi nằm đầu thấp, phải ngồi dậy để thở",
-        "name_en": "Orthopnea",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Phù hai chi dưới (phù mắt cá chân, mu bàn chân)",
-        "name_en": "Lower extremity edema",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Mệt mỏi kiệt sức nhanh chóng khi làm việc nhẹ",
-        "name_en": "Severe fatigue",
-        "frequency": "common"
-      }
+    "disease_id": "CARD_004",
+    "name_vi": "Suy tim",
+    "name_en": "Heart Failure",
+    "category": "cardiology",
+    "aliases": [
+        "Suy tim mạn",
+        "Suy tim ứ huyết"
     ],
-    "occasional": [
-      {
-        "name_vi": "Ho khan dai dẳng vào ban đêm",
-        "name_en": "Nocturnal dry cough",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Tăng cân nhanh không rõ nguyên nhân do giữ nước",
-        "name_en": "Rapid fluid weight gain",
-        "frequency": "occasional"
-      }
+    "description": "Tình trạng cơ tim suy yếu, không thể bơm đủ máu đáp ứng nhu cầu trao đổi chất của cơ thể, dẫn đến ứ trệ tuần hoàn phổi và ngoại biên.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Khó thở khi gắng sức",
+                "name_en": "Exertional dyspnea",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Khó thở khi nằm đầu thấp, phải ngồi dậy để thở",
+                "name_en": "Orthopnea",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Phù hai chi dưới (phù mắt cá chân, mu bàn chân)",
+                "name_en": "Lower extremity edema",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Mệt mỏi kiệt sức nhanh chóng khi làm việc nhẹ",
+                "name_en": "Severe fatigue",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Ho khan dai dẳng vào ban đêm",
+                "name_en": "Nocturnal dry cough",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Tăng cân nhanh không rõ nguyên nhân do giữ nước",
+                "name_en": "Rapid fluid weight gain",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Chán ăn, đầy bụng do ứ huyết gan ruột",
+                "name_en": "Abdominal fullness, anorexia",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Khó thở kịch phát dữ dội về đêm kèm ho khạc bọt hồng (phù phổi cấp)",
+        "Đau ngực dữ dội, tụt huyết áp, vã mồ hôi, da tái lạnh",
+        "Ngất xỉu, mất ý thức đột ngột"
     ],
-    "rare": [
-      {
-        "name_vi": "Chán ăn, đầy bụng do ứ huyết gan ruột",
-        "name_en": "Abdominal fullness, anorexia",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Tiền sử nhồi máu cơ tim",
+        "Tăng huyết áp lâu năm",
+        "Bệnh van tim",
+        "Bệnh cơ tim",
+        "Đái tháo đường"
+    ],
+    "questions_to_ask": [
+        "Bạn có bị khó thở tăng lên khi nằm phẳng và phải kê nhiều gối để ngủ không?",
+        "Hai chân, mắt cá chân của bạn có bị sưng phù, ấn vào để lại vết lõm không?",
+        "Bạn đi bộ hoặc leo cầu thang có bị hụt hơi, thở dốc bất thường không?"
+    ],
+    "differential_diagnoses": [
+        "Bệnh phổi tắc nghẽn mạn tính (COPD)",
+        "Hen suyễn",
+        "Suy thận mạn",
+        "Xơ gan cổ trướng"
+    ],
+    "urgency": "high",
+    "when_to_seek_emergency": [
+        "Khó thở đột ngột dữ dội, tím tái môi đầu chi",
+        "Ho khạc ra bọt màu hồng, không thể nằm thở được"
+    ],
+    "user_language_variants": [
+        "nằm xuống là ngộp thở không thở được phải ngồi dậy",
+        "chân sưng phù mắt cá ấn vào lõm",
+        "leo cầu thang 1 tầng là thở dốc tim đập thình thịch",
+        "khó thở đêm đang ngủ phải bật dậy thở gấp",
+        "người mệt lả đi vài bước là hụt hơi chân phù"
     ]
-  },
-  "red_flags": [
-    "Khó thở kịch phát dữ dội về đêm kèm ho khạc bọt hồng (phù phổi cấp)",
-    "Đau ngực dữ dội, tụt huyết áp, vã mồ hôi, da tái lạnh",
-    "Ngất xỉu, mất ý thức đột ngột"
-  ],
-  "risk_factors": [
-    "Tiền sử nhồi máu cơ tim",
-    "Tăng huyết áp lâu năm",
-    "Bệnh van tim",
-    "Bệnh cơ tim",
-    "Đái tháo đường"
-  ],
-  "questions_to_ask": [
-    "Bạn có bị khó thở tăng lên khi nằm phẳng và phải kê nhiều gối để ngủ không?",
-    "Hai chân, mắt cá chân của bạn có bị sưng phù, ấn vào để lại vết lõm không?",
-    "Bạn đi bộ hoặc leo cầu thang có bị hụt hơi, thở dốc bất thường không?"
-  ],
-  "differential_diagnoses": [
-    "Bệnh phổi tắc nghẽn mạn tính (COPD)",
-    "Hen suyễn",
-    "Suy thận mạn",
-    "Xơ gan cổ trướng"
-  ],
-  "urgency": "high",
-  "when_to_seek_emergency": [
-    "Khó thở đột ngột dữ dội, tím tái môi đầu chi",
-    "Ho khạc ra bọt màu hồng, không thể nằm thở được"
-  ],
-  "user_language_variants": [
-    "nằm xuống là ngộp thở không thở được phải ngồi dậy",
-    "chân sưng phù mắt cá ấn vào lõm",
-    "leo cầu thang 1 tầng là thở dốc tim đập thình thịch",
-    "khó thở đêm đang ngủ phải bật dậy thở gấp",
-    "người mệt lả đi vài bước là hụt hơi chân phù"
-  ]
 }

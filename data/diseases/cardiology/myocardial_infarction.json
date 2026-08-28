@@ -1,101 +1,132 @@
 {
-  "disease_id": "CARD_001",
-  "name_vi": "Nhồi máu cơ tim",
-  "name_en": "Myocardial Infarction",
-  "category": "cardiology",
-  "aliases": [
-    "nhồi máu cơ tim",
-    "đau tim",
-    "heart attack",
-    "MI",
-    "cơn đau tim",
-    "nhồi máu",
-    "thiếu máu cơ tim cấp"
-  ],
-
-  "description": "Nhồi máu cơ tim xảy ra khi dòng máu đến một phần cơ tim bị tắc nghẽn, thường do cục máu đông hình thành tại vị trí mảng xơ vữa bị nứt vỡ trong động mạch vành. Nếu không được điều trị kịp thời, phần cơ tim bị thiếu máu sẽ hoại tử, có thể gây tử vong.",
-
-  "symptoms": {
-    "common": [
-      {"name_vi": "đau thắt ngực, cảm giác bóp nghẹt hoặc đè nặng", "name_en": "chest pain/tightness/pressure", "frequency": "very_common"},
-      {"name_vi": "đau lan ra tay trái, vai, cổ hoặc hàm", "name_en": "radiating pain to left arm/shoulder/neck/jaw", "frequency": "very_common"},
-      {"name_vi": "khó thở", "name_en": "dyspnea", "frequency": "very_common"},
-      {"name_vi": "vã mồ hôi lạnh", "name_en": "cold sweats/diaphoresis", "frequency": "common"},
-      {"name_vi": "buồn nôn hoặc nôn", "name_en": "nausea/vomiting", "frequency": "common"}
+    "disease_id": "CARD_002",
+    "name_vi": "Nhồi máu cơ tim",
+    "name_en": "Myocardial Infarction",
+    "category": "cardiology",
+    "aliases": [
+        "nhồi máu cơ tim",
+        "đau tim",
+        "heart attack",
+        "MI",
+        "cơn đau tim",
+        "nhồi máu",
+        "thiếu máu cơ tim cấp"
     ],
-    "occasional": [
-      {"name_vi": "chóng mặt, choáng váng", "name_en": "dizziness/lightheadedness", "frequency": "occasional"},
-      {"name_vi": "mệt mỏi bất thường", "name_en": "unusual fatigue", "frequency": "occasional"},
-      {"name_vi": "lo lắng, cảm giác sắp chết (doom)", "name_en": "anxiety/sense of impending doom", "frequency": "occasional"}
+    "description": "Nhồi máu cơ tim xảy ra khi dòng máu đến một phần cơ tim bị tắc nghẽn, thường do cục máu đông hình thành tại vị trí mảng xơ vữa bị nứt vỡ trong động mạch vành. Nếu không được điều trị kịp thời, phần cơ tim bị thiếu máu sẽ hoại tử, có thể gây tử vong.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "đau thắt ngực, cảm giác bóp nghẹt hoặc đè nặng",
+                "name_en": "chest pain/tightness/pressure",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "đau lan ra tay trái, vai, cổ hoặc hàm",
+                "name_en": "radiating pain to left arm/shoulder/neck/jaw",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "khó thở",
+                "name_en": "dyspnea",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "vã mồ hôi lạnh",
+                "name_en": "cold sweats/diaphoresis",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "buồn nôn hoặc nôn",
+                "name_en": "nausea/vomiting",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "chóng mặt, choáng váng",
+                "name_en": "dizziness/lightheadedness",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "mệt mỏi bất thường",
+                "name_en": "unusual fatigue",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "lo lắng, cảm giác sắp chết (doom)",
+                "name_en": "anxiety/sense of impending doom",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "đau bụng trên (nhồi máu thành dưới)",
+                "name_en": "epigastric pain (inferior MI)",
+                "frequency": "rare"
+            },
+            {
+                "name_vi": "ngất",
+                "name_en": "syncope",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Đau ngực dữ dội kéo dài >15 phút không giảm khi nghỉ",
+        "Khó thở nặng kèm đau ngực",
+        "Vã mồ hôi lạnh, da tái nhợt",
+        "Mất ý thức, ngất",
+        "Nhịp tim quá nhanh hoặc quá chậm bất thường",
+        "Tím tái"
     ],
-    "rare": [
-      {"name_vi": "đau bụng trên (nhồi máu thành dưới)", "name_en": "epigastric pain (inferior MI)", "frequency": "rare"},
-      {"name_vi": "ngất", "name_en": "syncope", "frequency": "rare"}
+    "risk_factors": [
+        "Nam giới >45 tuổi, nữ giới >55 tuổi",
+        "Tiền sử gia đình bệnh tim mạch sớm",
+        "Hút thuốc lá",
+        "Tăng huyết áp",
+        "Đái tháo đường",
+        "Rối loạn lipid máu (cholesterol cao)",
+        "Béo phì",
+        "Ít vận động",
+        "Stress kéo dài"
+    ],
+    "questions_to_ask": [
+        "Đau ngực bắt đầu từ khi nào? Đau liên tục hay từng cơn?",
+        "Cơn đau có lan ra tay, vai, cổ hoặc hàm không?",
+        "Bạn có khó thở, vã mồ hôi, buồn nôn kèm theo không?",
+        "Đau có giảm khi nghỉ ngơi không?",
+        "Bạn có tiền sử bệnh tim mạch, tăng huyết áp, tiểu đường không?",
+        "Gia đình bạn có ai bị bệnh tim sớm (trước 55 tuổi ở nam, 65 ở nữ)?",
+        "Bạn có hút thuốc không? Bao nhiêu năm?",
+        "Bạn có đang dùng thuốc gì không?"
+    ],
+    "differential_diagnoses": [
+        "Trào ngược dạ dày thực quản (GERD)",
+        "Viêm cơ xương sườn (Costochondritis)",
+        "Thuyên tắc phổi",
+        "Tràn khí màng phổi",
+        "Viêm cơ tim",
+        "Viêm màng ngoài tim",
+        "Cơn hoảng loạn (Panic attack)"
+    ],
+    "urgency": "emergency",
+    "when_to_seek_emergency": [
+        "Đau ngực kéo dài >15 phút — GỌI CẤP CỨU 115 NGAY",
+        "Đau ngực kèm khó thở, vã mồ hôi, buồn nôn",
+        "Đau ngực lan ra tay trái, hàm hoặc lưng",
+        "Ngất, mất ý thức đột ngột",
+        "Cảm giác bóp nghẹt ngực dữ dội, không thể thở"
+    ],
+    "user_language_variants": [
+        "tôi đau ngực dữ lắm, khó thở, mồ hôi đầm đìa",
+        "ông nội tôi kêu đau ngực, tay trái tê, mồ hôi lạnh",
+        "bị đau ở ngực, đau lan xuống tay trái",
+        "tức ngực, thở không nổi, vã mồ hôi",
+        "đau ngực kiểu bóp nghẹt, buồn nôn, chóng mặt",
+        "ba tôi đau ngực từ sáng tới giờ không giảm",
+        "tôi 55 tuổi, đau ngực đột ngột, cảm giác rất sợ",
+        "nặng ngực, khó thở, đổ mồ hôi lạnh, buồn nôn",
+        "đau tim thì triệu chứng như nào",
+        "đau ngực mà nghỉ ngơi ko giảm, tay trái tê"
     ]
-  },
-
-  "red_flags": [
-    "Đau ngực dữ dội kéo dài >15 phút không giảm khi nghỉ",
-    "Khó thở nặng kèm đau ngực",
-    "Vã mồ hôi lạnh, da tái nhợt",
-    "Mất ý thức, ngất",
-    "Nhịp tim quá nhanh hoặc quá chậm bất thường",
-    "Tím tái"
-  ],
-
-  "risk_factors": [
-    "Nam giới >45 tuổi, nữ giới >55 tuổi",
-    "Tiền sử gia đình bệnh tim mạch sớm",
-    "Hút thuốc lá",
-    "Tăng huyết áp",
-    "Đái tháo đường",
-    "Rối loạn lipid máu (cholesterol cao)",
-    "Béo phì",
-    "Ít vận động",
-    "Stress kéo dài"
-  ],
-
-  "questions_to_ask": [
-    "Đau ngực bắt đầu từ khi nào? Đau liên tục hay từng cơn?",
-    "Cơn đau có lan ra tay, vai, cổ hoặc hàm không?",
-    "Bạn có khó thở, vã mồ hôi, buồn nôn kèm theo không?",
-    "Đau có giảm khi nghỉ ngơi không?",
-    "Bạn có tiền sử bệnh tim mạch, tăng huyết áp, tiểu đường không?",
-    "Gia đình bạn có ai bị bệnh tim sớm (trước 55 tuổi ở nam, 65 ở nữ)?",
-    "Bạn có hút thuốc không? Bao nhiêu năm?",
-    "Bạn có đang dùng thuốc gì không?"
-  ],
-
-  "differential_diagnoses": [
-    "Trào ngược dạ dày thực quản (GERD)",
-    "Viêm cơ xương sườn (Costochondritis)",
-    "Thuyên tắc phổi",
-    "Tràn khí màng phổi",
-    "Viêm cơ tim",
-    "Viêm màng ngoài tim",
-    "Cơn hoảng loạn (Panic attack)"
-  ],
-
-  "urgency": "emergency",
-
-  "when_to_seek_emergency": [
-    "Đau ngực kéo dài >15 phút — GỌI CẤP CỨU 115 NGAY",
-    "Đau ngực kèm khó thở, vã mồ hôi, buồn nôn",
-    "Đau ngực lan ra tay trái, hàm hoặc lưng",
-    "Ngất, mất ý thức đột ngột",
-    "Cảm giác bóp nghẹt ngực dữ dội, không thể thở"
-  ],
-
-  "user_language_variants": [
-    "tôi đau ngực dữ lắm, khó thở, mồ hôi đầm đìa",
-    "ông nội tôi kêu đau ngực, tay trái tê, mồ hôi lạnh",
-    "bị đau ở ngực, đau lan xuống tay trái",
-    "tức ngực, thở không nổi, vã mồ hôi",
-    "đau ngực kiểu bóp nghẹt, buồn nôn, chóng mặt",
-    "ba tôi đau ngực từ sáng tới giờ không giảm",
-    "tôi 55 tuổi, đau ngực đột ngột, cảm giác rất sợ",
-    "nặng ngực, khó thở, đổ mồ hôi lạnh, buồn nôn",
-    "đau tim thì triệu chứng như nào",
-    "đau ngực mà nghỉ ngơi ko giảm, tay trái tê"
-  ]
 }

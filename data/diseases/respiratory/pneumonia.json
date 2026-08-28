@@ -1,99 +1,134 @@
 {
-  "disease_id": "RESP_001",
-  "name_vi": "Viêm phổi",
-  "name_en": "Pneumonia",
-  "category": "respiratory",
-  "aliases": [
-    "viêm phổi",
-    "viêm phế quản phổi",
-    "sưng phổi",
-    "pneumonia",
-    "bị phổi"
-  ],
-
-  "description": "Viêm phổi là tình trạng nhiễm trùng gây viêm các túi khí (phế nang) ở một hoặc cả hai bên phổi. Các túi khí có thể chứa đầy dịch hoặc mủ, gây ho có đờm, sốt, ớn lạnh và khó thở. Nguyên nhân có thể do vi khuẩn, virus hoặc nấm.",
-
-  "symptoms": {
-    "common": [
-      {"name_vi": "ho có đờm", "name_en": "productive cough", "frequency": "very_common"},
-      {"name_vi": "sốt cao", "name_en": "high fever", "frequency": "very_common"},
-      {"name_vi": "khó thở", "name_en": "dyspnea", "frequency": "common"},
-      {"name_vi": "đau ngực khi hít sâu hoặc ho", "name_en": "pleuritic chest pain", "frequency": "common"},
-      {"name_vi": "mệt mỏi", "name_en": "fatigue", "frequency": "common"}
+    "disease_id": "RESP_004",
+    "name_vi": "Viêm phổi",
+    "name_en": "Pneumonia",
+    "category": "respiratory",
+    "aliases": [
+        "viêm phổi",
+        "viêm phế quản phổi",
+        "sưng phổi",
+        "pneumonia",
+        "bị phổi"
     ],
-    "occasional": [
-      {"name_vi": "ớn lạnh, rét run", "name_en": "chills/rigors", "frequency": "occasional"},
-      {"name_vi": "đổ mồ hôi đêm", "name_en": "night sweats", "frequency": "occasional"},
-      {"name_vi": "buồn nôn, nôn", "name_en": "nausea/vomiting", "frequency": "occasional"},
-      {"name_vi": "chán ăn", "name_en": "loss of appetite", "frequency": "occasional"}
+    "description": "Viêm phổi là tình trạng nhiễm trùng gây viêm các túi khí (phế nang) ở một hoặc cả hai bên phổi. Các túi khí có thể chứa đầy dịch hoặc mủ, gây ho có đờm, sốt, ớn lạnh và khó thở. Nguyên nhân có thể do vi khuẩn, virus hoặc nấm.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "ho có đờm",
+                "name_en": "productive cough",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "sốt cao",
+                "name_en": "high fever",
+                "frequency": "very_common"
+            },
+            {
+                "name_vi": "khó thở",
+                "name_en": "dyspnea",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "đau ngực khi hít sâu hoặc ho",
+                "name_en": "pleuritic chest pain",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "mệt mỏi",
+                "name_en": "fatigue",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "ớn lạnh, rét run",
+                "name_en": "chills/rigors",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "đổ mồ hôi đêm",
+                "name_en": "night sweats",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "buồn nôn, nôn",
+                "name_en": "nausea/vomiting",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "chán ăn",
+                "name_en": "loss of appetite",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "ho ra máu",
+                "name_en": "hemoptysis",
+                "frequency": "rare"
+            },
+            {
+                "name_vi": "lú lẫn (ở người già)",
+                "name_en": "confusion in elderly",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Khó thở nặng, tím tái (môi, đầu ngón tay)",
+        "Sốt cao liên tục >39°C không đáp ứng hạ sốt sau 48h",
+        "Ho ra máu",
+        "Lú lẫn, mất ý thức",
+        "Nhịp thở nhanh >30 lần/phút",
+        "Huyết áp tụt (mạch nhanh, da lạnh, vã mồ hôi)"
     ],
-    "rare": [
-      {"name_vi": "ho ra máu", "name_en": "hemoptysis", "frequency": "rare"},
-      {"name_vi": "lú lẫn (ở người già)", "name_en": "confusion in elderly", "frequency": "rare"}
+    "risk_factors": [
+        "Người già >65 tuổi",
+        "Trẻ em <5 tuổi",
+        "Suy giảm miễn dịch (HIV, đang dùng thuốc ức chế miễn dịch)",
+        "Hút thuốc lá",
+        "Bệnh phổi mãn tính (COPD, hen suyễn)",
+        "Nằm viện lâu ngày, đặc biệt ICU",
+        "Nuốt sặc (viêm phổi hít)"
+    ],
+    "questions_to_ask": [
+        "Bạn ho có đờm không? Đờm màu gì (trắng, vàng, xanh, có máu)?",
+        "Bạn có sốt không? Sốt bao nhiêu độ và kéo dài bao lâu?",
+        "Bạn có khó thở không? Khó thở khi nghỉ ngơi hay chỉ khi gắng sức?",
+        "Có đau ngực không? Đau tăng khi hít sâu hoặc ho không?",
+        "Triệu chứng bắt đầu từ khi nào? Có nặng dần không?",
+        "Bạn có hút thuốc không? Có bệnh phổi từ trước không?",
+        "Bạn có đang dùng thuốc ức chế miễn dịch hoặc có bệnh nền gì không?",
+        "Xung quanh bạn có ai bị bệnh tương tự không?"
+    ],
+    "differential_diagnoses": [
+        "Viêm phế quản cấp",
+        "Hen suyễn cấp",
+        "Lao phổi",
+        "COVID-19",
+        "Suy tim sung huyết",
+        "Thuyên tắc phổi",
+        "Ung thư phổi"
+    ],
+    "urgency": "moderate_to_high",
+    "when_to_seek_emergency": [
+        "Khó thở nặng, không thể nói trọn câu",
+        "Tím tái môi hoặc đầu ngón tay",
+        "Sốt cao >39°C kéo dài không hạ dù đã dùng thuốc",
+        "Ho ra máu nhiều",
+        "Lú lẫn, mất phương hướng (đặc biệt ở người già)",
+        "Trẻ nhỏ thở rít, co kéo lồng ngực"
+    ],
+    "user_language_variants": [
+        "tôi bị ho mấy ngày rồi, sốt nữa",
+        "ho có đờm xanh, khó thở quá",
+        "bị viêm phổi rồi phải không bác sĩ",
+        "con tôi ho sốt 3 ngày không khỏi, thở mệt",
+        "ho khạc đờm vàng, đau ngực khi hít sâu",
+        "mấy hôm nay ho nhiều, sốt cao, ớn lạnh",
+        "ông nội tôi ho sốt mấy ngày, giờ thở nhanh lắm",
+        "ho đờm có máu, đau lưng, sốt nhẹ",
+        "bé nhà em ho sốt, thở khò khè",
+        "ho mấy tuần rồi ko khỏi, thở hụt hơi"
     ]
-  },
-
-  "red_flags": [
-    "Khó thở nặng, tím tái (môi, đầu ngón tay)",
-    "Sốt cao liên tục >39°C không đáp ứng hạ sốt sau 48h",
-    "Ho ra máu",
-    "Lú lẫn, mất ý thức",
-    "Nhịp thở nhanh >30 lần/phút",
-    "Huyết áp tụt (mạch nhanh, da lạnh, vã mồ hôi)"
-  ],
-
-  "risk_factors": [
-    "Người già >65 tuổi",
-    "Trẻ em <5 tuổi",
-    "Suy giảm miễn dịch (HIV, đang dùng thuốc ức chế miễn dịch)",
-    "Hút thuốc lá",
-    "Bệnh phổi mãn tính (COPD, hen suyễn)",
-    "Nằm viện lâu ngày, đặc biệt ICU",
-    "Nuốt sặc (viêm phổi hít)"
-  ],
-
-  "questions_to_ask": [
-    "Bạn ho có đờm không? Đờm màu gì (trắng, vàng, xanh, có máu)?",
-    "Bạn có sốt không? Sốt bao nhiêu độ và kéo dài bao lâu?",
-    "Bạn có khó thở không? Khó thở khi nghỉ ngơi hay chỉ khi gắng sức?",
-    "Có đau ngực không? Đau tăng khi hít sâu hoặc ho không?",
-    "Triệu chứng bắt đầu từ khi nào? Có nặng dần không?",
-    "Bạn có hút thuốc không? Có bệnh phổi từ trước không?",
-    "Bạn có đang dùng thuốc ức chế miễn dịch hoặc có bệnh nền gì không?",
-    "Xung quanh bạn có ai bị bệnh tương tự không?"
-  ],
-
-  "differential_diagnoses": [
-    "Viêm phế quản cấp",
-    "Hen suyễn cấp",
-    "Lao phổi",
-    "COVID-19",
-    "Suy tim sung huyết",
-    "Thuyên tắc phổi",
-    "Ung thư phổi"
-  ],
-
-  "urgency": "moderate_to_high",
-
-  "when_to_seek_emergency": [
-    "Khó thở nặng, không thể nói trọn câu",
-    "Tím tái môi hoặc đầu ngón tay",
-    "Sốt cao >39°C kéo dài không hạ dù đã dùng thuốc",
-    "Ho ra máu nhiều",
-    "Lú lẫn, mất phương hướng (đặc biệt ở người già)",
-    "Trẻ nhỏ thở rít, co kéo lồng ngực"
-  ],
-
-  "user_language_variants": [
-    "tôi bị ho mấy ngày rồi, sốt nữa",
-    "ho có đờm xanh, khó thở quá",
-    "bị viêm phổi rồi phải không bác sĩ",
-    "con tôi ho sốt 3 ngày không khỏi, thở mệt",
-    "ho khạc đờm vàng, đau ngực khi hít sâu",
-    "mấy hôm nay ho nhiều, sốt cao, ớn lạnh",
-    "ông nội tôi ho sốt mấy ngày, giờ thở nhanh lắm",
-    "ho đờm có máu, đau lưng, sốt nhẹ",
-    "bé nhà em ho sốt, thở khò khè",
-    "ho mấy tuần rồi ko khỏi, thở hụt hơi"
-  ]
 }

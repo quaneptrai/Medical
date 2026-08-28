@@ -1,85 +1,85 @@
 {
-  "disease_id": "CARD_004",
-  "name_vi": "Rối loạn nhịp tim",
-  "name_en": "Cardiac Arrhythmia",
-  "category": "cardiology",
-  "aliases": [
-    "Loạn nhịp tim",
-    "Tim đập nhanh",
-    "Hồi hộp đánh trống ngực"
-  ],
-  "description": "Tình trạng bất thường trong hệ thống dẫn truyền điện tim khiến tim đập quá nhanh, quá chậm hoặc không đều.",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Cảm giác hồi hộp, đánh trống ngực liên hồi",
-        "name_en": "Palpitations",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Cảm giác tim bỏ nhịp hoặc đập lỗi nhịp",
-        "name_en": "Skipped heartbeats",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Chóng mặt, lảo đảo",
-        "name_en": "Lightheadedness",
-        "frequency": "common"
-      }
+    "disease_id": "CARD_003",
+    "name_vi": "Rối loạn nhịp tim",
+    "name_en": "Cardiac Arrhythmia",
+    "category": "cardiology",
+    "aliases": [
+        "Loạn nhịp tim",
+        "Tim đập nhanh",
+        "Hồi hộp đánh trống ngực"
     ],
-    "occasional": [
-      {
-        "name_vi": "Cảm giác hụt hơi, tức nhẹ ở ngực",
-        "name_en": "Shortness of breath, chest discomfort",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Mệt mỏi suy nhược",
-        "name_en": "Fatigue",
-        "frequency": "occasional"
-      }
+    "description": "Tình trạng bất thường trong hệ thống dẫn truyền điện tim khiến tim đập quá nhanh, quá chậm hoặc không đều.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Cảm giác hồi hộp, đánh trống ngực liên hồi",
+                "name_en": "Palpitations",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Cảm giác tim bỏ nhịp hoặc đập lỗi nhịp",
+                "name_en": "Skipped heartbeats",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Chóng mặt, lảo đảo",
+                "name_en": "Lightheadedness",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Cảm giác hụt hơi, tức nhẹ ở ngực",
+                "name_en": "Shortness of breath, chest discomfort",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Mệt mỏi suy nhược",
+                "name_en": "Fatigue",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Choáng váng gần ngất",
+                "name_en": "Presyncope",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Ngất xỉu hoặc mất ý thức đột ngột",
+        "Tim đập dồn dập kèm đau thắt ngực dữ dội, khó thở trầm trọng",
+        "Mạch đập rất nhanh trên 150 lần/phút hoặc rất chậm dưới 45 lần/phút kèm tụt huyết áp"
     ],
-    "rare": [
-      {
-        "name_vi": "Choáng váng gần ngất",
-        "name_en": "Presyncope",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Bệnh mạch vành",
+        "Cường giáp",
+        "Dùng nhiều chất kích thích (cà phê, trà, rượu bia, thuốc lá)",
+        "Rối loạn điện giải",
+        "Căng thẳng"
+    ],
+    "questions_to_ask": [
+        "Cơn hồi hộp tim đập nhanh xuất hiện từng cơn hay liên tục, kéo dài bao lâu?",
+        "Bạn cảm thấy tim đập nhanh dồn dập hay tim đập loạn nhịp, bỏ nhịp?",
+        "Khi cơn xuất hiện bạn có bị hoa mắt, xây xẩm mặt mày hoặc ngất xỉu không?"
+    ],
+    "differential_diagnoses": [
+        "Cơn hoảng loạn (Panic attack)",
+        "Cường giáp Basedow",
+        "Thiếu máu",
+        "Rối loạn thần kinh thực vật"
+    ],
+    "urgency": "moderate_to_high",
+    "when_to_seek_emergency": [
+        "Ngất xỉu, mất ý thức",
+        "Tim đập nhanh dồn dập kèm đau ngực thắt nghẹt, vã mồ hôi, tụt huyết áp"
+    ],
+    "user_language_variants": [
+        "tim đập thình thịch như muốn nhảy ra ngoài lồng ngực",
+        "tự nhiên tim đập loạn xạ hẫng một nhịp",
+        "hồi hộp đánh trống ngực liên tục váng đầu",
+        "ngực hẫng một cái xong tim đập nhanh vù vù",
+        "ngồi yên mà tim đập 120 nhịp thở không kịp"
     ]
-  },
-  "red_flags": [
-    "Ngất xỉu hoặc mất ý thức đột ngột",
-    "Tim đập dồn dập kèm đau thắt ngực dữ dội, khó thở trầm trọng",
-    "Mạch đập rất nhanh trên 150 lần/phút hoặc rất chậm dưới 45 lần/phút kèm tụt huyết áp"
-  ],
-  "risk_factors": [
-    "Bệnh mạch vành",
-    "Cường giáp",
-    "Dùng nhiều chất kích thích (cà phê, trà, rượu bia, thuốc lá)",
-    "Rối loạn điện giải",
-    "Căng thẳng"
-  ],
-  "questions_to_ask": [
-    "Cơn hồi hộp tim đập nhanh xuất hiện từng cơn hay liên tục, kéo dài bao lâu?",
-    "Bạn cảm thấy tim đập nhanh dồn dập hay tim đập loạn nhịp, bỏ nhịp?",
-    "Khi cơn xuất hiện bạn có bị hoa mắt, xây xẩm mặt mày hoặc ngất xỉu không?"
-  ],
-  "differential_diagnoses": [
-    "Cơn hoảng loạn (Panic attack)",
-    "Cường giáp Basedow",
-    "Thiếu máu",
-    "Rối loạn thần kinh thực vật"
-  ],
-  "urgency": "moderate_to_high",
-  "when_to_seek_emergency": [
-    "Ngất xỉu, mất ý thức",
-    "Tim đập nhanh dồn dập kèm đau ngực thắt nghẹt, vã mồ hôi, tụt huyết áp"
-  ],
-  "user_language_variants": [
-    "tim đập thình thịch như muốn nhảy ra ngoài lồng ngực",
-    "tự nhiên tim đập loạn xạ hẫng một nhịp",
-    "hồi hộp đánh trống ngực liên tục váng đầu",
-    "ngực hẫng một cái xong tim đập nhanh vù vù",
-    "ngồi yên mà tim đập 120 nhịp thở không kịp"
-  ]
 }

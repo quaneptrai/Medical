@@ -1,88 +1,88 @@
 {
-  "disease_id": "CARD_002",
-  "name_vi": "Tăng huyết áp",
-  "name_en": "Hypertension",
-  "category": "cardiology",
-  "aliases": [
-    "Cao huyết áp",
-    "Tăng áp huyết",
-    "Huyết áp cao"
-  ],
-  "description": "Tình trạng áp lực máu tác động lên thành động mạch tăng cao mạn tính, thường diễn tiến âm thầm nhưng gây biến chứng nguy hiểm như đột quỵ và nhồi máu cơ tim.",
-  "symptoms": {
-    "common": [
-      {
-        "name_vi": "Đau đầu vùng sau gáy",
-        "name_en": "Occipital headache",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Chóng mặt, hoa mắt",
-        "name_en": "Dizziness, lightheadedness",
-        "frequency": "common"
-      },
-      {
-        "name_vi": "Đỏ bừng mặt, hồi hộp",
-        "name_en": "Facial flushing, palpitations",
-        "frequency": "common"
-      }
+    "disease_id": "CARD_005",
+    "name_vi": "Tăng huyết áp",
+    "name_en": "Hypertension",
+    "category": "cardiology",
+    "aliases": [
+        "Cao huyết áp",
+        "Tăng áp huyết",
+        "Huyết áp cao"
     ],
-    "occasional": [
-      {
-        "name_vi": "Ù tai",
-        "name_en": "Tinnitus",
-        "frequency": "occasional"
-      },
-      {
-        "name_vi": "Mệt mỏi, mất ngủ",
-        "name_en": "Fatigue, insomnia",
-        "frequency": "occasional"
-      }
+    "description": "Tình trạng áp lực máu tác động lên thành động mạch tăng cao mạn tính, thường diễn tiến âm thầm nhưng gây biến chứng nguy hiểm như đột quỵ và nhồi máu cơ tim.",
+    "symptoms": {
+        "common": [
+            {
+                "name_vi": "Đau đầu vùng sau gáy",
+                "name_en": "Occipital headache",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Chóng mặt, hoa mắt",
+                "name_en": "Dizziness, lightheadedness",
+                "frequency": "common"
+            },
+            {
+                "name_vi": "Đỏ bừng mặt, hồi hộp",
+                "name_en": "Facial flushing, palpitations",
+                "frequency": "common"
+            }
+        ],
+        "occasional": [
+            {
+                "name_vi": "Ù tai",
+                "name_en": "Tinnitus",
+                "frequency": "occasional"
+            },
+            {
+                "name_vi": "Mệt mỏi, mất ngủ",
+                "name_en": "Fatigue, insomnia",
+                "frequency": "occasional"
+            }
+        ],
+        "rare": [
+            {
+                "name_vi": "Chảy máu cam",
+                "name_en": "Epistaxis",
+                "frequency": "rare"
+            }
+        ]
+    },
+    "red_flags": [
+        "Huyết áp đo được trên 180/120 mmHg (cơn tăng huyết áp kịch phát)",
+        "Đau đầu dữ dội kèm buồn nôn, nôn vọt",
+        "Nhìn mờ đột ngột, lú lẫn, yếu liệt nửa người, nói ngọng (dấu hiệu đột quỵ)",
+        "Đau tức ngực dữ dội, khó thở cấp"
     ],
-    "rare": [
-      {
-        "name_vi": "Chảy máu cam",
-        "name_en": "Epistaxis",
-        "frequency": "rare"
-      }
+    "risk_factors": [
+        "Cao tuổi",
+        "Ăn mặn",
+        "Béo phì",
+        "Hút thuốc lá",
+        "Uống nhiều rượu bia",
+        "Ít vận động",
+        "Căng thẳng kéo dài",
+        "Tiền sử gia đình"
+    ],
+    "questions_to_ask": [
+        "Gần đây bạn có đo huyết áp không, chỉ số huyết áp cao nhất là bao nhiêu?",
+        "Cơn đau đầu thường xuất hiện vào lúc nào (buổi sáng, sau gáy hay đỉnh đầu)?",
+        "Bạn có cảm thấy tức ngực, khó thở hoặc nhìn mờ, tê bì chân tay không?"
+    ],
+    "differential_diagnoses": [
+        "Đau đầu căng thẳng",
+        "Rối loạn tiền đình",
+        "U tủy thượng thận"
+    ],
+    "urgency": "moderate",
+    "when_to_seek_emergency": [
+        "Huyết áp >= 180/120 mmHg",
+        "Kèm đau thắt ngực dữ dội, khó thở hoặc dấu hiệu đột quỵ (yếu nửa người, méo miệng)"
+    ],
+    "user_language_variants": [
+        "huyết áp tôi lúc nào cũng cao vút",
+        "đau đầu sau gáy buốt lên đỉnh đầu",
+        "nóng bừng mặt chóng mặt đo thấy 150",
+        "hay bị hoa mắt chóng mặt đo huyết áp lên cao",
+        "mặt đỏ phừng phừng đầu váng vất"
     ]
-  },
-  "red_flags": [
-    "Huyết áp đo được trên 180/120 mmHg (cơn tăng huyết áp kịch phát)",
-    "Đau đầu dữ dội kèm buồn nôn, nôn vọt",
-    "Nhìn mờ đột ngột, lú lẫn, yếu liệt nửa người, nói ngọng (dấu hiệu đột quỵ)",
-    "Đau tức ngực dữ dội, khó thở cấp"
-  ],
-  "risk_factors": [
-    "Cao tuổi",
-    "Ăn mặn",
-    "Béo phì",
-    "Hút thuốc lá",
-    "Uống nhiều rượu bia",
-    "Ít vận động",
-    "Căng thẳng kéo dài",
-    "Tiền sử gia đình"
-  ],
-  "questions_to_ask": [
-    "Gần đây bạn có đo huyết áp không, chỉ số huyết áp cao nhất là bao nhiêu?",
-    "Cơn đau đầu thường xuất hiện vào lúc nào (buổi sáng, sau gáy hay đỉnh đầu)?",
-    "Bạn có cảm thấy tức ngực, khó thở hoặc nhìn mờ, tê bì chân tay không?"
-  ],
-  "differential_diagnoses": [
-    "Đau đầu căng thẳng",
-    "Rối loạn tiền đình",
-    "U tủy thượng thận"
-  ],
-  "urgency": "moderate",
-  "when_to_seek_emergency": [
-    "Huyết áp >= 180/120 mmHg",
-    "Kèm đau thắt ngực dữ dội, khó thở hoặc dấu hiệu đột quỵ (yếu nửa người, méo miệng)"
-  ],
-  "user_language_variants": [
-    "huyết áp tôi lúc nào cũng cao vút",
-    "đau đầu sau gáy buốt lên đỉnh đầu",
-    "nóng bừng mặt chóng mặt đo thấy 150",
-    "hay bị hoa mắt chóng mặt đo huyết áp lên cao",
-    "mặt đỏ phừng phừng đầu váng vất"
-  ]
 }

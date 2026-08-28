@@ -116,6 +116,15 @@ def load_all_diseases(diseases_dir: Path) -> list[DiseaseSchema]:
         except Exception as e:
             errors.append(f"❌ {json_file.name}: {e}")
 
+    # Cập nhật: Kiểm tra trùng lặp bệnh ngoài khối try-except
+    id_counts = {}
+    for d in diseases:
+        id_counts[d.disease_id] = id_counts.get(d.disease_id, 0) + 1
+        
+    duplicates = [d_id for d_id, count in id_counts.items() if count > 1]
+    if duplicates:
+        raise ValueError(f"Duplicate disease_id(s) found: {', '.join(duplicates)}")
+
     if errors:
         print(f"\n[!] {len(errors)} file(s) failed validation:")
         for err in errors:
