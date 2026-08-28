@@ -1,68 +1,74 @@
 #!/bin/bash
-# run_all.sh — Chạy tuần tự toàn bộ pipeline trên GPU box.
-# Cách dùng: bash run_all.sh
-#
-# Yêu cầu:
-#   - Đã git pull bundle mới nhất
-#   - Ollama đang chạy (systemctl start ollama)
-#   - pip install sentence-transformers datasets rank_bm25 tqdm requests pandas
-#
-# Dừng ngay nếu bất kỳ bước nào lỗi.
-set -euo pipefail
+# run_all.sh — Pipeline tự động chạy tuần tự trên GPU box (có chốt an toàn)
+# Cách dùng: bash scripts/run_all.sh
 
 cd /workspace/BotMedical
 
+# Khởi động Ollama nếu chưa chạy ngầm
+if ! curl -s http://localhost:11434/api/tags > /dev/null 2>&1; then
+    echo "Đang khởi động Ollama service..."
+    ollama serve > /tmp/ollama.log 2>&1 &
+    sleep 3
+fi
+
 echo "============================================================"
-echo "BƯỚC 0: Kéo Qwen2.5:32b cho labeling (nếu chưa có)"
+echo "BƯỚC 1: Kéo Qwen2.5-7B (~4.7GB) & Sinh generated_benchmark"
+echo "        (Tái tạo ~550 ca khẩu ngữ bệnh nhân đa dạng)"
 echo "============================================================"
-ollama pull qwen2.5:32b
+ollama pull qwen2.5:7b-instruct
+python scripts/gpu_generate_benchmark.py --model qwen2.5:7b-instruct --per-disease 20
 
 echo ""
 echo "============================================================"
-echo "BƯỚC 1: Train BGE-M3 (Stage 2 only, ~68 giây)"
-echo "         588 triplets (294 có dấu + 294 không dấu)"
+echo "BƯỚC 2: Train BGE-M3 Task-only (~68s)"
+echo "        (588 unidecoded + ~550 generated anchors = ~1,000 triplets)"
 echo "============================================================"
 python scripts/train_bge_m3.py --stages 2 --batch-size 4 --seq-len 256
 
 echo ""
 echo "============================================================"
-echo "BƯỚC 2: Đo lường BGE-M3 gốc vs fine-tuned"
-echo "         Mốc phải vượt: R@1 78.9% | Safety@1 80% | margin 0.1090"
+echo "BƯỚC 3: Đo lường & Chẩn đoán trực tiếp trên GPU"
 echo "============================================================"
 python scripts/compare_embeddings.py --models bge-m3 models/bge-m3-medical
-
-echo ""
-echo "============================================================"
-echo "BƯỚC 3: Chẩn đoán ca cấp cứu bị trượt (nếu còn)"
-echo "============================================================"
 python scripts/diagnose_failure.py || true
 
 echo ""
 echo "============================================================"
-echo "BƯỚC 4: Sát hạch Qwen2.5:32b (giám khảo gán nhãn)"
-echo "         Nếu FPR > 20% → DỪNG, không chạy bước 5"
+echo "🛑 CHỐT AN TOÀN — HÃY KÉO MODEL VỀ LOCAL NGAY BÂY GIỜ!"
 echo "============================================================"
-python scripts/calibrate_llm_judge.py
-
+echo "Mở Terminal trên máy Windows của bạn (thay <PORT> và <HOST>):"
 echo ""
-echo "============================================================"
-echo "BƯỚC 5: Gán nhãn 441 ca (Consensus, 2 lượt đảo danh sách)"
-echo "         ⚠️ Chỉ chạy nếu bước 4 đạt chuẩn!"
-echo "============================================================"
-read -p "Bước 4 đạt chuẩn? Tiếp tục gán nhãn? (y/N): " confirm
-if [[ "$confirm" =~ ^[Yy]$ ]]; then
-    python scripts/auto_label_ollama.py
-else
-    echo "⏭️  Bỏ qua gán nhãn — chờ đánh giá thủ công."
+echo "  scp -P <PORT> -r root@<HOST>:/workspace/BotMedical/models D:/BotMedical/"
+echo "  scp -P <PORT> root@<HOST>:/workspace/BotMedical/data/test_cases/generated_benchmark.json D:/BotMedical/data/test_cases/"
+echo ""
+echo "------------------------------------------------------------"
+read -p ">> Bạn đã kéo model về máy an toàn chưa? (y/N để tiếp tục): " model_saved
+if [[ ! "$model_saved" =~ ^[Yy]$ ]]; then
+    echo "Dừng script để bạn kịp kéo dữ liệu. Sau khi kéo xong chạy tiếp Bước 4 & 5 thủ công."
+    exit 0
 fi
 
 echo ""
 echo "============================================================"
-echo "HOÀN TẤT. Kéo kết quả về máy NGAY:"
-echo ""
-echo "  scp -P 1740 -r root@n2.ckey.vn:/workspace/BotMedical/models D:/BotMedical/"
-echo "  scp -P 1740 root@n2.ckey.vn:/workspace/BotMedical/data/test_cases/llm_annotated_benchmark.json D:/BotMedical/data/test_cases/"
-echo "  scp -P 1740 root@n2.ckey.vn:/workspace/BotMedical/data/test_cases/spot_check_sample.json D:/BotMedical/data/test_cases/"
-echo ""
-echo "!! GPU box là máy thuê one-session. Tắt là mất hết !!"
+echo "BƯỚC 4: Kéo Qwen2.5:32b & Sát hạch Giám khảo (Calibrate)"
 echo "============================================================"
+ollama pull qwen2.5:32b
+python scripts/calibrate_llm_judge.py
+
+echo ""
+echo "============================================================"
+echo "BƯỚC 5: Gán nhãn Benchmark thực tế (Consensus 2 lượt)"
+echo "============================================================"
+read -p ">> Kết quả sát hạch đạt chuẩn (FPR <= 20%)? Cho phép gán nhãn? (y/N): " allow_label
+if [[ "$allow_label" =~ ^[Yy]$ ]]; then
+    python scripts/auto_label_ollama.py
+    echo ""
+    echo "============================================================"
+    echo "HOÀN TẤT GÁN NHÃN. Kéo các file nhãn về local:"
+    echo ""
+    echo "  scp -P <PORT> root@<HOST>:/workspace/BotMedical/data/test_cases/llm_annotated_benchmark.json D:/BotMedical/data/test_cases/"
+    echo "  scp -P <PORT> root@<HOST>:/workspace/BotMedical/data/test_cases/spot_check_sample.json D:/BotMedical/data/test_cases/"
+    echo "============================================================"
+else
+    echo "⏭️  Bỏ qua gán nhãn tự động theo chỉ định."
+fi
