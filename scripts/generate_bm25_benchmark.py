@@ -1,14 +1,21 @@
 import json
+import io
 import random
 import os
 import re
+import sys
 from pathlib import Path
 from datasets import load_dataset
 import pandas as pd
 from rank_bm25 import BM25Okapi
 
-# Sửa lỗi Import: Load trực tiếp từ schema
-from src.knowledge.schema import load_all_diseases
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+
+# Running as `python scripts/...` puts scripts/ on sys.path, not the project
+# root, so src must be added explicitly — same convention as the other scripts.
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "src"))
+from knowledge.schema import load_all_diseases
 
 def tokenize_vi(text):
     """Tokenize tiếng Việt cơ bản: xóa dấu câu, chuyển chữ thường, cắt theo khoảng trắng"""
@@ -39,7 +46,11 @@ def generate_stratified_bm25_benchmark(target_per_disease=15):
         ])
         
         disease_docs.append(tokenize_vi(doc_text))
-        disease_map[d.disease_id] = d.name_vi
+        # Keyed by name_vi, not disease_id: the knowledge base has only 22
+        # distinct disease_id values for 30 diseases (GENE_001 alone is shared
+        # by four), so keying on it silently merges buckets and emits the same
+        # query several times under contradictory labels.
+        disease_map[d.name_vi] = d.name_vi
 
     print("\n2. Khởi tạo BM25 (Lexical Search) - Tránh Echo Chamber của BGE-M3...")
     # Khởi tạo BM25 với tập corpus là các Disease
@@ -51,7 +62,7 @@ def generate_stratified_bm25_benchmark(target_per_disease=15):
 
     print("   Đang chấm điểm BM25 cho toàn bộ câu hỏi...")
     # Cấu trúc lưu trữ: {disease_id: [(query, score), ...]}
-    disease_scores = {d.disease_id: [] for d in diseases}
+    disease_scores = {d.name_vi: [] for d in diseases}
     
     for query in queries:
         tokenized_q = tokenize_vi(query)
@@ -65,15 +76,14 @@ def generate_stratified_bm25_benchmark(target_per_disease=15):
         best_score = scores[best_match_idx]
         
         if best_score > 0: # Có ít nhất 1 từ khóa trùng khớp
-            matched_disease_id = diseases[best_match_idx].disease_id
-            disease_scores[matched_disease_id].append((query, best_score))
+            matched_name = diseases[best_match_idx].name_vi
+            disease_scores[matched_name].append((query, best_score))
 
     print("\n4. Trích xuất mẫu phân tầng (Cao - Trung bình - Thấp) cho TỪNG BỆNH...")
     final_candidates = []
     
     for d in diseases:
-        d_id = d.disease_id
-        matches = sorted(disease_scores[d_id], key=lambda x: x[1], reverse=True)
+        matches = sorted(disease_scores[d.name_vi], key=lambda x: x[1], reverse=True)
         
         if not matches:
             continue
