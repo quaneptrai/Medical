@@ -94,6 +94,7 @@ def build_task_triplets(dst: Path) -> tuple[int, dict]:
     """Patient phrasing -> right disease doc vs. a confusable disease doc."""
     from knowledge.schema import load_all_diseases
     from retrieval.search_engine import HybridDiseaseSearcher
+    from unidecode import unidecode
 
     diseases = load_all_diseases(ROOT / "data" / "diseases")
     by_name = {d.name_vi: d for d in diseases}
@@ -128,14 +129,25 @@ def build_task_triplets(dst: Path) -> tuple[int, dict]:
             continue
 
         anchors = list(d.user_language_variants)
-        for i, anchor in enumerate(anchors):
+
+        # Sinh thêm bản không dấu cho mỗi anchor bằng unidecode.
+        # Dạy model tính bất biến dấu như năng lực tổng quát,
+        # thay vì chỉ vá một ca test cụ thể.
+        diacriticless = []
+        for a in anchors:
+            stripped = unidecode(a)
+            if stripped != a:          # chỉ thêm nếu thực sự khác
+                diacriticless.append(stripped)
+        all_anchors = anchors + diacriticless
+
+        for i, anchor in enumerate(all_anchors):
             neg_name = confusable[i % len(confusable)]
             rows.append({
                 "anchor": anchor,
                 "positive": docs[d.name_vi],
                 "negative": docs[neg_name],
             })
-        per_disease[d.name_vi] = len(anchors)
+        per_disease[d.name_vi] = len(all_anchors)
 
     # Fold in generated colloquial queries when that file is present.
     gen = ROOT / "data" / "test_cases" / "generated_benchmark.json"
