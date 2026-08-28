@@ -1,0 +1,87 @@
+{
+  "disease_id": "CARD_006",
+  "name_vi": "Viêm cơ tim",
+  "name_en": "Myocarditis",
+  "category": "cardiology",
+  "aliases": [
+    "Viêm cơ tim cấp",
+    "Nhiễm trùng cơ tim"
+  ],
+  "description": "Tình trạng viêm nhiễm và hoại tử tế bào cơ tim, thường do nhiễm virus (sau cảm cúm, sốt siêu vi) hoặc tự miễn, có thể gây suy tim cấp và tử vong nhanh.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau tức ngực âm ỉ hoặc nhói buốt sau đợt sốt cảm cúm",
+        "name_en": "Chest pain post-viral infection",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Khó thở khi nằm hoặc khi hoạt động nhẹ",
+        "name_en": "Dyspnea",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Mệt mỏi kiệt sức bất thường sau sốt",
+        "name_en": "Profound fatigue post-febrile",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Hồi hộp, tim đập nhanh không tương xứng với thân nhiệt",
+        "name_en": "Inappropriate tachycardia",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Sốt nhẹ kéo dài, đau mỏi toàn thân",
+        "name_en": "Low-grade fever, myalgia",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Phù hai chân nhẹ",
+        "name_en": "Mild peripheral edema",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Ngất xỉu do loạn nhịp thất nguy hiểm",
+        "name_en": "Arrhythmic syncope",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau ngực dữ dội kèm khó thở tiến triển nhanh chóng",
+    "Huyết áp tụt kẹp, mạch nhanh nhỏ, đầu chi lạnh ngắt (sốc tim)",
+    "Ngất lịm, rối loạn ý thức, trụy mạch sau đợt sốt siêu vi"
+  ],
+  "risk_factors": [
+    "Vừa trải qua đợt nhiễm virus (Coxsackie, cúm, COVID-19, Adenovirus)",
+    "Nhiễm khuẩn",
+    "Bệnh tự miễn"
+  ],
+  "questions_to_ask": [
+    "Cách đây 1-2 tuần bạn có bị sốt siêu vi, cảm cúm hoặc viêm đường hô hấp không?",
+    "Cơn đau tức ngực và khó thở xuất hiện từ khi nào, có tăng lên khi hít sâu hoặc nằm ngửa không?",
+    "Bạn có thấy tim đập dồn dập, đập nhanh bất thường dù đang nằm nghỉ không?"
+  ],
+  "differential_diagnoses": [
+    "Nhồi máu cơ tim cấp",
+    "Viêm màng ngoài tim",
+    "Tràn dịch màng phổi",
+    "Cơn đau thắt ngực không ổn định"
+  ],
+  "urgency": "emergency",
+  "when_to_seek_emergency": [
+    "Khó thở dữ dội, đau tức ngực sau đợt sốt cảm cúm",
+    "Ngất xỉu, tụt huyết áp, mạch nhanh nhỏ, da tím tái"
+  ],
+  "user_language_variants": [
+    "vừa hết sốt cảm cúm xong giờ tức ngực khó thở quá",
+    "hết cảm mà tim cứ đập nhanh mệt lả không thở nổi",
+    "đau ngực mệt rũ rượi sau đợt sốt siêu vi",
+    "ngực đau nhói khó thở người tái nhợt sau khi bị cúm",
+    "tim đập loạn xạ mệt ngất ngây sau trận ốm sốt"
+  ]
+}

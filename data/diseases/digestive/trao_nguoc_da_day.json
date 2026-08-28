@@ -1,0 +1,111 @@
+{
+  "disease_id": "DIGE_001",
+  "name_vi": "Trào ngược dạ dày thực quản",
+  "name_en": "Gastroesophageal Reflux Disease (GERD)",
+  "category": "digestive",
+  "aliases": [
+    "Trào ngược dạ dày",
+    "Bệnh GERD",
+    "Trào ngược dịch vị",
+    "Viêm thực quản trào ngược"
+  ],
+  "description": "Trào ngược dạ dày thực quản (GERD) là tình trạng dịch dạ dày chứa axit, pepsin hoặc mật trào ngược thường xuyên lên thực quản, gây ra triệu chứng phiền đoái hoặc các biến chứng tổn thương niêm mạc thực quản.",
+  "symptoms": {
+    "cardinal_symptoms": [
+      {
+        "name_vi": "Ợ nóng (cảm giác nóng rát sau xương ức)",
+        "name_en": "Heartburn",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ợ chua, trào ngược thức ăn hoặc dịch vị",
+        "name_en": "Acid regurgitation",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau hoặc tức vùng thượng vị / sau xương ức",
+        "name_en": "Epigastric or retrosternal pain",
+        "frequency": "common"
+      }
+    ],
+    "other_symptoms": [
+      {
+        "name_vi": "Cảm giác nghẹn, vướng ở cổ họng",
+        "name_en": "Globus sensation",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Khó nuốt, nuốt đau",
+        "name_en": "Dysphagia",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Ho mãn tính, khàn tiếng vào buổi sáng",
+        "name_en": "Chronic cough and hoarseness",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Buồn nôn hoặc tiết nhiều nước bọt",
+        "name_en": "Nausea and hypersalivation",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đắng miệng, đắng họng",
+        "name_en": "Bitter taste in mouth",
+        "frequency": "common"
+      }
+    ]
+  },
+  "red_flags": [
+    "Khó nuốt tăng dần hoặc đau khi nuốt dữ dội",
+    "Nôn ra máu hoặc nôn ra dịch màu bã cà phê",
+    "Đi ngoài phân đen, hôi tanh như nhựa đường",
+    "Sụt cân nhanh chóng không rõ lý do",
+    "Đau ngực dữ dội lan ra vai, cánh tay trái hoặc lưng (cần loại trừ hội chứng mạch vành cấp)"
+  ],
+  "risk_factors": [
+    "Béo phì, thừa cân",
+    "Hút thuốc lá, uống nhiều rượu bia",
+    "Thói quen ăn quá no, ăn muộn sát giờ đi ngủ",
+    "Ăn nhiều đồ chiên xào, chua cay, cà phê, socola",
+    "Phụ nữ đang mang thai",
+    "Thoát vị cơ hoành (Hiatal hernia)",
+    "Sử dụng lâu dài một số thuốc (NSAIDs, thuốc hạ huyết áp nhóm chẹn kênh canxi...)"
+  ],
+  "questions_to_ask": [
+    "Bạn cảm thấy nóng rát sau xương ức hay ợ chua xuất hiện chủ yếu sau khi ăn hay khi nằm xuống?",
+    "Các triệu chứng này xảy ra bao nhiêu lần một tuần và đã kéo dài bao lâu?",
+    "Bạn có cảm thấy khó nuốt, thức ăn dính ở cổ hay nuốt thấy đau không?",
+    "Bạn có bị ho kéo dài, khàn tiếng hoặc đắng miệng khi ngủ dậy không?",
+    "Cơn đau ngực của bạn có bao giờ lan ra tay, vai hoặc kèm theo khó thở, vã mồ hôi không?"
+  ],
+  "differential_diagnoses": [
+    "Nhồi máu cơ tim / Cơn đau thắt ngực (Ischemic heart disease)",
+    "Viêm loét dạ dày - tá tràng (Peptic ulcer disease)",
+    "Co thắt tâm vị (Achalasia)",
+    "Viêm thực quản do nấm hoặc vi khuẩn",
+    "Hen suyễn (Asthma)"
+  ],
+  "urgency": "moderate",
+  "when_to_seek_emergency": [
+    "Đau ngực đè nén dữ dội lan ra tay trái, hàm hoặc lưng kèm vã mồ hôi và khó thở",
+    "Nôn ra máu tươi hoặc dịch màu bã cà phê",
+    "Đi ngoài phân đen đặc, hôi hám",
+    "Nghẹn hoàn toàn không thể nuốt cả nước uống"
+  ],
+  "user_language_variants": [
+    "bị ợ chua ợ nóng rát cả cổ",
+    "đau rát ức ngực cứ nằm xuống là bị",
+    "dạo này hay bị trào ngược dịch chua lên họng",
+    "cổ họng lúc nào cũng vướng vướng như có đờm",
+    "ăn xong là thấy trào ngược buồn nôn",
+    "bị ợ hơi liên tục đau tức vùng thượng vị",
+    "sáng ngủ dậy hay bị khàn tiếng đắng miệng do trào ngược",
+    "đau xốn xang dạ dày trào ngược lên ngực",
+    "bị nghẹn ở cổ nuốt cứ vướng vướng cực kỳ khó chịu",
+    "mồm đắng ngắt trào axit dạ dày",
+    "ợ chua rát cổ họng chịu k nổi",
+    "bị đau rát ngực do dạ dày hành",
+    "bệnh gerd trào ngược ho hoài ko hết"
+  ]
+}

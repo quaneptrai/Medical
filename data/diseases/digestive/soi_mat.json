@@ -1,0 +1,118 @@
+{
+  "disease_id": "DIGE_005",
+  "name_vi": "Sỏi mật",
+  "name_en": "Gallstones",
+  "category": "digestive",
+  "aliases": [
+    "Sỏi túi mật",
+    "Sỏi đường mật",
+    "Sỏi ống mật chủ",
+    "Bệnh sỏi mật"
+  ],
+  "description": "Sỏi mật là sự lắng đọng cứng của các tinh thể lỏng trong túi mật hoặc đường mật, chủ yếu từ mỡ (cholesterol) hoặc sắc tố mật (bilirubin). Bệnh có thể không gây triệu chứng hoặc dẫn đến các cơn đau quặn mật, viêm túi mật cấp, viêm đường mật, hoặc viêm tụy cấp khi viên sỏi gây tắc nghẽn dòng chảy của mật.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cơn đau quặn mật (đau nhói hoặc tức nặng vùng hạ sườn phải hoặc thượng vị)",
+        "name_en": "Biliary colic (Right upper quadrant or epigastric pain)",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau lan rộng ra sau lưng hoặc vai bên phải",
+        "name_en": "Pain radiating to the back or right shoulder",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Buồn nôn và nôn mửa",
+        "name_en": "Nausea and vomiting",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Đầy hơi, chướng bụng, khó tiêu đặc biệt sau khi ăn thức ăn nhiều dầu mỡ",
+        "name_en": "Indigestion and bloating after fatty meals",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Vàng mắt và vàng da",
+        "name_en": "Jaundice",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Nước tiểu sẫm màu như màu nước trà đậm",
+        "name_en": "Dark urine",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Phân nhạt màu hoặc màu đất sét",
+        "name_en": "Clay-colored stools",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Sốt cao kèm rét run (tam chứng Charcot trong viêm đường mật)",
+        "name_en": "High fever with chills",
+        "frequency": "rare"
+      },
+      {
+        "name_vi": "Tụt huyết áp và rối loạn ý thức (ngũ chứng Reynolds)",
+        "name_en": "Hypotension and altered mental status",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau bụng dữ dội liên tục kéo dài nhiều giờ không giảm",
+    "Sốt cao đột ngột kèm theo run rẩy, rét run",
+    "Vàng mắt, vàng da tiến triển nhanh",
+    "Nôn mửa liên tục, không thể ăn uống hay giữ nước",
+    "Lơ mơ, tụt huyết áp, vã mồ hôi lạnh"
+  ],
+  "risk_factors": [
+    "Nữ giới (đặc biệt là phụ nữ mang thai hoặc dùng thuốc nội tiết)",
+    "Tuổi từ 40 trở lên",
+    " Thừa cân, béo phì",
+    "Giảm cân quá nhanh trong thời gian ngắn",
+    "Chế độ ăn nhiều chất béo, nhiều cholesterol, ít xơ",
+    "Tiền sử gia đình có người bị sỏi mật",
+    "Bệnh lý mạn tính như đái tháo đường, xơ gan, bệnh Crohn"
+  ],
+  "questions_to_ask": [
+    "Vị trí đau chính xác ở đâu (dưới sườn phải hay giữa ngực/trên rốn)?",
+    "Cơn đau thường xuất hiện vào lúc nào? Có liên quan đến việc mới ăn đồ dầu mỡ, chiên xào không?",
+    "Cơn đau kéo dài bao lâu (vài phút, 30 phút hay liên tục nhiều giờ)?",
+    "Bạn có nhận thấy da hoặc lòng trắng mắt bị vàng, nước tiểu sẫm màu hay phân bạc màu không?",
+    "Bạn có bị sốt rét run kèm theo cơn đau bụng không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm loét dạ dày - tá tràng",
+    "Trào ngược dạ dày thực quản (GERD)",
+    "Viêm tụy cấp",
+    "Viêm ruột thừa cấp",
+    "Sỏi thận / Cơn đau quặn thận bên phải",
+    "Nhồi máu cơ tim thất phải / Nhồi máu cơ tim thành dưới"
+  ],
+  "urgency": "moderate_to_high",
+  "when_to_seek_emergency": [
+    "Đau hạ sườn phải dữ dội kéo dài trên 2-3 tiếng không thuyên giảm",
+    "Xuất hiện sốt cao rét run kèm đau bụng dữ dội",
+    "Vàng da, vàng mắt rõ rệt kèm sốt và đau bụng",
+    "Có biểu hiện kiệt sức, lơ mơ, tụt huyết áp"
+  ],
+  "user_language_variants": [
+    "đau tức hạ sườn phải lan ra đằng sau lưng",
+    "ăn đồ béo nhiều mỡ xong là bụng đau quặn lên",
+    "đau nhói dưới sườn bên phải",
+    "đau bụng trên bên phải kinh khủng",
+    "bị đầy bụng khó tiêu hoài sau khi ăn dầu mỡ",
+    "đau quặn mật ăn xong đau chịu ko nổi",
+    "bị vàng mắt với vàng da nhẹ",
+    "đau hạ sườn phải kèm sốt rét run cả người",
+    "nước tiểu màu vàng sậm như nước trà đậm",
+    "đau quặn từng cơn ngay dưới bờ sườn bên phải",
+    "ăn đồ chiên xào xong bị đau nhói vùng bụng trên bên phải",
+    "bị sỏi túi mật đau quá phải làm sao"
+  ]
+}

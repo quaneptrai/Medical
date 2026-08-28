@@ -1,0 +1,84 @@
+{
+  "disease_id": "DERM_006",
+  "name_vi": "Zona thần kinh",
+  "name_en": "Herpes Zoster / Shingles",
+  "category": "dermatology",
+  "aliases": [
+    "Bệnh Zona",
+    "Giời leo",
+    "Thần kinh Zona"
+  ],
+  "description": "Bệnh nhiễm trùng cấp tính do sự tái hoạt động của virus Varicella-Zoster (virus thủy đậu) tiềm ẩn trong hạch thần kinh cảm giác, biểu hiện bằng chùm mụn nước mọc dọc theo một bên dây thần kinh kèm đau rát dữ dội.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau rát bỏng buốt dữ dội hoặc châm chích như kim châm tại một bên cơ thể",
+        "name_en": "Severe burning neuropathic pain localized unilaterally",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Chùm mụn nước căng trên nền da đỏ mọc dọc theo đường đi dây thần kinh (chỉ ở 1 bên cơ thể)",
+        "name_en": "Clustered vesicles on erythematous base along dermatome",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Tăng cảm giác đau, chỉ cần chạm nhẹ vào áo quần cũng đau nhói",
+        "name_en": "Allodynia and hyperesthesia",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Sốt nhẹ, mệt mỏi, đau đầu trước khi mụn nước phát ban",
+        "name_en": "Prodromal low-grade fever, malaise, headache",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Nổi hạch sưng đau ở vùng lân cận (hạch cổ, nách, bẹn)",
+        "name_en": "Regional lymphadenopathy",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Đau dây thần kinh sau Zona kéo dài nhiều tháng nhiều năm (PHN)",
+        "name_en": "Postherpetic neuralgia",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Mụn nước mọc ở vùng trán, quanh mắt và đỉnh chóp mũi (dấu hiệu Hutchinson - Zona mắt đe dọa mù lòa)",
+    "Mụn nước ở tai kèm liệt một bên mặt, chóng mặt, ù tai, mất thính lực (Hội chứng Ramsay Hunt)",
+    "Zona lan tỏa khắp toàn thân ở bệnh nhân suy giảm miễn dịch nặng"
+  ],
+  "risk_factors": [
+    "Tiền sử đã từng bị thủy đậu",
+    "Người lớn tuổi trên 50",
+    "Suy giảm miễn dịch (ung thư, HIV, dùng corticoid kéo dài)",
+    "Căng thẳng kiệt sức"
+  ],
+  "questions_to_ask": [
+    "Cơn đau rát và mụn nước có chỉ xuất hiện ở một bên cơ thể (một bên sườn, một bên mặt...) không vượt qua đường giữa người?",
+    "Trước khi nổi mụn nước bạn có cảm giác đau rát bỏng buốt ở vùng da đó trước vài ngày không?",
+    "Vết zona có mọc gần mắt, trán hoặc tai không?"
+  ],
+  "differential_diagnoses": [
+    "Herpes simplex (HSV)",
+    "Viêm da tiếp xúc do côn trùng (kiến ba khoang)",
+    "Đau thắt ngực (nếu Zona ở ngực trái)",
+    "Viêm ruột thừa (nếu Zona ở bụng phải)"
+  ],
+  "urgency": "moderate_to_high",
+  "when_to_seek_emergency": [
+    "Zona ở vùng mắt, mũi, trán có nguy cơ gây mù lòa",
+    "Zona ở tai kèm liệt mặt, chóng mặt dữ dội (Hội chứng Ramsay Hunt)"
+  ],
+  "user_language_variants": [
+    "bị giời leo đau rát như bị bỏng lửa ở một bên mạn sườn",
+    "nổi chùm mụn nước một bên lưng đau buốt thấu xương",
+    "da đau rát chạm áo vào cũng đau nhói nổi bọng nước một bên người",
+    "bị zona ở mặt đau nhức buốt mắt rát bỏng",
+    "nổi dải mụn nước ngứa rát dọc một bên sườn đau như kim châm"
+  ]
+}

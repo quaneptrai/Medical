@@ -1,0 +1,84 @@
+{
+  "disease_id": "DERM_004",
+  "name_vi": "Vẩy nến",
+  "name_en": "Psoriasis",
+  "category": "dermatology",
+  "aliases": [
+    "Vảy nến",
+    "Vẩy nến thể mảng",
+    "Bệnh vảy nến"
+  ],
+  "description": "Bệnh da viêm mạn tính qua trung gian miễn dịch, đặc trưng bởi các mảng đỏ giới hạn rõ, phủ nhiều lớp vảy trắng bạc như sáp nến, dễ cạo bong vảy (dấu hiệu Brocq).",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Mảng da đỏ tươi, giới hạn rất rõ với da lành",
+        "name_en": "Erythematous plaques with sharp demarcation",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Vảy trắng bạc dày nhiều lớp phủ trên bề mặt mảng đỏ",
+        "name_en": "Silvery-white micaceous scales",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Tổn thương hay gặp ở vùng tì đè (khuỷu tay, đầu gối, da đầu, vùng thắt lưng)",
+        "name_en": "Lesions on extensor surfaces (elbows, knees, scalp)",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Ngứa nhẹ đến vừa tại vùng tổn thương",
+        "name_en": "Mild to moderate itching",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Móng tay/chân bị rỗ lỗ chỗ, dày sừng dưới móng, đổi màu vàng nâu",
+        "name_en": "Nail pitting, onycholysis, oil drop sign",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Đau nhức, sưng các khớp ngón tay ngón chân (Viêm khớp vẩy nến)",
+        "name_en": "Psoriatic arthritis with joint swelling",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đỏ da toàn thân tróc vảy trên 90% diện tích cơ thể kèm sốt cao, rối loạn thân nhiệt (Vẩy nến đỏ da toàn thân)",
+    "Nổi mụn mủ vô trùng khắp cơ thể trên nền da đỏ rát dữ dội kèm sốt cao (Vẩy nến thể mủ cấp tính Von Zumbusch)"
+  ],
+  "risk_factors": [
+    "Yếu tố di truyền",
+    "Stress tâm lý",
+    "Chấn thương da cơ học (hiện tượng Koebner)",
+    "Nhiễm trùng liên cầu khuẩn",
+    "Thuốc lá, rượu bia"
+  ],
+  "questions_to_ask": [
+    "Các mảng đỏ có phủ lớp vảy trắng bạc dễ cạo bong như sáp nến không?",
+    "Vết vảy nến xuất hiện ở đầu gối, khuỷu tay hay trên da đầu, móng tay?",
+    "Bạn có bị đau nhức hay sưng các khớp ngón tay, ngón chân kèm theo không?"
+  ],
+  "differential_diagnoses": [
+    "Chàm thể mảng",
+    "Nấm da toàn thân",
+    "Viêm da dầu",
+    "Liken phẳng"
+  ],
+  "urgency": "moderate",
+  "when_to_seek_emergency": [
+    "Đỏ da toàn thân tróc vảy dữ dội kèm rét run, sốt cao, kiệt sức",
+    "Nổi bùng phát hàng loạt mụn mủ khắp cơ thể (Vẩy nến thể mủ)"
+  ],
+  "user_language_variants": [
+    "da nổi mảng đỏ phủ vảy trắng bạc như sáp nến",
+    "bị vẩy nến ở khuỷu tay đầu gối tróc vảy trắng",
+    "da đầu đóng mảng dày vảy trắng rụng như gàu tuyết",
+    "móng tay bị rỗ lỗ chỗ da đầu gối nổi mảng đỏ cộm vảy",
+    "vảy nến tróc từng lớp vảy màu bạc cạo ra giọt máu nhỏ"
+  ]
+}

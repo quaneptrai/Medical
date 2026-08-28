@@ -1,0 +1,83 @@
+{
+  "disease_id": "DERM_003",
+  "name_vi": "Mụn trứng cá",
+  "name_en": "Acne Vulgaris",
+  "category": "dermatology",
+  "aliases": [
+    "Mụn viêm",
+    "Mụn bọc",
+    "Mụn đầu đen",
+    "Mụn mủ"
+  ],
+  "description": "Bệnh lý viêm nang lông tuyến bã mạn tính, phổ biến ở tuổi dậy thì và thanh thiếu niên, biểu hiện qua mụn đầu đen, đầu trắng, mụn sẩn đỏ, mụn mủ hoặc nang bọc.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Nhân mụn đầu đen hoặc đầu trắng (mụn không viêm)",
+        "name_en": "Open and closed comedones",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Sẩn đỏ, mụn mủ sưng đau ở mặt, ngực, lưng",
+        "name_en": "Inflammatory papules and pustules",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Da tăng tiết nhiều dầu nhờn, lỗ chân lông to",
+        "name_en": "Oily skin / seborrhea",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Mụn bọc, mụn nang to sâu dưới da, đau nhức nhiều",
+        "name_en": "Nodules and cysts",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Thâm đỏ hoặc sẹo lõm/lồi sau khi mụn lành",
+        "name_en": "Post-inflammatory erythema, scarring",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Mụn trứng cá bùng phát cấp tính kèm sốt đau khớp (Acne fulminans)",
+        "name_en": "Acne fulminans with systemic symptoms",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Mụn sưng to vùng 'tam giác chết' quanh mũi môi kèm sưng mắt, đau đầu dữ dội, sốt cao (nguy cơ viêm tắc xoang tĩnh mạch hang)",
+    "Nhiễm trùng nang lông lan rộng tạo thành ổ áp xe lớn hoại tử da"
+  ],
+  "risk_factors": [
+    "Rối loạn nội tiết tuổi dậy thì hoặc chu kỳ kinh nguyệt",
+    "Tuyến bã nhờn hoạt động quá mức",
+    "Vi khuẩn C. acnes",
+    "Stress",
+    "Dùng mỹ phẩm bít tắc lỗ chân lông"
+  ],
+  "questions_to_ask": [
+    "Mụn chủ yếu là mụn ẩn đầu đen hay mụn sưng đỏ, có mủ đau nhức?",
+    "Mụn xuất hiện tập trung ở vị trí nào (mặt, trán, cằm, lưng hay ngực)?",
+    "Bạn có đang dùng loại kem bôi, mỹ phẩm hoặc thuốc chứa corticoid nào không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm nang lông (Folliculitis)",
+    "Trứng cá đỏ (Rosacea)",
+    "Viêm da quanh miệng"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Mụn ở vùng mũi má sưng tấy dữ dội kèm sốt cao, đau nhức mắt, nhìn đôi (nghi ngờ nhiễm trùng lan vào nội sọ)"
+  ],
+  "user_language_variants": [
+    "mặt nổi đầy mụn bọc sưng đỏ đau nhức",
+    "mụn trứng cá mụn mủ chi chít ở mặt và lưng",
+    "mụn đầu đen lỗ chân lông to da đổ dầu nhiều",
+    "mụn ẩn mụn viêm mọc tùm lum ở cằm và trán",
+    "nổi mụn sưng to không có cồi đau rát cả mặt"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "disease_id": "RESP_001",
+  "name_vi": "Hen suyễn",
+  "name_en": "Asthma",
+  "category": "respiratory",
+  "aliases": [
+    "Hen phế quản",
+    "Bệnh suyễn",
+    "Bệnh hen"
+  ],
+  "description": "Hen suyễn (hen phế quản) là một bệnh lý mạn tính đường hô hấp đặc trưng bởi tình trạng viêm mạn tính niêm mạc phế quản. Tình trạng này làm cho đường thở trở nên nhạy cảm quá mức với các tác nhân kích thích, dẫn đến co thắt phế quản, phù nề và tăng tiết đờm nhầy, gây ra các đợt thở khò khè, khó thở, tức ngực và ho tái đi tái lại.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Thở khò khè, có tiếng rít khi thở ra",
+        "name_en": "Wheezing",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Khó thở, hụt hơi",
+        "name_en": "Shortness of breath",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác nặng ngực, tức ngực",
+        "name_en": "Chest tightness",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Ho dai dẳng (đặc biệt về đêm hoặc sáng sớm)",
+        "name_en": "Coughing (especially at night or early morning)",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Mất ngủ do khó thở hoặc ho",
+        "name_en": "Sleep disturbance due to dyspnea or cough",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Mệt mỏi, giảm khả năng vận động",
+        "name_en": "Fatigue and reduced exercise tolerance",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Chóng mặt hoặc vã mồ hôi trong cơn khó thở",
+        "name_en": "Dizziness or diaphoresis during dyspnea episode",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Khó thở dữ dội, không thể nói trọn vẹn một câu ngắn",
+    "Môi, niêm mạc miệng hoặc đầu ngón tay tím tái",
+    "Co kéo cơ hô hấp phụ mạnh (rút lõm lồng ngực, phập phồng cánh mũi)",
+    "Đã sử dụng thuốc xịt cắt cơn (như Salbutamol) nhưng không có hiệu quả",
+    "Tốc độ thở rất nhanh hoặc có cảm giác ngạt thở hoàn toàn"
+  ],
+  "risk_factors": [
+    "Tiền sử gia đình mắc bệnh hen suyễn hoặc các bệnh dị ứng (viêm mũi dị ứng, chàm)",
+    "Bản thân có cơ địa dị ứng (dị ứng thức ăn, dị ứng thời tiết, chàm da)",
+    "Thường xuyên tiếp xúc với khói thuốc lá (chủ động hoặc thụ động)",
+    "Môi trường sống hoặc làm việc ô nhiễm, nhiều bụi mịn, hóa chất, phấn hoa, lông thú cưng",
+    "Tiền sử nhiễm trùng đường hô hấp nặng khi còn nhỏ"
+  ],
+  "questions_to_ask": [
+    "Bạn có nghe thấy tiếng thở khò khè hoặc tiếng rít như tiếng mèo kêu trong cổ họng khi thở ra không?",
+    "Các triệu chứng ho và khó thở có hay xuất hiện hoặc nặng hơn vào đêm, sáng sớm hay khi thời tiết thay đổi không?",
+    "Cơn khó thở của bạn có thường khởi phát sau khi tiếp xúc với bụi, lông thú, khói thuốc hoặc sau khi vận động mạnh không?",
+    "Bạn hoặc người thân trong gia đình có ai bị dị ứng, viêm mũi dị ứng hay mắc bệnh hen suyễn không?",
+    "Nếu đã từng dùng thuốc xịt giãn phế quản, triệu chứng khó thở có giảm nhanh sau khi xịt không?"
+  ],
+  "differential_diagnoses": [
+    "Bệnh phổi tắc nghẽn mạn tính (COPD)",
+    "Viêm phế quản cấp hoặc mạn tính",
+    "Trào ngược dạ dày thực quản (GERD)",
+    "Suy tim trái / Cơn hen tim",
+    "Dị vật đường thở"
+  ],
+  "urgency": "high",
+  "when_to_seek_emergency": [
+    "Khó thở cấp tính, nghiêm trọng, phải ngồi gập người phía trước để thở",
+    "Môi hoặc đầu móng tay chuyển sang màu xanh tím",
+    "Không thể nói chuyện bình thường vì phải dừng lại thở liên tục",
+    "Thuốc xịt cắt cơn khẩn cấp không làm giảm bớt tình trạng khó thở sau 10-15 phút",
+    "Lồng ngực và vùng cổ co kéo sâu khi hít vào"
+  ],
+  "user_language_variants": [
+    "Tối ngủ hay bị thở khò khè như tiếng mèo kêu trong cổ",
+    "Hay bị mệt khó thở lúc rạng sáng",
+    "Cứ hít bụi hay gặp lạnh là ho rút ruột rít lên",
+    "Cảm giác ngực bị chèn ép, thở ra ko được",
+    "Thở khè khè thở ko ra hơi",
+    "Hay bị lên cơn suyễn hụt hơi",
+    "Mỗi lần chạy bộ chút là thở dốc khò khè",
+    "Bị hen xịt thuốc mới đỡ",
+    "Đêm đến là ho sặc sụa tít hết cả phế quản",
+    "Ngực ngột ngạt khó thở về đêm",
+    "Trời trở lạnh là bị khè khè khó thở",
+    "Thở rít nghẹt ngực ko hít sâu dc",
+    "Mắc bệnh suyển nặng ngực quá"
+  ]
+}

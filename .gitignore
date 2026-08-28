@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Vector index is a rebuildable artifact and is model-specific — never sync it.
+data/embeddings/
+.pytest_cache/
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/

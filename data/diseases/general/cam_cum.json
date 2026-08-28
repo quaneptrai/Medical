@@ -1,0 +1,121 @@
+{
+  "disease_id": "GENE_001",
+  "name_vi": "Cảm cúm",
+  "name_en": "Influenza",
+  "category": "general",
+  "aliases": [
+    "Cúm",
+    "Cúm mùa",
+    "Nhiễm virus cúm",
+    "Cúm A",
+    "Cúm B"
+  ],
+  "description": "Cảm cúm (Influenza) là bệnh nhiễm trùng đường hô hấp cấp tính do các chủng virus cúm gây ra. Bệnh khởi phát đột ngột với triệu chứng sốt cao, đau mỏi toàn thân, ho và mệt mỏi nghiêm trọng. Mặc dù phần lớn trường hợp tự hồi phục sau 1-2 tuần, cảm cúm có thể dẫn đến các biến chứng nguy hiểm như viêm phổi, đặc biệt ở nhóm đối tượng có nguy cơ cao.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Sốt cao đột ngột (38°C - 40°C)",
+        "name_en": "Sudden high fever",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau mỏi cơ bắp và khớp toàn thân",
+        "name_en": "Generalized muscle and joint aches",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Mệt mỏi kiệt sức",
+        "name_en": "Severe fatigue and weakness",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ho khô",
+        "name_en": "Dry cough",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Đau họng, rát họng",
+        "name_en": "Sore throat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Đau đầu dữ dội",
+        "name_en": "Severe headache",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Ớn lạnh, rùng mình",
+        "name_en": "Chills and shivering",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Nghẹt mũi, chảy nước mũi",
+        "name_en": "Nasal congestion and runny nose",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Chán ăn, đắng miệng",
+        "name_en": "Loss of appetite",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Buồn nôn, nôn mửa hoặc tiêu chảy (thường gặp hơn ở trẻ em)",
+        "name_en": "Nausea, vomiting, or diarrhea",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Khó thở, thở gấp hoặc cảm giác đè ép, đau tức ngực",
+    "Sốt cao liên tục không hạ sau khi dùng thuốc hạ sốt",
+    "Tím tái môi hoặc đầu ngón tay ngón chân",
+    "Lơ mơ, ngủ gà, co giật hoặc rối loạn ý thức",
+    "Triệu chứng cải thiện nhưng sau đó lại tái sốt cao kèm ho nặng hơn"
+  ],
+  "risk_factors": [
+    "Trẻ em dưới 5 tuổi (đặc biệt là trẻ dưới 2 tuổi)",
+    "Người cao tuổi từ 65 tuổi trở lên",
+    "Phụ nữ đang mang thai hoặc trong thời kỳ hậu sản",
+    "Người mắc bệnh mãn tính (hen suyễn, bệnh phổi mãn tính, tiểu đường, bệnh tim mạch)",
+    "Người suy giảm miễn dịch (HIV, ung thư, đang dùng thuốc corticoid kéo dài)"
+  ],
+  "questions_to_ask": [
+    "Các triệu chứng sốt và đau mỏi của bạn xuất hiện đột ngột hay tăng dần qua nhiều ngày?",
+    "Thân nhiệt hiện tại của bạn là bao nhiêu và thuốc hạ sốt có làm giảm sốt hiệu quả không?",
+    "Bạn có cảm thấy khó thở, đau tức ngực hoặc ho nhiều đến mức hụt hơi không?",
+    "Gần đây bạn có tiếp xúc với ai bị cảm cúm hoặc đi đến vùng đang có dịch cúm không?",
+    "Bạn đã tiêm vắc-xin ngừa cúm mùa trong vòng 12 tháng qua chưa?"
+  ],
+  "differential_diagnoses": [
+    "Cảm lạnh thông thường (Common Cold)",
+    "COVID-19",
+    "Sốt xuất huyết (Dengue fever)",
+    "Viêm phế quản cấp",
+    "Nhiễm siêu vi khác (Adenovirus, Rhinovirus)"
+  ],
+  "urgency": "moderate",
+  "when_to_seek_emergency": [
+    "Cảm thấy vô cùng khó thở, nhịp thở nhanh bất thường hoặc thở rên ở trẻ nhỏ",
+    "Sốt cao trên 39.5°C không đáp ứng với thuốc hạ sốt và lau mát",
+    "Có dấu hiệu mất nước nặng: không tiểu được trong 8 giờ, khô miệng, không có nước mắt khi khóc",
+    "Mệt lả, lơ mơ, không thể tỉnh táo để trò chuyện hoặc ăn uống"
+  ],
+  "user_language_variants": [
+    "em bị sốt đùng đùng đau nhức mình mẩy quá bác sĩ ơi",
+    "người mệt mỏi rã rời, ho hắng liên tục mấy hôm nay",
+    "sốt 39 độ lạnh run người, đau rát họng chảy nước mũi",
+    "bị cảm cúm vật cho nằm một chỗ không dậy nổi",
+    "nhức đầu như búa bổ kèm ho khô đau ngực",
+    "bị cúm a hay sao mà người mỏi mệt vãi",
+    "sốt lừ đừ đắng miệng không ăn uống dc gì",
+    "hắt hơi nhảy mũi rát cổ họng bị cúm rồi phải ko",
+    "người cứ ớn lạnh gai gai rồi sốt cao",
+    "em bị cúm mệt lả người nhức mỏi các khớp",
+    "sốt nóng sốt lạnh ho sặc sụa chảy nước mắt nước mũi",
+    "bị cảm nằm bẹp dí 2 ngày nay đau ê ẩm cả lưng"
+  ]
+}

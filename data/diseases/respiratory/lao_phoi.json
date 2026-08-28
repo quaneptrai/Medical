@@ -1,0 +1,121 @@
+{
+  "disease_id": "RESP_008",
+  "name_vi": "Lao phổi",
+  "name_en": "Pulmonary Tuberculosis",
+  "category": "respiratory",
+  "aliases": [
+    "Bệnh lao",
+    "Bệnh ho lao",
+    "Lao hô hấp",
+    "TB phổi"
+  ],
+  "description": "Lao phổi là bệnh truyền nhiễm do vi khuẩn Mycobacterium tuberculosis gây ra, chủ yếu lây truyền qua đường hô hấp khi người bệnh ho, hắt hơi. Bệnh tiến triển mãn tính với biểu hiện điển hình là ho kéo dài trên 2 tuần, sốt nhẹ về chiều, sụt cân và đổ mồ hôi trộm.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Ho kéo dài trên 2-3 tuần",
+        "name_en": "Cough lasting over 2-3 weeks",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Sốt nhẹ hoặc ớn lạnh về chiều",
+        "name_en": "Low-grade afternoon fever",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đổ mồ hôi trộm ban đêm",
+        "name_en": "Night sweats",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Sụt cân không rõ nguyên nhân",
+        "name_en": "Unexplained weight loss",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Mệt mỏi, chán ăn, gầy yếu",
+        "name_en": "Fatigue and loss of appetite",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Ho khạc đờm có lẫn máu",
+        "name_en": "Hemoptysis",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đau tức ngực, âm ỉ",
+        "name_en": "Chest pain",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Khó thở nhẹ đến vừa",
+        "name_en": "Shortness of breath",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Khàn tiếng",
+        "name_en": "Hoarseness",
+        "frequency": "rare"
+      },
+      {
+        "name_vi": "Đau ngực dữ dội do tràn dịch màng phổi",
+        "name_en": "Severe chest pain due to pleural effusion",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Ho ra máu tươi lượng nhiều (ho ra máu sét đánh)",
+    "Khó thở dữ dội, thở gấp, tím tái môi và đầu ngón tay",
+    "Đau ngực đột ngột, suy hô hấp cấp",
+    "Sốt cao liên tục kèm suy kiệt nặng"
+  ],
+  "risk_factors": [
+    "Sống hoặc tiếp xúc gần gũi với người đang bị lao phổi",
+    "Suy giảm miễn dịch (nhiễm HIV/AIDS, ung thư, dùng thuốc ức chế miễn dịch)",
+    "Mắc các bệnh mãn tính như đái tháo đường, suy thận mãn, bụi phổi",
+    "Nghiện rượu, hút thuốc lá kéo dài",
+    "Sống trong điều kiện chật chội, thiếu ánh sáng, dinh dưỡng kém"
+  ],
+  "questions_to_ask": [
+    "Cơn ho của bạn đã kéo dài bao nhiêu tuần rồi? Ho khô hay ho có đờm?",
+    "Chiều tối bạn có thấy người hâm hấp sốt hoặc lạnh ớn không?",
+    "Đêm ngủ áo bạn có bị ướt đẫm mồ hôi (mồ hôi trộm) không?",
+    "Trong đờm ho ra có dính vệt máu hay máu tươi nào không?",
+    "Gần đây bạn có bị tụt cân nhiều mà không ăn kiêng không?",
+    "Trong gia đình hoặc nơi làm việc có ai bị lao phổi hoặc đang ho kéo dài không?"
+  ],
+  "differential_diagnoses": [
+    "Ung thư phổi",
+    "Viêm phổi vi khuẩn",
+    "Giãn phế quản",
+    "Áp xe phổi",
+    "Nhiễm nấm phổi",
+    "Bệnh phổi tắc nghẽn mãn tính (COPD)"
+  ],
+  "urgency": "moderate_to_high",
+  "when_to_seek_emergency": [
+    "Ho ra máu tươi lượng lớn (trên vài chục ml hoặc khạc ra máu đông thành cục)",
+    "Khó thở cấp tính, thở rên, ngực phập phồng, tím tái",
+    "Đau ngực dữ dội kèm vã mồ hôi lạnh, tụt huyết áp"
+  ],
+  "user_language_variants": [
+    "ho dai dẳng cả tháng nay không khỏi",
+    "cứ tầm chiều tối là bị hâm hấp sốt ớn lạnh",
+    "đêm ngủ mồ hôi ra ướt đẫm cả áo",
+    "ho khạc ra ít đờm dính máu tươi",
+    "dạo này sút cân ghê gớm chán ăn người mệt mỏi",
+    "ho húng hắng mãi rát hết cổ với đau ngực",
+    "có phải tôi bị ho lao rồi không bác sĩ",
+    "mệt mỏi gầy sộc đi ho miết 3 4 tuần nay",
+    "tối nào cũng sốt nhẹ nhẹ với vắt mồ hôi trộm",
+    "ho khạc ra máu tươi mệt muốn xỉu",
+    "người gầy khô hộc hộc ho dai dẳng không bớt",
+    "bị ho đờm lâu ngày kèm sốt về chiều",
+    "nhà có người bị lao giờ tôi ho hoài lo quá"
+  ]
+}

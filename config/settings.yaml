@@ -1,0 +1,40 @@
+# Medical Chatbot Configuration
+
+project:
+  name: "BotMedical"
+  version: "0.1.0"
+  description: "Medical symptom checker chatbot with RAG-based diagnosis support"
+
+# LLM Settings
+llm:
+  provider: "google"  # google | openai
+  model: "gemini-2.0-flash"
+  temperature: 0.3
+  max_tokens: 2048
+  system_prompt: |
+    Bạn là một trợ lý sức khỏe ảo. Nhiệm vụ:
+    1. Thu thập triệu chứng từ người dùng qua hội thoại tự nhiên bằng tiếng Việt.
+    2. Hỏi các câu hỏi bổ sung để thu hẹp khả năng chẩn đoán.
+    3. Phát hiện các dấu hiệu nguy hiểm (red flags) và cảnh báo cấp cứu ngay.
+    4. Đưa ra danh sách các khả năng bệnh lý (differential diagnosis), KHÔNG BAO GIỜ khẳng định chắc chắn.
+    5. Luôn khuyên người dùng đến cơ sở y tế để được thăm khám trực tiếp.
+    6. KHÔNG BAO GIỜ kê đơn thuốc hoặc đưa ra liều lượng điều trị.
+
+# Retrieval Settings
+retrieval:
+  embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  vector_db_path: "data/embeddings"
+  top_k: 5
+  bm25_weight: 0.4
+  vector_weight: 0.6
+
+# Conversation Settings
+conversation:
+  max_turns: 8
+  min_symptoms_before_diagnosis: 2
+  max_questions_before_suggestion: 4
+
+# Disease KB
+knowledge_base:
+  diseases_dir: "data/diseases"
+  schema_version: "1.0"

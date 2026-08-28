@@ -1,0 +1,136 @@
+{
+  "disease_id": "RESP_002",
+  "name_vi": "Viêm xoang",
+  "name_en": "Sinusitis",
+  "category": "respiratory",
+  "aliases": [
+    "Viêm mũi xoang",
+    "Nghẹt mũi mạn tính",
+    "Đau nhức xoang",
+    "Viêm xoang cấp",
+    "Viêm xoang mạn"
+  ],
+  "description": "Viêm xoang (hay viêm mũi xoang) là tình trạng viêm nhiễm hoặc sưng nề mô lót bên trong các hốc xoang cạnh mũi. Tình trạng này khiến dịch nhầy ứ đọng, không thoát ra được, gây ra các triệu chứng nghẹt mũi, chảy dịch đặc, đau nhức vùng mặt và giảm khả năng ngửi.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Nghẹt mũi, tắc nghẽn mũi",
+        "name_en": "Nasal congestion",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Chảy dịch mũi màu vàng đục hoặc xanh đặc",
+        "name_en": "Thick discolored nasal discharge",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau, nhức, nặng vùng trán, gò má hoặc giữa hai mắt",
+        "name_en": "Facial pain and pressure",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Giảm hoặc mất khả năng ngửi mùi (khứu giác)",
+        "name_en": "Reduced sense of smell",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Chảy dịch từ sau mũi xuống họng (chảy dịch mũi sau)",
+        "name_en": "Post-nasal drip",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đau đầu âm ỉ, nặng hơn khi cúi người",
+        "name_en": "Headache worse on bending forward",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đau nhức răng hoặc hàm trên",
+        "name_en": "Upper jaw or tooth ache",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Hơi thở có mùi hôi",
+        "name_en": "Halitosis (Bad breath)",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Ho đờm dai dẳng, đặc biệt nặng về đêm",
+        "name_en": "Cough, worse at night",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Sốt nhẹ đến trung bình",
+        "name_en": "Low-grade fever",
+        "frequency": "rare"
+      },
+      {
+        "name_vi": "Ù tai, đau hốc tai nhẹ",
+        "name_en": "Ear fullness or pain",
+        "frequency": "rare"
+      },
+      {
+        "name_vi": "Mệt mỏi toàn thân",
+        "name_en": "Fatigue",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Sưng, đỏ, nóng hoặc đau dữ dội quanh vùng mắt và hốc mắt",
+    "Nhìn đôi (một thành hai), nhìn mờ hoặc thay đổi thị lực đột ngột",
+    "Sốt cao trên 38.5°C kéo dài không giảm",
+    "Đau đầu dữ dội không đáp ứng với thuốc giảm đau thông thường",
+    "Cứng cổ, sợ ánh sáng, nôn mửa",
+    "Lơ mơ, rối loạn ý thức hoặc co giật"
+  ],
+  "risk_factors": [
+    "Tiền sử viêm mũi dị ứng hoặc dị ứng thời tiết",
+    "Cấu trúc mũi bất thường (l lệch vách ngăn mũi, polyp mũi)",
+    "Hút thuốc lá hoặc thường xuyên hít phải khói thuốc, bụi bẩn",
+    "Mắc các bệnh đường hô hấp trên kéo dài (cảm cúm, viêm họng)",
+    "Hệ miễn dịch suy yếu",
+    "Nhiễm trùng do răng hàm trên"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghẹt mũi và đau nhức mặt của bạn kéo dài bao lâu rồi (dưới 4 tuần hay trên 12 tuần)?",
+    "Dịch mũi của bạn có màu trong hay màu vàng/xanh đặc?",
+    "Cảm giác đau nhức tập trung ở vị trí nào nhất: trán, gò má, hay giữa hai mắt?",
+    "Khi cúi đầu về phía trước, cảm giác đau hoặc tức ở vùng mặt có tăng lên không?",
+    "Bạn có bị giảm hoặc mất hẳn khả năng ngửi mùi không?",
+    "Bạn có xuất hiện các dấu hiệu nguy hiểm như sốt cao, sưng mắt hay nhìn mờ không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm mũi dị ứng",
+    "Cảm cúm thông thường (Viral Upper Respiratory Tract Infection)",
+    "Đau đầu co thắt / Đau đầu Migraine",
+    "Sâu răng hoặc áp xe răng hàm trên",
+    "Trào ngược dạ dày thực quản (có thể gây kích ứng mũi họng)"
+  ],
+  "urgency": "moderate",
+  "when_to_seek_emergency": [
+    "Sưng, đỏ hoặc nề to vùng quanh mắt hoặc mí mắt",
+    "Sốt cao kèm đau đầu dữ dội bất thường",
+    "Nhìn mờ, nhìn đôi hoặc không thể di chuyển mắt bình thường",
+    "Có biểu hiện cứng cổ, buồn nôn hoặc lơ mơ"
+  ],
+  "user_language_variants": [
+    "đau nhức cái trán với hai bên gò má vãi",
+    "mũi lúc nào cũng nghẹt cứng ko thở nổi",
+    "xì ra mủ mũi màu xanh lè tanh rình",
+    "cúi mặt xuống là cái đầu muốn nổ tung",
+    "mất khứu giác rồi ko ngửi thấy mùi gì nữa",
+    "nhức xoang dã dời mùa lạnh này",
+    "đau buốt nửa mặt với đau nhức răng hàm trên",
+    "đờm chảy xuống họng nghẹt cứng phải thở bằng miệng",
+    "xoang mạn tính lại bùng phát đau rát trán",
+    "ngạt mũi chảy nước mũi vàng đặc quánh",
+    "sáng ngủ dậy nhức từ trán xuống sống mũi",
+    "sụt sịt suốt ngày trán nhức như búa bổ",
+    "bị xoang hành đau nhức hốc mắt",
+    "mũi hôi rình đờm đặc quánh chảy xuống cổ họng"
+  ]
+}

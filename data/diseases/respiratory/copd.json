@@ -1,0 +1,119 @@
+{
+  "disease_id": "RESP_002",
+  "name_vi": "Bệnh phổi tắc nghẽn mạn tính",
+  "name_en": "Chronic Obstructive Pulmonary Disease (COPD)",
+  "category": "respiratory",
+  "aliases": [
+    "COPD",
+    "Phổi tắc nghẽn mạn tính",
+    "Viêm phế quản mạn tính",
+    "Khí thủng phổi",
+    "Phổi tắc nghẽn mãn tính"
+  ],
+  "description": "Bệnh phổi tắc nghẽn mạn tính (COPD) là một bệnh lý hô hấp mạn tính đặc trưng bởi sự suy giảm lưu lượng khí thở ra không hồi phục hoàn toàn. Bệnh gây ra bởi tình trạng viêm mạn tính niêm mạc đường hô hấp do tiếp xúc kéo dài với các hạt hoặc khí độc hại, phổ biến nhất là khói thuốc lá, dẫn đến khó thở tiến triển nặng dần theo thời gian.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Khó thở tiến triển tăng dần theo thời gian, nặng hơn khi vận động",
+        "name_en": "Progressive dyspnea, worsening with exertion",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ho mạn tính kéo dài",
+        "name_en": "Chronic cough",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Khạc đờm mạn tính (thường đờm nhầy vào buổi sáng)",
+        "name_en": "Chronic sputum production",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Thở khò khè hoặc nghe tiếng rít khi thở",
+        "name_en": "Wheezing",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Cảm giác nặng ngực hoặc bó chặt lồng ngực",
+        "name_en": "Chest tightness",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Mệt mỏi, giảm khả năng gắng sức",
+        "name_en": "Fatigue and reduced exercise capacity",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Sụt cân ngoài ý muốn và teo cơ ở giai đoạn tiến triển",
+        "name_en": "Unexplained weight loss and muscle loss",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Phù chân, cổ chân do biến chứng tâm phế mạn",
+        "name_en": "Peripheral edema due to cor pulmonale",
+        "frequency": "rare"
+      },
+      {
+        "name_vi": "Môi và đầu ngón tay tím tái mạn tính",
+        "name_en": "Chronic cyanosis",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Khó thở dữ dội ngay cả khi nghỉ ngơi, không thể nói trọn câu",
+    "Tím tái môi, niêm mạc hoặc đầu ngón tay ngón chân",
+    "Lú lẫn, lơ mơ, giảm ý thức hoặc cực kỳ kích động do thiếu oxy/tăng CO2",
+    "Cơ hô hấp phụ co kéo mạnh (co kéo cơ liên sườn, hố trên đòn)",
+    "Không đáp ứng với các thuốc xịt giãn phế quản cắt cơn thông thường"
+  ],
+  "risk_factors": [
+    "Tiền sử hút thuốc lá, thuốc lào chủ động hoặc thụ động trong nhiều năm",
+    "Phơi nhiễm nghề nghiệp với bụi, hóa chất, hơi độc",
+    "Tiếp xúc thường xuyên với khói bếp than, khói củi sinh hoạt trong không gian kín",
+    "Thiếu hụt di truyền Alpha-1 Antitrypsin",
+    "Tiền sử nhiễm trùng đường hô hấp tái diễn thời thơ ấu"
+  ],
+  "questions_to_ask": [
+    "Bác/Anh/Chị có tiền sử hút thuốc lá, thuốc lào hoặc thường xuyên tiếp xúc với khói bếp than/củi nhiều năm nay không?",
+    "Tình trạng khó thở này diễn ra từ từ tăng dần qua nhiều tháng/năm hay mới xuất hiện đột ngột từng cơn?",
+    "Hằng ngày vào buổi sáng ngủ dậy Bác/Anh/Chị có hay bị ho khạc đờm kéo dài không?",
+    "Khó thở có tăng lên rõ rệt khi leo cầu thang hoặc thực hiện các hoạt động thể lực nhẹ không?",
+    "Bác/Anh/Chị đã từng được chẩn đoán mắc COPD, hen suyễn hay viêm phế quản mạn tính bao giờ chưa?"
+  ],
+  "differential_diagnoses": [
+    "Hen phế quản (Asthma)",
+    "Suy tim sung huyết (Congestive Heart Failure)",
+    "Giãn phế quản (Bronchiectasis)",
+    "Lao phổi (Tuberculosis)",
+    "Ung thư phổi (Lung Cancer)"
+  ],
+  "urgency": "moderate_to_high",
+  "when_to_seek_emergency": [
+    "Bệnh nhân lên cơn khó thở dữ dội, thở gấp, phải ngồi ngửa người ra trước để thở",
+    "Môi hoặc đầu ngón tay ngón chân chuyển sang màu xám tím",
+    "Có dấu hiệu lơ mơ, ngủ gật khó đánh thức hoặc hoảng loạn rối loạn nhận thức",
+    "Thuốc xịt xịt cắt cơn cấp cứu không làm giảm triệu chứng khó thở",
+    "Ho ra máu hoặc sốt cao kèm đờm đổi màu xanh/vàng đậm và khó thở tăng đột ngột"
+  ],
+  "user_language_variants": [
+    "sáng nào ngủ dậy cũng ho khạc đờm đặc đục",
+    "hút thuốc lá mấy chục năm giờ thấy thở khò khè đứt hơi",
+    "đi bộ tí là thở không ra hơi",
+    "leo cầu thang tí là đứt hơi phải đứng lại thở",
+    "thở nghe tiếng rít rít như mèo hen trong ngực",
+    "hay bị mệt đuối sức hụt hơi về chiều",
+    "ho hắng dai dẳng cả năm trời không hết",
+    "bị phế quản mạn dạo này thở mệt quá",
+    "bị copd xịt thuốc mà vẫn thấy thi thoảng lên cơn khó thở",
+    "đờm xanh đờm vàng hắng giọng hoài không ra",
+    "tức ngực thở dốc mỗi khi gắng sức nhẹ",
+    "thở khò khè nghi bị phổi tắc nghẽn",
+    "ông nhà tôi dạo này thở mệt nói không thành câu",
+    "thở hổn hển lúc nào cũng thấy thiếu không khí"
+  ]
+}

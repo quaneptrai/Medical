@@ -1,0 +1,113 @@
+{
+  "disease_id": "DIGE_001",
+  "name_vi": "Viêm dạ dày",
+  "name_en": "Gastritis",
+  "category": "digestive",
+  "aliases": [
+    "Đau dạ dày",
+    "Đau bao tử",
+    "Viêm niêm mạc dạ dày",
+    "Viêm dạ dày cấp",
+    "Viêm dạ dày mạn"
+  ],
+  "description": "Viêm dạ dày là tình trạng tổn thương sưng viêm ở lớp niêm mạc dạ dày, có thể xảy ra đột ngột (cấp tính) hoặc tiến triển dai dẳng (mạn tính). Bệnh thường do nhiễm vi khuẩn Helicobacter pylori (H. pylori), tác dụng phụ của thuốc giảm đau chống viêm NSAIDs, tiêu thụ quá nhiều rượu bia hoặc do căng thẳng thần kinh kéo dài.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau rát hoặc cồn cào vùng thượng vị (trên rốn)",
+        "name_en": "Epigastric burning or gnawing pain",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đầy hơi, chướng bụng, khó tiêu",
+        "name_en": "Bloating and indigestion",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Buồn nôn hoặc nôn",
+        "name_en": "Nausea and vomiting",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Cảm giác no sớm hoặc tức bụng sau khi ăn",
+        "name_en": "Early fullness after eating",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Ợ hơi, ợ chua",
+        "name_en": "Belching and acid regurgitation",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Chán ăn, ăn không ngon miệng",
+        "name_en": "Loss of appetite",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Nôn ra máu hoặc nôn ra chất màu bã cà phê",
+        "name_en": "Vomiting blood or coffee-ground material",
+        "frequency": "rare"
+      },
+      {
+        "name_vi": "Đi ngoài phân đen, sẫm màu như nhựa đường",
+        "name_en": "Black tarry stools (Melena)",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Nôn ra máu tươi hoặc dịch nôn màu nâu đen như bã cà phê",
+    "Đi ngoài phân đen kịt, bóng hôi tanh bất thường",
+    "Đau bụng dữ dội, đột ngột, bụng cứng như gỗ (nghi ngờ thủng dạ dày)",
+    "Chóng mặt, hoa mắt, vọt mồ hôi lạnh, ngất xỉu (dấu hiệu xuất huyết tiêu hóa cấp)",
+    "Gầy sút cân nhanh chóng không rõ nguyên nhân kèm nuốt khó"
+  ],
+  "risk_factors": [
+    "Nhiễm vi khuẩn Helicobacter pylori (H. pylori)",
+    "Lạm dụng thuốc giảm đau kháng viêm không steroid (NSAIDs) như ibuprofen, naproxen, aspirin kéo dài",
+    "Uống nhiều rượu bia và hút thuốc lá",
+    "Chế độ ăn uống không lành mạnh: ăn không đúng giờ, ăn đồ quá cay nóng, nhiều mỡ",
+    "Căng thẳng, stress tâm lý kéo dài",
+    "Bệnh tự miễn hoặc tổn thương phản vệ sau phẫu thuật/chấn thương nặng"
+  ],
+  "questions_to_ask": [
+    "Cơn đau của bạn nằm ở vị trí nào (vùng trên rốn/thượng vị hay lệch sang trái/phải)?",
+    "Cơn đau thường xuất hiện lúc đói hay sau khi ăn xong?",
+    "Bạn có gặp tình trạng ợ chua, nóng rát ngực hoặc buồn nôn không?",
+    "Dạo gần đây bạn có dùng thuốc giảm đau, hạ sốt hay thuốc trị khớp nào thường xuyên không?",
+    "Bạn có phát hiện dấu hiệu như đi ngoài phân đen kịt hay nôn ra dịch lạ màu bã cà phê không?"
+  ],
+  "differential_diagnoses": [
+    "Loét dạ dày - tá tràng (Peptic ulcer disease)",
+    "Trào ngược dạ dày thực quản (GERD)",
+    "Viêm túi mật / Sỏi mật",
+    "Viêm tụy cấp",
+    "Bệnh cơ tim / Nhồi máu cơ tim vùng thành dưới (dễ nhầm với đau thượng vị)"
+  ],
+  "urgency": "moderate",
+  "when_to_seek_emergency": [
+    "Nôn ra máu hoặc dịch màu bã cà phê",
+    "Đi ngoài phân đen như nhựa đường hoặc có lẫn máu tươi",
+    "Đau quặn bụng dữ dội không giảm khi dùng thuốc hoặc thay đổi tư thế",
+    "Cảm giác vã mồ hôi lạnh, chao đảo, sắp xỉu hoặc ngất"
+  ],
+  "user_language_variants": [
+    "đau bao tử vãi",
+    "đau cồn cào vùng trên rốn",
+    "nóng rát dạ dày sau khi ăn",
+    "bị ợ chua ợ hơi suốt ngày",
+    "đau bao tử lúc đói",
+    "bùn nôn khó chịu bụng dạ",
+    "đầy bụng khó tiêu vãi chưởng",
+    "ăn tí đã thấy no bụng tức ức",
+    "đau quặn bụng trên",
+    "trào ngược bao tử cồn cào",
+    "đau rát thượng vị",
+    "hay bị nôn nao thèm nôn sau ăn",
+    "bị đau bao tử kinh niên"
+  ]
+}

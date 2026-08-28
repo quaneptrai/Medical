@@ -1,0 +1,128 @@
+{
+  "disease_id": "GENE_001",
+  "name_vi": "COVID-19 (Bệnh vi-rút Corona 2019)",
+  "name_en": "COVID-19",
+  "category": "general",
+  "aliases": [
+    "Covid",
+    "Cô vít",
+    "Corona",
+    "NCoV",
+    "SARS-CoV-2",
+    "Viêm đường hô hấp cấp do nCoV"
+  ],
+  "description": "COVID-19 là bệnh truyền nhiễm đường hô hấp cấp tính do vi-rút SARS-CoV-2 gây ra. Bệnh lây qua giọt bắn, tiếp xúc hoặc không khí trong không gian kín. Biểu hiện lâm sàng đa dạng từ không triệu chứng, triệu chứng nhẹ giống cảm cúm đến các tổn thương phổi nặng, suy hô hấp cấp và nguy cơ tử vong.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Sốt hoặc ớn lạnh",
+        "name_en": "Fever or chills",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ho khô hoặc ho có đờm",
+        "name_en": "Cough",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Mệt mỏi, kiệt sức",
+        "name_en": "Fatigue",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Mất vị giác hoặc khứu giác đột ngột",
+        "name_en": "New loss of taste or smell",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Đau họng, rát họng",
+        "name_en": "Sore throat",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Đau nhức cơ bắp và toàn thân",
+        "name_en": "Muscle or body aches",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đau đầu",
+        "name_en": "Headache",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Nghẹt mũi, chảy nước mũi",
+        "name_en": "Congestion or runny nose",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Rối loạn tiêu hóa (tiêu chảy, buồn nôn)",
+        "name_en": "Nausea, vomiting or diarrhea",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Nổi mẩn đỏ trên da hoặc đổi màu ngón tay/ngón chân",
+        "name_en": "Skin rash or discoloration of fingers/toes",
+        "frequency": "rare"
+      },
+      {
+        "name_vi": "Viêm kết mạc (mắt đỏ, đau mắt)",
+        "name_en": "Conjunctivitis",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Khó thở, thở gấp, tức ngực liên tục",
+    "Chỉ số nồng độ oxy trong máu (SpO2) dưới 94%",
+    "Tím tái môi, mặt hoặc các đầu ngón tay ngón chân",
+    "Lơ mơ, rối loạn nhận thức, khó thức dậy",
+    "Không thể ăn uống được, nôn trớ nhiều dẫn đến mất nước nặng"
+  ],
+  "risk_factors": [
+    "Người cao tuổi (trên 65 tuổi)",
+    "Chưa tiêm phòng hoặc chưa tiêm đủ mũi vắc-xin COVID-19",
+    "Người có bệnh nền: tiểu đường, tăng huyết áp, bệnh tim mạch, bệnh phổi mạn tính (COPD)",
+    "Béo phì nặng (BMI >= 30)",
+    "Suy giảm miễn dịch (đang điều trị ung thư, ghép tạng, dùng corticoid kéo dài)"
+  ],
+  "questions_to_ask": [
+    "Bạn đã làm test nhanh hoặc test PCR COVID-19 chưa, và kết quả hiện tại như thế nào?",
+    "Bạn có bị mất hẳn khả năng ngửi mùi hoặc nếm vị thức ăn không?",
+    "Nếu có máy kẹp đo SpO2 ở nhà, chỉ số SpO2 hiện tại của bạn là bao nhiêu?",
+    "Bạn có cảm thấy khó thở, hụt hơi khi đi lại nhẹ nhàng hoặc khi nói chuyện không?",
+    "Trong khoảng 7 ngày gần đây bạn có tiếp xúc gần với người nhiễm COVID-19 không?"
+  ],
+  "differential_diagnoses": [
+    "Cúm mùa (Flu A/B)",
+    "Cảm lạnh thông thường (Common Cold)",
+    "Sốt xuất huyết Dengue",
+    "Viêm phế quản cấp",
+    "Viêm họng cấp do vi-rút hoặc vi khuẩn"
+  ],
+  "urgency": "moderate_to_high",
+  "when_to_seek_emergency": [
+    "Chỉ số SpO2 đo được liên tục dưới 94% ngay cả khi nghỉ ngơi",
+    "Khó thở severe, phải thoi hóp, không thể nói trọn vẹn một câu ngắn",
+    "Đau thắt ngực hoặc đè nén ngực kéo dài không đỡ",
+    "Biểu hiện lơ mơ, nhầm lẫn, nói nhảm hoặc ngủ gà khó đánh thức"
+  ],
+  "user_language_variants": [
+    "mình bị vạch 2 nét rồi",
+    "test 2 vạch căng đét",
+    "sốt xình xịch kèm mất mùi",
+    "bị cô vít rồi, người đau như ăn đòn",
+    "ăn cơm chả thấy vị gì, mũi tịt ngửi không thấy mùi",
+    "bị covid ho hắng liên tục mệt rã rời",
+    "sốt đùng đùng đau họng rát như rát bỏng",
+    "người mệt như mất sức, ho khan suốt đêm",
+    "bị dính covid hụt hơi thở không ra hơi",
+    "test covid thấy hiện hai vạch rõ lắm",
+    "bị covid sốt rét run rẩy đau hết mình mẩy",
+    "ăn không thấy ngon, mất vị giác hẳn luôn",
+    "bị ncov rát họng chảy nước mũi mệt mỏi"
+  ]
+}

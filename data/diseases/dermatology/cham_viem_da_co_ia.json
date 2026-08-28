@@ -1,0 +1,82 @@
+{
+  "disease_id": "DERM_002",
+  "name_vi": "Chàm (Viêm da cơ địa)",
+  "name_en": "Eczema / Atopic Dermatitis",
+  "category": "dermatology",
+  "aliases": [
+    "Viêm da dị ứng",
+    "Lác sữa (ở trẻ nhỏ)",
+    "Eczema"
+  ],
+  "description": "Bệnh da viêm mạn tính tái phát nhiều lần, đặc trưng bởi tình trạng ngứa dữ dội, da khô nứt nẻ, đỏ da, có mụn nước và lichen hóa (da dày hằn cộm).",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Ngứa da dữ dội từng cơn, tăng nặng về đêm",
+        "name_en": "Severe pruritus, worse at night",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Da khô ráp, bong tróc vảy nứt nẻ",
+        "name_en": "Xerosis and scaling",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Mảng da đỏ sần sùi ở các nếp gấp (khuỷu tay, khoeo chân, cổ)",
+        "name_en": "Erythematous plaques on flexural creases",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Mụn nước nhỏ tập trung thành đám, dễ vỡ chảy dịch",
+        "name_en": "Vesicles on erythematous base with oozing",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Da dày sừng cộm hằn rãnh sâu do gãi nhiều (Lichen hóa)",
+        "name_en": "Lichenification from chronic scratching",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Nhiễm trùng thứ phát gây đóng vảy tiết vàng mật ong (chốc hóa)",
+        "name_en": "Impetiginization with honey-colored crusts",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Tổn thương da lở loét rộng, sốt cao, nổi mụn nước toàn thân dạng Herpes (Eczema herpeticum)",
+    "Chảy mủ ồ ạt, sưng hạch bạch huyết lân cận kèm sốt rét run"
+  ],
+  "risk_factors": [
+    "Cơ địa dị ứng (viêm mũi dị ứng, hen suyễn)",
+    "Tiền sử gia đình mắc bệnh atopy",
+    "Thời tiết hanh khô mùa đông",
+    "Tiếp xúc xà phòng, hóa chất"
+  ],
+  "questions_to_ask": [
+    "Tình trạng ngứa và khô da này có tái đi tái lại nhiều đợt từ trước đến nay không?",
+    "Vết chàm tập trung ở nếp gấp khuỷu tay, khoeo chân hay trên mặt, bàn tay?",
+    "Bạn hoặc người nhà có tiền sử bị viêm mũi dị ứng, hen phế quản không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm da tiếp xúc dị ứng",
+    "Vẩy nến",
+    "Nấm da",
+    "Viêm da dầu (tiết bã)"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Nổi mụn nước mủ rộ toàn thân kèm sốt cao (Eczema herpeticum - biến chứng cấp tính nguy hiểm)"
+  ],
+  "user_language_variants": [
+    "da khô nứt nẻ ngứa ngáy điên cuồng về đêm",
+    "bị chàm ở khuỷu tay khoeo chân gãi đến bật máu",
+    "viêm da cơ địa da tróc vảy dày cộm ngứa rát",
+    "nổi mẩn đỏ ngứa chảy nước ở mu bàn tay",
+    "da tay nứt toác ngứa rát bong từng mảng vào mùa đông"
+  ]
+}

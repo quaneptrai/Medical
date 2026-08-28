@@ -1,0 +1,105 @@
+{
+  "disease_id": "DIGE_001",
+  "name_vi": "Viêm ruột thừa",
+  "name_en": "Appendicitis",
+  "category": "digestive",
+  "aliases": [
+    "Đau ruột thừa",
+    "Viêm ruột thừa cấp",
+    "Dau ruot thua",
+    "Đau hố chậu phải"
+  ],
+  "description": "Viêm ruột thừa là tình trạng sưng viêm cấp tính của ruột thừa, một túi nhỏ hình ngón tay nhô ra từ ruột già ở góc dưới bên phải ổ bụng. Đây là một cấp cứu y khoa ngoại khoa thường gặp nhất. Nếu không được chẩn đoán và phẫu thuật cắt bỏ kịp thời, ruột thừa có thể bị vỡ, gây viêm phúc mạc lan tỏa, nhiễm trùng huyết và nguy hiểm đến tính mạng.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau bụng bắt đầu quanh rốn sau đó di chuyển xuống hố chậu phải",
+        "name_en": "Periumbilical pain migrating to right lower quadrant",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Chán ăn, ăn không ngon miệng",
+        "name_en": "Anorexia",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Buồn nôn và nôn mửa",
+        "name_en": "Nausea and vomiting",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Sốt nhẹ (37.5°C - 38.5°C)",
+        "name_en": "Low-grade fever",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Rối loạn tiêu hóa (tiêu chảy nhẹ hoặc táo bón)",
+        "name_en": "Digestive disturbances (mild diarrhea or constipation)",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Bụng trướng nhẹ hoặc đầy hơi",
+        "name_en": "Abdominal bloating",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Đau khi tiểu tiện, tiểu dắt (khi ruột thừa nằm gần bàng quang)",
+        "name_en": "Dysuria or urinary frequency",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau bụng dữ dội đột ngột lan rộng ra toàn bộ ổ bụng (dấu hiệu vỡ ruột thừa)",
+    "Thành bụng co cứng như gỗ, ấn vào rất đau (dấu hiệu viêm phúc mạc)",
+    "Sốt cao trên 38.5°C kèm rét run",
+    "Mạch nhanh, tụt huyết áp, vã mồ hôi lạnh (dấu hiệu sốc nhiễm khuẩn)",
+    "Nôn mửa liên tục, không thể uống nước hoặc giữ thức ăn"
+  ],
+  "risk_factors": [
+    "Độ tuổi thanh thiếu niên và người trẻ (10 - 30 tuổi)",
+    "Giới tính nam (tỷ lệ mắc nhỉnh hơn nữ)",
+    "Tắc nghẽn lòng ruột thừa do sỏi phân, phì đại hạch mạc treo hoặc ký sinh trùng",
+    "Tiền sử gia đình có người bị viêm ruột thừa"
+  ],
+  "questions_to_ask": [
+    "Cơn đau của bạn có khởi phát từ quanh rốn rồi dịch chuyển xuống bụng dưới bên phải không?",
+    "Khi bạn ho, đi lại hoặc ấn vào bụng dưới bên phải rồi buông tay nhanh ra có bị đau thót/đau tăng lên không?",
+    "Bạn có bị mất cảm giác thèm ăn, chán ăn hoàn toàn đi kèm buồn nôn không?",
+    "Cơn đau này đã kéo dài liên tục bao nhiêu tiếng rồi?"
+  ],
+  "differential_diagnoses": [
+    "Viêm hạch mạc treo cấp",
+    "Viêm túi thừa Meckel hoặc viêm túi thừa đại tràng",
+    "Thai ngoài tử cung vỡ hoặc xoắn buồng trứng (ở phụ nữ)",
+    "Viêm phần phụ / Viêm vòi trứng",
+    "Cơn đau quặn thận / Viêm đường tiết niệu",
+    "Viêm ruột cấp / Viêm đại tràng"
+  ],
+  "urgency": "emergency",
+  "when_to_seek_emergency": [
+    "Đau nhói liên tục và tăng dần ở vùng bụng dưới bên phải kéo dài quá 2-4 giờ",
+    "Đau bụng kèm theo sốt, nôn mửa và chán ăn",
+    "Cơn đau đột ngột hết đau trong giây lát rồi lại đau dữ dội lan khắp bụng (nghi ngờ ruột thừa đã vỡ)",
+    "Bụng cứng đờ, đau thót khi di chuyển hoặc đụng vào"
+  ],
+  "user_language_variants": [
+    "đau bụng dưới bên phải nhói nhói",
+    "ban đầu đau quanh rốn giờ chạy sang bên phải",
+    "đau ruột thừa biểu hiện như nào",
+    "bị đau hố chậu phải ấn vào thọt người",
+    "đau bụng quằn quại kèm sốt nhẹ với buồn nôn",
+    "đau râm râm quanh rốn xong lệch xuống sườn phải",
+    "đau nhói góc bụng dưới bên phải đi lại cũng thót đau",
+    "sốt đùng đùng đau bụng dã dã bên phải",
+    "bị đau ruột thừa rồi đúng không",
+    "đau bụng phải ho nhẹ cũng thấy thót",
+    "chán ăn buồn nôn xong đau nhói bụng dưới phải",
+    "bụng bên phải đau thắt lại nghi vỡ ruột thừa",
+    "đau bụng bên phải gần háng"
+  ]
+}

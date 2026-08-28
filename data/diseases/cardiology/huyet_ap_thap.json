@@ -1,0 +1,84 @@
+{
+  "disease_id": "CARD_005",
+  "name_vi": "Huyết áp thấp",
+  "name_en": "Hypotension",
+  "category": "cardiology",
+  "aliases": [
+    "Tụt huyết áp",
+    "Hạ huyết áp tư thế"
+  ],
+  "description": "Tình trạng huyết áp tâm thu dưới 90 mmHg hoặc huyết áp tâm trương dưới 60 mmHg, làm giảm lưu lượng máu nuôi não và các cơ quan.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Chóng mặt, hoa mắt khi đứng dậy đột ngột",
+        "name_en": "Orthostatic dizziness",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Xây xẩm mặt mày, mắt tối sầm lại",
+        "name_en": "Blurred vision, blacking out",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Mệt mỏi rã rời, buồn ngủ ban ngày",
+        "name_en": "Fatigue, lethargy",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Buồn nôn, toát mồ hôi lạnh",
+        "name_en": "Nausea, cold sweats",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Khó tập trung, suy giảm trí nhớ tạm thời",
+        "name_en": "Poor concentration",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Ngất xỉu thoáng qua",
+        "name_en": "Syncope",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Huyết áp tụt sâu kèm mạch nhanh nhỏ khó bắt, da tái lạnh vã mồ hôi (dấu hiệu sốc)",
+    "Chấn thương nặng do ngất ngã",
+    "Nôn ra máu hoặc đi ngoài phân đen kèm tụt huyết áp (xuất huyết tiêu hóa cấp)"
+  ],
+  "risk_factors": [
+    "Thiếu nước, mất máu",
+    "Suy dinh dưỡng, thiếu máu",
+    "Phụ nữ mang thai",
+    "Nằm bất động lâu ngày",
+    "Tác dụng phụ thuốc huyết áp"
+  ],
+  "questions_to_ask": [
+    "Bạn bị chóng mặt nhiều nhất khi đang ngồi/nằm rồi đứng dậy nhanh phải không?",
+    "Chỉ số huyết áp gần nhất đo được là bao nhiêu?",
+    "Bạn có bị nôn ói, tiêu chảy mất nước hay chảy máu ở đâu gần đây không?"
+  ],
+  "differential_diagnoses": [
+    "Rối loạn tiền đình",
+    "Thiếu máu",
+    "Hạ đường huyết",
+    "Thiếu nước cấp"
+  ],
+  "urgency": "moderate",
+  "when_to_seek_emergency": [
+    "Tụt huyết áp kèm ngất lịm, da tái lạnh, mạch đập yếu ớt",
+    "Nghi ngờ mất máu cấp hoặc sốc nhiễm trùng"
+  ],
+  "user_language_variants": [
+    "đang ngồi đứng dậy là tối sầm mặt mày lảo đảo",
+    "người yếu lả toát mồ hôi lạnh đo huyết áp có 85 trên 55",
+    "xây xẩm mặt mày muốn ngã gục khi đứng lên",
+    "tụt huyết áp người mệt lử run tay chân",
+    "hoa mắt chóng mặt đầu óc quay cuồng đo thấy tụt áp"
+  ]
+}

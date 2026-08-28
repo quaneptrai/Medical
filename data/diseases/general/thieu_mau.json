@@ -1,0 +1,126 @@
+{
+  "disease_id": "GENE_001",
+  "name_vi": "Thiếu máu",
+  "name_en": "Anemia",
+  "category": "general",
+  "aliases": [
+    "Bệnh thiếu máu",
+    "Hội chứng thiếu máu",
+    "Giảm hồng cầu",
+    "Giảm hemoglobin"
+  ],
+  "description": "Thiếu máu là tình trạng giảm số lượng hồng cầu hoặc nồng độ hemoglobin trong máu ngoại vi dẫn đến giảm khả năng vận chuyển oxy đến các mô tế bào trong cơ thể. Bệnh gây ra các biểu hiện đặc đặc trưng như mệt mỏi kéo dài, da xanh xao, hoa mắt chóng mặt và giảm khả năng làm việc.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Mệt mỏi, uể uải kéo dài",
+        "name_en": "Fatigue and weakness",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Da xanh xao, niêm mạc mắt và môi nhợt nhạt",
+        "name_en": "Pale skin and mucous membranes",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Hoa mắt, chóng mặt khi thay đổi tư thế",
+        "name_en": "Dizziness and lightheadedness",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Hồi hộp, tim đập nhanh",
+        "name_en": "Palpitations",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Khó thở khi gắng sức nhẹ",
+        "name_en": "Shortness of breath on exertion",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đau đầu, nặng đầu",
+        "name_en": "Headache",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Móng tay giòn, dễ gãy, khum hình thìa",
+        "name_en": "Koilonychia / Brittle nails",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Tê bì tay chân",
+        "name_en": "Numbness in hands and feet",
+        "frequency": "occasional"
+      }
+    ],
+    "rare": [
+      {
+        "name_vi": "Thèm ăn các chất lạ như đá lạnh, đất, gạo sống (Hội chứng Pica)",
+        "name_en": "Pica syndrome",
+        "frequency": "rare"
+      },
+      {
+        "name_vi": "Viêm lưỡi, lưỡi mất gai sưng đau",
+        "name_en": "Glossitis",
+        "frequency": "rare"
+      },
+      {
+        "name_vi": "Vàng da, vàng mắt (gặp trong thiếu máu tán huyết)",
+        "name_en": "Jaundice",
+        "frequency": "rare"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đột ngột ngất xỉu hoặc mất ý thức",
+    "Đau ngực dữ dội, cảm giác ép chặt ngực",
+    "Khó thở dữ dội ngay cả khi nghỉ ngơi",
+    "Nôn ra máu tươi hoặc phân màu đen như bã cà phê, hôi tanh",
+    "Chảy máu ồ ạt không cầm (như xuất huyết âm đạo số lượng rất lớn)"
+  ],
+  "risk_factors": [
+    "Phụ nữ đang trong độ tuổi sinh sản có chu kỳ kinh nguyệt nhiều hoặc rong kinh",
+    "Phụ nữ đang mang thai hoặc cho con bú",
+    "Chế độ ăn uống thiếu sắt, vitamin B12 hoặc axit folic (ăn chay trường không đúng cách)",
+    "Tiền sử mắc các bệnh đường tiêu hóa gây mất máu mạn tính (viêm loét dạ dày, trĩ, polyp đại tràng)",
+    "Mắc các bệnh lý mạn tính như suy thận, ung thư, viêm khớp dạng thấp",
+    "Tiền sử gia đình mắc bệnh thiếu máu di truyền (như Thalassemia)"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng mệt mỏi, hoa mắt chóng mặt của bạn xuất hiện từ bao lâu rồi và có tăng dần theo thời gian không?",
+    "Bạn có nhận thấy môi, niêm mạc mắt hay lòng bàn tay của mình bị nhợt nhạt hơn so với trước đây không?",
+    "Gần đây bạn có dấu hiệu mất máu nào không (kinh nguyệt kéo dài, đi ngoài phân đen, chảy máu cam, đi cầu ra máu)?",
+    "Bạn có cảm thấy khó thở hoặc tim đập dồn dập khi leo cầu thang hay làm việc nhẹ không?",
+    "Chế độ ăn hằng ngày của bạn có hay ăn thịt đỏ, trứng, hải sản hay bạn đang ăn chay/kiêng khem nghiêm ngặt?"
+  ],
+  "differential_diagnoses": [
+    "Suy nhược thần kinh / Suy nhược cơ thể",
+    "Hạ huyết áp tư thế đứng",
+    "Suy giáp",
+    "Bệnh lý tim mạch (Suy tim)",
+    "Hội chứng kiệt sức (Burnout syndrome)"
+  ],
+  "urgency": "moderate_to_high",
+  "when_to_seek_emergency": [
+    "Ngất xỉu hoặc cảm thấy sắp ngất, không thể đứng vững",
+    "Đau tức ngực, hồi hộp kèm khó thở nghiêm trọng",
+    "Đi ngoài ra máu tươi nhiều hoặc phân đen như bã cà phê kèm chóng mặt vã mồ hôi",
+    "Môi và đầu ngón tay tím tái, mạch đập rất nhanh và yếu"
+  ],
+  "user_language_variants": [
+    "dạo này đứng lên ngồi xuống hay bị hoa mắt tối sầm mặt mày",
+    "da dạo này xanh xao nhìn nhợt nhạt như không có giọt máu",
+    "lúc nào cũng thấy mệt mỏi uể uải không muốn làm gì",
+    "môi thâm tái nhợt nhạt lòng bàn tay trắng bếch",
+    "tim đập thình thịch khi đi cầu thang thở không ra hơi",
+    "đứng dậy cái là chao đảo suýt ngã",
+    "người yếu vãi bước vài bước đã mệt thở dốc",
+    "đến kỳ kinh ra nhiều máu xong người lả đi",
+    "hay bị choáng váng nghi do thiếu máu não",
+    "đi xét nghiệm bác sĩ bảo bị tụt hồng cầu",
+    "tay chân hay bị tê bì đầu óc mơ hồ không tập trung được",
+    "da vàng khè xanh lét nhìn ghê quá"
+  ]
+}
