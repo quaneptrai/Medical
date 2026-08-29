@@ -1,0 +1,6 @@
+{
+  "source": "models/bge-m3-medical-v2-safe",
+  "source_model_sha256": "532318d1c7d143364d919e7520751f874723d15f63db5c965b4ae1305d8059e6",
+  "dtype": "float16",
+  "model_sha256": "e72ee7ad51b883cd31057c5c642b8530ad485e0335e8f125af8276433da83fbb"
+}

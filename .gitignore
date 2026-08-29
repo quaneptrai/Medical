@@ -19,3 +19,7 @@ data/finetune/
 dataset_candidates.json
 models/*
 !models/registry.json
+!models/*/
+models/*/*
+!models/*/blend_manifest.json
+!models/*/precision_manifest.json

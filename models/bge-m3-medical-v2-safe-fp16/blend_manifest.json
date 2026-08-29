@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-08-29T09:05:12.266625+00:00",
+  "method": "linear_weight_delta_scaling",
+  "base_model": "BAAI/bge-m3",
+  "tuned_model": "models/bge-m3-medical-v2",
+  "alpha": 0.07,
+  "model_sha256": "532318d1c7d143364d919e7520751f874723d15f63db5c965b4ae1305d8059e6",
+  "model_sha256_scope": "source_fp32_artifact",
+  "source_fp32_artifact": "models/bge-m3-medical-v2-safe",
+  "current_fp16_integrity_manifest": "precision_manifest.json",
+  "provenance_note": "This manifest was copied from the FP32 parent during FP16 export. model_sha256 identifies the parent FP32 artifact, not the model.safetensors beside this file.",
+  "selection_policy": "largest tested alpha with zero emergency_recall@5 regression"
+}

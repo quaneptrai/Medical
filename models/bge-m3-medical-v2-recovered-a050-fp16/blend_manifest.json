@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-08-29T10:11:43.968316+00:00",
+  "method": "extrapolated_from_quantized_linear_blend",
+  "base_model": "BAAI/bge-m3",
+  "tuned_model": null,
+  "source_blend": "D:\\BotMedical\\models\\bge-m3-medical-v2-safe-fp16",
+  "source_alpha": 0.07,
+  "alpha": 0.5,
+  "output_dtype": "float16",
+  "model_sha256": "4e4a45962d7a1063366968463314bbe4d45d9373202199c882a62b84dc6b6446",
+  "selection_policy": "candidate only; requires paired evaluation before deployment",
+  "limitations": [
+    "The original tuned checkpoint was unavailable.",
+    "FP16 source-blend rounding error is amplified by target_alpha/source_alpha.",
+    "This reconstructed candidate is not bit-equivalent to a blend made from the FP32 tuned checkpoint."
+  ]
+}
