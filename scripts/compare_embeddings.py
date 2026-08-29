@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import io
 import json
 import sys
 from datetime import datetime, timezone
@@ -13,7 +12,8 @@ import numpy as np
 from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
@@ -200,10 +200,16 @@ def enforce_quality_gate(all_results: dict, tolerance: float) -> None:
     regressions = []
     for benchmark in baseline:
         for mode in ("dense", "hybrid"):
-            for metric in ("recall@1", "recall@5"):
+            metrics = ["recall@1", "recall@5"]
+            if "emergency_recall@5" in baseline[benchmark][mode]:
+                metrics.append("emergency_recall@5")
+            for metric in metrics:
                 before = baseline[benchmark][mode][metric]
-                after = candidate[benchmark][mode][metric]
-                if after + tolerance < before:
+                after = candidate[benchmark][mode].get(metric)
+                metric_tolerance = 0.0 if metric == "emergency_recall@5" else tolerance
+                if after is None:
+                    regressions.append(f"{benchmark}.{mode}.{metric}: missing in candidate")
+                elif after + metric_tolerance < before:
                     regressions.append(
                         f"{benchmark}.{mode}.{metric}: {before:.2%} -> {after:.2%}"
                     )

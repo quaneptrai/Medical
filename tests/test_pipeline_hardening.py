@@ -5,7 +5,7 @@ from types import SimpleNamespace
 import pytest
 
 from scripts.calibrate_guardrail_threshold import load_labeled_cases
-from scripts.compare_embeddings import _is_expected, _matches
+from scripts.compare_embeddings import _is_expected, _matches, enforce_quality_gate
 from src.safety.guardrails import ClinicalGuardrailEngine
 
 
@@ -22,6 +22,24 @@ def test_embedding_metric_prefers_disease_id():
     disease = SimpleNamespace(disease_id="EXP_042", name_vi="Tên có thể thay đổi")
     assert _is_expected({"disease_id": "EXP_042", "expected_disease": "khác"}, disease)
     assert not _is_expected({"disease_id": "EXP_043", "expected_disease": "Tên có thể thay đổi"}, disease)
+
+
+def test_quality_gate_rejects_any_emergency_recall_regression():
+    common = {"recall@1": 0.5, "recall@5": 0.8, "emergency_cases": 34}
+    baseline = {
+        "generated_colloquial": {
+            "dense": {**common, "emergency_recall@5": 1.0},
+            "hybrid": {**common, "emergency_recall@5": 0.5},
+        }
+    }
+    candidate = {
+        "generated_colloquial": {
+            "dense": {**common, "emergency_recall@5": 33 / 34},
+            "hybrid": {**common, "emergency_recall@5": 0.5},
+        }
+    }
+    with pytest.raises(SystemExit, match=r"dense\.emergency_recall@5"):
+        enforce_quality_gate({"base": baseline, "candidate": candidate}, tolerance=0.005)
 
 
 def test_calibration_dataset_meets_minimum_size():

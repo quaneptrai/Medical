@@ -68,6 +68,22 @@ Nếu phiên SSH bị ngắt, chạy lại đúng lệnh. Trainer tự tìm chec
 trong `models/bge-m3-medical-v2/_checkpoints` và resume. Nên chạy trong `tmux`
 và đặt model/checkpoint trên volume persistent.
 
+## Bản phát hành weight-delta an toàn
+
+Pipeline production giữ riêng hai thư mục model:
+
+- `models/bge-m3-medical-v2-raw`: model fine-tune đầy đủ và checkpoint để resume.
+- `models/bge-m3-medical-v2`: model deploy được tạo bằng cách scale weight delta đã học.
+
+`BLEND_ALPHA=0.07` là giá trị mặc định đã được chọn trên benchmark độc lập. Không tăng
+giá trị này nếu chưa chạy lại toàn bộ quality gate. Gate cho phép tối đa 0,5 điểm phần
+trăm suy giảm ở Recall@1/Recall@5 thông thường và không cho phép bất kỳ suy giảm nào ở
+`emergency_recall@5`.
+
+Bản FP16 chỉ được deploy sau khi tự nó qua quality gate và calibration. Luôn lưu kèm
+`precision_manifest.json`, báo cáo comparison và báo cáo guardrail calibration của đúng
+precision đang chạy trong production.
+
 ## Artifact bắt buộc trước khi phát hành
 
 - `models/bge-m3-medical-v2/`: model cuối.
