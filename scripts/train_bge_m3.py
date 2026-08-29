@@ -224,6 +224,9 @@ def main():
     random.seed(3407)
     fine_dir = ROOT / "data" / "finetune"
     out_dir = ROOT / args.out
+    # data/finetune/ is gitignored, so a fresh clone does not have it and
+    # writing the task triplets there would fail before training even starts.
+    fine_dir.mkdir(parents=True, exist_ok=True)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     src = fine_dir / "embedding_triplets.jsonl"

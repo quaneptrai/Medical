@@ -1,0 +1,4770 @@
+{
+  "cases": [
+    {
+      "query": "Sức khỏe mẹ nó giờ yếu quá, đứng dậy đột ngột là chóng mặt hoa mắt luôn, mệt mệt muốn nằm ngủ cả ngày",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.244
+    },
+    {
+      "query": "Con tôi đi học về mệt xỉu, hoa mắt lúc đứng lên, mẹ lo quá",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.12
+    },
+    {
+      "query": "Ngồi dậy đột ngột chóng mặt quá, làm sao bây giờ?",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.316
+    },
+    {
+      "query": "Ngồi dậy đứng lên đột ngột là chóng mặt hoa mắt, mệt rã cả người",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.333
+    },
+    {
+      "query": "Bình thường ngồi 1 lát đứng lên đột ngột là chóng mặt hoa mắt, mệt mệt rã cả người",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.265
+    },
+    {
+      "query": "Bình thường ngồi 1 lát đứng lên đột ngột là chóng mặt hoa mắt, mệt mệt rã cả người",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.265
+    },
+    {
+      "query": "Ngồi 1 lát đứng lên đột ngột là chóng mặt, mệt mệt rã cả người",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Mẹ tôi ngồi 1 lát đứng lên đột ngột là chóng mặt hoa mắt, mệt rã cả người",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.281
+    },
+    {
+      "query": "Ngồi 1 lát đứng lên đột ngột chóng mặt hoa mắt, mệt mệt rã cả người",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.321
+    },
+    {
+      "query": "Mẹ em giờ lúc ngồi 1 lát đứng lên đột ngột là chóng mặt, hoa mắt, mệt rã cả người",
+      "expected_top": "Huyết áp thấp",
+      "expected_in_top3": [
+        "Huyết áp thấp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.257
+    },
+    {
+      "query": "Em ợ chua và đau ngực vừa rồi, bác sĩ ơi, có sao không?",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.087
+    },
+    {
+      "query": "Mẹ tôi đau quá, ngực như bị gì đó, đau từ ngực ra tay, đụng vào càng đau hơn",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.059
+    },
+    {
+      "query": "Con thấy mẹ đau ngực, đau quá, thở cũng khó",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.235
+    },
+    {
+      "query": "Mẹ em đau thắt ngực, đau từ ngực ra ra vai, em lo quá",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.3
+    },
+    {
+      "query": "Dạo này mẹ hay bị đau ngực, đau cả khi thở, đau ở giữa ngực",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.308
+    },
+    {
+      "query": "Mẹ tui đau quá, đau ngực dữ, đau cả khi ăn cơm",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Bây giờ em đau thắt ngực rồi, đau cả khi vận động, mẹ ơi, làm sao vậy?",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.207
+    },
+    {
+      "query": "Cháu bị đau thắt ở ngực, thở 1 cái là đau, đau suốt cả buổi chiều",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.276
+    },
+    {
+      "query": "Mẹ em đau ngực, tay chân yếu, cả người yếu ớt",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Mẹ tui đau thắt ngực, đau cả lúc đi lại, thở cũng khó",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.261
+    },
+    {
+      "query": "Bây giờ mẹ em đau ngực, đau cả khi nằm, đau cả hai bên",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.19
+    },
+    {
+      "query": "Mẹ tui đau thắt ở ngực, đau lúc nào cũng thế, thở cứ đau",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.24
+    },
+    {
+      "query": "Mẹ tui bị đau thắt ngực, đau cả khi đi lại, lúc nào cũng đau",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.308
+    },
+    {
+      "query": "Bố em đau thắt ở ngực, hay nôn, thở khó, buồn nôn",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.3
+    },
+    {
+      "query": "Mẹ tui đau ngực, đau cả khi đi, đau ở giữa ngực",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.3
+    },
+    {
+      "query": "Mẹ tui đau thắt ở ngực, đau cả khi thở, đau từ ngực ra tay",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Con thấy mẹ đau ngực, đau cả khi đi lại, thở cứ đau",
+      "expected_top": "Nhồi máu cơ tim",
+      "expected_in_top3": [
+        "Nhồi máu cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.182
+    },
+    {
+      "query": "Dạo này con hay cảm thấy tim đập loạn xạ, mẹ ợ",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.263
+    },
+    {
+      "query": "Tim đập nhanh quá, đứng dậy choáng váng, mẹ con tôi lo quá ơi",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.227
+    },
+    {
+      "query": "Còn hồi hộp quá, tim đập liên tục, hay bị bỏ lỡ nhịp, có sao không hả bác sĩ?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.152
+    },
+    {
+      "query": "Đêm qua ngủ giật, tim đập mạnh, sáng dậy mệt mỏi, mẹ con kêu",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.13
+    },
+    {
+      "query": "Con hay cảm thấy tim đập yếu ớt, hồi hộp, đứng lên chóng mặt, mẹ ốm thật à?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.161
+    },
+    {
+      "query": "Con kêu tim đập không đều, hồi hộp, mẹ ơi, có sao không?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.238
+    },
+    {
+      "query": "Đến giờ này vẫn cảm thấy tim đập mạnh, hồi hộp, hay bỏ lỡ nhịp, mẹ",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.107
+    },
+    {
+      "query": "Em hay cảm thấy tim đập mạnh, đánh trống liên tục, đứng lên chóng mặt, làm sao vậy?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.233
+    },
+    {
+      "query": "Hồi hộp quá, tim đập nhanh, đứng lên chóng mặt, con lo lắm",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.3
+    },
+    {
+      "query": "Bà xã kêu tim đập nhanh, đánh trống liên tục, chóng mặt, có sao không?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.32
+    },
+    {
+      "query": "Mẹ con kêu tim đập mạnh, hụt hơi, đứng dậy chóng mặt, có sao không?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Cô con kêu tim đập mạnh, hồi hộp, có sao không, bác sĩ ơi?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.13
+    },
+    {
+      "query": "Em kêu tim đập nhanh, đánh trống liên tục, có sao không, mẹ?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.3
+    },
+    {
+      "query": "Cảm thấy tim đập mạnh, đánh trống liên tục, mệt mỏi lắm, con lo lắm",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.28
+    },
+    {
+      "query": "Con kêu tim đập mạnh, đánh trống liên tục, chóng mặt, có sao không?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.304
+    },
+    {
+      "query": "Cô con kêu tim đập mạnh, hồi hộp, mệt mỏi, chóng mặt, có sao không?",
+      "expected_top": "Rối loạn nhịp tim",
+      "expected_in_top3": [
+        "Rối loạn nhịp tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.28
+    },
+    {
+      "query": "Con nằm ngủ đầu thấp là khó thở, đứng lên ngồi lên là dễ thở quá",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.172
+    },
+    {
+      "query": "Lúc trước không sao giờ nằm gối cao lên mới thở được, nằm phẳng là khó thở lắm",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Tay chân sưng to quá, mẹ bảo là do bị suy tim",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.118
+    },
+    {
+      "query": "Hai chân và mắt cá chân nó to quá, có khi còn sưng cả mu",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Bữa đẻ ra dễ mệt lắm, giờ làm gì cũng kiệt sức nhanh",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.136
+    },
+    {
+      "query": "Ban đêm hok ngủ được vì ho khản vào, hok biết làm sao với nó",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.043
+    },
+    {
+      "query": "Cứ thấy ho dai dẳng vào lúc nửa đêm, không biết phải làm sao",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.13
+    },
+    {
+      "query": "Hai chân to lên nhanh quá, đùi to to như vậy, mùng 2 tháng qua còn tăng thêm 2kg",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con ăn không ngon, chán ăn quá, toàn uống nước",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Cháu bị ứ máu ở gan và ruột rồi à, thấy cháu mệt mỏi quá",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.074
+    },
+    {
+      "query": "Bố có bị sưng tay chân không nhỉ, mệt quá",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Mẹ tôi bị thở không nổi, cứ phải ngồi dậy mới thở được",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.333
+    },
+    {
+      "query": "Nằm ngủ đầu cao hơn mới thở được, nằm phẳng thì thở khó",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.087
+    },
+    {
+      "query": "Đêm qua em thấy mẹ ho khan suốt, hok dám ngắt tivi",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Cháu ngủ dậy thấy hai chân sưng to, sờ thấy mềm mềm",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.1
+    },
+    {
+      "query": "Dạo này con ăn ko ngon, toàn uống nước",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Bố bị ho khan suốt đêm, mẹ bảo hok biết làm sao",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Bố hay bị phù chân, hai chân và mắt cá chân to quá",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.19
+    },
+    {
+      "query": "Tối qua thấy mẹ ho khan, hok dám tắt tivi, sợ mẹ mệt",
+      "expected_top": "Suy tim",
+      "expected_in_top3": [
+        "Suy tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con kêu bị ù tai và mệt mỏi quá bác ơi",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Mẹ tôi bị đỏ mặt dữ quá, mặt phẳng phiu không biết sao",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Sao lại hoa mắt hoài vậy bác, con hay bị",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.143
+    },
+    {
+      "query": "Dạo này mẹ hay hồi hộp và mất ngủ quá",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.235
+    },
+    {
+      "query": "Bố tôi bị ù tai lâu rồi, sao lại thế",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.062
+    },
+    {
+      "query": "Mẹ bị đỏ mặt và đau đầu sau gáy, có sao không bác",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.227
+    },
+    {
+      "query": "Mẹ tôi hay mất ngủ không ngủ được",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.154
+    },
+    {
+      "query": "Con bị ù tai và chóng mặt, có sao không bác",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.176
+    },
+    {
+      "query": "Mẹ kêu bị mệt mỏi và mất ngủ suốt đêm",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Bố kêu bị ù tai rồi chóng mặt và mất ngủ",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.263
+    },
+    {
+      "query": "Mẹ kêu bị đỏ mặt và mệt mỏi",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.143
+    },
+    {
+      "query": "Con bị ù tai không biết làm sao",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.091
+    },
+    {
+      "query": "Bố bị ù tai và chóng mặt, sao mà thế",
+      "expected_top": "Tăng huyết áp",
+      "expected_in_top3": [
+        "Tăng huyết áp"
+      ],
+      "category": "cardiology",
+      "is_emergency": false,
+      "leak_ratio": 0.188
+    },
+    {
+      "query": "Con đau ngực sau này sốt cảm cúm, làm sao vậy má?",
+      "expected_top": "Viêm cơ tim",
+      "expected_in_top3": [
+        "Viêm cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.316
+    },
+    {
+      "query": "Sau sốt cúm, ngực đau tức, thở dồn dập, sao nhỉ?",
+      "expected_top": "Viêm cơ tim",
+      "expected_in_top3": [
+        "Viêm cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.278
+    },
+    {
+      "query": "Sau khi sốt, ngực đau tức, thở dồn dập, sao mà vậy?",
+      "expected_top": "Viêm cơ tim",
+      "expected_in_top3": [
+        "Viêm cơ tim"
+      ],
+      "category": "cardiology",
+      "is_emergency": true,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Da tay chân cứ ngứa dữ dội, đêm khuya càng nhiều, làm sao để đỡ vậy anh ơi?",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.138
+    },
+    {
+      "query": "Mẹ tôi bị da khô quá, rát ngứa, cứ gãi mãi không thôi, có cách nào không ạ?",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.03
+    },
+    {
+      "query": "Con tôi kêu da nó khô khan, rạm mặt lên rồi, liệu có sao không ạ?",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Cháu cứ ngứa ngáy ở cổ, khuỷu tay, khoeo chân, mẹ lo lắm",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.286
+    },
+    {
+      "query": "Da ở những chỗ gấp bị khô, rát ngứa, có chỗ bong da, gãi nhiều nổi rãnh lên, có sao không ạ?",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.053
+    },
+    {
+      "query": "Da chỗ nếp gấp cứ ngứa, rộp, mọc mụn nước rồi bị vỡ, chảy dịch, chốc vàng mọc lên",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.229
+    },
+    {
+      "query": "Ngủ đêm mà ngứa quá, khó chịu, có cách nào khỏi nhanh không ạ?",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Da tay chân kia ngứa dữ dội, nhìn thì khô ráp, dễ bong tróc",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.318
+    },
+    {
+      "query": "Con tôi kêu ngứa ở cổ, khuỷu tay, khoeo chân, mẹ thấy có chỗ bong da",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.16
+    },
+    {
+      "query": "Da chỗ nếp gấp cứ ngứa, rộp, có vảy, mẹ lo lắm",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.1
+    },
+    {
+      "query": "Da chỗ nếp gấp bị ngứa, khô, bong tróc, mẹ lo con bị gì",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.136
+    },
+    {
+      "query": "Da chỗ nếp gấp kia ngứa dữ dội, có chỗ bong tróc, mẹ lo lắm",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.292
+    },
+    {
+      "query": "Con tôi kêu ngứa ở cổ, khuỷu tay, khoeo chân, da khô, bong tróc",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.286
+    },
+    {
+      "query": "Da chỗ nếp gấp kia ngứa, rộp, có vảy, mẹ lo con bị sao",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.095
+    },
+    {
+      "query": "Con kêu ngứa ở cổ, khuỷu tay, khoeo chân, mẹ lo lắm",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Da chỗ nếp gấp bị ngứa, rộp, vảy, chốc vàng mọc lên, mẹ lo quá",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.077
+    },
+    {
+      "query": "Con kêu ngứa ở cổ, khuỷu tay, khoeo chân, mẹ lo lắm, có cách nào khỏi nhanh không ạ?",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.129
+    },
+    {
+      "query": "Da chỗ nếp gấp bị ngứa, rộp, chốc vàng mọc lên, mẹ lo quá, con bị sao?",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.071
+    },
+    {
+      "query": "Con kêu ngứa ở cổ, khuỷu tay, khoeo chân, mẹ lo quá",
+      "expected_top": "Chàm (Viêm da cơ địa)",
+      "expected_in_top3": [
+        "Chàm (Viêm da cơ địa)"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Da mặt con tôi nổi nhiều mụn đỏ, ngứa lắm, mẹ ơi!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Mẹ ơi, tay con bị sưng to lên, nổi mẩn đỏ nhiều.",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.263
+    },
+    {
+      "query": "Con kêu da bị ngứa quá, nổi sẩn hết cả người, mẹ ơi giúp con với!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Da mặt con nổi mẩn đỏ, ngứa ngáy không chịu nổi!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Đêm qua con nổi nhiều mẩn trên mặt, ngứa quá mẹ ơi!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.1
+    },
+    {
+      "query": "Da con nổi sẩn hồng đỏ, ngứa dữ dội, mẹ ơi!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Da con nổi mẩn, ngứa quá, nổi nhiều sẩn trên mặt và cổ!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.182
+    },
+    {
+      "query": "Da con nổi sẩn, ngứa ngáy, có chỗ đỏ, có chỗ trắng!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con nổi mẩn khắp người, ngứa quá mẹ ơi, sao khắc phục?",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.3
+    },
+    {
+      "query": "Con nổi nhiều mẩn đỏ, ngứa dữ dội, sưng to mắt mẹ ơi!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.227
+    },
+    {
+      "query": "Da mặt con nổi mụn đỏ, ngứa ngáy, nổi lên nhanh quá!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con nổi mẩn, ngứa ngáy, con kêu đau bụng mẹ ơi!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Da con nổi nhiều mẩn, ngứa quá, nổi lên nhanh!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con nổi mẩn đỏ, ngứa ngáy, có chỗ sưng to, mẹ ơi!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Da mặt con nổi mẩn đỏ, ngứa ngáy, nổi sẩn nhanh!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.235
+    },
+    {
+      "query": "Con nổi mẩn đỏ, ngứa ngáy, con kêu bụng đau mẹ ơi!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Da con nổi nhiều mẩn, ngứa ngáy, nổi nhanh lặn nhanh!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.062
+    },
+    {
+      "query": "Da con nổi mẩn, ngứa ngáy, nổi lên sưng to như đùa!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.158
+    },
+    {
+      "query": "Con nổi mẩn đỏ, ngứa ngáy, nổi sẩn nhanh lặn nhanh!",
+      "expected_top": "Mề đay",
+      "expected_in_top3": [
+        "Mề đay"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.235
+    },
+    {
+      "query": "Mẹ tôi bị nhiều đốm đỏ trên mặt",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con kêu bị mụn nhiều, da nhờn quá",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Mặt em nổi nhiều mụn màu trắng dưới da",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.214
+    },
+    {
+      "query": "Trán con đầy mụn, nổi nhiều sẩn đỏ",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.308
+    },
+    {
+      "query": "Ngày trước nhiều đốm đầu đen, giờ nhiều mụn mủ",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.333
+    },
+    {
+      "query": "Mặt em nổi nhiều mụn mủ, đau rớn",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.308
+    },
+    {
+      "query": "Da mặt con nhiều mụn, đau quá",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Con tôi nổi nhiều sẩn đỏ, tèo teo",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Mẹ bị nhiều đốm trên mặt, rát rát",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Mặt em nhiều đốm, sưng mưng mủ",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Lưng mẹ nổi nhiều đốm, đau",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con tôi kêu nhiều đốm trên mặt",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Da con nhiều đốm đỏ",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Mẹ bị mụn nhiều, đau quá",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con nổi nhiều đốm, sưng mủ",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Mẹ tôi bị nhiều đốm trên mặt, đau",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.071
+    },
+    {
+      "query": "Da con nhiều đốm, sưng mủ",
+      "expected_top": "Mụn trứng cá",
+      "expected_in_top3": [
+        "Mụn trứng cá"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Da chỗ này ngứa dữ dội, mẹ tôi kêu lúc nóng quá càng ngứa hơn",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.074
+    },
+    {
+      "query": "Vết này giống đồng xu trên da em, chỗ nách cũng có",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.158
+    },
+    {
+      "query": "Môi trường này ngứa quá, chỗ rốn cũng bị, mẹ con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.048
+    },
+    {
+      "query": "Ngứa quá, em bị ngứa chỗ lưng cũng chỗ kẽ tay, mẹ kêu giống nấm",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Da chỗ nách của con có hột nhỏ li ti, sờ đau",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.111
+    },
+    {
+      "query": "Đôi chỗ da có mụn nước nhỏ, chỗ kia khô vảy, mẹ hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.182
+    },
+    {
+      "query": "Da chỗ kẽ tay ngứa dữ dội, chỗ kia thâm sạm",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.235
+    },
+    {
+      "query": "Da chỗ kia sưng đỏ, con bị ngứa chỗ bẹn kêu",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Da chỗ bẹn có mụn nước, chỗ nách sưng đỏ, mẹ hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.095
+    },
+    {
+      "query": "Da chỗ kẽ tay ngứa, chỗ lưng cũng bị, có vết sần sùi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.045
+    },
+    {
+      "query": "Da chỗ này sưng, chỗ khác khô vảy, con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Da chỗ này ngứa, chỗ kia thâm sạm, con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.133
+    },
+    {
+      "query": "Da chỗ này ngứa, chỗ kia thâm sạm, mẹ con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.118
+    },
+    {
+      "query": "Da chỗ này ngứa dữ dội, chỗ kia thâm sạm, con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Da chỗ này ngứa, chỗ kia thâm sạm, mẹ con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.118
+    },
+    {
+      "query": "Đôi chỗ ngứa, chỗ kia thâm sạm, con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.143
+    },
+    {
+      "query": "Da chỗ này thâm sạm, chỗ kia ngứa dữ dội, mẹ con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.19
+    },
+    {
+      "query": "Da chỗ kia thâm sạm, chỗ này ngứa dữ dội, mẹ con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.19
+    },
+    {
+      "query": "Da chỗ này ngứa, chỗ kia thâm sạm, mẹ con hỏi",
+      "expected_top": "Nấm da",
+      "expected_in_top3": [
+        "Nấm da"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.118
+    },
+    {
+      "query": "Da tay chân sưng đỏ rõ, bị vảy nhiều, mẹ tôi kêu ngứa",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.045
+    },
+    {
+      "query": "Tay chân bị đỏ, vảy nhiều, ngứa ngáy, mẹ tôi bảo như vậy",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.13
+    },
+    {
+      "query": "Da đầu gối bị vảy nhiều, sưng đỏ, ngứa ngáy, mẹ tôi kêu",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.13
+    },
+    {
+      "query": "Da tay chân bị vảy, sưng đỏ, ngứa ngáy, kệ mẹ bảo như vậy",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Chân tay có vảy, sưng đỏ, ngứa, mẹ tôi bảo như vậy",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Đau nhức tay chân, da đầu gối bị vảy, ngứa ngáy, mẹ tôi nói",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Da tay chân có vảy, sưng đỏ, ngứa ngáy, mẹ tôi nói thế",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.045
+    },
+    {
+      "query": "Da tay chân đỏ, vảy, ngứa, con tôi bảo thế",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.067
+    },
+    {
+      "query": "Da đầu gối bị sưng đỏ, vảy nhiều, ngứa ngáy, con tôi nói",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.136
+    },
+    {
+      "query": "Da tay chân bị vảy, sưng đỏ, ngứa ngáy, con tôi nói",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.158
+    },
+    {
+      "query": "Da tay chân bị đỏ, ngứa ngáy, có vảy, mẹ tôi kêu",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.15
+    },
+    {
+      "query": "Da đầu gối, tay chân bị vảy, sưng đỏ, ngứa ngáy, con tôi nói",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.261
+    },
+    {
+      "query": "Da tay chân sưng đỏ, vảy nhiều, ngứa ngáy, mẹ tôi bảo như vậy",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.042
+    },
+    {
+      "query": "Chân tay bị đỏ, vảy nhiều, ngứa ngáy, con tôi kêu",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.056
+    },
+    {
+      "query": "Da tay chân bị đỏ, vảy, ngứa ngáy, mẹ tôi bảo",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Da tay chân bị vảy, sưng đỏ, ngứa ngáy, mẹ tôi bảo",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.15
+    },
+    {
+      "query": "Da tay chân, đầu gối bị vảy, sưng đỏ, ngứa ngáy, mẹ tôi kêu",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Da tay chân, chân bị đỏ, vảy nhiều, ngứa ngáy, mẹ tôi bảo",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.136
+    },
+    {
+      "query": "Da tay chân, chân bị vảy, sưng đỏ, ngứa ngáy, mẹ tôi bảo",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.136
+    },
+    {
+      "query": "Chân tay bị đỏ, vảy nhiều, ngứa ngáy, mẹ tôi bảo",
+      "expected_top": "Vẩy nến",
+      "expected_in_top3": [
+        "Vẩy nến"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.053
+    },
+    {
+      "query": "Con ơi, mẹ bị đau rát người bên phải, nhìn thấy đống nước mủ mọc dọc dưới cánh tay, mẹ bị sao thế con?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.1
+    },
+    {
+      "query": "Mẹ ớn, đau quá trời, đau như bị châm kim, sờ vào là đau, người nóng hốt, mẹ bị Zona kín không?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.15
+    },
+    {
+      "query": "Bị đau rát ở một bên người, có mấy đốm nho nhỏ sưng đỏ, sờ vào là đau rát quá, mẹ hỏi bị gì?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.186
+    },
+    {
+      "query": "Con ơi, em bị đau như đâm kim, châm chích, người nóng, mẹ hỏi bị Zona à?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.214
+    },
+    {
+      "query": "Mẹ nóng, bị đau rát, sưng đỏ, châm chích như kim châm, nhìn thấy có mấy vệt trắng nổi, mẹ hỏi bị gì?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.209
+    },
+    {
+      "query": "Cơ thể em bị đau rát, sưng đỏ, có mấy chấm nhỏ nước ở giữa, em kêu bị Zona đó con?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.194
+    },
+    {
+      "query": "Chú ơi, chú bị đau rát ở hai bên tay, có mấy đốm nhỏ nước, bị sao thế chú?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.061
+    },
+    {
+      "query": "Mẹ ơi, mẹ bị đau rát, châm chích như kim châm, nhìn thấy có mấy đốm nhỏ sưng đỏ, mẹ bị gì thế con?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.214
+    },
+    {
+      "query": "Con ơi, mẹ bị đau như bị châm kim, châm chích, nhìn thấy có mấy chấm nhỏ nổi, có phải Zona không?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.179
+    },
+    {
+      "query": "Bị đau rát, châm chích, có mấy đốm nhỏ nổi, người nóng, mệt, mẹ hỏi bị Zona kín không?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.143
+    },
+    {
+      "query": "Mẹ bị đau rát, châm chích, chập chùng như bị đốt, mẹ hỏi bị Zona kín không?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.226
+    },
+    {
+      "query": "Con ơi, mẹ bị đau rát, châm chích như bị châm kim, chập chùng, có mấy đốm nhỏ nổi, mẹ hỏi bị gì?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.19
+    },
+    {
+      "query": "Bị đau rát, châm chích, sưng đỏ, có mấy đốm nhỏ, mẹ hỏi bị Zona à?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.172
+    },
+    {
+      "query": "Mẹ bị đau rát, châm chích, chập chùng, có mấy đốm nước nhỏ, mẹ bị sao thế con?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.133
+    },
+    {
+      "query": "Con ơi, mẹ bị đau rát, châm chích, sưng đỏ, có mấy đốm nước nhỏ, mẹ hỏi bị Zona kín không?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.132
+    },
+    {
+      "query": "Bị đau rát, châm chích, chập chùng như bị đốt, có mấy đốm nhỏ nổi, mẹ hỏi bị gì?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Mẹ bị đau rát, châm chích, chập chùng như bị đốt, có mấy đốm nhỏ nổi, mẹ hỏi bị Zona kín không?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.171
+    },
+    {
+      "query": "Bị đau rát, châm chích, sưng đỏ, có mấy đốm nhỏ nổi, mẹ hỏi bị Zona kín không?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.152
+    },
+    {
+      "query": "Bị đau rát, châm chích, sưng đỏ, có mấy đốm nhỏ nổi, mẹ hỏi bị Zona kín không?",
+      "expected_top": "Zona thần kinh",
+      "expected_in_top3": [
+        "Zona thần kinh"
+      ],
+      "category": "dermatology",
+      "is_emergency": false,
+      "leak_ratio": 0.152
+    },
+    {
+      "query": "Buồn nôn vặt, đi ngoài lỏng lẻo, chướng bụng quá, sao y như mẹ nói lúc bị ốm dở?",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.176
+    },
+    {
+      "query": "Con trai kêu đau bụng quặn quặt, đi ngoài nhiều, đi toilet vội vã quá, sao vậy?",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.214
+    },
+    {
+      "query": "Mẹ tôi đi ngoài tiêu chảy, co thắt bụng kinh khủng, đi lại ít rồi ốm cả người",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.219
+    },
+    {
+      "query": "Đau lưng ê ẩm, đi ngoài lỏng lỏng, con kêu bụng đầy hơi quá, uể oải cả ngày",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.242
+    },
+    {
+      "query": "Tiêu chảy kinh khủng, đi nhiều nước, chướng bụng khó chịu quá, con trai kêu",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.16
+    },
+    {
+      "query": "Mẹ tôi kêu đau lưng, đi ngoài tiêu chảy, uể oải mệt mỏi lắm, có phải bị gì không?",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Con kêu đau bụng quặn quặn, đi ngoài nhiều nước, mệt mỏi cả người, có sao không?",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.267
+    },
+    {
+      "query": "Mẹ kêu đi ngoài tiêu chảy, chướng bụng, đau lưng đau khớp, có phải bị gì không?",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.312
+    },
+    {
+      "query": "Đau bụng quặn quặn, đi ngoài nhiều nước, chướng bụng, mẹ kêu mệt mỏi quá, sao vậy?",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.323
+    },
+    {
+      "query": "Buồn nôn, chướng bụng, đi ngoài nhiều nước, mẹ kêu uể oải, sao mẹ lại thế?",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.276
+    },
+    {
+      "query": "Mẹ tôi kêu đau lưng, đi ngoài tiêu chảy, chướng bụng, mệt mỏi quá, có sao không?",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.323
+    },
+    {
+      "query": "Mẹ tôi kêu đau lưng, chướng bụng, đi ngoài tiêu chảy, uể oải quá, có sao không?",
+      "expected_top": "Hội chứng ruột kích thích",
+      "expected_in_top3": [
+        "Hội chứng ruột kích thích"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.323
+    },
+    {
+      "query": "Mẹ tôi đau quá, bên hông phải, giống như bị kim châm vậy, làm sao vậy anh?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.103
+    },
+    {
+      "query": "Con đau bụng, bụng bên phải nặng quá, ương lên giống như có cái gì quặn vậy, có sao không anh?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.135
+    },
+    {
+      "query": "Bị đau bụng quá, giống như có cái gì dồn ở trong bụng, đau suốt cả đêm, làm sao vậy ạ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.184
+    },
+    {
+      "query": "Con đau bụng quá, mỗi lần ăn nhiều dầu mỡ càng đau hơn, mẹ con đau thế này, có sao không?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Bị đau bụng, đau từ trong ra ngoài, giống như bị kim đâm vậy, làm sao anh?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.259
+    },
+    {
+      "query": "Bị đau bụng, nhức buốt, đau kiểu quặn, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.217
+    },
+    {
+      "query": "Mẹ bị đau bụng, đau từ trên dạ dày xuống hông phải, đau liên tục, có sao không bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.27
+    },
+    {
+      "query": "Con đau bụng, đau từ bên trên xuống, bên hông phải nhiều, làm sao vậy ạ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.214
+    },
+    {
+      "query": "Bị đau bụng, đau kiểu quặn, đau từ hông đến lưng, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.241
+    },
+    {
+      "query": "Bị đau bụng, đau kiểu quặn, đau từ bên trên xuống, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.241
+    },
+    {
+      "query": "Mẹ bị đau bụng, đau suốt cả ngày, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.304
+    },
+    {
+      "query": "Bị đau bụng, đau kiểu quặn, đau từ bên trên xuống, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.241
+    },
+    {
+      "query": "Bị đau bụng, đau kiểu quặn, đau từ bên hông phải xuống lưng, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.212
+    },
+    {
+      "query": "Bị đau bụng, đau kiểu quặn, đau từ bên hông phải xuống lưng, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.212
+    },
+    {
+      "query": "Bị đau bụng, đau kiểu quặn, đau từ bên hông phải xuống lưng, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.212
+    },
+    {
+      "query": "Bị đau bụng, đau kiểu quặn, đau từ bên hông phải xuống lưng, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.212
+    },
+    {
+      "query": "Con bị đau bụng, đau kiểu quặn, đau từ bên trên xuống, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.233
+    },
+    {
+      "query": "Bị đau bụng, đau kiểu quặn, đau từ bên trên xuống, làm sao vậy bác sĩ?",
+      "expected_top": "Sỏi mật",
+      "expected_in_top3": [
+        "Sỏi mật"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.241
+    },
+    {
+      "query": "Sao ợ chua liên tục thế mẹ ơi, cơm tối nay ăn xong hôi đắng r nhỉ",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.148
+    },
+    {
+      "query": "Con bữa giờ ợ nóng lắm, ợ ra khói luôn mẹ ơi, làm sao vậy?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.08
+    },
+    {
+      "query": "Buổi sáng thức dậy họng khô r, ợ chua suốt đêm ơi",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.15
+    },
+    {
+      "query": "Mẹ ơi, tối qua ăn nhiều ợ chua, hôm nay ăn sáng bị ợ nữa, sao thế?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.179
+    },
+    {
+      "query": "Đau vùng giữa ngực, ợ chua nhiều quá, mẹ ơi, làm sao đây?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.045
+    },
+    {
+      "query": "Buổi tối nằm ngủ ợ chua đến 3, 4 lần, cơm tối cũng ăn rồi còn ợ nữa. Sao thế nhỉ?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.028
+    },
+    {
+      "query": "Thỉnh thoảng ợ chua sau bữa, lúc thì ợ nóng. Mình nên làm sao?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.13
+    },
+    {
+      "query": "Cái họng nghẹn ngào, ợ chua nhiều, mẹ ơi, có phải bệnh gì không?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.04
+    },
+    {
+      "query": "Bữa nay ăn xong ợ chua, ợ nóng suốt đêm, mẹ ơi, có sao không?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Buổi tối ợ chua, ợ nóng, cơm tối ăn xong ợ chua ngay, sao thế?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.273
+    },
+    {
+      "query": "Bữa trưa ăn quá no ợ chua, bữa tối cũng vậy, họng ngứa ngứa, mẹ ơi",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.143
+    },
+    {
+      "query": "Sao cơm tối ăn xong ợ chua, ợ nóng suốt đêm, mẹ ơi, liệu có sao không?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.214
+    },
+    {
+      "query": "Con đêm qua ợ chua, ợ nóng, họng ngứa, sao thế mẹ?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.278
+    },
+    {
+      "query": "Đột nhiên buổi sáng họng khô, ợ chua, ợ nóng, có bệnh gì không?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.28
+    },
+    {
+      "query": "Cơm tối ăn no ợ chua, ợ nóng suốt đêm, sao vậy?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.263
+    },
+    {
+      "query": "Mình ợ chua, ợ nóng, cơm tối ăn xong ợ chua ngay, mẹ ơi",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.286
+    },
+    {
+      "query": "Buổi sáng họng khô, ợ chua, ợ nóng, mẹ ơi, liệu có sao không?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.292
+    },
+    {
+      "query": "Bữa trưa ăn nhiều ợ chua, ợ nóng, họng ngứa, mẹ ơi, làm sao vậy?",
+      "expected_top": "Trào ngược dạ dày thực quản",
+      "expected_in_top3": [
+        "Trào ngược dạ dày thực quản"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.269
+    },
+    {
+      "query": "Cả bụng trên cứ đau rát, ăn xong lại buồn nôn, bữa giờ ăn gì cũng chán",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.258
+    },
+    {
+      "query": "Mẹ tôi ợ hơi nhiều quá, ăn không chán ăn không tiêu",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.3
+    },
+    {
+      "query": "Con nhà em bị chướng bụng quá, ăn xong bụng đau quá",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.105
+    },
+    {
+      "query": "Đất miền Trung ơi, con ợ hơi nhiều quá, không ăn ngon gì cả",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.087
+    },
+    {
+      "query": "Buổi sáng dậy mùng 2 Tết, bụng ọ ọ, ăn xong no sớm quá",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.043
+    },
+    {
+      "query": "Em gái nhà bác kêu bị đau bụng, chán ăn, cả ngày buồn nôn",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.32
+    },
+    {
+      "query": "Lúc nãy ăn cơm xong, bụng no ngay luôn, không ăn được gì nữa",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Bụng trên cứ đau đớn, ợ hơi nhiều, không thể ăn gì cả",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Có ai biết làm gì với đứa con ợ chua nhiều quá không?",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.048
+    },
+    {
+      "query": "Bụng mẹ tôi không chừng, chán ăn, cả ngày ợ hơi",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Hôm nay đi chơi về, con gái kêu bụng no quá, không ăn được gì",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Em gái nhà hàng xóm, ăn xong no chớp mắt, không muốn ăn gì cả",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Buồn nôn quá, ăn xong no ngay, không ăn được gì hết",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.105
+    },
+    {
+      "query": "Cháu nhà tôi vừa nôn ra máu, bố mẹ lo quá, không biết làm sao",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.12
+    },
+    {
+      "query": "Dạo này bụng trên cứ đau rát, chán ăn, ăn xong ngay lập tức no",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.32
+    },
+    {
+      "query": "Bố kêu bụng chướng, ăn xong no ngay, không dám ăn gì",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.053
+    },
+    {
+      "query": "Hôm nay đi chơi, về nhà mẹ kêu đau bụng, chán ăn",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.19
+    },
+    {
+      "query": "Con gái nhà hàng xóm kêu đau dạ dày, không ăn gì cả",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.174
+    },
+    {
+      "query": "Bụng con nhà hàng xóm cứ đau rát, chán ăn, nôn ra chất xanh",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.304
+    },
+    {
+      "query": "Mẹ nhà hàng xóm kêu bụng no quá, không dám ăn gì",
+      "expected_top": "Viêm dạ dày",
+      "expected_in_top3": [
+        "Viêm dạ dày"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Bà nội kêu mệt mỏi quá không ăn được cơm sọ, ăn mỡ gì cũng chán.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.067
+    },
+    {
+      "query": "Con trai kêu đau bụng phải, da dẻ vàng nhợt nhạt quá mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Trong nhà 2 tuần nay lòi ra lỗ mót, nước tiểu sẫm màu như trà.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.333
+    },
+    {
+      "query": "Mẹ tôi kêu da vàng, mắt cũng xanh, cơ thể mệt quá không làm được việc gì.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Con gái bảo suốt ngày mệt, sợ phải ăn đồ nhiều chất béo, bụng cũng đau tức.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.065
+    },
+    {
+      "query": "Bữa giờ con kêu buồn nôn, nước tiểu tối màu, hay chán ăn mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.231
+    },
+    {
+      "query": "Con dâu kêu hôm qua sốt, hôm sau đau sườn phải, da vàng ngón chân.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Bé gái kêu đau khớp, mệt mỏi, mẹ ơi là mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Con dâu kêu da lở mẩm, nước tiểu sẫm màu, mẹ ơi là mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Bố kêu cơ thể mỏi mệt, mệt mỏi quá không làm được gì cả, mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.133
+    },
+    {
+      "query": "Bé trai kêu da sạm màu, nước tiểu nâu sẫm, mẹ ơi là mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Con trai kêu da vàng, nước tiểu sẫm màu, mẹ ơi là mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.333
+    },
+    {
+      "query": "Bé gái kêu buồn nôn, chán ăn, sợ mỡ, da cũng vàng mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.32
+    },
+    {
+      "query": "Con trai kêu thèm nước mà không muốn ăn gì cả, mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.182
+    },
+    {
+      "query": "Con gái kêu da vàng, nước tiểu sẫm màu, mẹ ơi là mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.318
+    },
+    {
+      "query": "Bé trai kêu da vàng, nước tiểu nâu sẫm, mẹ ơi là mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.136
+    },
+    {
+      "query": "Bé trai kêu da vàng, nước tiểu sẫm màu, mẹ ơi là mẹ ơi.",
+      "expected_top": "Viêm gan B",
+      "expected_in_top3": [
+        "Viêm gan B"
+      ],
+      "category": "digestive",
+      "is_emergency": false,
+      "leak_ratio": 0.318
+    },
+    {
+      "query": "Con kêu đau bụng nhiều quá, sao mà ăn cũng không ngon, mẹ ơi có sao không?",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.107
+    },
+    {
+      "query": "Bụng đau từ sáng giờ, buồn nôn luôn, đi học cũng không nổi nè",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.077
+    },
+    {
+      "query": "Con đau bụng quanh thắt lưng phải, ăn gì cũng nôn mệt",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.1
+    },
+    {
+      "query": "Tối qua bụng đau quặt, sáng dậy kêu chán ăn, mẹ ơi có sao không",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.077
+    },
+    {
+      "query": "Con không muốn ăn gì, đau bụng suốt ngày, buồn nôn",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Đau bụng từ sáng đến giờ, đi tiểu cũng đau, mẹ ơi",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.091
+    },
+    {
+      "query": "Bụng đau quặt, chán ăn, buồn nôn, đi đại tiện cũng đau",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.273
+    },
+    {
+      "query": "Con đau bụng, buồn nôn, đi tiểu đau, mẹ ơi",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.235
+    },
+    {
+      "query": "Bụng đau quặt, chán ăn, đi đại tiện không đều, mẹ ơi",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.091
+    },
+    {
+      "query": "Con đau bụng quặt, chán ăn, đi đại tiện ít, mẹ ơi",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.19
+    },
+    {
+      "query": "Đau bụng quặt, đi đại tiện ít, chán ăn",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Con không muốn ăn gì, đau bụng quặt, mẹ ơi",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.118
+    },
+    {
+      "query": "Bụng đau, buồn nôn, đi tiểu đau, mẹ ơi",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Con kêu đau bụng, mẹ ơi",
+      "expected_top": "Viêm ruột thừa",
+      "expected_in_top3": [
+        "Viêm ruột thừa"
+      ],
+      "category": "digestive",
+      "is_emergency": true,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Đi học con bị sổ mũi, ớn lạnh, khóc ròng",
+      "expected_top": "Cảm cúm",
+      "expected_in_top3": [
+        "Cảm cúm"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.118
+    },
+    {
+      "query": "Em tôi sốt, ớn lạnh, đau đầu, không ăn gì được",
+      "expected_top": "Cảm cúm",
+      "expected_in_top3": [
+        "Cảm cúm"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.316
+    },
+    {
+      "query": "Bé bị sốt, rát họng, mệt lả, không muốn ăn",
+      "expected_top": "Cảm cúm",
+      "expected_in_top3": [
+        "Cảm cúm"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.333
+    },
+    {
+      "query": "Bé nhà tôi bị ớn lạnh, sốt, đau họng",
+      "expected_top": "Cảm cúm",
+      "expected_in_top3": [
+        "Cảm cúm"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Bé nhà em bị sốt, rát họng, không muốn ăn cơm",
+      "expected_top": "Cảm cúm",
+      "expected_in_top3": [
+        "Cảm cúm"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.263
+    },
+    {
+      "query": "Con tôi bị ớn lạnh, sốt, đau đầu",
+      "expected_top": "Cảm cúm",
+      "expected_in_top3": [
+        "Cảm cúm"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.308
+    },
+    {
+      "query": "Con nè, mẹ ốm à, toàn sốt, ho k幹啥呢，直接给出JSON格式的内容就行。",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Cô ơi, mình bị ớn lạnh, mệt quá à, có phải bị gì không？",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.154
+    },
+    {
+      "query": "Mẹ tôi mới phát sốt, ho, họng đau, tay chân xanh xanh, sao bây giờ?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.087
+    },
+    {
+      "query": "Con kêu bị ớn, họng sưng, đau đầu, mẹ xem con có bị ốm không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.08
+    },
+    {
+      "query": "Mình bị ho, hơi sốt, tay chân có dấu hiệu đổi màu, có sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.24
+    },
+    {
+      "query": "Con ờ, ho, sốt, họng đau, cả nhà bảo có thể bị bệnh gì k?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.08
+    },
+    {
+      "query": "Bố ơi, mình sốt, họng sưng đau, có ho, tay chân mọc mẩn, mẹ ơi?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con kêu bị ớn lạnh, sốt, ho, họng sưng, tay chân đổi màu, có sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.154
+    },
+    {
+      "query": "Con ờ, sốt, ho, họng đau, hôi sổ mũi, mẹ xem con có bị bệnh gì?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.077
+    },
+    {
+      "query": "Mẹ ơi, con ờ, sốt, ho, họng đau, đầu đau, có bị sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.174
+    },
+    {
+      "query": "Con ờ, sốt, họng đau, ho, mẹ xem con có bị gì không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.1
+    },
+    {
+      "query": "Dạo này con kêu ớn lạnh, sốt, ho, mẹ ơi, có sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.095
+    },
+    {
+      "query": "Con kêu bị ớn, sốt, họng đau, họng sưng, mẹ xem con có sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Mẹ ơi, con ờ, sốt, ho, họng sưng, tay chân đổi màu, có sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.083
+    },
+    {
+      "query": "Con ờ, sốt, ho, họng đau, mẹ xem con có bị gì không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.1
+    },
+    {
+      "query": "Dạo này con kêu ớn, sốt, ho, họng sưng, mẹ xem con có sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con kêu ờ, bị sốt, ho, họng đau, mẹ xem con có sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.095
+    },
+    {
+      "query": "Dạo này con kêu ớn, sốt, ho, họng sưng, tay chân đổi màu, có sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.077
+    },
+    {
+      "query": "Con kêu ờ, bị ớn, sốt, ho, họng đau, mẹ xem con có sao không?",
+      "expected_top": "COVID-19 (Bệnh vi-rút Corona 2019)",
+      "expected_in_top3": [
+        "COVID-19 (Bệnh vi-rút Corona 2019)"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.087
+    },
+    {
+      "query": "Mẹ tôi kêu đi tiểu rắc, đau rát quá không chịu được, con ơi",
+      "expected_top": "Nhiễm trùng đường tiết niệu",
+      "expected_in_top3": [
+        "Nhiễm trùng đường tiết niệu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.16
+    },
+    {
+      "query": "Tiểu ra máu à, sao con không biết, mẹ thấy đau quá",
+      "expected_top": "Nhiễm trùng đường tiết niệu",
+      "expected_in_top3": [
+        "Nhiễm trùng đường tiết niệu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.158
+    },
+    {
+      "query": "Tiểu ít nhưng đi tiểu nhiều lần, đau ở vùng chậu, mẹ sợ",
+      "expected_top": "Nhiễm trùng đường tiết niệu",
+      "expected_in_top3": [
+        "Nhiễm trùng đường tiết niệu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.333
+    },
+    {
+      "query": "Mẹ nằm nhà mãi, tiểu có mùi hôi ghê, đau bụng dưới luôn",
+      "expected_top": "Nhiễm trùng đường tiết niệu",
+      "expected_in_top3": [
+        "Nhiễm trùng đường tiết niệu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Mẹ bị đau lưng, tiểu ít mà đau rát, nước tiểu đục",
+      "expected_top": "Nhiễm trùng đường tiết niệu",
+      "expected_in_top3": [
+        "Nhiễm trùng đường tiết niệu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.273
+    },
+    {
+      "query": "Tiểu buốt quá mẹ ơi, mẹ kêu đau chơn",
+      "expected_top": "Nhiễm trùng đường tiết niệu",
+      "expected_in_top3": [
+        "Nhiễm trùng đường tiết niệu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Nước tiểu đục, mẹ uống nhiều nước mà tiểu ít, con ơi",
+      "expected_top": "Nhiễm trùng đường tiết niệu",
+      "expected_in_top3": [
+        "Nhiễm trùng đường tiết niệu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.19
+    },
+    {
+      "query": "Con ơi, mẹ bị đau chơn, tiểu ít, mẹ đi tiểu rắc",
+      "expected_top": "Nhiễm trùng đường tiết niệu",
+      "expected_in_top3": [
+        "Nhiễm trùng đường tiết niệu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.095
+    },
+    {
+      "query": "Tiểu ít mà đau rát, mẹ tiểu ra máu, con ơi",
+      "expected_top": "Nhiễm trùng đường tiết niệu",
+      "expected_in_top3": [
+        "Nhiễm trùng đường tiết niệu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.278
+    },
+    {
+      "query": "Sáng rồi mà mẹ vẫn sốt cao, sao lại thế ạ? Tự dưng 39-40 độ luôn cơ",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.133
+    },
+    {
+      "query": "Bố em sốt vặt ngày ngày, ăn không no gì hết, sao thế nhỉ?",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Cháu bị sốt rét từ sáng đến giờ, đau hết cả đầu, hay mệt thế này",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Bé gái nhà em bị sốt vặt, toàn thân đau nhức, không muốn ăn gì cả",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.138
+    },
+    {
+      "query": "Bệnh nhân nhà tui sốt cao, toàn thân đau, uống thuốc không giảm",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.136
+    },
+    {
+      "query": "Bố bị sốt cao, đau đầu, đau nhức toàn thân, chán ăn quá, sao lại thế này",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.3
+    },
+    {
+      "query": "Bé nhà em vừa sốt cao, toàn thân đau, chán ăn",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.278
+    },
+    {
+      "query": "Con trai tôi sốt cao, chán ăn, buồn nôn, không muốn ăn gì",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.333
+    },
+    {
+      "query": "Bệnh nhân nhà em bị sốt cao, đau đầu, toàn thân đau, chán ăn",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.292
+    },
+    {
+      "query": "Bé gái nhà tui bị sốt cao, đau đầu, toàn thân đau nhức",
+      "expected_top": "Sốt xuất huyết Dengue",
+      "expected_in_top3": [
+        "Sốt xuất huyết Dengue"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.318
+    },
+    {
+      "query": "Sao mệt mỏi quá vậy mẹ ơi, sáng ngủ dậy chưa mở mắt đã mệt, làm gì cũng mệt",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.171
+    },
+    {
+      "query": "Da con mặt hay xanh xanh, có vấn đề không bác sĩ?",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.118
+    },
+    {
+      "query": "Con có khi nào ăn đất không mẹ, hay là dấu hiệu gì không?",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.087
+    },
+    {
+      "query": "Cái chân tay con đau đầu, chỗ vùng kia lợn cợn gì nhỉ",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.095
+    },
+    {
+      "query": "Con có thèm ăn đá quá giờ mẹ ơi, có phải bị gì không?",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.08
+    },
+    {
+      "query": "Mẹ ơi, mặt con đen nhợt, mông con có vấn đề gì không?",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con đi học mệt quá, mặt xanh xanh, tay chân yếu ớt",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.056
+    },
+    {
+      "query": "Con tê bì đầu tay chân kinh khủng, có sao không mẹ?",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.278
+    },
+    {
+      "query": "Mẹ ơi, con thấy đầu mình hồi hộp, tim đập nhanh quá",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.316
+    },
+    {
+      "query": "Con có bệnh gì, da mặt xanh xanh, tay chân mệt mỏi",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.176
+    },
+    {
+      "query": "Mẹ ơi, con thấy mặt mình xanh xanh, tim đập nhanh khi ngồi lên",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.1
+    },
+    {
+      "query": "Con bị bệnh gì, tay chân tê bì, thèm ăn đất quá",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Mẹ ơi, con thấy tim đập nhanh, hồi hộp, mặt mệt nhạt",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Con có bệnh gì, mặt nhợt nhạt, tay chân tê bì",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.278
+    },
+    {
+      "query": "Mẹ ơi, con thấy mệt, tim đập nhanh, mặt xanh xanh, tay chân tê bì",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.318
+    },
+    {
+      "query": "Mẹ ơi, con thấy mặt mình xanh xanh, tim đập nhanh khi đứng lên",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Con thấy mặt xanh xanh, mệt mỏi, tim đập nhanh quá",
+      "expected_top": "Thiếu máu",
+      "expected_in_top3": [
+        "Thiếu máu"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.267
+    },
+    {
+      "query": "Dạo này mẹ hay đi vệ sinh quá, đêm ngày cũng vậy, uống nhiều nước mà lại khát",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Con kêu thèm ăn quá, toàn ăn vặt, không biết có sao không",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.091
+    },
+    {
+      "query": "Bố tôi đi khám rồi, bác sĩ nói có thể là tiểu đường, nhưng tôi không muốn tin",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.121
+    },
+    {
+      "query": "Dạo này em đi tiểu quá nhiều, nhất là về đêm, không biết có chuyện gì không",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.129
+    },
+    {
+      "query": "Bà nội hay mệt mỏi, đi đâu cũng uể oải, không biết có sao không",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.154
+    },
+    {
+      "query": "Mẹ hay mất ăn mất ngủ vì đi vệ sinh liên tục, sợ là bệnh gì đó",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.067
+    },
+    {
+      "query": "Thím nhà hàng xóm hay đi tiểu đêm, uống nhiều nước mà khát",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.261
+    },
+    {
+      "query": "Con hay đói quá, ăn nhiều mà vẫn đói, có phải bệnh gì không",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.083
+    },
+    {
+      "query": "Bố hay mệt mỏi, đi làm về là nằm sập luôn, không biết có sao không",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.071
+    },
+    {
+      "query": "Ba mẹ hay đi tiểu nhiều, nhất là về đêm, uống nhiều mà khát",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Dạo này em thấy mờ mắt, nhìn không rõ, không biết có sao không",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.25
+    },
+    {
+      "query": "Bố có dấu mảng da đen đen ở đùi, có phải là bệnh gì không",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.037
+    },
+    {
+      "query": "Dạo này em hay mất ăn mất ngủ vì đi vệ sinh quá nhiều, thèm ăn liên tục",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.258
+    },
+    {
+      "query": "Con hay tê bì ở bàn chân, không biết có sao không",
+      "expected_top": "Tiểu đường type 2",
+      "expected_in_top3": [
+        "Tiểu đường type 2"
+      ],
+      "category": "general",
+      "is_emergency": false,
+      "leak_ratio": 0.316
+    },
+    {
+      "query": "Con tôi kêu hộc đờm ngày ngày, mình phải làm sao đc nhỉ?",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Mẹ tôi thở khò khò, thấy sao nhỉ?",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.154
+    },
+    {
+      "query": "Bố suốt đêm thở khò khò, làm sao hả bác sĩ?",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.105
+    },
+    {
+      "query": "Bệnh phổi của em nó ngày càng nặng, mình phải làm gì?",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.095
+    },
+    {
+      "query": "Mình thấy mẹ thở hổn hển, không biết có sao không?",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Con kêu hổn hển lúc ngủ, mình nên đi khám à?",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Mẹ thường thở hổn hển, đặc biệt khi làm việc nặng",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Cảm giác mẹ bị nghẹt thở, không biết có bị bệnh gì không",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Bố thở khò khò, người mệt lả, ăn ít đi mấy ngày nay",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.087
+    },
+    {
+      "query": "Em dâu kêu thở vội vả, mình nên đưa đi bệnh viện không?",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con kêu hộc đờm lúc sáng, mẹ thấy mệt mệt",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Mẹ thường xuyên khạc đờm vào sáng sớm, mình lo lắm",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Bố thở hổn hển, nặng lên khi làm việc nặng, có sao không?",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.182
+    },
+    {
+      "query": "Con kêu hộc đờm, lúc làm việc nặng thở hổn hển",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Mẹ thở khò khò, lòng người như bị bó chặt",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Con kêu mệt, khó thở nhiều hơn hồi sáng",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.133
+    },
+    {
+      "query": "Mẹ thở khò khò, mệt mỏi, mình nên đưa đi khám không?",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.182
+    },
+    {
+      "query": "Bố thở khò khò, mệt mỏi, con lo quá!",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.286
+    },
+    {
+      "query": "Con kêu hộc đờm, lúc làm việc nặng thở vội vả",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Mẹ thở khò khò, lòng người như bị bó chặt, lo cho mẹ quá",
+      "expected_top": "Bệnh phổi tắc nghẽn mạn tính",
+      "expected_in_top3": [
+        "Bệnh phổi tắc nghẽn mạn tính"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Con ơi, mẹ bị thở khò khò, lúc nào cũng rít rồi, sao con thấy mẹ như thế nhỉ?",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.121
+    },
+    {
+      "query": "Bữa giờ mẹ khó thở quá, nhất là sáng sớm, ngủ không ngon nữa, con ơi.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.143
+    },
+    {
+      "query": "Con xem mẹ bị ho đêm đêm, khó thở, hụt hơi, mẹ mất ngủ luôn, làm sao vậy?",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.267
+    },
+    {
+      "query": "Mẹ bị hụt hơi, thở khò khè, mẹ cảm thấy nặng ngực quá, con ơi, mẹ sao mà mệt mỏi vậy?",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.316
+    },
+    {
+      "query": "Mẹ ở miền Bắc bị ho suốt, đêm đêm, khó thở, hụt hơi, mẹ mất ngủ lắm rồi, con ơi.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.222
+    },
+    {
+      "query": "Hồi sáng mẹ bị hụt hơi, mẹ thở khò khò, rít ở cổ họng, mẹ mệt lắm, con ơi, mẹ sao?",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.105
+    },
+    {
+      "query": "Bố ơi, con thấy bố thở khò khò, lúc nào cũng rít, đêm không ngủ, mệt mỏi quá, bố ơi.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.114
+    },
+    {
+      "query": "Dạo này mẹ bị ho dai dẳng, thở khò khò, bị rít, mẹ khó ngủ lắm, bố ơi, mẹ sao?",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.114
+    },
+    {
+      "query": "Mẹ nằm mơ thấy thở khò khò, hụt hơi, mẹ mệt, mẹ không muốn đi làm nữa, con ơi, mẹ sao?",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.105
+    },
+    {
+      "query": "Mẹ ở miền Trung, có khi thở khò khò, lúc nào cũng rít, ho dai dẳng, mất ngủ, mẹ mệt mỏi quá.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.237
+    },
+    {
+      "query": "Bố ơi, con thấy bố thở khò khò, lúc nào cũng rít, ho đêm, mẹ mất ngủ lắm, con ơi, bố sao?",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.105
+    },
+    {
+      "query": "Dạo này mẹ bị hụt hơi, thở khò khè, bị rít ở cổ họng, mẹ ngủ không ngon, mẹ mệt mỏi quá.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.244
+    },
+    {
+      "query": "Mẹ ở miền Nam bị ho đêm đêm, thở khò khò, bị rít, mất ngủ, mẹ mệt mỏi lắm, con ơi, mẹ sao?",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.15
+    },
+    {
+      "query": "Mẹ bị ho dai dẳng, thở khò khò, bị rít, hụt hơi, mất ngủ, mẹ mệt, mẹ không muốn đi làm nữa, con ơi.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.186
+    },
+    {
+      "query": "Mẹ bị hụt hơi, thở khò khò, bị rít, không ngủ được, mẹ mệt mỏi quá, mẹ muốn đi khám bệnh.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.15
+    },
+    {
+      "query": "Dạo này mẹ bị ho dai danguard, thở khò khò, rít, mất ngủ, mẹ mệt, mẹ muốn đi khám, con ơi.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.111
+    },
+    {
+      "query": "Mẹ bị hụt hơi, thở khò khò, rít ở cổ họng, không ngủ được, mẹ mệt mỏi quá, mẹ muốn đi khám, con ơi.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.133
+    },
+    {
+      "query": "Bé ở miền Bắc bị hụt hơi, thở khò khò, rít, mẹ mất ngủ, mẹ mệt, mẹ muốn đi khám, con ơi.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.146
+    },
+    {
+      "query": "Con xem mẹ bị ho dai dẳng, thở khò khò, rít, bị hụt hơi, mẹ mất ngủ, mẹ mệt mỏi quá, mẹ muốn đi khám.",
+      "expected_top": "Hen suyễn",
+      "expected_in_top3": [
+        "Hen suyễn"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.227
+    },
+    {
+      "query": "Bây giờ ho liên tục, chưa thấy đỡ, có phải bị gì không hả bác sĩ?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.207
+    },
+    {
+      "query": "Bố em ho nặng lắm, đã gần 1 tháng rồi, có gì phải lo không?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con kêu ho, có đờm, đêm ngủ mồ hôi tràn thân, mẹ ơi!",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.273
+    },
+    {
+      "query": "Bố bị sốt nhẹ suốt tuần rồi, ăn không ngon, mệt mỏi, sao nhỉ?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Dạo này ngủ trộm mồ hôi nhiều, mẹ ơi, con có sao không?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.182
+    },
+    {
+      "query": "Đã gần 3 tuần ho không hết, đi khám có gặp vấn đề gì không?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.038
+    },
+    {
+      "query": "Cháu cứ ho incessant, kèm sốt nhẹ chiều tối, không biết sao hả bác sĩ?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.32
+    },
+    {
+      "query": "Lâu ngày ho, sốt thấp, đêm đổ mồ hôi, ăn chay không, không biết có sao không?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.207
+    },
+    {
+      "query": "Con ho nặng lắm, đêm khạc đờm có ra máu, mẹ ơi, sao con bị thế?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Cảm thấy mệt mỏi quá, ho liên tục, con có sao không?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Con bị ho kéo dài, sốt nhẹ, không ăn ngon, mẹ con muốn hỏi sao con thế?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.231
+    },
+    {
+      "query": "Bố con ho liên tục, ăn không ngon, mẹ xin hỏi sao con bị thế?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.091
+    },
+    {
+      "query": "Con kêu ho nhiều, khạc đờm, mẹ xin hỏi có sao không?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.111
+    },
+    {
+      "query": "Bố ho, ăn không ngon, sốt nhẹ lúc chiều, mẹ ơi, có vấn đề gì không?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.071
+    },
+    {
+      "query": "Bệnh tình ho, sốt nhẹ, mệt mỏi, mẹ con lo quá!",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.294
+    },
+    {
+      "query": "Con kêu ho, ăn không ngon, mệt mỏi, mẹ ơi, có sao không?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.1
+    },
+    {
+      "query": "Con ho, sốt thấp, đau tức ngực, mẹ ơi, sao con lại thế?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Bố ho, sốt thấp, mệt mỏi, mẹ ơi, có sao không?",
+      "expected_top": "Lao phổi",
+      "expected_in_top3": [
+        "Lao phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.111
+    },
+    {
+      "query": "Sốt cao quá phải làm sao mẹ ơi, con thấy mẹ toàn ốm ngay nhà luôn",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.038
+    },
+    {
+      "query": "Sao ngày mùng 1 mẹ tôi ho nhiều quá, có đờm trắng",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Dạo này con hay mệt quá, lúc nào cũng ớn lạnh",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.111
+    },
+    {
+      "query": "Mẹ nhà em bị ho liên tục, đau lồng ngực lúc hít vào",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.182
+    },
+    {
+      "query": "Con bị ho khan suốt ngày, mẹ ơi, sao không thấy đỡ vậy",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.05
+    },
+    {
+      "query": "Sốt cao 40 độ, mệt mỏi quá, con sợ hoảng",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Dạo này em ho dữ dội, đờm nhiều, mẹ ơi, con thấy rất mệt",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con bị ho nhiều, ớn lạnh lúc sáng, mẹ ơi, có phải viêm phổi không",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.231
+    },
+    {
+      "query": "Ngày nào cũng sốt cao, mệt mỏi rã rời, mẹ ơi, con sợ quá",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Sau khi ho, mẹ thấy khó thở, ớn lạnh, con kêu mẹ đi khám",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.182
+    },
+    {
+      "query": "Con thấy bố ho nhiều, mệt mỏi, đêm hôm đổ mồ hôi nhiều",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.318
+    },
+    {
+      "query": "Ho liên tục, đờm nhiều, lú lẫn, mẹ ơi, con thấy bố yếu quá",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Sốt cao, ho, con thấy mẹ rã rời, sao không khỏi vậy",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Dạo này con ho nhiều, ớn lạnh, mệt, mẹ ơi, sao không khỏi",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.238
+    },
+    {
+      "query": "Con bị ho liên tục, mẹ ơi, sao con thấy mẹ mệt mỏi quá",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.227
+    },
+    {
+      "query": "Dạo này bố con ho khan, mệt mỏi rã rời, mẹ ơi, có phải viêm phổi không",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.138
+    },
+    {
+      "query": "Dạo này con thấy mẹ ho nhiều, ớn lạnh, đêm mồ hôi đổ nhiều",
+      "expected_top": "Viêm phổi",
+      "expected_in_top3": [
+        "Viêm phổi"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.208
+    },
+    {
+      "query": "Con tôi kêu ho dai dẳng rồi thấy khò khè khi hít thở, mẹ ơi, có sao không?",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.172
+    },
+    {
+      "query": "Mẹ ơi, con ho suốt ngày, nhức họng, lồng ngực cũng nặng nề, hoa cả mắt luôn",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.069
+    },
+    {
+      "query": "Hôm nay ho nhiều quá, đờm màu vàng, con cứ khò khò mãi, mẹ ơi, sao con lại bị thế?",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.121
+    },
+    {
+      "query": "Ho dai dỗi, đờm nhiều, hơi khó thở khi chạy nhảy, mệt mỏi quá, con không chịu nổi",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.133
+    },
+    {
+      "query": "Bầu mẹ có ho dai dẳng, nhiều đờm, chả biết sao, hâm hấp nhẹ, mẹ ơi, con lo lắm",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.129
+    },
+    {
+      "query": "Mẹ ơi, con ngày xưa không ho nhiều như này, từ cái hôm con bị thấm gió, con ho đến giờ",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.029
+    },
+    {
+      "query": "Em đang ho, đờm nhiều lắm, họng đau, người uể ả, mẹ ơi, em mệt quá",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.074
+    },
+    {
+      "query": "Mẹ ơi, con ho dai, khò khò, nhức họng, đờm nhiều, người uể ả",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.087
+    },
+    {
+      "query": "Em ho suốt, đờm trong, hơi đau lồng ngực, hâm hấp, mẹ ơi, em lo quá",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.16
+    },
+    {
+      "query": "Hôm qua con ho nhiều, đờm nhiều, đau lồng ngực, mẹ ơi, mẹ có biết con lo không?",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.103
+    },
+    {
+      "query": "Con ho liên tục, đờm nhiều, mệt mỏi, mẹ ơi, mẹ thấy con thế này không yên tâm",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.129
+    },
+    {
+      "query": "Bầu con ho liên tục, đờm nhiều, người uể ả, mẹ ơi, con lo quá",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Con ho suốt, đờm nhiều, người uể ả, mẹ ơi, có sao không?",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.095
+    },
+    {
+      "query": "Con ho nhiều, đờm nhiều, mệt mỏi, mẹ ơi, mẹ lo con quá",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.15
+    },
+    {
+      "query": "Con ho liên tục, đờm nhiều, mệt mỏi, mẹ ơi, con lo quá",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.2
+    },
+    {
+      "query": "Con ho dai, đờm nhiều, mệt mỏi, mẹ ơi, con uể ả",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.278
+    },
+    {
+      "query": "Bầu mẹ có ho dai, đờm nhiều, mệt mỏi, mẹ ơi, mẹ lo con",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.136
+    },
+    {
+      "query": "Con ho nhiều, đờm nhiều, mệt mỏi, mẹ ơi, con lo",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.188
+    },
+    {
+      "query": "Con ho nhiều, đờm nhiều, mệt mỏi, mẹ ơi, con uể ả, chả biết sao",
+      "expected_top": "Viêm phế quản",
+      "expected_in_top3": [
+        "Viêm phế quản"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.208
+    },
+    {
+      "query": "Mẹ tôi kêu mũi bị tắc, hoài không hết, làm sao cho khỏi?",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con tôi nói mũi bị nghẹt, hả hơi có mùi, đau đầu lắm",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.174
+    },
+    {
+      "query": "Cháu em cứ kêu mũi hôi hôi, đau trán",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.133
+    },
+    {
+      "query": "Mẹ tôi bị sổ mũi, hôi hôi, trán đau",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Cháu em bị nghẹt mũi, trán đau, hơi thở hôi hôi",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.211
+    },
+    {
+      "query": "Mẹ tôi kêu mũi trai, trán đau, thở hôi hôi, ho đờm",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.15
+    },
+    {
+      "query": "Cãi nhau với mẹ, mũi hôi hôi, đau trán, ho đờm",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.167
+    },
+    {
+      "query": "Mẹ tôi kêu mũi trai, thở hôi hôi, đau trán",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con em kêu mũi hôi hôi, trán đau, làm sao cho khỏi?",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.111
+    },
+    {
+      "query": "Con trai kêu mũi hôi hôi, trán đau, đau răng",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.125
+    },
+    {
+      "query": "Mẹ tôi kêu mũi hôi hôi, trán đau, thở hôi hôi",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.111
+    },
+    {
+      "query": "Cháu em kêu mũi hôi hôi, trán đau, thở hôi hôi",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.118
+    },
+    {
+      "query": "Mẹ tôi kêu mũi trai, trán đau, thở hôi hôi, làm sao cho khỏi?",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.0
+    },
+    {
+      "query": "Con kêu mũi hôi hôi, trán đau, thở hôi hôi, làm sao cho khỏi?",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.095
+    },
+    {
+      "query": "Mẹ tôi kêu mũi hôi hôi, trán đau, thở hôi hôi, làm sao cho khỏi?",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.083
+    },
+    {
+      "query": "Mẹ tôi kêu mũi trai, trán đau, thở hôi hôi, ho đờm",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.15
+    },
+    {
+      "query": "Con kêu mũi hôi hôi, trán đau, thở hôi hôi, ho đờm",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.278
+    },
+    {
+      "query": "Mẹ tôi kêu mũi hôi hôi, trán đau, thở hôi hôi, ho đờm",
+      "expected_top": "Viêm xoang",
+      "expected_in_top3": [
+        "Viêm xoang"
+      ],
+      "category": "respiratory",
+      "is_emergency": false,
+      "leak_ratio": 0.238
+    }
+  ],
+  "stats": {
+    "generated": 583,
+    "dropped_leak": 107,
+    "dropped_short": 0
+  },
+  "model": "qwen2.5:7b-instruct"
+}

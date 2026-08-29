@@ -1,3 +1,4 @@
+import hashlib
 import os
 import re
 import io
@@ -108,7 +109,13 @@ class HybridDiseaseSearcher:
         # Each model has its own collection: embedding dims differ (BGE-M3 1024 vs
         # MiniLM 384), so sharing one collection would raise a dimension mismatch.
         # Cosine space matches the normalized embeddings both models produce.
+        # Chroma caps collection names at 63 chars, which a model given as a
+        # filesystem path blows past; keep a readable prefix and disambiguate
+        # with a hash of the full key.
         safe_key = re.sub(r"[^a-z0-9_-]", "_", embedding_model.lower())
+        if len(safe_key) > 24:
+            digest = hashlib.md5(embedding_model.encode()).hexdigest()[:8]
+            safe_key = f"{safe_key[:24].strip('_')}_{digest}"
         self.collection = self.chroma_client.get_or_create_collection(
             name=f"disease_collection_{safe_key}",
             embedding_function=self.emb_fn,
