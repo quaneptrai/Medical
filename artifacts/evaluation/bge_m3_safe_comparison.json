@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-08-29T09:06:04.281545+00:00",
+  "device": "cuda",
+  "sequence_length": 768,
+  "bm25_weight": 0.75,
+  "models": {
+    "BAAI/bge-m3": {
+      "generated_colloquial": {
+        "dense": {
+          "recall@1": 0.4789915966386555,
+          "recall@3": 0.7941176470588235,
+          "recall@5": 0.8697478991596639,
+          "mrr": 0.6405112044817927,
+          "cases": 476,
+          "emergency_recall@5": 1.0,
+          "emergency_cases": 34
+        },
+        "hybrid": {
+          "recall@1": 0.4369747899159664,
+          "recall@3": 0.7331932773109243,
+          "recall@5": 0.8361344537815126,
+          "mrr": 0.5939775910364145,
+          "cases": 476,
+          "emergency_recall@5": 0.47058823529411764,
+          "emergency_cases": 34
+        }
+      },
+      "diseases_603": {
+        "dense": {
+          "recall@1": 0.34129353233830845,
+          "recall@3": 0.4981757877280265,
+          "recall@5": 0.5674958540630183,
+          "mrr": 0.42608623548922053,
+          "cases": 3015
+        },
+        "hybrid": {
+          "recall@1": 0.3913764510779436,
+          "recall@3": 0.5439469320066335,
+          "recall@5": 0.6076285240464345,
+          "mrr": 0.47249861802100607,
+          "cases": 3015
+        }
+      }
+    },
+    "models/bge-m3-medical-v2-safe": {
+      "generated_colloquial": {
+        "dense": {
+          "recall@1": 0.48739495798319327,
+          "recall@3": 0.8046218487394958,
+          "recall@5": 0.8781512605042017,
+          "mrr": 0.6494397759103642,
+          "cases": 476,
+          "emergency_recall@5": 1.0,
+          "emergency_cases": 34
+        },
+        "hybrid": {
+          "recall@1": 0.4369747899159664,
+          "recall@3": 0.7352941176470589,
+          "recall@5": 0.8382352941176471,
+          "mrr": 0.5945728291316527,
+          "cases": 476,
+          "emergency_recall@5": 0.5,
+          "emergency_cases": 34
+        }
+      },
+      "diseases_603": {
+        "dense": {
+          "recall@1": 0.35257048092868987,
+          "recall@3": 0.5117744610281924,
+          "recall@5": 0.579436152570481,
+          "mrr": 0.4377611940298507,
+          "cases": 3015
+        },
+        "hybrid": {
+          "recall@1": 0.3913764510779436,
+          "recall@3": 0.5449419568822554,
+          "recall@5": 0.6092868988391377,
+          "mrr": 0.47297954671089,
+          "cases": 3015
+        }
+      }
+    }
+  }
+}

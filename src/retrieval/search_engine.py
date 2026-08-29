@@ -48,8 +48,16 @@ EMBEDDING_MODELS = {
     "bge-m3": "BAAI/bge-m3",
     "minilm": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
 }
-DEFAULT_EMBEDDING_MODEL = os.getenv("BOTMED_EMBEDDING_MODEL", "minilm")
-DEFAULT_GENERAL_BM25_WEIGHT = float(os.getenv("BOTMED_GENERAL_BM25_WEIGHT", "0.75"))
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+RECOVERED_MEDICAL_MODEL = PROJECT_ROOT / "models" / "bge-m3-medical-v2-recovered-a050-fp16"
+FALLBACK_EMBEDDING_MODEL = (
+    str(RECOVERED_MEDICAL_MODEL) if RECOVERED_MEDICAL_MODEL.exists() else "bge-m3"
+)
+FALLBACK_GENERAL_BM25_WEIGHT = 0.15
+DEFAULT_EMBEDDING_MODEL = os.getenv("BOTMED_EMBEDDING_MODEL", FALLBACK_EMBEDDING_MODEL)
+DEFAULT_GENERAL_BM25_WEIGHT = float(
+    os.getenv("BOTMED_GENERAL_BM25_WEIGHT", str(FALLBACK_GENERAL_BM25_WEIGHT))
+)
 
 
 def resolve_device(device: Optional[str] = None) -> str:

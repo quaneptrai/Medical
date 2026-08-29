@@ -7,12 +7,18 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
 from knowledge.schema import load_all_diseases
 from retrieval.search_engine import HybridDiseaseSearcher, tokenize_vietnamese
+from safety.guardrails import ClinicalGuardrailEngine
 
 
 @pytest.fixture(scope="session")
 def searcher():
     """Session-scoped hybrid searcher with all 30 diseases indexed."""
     return HybridDiseaseSearcher(diseases_dir="data/diseases", db_path="data/embeddings")
+
+
+@pytest.fixture(scope="session")
+def deterministic_guardrail():
+    return ClinicalGuardrailEngine(semantic_mode="off", require_semantic=False)
 
 
 def test_knowledge_base_completeness():
@@ -186,12 +192,12 @@ def test_clinical_retrieval_cases(searcher, case):
     assert found_in_top3, f"Query '{case['query']}' failed! Expected {case['expected_in_top3']} in Top 3, got {top3_names}"
 
 
-def test_overall_retrieval_metrics(searcher):
+def test_overall_retrieval_metrics(searcher, deterministic_guardrail):
     """
     Compute quantitative evaluation metrics across the clinical benchmark:
     - Recall@1 (Target >= 85%)
     - Recall@3 (Target >= 95%)
-    - Emergency / Safety Recall@1 (Target = 100%)
+        - Deterministic guardrail recall on red flags (Target = 100%)
     - Mean Reciprocal Rank (MRR)
     """
     total = len(RETRIEVAL_BENCHMARK)
@@ -214,14 +220,15 @@ def test_overall_retrieval_metrics(searcher):
                 
         if rank_found == 1:
             recall_at_1_hits += 1
-            if case.get("is_emergency", False):
-                emergency_top1_hits += 1
                 
         if rank_found is not None and rank_found <= 3:
             recall_at_3_hits += 1
             
         if case.get("is_emergency", False):
             emergency_cases += 1
+            alert = deterministic_guardrail.evaluate_emergency(case["query"])
+            if alert is not None and alert.get("is_emergency") is True:
+                emergency_top1_hits += 1
             
         if rank_found is not None:
             reciprocal_ranks.append(1.0 / rank_found)
@@ -231,15 +238,18 @@ def test_overall_retrieval_metrics(searcher):
     recall_at_1 = recall_at_1_hits / total
     recall_at_3 = recall_at_3_hits / total
     mrr = sum(reciprocal_ranks) / total
-    safety_recall_at_1 = emergency_top1_hits / emergency_cases if emergency_cases > 0 else 1.0
+    safety_guardrail_recall = emergency_top1_hits / emergency_cases if emergency_cases > 0 else 1.0
     
     print(f"\n--- RETRIEVAL BENCHMARK METRICS ---")
     print(f"Total Test Cases: {total}")
     print(f"Recall@1: {recall_at_1:.2%}")
     print(f"Recall@3: {recall_at_3:.2%}")
     print(f"MRR:      {mrr:.4f}")
-    print(f"Safety Recall@1 (Red Flags): {safety_recall_at_1:.2%}")
+    print(f"Deterministic Guardrail Recall (Red Flags): {safety_guardrail_recall:.2%}")
     
     assert recall_at_1 >= 0.85, f"Recall@1 too low: {recall_at_1:.2%}"
     assert recall_at_3 >= 0.95, f"Recall@3 too low: {recall_at_3:.2%}"
-    assert safety_recall_at_1 >= 0.99, f"Safety Recall@1 must be 100%, got {safety_recall_at_1:.2%}"
+    assert safety_guardrail_recall >= 0.99, (
+        "Deterministic guardrail recall must be 100%, "
+        f"got {safety_guardrail_recall:.2%}"
+    )

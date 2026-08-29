@@ -324,8 +324,17 @@ class ClinicalGuardrailEngine:
                 "category": "immunology",
                 "name": "Sốc phản vệ",
                 "red_flag": "Dị ứng/tiêm thuốc nổi mề đay kèm sưng nề mặt môi họng, co thắt không thở được",
-                "pattern": r"(di\s+ung|me\s+day|ong\s+dot|tiem\s+thuoc|uong\s+thuoc|an\s+hai\s+san).*(sung\s+moi|sung\s+mat|sung\s+hong|co\s+that\s+hong|nghen\s+tho|khong\s+tho\s+duoc|kho\s+tho|tut\s+huyet\s+ap|choang)",
+                "pattern": r"(?=.*(?:di\s+ung|me\s+day|ong\s+dot|tiem\s+thuoc|uong\s+thuoc|an\s+hai\s+san))(?=.*(?:sung(?:\s+\w+){0,2}\s+(?:moi|mat|hong)|co\s+that\s+hong|nghen\s+tho|khong\s+tho\s+duoc|kho\s+tho|tut\s+huyet\s+ap|choang))",
                 "emergency_message": "BÁO ĐỘNG SỐC PHẢN VỆ: Tiêm Adrenaline nếu có sẵn, gọi 115 đưa đến cơ sở y tế gần nhất lập tức."
+            },
+            # VIÊM RUỘT THỪA CẤP / BỤNG NGOẠI KHOA
+            {
+                "id": "EMERGENCY_ACUTE_APPENDICITIS",
+                "category": "gastroenterology",
+                "name": "Nghi ngờ viêm ruột thừa cấp / Bụng ngoại khoa",
+                "red_flag": "Đau khu trú hố chậu phải kèm đau dữ dội/tăng dần, sốt, buồn nôn hoặc phản ứng thành bụng",
+                "pattern": r"(?=.*(?:dau\s+)?(?:vung\s+)?ho\s+chau\s+phai)(?=.*(?:dau\s+(?:quan|du\s+doi|nhoi|tang\s+dan)|sot|buon\s+non|non|an\s+vao\s+dau|bung\s+cung))",
+                "emergency_message": "CẢNH BÁO BỤNG NGOẠI KHOA: Cần đến Khoa Cấp cứu/Ngoại tiêu hóa ngay để loại trừ viêm ruột thừa cấp; không tự dùng thuốc giảm đau hoặc thuốc xổ."
             },
             # NGỘ ĐỘC CẤP
             {

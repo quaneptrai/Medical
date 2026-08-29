@@ -4,8 +4,10 @@ from types import SimpleNamespace
 
 import numpy as np
 import pytest
+import torch
 
 from scripts.calibrate_guardrail_threshold import load_labeled_cases
+from scripts.blend_embedding_models import reconstruct_target_tensor
 from scripts.compare_embeddings import (
     _is_expected,
     _matches,
@@ -13,7 +15,11 @@ from scripts.compare_embeddings import (
     enforce_quality_gate,
 )
 from src.safety.guardrails import ClinicalGuardrailEngine
-from src.retrieval.search_engine import HybridDiseaseSearcher
+from src.retrieval.search_engine import (
+    FALLBACK_EMBEDDING_MODEL,
+    FALLBACK_GENERAL_BM25_WEIGHT,
+    HybridDiseaseSearcher,
+)
 from src.llm.triage_bot import TriageBot
 from src.conversation.state import ConversationState
 
@@ -25,6 +31,27 @@ def test_embedding_metric_requires_exact_canonical_name():
     assert _matches(["Béo phì"], "Béo phì")
     assert not _matches(["Béo phì"], "Béo phì độ 1")
     assert not _matches(["Bệnh trĩ"], "Bệnh trĩ huyết khối")
+
+
+def test_target_blend_can_be_reconstructed_from_known_linear_blend():
+    base = np.asarray([1.0, -2.0], dtype=np.float32)
+    tuned = np.asarray([3.0, 2.0], dtype=np.float32)
+    source = base + 0.07 * (tuned - base)
+    recovered = reconstruct_target_tensor(
+        torch.from_numpy(base),
+        torch.from_numpy(source),
+        source_alpha=0.07,
+        target_alpha=0.5,
+    )
+    expected = base + 0.5 * (tuned - base)
+    assert np.allclose(recovered.numpy(), expected, atol=1e-6)
+
+
+def test_production_retrieval_defaults_to_evaluated_candidate():
+    assert FALLBACK_GENERAL_BM25_WEIGHT == pytest.approx(0.15)
+    assert FALLBACK_EMBEDDING_MODEL.endswith(
+        "models\\bge-m3-medical-v2-recovered-a050-fp16"
+    ) or FALLBACK_EMBEDDING_MODEL == "bge-m3"
 
 
 def test_embedding_metric_prefers_disease_id():

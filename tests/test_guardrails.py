@@ -7,9 +7,9 @@ def guardrail():
     return ClinicalGuardrailEngine()
 
 
-def test_independent_emergency_suite_13_cases(guardrail):
+def test_independent_emergency_suite_15_cases(guardrail):
     """
-    Kiểm tra 13 ca cấp cứu thực tế độc lập:
+    Kiểm tra 15 ca cấp cứu thực tế độc lập:
     Bao gồm cả các nhóm: Bỏng, Hạ đường huyết, Điện giật, Xuất huyết tiêu hóa dưới, Vết thương dao cắt mạch máu,
     Đột quỵ FAST, Nhồi máu cơ tim, Sốc phản vệ, Viêm màng não, Hôn mê, Vỡ thai ngoài tử cung, Sốc nhiễm trùng.
     """
@@ -27,6 +27,8 @@ def test_independent_emergency_suite_13_cases(guardrail):
         ("Vợ tôi có thai 8 tuần, đau bụng dưới dữ dội, ra máu, choáng", "obstetrics"),
         ("Tôi bị tai nạn, máu phun thành tia ở đùi, không cầm được", "trauma"),
         ("Cụ ông sốt cao li bì, thở nhanh, tay chân lạnh ngắt, tụt huyết áp", "infectious"),
+        ("đau quặn bụng dữ dội vùng hố chậu phải, sốt nhẹ, buồn nôn, ấn vào đau nhói", "gastroenterology"),
+        ("nổi mẩn ngứa phù từng mảng khắp người sưng vù môi sau khi ăn hải sản", "immunology"),
     ]
 
     for query, expected_cat in cases:

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-29T13:41:13Z",
+  "models": [
+    {
+      "id": "bge-m3-medical-v2-recovered-a050-fp16",
+      "role": "production_retrieval",
+      "path": "models/bge-m3-medical-v2-recovered-a050-fp16",
+      "artifact_file": "model.safetensors",
+      "sha256": "4e4a45962d7a1063366968463314bbe4d45d9373202199c882a62b84dc6b6446",
+      "dtype": "float16",
+      "alpha": 0.5,
+      "base_model": "BAAI/bge-m3",
+      "source": {
+        "path": "models/bge-m3-medical-v2-safe-fp16",
+        "alpha": 0.07,
+        "method": "extrapolated_from_quantized_linear_blend"
+      },
+      "status": "local_available",
+      "backup": "not_recorded",
+      "limitations": [
+        "Original FP32 tuned checkpoint is unavailable.",
+        "The FP16 source rounding error was amplified by alpha 0.50 / 0.07.",
+        "Model binaries remain outside git and require an external content-addressed backup."
+      ]
+    },
+    {
+      "id": "bge-m3-medical-v2-safe-fp16",
+      "role": "semantic_guardrail_advisory",
+      "path": "models/bge-m3-medical-v2-safe-fp16",
+      "artifact_file": "model.safetensors",
+      "sha256": "e72ee7ad51b883cd31057c5c642b8530ad485e0335e8f125af8276433da83fbb",
+      "dtype": "float16",
+      "alpha": 0.07,
+      "base_model": "BAAI/bge-m3",
+      "calibration": "artifacts/evaluation/guardrail_calibration.json",
+      "semantic_mode": "advisory",
+      "status": "local_available",
+      "backup": "botmedical-safe-fp16-export.tar (local only; external location not recorded)",
+      "manifest_declared_sha256": "532318d1c7d143364d919e7520751f874723d15f63db5c965b4ae1305d8059e6",
+      "manifest_hash_matches_artifact": false,
+      "limitations": [
+        "The calibration applies only to this alpha-0.07 model and is advisory, not an automatic emergency trigger.",
+        "The embedded blend manifest hash does not match the currently observed artifact hash; investigate before any release claim.",
+        "Model binaries remain outside git and require an external content-addressed backup."
+      ]
+    },
+    {
+      "id": "bge-m3-medical-v2",
+      "role": "original_finetuned_checkpoint",
+      "path": "models/bge-m3-medical-v2",
+      "status": "lost",
+      "last_known_path": "/workspace/BotMedical/models/bge-m3-medical-v2",
+      "backup": "none"
+    }
+  ]
+}
