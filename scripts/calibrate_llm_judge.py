@@ -46,8 +46,9 @@ def calibrate_qwen_judge():
     gen_bench_path = ROOT / "data/test_cases/generated_benchmark.json"
     if gen_bench_path.exists():
         with open(gen_bench_path, "r", encoding="utf-8") as f:
-            gen_data = json.load(f)
-            for case in gen_data:
+            raw = json.load(f)
+            gen_cases = raw.get("cases", []) if isinstance(raw, dict) else raw
+            for case in gen_cases:
                 test_cases.append({"query": case["query"], "true_label": case["expected_top"], "source": "generated"})
     
     # 3. Source: Negative samples
