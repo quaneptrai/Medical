@@ -7,8 +7,9 @@
     "Rối Loạn Tiền Đình",
     "Roi Loan Tien Dinh"
   ],
-  "description": "Rối Loạn Tiền Đình là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Rối Loạn Tiền Đình (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,92 +61,75 @@
         "name_vi": "kéo dài",
         "name_en": "keo dai",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "lo lắng u não gây ra triệu chứng chóng mặt",
         "name_en": "lo lang u nao gay ra trieu chung chong mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nghi ngờ mình có tổn thương nhân tiền đình hoặc đường liên hệ của các nhân dây tiền đình ở thân não",
         "name_en": "nghi ngo minh co ton thuong nhan tien dinh hoac duong lien he cua cac nhan day tien dinh o than nao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhìn mờ",
         "name_en": "nhin mo",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn ói",
         "name_en": "non oi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn ói nhiều",
         "name_en": "non oi nhieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nặng đầu",
         "name_en": "nang dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn vận mạch khiến da tái xanh",
         "name_en": "roi loan van mach khien da tai xanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tai biến mạch máu não gây ra chóng mặt",
         "name_en": "tai bien mach mau nao gay ra chong mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "té ngã do không kiểm soát được thăng bằng",
         "name_en": "te nga do khong kiem soat duoc thang bang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tổn thương hệ thống tiền đình",
         "name_en": "ton thuong he thong tien dinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vã mồ hôi",
         "name_en": "va mo hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ví dụ như từ nằm chuyển sang ngồi",
         "name_en": "vi du nhu tu nam chuyen sang ngoi",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Rối Loạn Tiền Đình của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Tiền Đình",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như chóng mặt thoáng qua khi thay đổi tư thế, ví dụ như từ nằm chuyển sang ngồi. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy chóng mặt dữ dội và kéo dài, không thể đi đứng vững. Tôi có thể đang bị bệnh gì?",
@@ -164,11 +148,11 @@
     "Tôi bị chóng mặt kèm theo nhìn mờ. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

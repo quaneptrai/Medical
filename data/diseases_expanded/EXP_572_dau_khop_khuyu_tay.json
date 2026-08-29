@@ -7,8 +7,9 @@
     "Đau Khớp Khuỷu Tay",
     "Dau Khop Khuyu Tay"
   ],
-  "description": "Đau Khớp Khuỷu Tay là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Đau Khớp Khuỷu Tay (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,172 +61,155 @@
         "name_vi": "mệt mỏi sau khi ăn hải sản",
         "name_en": "met moi sau khi an hai san",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "ngón tay",
         "name_en": "ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nóng",
         "name_en": "nong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rách móng tay",
         "name_en": "rach mong tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rách móng tay ra khỏi phần thịt bên dưới",
         "name_en": "rach mong tay ra khoi phan thit ben duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng",
         "name_en": "sung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng khớp",
         "name_en": "sung khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng đau khớp khuỷu tay",
         "name_en": "sung dau khop khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng đỏ",
         "name_en": "sung do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng ở một hay cả hai bên khớp khuỷu tay",
         "name_en": "sung o mot hay ca hai ben khop khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "uốn cong hay duỗi thẳng khớp có xuất hiện âm thanh lụp cụp",
         "name_en": "uon cong hay duoi thang khop co xuat hien am thanh lup cup",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xuất hiện gai xương",
         "name_en": "xuat hien gai xuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xuất hiện gai xương ở khuỷu tay",
         "name_en": "xuat hien gai xuong o khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "âm thanh lụp cụp",
         "name_en": "am thanh lup cup",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ăn hải sản",
         "name_en": "an hai san",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau",
         "name_en": "dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cơ",
         "name_en": "dau co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau dữ dội ở khớp khuỷu tay",
         "name_en": "dau du doi o khop khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau gân",
         "name_en": "dau gan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp khuỷu tay dữ dội",
         "name_en": "dau khop khuyu tay du doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp khuỷu tay sau khi vận động mạnh",
         "name_en": "dau khop khuyu tay sau khi van dong manh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khuỷu tay",
         "name_en": "dau nhuc khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khuỷu tay dữ dội",
         "name_en": "dau nhuc khuyu tay du doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khớp khuỷu tay",
         "name_en": "dau nhuc khop khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức ở khớp khuỷu tay",
         "name_en": "dau nhuc o khop khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau sưng khuỷu tay",
         "name_en": "dau sung khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt sau khi uống rượu bia",
         "name_en": "dac biet sau khi uong ruou bia",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đỏ mắt",
         "name_en": "do mat",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Đau Khớp Khuỷu Tay của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Khớp Khuỷu Tay",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như sưng khớp, hạn chế khả năng vận động và xuất hiện gai xương ở khuỷu tay. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau nhức khuỷu tay, kèm theo cứng khớp và uốn cong hay duỗi thẳng khớp có xuất hiện âm thanh lụp cụp. Tôi có thể đang bị bệnh gì?",
@@ -244,11 +228,11 @@
     "Tôi đang cảm thấy đau và cứng cột sống, kèm theo đau nhức khuỷu tay và rách móng tay. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

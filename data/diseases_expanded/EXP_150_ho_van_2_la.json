@@ -7,8 +7,9 @@
     "Hở Van 2 Lá",
     "Ho Van 2 La"
   ],
-  "description": "Hở Van 2 Lá là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Hở Van 2 Lá (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,137 +61,120 @@
         "name_vi": "khó thở dữ dội sau khi bị nhồi máu cơ tim",
         "name_en": "kho tho du doi sau khi bi nhoi mau co tim",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khó thở khi gắng sức",
         "name_en": "kho tho khi gang suc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở khi leo cầu thang",
         "name_en": "kho tho khi leo cau thang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở khi nằm",
         "name_en": "kho tho khi nam",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở khi nằm đầu thấp",
         "name_en": "kho tho khi nam dau thap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở về đêm",
         "name_en": "kho tho ve dem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "không thể làm việc nặng",
         "name_en": "khong the lam viec nang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi kinh niên",
         "name_en": "met moi kinh nien",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phù chân",
         "name_en": "phu chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phải ngồi dậy mới dễ thở hơn",
         "name_en": "phai ngoi day moi de tho hon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng phù ở chân",
         "name_en": "sung phu o chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tim đập không đều",
         "name_en": "tim dap khong deu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tim đập nhanh",
         "name_en": "tim dap nhanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tim đập nhanh khi gắng sức",
         "name_en": "tim dap nhanh khi gang suc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ngực đột ngột",
         "name_en": "dau nguc dot ngot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau thắt ngực",
         "name_en": "dau that nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau tức ngực",
         "name_en": "dau tuc nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đánh trống ngực",
         "name_en": "danh trong nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đôi khi ho ra máu",
         "name_en": "doi khi ho ra mau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là khi nằm ngửa",
         "name_en": "dac biet la khi nam ngua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là về chiều tối",
         "name_en": "dac biet la ve chieu toi",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Hở Van 2 Lá của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hở Van 2 Lá",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hay bị mệt mỏi, khó thở khi gắng sức và hồi hộp đánh trống ngực. Tôi có thể đang bị bệnh gì?",
     "Tôi bị đau thắt ngực, khó thở khi nằm và ho khan. Tôi có thể đang bị bệnh gì?",
@@ -209,11 +193,11 @@
     "Tôi bị phù chân, khó thở và tim đập nhanh khi gắng sức. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

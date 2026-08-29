@@ -7,8 +7,9 @@
     "Giãn Tĩnh Mạch Thừng Tinh",
     "Gian Tinh Mach Thung Tinh"
   ],
-  "description": "Giãn Tĩnh Mạch Thừng Tinh là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Giãn Tĩnh Mạch Thừng Tinh (Chuyên khoa: cardiology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,82 +61,65 @@
         "name_vi": "khó chịu sau khi quan hệ tình dục",
         "name_en": "kho chiu sau khi quan he tinh duc",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khó chịu ở vùng bìu khi mặc quần bó sát",
         "name_en": "kho chiu o vung biu khi mac quan bo sat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó chịu ở vùng bìu khi ngồi lâu trên xe máy",
         "name_en": "kho chiu o vung biu khi ngoi lau tren xe may",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng ở phía trên bìu",
         "name_en": "sung o phia tren biu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tĩnh mạch ở bìu nổi rõ hơn",
         "name_en": "tinh mach o biu noi ro hon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tĩnh mạch ở bìu nổi rõ hơn bình thường",
         "name_en": "tinh mach o biu noi ro hon binh thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vùng bìu hơi sưng",
         "name_en": "vung biu hoi sung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vùng bìu nặng nề",
         "name_en": "vung biu nang ne",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhói ở bìu khi thay đổi tư thế đột ngột",
         "name_en": "dau nhoi o biu khi thay doi tu the dot ngot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhẹ ở bìu vào buổi chiều tối",
         "name_en": "dau nhe o biu vao buoi chieu toi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ở bìu sau khi làm việc gắng sức",
         "name_en": "dau o biu sau khi lam viec gang suc",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Giãn Tĩnh Mạch Thừng Tinh của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Giãn Tĩnh Mạch Thừng Tinh",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có cảm giác nặng ở vùng bìu, đặc biệt là sau khi đứng lâu. Tôi có thể đang bị bệnh gì?",
     "Tôi hay thấy đau nhẹ ở bìu vào buổi chiều tối. Tôi có thể đang bị bệnh gì?",
@@ -154,11 +138,11 @@
     "Tôi thấy khó chịu ở vùng bìu khi ngồi lâu trên xe máy. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

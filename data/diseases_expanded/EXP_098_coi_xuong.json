@@ -7,8 +7,9 @@
     "Còi Xương",
     "Coi Xuong"
   ],
-  "description": "Còi Xương là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Còi Xương (Chuyên khoa: musculoskeletal)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,162 +61,145 @@
         "name_vi": "dễ bị gãy",
         "name_en": "de bi gay",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "dễ bị sâu răng",
         "name_en": "de bi sau rang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay bị chuột rút",
         "name_en": "hay bi chuot rut",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay bị giật mình",
         "name_en": "hay bi giat minh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay bị đau nhức xương",
         "name_en": "hay bi dau nhuc xuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay quấy khóc",
         "name_en": "hay quay khoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay đổ mồ hôi trộm",
         "name_en": "hay do mo hoi trom",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngủ không ngon giấc",
         "name_en": "ngu khong ngon giac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngực gà",
         "name_en": "nguc ga",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngực nhô cao",
         "name_en": "nguc nho cao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn mửa",
         "name_en": "non mua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn ói",
         "name_en": "non oi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "răng mọc chậm",
         "name_en": "rang moc cham",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy dinh dưỡng",
         "name_en": "suy dinh duong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thóp chậm liền",
         "name_en": "thop cham lien",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thóp rộng",
         "name_en": "thop rong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tụt canxi",
         "name_en": "tut canxi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xương biến dạng",
         "name_en": "xuong bien dang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xương chậm phát triển",
         "name_en": "xuong cham phat trien",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xương dễ gãy",
         "name_en": "xuong de gay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xương phát triển chậm",
         "name_en": "xuong phat trien cham",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xương sọ mềm",
         "name_en": "xuong so mem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu ớt",
         "name_en": "yeu ot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức xương",
         "name_en": "dau nhuc xuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đầu to",
         "name_en": "dau to",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi trộm",
         "name_en": "do mo hoi trom",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Còi Xương của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Còi Xương",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như chán ăn, suy dinh dưỡng và xương phát triển chậm. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy mệt mỏi, hay đổ mồ hôi trộm và thóp chậm liền. Tôi có thể đang bị bệnh gì?",
@@ -234,11 +218,11 @@
     "Tôi hay bị còi cọc, chậm lớn và xương dễ gãy. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

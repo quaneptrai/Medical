@@ -7,8 +7,9 @@
     "Hen Suyễn",
     "Hen Suyen"
   ],
-  "description": "Hen Suyễn là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Hen Suyễn (Chuyên khoa: respiratory)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,107 +61,90 @@
         "name_vi": "khó thở",
         "name_en": "kho tho",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khó thở khi làm việc trong môi trường có nhiều hóa chất",
         "name_en": "kho tho khi lam viec trong moi truong co nhieu hoa chat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở khi ngủ",
         "name_en": "kho tho khi ngu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở khi vận động mạnh",
         "name_en": "kho tho khi van dong manh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở nặng hơn khi bị cảm lạnh",
         "name_en": "kho tho nang hon khi bi cam lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở tăng dần",
         "name_en": "kho tho tang dan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nặng ngực",
         "name_en": "nang nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phải dùng thuốc cắt cơn",
         "name_en": "phai dung thuoc cat con",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phải ngồi chống tay để thở",
         "name_en": "phai ngoi chong tay de tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phải sử dụng thuốc cắt cơn thường xuyên hơn",
         "name_en": "phai su dung thuoc cat con thuong xuyen hon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sổ mũi",
         "name_en": "so mui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thở khò khè",
         "name_en": "tho kho khe",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tức ngực",
         "name_en": "tuc nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tức ngực khi tiếp xúc với phấn hoa",
         "name_en": "tuc nguc khi tiep xuc voi phan hoa",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là khi tập thể dục",
         "name_en": "dac biet la khi tap the duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là vào ban đêm hoặc khi thời tiết thay đổi",
         "name_en": "dac biet la vao ban dem hoac khi thoi tiet thay doi",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Hen Suyễn của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hen Suyễn",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như ho khan, khó thở, đặc biệt là vào ban đêm hoặc khi thời tiết thay đổi. Tôi có thể đang bị bệnh gì?",
     "Tôi hay thở khò khè, tức ngực và cảm thấy khó thở khi vận động mạnh. Tôi có thể đang bị bệnh gì?",
@@ -179,11 +163,11 @@
     "Tôi hiện đang có các triệu chứng như khó thở, tức ngực khi tiếp xúc với phấn hoa. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

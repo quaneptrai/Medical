@@ -7,8 +7,9 @@
     "Điều Trị Chứng Rối Loạn Tiền Mãn Kinh",
     "Dieu Tri Chung Roi Loan Tien Man Kinh"
   ],
-  "description": "Điều Trị Chứng Rối Loạn Tiền Mãn Kinh là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Điều Trị Chứng Rối Loạn Tiền Mãn Kinh (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,197 +61,180 @@
         "name_vi": "hay bị chuột rút",
         "name_en": "hay bi chuot rut",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "hay bốc hỏa",
         "name_en": "hay boc hoa",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay quên",
         "name_en": "hay quen",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó ngủ",
         "name_en": "kho ngu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở",
         "name_en": "kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thụ thai",
         "name_en": "kho thu thai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó tập trung",
         "name_en": "kho tap trung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khô miệng",
         "name_en": "kho mieng",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khô mắt",
         "name_en": "kho mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khô âm đạo",
         "name_en": "kho am dao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "kinh nguyệt không đều",
         "name_en": "kinh nguyet khong deu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "kinh nguyệt ra nhiều",
         "name_en": "kinh nguyet ra nhieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "kinh nguyệt thất thường",
         "name_en": "kinh nguyet that thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lo lắng",
         "name_en": "lo lang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lo lắng về mật độ xương của mình",
         "name_en": "lo lang ve mat do xuong cua minh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mất hứng thú với mọi thứ",
         "name_en": "mat hung thu voi moi thu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngực căng tức",
         "name_en": "nguc cang tuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhiễm trùng đường tiết niệu",
         "name_en": "nhiem trung duong tiet nieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nóng bừng mặt",
         "name_en": "nong bung mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn giấc ngủ",
         "name_en": "roi loan giac ngu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thay đổi thị lực",
         "name_en": "thay doi thi luc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thay đổi tính tình thất thường",
         "name_en": "thay doi tinh tinh that thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thường xuyên đau nhức xương khớp",
         "name_en": "thuong xuyen dau nhuc xuong khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tim đập nhanh",
         "name_en": "tim dap nhanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu buốt",
         "name_en": "tieu buot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu rắt",
         "name_en": "tieu rat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tóc rụng",
         "name_en": "toc rung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng cân",
         "name_en": "tang can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vết thương lâu lành",
         "name_en": "vet thuong lau lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng kinh",
         "name_en": "dau bung kinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp",
         "name_en": "dau khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu",
         "name_en": "dau dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi đêm",
         "name_en": "do mo hoi dem",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Điều Trị Chứng Rối Loạn Tiền Mãn Kinh của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Điều Trị Chứng Rối Loạn Tiền Mãn Kinh",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như kinh nguyệt thất thường, khó thụ thai và hay bốc hỏa. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy dễ tăng cân, thường xuyên đau nhức xương khớp và thay đổi tính tình thất thường. Tôi có thể đang bị bệnh gì?",
@@ -269,11 +253,11 @@
     "Tôi hay bị nhiễm trùng đường tiết niệu, tiểu buốt và tiểu rắt. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

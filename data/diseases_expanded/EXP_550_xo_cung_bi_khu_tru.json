@@ -7,8 +7,9 @@
     "Xơ Cứng Bi Khu Trú",
     "Xo Cung Bi Khu Tru"
   ],
-  "description": "Xơ Cứng Bi Khu Trú là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Xơ Cứng Bi Khu Trú (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,102 +61,85 @@
         "name_vi": "hiện đang bị tổn thương xương",
         "name_en": "hien dang bi ton thuong xuong",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "hiện đang có 3 – 4 mảng bám hình bầu dục trên da",
         "name_en": "hien dang co 3 - 4 mang bam hinh bau duc tren da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang có một dải da dày",
         "name_en": "hien dang co mot dai da day",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang có nhiều mảng bao phủ gần như toàn bộ cơ thể",
         "name_en": "hien dang co nhieu mang bao phu gan nhu toan bo co the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang có nếp nhăn dài trên cổ",
         "name_en": "hien dang co nep nhan dai tren co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang có nếp nhăn dài trên đầu",
         "name_en": "hien dang co nep nhan dai tren dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang có tổn thương lan rộng trên da",
         "name_en": "hien dang co ton thuong lan rong tren da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngứa da",
         "name_en": "ngua da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xơ cứng bì sâu",
         "name_en": "xo cung bi sau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xơ cứng bì thể dải",
         "name_en": "xo cung bi the dai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xơ cứng bì thể mảng",
         "name_en": "xo cung bi the mang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xơ cứng bì thể mảng lan rộng",
         "name_en": "xo cung bi the mang lan rong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổi màu trên chân",
         "name_en": "doi mau tren chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổi màu trên cánh tay",
         "name_en": "doi mau tren canh tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổi màu trên trán",
         "name_en": "doi mau tren tran",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Xơ Cứng Bi Khu Trú của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Xơ Cứng Bi Khu Trú",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như da xuất hiện các mảng đổi màu, dày và cứng. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy ngứa da và các mảng da có hình bầu dục. Tôi có thể đang bị bệnh gì?",
@@ -174,11 +158,11 @@
     "Tôi bị xơ cứng bì thể dải và hiện đang bị dị tật. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

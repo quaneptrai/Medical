@@ -7,8 +7,9 @@
     "Đau Họng",
     "Dau Hong"
   ],
-  "description": "Đau Họng là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Đau Họng (Chuyên khoa: respiratory)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,112 +61,95 @@
         "name_vi": "hạch cổ sưng",
         "name_en": "hach co sung",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khó nuốt",
         "name_en": "kho nuot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khạc ra máu",
         "name_en": "khac ra mau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nghẹt mũi",
         "name_en": "nghet mui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nuốt khó",
         "name_en": "nuot kho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nuốt vướng",
         "name_en": "nuot vuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi hạch ở cổ",
         "name_en": "noi hach o co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sổ mũi",
         "name_en": "so mui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng",
         "name_en": "dau hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng khi thời tiết thay đổi",
         "name_en": "dau hong khi thoi tiet thay doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng kèm cổ to",
         "name_en": "dau hong kem co to",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng kèm nổi hạch cổ",
         "name_en": "dau hong kem noi hach co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng kèm sốt",
         "name_en": "dau hong kem sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng kéo dài hơn hai tuần",
         "name_en": "dau hong keo dai hon hai tuan",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Đau Họng của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Họng",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau họng, ho, sốt, cổ có đờm, hôi miệng, sổ mũi, nghẹt mũi. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau họng kèm sốt, hạch cổ, amidan có mủ. Tôi có thể đang bị bệnh gì?",
@@ -184,11 +168,11 @@
     "Tôi hay bị đau họng khi thời tiết thay đổi. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

@@ -7,8 +7,9 @@
     "Viêm Bao Gan Ngón Tay",
     "Viem Bao Gan Ngon Tay"
   ],
-  "description": "Viêm Bao Gan Ngón Tay là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Bao Gan Ngón Tay (Chuyên khoa: digestive)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,142 +61,125 @@
         "name_vi": "ngón cái hoặc vị trí tiếp xúc giữa ngón tay với lòng bàn tay",
         "name_en": "ngon cai hoac vi tri tiep xuc giua ngon tay voi long ban tay",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "ngón tay bị cứng hoặc không thể cử động do viêm bao gân",
         "name_en": "ngon tay bi cung hoac khong the cu dong do viem bao gan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngón tay bị kẹt vĩnh viễn ở tư thế gấp",
         "name_en": "ngon tay bi ket vinh vien o tu the gap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhiễm trùng",
         "name_en": "nhiem trung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhạc sĩ… thường xuyên phải thực hiện các động tác lặp đi lặp lại trên ngón tay",
         "name_en": "nhac si... thuong xuyen phai thuc hien cac dong tac lap di lap lai tren ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phẫu thuật hội chứng ống cổ tay",
         "name_en": "phau thuat hoi chung ong co tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng do viêm bao hoạt dịch tại khớp",
         "name_en": "sung do viem bao hoat dich tai khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm",
         "name_en": "viem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao gân gấp ngón tay",
         "name_en": "viem bao gan gap ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao gân ngón tay do chuyển động lặp đi lặp lại hoặc vận động ngón tay quá mức dẫn đến căng thẳng",
         "name_en": "viem bao gan ngon tay do chuyen dong lap di lap lai hoac van dong ngon tay qua muc dan den cang thang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao gân ngón tay do các yếu tố nguy cơ như tuổi tác",
         "name_en": "viem bao gan ngon tay do cac yeu to nguy co nhu tuoi tac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao gân ngón tay do gân (dải mô cứng kết nối cơ",
         "name_en": "viem bao gan ngon tay do gan (dai mo cung ket noi co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao gân ngón tay do không thể duỗi thẳng ngón tay",
         "name_en": "viem bao gan ngon tay do khong the duoi thang ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao gân ngón tay do nông dân",
         "name_en": "viem bao gan ngon tay do nong dan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao gân ngón tay do phẫu thuật hội chứng ống cổ tay",
         "name_en": "viem bao gan ngon tay do phau thuat hoi chung ong co tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao gân ngón tay do tiểu đường",
         "name_en": "viem bao gan ngon tay do tieu duong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm khớp dạng thấp",
         "name_en": "viem khop dang thap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vận động hàng ngày gặp phải rất nhiều khó khăn",
         "name_en": "van dong hang ngay gap phai rat nhieu kho khan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xương ngón tay) bị viêm",
         "name_en": "xuong ngon tay) bi viem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cả khi nghỉ ngơi",
         "name_en": "dau ca khi nghi ngoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khi cố gắng duỗi thẳng hoàn toàn",
         "name_en": "dau nhuc khi co gang duoi thang hoan toan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ở gốc ngón tay",
         "name_en": "dau o goc ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là khi thực hiện động tác gấp hoặc duỗi thẳng",
         "name_en": "dac biet la khi thuc hien dong tac gap hoac duoi thang",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Bao Gan Ngón Tay của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Bao Gan Ngón Tay",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau ở gốc ngón tay, ngón cái hoặc vị trí tiếp xúc giữa ngón tay với lòng bàn tay. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau cả khi nghỉ ngơi. Tôi có thể đang bị bệnh gì?",
@@ -214,11 +198,11 @@
     "Tôi hay bị ngón tay bị kẹt vĩnh viễn ở tư thế gấp, khiến sinh hoạt, vận động hàng ngày gặp phải rất nhiều khó khăn và bất tiện. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

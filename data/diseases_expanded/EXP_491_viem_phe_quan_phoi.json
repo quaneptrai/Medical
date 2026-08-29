@@ -7,8 +7,9 @@
     "Viêm Phế Quản Phổi",
     "Viem Phe Quan Phoi"
   ],
-  "description": "Viêm Phế Quản Phổi là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Phế Quản Phổi (Chuyên khoa: respiratory)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,97 +61,80 @@
         "name_vi": "mệt mỏi kéo dài",
         "name_en": "met moi keo dai",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "nôn mửa",
         "name_en": "non mua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thở gấp",
         "name_en": "tho gap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy",
         "name_en": "tieu chay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tím tái",
         "name_en": "tim tai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đang sử dụng thuốc ức chế miễn dịch",
         "name_en": "dang su dung thuoc uc che mien dich",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đang điều trị hen suyễn",
         "name_en": "dang dieu tri hen suyen",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ngực khi ho",
         "name_en": "dau nguc khi ho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức cơ thể",
         "name_en": "dau nhuc co the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau tức ngực",
         "name_en": "dau tuc nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu",
         "name_en": "dau dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi",
         "name_en": "do mo hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ớn lạnh",
         "name_en": "on lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Phế Quản Phổi của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Phế Quản Phổi",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như ho dai dẳng, ho ra máu và khó thở. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy mệt mỏi, sốt, đau tức ngực và ho có đờm. Tôi có thể đang bị bệnh gì?",
@@ -169,11 +153,11 @@
     "Tôi bị ho, sốt, khó thở và mệt mỏi kéo dài. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

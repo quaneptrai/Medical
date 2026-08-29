@@ -7,8 +7,9 @@
     "Ung Thư Cổ Tử Cung Giai Đoạn 2",
     "Ung Thu Co Tu Cung Giai Doan 2"
   ],
-  "description": "Ung Thư Cổ Tử Cung Giai Đoạn 2 là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Ung Thư Cổ Tử Cung Giai Đoạn 2 (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,82 +61,65 @@
         "name_vi": "ra máu âm đạo",
         "name_en": "ra mau am dao",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "ra máu âm đạo bất thường",
         "name_en": "ra mau am dao bat thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ra máu âm đạo giữa chu kỳ kinh nguyệt",
         "name_en": "ra mau am dao giua chu ky kinh nguyet",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ra máu âm đạo sau khi mãn kinh",
         "name_en": "ra mau am dao sau khi man kinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ra nhiều hơn bình thường",
         "name_en": "ra nhieu hon binh thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiết dịch âm đạo có mùi hôi",
         "name_en": "tiet dich am dao co mui hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ung thư cổ tử cung giai đoạn II",
         "name_en": "ung thu co tu cung giai doan II",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xạ trị",
         "name_en": "xa tri",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dưới",
         "name_en": "dau bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi quan hệ tình dục",
         "name_en": "dau khi quan he tinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau vùng chậu",
         "name_en": "dau vung chau",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Ung Thư Cổ Tử Cung Giai Đoạn 2 của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Cổ Tử Cung Giai Đoạn 2",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như ra máu âm đạo bất thường và đau vùng chậu. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau khi quan hệ tình dục và ra máu âm đạo. Tôi có thể đang bị bệnh gì?",
@@ -154,11 +138,11 @@
     "Tôi hay bị đau bụng dưới và ra máu âm đạo. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

@@ -1,7 +1,6 @@
 import sys
 import io
 import json
-import re
 from pathlib import Path
 from unidecode import unidecode
 from rank_bm25 import BM25Okapi
@@ -10,33 +9,10 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
+sys.path.insert(0, str(ROOT))
 
 from knowledge.schema import DiseaseSchema, load_all_diseases
-from retrieval.search_engine import tokenize_vietnamese
-
-def prepare_doc_text(disease: DiseaseSchema) -> str:
-    """Xây dựng text biểu diễn chuẩn cho positive/negative document."""
-    parts = [f"Tên bệnh: {disease.name_vi} ({disease.name_en})"]
-    if disease.aliases:
-        parts.append(f"Tên gọi khác: {', '.join(disease.aliases)}")
-    if disease.user_language_variants:
-        parts.append(f"Cách người bệnh mô tả: {' | '.join(disease.user_language_variants)}")
-    if disease.red_flags:
-        parts.append(f"Dấu hiệu cấp cứu nguy hiểm: {' | '.join(disease.red_flags)}")
-    
-    all_syms = []
-    for freq, sym_list in disease.symptoms.items():
-        for s in sym_list:
-            all_syms.append(s.name_vi)
-    if all_syms:
-        parts.append(f"Triệu chứng: {', '.join(all_syms)}")
-        
-    if disease.description:
-        parts.append(f"Mô tả: {disease.description}")
-    if disease.risk_factors:
-        parts.append(f"Yếu tố nguy cơ: {', '.join(disease.risk_factors)}")
-        
-    return " \n".join(parts)
+from retrieval.search_engine import HybridDiseaseSearcher, tokenize_vietnamese
 
 def build_triplets(dst_path: Path):
     print("=== 1. NẠP KNOWLEDGE BASE (TIER 1 + TIER 2) ===")
@@ -54,14 +30,16 @@ def build_triplets(dst_path: Path):
             
     print(f"-> Tổng số bệnh nạp vào: {len(all_diseases)} bệnh ({len(t1_diseases)} Tier 1, {len(all_diseases)-len(t1_diseases)} Tier 2)")
 
-    # Tạo map tài liệu
+    # Dựng tài liệu chuẩn duy nhất qua HybridDiseaseSearcher._prepare_document_text
     doc_map = {}
+    disease_map = {}
     disease_names = []
     corpus_tokens = []
     
     for d in all_diseases:
-        doc_text = prepare_doc_text(d)
+        doc_text = HybridDiseaseSearcher._prepare_document_text(d)
         doc_map[d.name_vi] = doc_text
+        disease_map[d.name_vi] = d
         disease_names.append(d.name_vi)
         corpus_tokens.append(tokenize_vietnamese(doc_text))
         
@@ -76,9 +54,11 @@ def build_triplets(dst_path: Path):
     if bench_file.exists():
         with open(bench_file, "r", encoding="utf-8") as f:
             b_data = json.load(f)
-            for item in b_data.get("cases", []):
-                benchmark_queries.add(item["query"].strip().lower())
-                benchmark_queries.add(unidecode(item["query"].strip().lower()))
+            cases = b_data if isinstance(b_data, list) else b_data.get("cases", [])
+            for item in cases:
+                if isinstance(item, dict) and "query" in item:
+                    benchmark_queries.add(item["query"].strip().lower())
+                    benchmark_queries.add(unidecode(item["query"].strip().lower()))
                 
     if golden_file.exists():
         with open(golden_file, "r", encoding="utf-8") as f:
@@ -91,12 +71,11 @@ def build_triplets(dst_path: Path):
 
     print(f"-> Đã ghi nhận {len(benchmark_queries)} câu hỏi thuộc tập Benchmark cấm.")
 
-    print("\n=== 4. KHAI THÁC TRIPLET & CHỐNG RÒ RỈ DỮ LIỆU ===")
+    print("\n=== 4. KHAI THÁC TRIPLET VỚI LEAVE-ONE-OUT & CHỐNG RÒ RỈ ===")
     triplets = []
     leakage_count = 0
     
     for d in all_diseases:
-        pos_doc = doc_map[d.name_vi]
         excluded_names = {d.name_vi.lower().strip(), unidecode(d.name_vi.lower().strip())}
         for alias in d.aliases:
             excluded_names.add(alias.lower().strip())
@@ -111,6 +90,9 @@ def build_triplets(dst_path: Path):
             if v_clean.lower() in benchmark_queries or unidecode(v_clean.lower()) in benchmark_queries:
                 leakage_count += 1
                 continue # Bỏ ngay, tuyệt đối không cho vào train!
+
+            # LEAVE-ONE-OUT: Positive document bỏ câu variant hiện tại ra để chống học vẹt chuỗi
+            pos_doc_leave_one_out = HybridDiseaseSearcher._prepare_document_text(d, exclude_variant=v_clean)
 
             # Đào Hard Negative từ BM25
             q_tok = tokenize_vietnamese(v_clean)
@@ -132,7 +114,7 @@ def build_triplets(dst_path: Path):
             for neg_name in hard_neg_candidates:
                 triplets.append({
                     "anchor": v_clean,
-                    "positive": pos_doc,
+                    "positive": pos_doc_leave_one_out,
                     "negative": doc_map[neg_name],
                     "target_disease": d.name_vi,
                     "confusable_disease": neg_name,
@@ -144,7 +126,7 @@ def build_triplets(dst_path: Path):
                 for neg_name in hard_neg_candidates:
                     triplets.append({
                         "anchor": v_unidecode,
-                        "positive": pos_doc,
+                        "positive": pos_doc_leave_one_out,
                         "negative": doc_map[neg_name],
                         "target_disease": d.name_vi,
                         "confusable_disease": neg_name,

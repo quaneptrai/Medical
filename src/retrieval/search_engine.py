@@ -129,9 +129,11 @@ class HybridDiseaseSearcher:
         # Build index
         self._build_indexes(force_rebuild=rebuild_index)
 
-    def _prepare_document_text(self, disease: DiseaseSchema) -> str:
+    @staticmethod
+    def _prepare_document_text(disease: DiseaseSchema, exclude_variant: Optional[str] = None) -> str:
         """
         Build a concise, high-density text representation for vector embedding and BM25.
+        If exclude_variant is given, leaves that variant out (leave-one-out training).
         """
         parts = []
         
@@ -140,9 +142,15 @@ class HybridDiseaseSearcher:
         if disease.aliases:
             parts.append(f"Tên gọi khác: {', '.join(disease.aliases)}")
             
-        # User natural language expressions
-        if disease.user_language_variants:
-            parts.append(f"Cách người bệnh mô tả: {' | '.join(disease.user_language_variants)}")
+        # User natural language expressions (leave-one-out support)
+        variants = disease.user_language_variants or []
+        if exclude_variant:
+            ex_low = exclude_variant.strip().lower()
+            ex_u = unidecode(ex_low)
+            variants = [v for v in variants if v.strip().lower() != ex_low and unidecode(v.strip().lower()) != ex_u]
+            
+        if variants:
+            parts.append(f"Cách người bệnh mô tả: {' | '.join(variants)}")
             
         # Red flags
         if disease.red_flags:
@@ -157,7 +165,8 @@ class HybridDiseaseSearcher:
             parts.append(f"Triệu chứng: {', '.join(all_syms)}")
             
         # Description
-        parts.append(f"Mô tả: {disease.description}")
+        if disease.description:
+            parts.append(f"Mô tả: {disease.description}")
         if disease.risk_factors:
             parts.append(f"Yếu tố nguy cơ: {', '.join(disease.risk_factors)}")
             

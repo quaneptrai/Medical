@@ -7,8 +7,9 @@
     "Viêm Amidan Hốc Mủ",
     "Viem Amidan Hoc Mu"
   ],
-  "description": "Viêm Amidan Hốc Mủ là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Amidan Hốc Mủ (Chuyên khoa: respiratory)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,122 +61,105 @@
         "name_vi": "khàn tiếng hoặc mất tiếng",
         "name_en": "khan tieng hoac mat tieng",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khạc nhổ liên tục",
         "name_en": "khac nho lien tuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rát họng",
         "name_en": "rat hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rất khó khạc nhổ hoặc nuốt",
         "name_en": "rat kho khac nho hoac nuot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thuốc lá",
         "name_en": "thuoc la",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thỉnh thoảng ho",
         "name_en": "thinh thoang ho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm amidan hốc mủ bã đậu",
         "name_en": "viem amidan hoc mu ba dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm amidan hốc mủ do không điều trị viêm amidan cấp tính triệt để",
         "name_en": "viem amidan hoc mu do khong dieu tri viem amidan cap tinh triet de",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm amidan hốc mủ do lối sống không lành mạnh",
         "name_en": "viem amidan hoc mu do loi song khong lanh manh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm amidan hốc mủ do thói quen rượu bia",
         "name_en": "viem amidan hoc mu do thoi quen ruou bia",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm amidan hốc mủ do vi khuẩn xâm nhập vào đường hô hấp",
         "name_en": "viem amidan hoc mu do vi khuan xam nhap vao duong ho hap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm amidan hốc mủ do yếu tố môi trường",
         "name_en": "viem amidan hoc mu do yeu to moi truong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm amidan mãn tính",
         "name_en": "viem amidan man tinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng",
         "name_en": "dau hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau rát cổ họng",
         "name_en": "dau rat co hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đôi khi khạc ra các hạt nhỏ lấm tấm có màu trắng hoặc xanh",
         "name_en": "doi khi khac ra cac hat nho lam tam co mau trang hoac xanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đột nhiên khàn tiếng hoặc mất tiếng",
         "name_en": "dot nhien khan tieng hoac mat tieng",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đờm vướng trong cổ họng",
         "name_en": "dom vuong trong co hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ổ mủ quanh amidan",
         "name_en": "o mu quanh amidan",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Amidan Hốc Mủ của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Amidan Hốc Mủ",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như khàn tiếng hoặc mất tiếng, ho khan hoặc ho có đờm. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau họng, rát họng, có thể có triệu chứng sốt hoặc không. Tôi có thể đang bị bệnh gì?",
@@ -194,11 +178,11 @@
     "Tôi hay bị ổ mủ quanh amidan, hốc amidan có mủ màu trắng hoặc xanh lấm tấm trong khoang miệng. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

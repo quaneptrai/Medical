@@ -7,8 +7,9 @@
     "Bệnh Tự Miễn",
     "Benh Tu Mien"
   ],
-  "description": "Bệnh Tự Miễn là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bệnh Tự Miễn (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,112 +61,95 @@
         "name_vi": "mệt mỏi kéo dài không rõ nguyên nhân",
         "name_en": "met moi keo dai khong ro nguyen nhan",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "sưng khớp",
         "name_en": "sung khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng nóng",
         "name_en": "sung nong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng nóng khớp",
         "name_en": "sung nong khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng nóng ở các khớp",
         "name_en": "sung nong o cac khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt dai dẳng",
         "name_en": "sot dai dang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tràn dịch khớp",
         "name_en": "tran dich khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau các khớp xương",
         "name_en": "dau cac khop xuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cơ",
         "name_en": "dau co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp",
         "name_en": "dau khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau mỏi",
         "name_en": "dau moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau mỏi toàn thân",
         "name_en": "dau moi toan than",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức cơ thể",
         "name_en": "dau nhuc co the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức toàn thân",
         "name_en": "dau nhuc toan than",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức xương khớp",
         "name_en": "dau nhuc xuong khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu",
         "name_en": "dau dau",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bệnh Tự Miễn của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Tự Miễn",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như mệt mỏi kéo dài không rõ nguyên nhân, sốt dai dẳng và đau mỏi toàn thân. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau các khớp xương, đau cơ và sưng nóng ở các khớp. Tôi có thể đang bị bệnh gì?",
@@ -184,11 +168,11 @@
     "Tôi đang cảm thấy đau nhức toàn thân, mệt mỏi và khó khăn trong việc cầm nắm. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

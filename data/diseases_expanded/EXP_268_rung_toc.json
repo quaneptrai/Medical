@@ -7,8 +7,9 @@
     "Rụng Tóc",
     "Rung Toc"
   ],
-  "description": "Rụng Tóc là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Rụng Tóc (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,92 +61,75 @@
         "name_vi": "rụng tóc đột ngột",
         "name_en": "rung toc dot ngot",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "stress",
         "name_en": "stress",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng tấy",
         "name_en": "sung tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tóc dễ rụng khi giật nhẹ",
         "name_en": "toc de rung khi giat nhe",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tóc gãy rụng",
         "name_en": "toc gay rung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tóc mỏng dần trên đỉnh đầu",
         "name_en": "toc mong dan tren dinh dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tóc mỏng đi ở phần trán",
         "name_en": "toc mong di o phan tran",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tóc rụng nhiều hơn bình thường",
         "name_en": "toc rung nhieu hon binh thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tóc rụng nhiều khi chải đầu",
         "name_en": "toc rung nhieu khi chai dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tóc rụng thành những đốm hình tròn hoặc loang lổ trên da đầu",
         "name_en": "toc rung thanh nhung dom hinh tron hoac loang lo tren da dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tóc rụng toàn thân sau khi điều trị hóa trị",
         "name_en": "toc rung toan than sau khi dieu tri hoa tri",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xơ xác sau khi trải qua cú sốc tinh thần",
         "name_en": "xo xac sau khi trai qua cu soc tinh than",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đường chân tóc bị tụt",
         "name_en": "duong chan toc bi tut",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Rụng Tóc của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rụng Tóc",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như tóc mỏng dần trên đỉnh đầu. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy tóc rụng thành những đốm hình tròn hoặc loang lổ trên da đầu. Tôi có thể đang bị bệnh gì?",
@@ -164,11 +148,11 @@
     "Tôi hay bị rụng tóc thành từng mảng. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

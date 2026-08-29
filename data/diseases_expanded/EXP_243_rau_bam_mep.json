@@ -7,8 +7,9 @@
     "Rau Bám Mép",
     "Rau Bam Mep"
   ],
-  "description": "Rau Bám Mép là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Rau Bám Mép (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,62 +61,45 @@
         "name_vi": "rau bám mép",
         "name_en": "rau bam mep",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "thế nào khi bị rau bám mép",
         "name_en": "the nao khi bi rau bam mep",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tìm hiểu về nguyên nhân gây ra rau bám mép",
         "name_en": "tim hieu ve nguyen nhan gay ra rau bam mep",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tìm kiếm phương pháp điều trị rau bám mép",
         "name_en": "tim kiem phuong phap dieu tri rau bam mep",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xuất huyết âm đạo tái phát sau vài ngày hoặc vài tuần",
         "name_en": "xuat huyet am dao tai phat sau vai ngay hoac vai tuan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xuất huyết âm đạo tự khỏi mà không cần can thiệp điều trị",
         "name_en": "xuat huyet am dao tu khoi ma khong can can thiep dieu tri",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng do tử cung co thắt",
         "name_en": "dau bung do tu cung co that",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Rau Bám Mép của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rau Bám Mép",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang mang thai và có các triệu chứng như chảy máu âm đạo bất thường, có thể là máu tươi hoặc máu cục nhưng không hề gây đau đớn. Tôi có thể đang bị bệnh gì?",
     "Tôi đang mang thai 3 tháng cuối và bị xuất huyết âm đạo tự khỏi mà không cần can thiệp điều trị. Tôi có thể đang bị bệnh gì?",
@@ -134,11 +118,11 @@
     "Tôi muốn tìm hiểu về các loại thuốc điều trị rau bám mép. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

@@ -7,8 +7,9 @@
     "Hội Chứng Lối Thoát Lồng Ngực",
     "Hoi Chung Loi Thoat Long Nguc"
   ],
-  "description": "Hội Chứng Lối Thoát Lồng Ngực là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Hội Chứng Lối Thoát Lồng Ngực (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,102 +61,85 @@
         "name_vi": "gặp tình trạng thuyên tắc (tắc nghẽn) động mạch ở bàn tay hoặc cánh tay",
         "name_en": "gap tinh trang thuyen tac (tac nghen) dong mach o ban tay hoac canh tay",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "ngứa ran hoặc khó chịu ở các ngón tay",
         "name_en": "ngua ran hoac kho chiu o cac ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhợt nhạt",
         "name_en": "nhot nhat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi rõ ở vai",
         "name_en": "noi ro o vai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng cánh tay",
         "name_en": "sung canh tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê hoặc ngứa ran ở cánh tay hoặc ngón tay",
         "name_en": "te hoac ngua ran o canh tay hoac ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vai hoặc tay",
         "name_en": "vai hoac tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu ở đệm ngón tay cái",
         "name_en": "yeu o dem ngon tay cai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau",
         "name_en": "dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau hoặc nhức mỏi ở cổ",
         "name_en": "dau hoac nhuc moi o co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau hoặc yếu ở vai",
         "name_en": "dau hoac yeu o vai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhói ở bàn tay",
         "name_en": "dau nhoi o ban tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ở bàn tay",
         "name_en": "dau o ban tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ở vai",
         "name_en": "dau o vai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là khi cánh tay chuyển động trên cao",
         "name_en": "dac biet la khi canh tay chuyen dong tren cao",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Hội Chứng Lối Thoát Lồng Ngực của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hội Chứng Lối Thoát Lồng Ngực",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau hoặc yếu ở vai và cánh tay, ngứa ran hoặc khó chịu ở các ngón tay. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy tê và yếu ở đệm ngón tay cái, cơ của lòng bàn tay. Tôi có thể đang bị bệnh gì?",
@@ -174,11 +158,11 @@
     "Tôi hay bị đau và sưng cánh tay. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

@@ -7,8 +7,9 @@
     "Tinh Hoàn Ẩn",
     "Tinh Hoan An"
   ],
-  "description": "Tinh Hoàn Ẩn là một bệnh lý thuộc chuyên khoa andrology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Tinh Hoàn Ẩn (Chuyên khoa: andrology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,72 +61,55 @@
         "name_vi": "khối u nổi lên ở ống bẹn. Nó có thể đang bị bệnh gì?",
         "name_en": "khoi u noi len o ong ben. No co the dang bi benh gi?",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "lo lắng về khả năng sinh sản",
         "name_en": "lo lang ve kha nang sinh san",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lo lắng về nguy cơ ung thư",
         "name_en": "lo lang ve nguy co ung thu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "là con trai và mẹ tôi sử dụng thuốc kháng androgen khi mang thai",
         "name_en": "la con trai va me toi su dung thuoc khang androgen khi mang thai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn nội tiết tố",
         "name_en": "roi loan noi tiet to",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy tuyến yên",
         "name_en": "suy tuyen yen",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tinh hoàn ẩn",
         "name_en": "tinh hoan an",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ẩn tinh hoàn cả hai bên",
         "name_en": "an tinh hoan ca hai ben",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ẩn tinh hoàn một bên",
         "name_en": "an tinh hoan mot ben",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Tinh Hoàn Ẩn của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Tinh Hoàn Ẩn",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi bị rối loạn nội tiết tố và dị tật bẩm sinh. Tôi có thể đang bị bệnh gì?",
     "Tôi bị suy tuyến yên và dương vật nhỏ. Tôi có thể đang bị bệnh gì?",
@@ -144,11 +128,11 @@
     "Túi bìu của con trai tôi nhỏ và xẹp. Nó có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

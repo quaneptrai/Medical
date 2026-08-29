@@ -7,8 +7,9 @@
     "Viêm Loét Giác Mạc",
     "Viem Loet Giac Mac"
   ],
-  "description": "Viêm Loét Giác Mạc là một bệnh lý thuộc chuyên khoa ophthalmology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Loét Giác Mạc (Chuyên khoa: ophthalmology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,107 +61,90 @@
         "name_vi": "nhiễm trùng sâu",
         "name_en": "nhiem trung sau",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "nhiễm vi khuẩn",
         "name_en": "nhiem vi khuan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhạy cảm với ánh sáng chói",
         "name_en": "nhay cam voi anh sang choi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nấm",
         "name_en": "nam",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sẹo giác mạc",
         "name_en": "seo giac mac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thủng giác mạc",
         "name_en": "thung giac mac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng tiết nước mắt",
         "name_en": "tang tiet nuoc mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vi rút hoặc ký sinh trùng như Acanthamoeba",
         "name_en": "vi rut hoac ky sinh trung nhu Acanthamoeba",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vật lạ làm trầy xước",
         "name_en": "vat la lam tray xuoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vết loét hở trên giác mạc",
         "name_en": "vet loet ho tren giac mac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vết loét xuất hiện dưới dạng một đốm trắng hoặc mờ",
         "name_en": "vet loet xuat hien duoi dang mot dom trang hoac mo",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vết loét ăn sâu",
         "name_en": "vet loet an sau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xám trên giác mác",
         "name_en": "xam tren giac mac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xâm nhập/ đọng lại trong mắt",
         "name_en": "xam nhap/ dong lai trong mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau",
         "name_en": "dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức",
         "name_en": "dau nhuc",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Loét Giác Mạc của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Loét Giác Mạc",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như vết loét hở trên giác mạc. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đỏ, đau, cảm giác như có dị vật trong mắt. Tôi có thể đang bị bệnh gì?",
@@ -179,11 +163,11 @@
     "Tôi hay bị loét giác mạc do virus. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

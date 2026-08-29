@@ -7,8 +7,9 @@
     "Bệnh Thần Kinh Đái Tháo Đường",
     "Benh Than Kinh Dai Thao Duong"
   ],
-  "description": "Bệnh Thần Kinh Đái Tháo Đường là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bệnh Thần Kinh Đái Tháo Đường (Chuyên khoa: neurology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,147 +61,130 @@
         "name_vi": "gặp vấn đề rối loạn cương dương và xuất tinh ngược dòng",
         "name_en": "gap van de roi loan cuong duong va xuat tinh nguoc dong",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "hay tiểu đêm nhiều, tiểu lắt nhắt và tiểu gấp",
         "name_en": "hay tieu dem nhieu, tieu lat nhat va tieu gap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hạ huyết áp tư thế",
         "name_en": "ha huyet ap tu the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó kiểm soát",
         "name_en": "kho kiem soat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khô âm đạo",
         "name_en": "kho am dao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "không còn nhận biết được các dấu hiệu của hạ đường huyết nữa",
         "name_en": "khong con nhan biet duoc cac dau hieu cua ha duong huyet nua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lúc thì nhiều lúc thì ít",
         "name_en": "luc thi nhieu luc thi it",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mất cảm giác ở bàn chân",
         "name_en": "mat cam giac o ban chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngứa ran",
         "name_en": "ngua ran",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhịp tim nhanh khi nghỉ ngơi",
         "name_en": "nhip tim nhanh khi nghi ngoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn",
         "name_en": "non",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân không rõ nguyên nhân",
         "name_en": "sut can khong ro nguyen nhan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "teo cơ",
         "name_en": "teo co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thường xuyên cảm thấy choáng váng",
         "name_en": "thuong xuyen cam thay choang vang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thường xuyên đi rớt dép",
         "name_en": "thuong xuyen di rot dep",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu lỏng thường xuyên",
         "name_en": "tieu long thuong xuyen",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì",
         "name_en": "te bi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì ở bàn tay",
         "name_en": "te bi o ban tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ăn không tiêu sau khi ăn",
         "name_en": "an khong tieu sau khi an",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau",
         "name_en": "dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau một bên đùi",
         "name_en": "dau mot ben dui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau rát khi quan hệ",
         "name_en": "dau rat khi quan he",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đầy hơi",
         "name_en": "day hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi bất thường",
         "name_en": "do mo hoi bat thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bệnh Thần Kinh Đái Tháo Đường của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Thần Kinh Đái Tháo Đường",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như tê bì, cảm giác châm chích ở bàn chân và cẳng chân. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy chướng bụng, đầy hơi, ăn không tiêu sau khi ăn. Tôi có thể đang bị bệnh gì?",
@@ -219,11 +203,11 @@
     "Tôi bị bí tiểu, dòng nước tiểu yếu và khó kiểm soát. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

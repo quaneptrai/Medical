@@ -7,8 +7,9 @@
     "Bụi Phổi Silic",
     "Bui Phoi Silic"
   ],
-  "description": "Bụi Phổi Silic là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bụi Phổi Silic (Chuyên khoa: respiratory)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,92 +61,75 @@
         "name_vi": "hụt hơi khi leo cầu thang",
         "name_en": "hut hoi khi leo cau thang",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "hụt hơi khi nói chuyện hoặc cười lớn",
         "name_en": "hut hoi khi noi chuyen hoac cuoi lon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hụt hơi khi đi bộ hoặc vận động nhẹ",
         "name_en": "hut hoi khi di bo hoac van dong nhe",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở",
         "name_en": "kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "môi nhợt nhạt",
         "name_en": "moi nhot nhat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng phù",
         "name_en": "sung phu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt về chiều",
         "name_en": "sot ve chieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân không rõ nguyên nhân",
         "name_en": "sut can khong ro nguyen nhan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tức ngực khi gắng sức",
         "name_en": "tuc nguc khi gang suc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức xương khớp",
         "name_en": "dau nhuc xuong khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau tức ngực",
         "name_en": "dau tuc nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi trộm vào ban đêm",
         "name_en": "do mo hoi trom vao ban dem",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bụi Phổi Silic của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bụi Phổi Silic",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có triệu chứng ho dai dẳng và thỉnh thoảng kèm theo đờm. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy khó thở và hụt hơi khi leo cầu thang. Tôi có thể đang bị bệnh gì?",
@@ -164,11 +148,11 @@
     "Tôi thường xuyên bị hụt hơi khi đi bộ hoặc vận động nhẹ. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

@@ -7,8 +7,9 @@
     "Hiếm Muộn",
     "Hiem Muon"
   ],
-  "description": "Hiếm Muộn là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Hiếm Muộn (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,97 +61,80 @@
         "name_vi": "lượng kinh cũng nhiều hơn",
         "name_en": "luong kinh cung nhieu hon",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "lượng kinh cũng ít hơn",
         "name_en": "luong kinh cung it hon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi mụn trứng cá",
         "name_en": "noi mun trung ca",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "teo",
         "name_en": "teo",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thay đổi về da",
         "name_en": "thay doi ve da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thay đổi về ham muốn tình dục",
         "name_en": "thay doi ve ham muon tinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tinh hoàn bị nhỏ lại",
         "name_en": "tinh hoan bi nho lai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng cân",
         "name_en": "tang can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vô kinh",
         "name_en": "vo kinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xuất huyết âm đạo bất thường",
         "name_en": "xuat huyet am dao bat thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi quan hệ",
         "name_en": "dau khi quan he",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi quan hệ tình dục",
         "name_en": "dau khi quan he tinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau vùng bụng dưới",
         "name_en": "dau vung bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Hiếm Muộn của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hiếm Muộn",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như kinh nguyệt thất thường và thay đổi về ham muốn tình dục. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau khi quan hệ tình dục và khí hư bất thường. Tôi có thể đang bị bệnh gì?",
@@ -169,11 +153,11 @@
     "Tôi hay bị kinh nguyệt ngắn hơn bình thường và lượng kinh cũng ít hơn. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

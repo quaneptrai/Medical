@@ -7,8 +7,9 @@
     "Bệnh Đậu Mùa",
     "Benh Dau Mua"
   ],
-  "description": "Bệnh Đậu Mùa là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bệnh Đậu Mùa (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,122 +61,105 @@
         "name_vi": "mụn nước",
         "name_en": "mun nuoc",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "nôn mửa",
         "name_en": "non mua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phát ban",
         "name_en": "phat ban",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phát ban lan đến niêm mạc",
         "name_en": "phat ban lan den niem mac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phát ban thành mụn chứa dịch",
         "name_en": "phat ban thanh mun chua dich",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phát ban thành mụn nước",
         "name_en": "phat ban thanh mun nuoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phát ban trên mặt",
         "name_en": "phat ban tren mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phát ban ở tay",
         "name_en": "phat ban o tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sau đó chứa mủ",
         "name_en": "sau do chua mu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sau đó thành mụn mủ",
         "name_en": "sau do thanh mun mu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy tim",
         "name_en": "suy tim",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt cao",
         "name_en": "sot cao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tay",
         "name_en": "tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy",
         "name_en": "tieu chay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng",
         "name_en": "dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau lưng",
         "name_en": "dau lung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu",
         "name_en": "dau dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu dữ dội",
         "name_en": "dau dau du doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ức chế tủy xương",
         "name_en": "uc che tuy xuong",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bệnh Đậu Mùa của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Đậu Mùa",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi đang cảm thấy sốt cao, đau đầu dữ dội và tiêu chảy. Tôi có thể đang bị bệnh gì?",
     "Tôi hay bị đau lưng, mệt mỏi và phát ban trên mặt. Tôi có thể đang bị bệnh gì?",
@@ -194,11 +178,11 @@
     "Tôi hiện đang có các triệu chứng như phát ban thành mụn chứa dịch và sau đó chứa mủ. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

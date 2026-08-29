@@ -10,6 +10,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
+sys.path.insert(0, str(ROOT))
 
 def train(model, data_path: Path, out_dir: Path, *, lr: float, epochs: float,
           batch_size: int, seq_len: int):

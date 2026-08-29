@@ -26,54 +26,55 @@ class Urgency(str, Enum):
     MODERATE_TO_HIGH = "moderate_to_high"
     HIGH = "high"                    # Cần khám trong 24h
     EMERGENCY = "emergency"          # Gọi cấp cứu ngay
+    UNKNOWN = "unknown"              # Chưa phân loại / Tier 2
 
 
 class Symptom(BaseModel):
     name_vi: str = Field(..., min_length=1, description="Tên triệu chứng tiếng Việt")
     name_en: str = Field(..., min_length=1, description="Tên triệu chứng tiếng Anh")
-    frequency: SymptomFrequency
+    frequency: SymptomFrequency = Field(default=SymptomFrequency.COMMON)
 
 
 class Provenance(BaseModel):
-    source_document: str = Field(..., description="Tên tài liệu / Hướng dẫn chẩn đoán (VD: Hướng dẫn chẩn đoán và điều trị bệnh Hô hấp - QĐ 4068/QĐ-BYT)")
-    issuing_body: str = Field(..., description="Cơ quan ban hành (Bộ Y tế, BV Bạch Mai, BV Chợ Rẫy, WHO, MSD...)")
-    year: int = Field(..., description="Năm ban hành hoặc phiên bản cập nhật")
-    evidence_level: Optional[str] = Field(None, description="Mức độ bằng chứng (Level A, B, C, Khuyến cáo...)")
-    reviewed_by: Optional[str] = Field(None, description="Bác sĩ / Chuyên gia y tế thẩm định nội dung")
-    review_date: Optional[str] = Field(None, description="Ngày thẩm định (YYYY-MM-DD)")
+    source_document: str = Field(..., description="Tên tài liệu / Nguồn dữ liệu")
+    issuing_body: str = Field(..., description="Cơ quan ban hành hoặc nguồn thu thập")
+    year: int = Field(..., description="Năm ban hành hoặc thu thập")
+    evidence_level: Optional[str] = Field(None, description="Mức độ bằng chứng")
+    reviewed_by: Optional[str] = Field(None, description="Người thẩm định nếu có")
+    review_date: Optional[str] = Field(None, description="Ngày thẩm định")
 
 
 class DiseaseSchema(BaseModel):
-    disease_id: str = Field(..., pattern=r"^[A-Z]{2,5}_\d{3}$", description="ID dạng RESP_001, DIGE_002...")
+    disease_id: str = Field(..., pattern=r"^[A-Z]{2,5}_\d{3}$", description="ID dạng RESP_001, EXP_002...")
     name_vi: str = Field(..., min_length=2)
     name_en: str = Field(..., min_length=2)
-    category: str = Field(..., description="respiratory | digestive | general | dermatology | cardiology")
-    aliases: list[str] = Field(..., min_length=1, description="Các tên gọi khác mà người dùng có thể dùng")
+    category: str = Field(..., description="Chuyên khoa y tế")
+    aliases: list[str] = Field(default_factory=list, description="Các tên gọi khác")
+    tier: int = Field(default=1, description="1: Core duyệt tay, 2: Scaled từ dataset thực nghiệm")
 
-    description: str = Field(..., min_length=50, description="Mô tả ngắn về bệnh")
+    description: Optional[str] = Field(default=None, description="Mô tả bệnh nếu có")
 
     symptoms: dict[str, list[Symptom]] = Field(
-        ...,
+        default_factory=dict,
         description="Triệu chứng chia theo nhóm: common, occasional, rare"
     )
 
-    red_flags: list[str] = Field(..., description="Dấu hiệu nguy hiểm cần cấp cứu")
-    risk_factors: list[str] = Field(..., description="Yếu tố nguy cơ")
-    questions_to_ask: list[str] = Field(..., min_length=3, description="Câu hỏi bot cần hỏi khi nghi ngờ bệnh này")
-    differential_diagnoses: list[str] = Field(..., min_length=1, description="Các bệnh dễ nhầm lẫn")
+    red_flags: list[str] = Field(default_factory=list, description="Dấu hiệu nguy hiểm cần cấp cứu")
+    risk_factors: list[str] = Field(default_factory=list, description="Yếu tố nguy cơ")
+    questions_to_ask: list[str] = Field(default_factory=list, description="Câu hỏi khai thác triệu chứng")
+    differential_diagnoses: list[str] = Field(default_factory=list, description="Các bệnh dễ nhầm lẫn")
 
-    urgency: Urgency
-    when_to_seek_emergency: list[str] = Field(..., min_length=1, description="Khi nào cần đi cấp cứu")
+    urgency: Urgency = Field(default=Urgency.UNKNOWN)
+    when_to_seek_emergency: list[str] = Field(default_factory=list, description="Khi nào cần đi cấp cứu")
 
     user_language_variants: list[str] = Field(
-        ...,
-        min_length=3,
-        description="Các cách người dùng VN thực tế mô tả triệu chứng (bao gồm slang, typo, viết tắt)"
+        default_factory=list,
+        description="Các cách người dùng VN thực tế mô tả triệu chứng"
     )
 
     provenance: Optional[Provenance] = Field(
         default=None,
-        description="Truy vết nguồn gốc tài liệu y khoa và thẩm định chuyên môn"
+        description="Truy vết nguồn gốc tài liệu y khoa"
     )
 
     @field_validator("category")

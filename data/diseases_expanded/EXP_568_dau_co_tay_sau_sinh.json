@@ -7,8 +7,9 @@
     "Đau Cổ Tay Sau Sinh",
     "Dau Co Tay Sau Sinh"
   ],
-  "description": "Đau Cổ Tay Sau Sinh là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Đau Cổ Tay Sau Sinh (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,112 +61,95 @@
         "name_vi": "sưng",
         "name_en": "sung",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "tê bì ở một số ngón tay",
         "name_en": "te bi o mot so ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng dần theo thời gian",
         "name_en": "tang dan theo thoi gian",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xoắn",
         "name_en": "xoan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cổ tay",
         "name_en": "dau co tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cổ tay khi bế con",
         "name_en": "dau co tay khi be con",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cổ tay khi chơi thể thao",
         "name_en": "dau co tay khi choi the thao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cổ tay khi duỗi thẳng tay hoặc gập cổ tay",
         "name_en": "dau co tay khi duoi thang tay hoac gap co tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cổ tay khi gõ bàn phím hoặc sử dụng chuột máy tính",
         "name_en": "dau co tay khi go ban phim hoac su dung chuot may tinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cổ tay khi làm việc nhà",
         "name_en": "dau co tay khi lam viec nha",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cổ tay khi mang vác đồ nặng",
         "name_en": "dau co tay khi mang vac do nang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhói ở cổ tay khi di chuyển ngón cái",
         "name_en": "dau nhoi o co tay khi di chuyen ngon cai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau âm ỉ ở cổ tay",
         "name_en": "dau am i o co tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ở một bên cổ tay",
         "name_en": "dau o mot ben co tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt khi dùng ngón cái",
         "name_en": "dac biet khi dung ngon cai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là các môn sử dụng nhiều lực ở cổ tay",
         "name_en": "dac biet la cac mon su dung nhieu luc o co tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là các động tác vắt",
         "name_en": "dac biet la cac dong tac vat",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Đau Cổ Tay Sau Sinh của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Cổ Tay Sau Sinh",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau âm ỉ ở cổ tay, tăng dần theo thời gian và lan lên cánh tay. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau nhói ở cổ tay khi di chuyển ngón cái. Tôi có thể đang bị bệnh gì?",
@@ -184,11 +168,11 @@
     "Tôi hay bị đau cổ tay khi mang vác đồ nặng. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

@@ -7,8 +7,9 @@
     "Cận Thị",
     "Can Thi"
   ],
-  "description": "Cận Thị là một bệnh lý thuộc chuyên khoa ophthalmology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Cận Thị (Chuyên khoa: ophthalmology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,92 +61,75 @@
         "name_vi": "mờ mắt khi lái xe vào ban đêm nhưng ban ngày thì nhìn rõ",
         "name_en": "mo mat khi lai xe vao ban dem nhung ban ngay thi nhin ro",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "nhìn mờ khi nhìn vật ở xa",
         "name_en": "nhin mo khi nhin vat o xa",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhìn mờ khi trời tối và khó khăn khi nhìn các vật ở xa",
         "name_en": "nhin mo khi troi toi va kho khan khi nhin cac vat o xa",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhìn xa cũng bị mờ",
         "name_en": "nhin xa cung bi mo",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhức đầu",
         "name_en": "nhuc dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhức đầu sau khi đọc sách hoặc làm việc trên máy tính",
         "name_en": "nhuc dau sau khi doc sach hoac lam viec tren may tinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phải cố gắng tập trung mới nhìn rõ",
         "name_en": "phai co gang tap trung moi nhin ro",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phải nheo mắt để nhìn rõ",
         "name_en": "phai nheo mat de nhin ro",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phải nheo mắt để nhìn rõ các vật ở xa",
         "name_en": "phai nheo mat de nhin ro cac vat o xa",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phải đưa sách lại gần mắt mới thấy rõ",
         "name_en": "phai dua sach lai gan mat moi thay ro",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thường xuyên chớp mắt và phàn nàn nhìn mờ khi học bài",
         "name_en": "thuong xuyen chop mat va phan nan nhin mo khi hoc bai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thường xuyên dụi mắt, ngồi gần tivi và gặp khó khăn khi nhìn bảng ở lớp",
         "name_en": "thuong xuyen dui mat, ngoi gan tivi va gap kho khan khi nhin bang o lop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thường xuyên nheo mắt khi xem tivi và phàn nàn không nhìn rõ",
         "name_en": "thuong xuyen nheo mat khi xem tivi va phan nan khong nhin ro",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Cận Thị của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Cận Thị",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hay nheo mắt khi nhìn xa và cảm thấy mỏi mắt khi tập trung nhìn một chỗ lâu. Tôi có thể đang bị bệnh gì?",
     "Tôi hiện đang có các triệu chứng như nhìn mờ khi nhìn vật ở xa, nhức đầu và chớp mắt thường xuyên. Tôi có thể đang bị bệnh gì?",
@@ -164,11 +148,11 @@
     "Tôi hay bị nhức đầu và chóng mặt sau khi đọc sách hoặc sử dụng điện thoại. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

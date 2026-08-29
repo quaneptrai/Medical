@@ -7,8 +7,9 @@
     "Ung Thư Tuyến Tiền Liệt",
     "Ung Thu Tuyen Tien Liet"
   ],
-  "description": "Ung Thư Tuyến Tiền Liệt là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Ung Thư Tuyến Tiền Liệt (Chuyên khoa: urology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,122 +61,105 @@
         "name_vi": "tia nước tiểu yếu",
         "name_en": "tia nuoc tieu yeu",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "tiểu buốt",
         "name_en": "tieu buot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu khó",
         "name_en": "tieu kho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu không tự chủ",
         "name_en": "tieu khong tu chu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu rắt",
         "name_en": "tieu rat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu đêm",
         "name_en": "tieu dem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu đêm nhiều lần",
         "name_en": "tieu dem nhieu lan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "trên 50 tuổi và gần đây thường xuyên đi tiểu đêm, tia nước tiểu yếu",
         "name_en": "tren 50 tuoi va gan day thuong xuyen di tieu dem, tia nuoc tieu yeu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "trên 60 tuổi và đang gặp vấn đề tiểu không tự chủ, tiểu đêm nhiều lần",
         "name_en": "tren 60 tuoi va dang gap van de tieu khong tu chu, tieu dem nhieu lan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ung thư tuyến tiền liệt",
         "name_en": "ung thu tuyen tien liet",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm tuyến tiền liệt",
         "name_en": "viem tuyen tien liet",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vùng xương chậu",
         "name_en": "vung xuong chau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đang gặp vấn đề rối loạn cương dương",
         "name_en": "dang gap van de roi loan cuong duong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau buốt khi xuất tinh",
         "name_en": "dau buot khi xuat tinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cột sống",
         "name_en": "dau cot song",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi xuất tinh",
         "name_en": "dau khi xuat tinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau lưng dưới",
         "name_en": "dau lung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi tiểu không hết",
         "name_en": "di tieu khong het",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đôi khi có máu trong nước tiểu",
         "name_en": "doi khi co mau trong nuoc tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Ung Thư Tuyến Tiền Liệt của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Tuyến Tiền Liệt",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đi tiểu không hết, tia nước tiểu yếu, tiểu đêm nhiều lần. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau buốt khi xuất tinh và nước tiểu có máu. Tôi có thể đang bị bệnh gì?",
@@ -194,11 +178,11 @@
     "Tôi bị rối loạn cương dương và cảm thấy đau khi xuất tinh. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

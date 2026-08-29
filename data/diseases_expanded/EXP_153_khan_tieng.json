@@ -7,8 +7,9 @@
     "Khàn Tiếng",
     "Khan Tieng"
   ],
-  "description": "Khàn Tiếng là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Khàn Tiếng (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,92 +61,75 @@
         "name_vi": "ho ra máu",
         "name_en": "ho ra mau",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khàn",
         "name_en": "khan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khàn tiếng",
         "name_en": "khan tieng",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khàn tiếng kéo dài hơn 3 tuần",
         "name_en": "khan tieng keo dai hon 3 tuan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khàn tiếng sau khi hát karaoke",
         "name_en": "khan tieng sau khi hat karaoke",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó nuốt",
         "name_en": "kho nuot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó phát âm",
         "name_en": "kho phat am",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "không còn trong trẻo như trước",
         "name_en": "khong con trong treo nhu truoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "kéo dài hơn 2 tuần",
         "name_en": "keo dai hon 2 tuan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "trào ngược dạ dày thực quản",
         "name_en": "trao nguoc da day thuc quan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng",
         "name_en": "dau hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "điều trị thuốc không khỏi",
         "name_en": "dieu tri thuoc khong khoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đôi khi cảm thấy khó thở",
         "name_en": "doi khi cam thay kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Khàn Tiếng của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Khàn Tiếng",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hay bị khàn tiếng sau khi hát karaoke. Tôi có thể đang bị bệnh gì?",
     "Tôi hiện đang có các triệu chứng như khàn tiếng và ho. Tôi có thể đang bị bệnh gì?",
@@ -164,11 +148,11 @@
     "Tôi là ca sĩ, thường xuyên phải luyện thanh và hiện tại bị khàn tiếng. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

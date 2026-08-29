@@ -7,8 +7,9 @@
     "Viêm Khớp Phản Ứng",
     "Viem Khop Phan Ung"
   ],
-  "description": "Viêm Khớp Phản Ứng là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Khớp Phản Ứng (Chuyên khoa: musculoskeletal)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,132 +61,115 @@
         "name_vi": "hiện đang có triệu chứng viêm kết mạc, đau nhức xương khớp và mệt mỏi không rõ lý do",
         "name_en": "hien dang co trieu chung viem ket mac, dau nhuc xuong khop va met moi khong ro ly do",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khó gập duỗi cột sống",
         "name_en": "kho gap duoi cot song",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mắt cá chân",
         "name_en": "mat ca chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhiễm trùng đường hô hấp",
         "name_en": "nhiem trung duong ho hap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sút cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng khớp",
         "name_en": "sung khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng khớp sau khi bị nhiễm trùng đường sinh dục",
         "name_en": "sung khop sau khi bi nhiem trung duong sinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng khớp sau khi bị nhiễm trùng đường tiết niệu",
         "name_en": "sung khop sau khi bi nhiem trung duong tiet nieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng đau các khớp",
         "name_en": "sung dau cac khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy",
         "name_en": "tieu chay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm gân Achilles",
         "name_en": "viem gan Achilles",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm loét đại tràng",
         "name_en": "viem loet dai trang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm ruột",
         "name_en": "viem ruot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp",
         "name_en": "dau khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau lưng",
         "name_en": "dau lung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau mắt đỏ",
         "name_en": "dau mat do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khớp",
         "name_en": "dau nhuc khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức ở gót chân",
         "name_en": "dau nhuc o got chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức ở đầu gối",
         "name_en": "dau nhuc o dau goi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là khớp háng",
         "name_en": "dac biet la khop hang",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Khớp Phản Ứng của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Khớp Phản Ứng",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau khớp, sưng khớp sau khi bị nhiễm trùng đường tiết niệu. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau nhức ở đầu gối, bàn chân, mắt cá chân và có tiền sử viêm niệu đạo. Tôi có thể đang bị bệnh gì?",
@@ -204,11 +188,11 @@
     "Tôi hay bị viêm loét đại tràng và đau khớp. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

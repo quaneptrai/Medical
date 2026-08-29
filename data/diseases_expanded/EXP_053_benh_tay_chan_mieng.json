@@ -7,8 +7,9 @@
     "Bệnh Tay Chân Miệng",
     "Benh Tay Chan Mieng"
   ],
-  "description": "Bệnh Tay Chân Miệng là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bệnh Tay Chân Miệng (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,102 +61,85 @@
         "name_vi": "miệng",
         "name_en": "mieng",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "mê sảng",
         "name_en": "me sang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn ói liên tục",
         "name_en": "non oi lien tuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi ban ở tay",
         "name_en": "noi ban o tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi ban ở đầu gối",
         "name_en": "noi ban o dau goi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "quấy khóc",
         "name_en": "quay khoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn tri giác",
         "name_en": "roi loan tri giac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt cao không hạ",
         "name_en": "sot cao khong ha",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt nhẹ",
         "name_en": "sot nhe",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy",
         "name_en": "tieu chay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu chi và khó thở",
         "name_en": "yeu chi va kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng",
         "name_en": "dau hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi nuốt",
         "name_en": "dau khi nuot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau rát răng miệng",
         "name_en": "dau rat rang mieng",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bệnh Tay Chân Miệng của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Tay Chân Miệng",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như sốt nhẹ, mệt mỏi, chán ăn và đau họng. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau rát răng miệng và biếng ăn. Tôi có thể đang bị bệnh gì?",
@@ -174,11 +158,11 @@
     "Tôi hay bị sốt cao không hạ. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

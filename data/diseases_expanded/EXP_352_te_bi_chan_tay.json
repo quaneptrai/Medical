@@ -7,8 +7,9 @@
     "Tê Bì Chân Tay",
     "Te Bi Chan Tay"
   ],
-  "description": "Tê Bì Chân Tay là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Tê Bì Chân Tay (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,77 +61,60 @@
         "name_vi": "tê bì chân tay",
         "name_en": "te bi chan tay",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "tê bì chân tay sau khi ngồi lâu một chỗ",
         "name_en": "te bi chan tay sau khi ngoi lau mot cho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì chân tay sau khi ngủ dậy",
         "name_en": "te bi chan tay sau khi ngu day",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm đa khớp dạng thấp",
         "name_en": "viem da khop dang thap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm đa rễ thần kinh",
         "name_en": "viem da re than kinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xơ vữa động mạch",
         "name_en": "xo vua dong mach",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đa xơ cứng",
         "name_en": "da xo cung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức xương khớp",
         "name_en": "dau nhuc xuong khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau thắt lưng",
         "name_en": "dau that lung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau vai gáy",
         "name_en": "dau vai gay",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Tê Bì Chân Tay của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Tê Bì Chân Tay",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như tê bì chân tay, đau nhức xương khớp. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau vai gáy, đau thắt lưng. Tôi có thể đang bị bệnh gì?",
@@ -149,11 +133,11 @@
     "Tôi muốn tìm hiểu về cách điều trị tê bì chân tay. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

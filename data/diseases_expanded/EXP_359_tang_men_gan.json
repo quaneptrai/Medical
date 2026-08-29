@@ -7,8 +7,9 @@
     "Tăng Men Gan",
     "Tang Men Gan"
   ],
-  "description": "Tăng Men Gan là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Tăng Men Gan (Chuyên khoa: digestive)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,142 +61,125 @@
         "name_vi": "khó tập trung",
         "name_en": "kho tap trung",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "mất ngủ",
         "name_en": "mat ngu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngứa da",
         "name_en": "ngua da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngứa da toàn thân",
         "name_en": "ngua da toan than",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nước tiểu sẫm màu",
         "name_en": "nuoc tieu sam mau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi mẩn đỏ",
         "name_en": "noi man do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phân nhạt màu",
         "name_en": "phan nhat mau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phù nề chân",
         "name_en": "phu ne chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn giấc ngủ",
         "name_en": "roi loan giac ngu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy nhược cơ thể",
         "name_en": "suy nhuoc co the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt nhẹ",
         "name_en": "sot nhe",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thay đổi tính tình",
         "name_en": "thay doi tinh tinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì chân tay",
         "name_en": "te bi chan tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vàng da",
         "name_en": "vang da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vàng mắt",
         "name_en": "vang mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng",
         "name_en": "dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức xương khớp",
         "name_en": "dau nhuc xuong khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đầy hơi",
         "name_en": "day hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là cánh tay dưới",
         "name_en": "dac biet la canh tay duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi",
         "name_en": "do mo hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ớn lạnh",
         "name_en": "on lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Tăng Men Gan của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Tăng Men Gan",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như ngứa da, đặc biệt là cánh tay dưới. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy mệt mỏi, chán ăn, buồn nôn. Tôi có thể đang bị bệnh gì?",
@@ -214,11 +198,11 @@
     "Tôi hay bị chuột rút, tê bì chân tay. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

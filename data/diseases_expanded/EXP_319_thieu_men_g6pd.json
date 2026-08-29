@@ -7,8 +7,9 @@
     "Thiếu Men G6PD",
     "Thieu Men G6PD"
   ],
-  "description": "Thiếu Men G6PD là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Thiếu Men G6PD (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,97 +61,80 @@
         "name_vi": "nhịp tim nhanh",
         "name_en": "nhip tim nhanh",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "nước tiểu sậm màu",
         "name_en": "nuoc tieu sam mau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nước tiểu sậm màu sau khi bị nhiễm trùng",
         "name_en": "nuoc tieu sam mau sau khi bi nhiem trung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nước tiểu sậm màu sau khi dùng aspirin",
         "name_en": "nuoc tieu sam mau sau khi dung aspirin",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vàng da",
         "name_en": "vang da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vàng mắt",
         "name_en": "vang mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vàng mắt sau khi dùng một số loại thuốc",
         "name_en": "vang mat sau khi dung mot so loai thuoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vàng mắt sau khi ăn việt quất",
         "name_en": "vang mat sau khi an viet quat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xanh xao",
         "name_en": "xanh xao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xanh xao sau khi sử dụng thuốc chống sốt rét",
         "name_en": "xanh xao sau khi su dung thuoc chong sot ret",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xanh xao sau khi ăn đậu fava",
         "name_en": "xanh xao sau khi an dau fava",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng",
         "name_en": "dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu",
         "name_en": "dau dau",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Thiếu Men G6PD của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Thiếu Men G6PD",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như vàng da, vàng mắt và nước tiểu sậm màu. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy mệt mỏi, xanh xao và khó thở. Tôi có thể đang bị bệnh gì?",
@@ -169,11 +153,11 @@
     "Tôi hay bị đau đầu, chóng mặt và kiệt sức sau khi tiếp xúc với hóa chất. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

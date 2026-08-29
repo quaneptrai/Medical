@@ -7,8 +7,9 @@
     "Rối Loạn Nội Tiết",
     "Roi Loan Noi Tiet"
   ],
-  "description": "Rối Loạn Nội Tiết là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Rối Loạn Nội Tiết (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,192 +61,175 @@
         "name_vi": "dễ bầm máu",
         "name_en": "de bam mau",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "giảm ham muốn tình dục",
         "name_en": "giam ham muon tinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay tăng tiết mồ hôi, nhạy cảm với nhiệt độ nóng, và dễ cáu gắt",
         "name_en": "hay tang tiet mo hoi, nhay cam voi nhiet do nong, va de cau gat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hồi hộp",
         "name_en": "hoi hop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khát nhiều",
         "name_en": "khat nhieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lo lắng",
         "name_en": "lo lang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mặt tròn",
         "name_en": "mat tron",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngất",
         "name_en": "ngat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhạy cảm với nhiệt độ lạnh",
         "name_en": "nhay cam voi nhiet do lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhịp tim chậm",
         "name_en": "nhip tim cham",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhức đầu",
         "name_en": "nhuc dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phù mặt",
         "name_en": "phu mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "run tay",
         "name_en": "run tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rụng tóc",
         "name_en": "rung toc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tim đập nhanh",
         "name_en": "tim dap nhanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu nhiều",
         "name_en": "tieu nhieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu đêm",
         "name_en": "tieu dem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "trầm cảm",
         "name_en": "tram cam",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "táo bón",
         "name_en": "tao bon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng cân",
         "name_en": "tang can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng huyết áp",
         "name_en": "tang huyet ap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng sắc tố da",
         "name_en": "tang sac to da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tụt huyết áp",
         "name_en": "tut huyet ap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "uống nhiều",
         "name_en": "uong nhieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vã mồ hôi",
         "name_en": "va mo hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vết rạn da",
         "name_en": "vet ran da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vết thương lâu lành",
         "name_en": "vet thuong lau lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vọp bẻ",
         "name_en": "vop be",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu cơ",
         "name_en": "yeu co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu cơ nặng",
         "name_en": "yeu co nang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng",
         "name_en": "dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Rối Loạn Nội Tiết của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Nội Tiết",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như sụt cân, khát nhiều, uống nhiều, và tiểu nhiều. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy tim đập nhanh, hồi hộp, và run tay. Tôi có thể đang bị bệnh gì?",
@@ -264,11 +248,11 @@
     "Tôi hay bị yếu cơ nặng, ngất, đau bụng, buồn nôn, và tụt huyết áp. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

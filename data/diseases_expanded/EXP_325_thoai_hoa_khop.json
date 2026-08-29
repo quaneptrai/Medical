@@ -7,8 +7,9 @@
     "Thoái Hóa Khớp",
     "Thoai Hoa Khop"
   ],
-  "description": "Thoái Hóa Khớp là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Thoái Hóa Khớp (Chuyên khoa: musculoskeletal)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,117 +61,100 @@
         "name_vi": "khó khăn khi cử động vào buổi sáng",
         "name_en": "kho khan khi cu dong vao buoi sang",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khó khăn khi thực hiện các động tác xoay",
         "name_en": "kho khan khi thuc hien cac dong tac xoay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khớp cứng",
         "name_en": "khop cung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khớp sưng",
         "name_en": "khop sung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khớp yếu",
         "name_en": "khop yeu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nóng",
         "name_en": "nong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng",
         "name_en": "sung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "teo cơ",
         "name_en": "teo co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiếng kêu lục cục khi cử động",
         "name_en": "tieng keu luc cuc khi cu dong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì các chi",
         "name_en": "te bi cac chi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng đau khi leo cầu thang",
         "name_en": "tang dau khi leo cau thang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng đau khi làm việc nặng",
         "name_en": "tang dau khi lam viec nang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng đau khi vận động",
         "name_en": "tang dau khi van dong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khớp",
         "name_en": "dau nhuc khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khớp lan rộng ra các vị trí xung quanh",
         "name_en": "dau nhuc khop lan rong ra cac vi tri xung quanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khớp sau khi mang vác vật nặng",
         "name_en": "dau nhuc khop sau khi mang vac vat nang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khớp sau khi tập thể dục",
         "name_en": "dau nhuc khop sau khi tap the duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đỏ vùng khớp",
         "name_en": "do vung khop",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Thoái Hóa Khớp của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Thoái Hóa Khớp",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau nhức khớp, tăng đau khi vận động và giảm khi nghỉ ngơi. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy khớp sưng, cứng khớp và khó khăn khi cử động. Tôi có thể đang bị bệnh gì?",
@@ -189,11 +173,11 @@
     "Tôi hay bị đau nhức khớp sau khi mang vác vật nặng. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

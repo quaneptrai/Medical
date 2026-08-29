@@ -7,8 +7,9 @@
     "Viêm Tuyến Vú",
     "Viem Tuyen Vu"
   ],
-  "description": "Viêm Tuyến Vú là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Tuyến Vú (Chuyên khoa: obstetrics_gynecology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,82 +61,65 @@
         "name_vi": "nổi hạch ở nách",
         "name_en": "noi hach o nach",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "nứt núm vú",
         "name_en": "nut num vu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng tấy vú",
         "name_en": "sung tay vu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng tấy vú khi cho con bú",
         "name_en": "sung tay vu khi cho con bu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt cao",
         "name_en": "sot cao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tắc tia sữa",
         "name_en": "tac tia sua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức xương khớp",
         "name_en": "dau nhuc xuong khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau rát vú",
         "name_en": "dau rat vu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau tức ngực",
         "name_en": "dau tuc nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Tuyến Vú của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Tuyến Vú",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau tức ngực, sưng tấy vú và sốt. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau rát vú, núm vú tiết dịch và sốt cao. Tôi có thể đang bị bệnh gì?",
@@ -154,11 +138,11 @@
     "Tôi hay bị đau tức ngực, sưng tấy vú, tắc tia sữa, nứt núm vú và đau nhức xương khớp. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

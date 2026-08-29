@@ -7,8 +7,9 @@
     "Viêm Âm Đạo Mạn Tính",
     "Viem Am Dao Man Tinh"
   ],
-  "description": "Viêm Âm Đạo Mạn Tính là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Âm Đạo Mạn Tính (Chuyên khoa: obstetrics_gynecology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,82 +61,65 @@
         "name_vi": "viêm nhiễm âm đạo do trùng roi Trichomonas",
         "name_en": "viem nhiem am dao do trung roi Trichomonas",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "viêm nhiễm âm đạo do vi khuẩn xâm nhập",
         "name_en": "viem nhiem am dao do vi khuan xam nhap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm âm đạo do không chăm sóc sau điều trị",
         "name_en": "viem am dao do khong cham soc sau dieu tri",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm âm đạo do mất cân bằng độ pH ở âm đạo",
         "name_en": "viem am dao do mat can bang do pH o am dao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm âm đạo do quan hệ tình dục không an toàn",
         "name_en": "viem am dao do quan he tinh duc khong an toan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm âm đạo do quan hệ tình dục thiếu an toàn",
         "name_en": "viem am dao do quan he tinh duc thieu an toan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm âm đạo do sự thay đổi nội tiết tố trong cơ thể",
         "name_en": "viem am dao do su thay doi noi tiet to trong co the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm âm đạo do thói quen vệ sinh vùng kín không đúng cách",
         "name_en": "viem am dao do thoi quen ve sinh vung kin khong dung cach",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm âm đạo do vệ sinh vùng kín không đúng cách",
         "name_en": "viem am dao do ve sinh vung kin khong dung cach",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm âm đạo do điều trị viêm âm đạo không đúng cách",
         "name_en": "viem am dao do dieu tri viem am dao khong dung cach",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm âm đạo mạn gây nhiều tác động tiêu cực đến sức khỏe",
         "name_en": "viem am dao man gay nhieu tac dong tieu cuc den suc khoe",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Âm Đạo Mạn Tính của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Âm Đạo Mạn Tính",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như viêm nhiễm xảy ra ở âm đạo. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy ngứa rát, tiết dịch bất thường ở vùng kín. Tôi có thể đang bị bệnh gì?",
@@ -154,11 +138,11 @@
     "Tôi hay bị nguy cơ gây nhiều biến chứng nguy hiểm do viêm âm đạo mạn tính. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

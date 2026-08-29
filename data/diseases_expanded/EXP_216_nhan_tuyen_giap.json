@@ -7,8 +7,9 @@
     "Nhân Tuyến Giáp",
     "Nhan Tuyen Giap"
   ],
-  "description": "Nhân Tuyến Giáp là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Nhân Tuyến Giáp (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,72 +61,55 @@
         "name_vi": "rụng tóc",
         "name_en": "rung toc",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "thở dốc và khó khăn",
         "name_en": "tho doc va kho khan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tình cờ phát hiện có khối u ở vùng cổ khi soi gương",
         "name_en": "tinh co phat hien co khoi u o vung co khi soi guong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng cân không rõ nguyên nhân",
         "name_en": "tang can khong ro nguyen nhan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vùng cổ có khối to khi cài cúc áo",
         "name_en": "vung co co khoi to khi cai cuc ao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vùng cổ sưng to hơn bình thường",
         "name_en": "vung co sung to hon binh thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xét nghiệm chức năng tuyến giáp và kết quả bất thường",
         "name_en": "xet nghiem chuc nang tuyen giap va ket qua bat thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ở vùng cổ",
         "name_en": "dau o vung co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi khám sức khỏe tổng quát và phát hiện có nhân tuyến giáp",
         "name_en": "di kham suc khoe tong quat va phat hien co nhan tuyen giap",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Nhân Tuyến Giáp của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nhân Tuyến Giáp",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi tình cờ phát hiện có khối u ở vùng cổ khi soi gương. Tôi có thể đang bị bệnh gì?",
     "Tôi cảm thấy khó nuốt và khó thở. Tôi có thể đang bị bệnh gì?",
@@ -144,11 +128,11 @@
     "Tôi nói chuyện khó khăn và giọng nói bị khàn. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

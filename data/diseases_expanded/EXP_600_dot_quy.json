@@ -7,8 +7,9 @@
     "Đột Quỵ",
     "Dot Quy"
   ],
-  "description": "Đột Quỵ là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Đột Quỵ (Chuyên khoa: cardiology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,147 +61,130 @@
         "name_vi": "khó khăn trong việc diễn đạt lời nói",
         "name_en": "kho khan trong viec dien dat loi noi",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khó tập trung",
         "name_en": "kho tap trung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "không thể kiểm soát cơ thể",
         "name_en": "khong the kiem soat co the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lú lẫn",
         "name_en": "lu lan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "méo miệng",
         "name_en": "meo mieng",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mất phương hướng",
         "name_en": "mat phuong huong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mất thăng bằng",
         "name_en": "mat thang bang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mất ý thức tạm thời",
         "name_en": "mat y thuc tam thoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mặt bị méo",
         "name_en": "mat bi meo",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mờ mắt",
         "name_en": "mo mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhìn một thành hai",
         "name_en": "nhin mot thanh hai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nói khó",
         "name_en": "noi kho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nói lắp",
         "name_en": "noi lap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn ói",
         "name_en": "non oi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn ói liên tục",
         "name_en": "non oi lien tuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thị lực giảm sút",
         "name_en": "thi luc giam sut",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì tay chân",
         "name_en": "te bi tay chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê cứng môi lưỡi",
         "name_en": "te cung moi luoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê liệt một bên cơ thể",
         "name_en": "te liet mot ben co the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê một bên tay",
         "name_en": "te mot ben tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu liệt một bên chân",
         "name_en": "yeu liet mot ben chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu",
         "name_en": "dau dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu dữ dội",
         "name_en": "dau dau du doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi lại loạng choạng",
         "name_en": "di lai loang choang",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Đột Quỵ của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đột Quỵ",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như mặt bị méo, cười khó khăn và tê một bên tay. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy chóng mặt, mất thăng bằng và buồn nôn. Tôi có thể đang bị bệnh gì?",
@@ -219,11 +203,11 @@
     "Tôi hay bị đau đầu dữ dội, buồn nôn và nôn ói liên tục. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

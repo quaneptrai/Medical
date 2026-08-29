@@ -7,8 +7,9 @@
     "Viêm Mũi Dị Ứng",
     "Viem Mui Di Ung"
   ],
-  "description": "Viêm Mũi Dị Ứng là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Mũi Dị Ứng (Chuyên khoa: respiratory)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,167 +61,150 @@
         "name_vi": "gián",
         "name_en": "gian",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "giảm dần trong ngày nhưng lại tái phát khi tiếp xúc với bụi hay môi trường lạnh",
         "name_en": "giam dan trong ngay nhung lai tai phat khi tiep xuc voi bui hay moi truong lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "gây ra tình trạng tiết dịch ứ đọng trong vòm họng",
         "name_en": "gay ra tinh trang tiet dich u dong trong vom hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hắt hơi",
         "name_en": "hat hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hắt hơi liên tục",
         "name_en": "hat hoi lien tuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hắt hơi liên tục trong nhiều giờ liền",
         "name_en": "hat hoi lien tuc trong nhieu gio lien",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "học không tập trung",
         "name_en": "hoc khong tap trung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lông chó mèo",
         "name_en": "long cho meo",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mọt",
         "name_en": "mot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nghẹt mũi",
         "name_en": "nghet mui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngủ kém",
         "name_en": "ngu kem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngứa mũi",
         "name_en": "ngua mui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngứa mắt",
         "name_en": "ngua mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nước mũi trong suốt",
         "name_en": "nuoc mui trong suot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nước mũi đặc lại",
         "name_en": "nuoc mui dac lai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nặng đầu",
         "name_en": "nang dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phì đại cuốn mũi",
         "name_en": "phi dai cuon mui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phấn hoa",
         "name_en": "phan hoa",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rát bỏng ở kết mạc",
         "name_en": "rat bong o ket mac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sổ mũi",
         "name_en": "so mui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "uể oải",
         "name_en": "ue oai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm họng",
         "name_en": "viem hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm mũi dị ứng lâu năm",
         "name_en": "viem mui di ung lau nam",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm mũi dị ứng theo mùa",
         "name_en": "viem mui di ung theo mua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm thanh quản",
         "name_en": "viem thanh quan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vòm họng",
         "name_en": "vom hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đỏ mắt",
         "name_en": "do mat",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Mũi Dị Ứng của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Mũi Dị Ứng",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như hắt hơi, sổ mũi, nghẹt mũi, ngứa mũi. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy biếng ăn, ngủ kém, học không tập trung. Tôi có thể đang bị bệnh gì?",
@@ -239,11 +223,11 @@
     "Tôi hay bị dị ứng với bụi bẩn trong nhà hay ngoài trời, lông chó mèo, gián, mọt và các loài gặm nhấm trong nhà. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

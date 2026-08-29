@@ -7,8 +7,9 @@
     "U Não Lành Tính",
     "U Nao Lanh Tinh"
   ],
-  "description": "U Não Lành Tính là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "U Não Lành Tính (Chuyên khoa: neurology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,127 +61,110 @@
         "name_vi": "khó tập trung",
         "name_en": "kho tap trung",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "lo lắng vì có thể bị u não lành tính",
         "name_en": "lo lang vi co the bi u nao lanh tinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mất thăng bằng",
         "name_en": "mat thang bang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhìn mờ",
         "name_en": "nhin mo",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn",
         "name_en": "non",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn vào buổi sáng",
         "name_en": "non vao buoi sang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phối hợp vận động",
         "name_en": "phoi hop van dong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy giảm thính lực",
         "name_en": "suy giam thinh luc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy giảm trí nhớ",
         "name_en": "suy giam tri nho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụp mí mắt",
         "name_en": "sup mi mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thay đổi tâm trạng",
         "name_en": "thay doi tam trang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thay đổi tính cách",
         "name_en": "thay doi tinh cach",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thị lực",
         "name_en": "thi luc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì chân tay",
         "name_en": "te bi chan tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì một bên cơ thể",
         "name_en": "te bi mot ben co the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu tay chân",
         "name_en": "yeu tay chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu",
         "name_en": "dau dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu dữ dội vào buổi sáng",
         "name_en": "dau dau du doi vao buoi sang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu khi ho",
         "name_en": "dau dau khi ho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đồng tử không đều",
         "name_en": "dong tu khong deu",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ U Não Lành Tính của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của U Não Lành Tính",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau đầu, buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy hoa mắt, chóng mặt và mất thăng bằng. Tôi có thể đang bị bệnh gì?",
@@ -199,11 +183,11 @@
     "Tôi hay bị yếu tay chân và co giật. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

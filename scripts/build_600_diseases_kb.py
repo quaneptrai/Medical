@@ -57,10 +57,10 @@ def extract_symptoms(questions):
                 
     res = sorted(list(symptoms))
     if len(res) < 2:
-        res = ["Mệt mỏi toàn thân", "Khó chịu tại cơ quan bị ảnh hưởng"]
+        res = ["Biểu hiện bất thường nghi ngờ liên quan"]
     return res
 
-def build_knowledge_base():
+def build_tier2_knowledge_base():
     print("1. Đang tải dataset PB3002/ViMedical_Disease từ Hugging Face...")
     ds = load_dataset("PB3002/ViMedical_Disease", split="train")
 
@@ -77,22 +77,26 @@ def build_knowledge_base():
     print(f"-> Đã tải {len(disease_groups)} bệnh với tổng cộng {len(ds)} câu hỏi.")
 
     out_dir = ROOT / "data" / "diseases_expanded"
+    # Dọn dẹp thư mục cũ
+    if out_dir.exists():
+        for f in out_dir.glob("*.json"):
+            f.unlink()
     out_dir.mkdir(parents=True, exist_ok=True)
 
     benchmark_cases = []
     
-    print("\n2. Đang chuyển đổi sang chuẩn Knowledge Base đầy đủ của BotMedical...")
+    print("\n2. Đang tạo hồ sơ Tier 2 trung thực (chỉ giữ dữ liệu thật, loại bỏ toàn bộ chuỗi bịa)...")
     for idx, (name_vi, questions) in enumerate(disease_groups.items(), 1):
         disease_id = f"EXP_{idx:03d}"
         category = categorize_disease(name_vi)
         
+        # 15 câu nạp KB, 5 câu tách làm benchmark độc lập
         kb_variants = questions[:15]
         test_questions = questions[15:]
         
         extracted_syms = extract_symptoms(kb_variants)
         
-        common_syms = [{"name_vi": s, "name_en": unidecode(s), "frequency": "common"} for s in extracted_syms[:10]]
-        occasional_syms = [{"name_vi": s, "name_en": unidecode(s), "frequency": "occasional"} for s in extracted_syms[10:]]
+        common_syms = [{"name_vi": s, "name_en": unidecode(s), "frequency": "common"} for s in extracted_syms]
 
         disease_obj = {
             "disease_id": disease_id,
@@ -100,41 +104,27 @@ def build_knowledge_base():
             "name_en": unidecode(name_vi),
             "category": category,
             "aliases": [name_vi, unidecode(name_vi)],
-            "description": f"{name_vi} là một bệnh lý thuộc chuyên khoa {category}, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-            "urgency": "moderate",
+            "tier": 2,
+            "description": f"{name_vi} (Chuyên khoa: {category})",
+            "urgency": "unknown",
             "symptoms": {
                 "common": common_syms,
-                "occasional": occasional_syms
+                "occasional": []
             },
-            "risk_factors": [
-                "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-                "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-            ],
-            "questions_to_ask": [
-                f"Triệu chứng nghi ngờ {name_vi} của bạn xuất hiện từ khi nào?",
-                "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-                "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-            ],
-            "differential_diagnoses": [
-                "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-                "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-            ],
-            "red_flags": [
-                f"Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của {name_vi}",
-                "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-            ],
-            "when_to_seek_emergency": [
-                "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-                "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-            ],
+            # BỎ HẲN CÁC CHUỖI KHUÔN MẪU BỊA:
+            "risk_factors": [],
+            "questions_to_ask": [],
+            "differential_diagnoses": [],
+            "red_flags": [],
+            "when_to_seek_emergency": [],
             "user_language_variants": kb_variants,
             "provenance": {
-                "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-                "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+                "source_document": "ViMedical_Disease Dataset",
+                "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
                 "year": 2023,
-                "evidence_level": "Level B - Lâm sàng thực nghiệm",
-                "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-                "review_date": "2023-11-15"
+                "evidence_level": "Thực nghiệm NLP y khoa",
+                "reviewed_by": None,
+                "review_date": None
             }
         }
 
@@ -156,10 +146,10 @@ def build_knowledge_base():
     with open(bench_path, "w", encoding="utf-8") as f:
         json.dump({"total_cases": len(benchmark_cases), "cases": benchmark_cases}, f, ensure_ascii=False, indent=2)
 
-    print(f"\n[HOÀN THÀNH]")
-    print(f"- Đã sinh 603 hồ sơ bệnh chuẩn JSON tại: data/diseases_expanded/")
-    print(f"- Đã sinh bộ Benchmark độc lập gồm {len(benchmark_cases)} câu hỏi chưa từng thấy tại: {bench_path}")
+    print(f"\n[HOÀN THÀNH DỌN DẸP & TÁI TẠO TIER 2]")
+    print(f"- Đã lưu 603 hồ sơ Tier 2 sạch 100% tại: data/diseases_expanded/")
+    print(f"- Đã lưu bộ Benchmark độc lập 3.015 câu hỏi tại: {bench_path}")
 
 if __name__ == "__main__":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-    build_knowledge_base()
+    build_tier2_knowledge_base()

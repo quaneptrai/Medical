@@ -7,8 +7,9 @@
     "U Xơ Tử Cung Khi Mang Thai",
     "U Xo Tu Cung Khi Mang Thai"
   ],
-  "description": "U Xơ Tử Cung Khi Mang Thai là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "U Xơ Tử Cung Khi Mang Thai (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,77 +61,60 @@
         "name_vi": "mang thai và khối u xơ tử cung làm giảm khả năng co bóp của tử cung",
         "name_en": "mang thai va khoi u xo tu cung lam giam kha nang co bop cua tu cung",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "mang thai và khối u xơ tử cung phát triển lớn hơn",
         "name_en": "mang thai va khoi u xo tu cung phat trien lon hon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhiễm khuẩn hậu sản",
         "name_en": "nhiem khuan hau san",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rau bong non trong thai kỳ",
         "name_en": "rau bong non trong thai ky",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sinh ngôi mông",
         "name_en": "sinh ngoi mong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sinh non",
         "name_en": "sinh non",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "u xơ tử cung",
         "name_en": "u xo tu cung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng",
         "name_en": "dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dữ dội trong thai kỳ",
         "name_en": "dau bung du doi trong thai ky",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau quặn bụng trong 3 tháng giữa",
         "name_en": "dau quan bung trong 3 thang giua",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ U Xơ Tử Cung Khi Mang Thai của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của U Xơ Tử Cung Khi Mang Thai",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau bụng, hoặc tình trạng xuất huyết bất thường, hoặc gặp cả hai triệu chứng trong 3 tháng đầu thai kỳ. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau quặn bụng trong 3 tháng giữa và 3 tháng cuối thai kỳ. Tôi có thể đang bị bệnh gì?",
@@ -149,11 +133,11 @@
     "Tôi mang thai và khối u xơ tử cung làm giảm khả năng co bóp của tử cung. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

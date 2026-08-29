@@ -7,8 +7,9 @@
     "U Nhầy Xoang Trán",
     "U Nhay Xoang Tran"
   ],
-  "description": "U Nhầy Xoang Trán là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "U Nhầy Xoang Trán (Chuyên khoa: respiratory)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,147 +61,130 @@
         "name_vi": "khối mật độ đồng nhất",
         "name_en": "khoi mat do dong nhat",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khối ở đỉnh ổ mắt có xu hướng tạo ra lồi mắt trực tiếp về phía trước",
         "name_en": "khoi o dinh o mat co xu huong tao ra loi mat truc tiep ve phia truoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lao",
         "name_en": "lao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lên trước",
         "name_en": "len truoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lệch mặt hoặc sưng tấy",
         "name_en": "lech mat hoac sung tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lồi mắt trực tiếp về phía trước",
         "name_en": "loi mat truc tiep ve phia truoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nang bì",
         "name_en": "nang bi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhiễm khuẩn",
         "name_en": "nhiem khuan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhiễm nấm",
         "name_en": "nhiem nam",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhìn đôi",
         "name_en": "nhin doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhức đầu mất khả năng hoạt động",
         "name_en": "nhuc dau mat kha nang hoat dong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn thị giác",
         "name_en": "roi loan thi giac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy giảm thị lực",
         "name_en": "suy giam thi luc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng tấy",
         "name_en": "sung tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "trên",
         "name_en": "tren",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tổn thương hướng xuống",
         "name_en": "ton thuong huong xuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tổn thương vùng xoang sàng ở trẻ sơ sinh tạo ra lồi mắt có đặc điểm là lồi về bên ngoài",
         "name_en": "ton thuong vung xoang sang o tre so sinh tao ra loi mat co dac diem la loi ve ben ngoai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "u hạt cholesterol ở trán – ổ mắt",
         "name_en": "u hat cholesterol o tran - o mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "u nhầy xoang trán chèn ép hốc mắt",
         "name_en": "u nhay xoang tran chen ep hoc mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm màng não hoặc rò dịch não tủy",
         "name_en": "viem mang nao hoac ro dich nao tuy",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "về phía trước",
         "name_en": "ve phia truoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ăn mòn thành xoang với xơ hóa rìa",
         "name_en": "an mon thanh xoang voi xo hoa ria",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau quanh hốc mắt",
         "name_en": "dau quanh hoc mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu phía trước",
         "name_en": "dau dau phia truoc",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ U Nhầy Xoang Trán của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của U Nhầy Xoang Trán",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau đầu phía trước, lệch mặt hoặc sưng tấy. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy suy giảm thị lực, giảm khả năng di chuyển của mắt hoặc bị lồi mắt. Tôi có thể đang bị bệnh gì?",
@@ -219,11 +203,11 @@
     "Tôi hay bị u nhầy xoang trán chèn ép hốc mắt. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

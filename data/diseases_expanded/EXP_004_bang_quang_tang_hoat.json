@@ -7,8 +7,9 @@
     "Bàng Quang Tăng Hoạt",
     "Bang Quang Tang Hoat"
   ],
-  "description": "Bàng Quang Tăng Hoạt là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bàng Quang Tăng Hoạt (Chuyên khoa: urology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,72 +61,55 @@
         "name_vi": "không thể nhịn được",
         "name_en": "khong the nhin duoc",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "luôn đầy",
         "name_en": "luon day",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phải đi tiểu nhiều lần trong ngày và cả đêm",
         "name_en": "phai di tieu nhieu lan trong ngay va ca dem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "són tiểu khi ho hoặc hắt hơi",
         "name_en": "son tieu khi ho hoac hat hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sợ bị rò rỉ nước tiểu",
         "name_en": "so bi ro ri nuoc tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thức dậy nhiều lần vào ban đêm vì buồn tiểu",
         "name_en": "thuc day nhieu lan vao ban dem vi buon tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu gấp ngay khi vừa có cảm giác buồn tiểu",
         "name_en": "tieu gap ngay khi vua co cam giac buon tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dưới",
         "name_en": "dau bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau hoặc khó chịu khi đi tiểu",
         "name_en": "dau hoac kho chiu khi di tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bàng Quang Tăng Hoạt của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bàng Quang Tăng Hoạt",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như buồn tiểu đột ngột và sợ bị rò rỉ nước tiểu. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy tiểu gấp ngay khi vừa có cảm giác buồn tiểu. Tôi có thể đang bị bệnh gì?",
@@ -144,11 +128,11 @@
     "Tôi bị đau bụng dưới. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

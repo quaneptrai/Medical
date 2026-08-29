@@ -7,8 +7,9 @@
     "Chướng Bụng Đầy Hơi",
     "Chuong Bung Day Hoi"
   ],
-  "description": "Chướng Bụng Đầy Hơi là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Chướng Bụng Đầy Hơi (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,117 +61,100 @@
         "name_vi": "cảm thấy mệt mỏi",
         "name_en": "cam thay met moi",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "cảm thấy tức bụng",
         "name_en": "cam thay tuc bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay bị xì hơi",
         "name_en": "hay bi xi hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó chịu",
         "name_en": "kho chiu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó chịu ở vùng bụng",
         "name_en": "kho chiu o vung bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở",
         "name_en": "kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó tiêu",
         "name_en": "kho tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phát ra tiếng kêu lạ",
         "name_en": "phat ra tieng keu la",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "táo bón",
         "name_en": "tao bon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xì hơi nhiều",
         "name_en": "xi hoi nhieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xì hơi nhiều hơn bình thường",
         "name_en": "xi hoi nhieu hon binh thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ăn không ngon miệng",
         "name_en": "an khong ngon mieng",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng",
         "name_en": "dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi đại tiện khó khăn",
         "name_en": "di dai tien kho khan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi đại tiện phân sống",
         "name_en": "di dai tien phan song",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đầy hơi",
         "name_en": "day hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ợ chua",
         "name_en": "o chua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ợ hơi",
         "name_en": "o hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Chướng Bụng Đầy Hơi của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Chướng Bụng Đầy Hơi",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như cảm giác căng tức, đau bụng và bụng sưng to. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy khó chịu ở vùng bụng và hay bị xì hơi. Tôi có thể đang bị bệnh gì?",
@@ -189,11 +173,11 @@
     "Tôi hay bị đầy hơi, táo bón và bụng căng tức. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

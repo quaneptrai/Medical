@@ -71,19 +71,17 @@ def evaluate_benchmark_603(model_path_or_name: str, device: str = "cpu", limit: 
     disease_map = {d.name_vi: d for d in diseases}
     disease_names = list(disease_map.keys())
 
-    dense_docs = []
+    docs = []
     bm25_tokens = []
     for name in disease_names:
         d = disease_map[name]
-        sym_list = [s.name_vi for s in d.symptoms.get("common", [])]
-        dense_text = f"{d.name_vi}. Triệu chứng: {', '.join(sym_list[:12])}"
-        dense_docs.append(dense_text)
-        bm25_text = f"{d.name_vi} {' '.join(d.aliases)} {' '.join(sym_list)} {' '.join(d.user_language_variants)}"
-        bm25_tokens.append(tokenize_vietnamese(bm25_text))
+        doc_text = HybridDiseaseSearcher._prepare_document_text(d)
+        docs.append(doc_text)
+        bm25_tokens.append(tokenize_vietnamese(doc_text))
 
     bm25 = BM25Okapi(bm25_tokens)
     model = SentenceTransformer(model_path_or_name, device=device)
-    doc_embeddings = model.encode(dense_docs, batch_size=64, normalize_embeddings=True, show_progress_bar=False)
+    doc_embeddings = model.encode(docs, batch_size=64, normalize_embeddings=True, show_progress_bar=False)
 
     bench_file = ROOT / "data/test_cases/benchmark_603_diseases.json"
     with open(bench_file, "r", encoding="utf-8") as f:

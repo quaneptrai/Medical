@@ -7,8 +7,9 @@
     "Gan Nhiễm Mỡ Độ 3",
     "Gan Nhiem Mo Do 3"
   ],
-  "description": "Gan Nhiễm Mỡ Độ 3 là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Gan Nhiễm Mỡ Độ 3 (Chuyên khoa: digestive)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,147 +61,130 @@
         "name_vi": "da dẻ xanh xao",
         "name_en": "da de xanh xao",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "dễ bị bầm tím",
         "name_en": "de bi bam tim",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "gan to",
         "name_en": "gan to",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay bị chóng mặt",
         "name_en": "hay bi chong mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay cảm thấy mệt mỏi",
         "name_en": "hay cam thay met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở",
         "name_en": "kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó tiêu",
         "name_en": "kho tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó tiêu sau khi ăn",
         "name_en": "kho tieu sau khi an",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mỡ máu cao",
         "name_en": "mo mau cao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn khan",
         "name_en": "non khan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nước tiểu sẫm màu",
         "name_en": "nuoc tieu sam mau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng chân",
         "name_en": "sung chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân không rõ nguyên nhân",
         "name_en": "sut can khong ro nguyen nhan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thừa cân",
         "name_en": "thua can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy kéo dài",
         "name_en": "tieu chay keo dai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu đường",
         "name_en": "tieu duong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì chân tay",
         "name_en": "te bi chan tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vàng da",
         "name_en": "vang da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vàng mắt",
         "name_en": "vang mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng",
         "name_en": "dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau tức hạ sườn phải",
         "name_en": "dau tuc ha suon phai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đầy bụng",
         "name_en": "day bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đầy hơi",
         "name_en": "day hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Gan Nhiễm Mỡ Độ 3 của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Gan Nhiễm Mỡ Độ 3",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi cảm thấy mệt mỏi, chán ăn và đau tức hạ sườn phải. Tôi có thể đang bị bệnh gì?",
     "Tôi bị thừa cân, béo phì và hay cảm thấy mệt mỏi. Tôi có thể đang bị bệnh gì?",
@@ -219,11 +203,11 @@
     "Tôi bị đau bụng, đầy hơi và khó tiêu sau khi ăn. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

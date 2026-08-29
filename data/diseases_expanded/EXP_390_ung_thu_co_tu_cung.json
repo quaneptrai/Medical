@@ -7,8 +7,9 @@
     "Ung Thư Cổ Tử Cung",
     "Ung Thu Co Tu Cung"
   ],
-  "description": "Ung Thư Cổ Tử Cung là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Ung Thư Cổ Tử Cung (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,117 +61,100 @@
         "name_vi": "kinh nguyệt kéo dài",
         "name_en": "kinh nguyet keo dai",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "kinh nguyệt thất thường",
         "name_en": "kinh nguyet that thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "kéo dài",
         "name_en": "keo dai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi không rõ nguyên nhân",
         "name_en": "met moi khong ro nguyen nhan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ra máu bất thường",
         "name_en": "ra mau bat thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ra máu bất thường sau khi quan hệ",
         "name_en": "ra mau bat thuong sau khi quan he",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ra máu bất thường sau mãn kinh",
         "name_en": "ra mau bat thuong sau man kinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sút cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sút cân không rõ nguyên nhân",
         "name_en": "sut can khong ro nguyen nhan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân nhanh chóng",
         "name_en": "sut can nhanh chong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu nhiều lần hơn bình thường",
         "name_en": "tieu nhieu lan hon binh thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dưới",
         "name_en": "dau bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi quan hệ",
         "name_en": "dau khi quan he",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi quan hệ tình dục",
         "name_en": "dau khi quan he tinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau rát vùng chậu",
         "name_en": "dau rat vung chau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau rát vùng chậu khi quan hệ tình dục",
         "name_en": "dau rat vung chau khi quan he tinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi tiểu ra máu",
         "name_en": "di tieu ra mau",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Ung Thư Cổ Tử Cung của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Cổ Tử Cung",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau rát vùng chậu khi quan hệ tình dục và ra máu bất thường sau khi quan hệ. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy khó chịu khi đi tiểu và tiểu nhiều lần hơn bình thường. Tôi có thể đang bị bệnh gì?",
@@ -189,11 +173,11 @@
     "Tôi hiện đang có các triệu chứng như đau khi quan hệ, chảy máu âm đạo bất thường và sút cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

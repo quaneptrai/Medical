@@ -7,8 +7,9 @@
     "Viêm Khớp",
     "Viem Khop"
   ],
-  "description": "Viêm Khớp là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Khớp (Chuyên khoa: musculoskeletal)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,147 +61,130 @@
         "name_vi": "hiện đang bị đau",
         "name_en": "hien dang bi dau",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "hiện đang bị đau bụng",
         "name_en": "hien dang bi dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang bị đau dữ dội ở khớp ngón chân cái",
         "name_en": "hien dang bi dau du doi o khop ngon chan cai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang bị đau khớp",
         "name_en": "hien dang bi dau khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang bị đau khớp gối",
         "name_en": "hien dang bi dau khop goi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang bị đau lưng",
         "name_en": "hien dang bi dau lung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang bị đau mắt",
         "name_en": "hien dang bi dau mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hiện đang bị đau ngực",
         "name_en": "hien dang bi dau nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó chịu. Các khớp của tôi bị sưng",
         "name_en": "kho chiu. Cac khop cua toi bi sung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở",
         "name_en": "kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khô miệng",
         "name_en": "kho mieng",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lupus",
         "name_en": "lupus",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mờ mắt",
         "name_en": "mo mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phát ban trên da",
         "name_en": "phat ban tren da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng khớp",
         "name_en": "sung khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thừa cân",
         "name_en": "thua can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm cột sống dính khớp",
         "name_en": "viem cot song dinh khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm khớp dạng thấp",
         "name_en": "viem khop dang thap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau",
         "name_en": "dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp",
         "name_en": "dau khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp gối",
         "name_en": "dau khop goi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp háng",
         "name_en": "dau khop hang",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Khớp của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Khớp",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau khớp, cứng khớp và sưng khớp. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy mệt mỏi, sốt và khó chịu. Các khớp của tôi bị sưng và đau. Tôi có thể đang bị bệnh gì?",
@@ -219,11 +203,11 @@
     "Tôi bị viêm cột sống dính khớp và hiện đang bị đau mắt, mờ mắt. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

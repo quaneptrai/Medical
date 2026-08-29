@@ -7,8 +7,9 @@
     "Tắc Tia Sữa Sau Sinh",
     "Tac Tia Sua Sau Sinh"
   ],
-  "description": "Tắc Tia Sữa Sau Sinh là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Tắc Tia Sữa Sau Sinh (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,122 +61,105 @@
         "name_vi": "lo lắng sẽ ảnh hưởng đến sức khỏe của con",
         "name_en": "lo lang se anh huong den suc khoe cua con",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "massage",
         "name_en": "massage",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mới sinh con và sữa về nhiều nhưng bé bú không hết, ngực căng tức",
         "name_en": "moi sinh con va sua ve nhieu nhung be bu khong het, nguc cang tuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngực căng cứng",
         "name_en": "nguc cang cung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngực căng tức",
         "name_en": "nguc cang tuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngực sưng đỏ",
         "name_en": "nguc sung do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "stress",
         "name_en": "stress",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt cao",
         "name_en": "sot cao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt nhẹ",
         "name_en": "sot nhe",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sờ thấy có cục cứng bên trong",
         "name_en": "so thay co cuc cung ben trong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sữa về ít",
         "name_en": "sua ve it",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sữa ít về hơn",
         "name_en": "sua it ve hon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiết sữa rất ít",
         "name_en": "tiet sua rat it",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tắc tia sữa",
         "name_en": "tac tia sua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tắc tia sữa kéo dài",
         "name_en": "tac tia sua keo dai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "áp dụng các biện pháp tại nhà nhưng không hiệu quả",
         "name_en": "ap dung cac bien phap tai nha nhung khong hieu qua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức",
         "name_en": "dau nhuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ở đầu vú",
         "name_en": "dau o dau vu",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Tắc Tia Sữa Sau Sinh của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Tắc Tia Sữa Sau Sinh",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như ngực căng cứng, đau nhức và tiết sữa rất ít. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau ở đầu vú và sờ thấy có cục cứng bên trong. Tôi có thể đang bị bệnh gì?",
@@ -194,11 +178,11 @@
     "Tôi đang bị tắc tia sữa và lo lắng sẽ ảnh hưởng đến sức khỏe của con. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

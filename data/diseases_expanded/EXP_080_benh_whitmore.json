@@ -7,8 +7,9 @@
     "Bệnh Whitmore",
     "Benh Whitmore"
   ],
-  "description": "Bệnh Whitmore là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bệnh Whitmore (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,152 +61,135 @@
         "name_vi": "khớp",
         "name_en": "khop",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "mất phương hướng",
         "name_en": "mat phuong huong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhức đầu",
         "name_en": "nhuc dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi những nốt sần đỏ trên da",
         "name_en": "noi nhung not san do tren da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rùng mình",
         "name_en": "rung minh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng hạch bạch huyết",
         "name_en": "sung hach bach huyet",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng tuyến mang tai",
         "name_en": "sung tuyen mang tai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt cao",
         "name_en": "sot cao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt cao liên tục",
         "name_en": "sot cao lien tuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy",
         "name_en": "tieu chay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy kéo dài",
         "name_en": "tieu chay keo dai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xuất hiện vết loét trên da",
         "name_en": "xuat hien vet loet tren da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng",
         "name_en": "dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dữ dội",
         "name_en": "dau bung du doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau cơ",
         "name_en": "dau co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau họng",
         "name_en": "dau hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp",
         "name_en": "dau khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ngực",
         "name_en": "dau nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ngực khi thở",
         "name_en": "dau nguc khi tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức cơ thể",
         "name_en": "dau nhuc co the",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu dữ dội",
         "name_en": "dau dau du doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi",
         "name_en": "do mo hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "động kinh",
         "name_en": "dong kinh",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bệnh Whitmore của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Whitmore",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như sốt, sụt cân, đau bụng và nổi những nốt sần đỏ trên da. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau ngực khi thở, ho có đờm và nhức đầu. Tôi có thể đang bị bệnh gì?",
@@ -224,11 +208,11 @@
     "Tôi bị đau khớp, sốt cao và có vết loét trên da. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

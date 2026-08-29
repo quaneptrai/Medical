@@ -7,8 +7,9 @@
     "Nám Da",
     "Nam Da"
   ],
-  "description": "Nám Da là một bệnh lý thuộc chuyên khoa dermatology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Nám Da (Chuyên khoa: dermatology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,92 +61,75 @@
         "name_vi": "lo lắng vì không biết cách điều trị nám da hiệu quả",
         "name_en": "lo lang vi khong biet cach dieu tri nam da hieu qua",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "môi",
         "name_en": "moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn trứng cá",
         "name_en": "mun trung ca",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nám da",
         "name_en": "nam da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nám da xuất hiện nhiều hơn sau khi mang thai",
         "name_en": "nam da xuat hien nhieu hon sau khi mang thai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nám da ở hai bên gò má",
         "name_en": "nam da o hai ben go ma",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn kinh nguyệt",
         "name_en": "roi loan kinh nguyet",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "trán",
         "name_en": "tran",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tàn nhang",
         "name_en": "tan nhang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tự ti vì làn da xuất hiện nhiều vết nám",
         "name_en": "tu ti vi lan da xuat hien nhieu vet nam",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xuất hiện nhiều vết nám sau khi đi nắng",
         "name_en": "xuat hien nhieu vet nam sau khi di nang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là sau khi tiếp xúc với ánh nắng",
         "name_en": "dac biet la sau khi tiep xuc voi anh nang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đồi mồi",
         "name_en": "doi moi",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Nám Da của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nám Da",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như da xuất hiện những mảng sẫm màu ở hai bên má và trán, đặc biệt là sau khi tiếp xúc với ánh nắng. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy tự ti vì làn da xuất hiện nhiều vết nám, Tôi có thể đang bị bệnh gì?",
@@ -164,11 +148,11 @@
     "Tôi hay thấy nám da xuất hiện nhiều hơn sau khi mang thai. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

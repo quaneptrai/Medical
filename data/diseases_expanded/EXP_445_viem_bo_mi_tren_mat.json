@@ -7,8 +7,9 @@
     "Viêm Bờ Mi Trên Mắt",
     "Viem Bo Mi Tren Mat"
   ],
-  "description": "Viêm Bờ Mi Trên Mắt là một bệnh lý thuộc chuyên khoa ophthalmology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Bờ Mi Trên Mắt (Chuyên khoa: ophthalmology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,137 +61,120 @@
         "name_vi": "lông mi mọc lệch",
         "name_en": "long mi moc lech",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "mí mắt trên bị khô",
         "name_en": "mi mat tren bi kho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mí mắt trên bị kích ứng",
         "name_en": "mi mat tren bi kich ung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mí mắt trên bị sưng đỏ",
         "name_en": "mi mat tren bi sung do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mí mắt trên bị tắc nghẽn",
         "name_en": "mi mat tren bi tac nghen",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mí mắt trên bị viêm",
         "name_en": "mi mat tren bi viem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mí mắt trên sưng đỏ",
         "name_en": "mi mat tren sung do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mẩn đỏ",
         "name_en": "man do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mắt sưng",
         "name_en": "mat sung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mờ mắt",
         "name_en": "mo mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn trứng cá đỏ",
         "name_en": "mun trung ca do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngứa mí mắt trên",
         "name_en": "ngua mi mat tren",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhiễm trùng tụ cầu",
         "name_en": "nhiem trung tu cau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhạy cảm với ánh sáng",
         "name_en": "nhay cam voi anh sang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhờn ở mí mắt",
         "name_en": "nhon o mi mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nóng ở mí mắt trên",
         "name_en": "nong o mi mat tren",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "quanh gốc lông mi",
         "name_en": "quanh goc long mi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rận hoặc ve ở lông mi",
         "name_en": "ran hoac ve o long mi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng tấy ở mí mắt trên",
         "name_en": "sung tay o mi mat tren",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng đỏ",
         "name_en": "sung do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tuyến dầu mí mắt bị tắc",
         "name_en": "tuyen dau mi mat bi tac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau",
         "name_en": "dau",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Bờ Mi Trên Mắt của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Bờ Mi Trên Mắt",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như kích ứng và sưng tấy ở mí mắt trên. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy mắt sưng, mẩn đỏ. Tôi có thể đang bị bệnh gì?",
@@ -209,11 +193,11 @@
     "Tôi bị tuyến dầu mí mắt bị tắc và mí mắt trên bị khô, sưng đỏ. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

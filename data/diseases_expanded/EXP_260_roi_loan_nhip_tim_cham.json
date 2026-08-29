@@ -7,8 +7,9 @@
     "Rối Loạn Nhịp Tim Chậm",
     "Roi Loan Nhip Tim Cham"
   ],
-  "description": "Rối Loạn Nhịp Tim Chậm là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Rối Loạn Nhịp Tim Chậm (Chuyên khoa: cardiology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,127 +61,110 @@
         "name_vi": "khó thở",
         "name_en": "kho tho",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khó thở khi vận động",
         "name_en": "kho tho khi van dong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó tập trung",
         "name_en": "kho tap trung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lú lẫn",
         "name_en": "lu lan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lạnh",
         "name_en": "lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "móng tay dễ gãy",
         "name_en": "mong tay de gay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mất phương hướng",
         "name_en": "mat phuong huong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mờ mắt",
         "name_en": "mo mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngất xỉu hoặc cảm giác sắp ngất",
         "name_en": "ngat xiu hoac cam giac sap ngat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nặng ngực",
         "name_en": "nang nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy giảm trí nhớ",
         "name_en": "suy giam tri nho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tim đập chậm",
         "name_en": "tim dap cham",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "táo bón",
         "name_en": "tao bon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng cân",
         "name_en": "tang can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tức ngực",
         "name_en": "tuc nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu",
         "name_en": "yeu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu sức",
         "name_en": "yeu suc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau đầu",
         "name_en": "dau dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là bàn tay",
         "name_en": "dac biet la ban tay",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Rối Loạn Nhịp Tim Chậm của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Nhịp Tim Chậm",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như choáng váng và chóng mặt. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy mệt mỏi, yếu sức, và giảm khả năng gắng sức. Tôi có thể đang bị bệnh gì?",
@@ -199,11 +183,11 @@
     "Tôi hay bị đau đầu và mờ mắt. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

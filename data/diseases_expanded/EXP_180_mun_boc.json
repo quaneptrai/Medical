@@ -7,8 +7,9 @@
     "Mụn Bọc",
     "Mun Boc"
   ],
-  "description": "Mụn Bọc là một bệnh lý thuộc chuyên khoa dermatology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Mụn Bọc (Chuyên khoa: dermatology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,147 +61,130 @@
         "name_vi": "không đều màu do mụn",
         "name_en": "khong deu mau do mun",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "lan rộng ra nhiều vùng da",
         "name_en": "lan rong ra nhieu vung da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lo lắng",
         "name_en": "lo lang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mũi",
         "name_en": "mui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn bọc có kích thước lớn",
         "name_en": "mun boc co kich thuoc lon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn bọc có mủ",
         "name_en": "mun boc co mu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn bọc gây mất thẩm mỹ",
         "name_en": "mun boc gay mat tham my",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn bọc khiến tôi khó chịu",
         "name_en": "mun boc khien toi kho chiu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn bọc mọc ở lưng",
         "name_en": "mun boc moc o lung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn bọc ngày càng nặng hơn",
         "name_en": "mun boc ngay cang nang hon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn bọc tái đi tái lại nhiều lần",
         "name_en": "mun boc tai di tai lai nhieu lan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn bọc để lại vết thâm",
         "name_en": "mun boc de lai vet tham",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mụn mọc thành từng cụm",
         "name_en": "mun moc thanh tung cum",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngại giao tiếp do mụn bọc",
         "name_en": "ngai giao tiep do mun boc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngực",
         "name_en": "nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi mụn sưng đỏ",
         "name_en": "noi mun sung do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng tấy",
         "name_en": "sung tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sẹo rỗ trên da",
         "name_en": "seo ro tren da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tập trung ở vùng trán",
         "name_en": "tap trung o vung tran",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tự ti",
         "name_en": "tu ti",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vai",
         "name_en": "vai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức",
         "name_en": "dau nhuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ảnh hưởng đến cuộc sống",
         "name_en": "anh huong den cuoc song",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ảnh hưởng đến tâm lý",
         "name_en": "anh huong den tam ly",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Mụn Bọc của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mụn Bọc",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như nổi mụn sưng đỏ, cứng, có mủ trắng ở mặt. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau nhức, khó chịu khi chạm vào mụn. Tôi có thể đang bị bệnh gì?",
@@ -219,11 +203,11 @@
     "Tôi hay sử dụng nhiều loại mỹ phẩm, kem trị mụn nhưng không hiệu quả. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

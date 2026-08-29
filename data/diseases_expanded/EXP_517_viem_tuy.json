@@ -7,8 +7,9 @@
     "Viêm Tụy",
     "Viem Tuy"
   ],
-  "description": "Viêm Tụy là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Tụy (Chuyên khoa: digestive)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,97 +61,80 @@
         "name_vi": "phân có mỡ",
         "name_en": "phan co mo",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "quai bị",
         "name_en": "quai bi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sỏi mật",
         "name_en": "soi mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sử dụng estrogen và hiện đang đau bụng, nôn mửa",
         "name_en": "su dung estrogen va hien dang dau bung, non mua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sử dụng steroid và hiện đang đau bụng, nôn mửa",
         "name_en": "su dung steroid va hien dang dau bung, non mua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sử dụng thuốc lợi tiểu và hiện đang đau bụng, buồn nôn",
         "name_en": "su dung thuoc loi tieu va hien dang dau bung, buon non",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy",
         "name_en": "tieu chay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm gan A",
         "name_en": "viem gan A",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm gan B",
         "name_en": "viem gan B",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vừa phẫu thuật bụng và hiện đang đau bụng, sốt",
         "name_en": "vua phau thuat bung va hien dang dau bung, sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng trên",
         "name_en": "dau bung tren",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau lưng",
         "name_en": "dau lung",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Tụy của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Tụy",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau bụng trên, buồn nôn và nôn mửa. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau lưng, sốt và chướng bụng. Tôi có thể đang bị bệnh gì?",
@@ -169,11 +153,11 @@
     "Tôi bị viêm gan B và hiện đang đau bụng, buồn nôn. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

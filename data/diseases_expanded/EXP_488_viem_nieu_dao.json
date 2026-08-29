@@ -7,8 +7,9 @@
     "Viêm Niệu Đạo",
     "Viem Nieu Dao"
   ],
-  "description": "Viêm Niệu Đạo là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Niệu Đạo (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,77 +61,60 @@
         "name_vi": "tiết dịch niệu đạo",
         "name_en": "tiet dich nieu dao",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "vi khuẩn lậu (Neisseria gonorrhoeae)",
         "name_en": "vi khuan lau (Neisseria gonorrhoeae)",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "virus herpes simplex (HSV-1",
         "name_en": "virus herpes simplex (HSV-1",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm cấp tính hay mạn tính của niệu đạo",
         "name_en": "viem cap tinh hay man tinh cua nieu dao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm niệu đạo",
         "name_en": "viem nieu dao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm niệu đạo do lậu cầu",
         "name_en": "viem nieu dao do lau cau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm niệu đạo do vi khuẩn",
         "name_en": "viem nieu dao do vi khuan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm niệu đạo không do lậu",
         "name_en": "viem nieu dao khong do lau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi tiểu tiện",
         "name_en": "dau khi tieu tien",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặt thông tiểu",
         "name_en": "dat thong tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Niệu Đạo của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Niệu Đạo",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như viêm niệu đạo. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy viêm cấp tính hay mạn tính của niệu đạo. Tôi có thể đang bị bệnh gì?",
@@ -149,11 +133,11 @@
     "Tôi hay bị virus herpes simplex (HSV-1, HSV-2). Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

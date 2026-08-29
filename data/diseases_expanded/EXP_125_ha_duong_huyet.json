@@ -7,8 +7,9 @@
     "Hạ Đường Huyết",
     "Ha Duong Huyet"
   ],
-  "description": "Hạ Đường Huyết là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Hạ Đường Huyết (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,192 +61,175 @@
         "name_vi": "da tái nhợt",
         "name_en": "da tai nhot",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "da xanh xao",
         "name_en": "da xanh xao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "dễ nổi nóng",
         "name_en": "de noi nong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hoa mắt",
         "name_en": "hoa mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hạ đường huyết vào ban đêm",
         "name_en": "ha duong huyet vao ban dem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hồi hộp",
         "name_en": "hoi hop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khi ngủ dậy cảm thấy mệt mỏi",
         "name_en": "khi ngu day cam thay met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó chịu",
         "name_en": "kho chiu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó khăn khi suy nghĩ",
         "name_en": "kho khan khi suy nghi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó khăn khi đi lại",
         "name_en": "kho khan khi di lai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở",
         "name_en": "kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó tập trung",
         "name_en": "kho tap trung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "kiệt sức",
         "name_en": "kiet suc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lo lắng",
         "name_en": "lo lang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "lưỡi",
         "name_en": "luoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "muốn ngủ li bì",
         "name_en": "muon ngu li bi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mất ý thức",
         "name_en": "mat y thuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngất xỉu",
         "name_en": "ngat xiu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhìn mờ",
         "name_en": "nhin mo",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhức đầu",
         "name_en": "nhuc dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nói năng lắp bắp",
         "name_en": "noi nang lap bap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nôn",
         "name_en": "non",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "run rẩy",
         "name_en": "run ray",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "run tay chân",
         "name_en": "run tay chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tim đập mạnh",
         "name_en": "tim dap manh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tim đập nhanh",
         "name_en": "tim dap nhanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tê bì môi",
         "name_en": "te bi moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu ớt",
         "name_en": "yeu ot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng",
         "name_en": "dau bung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đói đột ngột",
         "name_en": "doi dot ngot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi",
         "name_en": "do mo hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi lạnh",
         "name_en": "do mo hoi lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Hạ Đường Huyết của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hạ Đường Huyết",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang cảm thấy tim đập nhanh, đổ mồ hôi, lo lắng và run rẩy. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy chóng mặt, hoa mắt, da xanh xao và buồn nôn. Tôi có thể đang bị bệnh gì?",
@@ -264,11 +248,11 @@
     "Tôi hay bị hạ đường huyết vào ban đêm, khi ngủ dậy cảm thấy mệt mỏi và kiệt sức. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

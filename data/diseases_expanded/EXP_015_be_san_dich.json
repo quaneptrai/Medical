@@ -7,8 +7,9 @@
     "Bế Sản Dịch",
     "Be San Dich"
   ],
-  "description": "Bế Sản Dịch là một bệnh lý thuộc chuyên khoa infectious, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bế Sản Dịch (Chuyên khoa: infectious)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,137 +61,120 @@
         "name_vi": "cơ thể mệt mỏi",
         "name_en": "co the met moi",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "mùi hôi tanh",
         "name_en": "mui hoi tanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ra sản dịch",
         "name_en": "ra san dich",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rõ. Sản dịch ra ít",
         "name_en": "ro. San dich ra it",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sản dịch chảy rất ít",
         "name_en": "san dich chay rat it",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sản dịch gần như không ra",
         "name_en": "san dich gan nhu khong ra",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sản dịch ra rất ít",
         "name_en": "san dich ra rat it",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sản dịch ra ít",
         "name_en": "san dich ra it",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sản dịch ra ít hơn bình thường",
         "name_en": "san dich ra it hon binh thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sản dịch ra ít hơn so với những ngày đầu sau sinh",
         "name_en": "san dich ra it hon so voi nhung ngay dau sau sinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt cao",
         "name_en": "sot cao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt nhẹ",
         "name_en": "sot nhe",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thỉnh thoảng có cơn đau âm ỉ sau sinh",
         "name_en": "thinh thoang co con dau am i sau sinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vùng bụng dưới đau âm ỉ",
         "name_en": "vung bung duoi dau am i",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vừa sinh con được 3 tuần nhưng sản dịch vẫn còn ra, có màu lạ và mùi hôi",
         "name_en": "vua sinh con duoc 3 tuan nhung san dich van con ra, co mau la va mui hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dưới",
         "name_en": "dau bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dưới dữ dội",
         "name_en": "dau bung duoi du doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi đi tiểu",
         "name_en": "dau khi di tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi ấn vào vùng bụng dưới",
         "name_en": "dau khi an vao vung bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức vùng bụng dưới",
         "name_en": "dau nhuc vung bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ớn lạnh",
         "name_en": "on lanh",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bế Sản Dịch của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bế Sản Dịch",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như sản dịch chảy rất ít và có mùi hôi khó chịu. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy căng tức vùng hạ vị và thỉnh thoảng có cơn đau âm ỉ sau sinh. Tôi có thể đang bị bệnh gì?",
@@ -209,11 +193,11 @@
     "Tôi bị đau khi đi tiểu, sản dịch ra ít và có màu đục. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

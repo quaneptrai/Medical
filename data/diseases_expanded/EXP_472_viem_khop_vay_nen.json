@@ -7,8 +7,9 @@
     "Viêm Khớp Vảy Nến",
     "Viem Khop Vay Nen"
   ],
-  "description": "Viêm Khớp Vảy Nến là một bệnh lý thuộc chuyên khoa dermatology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Khớp Vảy Nến (Chuyên khoa: dermatology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,147 +61,130 @@
         "name_vi": "mất tự tin",
         "name_en": "mat tu tin",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "mắt cá chân",
         "name_en": "mat ca chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngón chân",
         "name_en": "ngon chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phát ban đỏ có vảy ở khuỷu tay",
         "name_en": "phat ban do co vay o khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sút cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng khớp",
         "name_en": "sung khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng đau các khớp",
         "name_en": "sung dau cac khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tình trạng móng tay dày",
         "name_en": "tinh trang mong tay day",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "từ cổ đến lưng dưới",
         "name_en": "tu co den lung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm kết mạc",
         "name_en": "viem ket mac",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm màng bồ đào",
         "name_en": "viem mang bo dao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp",
         "name_en": "dau khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp dai dẳng",
         "name_en": "dau khop dai dang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp gối",
         "name_en": "dau khop goi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp gối cả hai chân",
         "name_en": "dau khop goi ca hai chan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp không đối xứng",
         "name_en": "dau khop khong doi xung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau lưng dưới",
         "name_en": "dau lung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau mắt đỏ",
         "name_en": "dau mat do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức khớp",
         "name_en": "dau nhuc khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức ở các khớp ngón tay",
         "name_en": "dau nhuc o cac khop ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức ở các điểm bám gân vào xương",
         "name_en": "dau nhuc o cac diem bam gan vao xuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức ở cột sống",
         "name_en": "dau nhuc o cot song",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là lòng bàn chân",
         "name_en": "dac biet la long ban chan",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Khớp Vảy Nến của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Khớp Vảy Nến",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau khớp, sưng khớp và phát ban đỏ có vảy ở khuỷu tay. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau nhức ở các khớp ngón tay và ngón chân, kèm theo tình trạng móng tay dày và bong tróc. Tôi có thể đang bị bệnh gì?",
@@ -219,11 +203,11 @@
     "Tôi hay bị viêm màng bồ đào, đau mắt đỏ và đau khớp. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

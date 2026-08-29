@@ -7,8 +7,9 @@
     "Bệnh Tim Bẩm Sinh Tím",
     "Benh Tim Bam Sinh Tim"
   ],
-  "description": "Bệnh Tim Bẩm Sinh Tím là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bệnh Tim Bẩm Sinh Tím (Chuyên khoa: cardiology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,112 +61,95 @@
         "name_vi": "con tôi đổ mồ hôi",
         "name_en": "con toi do mo hoi",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "da xanh xao",
         "name_en": "da xanh xao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "da xám xịt",
         "name_en": "da xam xit",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "hay khóc",
         "name_en": "hay khoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở",
         "name_en": "kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "môi",
         "name_en": "moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "môi tím tái",
         "name_en": "moi tim tai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mạch của con tôi yếu",
         "name_en": "mach cua con toi yeu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mắt",
         "name_en": "mat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mặt con tôi sưng húp",
         "name_en": "mat con toi sung hup",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngón chân con tôi có màu xanh",
         "name_en": "ngon chan con toi co mau xanh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngón chân tím tái",
         "name_en": "ngon chan tim tai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngón tay",
         "name_en": "ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngất xỉu",
         "name_en": "ngat xiu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "quấy khóc trong khi bú",
         "name_en": "quay khoc trong khi bu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tăng cân chậm",
         "name_en": "tang can cham",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ngực",
         "name_en": "dau nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bệnh Tim Bẩm Sinh Tím của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Tim Bẩm Sinh Tím",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như môi, ngón tay và ngón chân con tôi có màu xanh. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy con tôi khó thở và da xám xịt. Tôi có thể đang bị bệnh gì?",
@@ -184,11 +168,11 @@
     "Tôi hay thấy con tôi bú kém và chậm tăng cân. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

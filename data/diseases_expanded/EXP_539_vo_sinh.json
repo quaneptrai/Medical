@@ -7,8 +7,9 @@
     "Vô Sinh",
     "Vo Sinh"
   ],
-  "description": "Vô Sinh là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Vô Sinh (Chuyên khoa: obstetrics_gynecology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,122 +61,105 @@
         "name_vi": "lo lắng",
         "name_en": "lo lang",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ra máu bất thường",
         "name_en": "ra mau bat thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn cương dương",
         "name_en": "roi loan cuong duong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rụng tóc",
         "name_en": "rung toc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "stress",
         "name_en": "stress",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng bìu",
         "name_en": "sung biu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt cao",
         "name_en": "sot cao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu buốt",
         "name_en": "tieu buot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tắc vòi trứng",
         "name_en": "tac voi trung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm mào tinh hoàn",
         "name_en": "viem mao tinh hoan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm nhiễm phụ khoa",
         "name_en": "viem nhiem phu khoa",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm tuyến tiền liệt",
         "name_en": "viem tuyen tien liet",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xuất tinh ngược",
         "name_en": "xuat tinh nguoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "xuất tinh sớm",
         "name_en": "xuat tinh som",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng kinh dữ dội",
         "name_en": "dau bung kinh du doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau rát khi quan hệ tình dục",
         "name_en": "dau rat khi quan he tinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau tinh hoàn",
         "name_en": "dau tinh hoan",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Vô Sinh của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Vô Sinh",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như kinh nguyệt không đều và đau bụng kinh dữ dội. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau rát khi quan hệ tình dục và ra máu bất thường. Tôi có thể đang bị bệnh gì?",
@@ -194,11 +178,11 @@
     "Tôi hay bị xuất tinh ngược và không xuất tinh. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

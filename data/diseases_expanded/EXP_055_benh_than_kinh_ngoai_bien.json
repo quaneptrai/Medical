@@ -7,8 +7,9 @@
     "Bệnh Thần Kinh Ngoại Biên",
     "Benh Than Kinh Ngoai Bien"
   ],
-  "description": "Bệnh Thần Kinh Ngoại Biên là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Bệnh Thần Kinh Ngoại Biên (Chuyên khoa: neurology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,77 +61,60 @@
         "name_vi": "hồi hộp",
         "name_en": "hoi hop",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "khó khăn khi đi bộ, thường xuyên vấp ngã",
         "name_en": "kho khan khi di bo, thuong xuyen vap nga",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó ngủ vì mỏi chân và đau chân dai dẳng",
         "name_en": "kho ngu vi moi chan va dau chan dai dang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thực hiện các hoạt động hàng ngày",
         "name_en": "kho thuc hien cac hoat dong hang ngay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "không còn sức lực",
         "name_en": "khong con suc luc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mất thăng bằng",
         "name_en": "mat thang bang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhức nhối hoặc đau như điện giật khi vô tình chạm vào da",
         "name_en": "nhuc nhoi hoac dau nhu dien giat khi vo tinh cham vao da",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phối hợp động tác kém",
         "name_en": "phoi hop dong tac kem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là về đêm",
         "name_en": "dac biet la ve dem",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đổ mồ hôi bất thường, ngay cả khi thời tiết không nóng",
         "name_en": "do mo hoi bat thuong, ngay ca khi thoi tiet khong nong",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Bệnh Thần Kinh Ngoại Biên của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Thần Kinh Ngoại Biên",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như cảm giác đeo “găng tay” hoặc “mang vớ” ở tay chân. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy bỏng rát hoặc đau buốt ở bàn chân, đặc biệt là về đêm. Tôi có thể đang bị bệnh gì?",
@@ -149,11 +133,11 @@
     "Bàn chân tôi luôn bì bì, không còn cảm nhận rõ ràng khi tiếp xúc với mặt đất. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

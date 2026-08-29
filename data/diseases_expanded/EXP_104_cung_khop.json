@@ -7,8 +7,9 @@
     "Cứng Khớp",
     "Cung Khop"
   ],
-  "description": "Cứng Khớp là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Cứng Khớp (Chuyên khoa: musculoskeletal)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,152 +61,135 @@
         "name_vi": "cứng khớp ở bàn tay",
         "name_en": "cung khop o ban tay",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "cứng khớp ở các ngón tay",
         "name_en": "cung khop o cac ngon tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "cứng khớp ở cổ",
         "name_en": "cung khop o co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "cứng khớp ở ngón tay cái",
         "name_en": "cung khop o ngon tay cai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "cử động cánh tay",
         "name_en": "cu dong canh tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "gây khó khăn khi cầm nắm đồ vật",
         "name_en": "gay kho khan khi cam nam do vat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "gây khó khăn khi quay đầu",
         "name_en": "gay kho khan khi quay dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "gây khó khăn khi đi lại",
         "name_en": "gay kho khan khi di lai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "gặp vấn đề về vận động do cứng khớp ở gối và hông",
         "name_en": "gap van de ve van dong do cung khop o goi va hong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "gối",
         "name_en": "goi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khuỷu tay",
         "name_en": "khuyu tay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó cử động các khớp",
         "name_en": "kho cu dong cac khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó cử động sau khi tập thể dục",
         "name_en": "kho cu dong sau khi tap the duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó khăn khi gập duỗi các khớp",
         "name_en": "kho khan khi gap duoi cac khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngón trỏ",
         "name_en": "ngon tro",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nóng đỏ",
         "name_en": "nong do",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng",
         "name_en": "sung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "uể oải",
         "name_en": "ue oai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vai",
         "name_en": "vai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau",
         "name_en": "dau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi cử động mạnh",
         "name_en": "dau khi cu dong manh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khớp",
         "name_en": "dau khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức",
         "name_en": "dau nhuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đặc biệt là vào buổi sáng",
         "name_en": "dac biet la vao buoi sang",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Cứng Khớp của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Cứng Khớp",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như khó cử động các khớp, đặc biệt là vào buổi sáng. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau khớp và cứng khớp sau khi ngủ dậy hoặc ngồi lâu. Tôi có thể đang bị bệnh gì?",
@@ -224,11 +208,11 @@
     "Tôi hay bị cứng khớp ở cổ và vai, gây khó khăn khi quay đầu và cử động cánh tay. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

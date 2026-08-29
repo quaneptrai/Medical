@@ -7,8 +7,9 @@
     "Ra Mồ Hôi Tay Chân Nhiều",
     "Ra Mo Hoi Tay Chan Nhieu"
   ],
-  "description": "Ra Mồ Hôi Tay Chân Nhiều là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Ra Mồ Hôi Tay Chân Nhiều (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,87 +61,70 @@
         "name_vi": "muốn biết nguyên nhân gây ra tình trạng ra mồ hôi tay chân nhiều của tôi",
         "name_en": "muon biet nguyen nhan gay ra tinh trang ra mo hoi tay chan nhieu cua toi",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "muốn tìm hiểu về phương pháp phẫu thuật điều trị ra mồ hôi tay chân nhiều",
         "name_en": "muon tim hieu ve phuong phap phau thuat dieu tri ra mo hoi tay chan nhieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "mỏng",
         "name_en": "mong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nghe nói ra mồ hôi tay chân nhiều có thể là dấu hiệu của một số bệnh lý",
         "name_en": "nghe noi ra mo hoi tay chan nhieu co the la dau hieu cua mot so benh ly",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ngại giao tiếp và tiếp xúc với người khác vì bàn tay lúc nào cũng ướt đẫm mồ hôi",
         "name_en": "ngai giao tiep va tiep xuc voi nguoi khac vi ban tay luc nao cung uot dam mo hoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nấm da gây ngứa ngáy",
         "name_en": "nam da gay ngua ngay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ra mồ hôi nhiều ở nách",
         "name_en": "ra mo hoi nhieu o nach",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thường xuyên phải lau tay vì mồ hôi ra quá nhiều, gây khó khăn khi cầm nắm đồ vật",
         "name_en": "thuong xuyen phai lau tay vi mo hoi ra qua nhieu, gay kho khan khi cam nam do vat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thấm ướt đẫm áo buộc phải thay áo vài lần trong ngày",
         "name_en": "tham uot dam ao buoc phai thay ao vai lan trong ngay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "trêu chọc vì bàn tay lúc nào cũng ướt át",
         "name_en": "treu choc vi ban tay luc nao cung uot at",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tìm hiểu về các phương pháp điều trị ra mồ hôi tay chân nhiều",
         "name_en": "tim hieu ve cac phuong phap dieu tri ra mo hoi tay chan nhieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tìm kiếm giải pháp để giảm tình trạng ra mồ hôi tay chân quá nhiều",
         "name_en": "tim kiem giai phap de giam tinh trang ra mo hoi tay chan qua nhieu",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Ra Mồ Hôi Tay Chân Nhiều của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ra Mồ Hôi Tay Chân Nhiều",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như ra mồ hôi nhiều ở nách, thấm ướt đẫm áo buộc phải thay áo vài lần trong ngày. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy da tay mình mềm, mỏng, bong tróc và hay bị nhiễm trùng da và nấm da gây ngứa ngáy. Tôi có thể đang bị bệnh gì?",
@@ -159,11 +143,11 @@
     "Tôi lo lắng về tác dụng phụ của các phương pháp điều trị ra mồ hôi tay chân nhiều. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

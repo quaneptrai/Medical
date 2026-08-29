@@ -7,8 +7,9 @@
     "Sùi Mào Gà",
     "Sui Mao Ga"
   ],
-  "description": "Sùi Mào Gà là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Sùi Mào Gà (Chuyên khoa: general)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,102 +61,85 @@
         "name_vi": "nốt sùi mào gà bị vỡ",
         "name_en": "not sui mao ga bi vo",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "nốt sùi mào gà có hình dạng như bông súp lơ",
         "name_en": "not sui mao ga co hinh dang nhu bong sup lo",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nốt sùi mào gà có kích thước to",
         "name_en": "not sui mao ga co kich thuoc to",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi mụn cóc sinh dục ở dương vật",
         "name_en": "noi mun coc sinh duc o duong vat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi mụn cóc ở bìu",
         "name_en": "noi mun coc o biu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi mụn cóc ở môi",
         "name_en": "noi mun coc o moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nổi mụn cóc ở đùi",
         "name_en": "noi mun coc o dui",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy giảm hệ miễn dịch",
         "name_en": "suy giam he mien dich",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sùi mào gà",
         "name_en": "sui mao ga",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sùi mào gà sau khi quan hệ tình dục bằng miệng",
         "name_en": "sui mao ga sau khi quan he tinh duc bang mieng",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sùi mào gà sau khi quan hệ tình dục không an toàn",
         "name_en": "sui mao ga sau khi quan he tinh duc khong an toan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sùi mào gà tái phát sau điều trị",
         "name_en": "sui mao ga tai phat sau dieu tri",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiết dịch dương vật",
         "name_en": "tiet dich duong vat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau rát khi tiểu tiện",
         "name_en": "dau rat khi tieu tien",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau rát vùng kín",
         "name_en": "dau rat vung kin",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Sùi Mào Gà của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Sùi Mào Gà",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như nổi mụn cóc sinh dục ở dương vật. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy ngứa ngáy và đau rát vùng kín. Tôi có thể đang bị bệnh gì?",
@@ -174,11 +158,11 @@
     "Tôi hay bị sùi mào gà và suy giảm hệ miễn dịch. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

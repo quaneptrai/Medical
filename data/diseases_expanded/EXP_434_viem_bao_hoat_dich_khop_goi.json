@@ -7,8 +7,9 @@
     "Viêm Bao Hoạt Dịch Khớp Gối",
     "Viem Bao Hoat Dich Khop Goi"
   ],
-  "description": "Viêm Bao Hoạt Dịch Khớp Gối là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Bao Hoạt Dịch Khớp Gối (Chuyên khoa: musculoskeletal)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,122 +61,105 @@
         "name_vi": "gây ra chấn thương trực tiếp hoặc té ngã",
         "name_en": "gay ra chan thuong truc tiep hoac te nga",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "gây ra nhiều bệnh mạn tính như bệnh tim mạch do viêm bao hoạt dịch khớp gối thấp khớp cấp",
         "name_en": "gay ra nhieu benh man tinh nhu benh tim mach do viem bao hoat dich khop goi thap khop cap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khớp gối phải chịu áp lực thường xuyên",
         "name_en": "khop goi phai chiu ap luc thuong xuyen",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "kéo dài",
         "name_en": "keo dai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "làm xuất hiện cơn đau mạn tính",
         "name_en": "lam xuat hien con dau man tinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "nhiễm trùng bao hoạt dịch",
         "name_en": "nhiem trung bao hoat dich",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sưng",
         "name_en": "sung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "teo cơ dẫn tới suy giảm chức năng vận động",
         "name_en": "teo co dan toi suy giam chuc nang van dong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thoát vị bao hoạt dịch khớp gối (u nang bao hoạt dịch) tái phát nhiều lần",
         "name_en": "thoat vi bao hoat dich khop goi (u nang bao hoat dich) tai phat nhieu lan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thậm chí là tàn phế",
         "name_en": "tham chi la tan phe",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiếp đất bằng gối",
         "name_en": "tiep dat bang goi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tổn thương van tim",
         "name_en": "ton thuong van tim",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao hoạt dịch do thoái hóa khớp",
         "name_en": "viem bao hoat dich do thoai hoa khop",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm bao hoạt dịch do thừa cân",
         "name_en": "viem bao hoat dich do thua can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm khớp dạng thấp",
         "name_en": "viem khop dang thap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vùng gối có cảm giác ấm nóng",
         "name_en": "vung goi co cam giac am nong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "vận động khớp gối quá mức",
         "name_en": "van dong khop goi qua muc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "yếu cơ",
         "name_en": "yeu co",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi đi lại",
         "name_en": "dau khi di lai",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Bao Hoạt Dịch Khớp Gối của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Bao Hoạt Dịch Khớp Gối",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như vùng gối có cảm giác ấm nóng, sưng và đau khi đi lại. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy cơn đau không thuyên giảm hoặc chỉ giảm nhẹ kể cả khi nghỉ ngơi. Tôi có thể đang bị bệnh gì?",
@@ -194,11 +178,11 @@
     "Tôi hay bị thoát vị bao hoạt dịch khớp gối (u nang bao hoạt dịch) tái phát nhiều lần, làm xuất hiện cơn đau mạn tính. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

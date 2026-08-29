@@ -7,8 +7,9 @@
     "Túi Thừa Niệu Đạo",
     "Tui Thua Nieu Dao"
   ],
-  "description": "Túi Thừa Niệu Đạo là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Túi Thừa Niệu Đạo (Chuyên khoa: oncology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,107 +61,90 @@
         "name_vi": "nhiễm trùng đường tiết niệu tái phát nhiều lần",
         "name_en": "nhiem trung duong tiet nieu tai phat nhieu lan",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "rỉ nước tiểu sau khi đi vệ sinh",
         "name_en": "ri nuoc tieu sau khi di ve sinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sốt",
         "name_en": "sot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu buốt",
         "name_en": "tieu buot",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu gấp",
         "name_en": "tieu gap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu khó",
         "name_en": "tieu kho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu không thành tia",
         "name_en": "tieu khong thanh tia",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu không tự chủ",
         "name_en": "tieu khong tu chu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu ngập ngừng",
         "name_en": "tieu ngap ngung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu nhiều lần",
         "name_en": "tieu nhieu lan",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu rắt",
         "name_en": "tieu rat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiểu són",
         "name_en": "tieu son",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi quan hệ",
         "name_en": "dau khi quan he",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi quan hệ tình dục",
         "name_en": "dau khi quan he tinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi đi tiểu",
         "name_en": "dau khi di tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau vùng hạ vị",
         "name_en": "dau vung ha vi",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Túi Thừa Niệu Đạo của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Túi Thừa Niệu Đạo",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như tiểu khó, tiểu không tự chủ và đau khi quan hệ. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy khó chịu khi đi tiểu và có cảm giác vùng kín luôn ẩm ướt. Tôi có thể đang bị bệnh gì?",
@@ -179,11 +163,11 @@
     "Tôi hay bị sốt và tiểu rắt. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

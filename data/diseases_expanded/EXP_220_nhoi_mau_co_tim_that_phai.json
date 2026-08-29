@@ -7,8 +7,9 @@
     "Nhồi Máu Cơ Tim Thất Phải",
     "Nhoi Mau Co Tim That Phai"
   ],
-  "description": "Nhồi Máu Cơ Tim Thất Phải là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Nhồi Máu Cơ Tim Thất Phải (Chuyên khoa: cardiology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,92 +61,75 @@
         "name_vi": "hạ huyết áp khi thay đổi tư thế",
         "name_en": "ha huyet ap khi thay doi tu the",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "hạ huyết áp khi uống rượu bia",
         "name_en": "ha huyet ap khi uong ruou bia",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "khó thở",
         "name_en": "kho tho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phù động mạch ngoại biên",
         "name_en": "phu dong mach ngoai bien",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phù động mạch ngoại biên cấp tính",
         "name_en": "phu dong mach ngoai bien cap tinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phổi trong",
         "name_en": "phoi trong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn chức năng thất phải",
         "name_en": "roi loan chuc nang that phai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn nhịp tim",
         "name_en": "roi loan nhip tim",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tụt huyết áp",
         "name_en": "tut huyet ap",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tụt huyết áp khi hoạt động mạnh",
         "name_en": "tut huyet ap khi hoat dong manh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tụt huyết áp sau khi vận động",
         "name_en": "tut huyet ap sau khi van dong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tụt huyết áp sau khi ăn",
         "name_en": "tut huyet ap sau khi an",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau ngực",
         "name_en": "dau nguc",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Nhồi Máu Cơ Tim Thất Phải của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nhồi Máu Cơ Tim Thất Phải",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau ngực, khó thở và buồn nôn. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy chóng mặt, rối loạn nhịp tim và tụt huyết áp. Tôi có thể đang bị bệnh gì?",
@@ -164,11 +148,11 @@
     "Tôi bị chóng mặt, rối loạn nhịp tim và tụt huyết áp khi hoạt động mạnh. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

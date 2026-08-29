@@ -7,8 +7,9 @@
     "Viêm Nội Mạc Tử Cung",
     "Viem Noi Mac Tu Cung"
   ],
-  "description": "Viêm Nội Mạc Tử Cung là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Nội Mạc Tử Cung (Chuyên khoa: obstetrics_gynecology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,117 +61,100 @@
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "nôn mửa",
         "name_en": "non mua",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn kinh nguyệt",
         "name_en": "roi loan kinh nguyet",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "thay đổi về cả chất",
         "name_en": "thay doi ve ca chat",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy",
         "name_en": "tieu chay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "trong thời gian hành kinh",
         "name_en": "trong thoi gian hanh kinh",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "táo bón",
         "name_en": "tao bon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ung thư cổ tử cung",
         "name_en": "ung thu co tu cung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ung thư nội mạc tử cung",
         "name_en": "ung thu noi mac tu cung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm nhiễm lớp nội mạc tử cung",
         "name_en": "viem nhiem lop noi mac tu cung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm nhiễm ở vùng kín",
         "name_en": "viem nhiem o vung kin",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm nội mạc tử cung do nhiễm trùng",
         "name_en": "viem noi mac tu cung do nhiem trung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm tiểu khung do nhiễm khuẩn chlamydia",
         "name_en": "viem tieu khung do nhiem khuan chlamydia",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau buốt ở đường tiết niệu",
         "name_en": "dau buot o duong tiet nieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dưới",
         "name_en": "dau bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dưới dữ dội",
         "name_en": "dau bung duoi du doi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dữ dội cả trước",
         "name_en": "dau bung du doi ca truoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau khi quan hệ tình dục",
         "name_en": "dau khi quan he tinh duc",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Nội Mạc Tử Cung của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Nội Mạc Tử Cung",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau bụng dữ dội cả trước và trong thời gian hành kinh. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy đau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
@@ -189,11 +173,11 @@
     "Tôi hay bị bệnh lây truyền qua đường tình dục (STIs). Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

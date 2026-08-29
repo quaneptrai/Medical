@@ -7,8 +7,9 @@
     "Sa Tử Cung Khi Mang Thai",
     "Sa Tu Cung Khi Mang Thai"
   ],
-  "description": "Sa Tử Cung Khi Mang Thai là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Sa Tử Cung Khi Mang Thai (Chuyên khoa: obstetrics_gynecology)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,107 +61,90 @@
         "name_vi": "sa xuống",
         "name_en": "sa xuong",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "tiểu khó",
         "name_en": "tieu kho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "táo bón",
         "name_en": "tao bon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "âm hộ",
         "name_en": "am ho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "âm hộ có cảm giác nặng nề",
         "name_en": "am ho co cam giac nang ne",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "âm đạo",
         "name_en": "am dao",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "âm đạo có cảm giác căng tức",
         "name_en": "am dao co cam giac cang tuc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "âm đạo có cảm giác nặng nề",
         "name_en": "am dao co cam giac nang ne",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "âm đạo có cảm giác sa xuống",
         "name_en": "am dao co cam giac sa xuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng dưới",
         "name_en": "dau bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau lưng",
         "name_en": "dau lung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức vùng bụng dưới",
         "name_en": "dau nhuc vung bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau nhức vùng lưng",
         "name_en": "dau nhuc vung lung",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi tiêu",
         "name_en": "di tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi tiêu khó",
         "name_en": "di tieu kho",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi tiểu khó",
         "name_en": "di tieu kho",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Sa Tử Cung Khi Mang Thai của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Sa Tử Cung Khi Mang Thai",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang mang thai và cảm thấy nặng bụng dưới, âm đạo và âm hộ có cảm giác nặng nề, kèm theo đau lưng. Tôi có thể đang bị bệnh gì?",
     "Tôi đang mang thai và gặp khó khăn khi đại tiện, tiểu tiện, có cảm giác mắc tiểu nhưng không đi được. Tôi có thể đang bị bệnh gì?",
@@ -179,11 +163,11 @@
     "Tôi đang mang thai và cảm thấy đau nhức vùng lưng, âm đạo có cảm giác căng tức và sa xuống. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }

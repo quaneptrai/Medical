@@ -7,8 +7,9 @@
     "Viêm Đại Tràng",
     "Viem Dai Trang"
   ],
-  "description": "Viêm Đại Tràng là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
-  "urgency": "moderate",
+  "tier": 2,
+  "description": "Viêm Đại Tràng (Chuyên khoa: digestive)",
+  "urgency": "unknown",
   "symptoms": {
     "common": [
       {
@@ -60,122 +61,105 @@
         "name_vi": "làm việc liên tục không được nghỉ ngơi, gây áp lực lên hệ tiêu hóa",
         "name_en": "lam viec lien tuc khong duoc nghi ngoi, gay ap luc len he tieu hoa",
         "frequency": "common"
-      }
-    ],
-    "occasional": [
+      },
       {
         "name_vi": "mệt mỏi",
         "name_en": "met moi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phân bất thường",
         "name_en": "phan bat thuong",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phân có thể kèm máu",
         "name_en": "phan co the kem mau",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phân lẫn máu hoặc nhầy",
         "name_en": "phan lan mau hoac nhay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "phổ biến nhất là tiêu chảy",
         "name_en": "pho bien nhat la tieu chay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "rối loạn tiêu hóa",
         "name_en": "roi loan tieu hoa",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "suy nhược",
         "name_en": "suy nhuoc",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "sụt cân",
         "name_en": "sut can",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy",
         "name_en": "tieu chay",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tiêu chảy nước kéo dài",
         "name_en": "tieu chay nuoc keo dai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "táo bón",
         "name_en": "tao bon",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "tắc nghẽn đột ngột lưu lượng máu đến đại tràng",
         "name_en": "tac nghen dot ngot luu luong mau den dai trang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm loét đại tràng",
         "name_en": "viem loet dai trang",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "viêm mạch",
         "name_en": "viem mach",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "ăn uống không điều độ, đồ ăn thức uống mất vệ sinh, đồ ăn ôi thiu, khó tiêu",
         "name_en": "an uong khong dieu do, do an thuc uong mat ve sinh, do an oi thiu, kho tieu",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau bụng kéo dài ở nửa khung đại tràng trái",
         "name_en": "dau bung keo dai o nua khung dai trang trai",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đau quặn thắt bụng dưới",
         "name_en": "dau quan that bung duoi",
-        "frequency": "occasional"
+        "frequency": "common"
       },
       {
         "name_vi": "đi nhiều lần trong ngày",
         "name_en": "di nhieu lan trong ngay",
-        "frequency": "occasional"
+        "frequency": "common"
       }
-    ]
+    ],
+    "occasional": []
   },
-  "risk_factors": [
-    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
-    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
-  ],
-  "questions_to_ask": [
-    "Triệu chứng nghi ngờ Viêm Đại Tràng của bạn xuất hiện từ khi nào?",
-    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
-    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
-  ],
-  "differential_diagnoses": [
-    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
-    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
-  ],
-  "red_flags": [
-    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Đại Tràng",
-    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
-  ],
-  "when_to_seek_emergency": [
-    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
-    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
-  ],
+  "risk_factors": [],
+  "questions_to_ask": [],
+  "differential_diagnoses": [],
+  "red_flags": [],
+  "when_to_seek_emergency": [],
   "user_language_variants": [
     "Tôi hiện đang có các triệu chứng như đau bụng kéo dài ở nửa khung đại tràng trái và hai hố chậu. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy phân bất thường, chủ yếu là phân lỏng và đi nhiều lần trong ngày. Tôi có thể đang bị bệnh gì?",
@@ -194,11 +178,11 @@
     "Tôi bị viêm mạch và tiêu chảy nước kéo dài. Tôi có thể đang bị bệnh gì?"
   ],
   "provenance": {
-    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
-    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "source_document": "ViMedical_Disease Dataset",
+    "issuing_body": "PB3002 / Kalapa Bytebattles / Kaggle 2023",
     "year": 2023,
-    "evidence_level": "Level B - Lâm sàng thực nghiệm",
-    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
-    "review_date": "2023-11-15"
+    "evidence_level": "Thực nghiệm NLP y khoa",
+    "reviewed_by": null,
+    "review_date": null
   }
 }
