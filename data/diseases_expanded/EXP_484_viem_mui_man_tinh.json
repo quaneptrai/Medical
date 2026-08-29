@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_484",
+  "name_vi": "Viêm Mũi Mạn Tính",
+  "name_en": "Viem Mui Man Tinh",
+  "category": "respiratory",
+  "aliases": [
+    "Viêm Mũi Mạn Tính",
+    "Viem Mui Man Tinh"
+  ],
+  "description": "Viêm Mũi Mạn Tính là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bụi phấn",
+        "name_en": "bui phan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụi than",
+        "name_en": "bui than",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy dịch mũi sau",
+        "name_en": "chay dich mui sau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị ứng thức ăn",
+        "name_en": "di ung thuc an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho mãn tính",
+        "name_en": "ho man tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho mãn tính hoặc hắng giọng",
+        "name_en": "ho man tinh hoac hang giong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lông vật nuôi",
+        "name_en": "long vat nuoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mạt bụi",
+        "name_en": "mat bui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nghẹt mũi dẫn đến phải thở bằng miệng",
+        "name_en": "nghet mui dan den phai tho bang mieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nấm mốc",
+        "name_en": "nam moc",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "phản ứng của cơ thể đối với chất gây dị ứng",
+        "name_en": "phan ung cua co the doi voi chat gay di ung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phấn hoa",
+        "name_en": "phan hoa",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sổ mũi",
+        "name_en": "so mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi trong hệ thống thần kinh kiểm soát các mạch máu ở mũi",
+        "name_en": "thay doi trong he thong than kinh kiem soat cac mach mau o mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm họng",
+        "name_en": "viem hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mũi dị ứng",
+        "name_en": "viem mui di ung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mũi không dị ứng hoặc viêm mũi vận mạch",
+        "name_en": "viem mui khong di ung hoac viem mui van mach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mũi kéo dài trên 3 tháng",
+        "name_en": "viem mui keo dai tren 3 thang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mũi mãn tính do dị ứng",
+        "name_en": "viem mui man tinh do di ung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mũi mạn tính không dị ứng",
+        "name_en": "viem mui man tinh khong di ung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm thanh quản",
+        "name_en": "viem thanh quan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm xoang",
+        "name_en": "viem xoang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng mãn tính",
+        "name_en": "dau hong man tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức xoang",
+        "name_en": "dau nhuc xoang",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Mũi Mạn Tính của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Mũi Mạn Tính",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như viêm mũi kéo dài trên 3 tháng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chảy dịch mũi sau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau họng mãn tính, ho mãn tính hoặc hắng giọng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nghẹt mũi dẫn đến phải thở bằng miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm xoang, đau nhức xoang, sổ mũi, chảy dịch mũi sau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho mãn tính, viêm họng, viêm thanh quản. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm mũi dị ứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm mũi mãn tính do dị ứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phản ứng của cơ thể đối với chất gây dị ứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như phấn hoa, mạt bụi, lông vật nuôi, nấm mốc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy bụi phấn, bụi than. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị dị ứng thức ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm mũi mạn tính không dị ứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm mũi không dị ứng hoặc viêm mũi vận mạch. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thay đổi trong hệ thống thần kinh kiểm soát các mạch máu ở mũi. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "disease_id": "EXP_096",
+  "name_vi": "Chấn Thương Sọ Não",
+  "name_en": "Chan Thuong So Nao",
+  "category": "neurology",
+  "aliases": [
+    "Chấn Thương Sọ Não",
+    "Chan Thuong So Nao"
+  ],
+  "description": "Chấn Thương Sọ Não là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bỏ bú",
+        "name_en": "bo bu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "choáng váng",
+        "name_en": "choang vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt sau khi bị ngã",
+        "name_en": "chong mat sau khi bi nga",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật sau khi bị tai nạn",
+        "name_en": "co giat sau khi bi tai nan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giờ cáu gắt",
+        "name_en": "gio cau gat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giờ cảm thấy choáng váng",
+        "name_en": "gio cam thay choang vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giờ cảm thấy lú lẫn",
+        "name_en": "gio cam thay lu lan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giờ cảm thấy yếu ở tay chân",
+        "name_en": "gio cam thay yeu o tay chan",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "giờ cảm thấy đau đầu",
+        "name_en": "gio cam thay dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "giờ không nhớ được sự việc đã xảy ra",
+        "name_en": "gio khong nho duoc su viec da xay ra",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "giờ mất hứng thú với đồ chơi",
+        "name_en": "gio mat hung thu voi do choi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "giờ ngủ li bì",
+        "name_en": "gio ngu li bi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "giờ nôn trớ",
+        "name_en": "gio non tro",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi đi lại",
+        "name_en": "kho khan khi di lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó ngủ sau khi bị chấn thương đầu",
+        "name_en": "kho ngu sau khi bi chan thuong dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không muốn vận động",
+        "name_en": "khong muon van dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất phương hướng",
+        "name_en": "mat phuong huong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất thăng bằng sau khi bị ngã xe đạp",
+        "name_en": "mat thang bang sau khi bi nga xe dap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất trí nhớ tạm thời sau khi bị tai nạn",
+        "name_en": "mat tri nho tam thoi sau khi bi tai nan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ý thức một lúc sau khi bị tai nạn xe máy",
+        "name_en": "mat y thuc mot luc sau khi bi tai nan xe may",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ý thức vài giờ sau khi té ngã",
+        "name_en": "mat y thuc vai gio sau khi te nga",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngã từ cầu thang xuống",
+        "name_en": "nga tu cau thang xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngã từ trên giường xuống",
+        "name_en": "nga tu tren giuong xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngã đập đầu xuống đất",
+        "name_en": "nga dap dau xuong dat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mờ sau khi bị bóng đập vào đầu",
+        "name_en": "nhin mo sau khi bi bong dap vao dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với ánh sáng sau khi va đầu vào tủ",
+        "name_en": "nhay cam voi anh sang sau khi va dau vao tu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nói chuyện khó khăn",
+        "name_en": "noi chuyen kho khan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa",
+        "name_en": "non mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa liên tục",
+        "name_en": "non mua lien tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "quấy khóc liên tục",
+        "name_en": "quay khoc lien tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "té ngã",
+        "name_en": "te nga",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "va đầu vào thành cửa",
+        "name_en": "va dau vao thanh cua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu dữ dội",
+        "name_en": "dau dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh vào đầu",
+        "name_en": "danh vao dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Chấn Thương Sọ Não của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Chấn Thương Sọ Não",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau đầu, buồn nôn và chóng mặt sau khi bị ngã. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, khó tập trung và nhạy cảm với ánh sáng sau khi va đầu vào tủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất ý thức một lúc sau khi bị tai nạn xe máy, giờ cảm thấy đau đầu và nôn mửa. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngã từ trên giường xuống, giờ ngủ li bì và bỏ bú. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đánh vào đầu, giờ cảm thấy lú lẫn và nói chuyện khó khăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu dữ dội, nôn mửa liên tục và co giật sau khi bị tai nạn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất ý thức vài giờ sau khi té ngã, giờ cảm thấy yếu ở tay chân và khó khăn khi đi lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngã đập đầu xuống đất, giờ cáu gắt và quấy khóc liên tục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị va đầu vào thành cửa, giờ cảm thấy choáng váng và mất phương hướng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy buồn nôn, ù tai và mất thăng bằng sau khi bị ngã xe đạp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất trí nhớ tạm thời sau khi bị tai nạn, giờ không nhớ được sự việc đã xảy ra. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngã từ cầu thang xuống, giờ nôn trớ và co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị choáng váng và nhìn mờ sau khi bị bóng đập vào đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng và khó ngủ sau khi bị chấn thương đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị té ngã, giờ mất hứng thú với đồ chơi và không muốn vận động. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

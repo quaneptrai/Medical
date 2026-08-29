@@ -1,0 +1,189 @@
+{
+  "disease_id": "EXP_578",
+  "name_vi": "Đau Nửa Đầu Phía Sau",
+  "name_en": "Dau Nua Dau Phia Sau",
+  "category": "neurology",
+  "aliases": [
+    "Đau Nửa Đầu Phía Sau",
+    "Dau Nua Dau Phia Sau"
+  ],
+  "description": "Đau Nửa Đầu Phía Sau là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "cứng cơ ở cổ",
+        "name_en": "cung co o co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng gáy",
+        "name_en": "cung gay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dao đâm ở phía sau đầu",
+        "name_en": "dao dam o phia sau dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dữ dội",
+        "name_en": "du doi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giống như có ai đó đang kéo tóc tôi ra sau",
+        "name_en": "giong nhu co ai do dang keo toc toi ra sau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau đầu phía sau co thắt theo nhịp mạch đập, kèm theo buồn nôn và chóng mặt",
+        "name_en": "hien dang trai qua con dau dau phia sau co that theo nhip mach dap, kem theo buon non va chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau đầu phía sau kéo dài hàng tuần, kèm theo bồn chồn và buồn nôn",
+        "name_en": "hien dang trai qua con dau dau phia sau keo dai hang tuan, kem theo bon chon va buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau đầu phía sau nặng hơn khi nằm xuống, kèm theo nghẹt mũi và chảy nước mắt",
+        "name_en": "hien dang trai qua con dau dau phia sau nang hon khi nam xuong, kem theo nghet mui va chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoa mắt",
+        "name_en": "hoa mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan ra da đầu",
+        "name_en": "lan ra da dau",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lan ra vùng trán",
+        "name_en": "lan ra vung tran",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với ánh sáng",
+        "name_en": "nhay cam voi anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nặng hơn khi cử động cổ",
+        "name_en": "nang hon khi cu dong co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sau đó hết nhanh chóng",
+        "name_en": "sau do het nhanh chong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi thị lực",
+        "name_en": "thay doi thi luc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thái dương",
+        "name_en": "thai duong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vai",
+        "name_en": "vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "âm thanh",
+        "name_en": "am thanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau âm ỉ ở phía sau đầu",
+        "name_en": "dau am i o phia sau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu phía sau",
+        "name_en": "dau dau phia sau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu phía sau khi căng thẳng",
+        "name_en": "dau dau phia sau khi cang thang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu phía sau khi làm việc quá sức hoặc thiếu ngủ",
+        "name_en": "dau dau phia sau khi lam viec qua suc hoac thieu ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu phía sau khi vận động",
+        "name_en": "dau dau phia sau khi van dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu phía sau đột ngột",
+        "name_en": "dau dau phia sau dot ngot",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Nửa Đầu Phía Sau của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Nửa Đầu Phía Sau",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau âm ỉ ở phía sau đầu, kèm theo cứng gáy và vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía sau, giống như có ai đó đang kéo tóc tôi ra sau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía sau khi làm việc quá sức hoặc thiếu ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau nhói như dao đâm ở phía sau đầu, lan ra da đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía sau, kèm theo thay đổi thị lực và ù tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía sau, nặng hơn khi cử động cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau đầu phía sau co thắt theo nhịp mạch đập, kèm theo buồn nôn và chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía sau, lan ra vùng trán và thái dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía sau đột ngột và dữ dội, sau đó hết nhanh chóng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau đầu phía sau nặng hơn khi nằm xuống, kèm theo nghẹt mũi và chảy nước mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía sau, kèm theo cứng cơ ở cổ và vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía sau khi vận động, kèm theo hoa mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau đầu phía sau kéo dài hàng tuần, kèm theo bồn chồn và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía sau, nhạy cảm với ánh sáng và âm thanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía sau khi căng thẳng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_550",
+  "name_vi": "Xơ Cứng Bi Khu Trú",
+  "name_en": "Xo Cung Bi Khu Tru",
+  "category": "oncology",
+  "aliases": [
+    "Xơ Cứng Bi Khu Trú",
+    "Xo Cung Bi Khu Tru"
+  ],
+  "description": "Xơ Cứng Bi Khu Trú là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "các mảng da có hình bầu dục",
+        "name_en": "cac mang da co hinh bau duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các mảng da đổi màu",
+        "name_en": "cac mang da doi mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có màu trắng hoặc vàng ở trung tâm",
+        "name_en": "co mau trang hoac vang o trung tam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng",
+        "name_en": "cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da xuất hiện các mảng đổi màu",
+        "name_en": "da xuat hien cac mang doi mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dày",
+        "name_en": "day",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị dị tật",
+        "name_en": "hien dang bi di tat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị tổn thương cơ",
+        "name_en": "hien dang bi ton thuong co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị tổn thương mô dưới da",
+        "name_en": "hien dang bi ton thuong mo duoi da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị tổn thương xương",
+        "name_en": "hien dang bi ton thuong xuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hiện đang có 3 – 4 mảng bám hình bầu dục trên da",
+        "name_en": "hien dang co 3 - 4 mang bam hinh bau duc tren da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang có một dải da dày",
+        "name_en": "hien dang co mot dai da day",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang có nhiều mảng bao phủ gần như toàn bộ cơ thể",
+        "name_en": "hien dang co nhieu mang bao phu gan nhu toan bo co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang có nếp nhăn dài trên cổ",
+        "name_en": "hien dang co nep nhan dai tren co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang có nếp nhăn dài trên đầu",
+        "name_en": "hien dang co nep nhan dai tren dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang có tổn thương lan rộng trên da",
+        "name_en": "hien dang co ton thuong lan rong tren da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa da",
+        "name_en": "ngua da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ cứng bì sâu",
+        "name_en": "xo cung bi sau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ cứng bì thể dải",
+        "name_en": "xo cung bi the dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ cứng bì thể mảng",
+        "name_en": "xo cung bi the mang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ cứng bì thể mảng lan rộng",
+        "name_en": "xo cung bi the mang lan rong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổi màu trên chân",
+        "name_en": "doi mau tren chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổi màu trên cánh tay",
+        "name_en": "doi mau tren canh tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổi màu trên trán",
+        "name_en": "doi mau tren tran",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Xơ Cứng Bi Khu Trú của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Xơ Cứng Bi Khu Trú",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như da xuất hiện các mảng đổi màu, dày và cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa da và các mảng da có hình bầu dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị các mảng da đổi màu, dày và có màu trắng hoặc vàng ở trung tâm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể mảng và hiện đang có 3 – 4 mảng bám hình bầu dục trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể mảng lan rộng và hiện đang có tổn thương lan rộng trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì sâu và hiện đang có nhiều mảng bao phủ gần như toàn bộ cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể dải và hiện đang có một dải da dày, đổi màu trên cánh tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể dải và hiện đang có một dải da dày, đổi màu trên chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể dải và hiện đang có một dải da dày, đổi màu trên trán. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể dải và hiện đang có nếp nhăn dài trên đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể dải và hiện đang có nếp nhăn dài trên cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể dải và hiện đang bị tổn thương mô dưới da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể dải và hiện đang bị tổn thương cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể dải và hiện đang bị tổn thương xương. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì thể dải và hiện đang bị dị tật. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "disease_id": "EXP_058",
+  "name_vi": "Bệnh Thủy Đậu",
+  "name_en": "Benh Thuy Dau",
+  "category": "general",
+  "aliases": [
+    "Bệnh Thủy Đậu",
+    "Benh Thuy Dau"
+  ],
+  "description": "Bệnh Thủy Đậu là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Các mụn nước trên da tôi đóng vảy và để lại sẹo thâm",
+        "name_en": "Cac mun nuoc tren da toi dong vay va de lai seo tham",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các mụn nước vỡ ra",
+        "name_en": "cac mun nuoc vo ra",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có các mụn nước nhỏ chứa dịch trên da, mọc nhiều ở vùng đầu và thân mình",
+        "name_en": "co cac mun nuoc nho chua dich tren da, moc nhieu o vung dau va than minh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng cổ",
+        "name_en": "cung co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu trong người",
+        "name_en": "kho chiu trong nguoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mê sảng",
+        "name_en": "me sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn nước có mủ",
+        "name_en": "mun nuoc co mu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy khắp người",
+        "name_en": "ngua ngay khap nguoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng da",
+        "name_en": "nhiem trung da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng huyết",
+        "name_en": "nhiem trung huyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa",
+        "name_en": "non mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn ói",
+        "name_en": "non oi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi ban đỏ trong miệng",
+        "name_en": "noi ban do trong mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi ban đỏ trên da",
+        "name_en": "noi ban do tren da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi hạch sau tai",
+        "name_en": "noi hach sau tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn ngứa màu đỏ trên da",
+        "name_en": "noi man ngua mau do tren da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mụn nước ở mí mắt",
+        "name_en": "noi mun nuoc o mi mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rỉ dịch",
+        "name_en": "ri dich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng mắt",
+        "name_en": "sung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy",
+        "name_en": "sung tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sổ mũi",
+        "name_en": "so mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tụt huyết áp",
+        "name_en": "tut huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm màng não",
+        "name_en": "viem mang nao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm não",
+        "name_en": "viem nao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm phổi",
+        "name_en": "viem phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức xương khớp",
+        "name_en": "dau nhuc xuong khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu dữ dội",
+        "name_en": "dau dau du doi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Thủy Đậu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Thủy Đậu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đang bị sốt, mệt mỏi và nổi mẩn ngứa màu đỏ trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau đầu, chán ăn, nôn ói và nổi hạch sau tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi có các mụn nước nhỏ chứa dịch trên da, mọc nhiều ở vùng đầu và thân mình. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngứa ngáy khắp người và các mụn nước vỡ ra, rỉ dịch. Tôi có thể đang bị bệnh gì?",
+    "Các mụn nước trên da tôi đóng vảy và để lại sẹo thâm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau họng, khó nuốt và nổi ban đỏ trong miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sưng mắt, chảy nước mắt và nổi mụn nước ở mí mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhức xương khớp, mệt mỏi và khó chịu trong người. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho, sổ mũi và nổi ban đỏ trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt cao, co giật và mê sảng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm phổi, khó thở và đau ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm não, đau đầu dữ dội và nôn mửa. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm màng não, cứng cổ và sốt cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm trùng da, mụn nước có mủ và sưng tấy. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm trùng huyết, sốt cao và tụt huyết áp. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_386",
+  "name_vi": "Ung Thư Buồng Trứng",
+  "name_en": "Ung Thu Buong Trung",
+  "category": "oncology",
+  "aliases": [
+    "Ung Thư Buồng Trứng",
+    "Ung Thu Buong Trung"
+  ],
+  "description": "Ung Thư Buồng Trứng là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chu kỳ kinh nguyệt bất thường",
+        "name_en": "chu ky kinh nguyet bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chu kỳ kinh nguyệt thất thường",
+        "name_en": "chu ky kinh nguyet that thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo sau mãn kinh",
+        "name_en": "chay mau am dao sau man kinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cáu gắt",
+        "name_en": "cau gat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rối loạn tiêu hóa như buồn nôn",
+        "name_en": "roi loan tieu hoa nhu buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sụt cân không rõ lý do",
+        "name_en": "sut can khong ro ly do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng vùng khung chậu",
+        "name_en": "dau bung vung khung chau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát khi quan hệ",
+        "name_en": "dau rat khi quan he",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát khi quan hệ tình dục",
+        "name_en": "dau rat khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu thường xuyên",
+        "name_en": "di tieu thuong xuyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy bụng",
+        "name_en": "day bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ nóng",
+        "name_en": "o nong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ung Thư Buồng Trứng của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Buồng Trứng",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau bụng vùng khung chậu, đầy bụng và sụt cân không rõ lý do. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chán ăn, mệt mỏi và rối loạn tiêu hóa như buồn nôn, nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị táo bón, ợ nóng và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đi tiểu thường xuyên, mệt mỏi và cáu gắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng dưới, chu kỳ kinh nguyệt bất thường và chảy máu âm đạo sau mãn kinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau rát khi quan hệ tình dục, đầy bụng và sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mệt mỏi, chán ăn và đau bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ợ nóng, táo bón và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đi tiểu thường xuyên, chu kỳ kinh nguyệt thất thường và đau rát khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đầy bụng, sụt cân và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chán ăn, buồn nôn và ợ nóng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng dưới, táo bón và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đi tiểu thường xuyên, mệt mỏi và cáu gắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng dưới, chu kỳ kinh nguyệt thất thường và chảy máu âm đạo sau mãn kinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau rát khi quan hệ tình dục, đầy bụng và sụt cân. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

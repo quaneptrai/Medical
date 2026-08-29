@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_304",
+  "name_vi": "Sỏi Bàng Quang",
+  "name_en": "Soi Bang Quang",
+  "category": "urology",
+  "aliases": [
+    "Sỏi Bàng Quang",
+    "Soi Bang Quang"
+  ],
+  "description": "Sỏi Bàng Quang là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn đi tiểu liên tục nhưng mỗi lần đi chỉ được một ít",
+        "name_en": "buon di tieu lien tuc nhung moi lan di chi duoc mot it",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các triệu chứng về đường tiết niệu",
+        "name_en": "cac trieu chung ve duong tiet nieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có máu trong nước tiểu",
+        "name_en": "co mau trong nuoc tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dòng nước tiểu bị gián đoạn",
+        "name_en": "dong nuoc tieu bi gian doan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó đi tiểu",
+        "name_en": "kho di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan xuống háng",
+        "name_en": "lan xuong hang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn biết liệu có thể phòng ngừa sỏi bàng quang hay không",
+        "name_en": "muon biet lieu co the phong ngua soi bang quang hay khong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn biết liệu sỏi bàng quang có thể tự khỏi hay không",
+        "name_en": "muon biet lieu soi bang quang co the tu khoi hay khong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn biết nguyên nhân gây ra sỏi bàng quang và cách điều trị",
+        "name_en": "muon biet nguyen nhan gay ra soi bang quang va cach dieu tri",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu có màu sẫm bất thường",
+        "name_en": "nuoc tieu co mau sam bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu có mùi hôi khó chịu",
+        "name_en": "nuoc tieu co mui hoi kho chiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sỏi thận",
+        "name_en": "soi than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tìm kiếm các phương pháp điều trị sỏi bàng quang hiệu quả",
+        "name_en": "tim kiem cac phuong phap dieu tri soi bang quang hieu qua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau buốt khi đi tiểu",
+        "name_en": "dau buot khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi đi tiểu",
+        "name_en": "dau khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vùng bụng dưới",
+        "name_en": "dau vung bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu thường xuyên",
+        "name_en": "di tieu thuong xuyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Sỏi Bàng Quang của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Sỏi Bàng Quang",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau bụng dưới, đau khi đi tiểu và đi tiểu thường xuyên. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó đi tiểu và dòng nước tiểu bị gián đoạn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy có máu trong nước tiểu và nước tiểu có màu sẫm bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị đau buốt khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy buồn đi tiểu liên tục nhưng mỗi lần đi chỉ được một ít. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau vùng bụng dưới và lan xuống háng. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nước tiểu có mùi hôi khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt và ớn lạnh kèm theo đau bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mệt mỏi và chán ăn kèm theo các triệu chứng về đường tiết niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang lo lắng về việc có thể bị sỏi thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn biết nguyên nhân gây ra sỏi bàng quang và cách điều trị. Tôi có thể đang bị bệnh gì?",
+    "Tôi có tiền sử gia đình bị sỏi thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn biết liệu sỏi bàng quang có thể tự khỏi hay không. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang tìm kiếm các phương pháp điều trị sỏi bàng quang hiệu quả. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn biết liệu có thể phòng ngừa sỏi bàng quang hay không. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

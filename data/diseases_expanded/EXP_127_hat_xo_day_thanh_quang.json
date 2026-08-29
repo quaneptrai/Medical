@@ -1,0 +1,214 @@
+{
+  "disease_id": "EXP_127",
+  "name_vi": "Hạt Xơ Dây Thanh Quảng",
+  "name_en": "Hat Xo Day Thanh Quang",
+  "category": "respiratory",
+  "aliases": [
+    "Hạt Xơ Dây Thanh Quảng",
+    "Hat Xo Day Thanh Quang"
+  ],
+  "description": "Hạt Xơ Dây Thanh Quảng là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "các triệu chứng như ho",
+        "name_en": "cac trieu chung nhu ho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác căng cứng ở cổ",
+        "name_en": "cam giac cang cung o co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói bị biến đổi",
+        "name_en": "giong noi bi bien doi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói bị rè",
+        "name_en": "giong noi bi re",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói bị thay đổi",
+        "name_en": "giong noi bi thay doi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói bị yếu",
+        "name_en": "giong noi bi yeu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói bị yếu đi",
+        "name_en": "giong noi bi yeu di",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay bị hụt hơi",
+        "name_en": "hay bi hut hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay bị lạc giọng",
+        "name_en": "hay bi lac giong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho có đờm",
+        "name_en": "ho co dom",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hơi thở ngắn khi nói chuyện",
+        "name_en": "hoi tho ngan khi noi chuyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khàn",
+        "name_en": "khan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khàn tiếng",
+        "name_en": "khan tieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khàn tiếng kéo dài",
+        "name_en": "khan tieng keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khàn tiếng tái đi tái lại nhiều lần",
+        "name_en": "khan tieng tai di tai lai nhieu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khàn đặc",
+        "name_en": "khan dac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó nói to",
+        "name_en": "kho noi to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất tiếng",
+        "name_en": "mat tieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất tiếng sau khi sử dụng giọng nói quá mức",
+        "name_en": "mat tieng sau khi su dung giong noi qua muc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất tiếng sau khi tiếp xúc với bụi bẩn hoặc khói thuốc lá",
+        "name_en": "mat tieng sau khi tiep xuc voi bui ban hoac khoi thuoc la",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nói chuyện không rõ ràng",
+        "name_en": "noi chuyen khong ro rang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nói chuyện nhanh mệt",
+        "name_en": "noi chuyen nhanh met",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát họng",
+        "name_en": "dau rat hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đôi khi có cảm giác ngứa ngáy ở cổ họng",
+        "name_en": "doi khi co cam giac ngua ngay o co hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đôi khi có cảm giác vướng víu ở cổ họng",
+        "name_en": "doi khi co cam giac vuong viu o co hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là sau khi nói nhiều hoặc hát karaoke",
+        "name_en": "dac biet la sau khi noi nhieu hoac hat karaoke",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Hạt Xơ Dây Thanh Quảng của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hạt Xơ Dây Thanh Quảng",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang bị khàn tiếng và mất tiếng, đôi khi có cảm giác vướng víu ở cổ họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giọng nói bị thay đổi, khàn đặc và khó nói to. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khàn tiếng kéo dài, đặc biệt là sau khi nói nhiều hoặc hát karaoke. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khàn tiếng, mất tiếng và ho khan. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giọng nói bị yếu đi, nói chuyện nhanh mệt và hay bị hụt hơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khàn tiếng tái đi tái lại nhiều lần, kèm theo đau rát họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khàn tiếng, mất tiếng và khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giọng nói bị rè và khàn, đôi khi có cảm giác ngứa ngáy ở cổ họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khàn tiếng, mất tiếng sau khi tiếp xúc với bụi bẩn hoặc khói thuốc lá. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khàn tiếng, mất tiếng và ho có đờm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giọng nói bị biến đổi, nói chuyện không rõ ràng và hay bị lạc giọng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khàn tiếng, mất tiếng sau khi sử dụng giọng nói quá mức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khàn tiếng, mất tiếng và cảm giác căng cứng ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giọng nói bị yếu và hơi thở ngắn khi nói chuyện. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khàn tiếng, mất tiếng kèm theo các triệu chứng như ho, sốt và đau họng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

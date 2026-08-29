@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_012",
+  "name_vi": "Bướu Giáp Nhân Thùy Phải",
+  "name_en": "Buou Giap Nhan Thuy Phai",
+  "category": "oncology",
+  "aliases": [
+    "Bướu Giáp Nhân Thùy Phải",
+    "Buou Giap Nhan Thuy Phai"
+  ],
+  "description": "Bướu Giáp Nhân Thùy Phải là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chu kỳ kinh nguyệt không đều",
+        "name_en": "chu ky kinh nguyet khong deu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một khối u ở bên phải",
+        "name_en": "co mot khoi u o ben phai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một khối u ở cổ bên phải",
+        "name_en": "co mot khoi u o co ben phai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác như có vật gì chèn ép ở cổ bên phải",
+        "name_en": "cam giac nhu co vat gi chen ep o co ben phai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác như có vật gì vướng ở cổ bên phải",
+        "name_en": "cam giac nhu co vat gi vuong o co ben phai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cổ mình nặng nề",
+        "name_en": "co minh nang ne",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay đổ mồ hôi",
+        "name_en": "hay do mo hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hơi khó thở",
+        "name_en": "hoi kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hồi hộp",
+        "name_en": "hoi hop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khàn giọng",
+        "name_en": "khan giong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó ngủ",
+        "name_en": "kho ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không đau nhưng hơi khó chịu",
+        "name_en": "khong dau nhung hoi kho chiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "run tay",
+        "name_en": "run tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rụng tóc",
+        "name_en": "rung toc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sờ thấy một khối u ở bên phải",
+        "name_en": "so thay mot khoi u o ben phai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tim đập nhanh",
+        "name_en": "tim dap nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện một khối u ở cổ bên phải",
+        "name_en": "xuat hien mot khoi u o co ben phai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau cổ",
+        "name_en": "dau co",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bướu Giáp Nhân Thùy Phải của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bướu Giáp Nhân Thùy Phải",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi thấy xuất hiện một khối u ở cổ bên phải, không đau nhưng hơi khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó nuốt, cảm giác như có vật gì vướng ở cổ bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cổ mình nặng nề, có một khối u ở bên phải và hơi khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khàn giọng, khó nuốt và có một khối u ở cổ bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau cổ, sờ thấy một khối u ở bên phải và hơi khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, hồi hộp, sụt cân và có một khối u ở cổ bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tim đập nhanh, hay đổ mồ hôi, khó chịu và có một khối u ở cổ bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị run tay, khó ngủ, sụt cân và có một khối u ở cổ bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, khó chịu, tiêu chảy và có một khối u ở cổ bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chu kỳ kinh nguyệt không đều, sụt cân, rụng tóc và có một khối u ở cổ bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó nuốt, cảm giác như có vật gì chèn ép ở cổ bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cổ mình nặng nề, có một khối u ở bên phải và hơi khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khàn giọng, khó nuốt và có một khối u ở cổ bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau cổ, sờ thấy một khối u ở bên phải và hơi khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, hồi hộp, sụt cân và có một khối u ở cổ bên phải. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

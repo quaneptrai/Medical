@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_202",
+  "name_vi": "Ngủ Ngáy",
+  "name_en": "Ngu Ngay",
+  "category": "general",
+  "aliases": [
+    "Ngủ Ngáy",
+    "Ngu Ngay"
+  ],
+  "description": "Ngủ Ngáy là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn ngủ vào ban ngày",
+        "name_en": "buon ngu vao ban ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giật mình thức giấc",
+        "name_en": "giat minh thuc giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay tạo ra âm thanh rung, lạch cạch khi thở lúc ngủ",
+        "name_en": "hay tao ra am thanh rung, lach cach khi tho luc ngu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay tỉnh giấc giữa đêm và khó tập trung vào ban ngày",
+        "name_en": "hay tinh giac giua dem va kho tap trung vao ban ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi ngủ",
+        "name_en": "kho tho khi ngu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khô miệng khi thức dậy",
+        "name_en": "kho mieng khi thuc day",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi khi thức dậy",
+        "name_en": "met moi khi thuc day",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi vào ban ngày",
+        "name_en": "met moi vao ban ngay",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nghẹt mũi khi ngủ",
+        "name_en": "nghet mui khi ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngáy to và khó tập trung vào công việc",
+        "name_en": "ngay to va kho tap trung vao cong viec",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngáy to và người ngủ cùng giường thường phàn nàn",
+        "name_en": "ngay to va nguoi ngu cung giuong thuong phan nan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngừng thở khi ngủ",
+        "name_en": "ngung tho khi ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhức đầu vào buổi sáng",
+        "name_en": "nhuc dau vao buoi sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tỉnh giấc bởi tiếng ngáy của chính mình",
+        "name_en": "tinh giac boi tieng ngay cua chinh minh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "uể oải vào ban ngày",
+        "name_en": "ue oai vao ban ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng khi thức dậy",
+        "name_en": "dau hong khi thuc day",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ngủ Ngáy của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ngủ Ngáy",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay tạo ra âm thanh rung, lạch cạch khi thở lúc ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngáy to và thường xuyên bị ngừng thở khi ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị giật mình thức giấc và buồn ngủ vào ban ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngáy to và thường bị nhức đầu vào buổi sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi tăng cân không rõ nguyên nhân và cảm thấy mệt mỏi khi thức dậy. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay tỉnh giấc giữa đêm và khó tập trung vào ban ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngáy to và cảm thấy khó thở khi ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên thức giấc giữa đêm và cảm thấy mệt mỏi vào ban ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngủ không ngon giấc và hay bị tỉnh giấc bởi tiếng ngáy của chính mình. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngáy to và người ngủ cùng giường thường phàn nàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngáy to và hay bị khô miệng khi thức dậy. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngáy to và cảm thấy khó thở, nghẹt mũi khi ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngáy to và thường xuyên bị đau họng khi thức dậy. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngáy to và cảm thấy mệt mỏi, uể oải vào ban ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngáy to và khó tập trung vào công việc. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

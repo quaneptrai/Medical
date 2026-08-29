@@ -1,0 +1,209 @@
+{
+  "disease_id": "EXP_260",
+  "name_vi": "Rối Loạn Nhịp Tim Chậm",
+  "name_en": "Roi Loan Nhip Tim Cham",
+  "category": "cardiology",
+  "aliases": [
+    "Rối Loạn Nhịp Tim Chậm",
+    "Roi Loan Nhip Tim Cham"
+  ],
+  "description": "Rối Loạn Nhịp Tim Chậm là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bàn chân",
+        "name_en": "ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "choáng váng",
+        "name_en": "choang vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt khi đứng lên hoặc thay đổi tư thế đột ngột",
+        "name_en": "chong mat khi dung len hoac thay doi tu the dot ngot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da xanh xao",
+        "name_en": "da xanh xao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ bị kích động",
+        "name_en": "de bi kich dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khả năng gắng sức",
+        "name_en": "giam kha nang gang suc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay ăn ít hơn bình thường và tỏ ra mệt mỏi",
+        "name_en": "hay an it hon binh thuong va to ra met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu vùng ngực",
+        "name_en": "kho chiu vung nguc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó thở khi vận động",
+        "name_en": "kho tho khi van dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lú lẫn",
+        "name_en": "lu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lạnh",
+        "name_en": "lanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "móng tay dễ gãy",
+        "name_en": "mong tay de gay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất phương hướng",
+        "name_en": "mat phuong huong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mờ mắt",
+        "name_en": "mo mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngất xỉu hoặc cảm giác sắp ngất",
+        "name_en": "ngat xiu hoac cam giac sap ngat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nặng ngực",
+        "name_en": "nang nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm trí nhớ",
+        "name_en": "suy giam tri nho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tim đập chậm",
+        "name_en": "tim dap cham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng cân",
+        "name_en": "tang can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tức ngực",
+        "name_en": "tuc nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu",
+        "name_en": "yeu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu sức",
+        "name_en": "yeu suc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là bàn tay",
+        "name_en": "dac biet la ban tay",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rối Loạn Nhịp Tim Chậm của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Nhịp Tim Chậm",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như choáng váng và chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, yếu sức, và giảm khả năng gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngất xỉu hoặc cảm giác sắp ngất. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nặng ngực, tức ngực, và khó chịu vùng ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở và suy giảm trí nhớ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay ăn ít hơn bình thường và tỏ ra mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tim đập chậm và yếu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi và khó thở khi vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt khi đứng lên hoặc thay đổi tư thế đột ngột. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như lú lẫn và mất phương hướng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó tập trung và dễ bị kích động. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị lạnh, đặc biệt là bàn tay và bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như da xanh xao và móng tay dễ gãy. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy táo bón và tăng cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu và mờ mắt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

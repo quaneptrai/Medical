@@ -1,0 +1,209 @@
+{
+  "disease_id": "EXP_285",
+  "name_vi": "Suy Thận Mạn",
+  "name_en": "Suy Than Man",
+  "category": "urology",
+  "aliases": [
+    "Suy Thận Mạn",
+    "Suy Than Man"
+  ],
+  "description": "Suy Thận Mạn là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh thận đa nang",
+        "name_en": "benh than da nang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh đái tháo đường",
+        "name_en": "benh dai thao duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bị tắc nghẽn đường tiết niệu",
+        "name_en": "bi tac nghen duong tiet nieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chuột rút các cơ bắp",
+        "name_en": "chuot rut cac co bap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da ngứa",
+        "name_en": "da ngua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dùng thuốc điều trị kéo dài",
+        "name_en": "dung thuoc dieu tri keo dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khả năng tình dục",
+        "name_en": "giam kha nang tinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp các vấn đề về giấc ngủ",
+        "name_en": "gap cac van de ve giac ngu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay hút thuốc lá",
+        "name_en": "hay hut thuoc la",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "huyết áp cao",
+        "name_en": "huyet ap cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khô",
+        "name_en": "kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt cá chân hoặc phù toàn thân",
+        "name_en": "mat ca chan hoac phu toan than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng thận tái phát",
+        "name_en": "nhiem trung than tai phat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhợt nhạt xanh xao",
+        "name_en": "nhot nhat xanh xao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa",
+        "name_en": "non mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy nhược",
+        "name_en": "suy nhuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng phù bàn chân",
+        "name_en": "sung phu ban chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu nhiều hơn hoặc ít hơn",
+        "name_en": "tieu nhieu hon hoac it hon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu đêm",
+        "name_en": "tieu dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trào ngược nước tiểu",
+        "name_en": "trao nguoc nuoc tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng huyết áp khó kiểm soát",
+        "name_en": "tang huyet ap kho kiem soat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "uể oải",
+        "name_en": "ue oai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cầu thận",
+        "name_en": "viem cau than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm kẽ thận",
+        "name_en": "viem ke than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn uống kém ngon miệng",
+        "name_en": "an uong kem ngon mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Suy Thận Mạn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Suy Thận Mạn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như buồn nôn, nôn mửa và ăn uống kém ngon miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, suy nhược, uể oải và gặp các vấn đề về giấc ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiểu nhiều hơn hoặc ít hơn, tiểu đêm và chuột rút các cơ bắp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sưng phù bàn chân, mắt cá chân hoặc phù toàn thân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da ngứa, khô, nhợt nhạt xanh xao. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tăng huyết áp khó kiểm soát và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau ngực và giảm khả năng tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy bệnh đái tháo đường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị huyết áp cao và viêm cầu thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm kẽ thận và bệnh thận đa nang. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy bị tắc nghẽn đường tiết niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị trào ngược nước tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhiễm trùng thận tái phát. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy dùng thuốc điều trị kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay hút thuốc lá. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

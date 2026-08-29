@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_388",
+  "name_vi": "Ung Thư Cổ Tử Cung Giai Đoạn 2",
+  "name_en": "Ung Thu Co Tu Cung Giai Doan 2",
+  "category": "oncology",
+  "aliases": [
+    "Ung Thư Cổ Tử Cung Giai Đoạn 2",
+    "Ung Thu Co Tu Cung Giai Doan 2"
+  ],
+  "description": "Ung Thư Cổ Tử Cung Giai Đoạn 2 là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "cần phẫu thuật",
+        "name_en": "can phau thuat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cần được theo dõi định kỳ",
+        "name_en": "can duoc theo doi dinh ky",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kinh nguyệt kéo dài",
+        "name_en": "kinh nguyet keo dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì có thể bị ung thư cổ tử cung giai đoạn II",
+        "name_en": "lo lang vi co the bi ung thu co tu cung giai doan II",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì ung thư cổ tử cung giai đoạn II có thể cần hóa trị",
+        "name_en": "lo lang vi ung thu co tu cung giai doan II co the can hoa tri",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì ung thư cổ tử cung giai đoạn II có thể tái phát",
+        "name_en": "lo lang vi ung thu co tu cung giai doan II co the tai phat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì ung thư cổ tử cung giai đoạn II có thể ảnh hưởng đến khả năng sinh sản",
+        "name_en": "lo lang vi ung thu co tu cung giai doan II co the anh huong den kha nang sinh san",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì ung thư cổ tử cung giai đoạn II cần được điều trị kịp thời",
+        "name_en": "lo lang vi ung thu co tu cung giai doan II can duoc dieu tri kip thoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ra khí hư bất thường",
+        "name_en": "ra khi hu bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ra máu âm đạo",
+        "name_en": "ra mau am dao",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ra máu âm đạo bất thường",
+        "name_en": "ra mau am dao bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ra máu âm đạo giữa chu kỳ kinh nguyệt",
+        "name_en": "ra mau am dao giua chu ky kinh nguyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ra máu âm đạo sau khi mãn kinh",
+        "name_en": "ra mau am dao sau khi man kinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ra nhiều hơn bình thường",
+        "name_en": "ra nhieu hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch âm đạo có mùi hôi",
+        "name_en": "tiet dich am dao co mui hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư cổ tử cung giai đoạn II",
+        "name_en": "ung thu co tu cung giai doan II",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xạ trị",
+        "name_en": "xa tri",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi quan hệ tình dục",
+        "name_en": "dau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vùng chậu",
+        "name_en": "dau vung chau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ung Thư Cổ Tử Cung Giai Đoạn 2 của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Cổ Tử Cung Giai Đoạn 2",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ra máu âm đạo bất thường và đau vùng chậu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khi quan hệ tình dục và ra máu âm đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị kinh nguyệt kéo dài và ra nhiều hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì có thể bị ung thư cổ tử cung giai đoạn II. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau vùng chậu và ra khí hư bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ra máu âm đạo sau khi mãn kinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ra máu âm đạo giữa chu kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì ung thư cổ tử cung giai đoạn II có thể tái phát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiết dịch âm đạo có mùi hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì ung thư cổ tử cung giai đoạn II cần được điều trị kịp thời. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ung thư cổ tử cung giai đoạn II và cần phẫu thuật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì ung thư cổ tử cung giai đoạn II có thể cần hóa trị và xạ trị. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ung thư cổ tử cung giai đoạn II và cần được theo dõi định kỳ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì ung thư cổ tử cung giai đoạn II có thể ảnh hưởng đến khả năng sinh sản. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng dưới và ra máu âm đạo. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_081",
+  "name_vi": "Bệnh Xốp Xơ Tai",
+  "name_en": "Benh Xop Xo Tai",
+  "category": "ent",
+  "aliases": [
+    "Bệnh Xốp Xơ Tai",
+    "Benh Xop Xo Tai"
+  ],
+  "description": "Bệnh Xốp Xơ Tai là một bệnh lý thuộc chuyên khoa ent, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "35 tuổi và bắt đầu gặp khó khăn khi nghe",
+        "name_en": "35 tuoi va bat dau gap kho khan khi nghe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bị bịt kín",
+        "name_en": "bi bit kin",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ nghe hơn khi có tiếng ồn xung quanh",
+        "name_en": "de nghe hon khi co tieng on xung quanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói của mình to hơn bình thường",
+        "name_en": "giong noi cua minh to hon binh thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp khó khăn khi nghe người khác nói chuyện, đặc biệt là trong môi trường yên tĩnh",
+        "name_en": "gap kho khan khi nghe nguoi khac noi chuyen, dac biet la trong moi truong yen tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nghe tiếng chuông điện thoại và tiếng gõ cửa",
+        "name_en": "kho nghe tieng chuong dien thoai va tieng go cua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nghe âm thanh thấp",
+        "name_en": "kho nghe am thanh thap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất thăng bằng",
+        "name_en": "mat thang bang",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nghe kém",
+        "name_en": "nghe kem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghe kém dần theo thời gian",
+        "name_en": "nghe kem dan theo thoi gian",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghe kém hơn ở một bên tai so với bên còn lại",
+        "name_en": "nghe kem hon o mot ben tai so voi ben con lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghe mọi thứ như tiếng vọng",
+        "name_en": "nghe moi thu nhu tieng vong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghe tiếng tivi to hơn mọi người trong nhà",
+        "name_en": "nghe tieng tivi to hon moi nguoi trong nha",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhà hàng hay quán cà phê",
+        "name_en": "nha hang hay quan ca phe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "như có tiếng ve kêu trong tai",
+        "name_en": "nhu co tieng ve keu trong tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thính lực giảm sút",
+        "name_en": "thinh luc giam sut",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên phải nhờ người khác nhắc lại vì không nghe rõ",
+        "name_en": "thuong xuyen phai nho nguoi khac nhac lai vi khong nghe ro",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiếng huýt sáo",
+        "name_en": "tieng huyt sao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai liên tục",
+        "name_en": "u tai lien tuc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Xốp Xơ Tai của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Xốp Xơ Tai",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như nghe kém dần theo thời gian và khó nghe âm thanh thấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giọng nói của mình to hơn bình thường và dễ nghe hơn khi có tiếng ồn xung quanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ù tai và chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp khó khăn khi nghe người khác nói chuyện, đặc biệt là trong môi trường yên tĩnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy như có tiếng ve kêu trong tai và thính lực giảm sút. Tôi có thể đang bị bệnh gì?",
+    "Tôi 35 tuổi và bắt đầu gặp khó khăn khi nghe. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên phải nhờ người khác nhắc lại vì không nghe rõ. Tôi có thể đang bị bệnh gì?",
+    "Tai tôi như bị bịt kín và nghe mọi thứ như tiếng vọng. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghe kém hơn ở một bên tai so với bên còn lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mất thăng bằng và ù tai liên tục. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghe tiếng tivi to hơn mọi người trong nhà. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó nghe tiếng chuông điện thoại và tiếng gõ cửa. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghe rõ hơn khi ở trong môi trường ồn ào như nhà hàng hay quán cà phê. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chóng mặt và buồn nôn kèm theo nghe kém. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghe tiếng gió thổi như tiếng huýt sáo. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

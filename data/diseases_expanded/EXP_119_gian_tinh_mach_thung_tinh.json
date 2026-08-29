@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_119",
+  "name_vi": "Giãn Tĩnh Mạch Thừng Tinh",
+  "name_en": "Gian Tinh Mach Thung Tinh",
+  "category": "cardiology",
+  "aliases": [
+    "Giãn Tĩnh Mạch Thừng Tinh",
+    "Gian Tinh Mach Thung Tinh"
+  ],
+  "description": "Giãn Tĩnh Mạch Thừng Tinh là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Bìu của tôi thỉnh thoảng có cảm giác nóng rát",
+        "name_en": "Biu cua toi thinh thoang co cam giac nong rat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu có vẻ to hơn bình thường",
+        "name_en": "biu co ve to hon binh thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu nặng nề",
+        "name_en": "biu nang ne",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có cảm giác bìu nặng và căng tức, đặc biệt sau khi tập thể dục",
+        "name_en": "co cam giac biu nang va cang tuc, dac biet sau khi tap the duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác nặng nề khi đi bộ nhiều",
+        "name_en": "cam giac nang ne khi di bo nhieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác đau âm ỉ",
+        "name_en": "cam giac dau am i",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có cảm giác nặng ở vùng bìu, đặc biệt là sau khi đứng lâu",
+        "name_en": "hien dang co cam giac nang o vung biu, dac biet la sau khi dung lau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hơi đau",
+        "name_en": "hoi dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hơi đau khi chạm vào",
+        "name_en": "hoi dau khi cham vao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu sau khi quan hệ tình dục",
+        "name_en": "kho chiu sau khi quan he tinh duc",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó chịu ở vùng bìu khi mặc quần bó sát",
+        "name_en": "kho chiu o vung biu khi mac quan bo sat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó chịu ở vùng bìu khi ngồi lâu trên xe máy",
+        "name_en": "kho chiu o vung biu khi ngoi lau tren xe may",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng ở phía trên bìu",
+        "name_en": "sung o phia tren biu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tĩnh mạch ở bìu nổi rõ hơn",
+        "name_en": "tinh mach o biu noi ro hon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tĩnh mạch ở bìu nổi rõ hơn bình thường",
+        "name_en": "tinh mach o biu noi ro hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vùng bìu hơi sưng",
+        "name_en": "vung biu hoi sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vùng bìu nặng nề",
+        "name_en": "vung biu nang ne",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói ở bìu khi thay đổi tư thế đột ngột",
+        "name_en": "dau nhoi o biu khi thay doi tu the dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhẹ ở bìu vào buổi chiều tối",
+        "name_en": "dau nhe o biu vao buoi chieu toi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở bìu sau khi làm việc gắng sức",
+        "name_en": "dau o biu sau khi lam viec gang suc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Giãn Tĩnh Mạch Thừng Tinh của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Giãn Tĩnh Mạch Thừng Tinh",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có cảm giác nặng ở vùng bìu, đặc biệt là sau khi đứng lâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy đau nhẹ ở bìu vào buổi chiều tối. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau ở bìu sau khi làm việc gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi ngồi nhiều và cảm thấy vùng bìu nặng nề. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy sưng ở phía trên bìu và hơi đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi có cảm giác bìu nặng và căng tức, đặc biệt sau khi tập thể dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy tĩnh mạch ở bìu nổi rõ hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Bìu của tôi thỉnh thoảng có cảm giác nóng rát. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy khó chịu ở vùng bìu khi mặc quần bó sát. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy vùng bìu hơi sưng và cảm giác nặng nề khi đi bộ nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy bìu có vẻ to hơn bình thường và hơi đau khi chạm vào. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy tĩnh mạch ở bìu nổi rõ hơn và cảm giác đau âm ỉ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy bìu nặng nề và khó chịu sau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cảm thấy đau nhói ở bìu khi thay đổi tư thế đột ngột. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy khó chịu ở vùng bìu khi ngồi lâu trên xe máy. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

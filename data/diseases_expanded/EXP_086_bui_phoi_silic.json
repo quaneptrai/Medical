@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_086",
+  "name_vi": "Bụi Phổi Silic",
+  "name_en": "Bui Phoi Silic",
+  "category": "respiratory",
+  "aliases": [
+    "Bụi Phổi Silic",
+    "Bui Phoi Silic"
+  ],
+  "description": "Bụi Phổi Silic là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ bắp",
+        "name_en": "co bap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp triệu chứng ho dai dẳng, kèm theo đau rát họng và khàn tiếng",
+        "name_en": "gap trieu chung ho dai dang, kem theo dau rat hong va khan tieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp triệu chứng sốt cao, ớn lạnh và đau nhức toàn thân, kèm theo ho khan và khó thở",
+        "name_en": "gap trieu chung sot cao, on lanh va dau nhuc toan than, kem theo ho khan va kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp triệu chứng đau tức ngực và khó chịu",
+        "name_en": "gap trieu chung dau tuc nguc va kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng ho dai dẳng và thỉnh thoảng kèm theo đờm",
+        "name_en": "hien dang co trieu chung ho dai dang va thinh thoang kem theo dom",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng khó thở khi nằm ngửa, phải nằm nghiêng mới dễ thở hơn",
+        "name_en": "hien dang co trieu chung kho tho khi nam ngua, phai nam nghieng moi de tho hon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho ra máu",
+        "name_en": "ho ra mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hụt hơi khi leo cầu thang",
+        "name_en": "hut hoi khi leo cau thang",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hụt hơi khi nói chuyện hoặc cười lớn",
+        "name_en": "hut hoi khi noi chuyen hoac cuoi lon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hụt hơi khi đi bộ hoặc vận động nhẹ",
+        "name_en": "hut hoi khi di bo hoac van dong nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "môi nhợt nhạt",
+        "name_en": "moi nhot nhat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng phù",
+        "name_en": "sung phu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt về chiều",
+        "name_en": "sot ve chieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tức ngực khi gắng sức",
+        "name_en": "tuc nguc khi gang suc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức xương khớp",
+        "name_en": "dau nhuc xuong khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức ngực",
+        "name_en": "dau tuc nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi trộm vào ban đêm",
+        "name_en": "do mo hoi trom vao ban dem",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bụi Phổi Silic của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bụi Phổi Silic",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có triệu chứng ho dai dẳng và thỉnh thoảng kèm theo đờm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở và hụt hơi khi leo cầu thang. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mệt mỏi và sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp triệu chứng đau tức ngực và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị sốt về chiều và đổ mồ hôi trộm vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng chân bị sưng phù và môi nhợt nhạt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở, ho khan và tức ngực khi gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị hụt hơi khi nói chuyện hoặc cười lớn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp triệu chứng ho dai dẳng, kèm theo đau rát họng và khàn tiếng. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị mệt mỏi và chán ăn, kèm theo sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng khó thở khi nằm ngửa, phải nằm nghiêng mới dễ thở hơn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức xương khớp và cơ bắp, kèm theo mệt mỏi và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho ra máu, kèm theo đau tức ngực và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp triệu chứng sốt cao, ớn lạnh và đau nhức toàn thân, kèm theo ho khan và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị hụt hơi khi đi bộ hoặc vận động nhẹ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

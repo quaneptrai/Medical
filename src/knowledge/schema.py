@@ -79,7 +79,12 @@ class DiseaseSchema(BaseModel):
     @field_validator("category")
     @classmethod
     def validate_category(cls, v: str) -> str:
-        valid = {"respiratory", "digestive", "general", "dermatology", "cardiology"}
+        valid = {
+            "respiratory", "digestive", "general", "dermatology", "cardiology",
+            "neurology", "urology", "oncology", "musculoskeletal", "ophthalmology",
+            "ent", "obstetrics_gynecology", "andrology", "infectious", "endocrinology",
+            "hematology", "pediatrics", "toxicology"
+        }
         if v not in valid:
             raise ValueError(f"category must be one of {valid}, got '{v}'")
         return v

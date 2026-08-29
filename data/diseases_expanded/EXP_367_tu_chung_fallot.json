@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_367",
+  "name_vi": "Tứ Chứng Fallot",
+  "name_en": "Tu Chung Fallot",
+  "category": "general",
+  "aliases": [
+    "Tứ Chứng Fallot",
+    "Tu Chung Fallot"
+  ],
+  "description": "Tứ Chứng Fallot là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bú kém",
+        "name_en": "bu kem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chậm lớn",
+        "name_en": "cham lon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chậm tăng cân",
+        "name_en": "cham tang can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cần bổ sung sắt",
+        "name_en": "can bo sung sat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hở van động mạch phổi sau khi phẫu thuật tứ chứng Fallot",
+        "name_en": "ho van dong mach phoi sau khi phau thuat tu chung Fallot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì có thể bị tứ chứng Fallot",
+        "name_en": "lo lang vi co the bi tu chung Fallot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì tứ chứng Fallot có thể di truyền",
+        "name_en": "lo lang vi tu chung Fallot co the di truyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì tứ chứng Fallot có thể gây nguy hiểm đến tính mạng",
+        "name_en": "lo lang vi tu chung Fallot co the gay nguy hiem den tinh mang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì tứ chứng Fallot có thể gây ra nhiều biến chứng",
+        "name_en": "lo lang vi tu chung Fallot co the gay ra nhieu bien chung",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lo lắng vì tứ chứng Fallot có thể gây thuyên tắc mạch",
+        "name_en": "lo lang vi tu chung Fallot co the gay thuyen tac mach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng",
+        "name_en": "nhiem trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "niêm mạc tím tái",
+        "name_en": "niem mac tim tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "quấy khóc",
+        "name_en": "quay khoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn nhịp tim",
+        "name_en": "roi loan nhip tim",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy tim",
+        "name_en": "suy tim",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thiếu máu",
+        "name_en": "thieu mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thở nhanh hơn bình thường",
+        "name_en": "tho nhanh hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tím tái",
+        "name_en": "tim tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tím tái khi gắng sức",
+        "name_en": "tim tai khi gang suc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tím tái sau khi ăn",
+        "name_en": "tim tai sau khi an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tắm nước ấm hoặc căng thẳng",
+        "name_en": "tam nuoc am hoac cang thang",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Tứ Chứng Fallot của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Tứ Chứng Fallot",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như da và niêm mạc tím tái. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, khó thở và tím tái khi gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chậm tăng cân và bú kém. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì có thể bị tứ chứng Fallot. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tím tái sau khi ăn, tắm nước ấm hoặc căng thẳng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì tứ chứng Fallot có thể gây ra nhiều biến chứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị suy tim, nhiễm trùng và rối loạn nhịp tim. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì tứ chứng Fallot có thể gây thuyên tắc mạch. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tím tái và thở nhanh hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì tứ chứng Fallot có thể gây nguy hiểm đến tính mạng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tím tái và quấy khóc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi và chậm lớn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị hở van động mạch phổi sau khi phẫu thuật tứ chứng Fallot. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì tứ chứng Fallot có thể di truyền. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thiếu máu và cần bổ sung sắt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

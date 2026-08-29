@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_191",
+  "name_vi": "Mụn Ẩn",
+  "name_en": "Mun An",
+  "category": "dermatology",
+  "aliases": [
+    "Mụn Ẩn",
+    "Mun An"
+  ],
+  "description": "Mụn Ẩn là một bệnh lý thuộc chuyên khoa dermatology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "có nhiều nốt li ti dưới da",
+        "name_en": "co nhieu not li ti duoi da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có nhân",
+        "name_en": "co nhan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có nốt li ti dưới da",
+        "name_en": "co not li ti duoi da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác hơi đau",
+        "name_en": "cam giac hoi dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da hơi sưng",
+        "name_en": "da hoi sung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da khô ráp",
+        "name_en": "da kho rap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da mặt bóng nhờn",
+        "name_en": "da mat bong nhon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da sần sùi",
+        "name_en": "da san sui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hơi đau",
+        "name_en": "hoi dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hơi đỏ",
+        "name_en": "hoi do",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không đau nhưng có nhân trắng",
+        "name_en": "khong dau nhung co nhan trang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không đau nhưng hơi ngứa",
+        "name_en": "khong dau nhung hoi ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn đầu trắng",
+        "name_en": "mun dau trang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn đầu đen",
+        "name_en": "mun dau den",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt li ti dưới da phát triển thành nhân trứng cá",
+        "name_en": "not li ti duoi da phat trien thanh nhan trung ca",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt li ti to ra",
+        "name_en": "not li ti to ra",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát hiện một nốt li ti dưới da",
+        "name_en": "phat hien mot not li ti duoi da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đỏ",
+        "name_en": "sung do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm",
+        "name_en": "viem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện nốt nhỏ dưới da",
+        "name_en": "xuat hien not nho duoi da",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Mụn Ẩn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mụn Ẩn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như phát hiện một nốt li ti dưới da, cảm giác hơi đau, khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da hơi sưng, nốt li ti to ra và hơi đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy xuất hiện nốt nhỏ dưới da, không đau nhưng hơi ngứa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay nặn mụn và thấy xuất hiện nốt nhỏ dưới da, sưng và viêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da sần sùi, có nhiều nốt li ti dưới da. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay trang điểm đậm và thấy xuất hiện nốt nhỏ dưới da, khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da mặt bóng nhờn, có nhiều nốt li ti dưới da. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thức khuya và thấy xuất hiện nốt nhỏ dưới da, sưng đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da khô ráp, có nốt li ti dưới da, hơi đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay ăn đồ cay nóng và thấy xuất hiện nốt nhỏ dưới da, viêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nốt li ti dưới da phát triển thành nhân trứng cá. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da sần sùi, có nhiều nốt li ti dưới da và mụn đầu đen. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy xuất hiện nốt nhỏ dưới da, không đau nhưng có nhân trắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay nặn mụn và thấy xuất hiện nốt nhỏ dưới da, sưng và có nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da sần sùi, có nhiều nốt li ti dưới da và mụn đầu trắng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_247",
+  "name_vi": "Rong Kinh",
+  "name_en": "Rong Kinh",
+  "category": "general",
+  "aliases": [
+    "Rong Kinh",
+    "Rong Kinh"
+  ],
+  "description": "Rong Kinh là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "cục máu đông có kích thước lớn trong thời kỳ kinh nguyệt",
+        "name_en": "cuc mau dong co kich thuoc lon trong thoi ky kinh nguyet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da nhợt nhạt",
+        "name_en": "da nhot nhat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay phải sử dụng cùng lúc hai hoặc nhiều băng vệ sinh và thời gian hành kinh kéo dài",
+        "name_en": "hay phai su dung cung luc hai hoac nhieu bang ve sinh va thoi gian hanh kinh keo dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay phải thay băng vệ sinh liên tục sau vài giờ và lượng máu kinh nhiều hơn bình thường",
+        "name_en": "hay phai thay bang ve sinh lien tuc sau vai gio va luong mau kinh nhieu hon binh thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kiệt sức",
+        "name_en": "kiet suc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lượng máu kinh ra nhiều",
+        "name_en": "luong mau kinh ra nhieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lượng máu kinh ra nhiều hơn 80ml",
+        "name_en": "luong mau kinh ra nhieu hon 80ml",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lượng máu kinh ra nhiều hơn bình thường",
+        "name_en": "luong mau kinh ra nhieu hon binh thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lượng máu kinh ra nhiều trong thời gian hành kinh",
+        "name_en": "luong mau kinh ra nhieu trong thoi gian hanh kinh",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "muốn ăn những thứ không phải là thực phẩm",
+        "name_en": "muon an nhung thu khong phai la thuc pham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phải sử dụng cùng lúc hai hoặc nhiều băng vệ sinh",
+        "name_en": "phai su dung cung luc hai hoac nhieu bang ve sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phải thay băng vệ sinh liên tục",
+        "name_en": "phai thay bang ve sinh lien tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rụng tóc",
+        "name_en": "rung toc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thời gian hành kinh kéo dài trên 10 ngày",
+        "name_en": "thoi gian hanh kinh keo dai tren 10 ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thời gian hành kinh kéo dài trên 7 ngày",
+        "name_en": "thoi gian hanh kinh keo dai tren 7 ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện cục máu đông có kích thước lớn",
+        "name_en": "xuat hien cuc mau dong co kich thuoc lon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện cục máu đông lớn",
+        "name_en": "xuat hien cuc mau dong lon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng kinh",
+        "name_en": "dau bung kinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng kinh kéo dài",
+        "name_en": "dau bung kinh keo dai",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rong Kinh của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rong Kinh",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau bụng kinh kéo dài, lượng máu kinh ra nhiều và xuất hiện cục máu đông có kích thước lớn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, khó thở, kiệt sức và lượng máu kinh ra nhiều trong thời gian hành kinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay phải thay băng vệ sinh liên tục sau vài giờ và lượng máu kinh nhiều hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như da nhợt nhạt, muốn ăn những thứ không phải là thực phẩm và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy kiệt sức, thời gian hành kinh kéo dài trên 7 ngày và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay phải sử dụng cùng lúc hai hoặc nhiều băng vệ sinh và thời gian hành kinh kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như rụng tóc, da nhợt nhạt và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, đau bụng kinh và lượng máu kinh ra nhiều hơn 80ml. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay xuất hiện cục máu đông có kích thước lớn trong thời kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khó thở, thời gian hành kinh kéo dài trên 10 ngày và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy kiệt sức, muốn ăn những thứ không phải là thực phẩm và đau bụng kinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị rụng tóc, da nhợt nhạt và phải thay băng vệ sinh liên tục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mệt mỏi, đau bụng kinh và phải sử dụng cùng lúc hai hoặc nhiều băng vệ sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở, xuất hiện cục máu đông lớn và lượng máu kinh ra nhiều hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị rụng tóc, da nhợt nhạt và thời gian hành kinh kéo dài trên 7 ngày. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

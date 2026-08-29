@@ -1,0 +1,259 @@
+{
+  "disease_id": "EXP_509",
+  "name_vi": "Viêm Tuyến Giáp",
+  "name_en": "Viem Tuyen Giap",
+  "category": "infectious",
+  "aliases": [
+    "Viêm Tuyến Giáp",
+    "Viem Tuyen Giap"
+  ],
+  "description": "Viêm Tuyến Giáp là một bệnh lý thuộc chuyên khoa infectious, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bướu cổ",
+        "name_en": "buou co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bướu cổ to",
+        "name_en": "buou co to",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bướu cổ to vừa phải",
+        "name_en": "buou co to vua phai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng như gỗ",
+        "name_en": "cung nhu go",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da khô",
+        "name_en": "da kho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dưới hàm",
+        "name_en": "duoi ham",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hồi hộp",
+        "name_en": "hoi hop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khô da",
+        "name_en": "kho da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không đau",
+        "name_en": "khong dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khả năng chịu lạnh kém",
+        "name_en": "kha nang chiu lanh kem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lan lên tai",
+        "name_en": "lan len tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mạch chậm",
+        "name_en": "mach cham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nuốt nghẹn",
+        "name_en": "nuot nghen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ra nhiều mồ hôi",
+        "name_en": "ra nhieu mo hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sút cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ nóng",
+        "name_en": "so nong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường ở một bên",
+        "name_en": "thuong o mot ben",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tim đập nhanh",
+        "name_en": "tim dap nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tuyến giáp sưng to",
+        "name_en": "tuyen giap sung to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vùng cổ trước bị đau",
+        "name_en": "vung co truoc bi dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vướng cổ",
+        "name_en": "vuong co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ hóa sau màng bụng",
+        "name_en": "xo hoa sau mang bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau cơ",
+        "name_en": "dau co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau hàm",
+        "name_en": "dau ham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tuyến giáp",
+        "name_en": "dau tuyen giap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh trống ngực",
+        "name_en": "danh trong nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Tuyến Giáp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Tuyến Giáp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như vùng cổ trước bị đau và sưng, khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, sút cân và tim đập nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ra nhiều mồ hôi, sợ nóng và tuyến giáp sưng to. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt, ớn lạnh và đau đầu, mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau tuyến giáp, lan lên tai và dưới hàm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau họng, khó thở và đau hàm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau cơ, sốt nhẹ và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau tuyến giáp, thường ở một bên. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sụt cân, tim đập nhanh và ra nhiều mồ hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị táo bón, khô da và khó tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bướu cổ, hồi hộp, đánh trống ngực và sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bướu cổ, mạch chậm, khả năng chịu lạnh kém và da khô. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bướu cổ to vừa phải, không đau và vướng cổ, nuốt nghẹn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bướu cổ to, cứng như gỗ và khó thở, khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bướu cổ và xơ hóa sau màng bụng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

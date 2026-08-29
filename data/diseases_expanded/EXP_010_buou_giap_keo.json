@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_010",
+  "name_vi": "Bướu Giáp Keo",
+  "name_en": "Buou Giap Keo",
+  "category": "oncology",
+  "aliases": [
+    "Bướu Giáp Keo",
+    "Buou Giap Keo"
+  ],
+  "description": "Bướu Giáp Keo là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chóng mặt khi thay đổi tư thế",
+        "name_en": "chong mat khi thay doi tu the",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt khi vận động mạnh",
+        "name_en": "chong mat khi van dong manh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt khi đưa cánh tay lên cao",
+        "name_en": "chong mat khi dua canh tay len cao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác như có vật gì chèn ép thực quản",
+        "name_en": "cam giac nhu co vat gi chen ep thuc quan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gây khó thở",
+        "name_en": "gay kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phình tĩnh mạch cổ",
+        "name_en": "phinh tinh mach co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tuyến giáp của mình có một khối u lớn",
+        "name_en": "tuyen giap cua minh co mot khoi u lon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tuyến giáp của mình có một nốt nhỏ",
+        "name_en": "tuyen giap cua minh co mot not nho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "tuyến giáp của mình phình to",
+        "name_en": "tuyen giap cua minh phinh to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tuyến giáp của mình to lên",
+        "name_en": "tuyen giap cua minh to len",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tuyến giáp phình to",
+        "name_en": "tuyen giap phinh to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tuyến giáp to",
+        "name_en": "tuyen giap to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đôi khi gây khó nuốt",
+        "name_en": "doi khi gay kho nuot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đôi khi gây khó thở",
+        "name_en": "doi khi gay kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đôi khi gây khó thở khi nằm",
+        "name_en": "doi khi gay kho tho khi nam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đôi khi gây khó thở khi nằm ngửa",
+        "name_en": "doi khi gay kho tho khi nam ngua",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bướu Giáp Keo của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bướu Giáp Keo",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi thấy tuyến giáp của mình phình to, đôi khi gây khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó nuốt, cảm giác như có vật gì chèn ép thực quản. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tuyến giáp phình to, đôi khi gây khó thở khi nằm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phình tĩnh mạch cổ, khó thở và tuyến giáp to. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt khi đưa cánh tay lên cao, tuyến giáp phình to. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tuyến giáp của mình có một nốt nhỏ, đôi khi gây khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó thở, tuyến giáp to và phình tĩnh mạch cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt khi vận động mạnh, tuyến giáp phình to. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tuyến giáp của mình to lên, đôi khi gây khó thở khi nằm ngửa. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó nuốt, tuyến giáp to và phình tĩnh mạch cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt khi thay đổi tư thế, tuyến giáp phình to. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tuyến giáp của mình có một khối u lớn, gây khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó nuốt, tuyến giáp to và phình tĩnh mạch cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt khi vận động mạnh, tuyến giáp phình to. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tuyến giáp của mình to lên, đôi khi gây khó thở khi nằm ngửa. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

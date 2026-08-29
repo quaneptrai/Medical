@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_573",
+  "name_vi": "Đau Khớp",
+  "name_en": "Dau Khop",
+  "category": "oncology",
+  "aliases": [
+    "Đau Khớp",
+    "Dau Khop"
+  ],
+  "description": "Đau Khớp là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bốc hỏa",
+        "name_en": "boc hoa",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau khớp háng khi đi lại",
+        "name_en": "hien dang co trieu chung dau khop hang khi di lai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau khớp khuỷu tay và khó duỗi thẳng",
+        "name_en": "hien dang co trieu chung dau khop khuyu tay va kho duoi thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạn chế vận động",
+        "name_en": "han che van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mỏi các khớp",
+        "name_en": "moi cac khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mỏi khớp",
+        "name_en": "moi khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhức khớp",
+        "name_en": "nhuc khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ra mồ hôi ban đêm",
+        "name_en": "ra mo hoi ban dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rối loạn giấc ngủ",
+        "name_en": "roi loan giac ngu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "tái phát",
+        "name_en": "tai phat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì các ngón tay",
+        "name_en": "te bi cac ngon tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp cổ chân",
+        "name_en": "dau khop co chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp cổ chân sau khi chạy bộ",
+        "name_en": "dau khop co chan sau khi chay bo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp cổ tay",
+        "name_en": "dau khop co tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp cổ tay khi gõ máy tính",
+        "name_en": "dau khop co tay khi go may tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp háng",
+        "name_en": "dau khop hang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp khuỷu tay khi nâng vật nặng",
+        "name_en": "dau khop khuyu tay khi nang vat nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp vai",
+        "name_en": "dau khop vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khớp vai",
+        "name_en": "dau nhuc khop vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau xương kéo dài",
+        "name_en": "dau xuong keo dai",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Khớp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Khớp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhức khớp vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khớp vai và hạn chế vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khớp háng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau khớp háng khi đi lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khớp cổ chân sau khi chạy bộ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khớp cổ chân và sưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau khớp cổ tay khi gõ máy tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khớp cổ tay và tê bì các ngón tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khớp khuỷu tay khi nâng vật nặng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau khớp khuỷu tay và khó duỗi thẳng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mỏi các khớp và nhức khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau xương kéo dài và tái phát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mỏi khớp và bốc hỏa. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mỏi khớp và rối loạn giấc ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mỏi khớp và ra mồ hôi ban đêm. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

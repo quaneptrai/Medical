@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_264",
+  "name_vi": "Rối Loạn Phân Ly",
+  "name_en": "Roi Loan Phan Ly",
+  "category": "general",
+  "aliases": [
+    "Rối Loạn Phân Ly",
+    "Roi Loan Phan Ly"
+  ],
+  "description": "Rối Loạn Phân Ly là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chứng quên phân ly",
+        "name_en": "chung quen phan ly",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "con người",
+        "name_en": "con nguoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có các vấn đề về trí nhớ dù không liên quan đến chấn thương thể chất hoặc điều kiện y tế",
+        "name_en": "co cac van de ve tri nho du khong lien quan den chan thuong the chat hoac dieu kien y te",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy không làm chủ được cảm xúc của mình",
+        "name_en": "cam thay khong lam chu duoc cam xuc cua minh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy rất buồn mà không có lý do",
+        "name_en": "cam thay rat buon ma khong co ly do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cần phải cư xử theo một cách nhất định",
+        "name_en": "can phai cu xu theo mot cach nhat dinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp các vấn đề về trầm cảm hay lo lắng, hoặc cả hai",
+        "name_en": "gap cac van de ve tram cam hay lo lang, hoac ca hai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp vấn đề khi đối diện với cảm xúc mãnh liệt",
+        "name_en": "gap van de khi doi dien voi cam xuc manh liet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hành xử theo cách mà thông thường tôi phản đối hoặc không bao giờ làm",
+        "name_en": "hanh xu theo cach ma thong thuong toi phan doi hoac khong bao gio lam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "liên quan đến sự kiện",
+        "name_en": "lien quan den su kien",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mất trí nhớ trong khoảng thời gian nhất định",
+        "name_en": "mat tri nho trong khoang thoi gian nhat dinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất tập trung",
+        "name_en": "mat tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mọi thứ “không có thực”",
+        "name_en": "moi thu \"khong co thuc\"",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "như có nhiều nhân cách khác nhau bên trong mình",
+        "name_en": "nhu co nhieu nhan cach khac nhau ben trong minh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "như thể thế giới bị bóp méo hoặc không có thật",
+        "name_en": "nhu the the gioi bi bop meo hoac khong co that",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn nhận dạng phân ly",
+        "name_en": "roi loan nhan dang phan ly",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sự nhầm lẫn danh tính",
+        "name_en": "su nham lan danh tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thông tin cá nhân",
+        "name_en": "thong tin ca nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trải qua những khoảng trống trong ký ức",
+        "name_en": "trai qua nhung khoang trong trong ky uc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ví dụ",
+        "name_en": "vi du",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rối Loạn Phân Ly của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Phân Ly",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như cảm thấy không làm chủ được cảm xúc của mình. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề khi đối diện với cảm xúc mãnh liệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thay đổi tâm trạng đột ngột và bất ngờ, ví dụ như cảm thấy rất buồn mà không có lý do. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp các vấn đề về trầm cảm hay lo lắng, hoặc cả hai. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy như thể thế giới bị bóp méo hoặc không có thật. Tôi có thể đang bị bệnh gì?",
+    "Tôi có các vấn đề về trí nhớ dù không liên quan đến chấn thương thể chất hoặc điều kiện y tế. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp các vấn đề khác về nhận thức như mất tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất trí nhớ trong khoảng thời gian nhất định, liên quan đến sự kiện, con người, thông tin cá nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy cần phải cư xử theo một cách nhất định. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sự nhầm lẫn danh tính, ví dụ, hành xử theo cách mà thông thường tôi phản đối hoặc không bao giờ làm. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng mình bị rối loạn nhận dạng phân ly. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghi ngờ mình bị chứng quên phân ly. Tôi có thể đang bị bệnh gì?",
+    "Tôi có các giai đoạn tách rời khỏi bản thân hoặc xung quanh, cảm thấy mọi thứ “không có thực”. Tôi có thể đang bị bệnh gì?",
+    "Tôi trải qua những khoảng trống trong ký ức. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy như có nhiều nhân cách khác nhau bên trong mình. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

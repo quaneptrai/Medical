@@ -1,0 +1,139 @@
+{
+  "disease_id": "EXP_158",
+  "name_vi": "Không Có Tinh Trùng",
+  "name_en": "Khong Co Tinh Trung",
+  "category": "general",
+  "aliases": [
+    "Không Có Tinh Trùng",
+    "Khong Co Tinh Trung"
+  ],
+  "description": "Không Có Tinh Trùng là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "béo phì",
+        "name_en": "beo phi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chấn thương vùng tinh hoàn",
+        "name_en": "chan thuong vung tinh hoan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng",
+        "name_en": "cang thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giãn tĩnh mạch thừng tinh",
+        "name_en": "gian tinh mach thung tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp triệu chứng râu, lông ít hoặc không có",
+        "name_en": "gap trieu chung rau, long it hoac khong co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay có khối u, sưng tấy hoặc khó chịu xung quanh tinh hoàn",
+        "name_en": "hay co khoi u, sung tay hoac kho chiu xung quanh tinh hoan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm trùng đường tiết niệu",
+        "name_en": "nhiem trung duong tiet nieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "quai bị khi trưởng thành",
+        "name_en": "quai bi khi truong thanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rối loạn cương dương",
+        "name_en": "roi loan cuong duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sử dụng một số loại thuốc điều trị bệnh",
+        "name_en": "su dung mot so loai thuoc dieu tri benh",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "thường xuyên sử dụng rượu và thuốc lá",
+        "name_en": "thuong xuyen su dung ruou va thuoc la",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên tiếp xúc với hóa chất độc hại",
+        "name_en": "thuong xuyen tiep xuc voi hoa chat doc hai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "và vợ đang gặp khó khăn trong việc thụ thai",
+        "name_en": "va vo dang gap kho khan trong viec thu thai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ít có ham muốn tình dục",
+        "name_en": "it co ham muon tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đã từng phẫu thuật vùng bẹn",
+        "name_en": "da tung phau thuat vung ben",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Không Có Tinh Trùng của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Không Có Tinh Trùng",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ít có ham muốn tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy rối loạn cương dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay có khối u, sưng tấy hoặc khó chịu xung quanh tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp triệu chứng râu, lông ít hoặc không có. Tôi có thể đang bị bệnh gì?",
+    "Tôi và vợ đang gặp khó khăn trong việc thụ thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đã từng bị chấn thương vùng tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đã từng phẫu thuật vùng bẹn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giãn tĩnh mạch thừng tinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm trùng đường tiết niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị quai bị khi trưởng thành. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang sử dụng một số loại thuốc điều trị bệnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên tiếp xúc với hóa chất độc hại. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên sử dụng rượu và thuốc lá. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị béo phì. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị căng thẳng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_437",
+  "name_vi": "Viêm Bao Quy Đầu",
+  "name_en": "Viem Bao Quy Dau",
+  "category": "neurology",
+  "aliases": [
+    "Viêm Bao Quy Đầu",
+    "Viem Bao Quy Dau"
+  ],
+  "description": "Viêm Bao Quy Đầu là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bao quy đầu",
+        "name_en": "bao quy dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bao quy đầu có mùi hôi",
+        "name_en": "bao quy dau co mui hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bị sưng đau",
+        "name_en": "bi sung dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bị viêm tinh hoàn",
+        "name_en": "bi viem tinh hoan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bị viêm ống dẫn tinh",
+        "name_en": "bi viem ong dan tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật ngứa ngáy",
+        "name_en": "duong vat ngua ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm ham muốn tình dục vì cơ thể luôn trong tình trạng đau nhức",
+        "name_en": "giam ham muon tinh duc vi co the luon trong tinh trang dau nhuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hẹp bao quy đầu",
+        "name_en": "hep bao quy dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu khi đi tiểu",
+        "name_en": "kho chiu khi di tieu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó chịu ở bao quy đầu",
+        "name_en": "kho chiu o bao quy dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kém tập trung",
+        "name_en": "kem tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mủ trắng không rõ nguyên nhân",
+        "name_en": "mu trang khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng đường tiết niệu",
+        "name_en": "nhiem trung duong tiet nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "quy đầu bị sưng",
+        "name_en": "quy dau bi sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rát",
+        "name_en": "rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đau",
+        "name_en": "sung dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuất hiện máu",
+        "name_en": "thuong xuat hien mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu đau",
+        "name_en": "tieu dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao quy đầu",
+        "name_en": "viem bao quy dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm niệu đạo",
+        "name_en": "viem nieu dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vùng da bao quy đầu bị sưng đỏ",
+        "name_en": "vung da bao quy dau bi sung do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi quan hệ tình dục",
+        "name_en": "dau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức",
+        "name_en": "dau nhuc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Bao Quy Đầu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Bao Quy Đầu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như bao quy đầu và quy đầu bị sưng, đau nhức, khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy dương vật ngứa ngáy, khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị vùng da bao quy đầu bị sưng đỏ, đau nhức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị rát, khó chịu khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bao quy đầu có mùi hôi, thường xuất hiện máu, mủ trắng không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiểu đau và rát, ngứa ngáy; đau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giảm ham muốn tình dục vì cơ thể luôn trong tình trạng đau nhức, mệt mỏi, kém tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị hẹp bao quy đầu và sưng đau, khó chịu ở bao quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi quan hệ tình dục không an toàn và bị sưng đau, khó chịu ở bao quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi vệ sinh bộ phận sinh dục không đúng cách và bị sưng đau, khó chịu ở bao quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi có cơ địa dễ kích ứng và bị sưng đau, khó chịu ở bao quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm niệu đạo và bị sưng đau, khó chịu ở bao quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm trùng đường tiết niệu và bị sưng đau, khó chịu ở bao quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm bao quy đầu và bị viêm ống dẫn tinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm bao quy đầu và bị viêm tinh hoàn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

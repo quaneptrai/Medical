@@ -1,0 +1,149 @@
+{
+  "disease_id": "EXP_140",
+  "name_vi": "Hội Chứng Klinefelter",
+  "name_en": "Hoi Chung Klinefelter",
+  "category": "general",
+  "aliases": [
+    "Hội Chứng Klinefelter",
+    "Hoi Chung Klinefelter"
+  ],
+  "description": "Hội Chứng Klinefelter là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Con trai tôi chậm biết bò, đi, nói và có tinh hoàn ẩn",
+        "name_en": "Con trai toi cham biet bo, di, noi va co tinh hoan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con trai tôi chậm biết nói, đi, bò và có dương vật kém phát triển",
+        "name_en": "Con trai toi cham biet noi, di, bo va co duong vat kem phat trien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con trai tôi chậm phát triển vận động và trí tuệ, tinh hoàn không xuống bìu",
+        "name_en": "Con trai toi cham phat trien van dong va tri tue, tinh hoan khong xuong biu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con trai tôi yếu cơ, chậm phát triển và tinh hoàn không xuống bìu",
+        "name_en": "Con trai toi yeu co, cham phat trien va tinh hoan khong xuong biu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cao, gầy, tay chân dài và tinh hoàn nhỏ",
+        "name_en": "cao, gay, tay chan dai va tinh hoan nho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cao, gầy, tay chân dài, tinh hoàn nhỏ và tuyến vú to",
+        "name_en": "cao, gay, tay chan dai, tinh hoan nho va tuyen vu to",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cao, gầy, tay chân dài, tinh hoàn nhỏ và ít lông tóc",
+        "name_en": "cao, gay, tay chan dai, tinh hoan nho va it long toc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cao, gầy, tay chân dài, tuyến vú to và ít lông tóc",
+        "name_en": "cao, gay, tay chan dai, tuyen vu to va it long toc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mô vú phì đại, tinh hoàn nhỏ và dáng người giống phụ nữ",
+        "name_en": "co mo vu phi dai, tinh hoan nho va dang nguoi giong phu nu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mô vú phì đại, tinh hoàn nhỏ và ham muốn tình dục thấp",
+        "name_en": "co mo vu phi dai, tinh hoan nho va ham muon tinh duc thap",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "có mô vú phì đại, ít lông tóc và ham muốn tình dục thấp",
+        "name_en": "co mo vu phi dai, it long toc va ham muon tinh duc thap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "có tuyến vú to, ít lông tóc và ham muốn tình dục thấp",
+        "name_en": "co tuyen vu to, it long toc va ham muon tinh duc thap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "cứng",
+        "name_en": "cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "dáng người giống phụ nữ",
+        "name_en": "dang nguoi giong phu nu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mào tinh hoàn lớn",
+        "name_en": "mao tinh hoan lon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn nhỏ",
+        "name_en": "tinh hoan nho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vô sinh",
+        "name_en": "vo sinh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Hội Chứng Klinefelter của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hội Chứng Klinefelter",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Con trai tôi chậm phát triển vận động và trí tuệ, tinh hoàn không xuống bìu. Tôi có thể đang bị bệnh gì?",
+    "Tôi cao, gầy, tay chân dài và tinh hoàn nhỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi có tuyến vú to, ít lông tóc và ham muốn tình dục thấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị vô sinh, tinh hoàn nhỏ và cứng. Tôi có thể đang bị bệnh gì?",
+    "Con trai tôi chậm biết bò, đi, nói và có tinh hoàn ẩn. Tôi có thể đang bị bệnh gì?",
+    "Tôi cao, gầy, tay chân dài, tuyến vú to và ít lông tóc. Tôi có thể đang bị bệnh gì?",
+    "Tôi có mô vú phì đại, tinh hoàn nhỏ và ham muốn tình dục thấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị vô sinh, tinh hoàn nhỏ và cứng, dáng người giống phụ nữ. Tôi có thể đang bị bệnh gì?",
+    "Con trai tôi yếu cơ, chậm phát triển và tinh hoàn không xuống bìu. Tôi có thể đang bị bệnh gì?",
+    "Tôi cao, gầy, tay chân dài, tinh hoàn nhỏ và tuyến vú to. Tôi có thể đang bị bệnh gì?",
+    "Tôi có mô vú phì đại, ít lông tóc và ham muốn tình dục thấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị vô sinh, tinh hoàn nhỏ và cứng, mào tinh hoàn lớn. Tôi có thể đang bị bệnh gì?",
+    "Con trai tôi chậm biết nói, đi, bò và có dương vật kém phát triển. Tôi có thể đang bị bệnh gì?",
+    "Tôi cao, gầy, tay chân dài, tinh hoàn nhỏ và ít lông tóc. Tôi có thể đang bị bệnh gì?",
+    "Tôi có mô vú phì đại, tinh hoàn nhỏ và dáng người giống phụ nữ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

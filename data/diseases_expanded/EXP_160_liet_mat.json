@@ -1,0 +1,189 @@
+{
+  "disease_id": "EXP_160",
+  "name_vi": "Liệt Mặt",
+  "name_en": "Liet Mat",
+  "category": "general",
+  "aliases": [
+    "Liệt Mặt",
+    "Liet Mat"
+  ],
+  "description": "Liệt Mặt là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy dãi",
+        "name_en": "chay dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị cảm vùng khóe miệng",
+        "name_en": "di cam vung khoe mieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị cảm vùng trán",
+        "name_en": "di cam vung tran",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "góc hàm",
+        "name_en": "goc ham",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp phải tình trạng khó mỉm cười, rối loạn nhai nuốt, và nhạy cảm với âm thanh",
+        "name_en": "gap phai tinh trang kho mim cuoi, roi loan nhai nuot, va nhay cam voi am thanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp phải tình trạng khô mắt, khó nhắm mắt, và miệng chảy dãi",
+        "name_en": "gap phai tinh trang kho mat, kho nham mat, va mieng chay dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp phải tình trạng miệng chảy dãi, thay đổi vị giác, và đau dữ dội kèm theo mụn nước",
+        "name_en": "gap phai tinh trang mieng chay dai, thay doi vi giac, va dau du doi kem theo mun nuoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp phải tình trạng sụp mí, khó mỉm cười, và dị cảm vùng trán",
+        "name_en": "gap phai tinh trang sup mi, kho mim cuoi, va di cam vung tran",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khép miệng",
+        "name_en": "kho khep mieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó mỉm cười",
+        "name_en": "kho mim cuoi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khóe miệng",
+        "name_en": "khoe mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khô mắt",
+        "name_en": "kho mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "miệng chảy dãi",
+        "name_en": "mieng chay dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn nước",
+        "name_en": "mun nuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn nước ở vòm miệng",
+        "name_en": "mun nuoc o vom mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với âm thanh",
+        "name_en": "nhay cam voi am thanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn lời nói",
+        "name_en": "roi loan loi noi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn nhai nuốt",
+        "name_en": "roi loan nhai nuot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụp mí",
+        "name_en": "sup mi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi vị giác",
+        "name_en": "thay doi vi giac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thái dương",
+        "name_en": "thai duong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau dữ dội",
+        "name_en": "dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau dữ dội ở vùng mặt",
+        "name_en": "dau du doi o vung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau quanh tai",
+        "name_en": "dau quanh tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau quanh xương chũm",
+        "name_en": "dau quanh xuong chum",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Liệt Mặt của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Liệt Mặt",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như khô mắt, sụp mí, và khó mỉm cười. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy dãi, khó khép miệng, và đau quanh tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy dị cảm vùng trán và khóe miệng, kèm theo thay đổi vị giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị nhạy cảm với âm thanh, rối loạn nhai nuốt, và đau dữ dội. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy khô mắt, miệng chảy dãi, và đau quanh tai, thái dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp phải tình trạng sụp mí, khó mỉm cười, và dị cảm vùng trán. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau quanh xương chũm, góc hàm, và thay đổi vị giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy nhạy cảm với âm thanh, rối loạn lời nói, và đau dữ dội kèm theo mụn nước. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp phải tình trạng khô mắt, khó nhắm mắt, và miệng chảy dãi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó khép miệng, dị cảm vùng khóe miệng, và đau quanh tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy sụp mí, thay đổi vị giác, và đau dữ dội ở vùng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp phải tình trạng khó mỉm cười, rối loạn nhai nuốt, và nhạy cảm với âm thanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khô mắt, đau quanh xương chũm và góc hàm, kèm theo mụn nước ở vòm miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy sụp mí, dị cảm vùng trán, và rối loạn lời nói. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp phải tình trạng miệng chảy dãi, thay đổi vị giác, và đau dữ dội kèm theo mụn nước. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

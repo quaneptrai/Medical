@@ -1,0 +1,189 @@
+{
+  "disease_id": "EXP_133",
+  "name_vi": "Hẹp Van Động Mạch Chủ",
+  "name_en": "Hep Van Dong Mach Chu",
+  "category": "cardiology",
+  "aliases": [
+    "Hẹp Van Động Mạch Chủ",
+    "Hep Van Dong Mach Chu"
+  ],
+  "description": "Hẹp Van Động Mạch Chủ là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt khi đứng dậy",
+        "name_en": "chong mat khi dung day",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da xanh xao",
+        "name_en": "da xanh xao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho dai dẳng",
+        "name_en": "ho dai dang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hẹp",
+        "name_en": "hep",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hồi hộp khi leo cầu thang",
+        "name_en": "hoi hop khi leo cau thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi chơi thể thao",
+        "name_en": "kho tho khi choi the thao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi gắng sức",
+        "name_en": "kho tho khi gang suc",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó thở khi nằm xuống",
+        "name_en": "kho tho khi nam xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở khi sinh con",
+        "name_en": "kho tho khi sinh con",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không thể tập trung",
+        "name_en": "khong the tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lạnh ở tay chân",
+        "name_en": "lanh o tay chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghe nói hẹp van động mạch chủ có thể gây suy tim",
+        "name_en": "nghe noi hep van dong mach chu co the gay suy tim",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngất xỉu sau khi chạy bộ",
+        "name_en": "ngat xiu sau khi chay bo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù chân",
+        "name_en": "phu chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tim đập nhanh",
+        "name_en": "tim dap nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực dữ dội",
+        "name_en": "dau nguc du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói ở ngực khi hít thở sâu",
+        "name_en": "dau nhoi o nguc khi hit tho sau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là khi gắng sức",
+        "name_en": "dac biet la khi gang suc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Hẹp Van Động Mạch Chủ của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hẹp Van Động Mạch Chủ",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay bị đau ngực và khó thở khi chơi thể thao. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên cảm thấy mệt mỏi và chóng mặt, đặc biệt là khi gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngất xỉu sau khi chạy bộ. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy tim đập nhanh và hồi hộp khi leo cầu thang. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau ngực dữ dội và khó thở khi sinh con. Tôi có thể đang bị bệnh gì?",
+    "Bác sĩ nói van động mạch chủ của tôi bị hẹp. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghe nói hẹp van động mạch chủ có thể gây suy tim. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên cảm thấy khó thở khi nằm xuống. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho dai dẳng và khó thở khi gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau nhói ở ngực khi hít thở sâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phù chân và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mệt mỏi và không thể tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau đầu và chóng mặt khi đứng dậy. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy lạnh ở tay chân và da xanh xao. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng và buồn nôn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

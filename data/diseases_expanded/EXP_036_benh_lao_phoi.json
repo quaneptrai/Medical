@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_036",
+  "name_vi": "Bệnh Lao Phổi",
+  "name_en": "Benh Lao Phoi",
+  "category": "respiratory",
+  "aliases": [
+    "Bệnh Lao Phổi",
+    "Benh Lao Phoi"
+  ],
+  "description": "Bệnh Lao Phổi là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan kéo dài",
+        "name_en": "ho khan keo dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan kéo dài trên 3 tuần",
+        "name_en": "ho khan keo dai tren 3 tuan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khạc đờm",
+        "name_en": "ho khac dom",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khạc đờm màu trắng",
+        "name_en": "ho khac dom mau trang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho ra máu",
+        "name_en": "ho ra mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ran nổ ở phổi",
+        "name_en": "ran no o phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ran nổ ở vùng phổi",
+        "name_en": "ran no o vung phoi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ran ẩm",
+        "name_en": "ran am",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ran ẩm ở phổi",
+        "name_en": "ran am o phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ran ở phổi",
+        "name_en": "ran o phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ran ở vùng phổi",
+        "name_en": "ran o vung phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ về chiều",
+        "name_en": "sot nhe ve chieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt về chiều",
+        "name_en": "sot ve chieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trải qua tình trạng ho khan, sốt nhẹ và khó thở",
+        "name_en": "trai qua tinh trang ho khan, sot nhe va kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trải qua tình trạng ho khạc đờm và khó thở kéo dài",
+        "name_en": "trai qua tinh trang ho khac dom va kho tho keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trải qua tình trạng ho khạc đờm và sốt nhẹ",
+        "name_en": "trai qua tinh trang ho khac dom va sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trải qua tình trạng ho ra máu và khó thở",
+        "name_en": "trai qua tinh trang ho ra mau va kho tho",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Lao Phổi của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Lao Phổi",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ho khan kéo dài và sốt nhẹ về chiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ho khạc đờm màu trắng và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho ra máu và ran ẩm ở phổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ho khan kéo dài trên 3 tuần. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang trải qua tình trạng ho khạc đờm và sốt nhẹ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó thở và ran nổ ở vùng phổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ho khan và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang trải qua tình trạng ho ra máu và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt về chiều và ho khan kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ho khạc đờm và ran ở phổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang trải qua tình trạng ho khan, sốt nhẹ và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho ra máu và ran ẩm, ran nổ ở phổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mệt mỏi, ho khan và sốt về chiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang trải qua tình trạng ho khạc đờm và khó thở kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho ra máu và ran ở vùng phổi. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

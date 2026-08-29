@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_135",
+  "name_vi": "Hẹp Động Mạch Cảnh",
+  "name_en": "Hep Dong Mach Canh",
+  "category": "cardiology",
+  "aliases": [
+    "Hẹp Động Mạch Cảnh",
+    "Hep Dong Mach Canh"
+  ],
+  "description": "Hẹp Động Mạch Cảnh là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi nuốt",
+        "name_en": "kho khan khi nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi đi lại",
+        "name_en": "kho khan khi di lai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nói",
+        "name_en": "kho noi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nói nhưng sau đó lại hết",
+        "name_en": "kho noi nhung sau do lai het",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "liệt nửa người",
+        "name_en": "liet nua nguoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất thăng bằng trong thời gian ngắn",
+        "name_en": "mat thang bang trong thoi gian ngan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất thị lực tạm thời ở một mắt",
+        "name_en": "mat thi luc tam thoi o mot mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất trí nhớ tạm thời",
+        "name_en": "mat tri nho tam thoi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mất ý thức trong thời gian ngắn",
+        "name_en": "mat y thuc trong thoi gian ngan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mờ mắt một bên trong vài phút rồi lại bình thường",
+        "name_en": "mo mat mot ben trong vai phut roi lai binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn cảm giác ở một bên cơ thể",
+        "name_en": "roi loan cam giac o mot ben co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn ngôn ngữ",
+        "name_en": "roi loan ngon ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi tính cách",
+        "name_en": "thay doi tinh cach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì ở mặt",
+        "name_en": "te bi o mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê yếu tay chân một bên",
+        "name_en": "te yeu tay chan mot ben",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu cơ ở một bên mặt",
+        "name_en": "yeu co o mot ben mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu dữ dội",
+        "name_en": "dau dau du doi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Hẹp Động Mạch Cảnh của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hẹp Động Mạch Cảnh",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đột nhiên bị tê yếu tay chân một bên và khó nói nhưng sau đó lại hết. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mờ mắt một bên trong vài phút rồi lại bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chóng mặt và mất thăng bằng trong thời gian ngắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đột nhiên bị đau đầu dữ dội và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tê bì ở mặt và khó khăn khi nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị yếu cơ ở một bên mặt và khó nói. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất thị lực tạm thời ở một mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ù tai và chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị rối loạn cảm giác ở một bên cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất ý thức trong thời gian ngắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị liệt nửa người. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị rối loạn ngôn ngữ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất trí nhớ tạm thời. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thay đổi tính cách. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó khăn khi đi lại. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

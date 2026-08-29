@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_018",
+  "name_vi": "Bệnh Chlamydia",
+  "name_en": "Benh Chlamydia",
+  "category": "general",
+  "aliases": [
+    "Bệnh Chlamydia",
+    "Benh Chlamydia"
+  ],
+  "description": "Bệnh Chlamydia là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu vùng kín bất thường",
+        "name_en": "chay mau vung kin bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có màu vàng hoặc xanh",
+        "name_en": "co mau vang hoac xanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mùi hôi",
+        "name_en": "co mui hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dịch âm đạo bất thường",
+        "name_en": "dich am dao bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng tiểu buốt, tiểu rát và dịch trắng đục tiết ra từ lỗ sáo",
+        "name_en": "hien dang co trieu chung tieu buot, tieu rat va dich trang duc tiet ra tu lo sao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng rát ở mắt",
+        "name_en": "nong rat o mat",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nóng rát ở đầu dương vật",
+        "name_en": "nong rat o dau duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng hạch bạch huyết",
+        "name_en": "sung hach bach huyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng ở tinh hoàn",
+        "name_en": "sung o tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch niệu đạo",
+        "name_en": "tiet dich nieu dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch ở hậu môn",
+        "name_en": "tiet dich o hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng kinh dữ dội",
+        "name_en": "dau bung kinh du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi quan hệ tình dục",
+        "name_en": "dau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát khi đi tiểu",
+        "name_en": "dau rat khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát vùng kín khi đi vệ sinh",
+        "name_en": "dau rat vung kin khi di ve sinh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Chlamydia của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Chlamydia",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có triệu chứng tiểu buốt, tiểu rát và dịch trắng đục tiết ra từ lỗ sáo. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa ngáy và nóng rát ở đầu dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau và sưng ở tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi tạo thấy dịch âm đạo bất thường và có mùi hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị ngứa ngáy và đau rát vùng kín khi đi vệ sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng kèm theo sốt và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi tạo thấy chảy máu vùng kín bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị đau bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó chịu và tiết dịch ở hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau rát khi đi tiểu và tiết dịch niệu đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi tạo thấy dịch âm đạo bất thường, có màu vàng hoặc xanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị đau họng và sưng hạch bạch huyết. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa và nóng rát ở mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng kinh dữ dội. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

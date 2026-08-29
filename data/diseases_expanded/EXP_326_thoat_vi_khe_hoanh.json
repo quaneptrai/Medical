@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_326",
+  "name_vi": "Thoát Vị Khe Hoành",
+  "name_en": "Thoat Vi Khe Hoanh",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Thoát Vị Khe Hoành",
+    "Thoat Vi Khe Hoanh"
+  ],
+  "description": "Thoát Vị Khe Hoành là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác nóng rát sau xương ức khi ăn đồ cay nóng",
+        "name_en": "cam giac nong rat sau xuong uc khi an do cay nong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp vấn đề về hô hấp, khó thở khi nằm ngửa",
+        "name_en": "gap van de ve ho hap, kho tho khi nam ngua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp vấn đề về tiêu hóa, đầy bụng và khó thở",
+        "name_en": "gap van de ve tieu hoa, day bung va kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho nhiều",
+        "name_en": "ho nhieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho nhiều về đêm",
+        "name_en": "ho nhieu ve dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho ra máu",
+        "name_en": "ho ra mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khàn giọng",
+        "name_en": "khan giong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó tiêu",
+        "name_en": "kho tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn ra máu",
+        "name_en": "non ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn sau khi ăn",
+        "name_en": "non sau khi an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thức giấc giữa đêm do ợ nóng",
+        "name_en": "thuc giac giua dem do o nong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trào ngược axit",
+        "name_en": "trao nguoc axit",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trào ngược thức ăn",
+        "name_en": "trao nguoc thuc an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát họng",
+        "name_en": "dau rat hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát sau xương ức",
+        "name_en": "dau rat sau xuong uc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi cầu phân đen",
+        "name_en": "di cau phan den",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy bụng",
+        "name_en": "day bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy hơi",
+        "name_en": "day hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ chua",
+        "name_en": "o chua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ chua sau khi ăn no",
+        "name_en": "o chua sau khi an no",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ hơi",
+        "name_en": "o hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ nóng",
+        "name_en": "o nong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Thoát Vị Khe Hoành của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Thoát Vị Khe Hoành",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ợ nóng, ợ chua và đau rát sau xương ức. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó nuốt, buồn nôn và đau ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị trào ngược thức ăn, ợ hơi và ho nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề về tiêu hóa, đầy bụng và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nôn ra máu, đi cầu phân đen và đau bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ợ nóng, ợ chua sau khi ăn no. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó tiêu, đầy bụng và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau ngực, khó thở và ho nhiều về đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề về giấc ngủ, hay bị thức giấc giữa đêm do ợ nóng, ợ chua. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị trào ngược axit, đau rát họng và khàn giọng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng, buồn nôn và nôn sau khi ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó tiêu, đầy hơi và táo bón. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau ngực, khó thở và ho ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề về hô hấp, khó thở khi nằm ngửa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị trào ngược axit, ợ chua và cảm giác nóng rát sau xương ức khi ăn đồ cay nóng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

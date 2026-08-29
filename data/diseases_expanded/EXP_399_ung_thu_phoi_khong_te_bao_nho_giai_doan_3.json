@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_399",
+  "name_vi": "Ung Thư Phổi Không Tế Bào Nhỏ Giai Đoạn 3",
+  "name_en": "Ung Thu Phoi Khong Te Bao Nho Giai Doan 3",
+  "category": "respiratory",
+  "aliases": [
+    "Ung Thư Phổi Không Tế Bào Nhỏ Giai Đoạn 3",
+    "Ung Thu Phoi Khong Te Bao Nho Giai Doan 3"
+  ],
+  "description": "Ung Thư Phổi Không Tế Bào Nhỏ Giai Đoạn 3 là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho dai dẳng",
+        "name_en": "ho dai dang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho ra máu",
+        "name_en": "ho ra mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hụt hơi",
+        "name_en": "hut hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hụt hơi khi tập thể dục",
+        "name_en": "hut hoi khi tap the duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hụt hơi khi đi bộ",
+        "name_en": "hut hoi khi di bo",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khàn tiếng",
+        "name_en": "khan tieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi leo cầu thang",
+        "name_en": "kho tho khi leo cau thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nuốt khó",
+        "name_en": "nuot kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nuốt nghẹn",
+        "name_en": "nuot nghen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm phế quản kéo dài",
+        "name_en": "viem phe quan keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm phổi tái phát",
+        "name_en": "viem phoi tai phat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực thường xuyên",
+        "name_en": "dau nguc thuong xuyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vai",
+        "name_en": "dau vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau xương sườn",
+        "name_en": "dau xuong suon",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ung Thư Phổi Không Tế Bào Nhỏ Giai Đoạn 3 của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Phổi Không Tế Bào Nhỏ Giai Đoạn 3",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ho, viêm phế quản kéo dài và đau ngực thường xuyên. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy hụt hơi, khó thở khi leo cầu thang và mệt mỏi, chán ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho ra máu, đau ngực và sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như viêm phổi tái phát, khó thở và đau xương sườn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho dai dẳng, nuốt khó và khàn tiếng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ho ra máu, đau vai và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy hụt hơi khi đi bộ, mệt mỏi và sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm phế quản kéo dài, nuốt nghẹn và khàn tiếng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như đau ngực, khó thở và đau xương sườn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho dai dẳng, nuốt khó và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ho ra máu, hụt hơi khi tập thể dục và đau vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, chán ăn và sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm phổi tái phát, nuốt nghẹn và khàn tiếng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như đau ngực, khó thở và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho dai dẳng, đau xương sườn và đau vai. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

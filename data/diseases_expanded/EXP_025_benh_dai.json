@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_025",
+  "name_vi": "Bệnh Dại",
+  "name_en": "Benh Dai",
+  "category": "general",
+  "aliases": [
+    "Bệnh Dại",
+    "Benh Dai"
+  ],
+  "description": "Bệnh Dại là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bỏng rát ở vết cắn của động vật",
+        "name_en": "bong rat o vet can cua dong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bồn chồn",
+        "name_en": "bon chon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật sau khi bị chó cắn",
+        "name_en": "co giat sau khi bi cho can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co thắt cơ bắp",
+        "name_en": "co that co bap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác ngứa ran ở vết cắn",
+        "name_en": "cam giac ngua ran o vet can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hành vi hung hăng sau khi bị cắn",
+        "name_en": "hanh vi hung hang sau khi bi can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hôn mê dần sau khi bị động vật cắn",
+        "name_en": "hon me dan sau khi bi dong vat can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nuốt sau khi bị chó cắn",
+        "name_en": "kho nuot sau khi bi cho can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lú lẫn",
+        "name_en": "lu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngưng tim sau khi bị động vật cắn",
+        "name_en": "ngung tim sau khi bi dong vat can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ran",
+        "name_en": "ngua ran",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ gió",
+        "name_en": "so gio",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ nước sau khi bị chó cắn",
+        "name_en": "so nuoc sau khi bi cho can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ nước sau khi tiếp xúc với động vật hoang dã",
+        "name_en": "so nuoc sau khi tiep xuc voi dong vat hoang da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sủi bọt mép",
+        "name_en": "sui bot mep",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết nhiều nước bọt",
+        "name_en": "tiet nhieu nuoc bot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết nhiều nước bọt sau khi tiếp xúc với động vật",
+        "name_en": "tiet nhieu nuoc bot sau khi tiep xuc voi dong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê liệt cơ",
+        "name_en": "te liet co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê liệt cơ bắt đầu từ vết cắn của động vật",
+        "name_en": "te liet co bat dau tu vet can cua dong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "động vật cắn",
+        "name_en": "dong vat can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ảo giác",
+        "name_en": "ao giac",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Dại của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Dại",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đang cảm thấy bồn chồn, lo lắng và sợ nước sau khi bị chó cắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt cao, đau đầu và cảm giác ngứa ran ở vết cắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi gặp ảo giác và hành vi hung hăng sau khi bị động vật cắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như co thắt cơ bắp, khó thở và tiết nhiều nước bọt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tê liệt cơ bắt đầu từ vết cắn của động vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sợ gió và khó nuốt sau khi bị chó cắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sủi bọt mép và ngưng tim sau khi bị động vật cắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sốt, đau đầu và tê liệt cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ngứa ran và bỏng rát ở vết cắn của động vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị lú lẫn và co giật sau khi bị chó cắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ảo giác và sợ nước sau khi tiếp xúc với động vật hoang dã. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sốt cao, đau đầu và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy bồn chồn và hành vi hung hăng sau khi bị cắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị tê liệt cơ và hôn mê dần sau khi bị động vật cắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị co thắt cơ bắp và tiết nhiều nước bọt sau khi tiếp xúc với động vật. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

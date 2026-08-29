@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_286",
+  "name_vi": "Suy Thận",
+  "name_en": "Suy Than",
+  "category": "urology",
+  "aliases": [
+    "Suy Thận",
+    "Suy Than"
+  ],
+  "description": "Suy Thận là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn ngủ quá mức",
+        "name_en": "buon ngu qua muc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn dai dẳng",
+        "name_en": "buon non dai dang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bàn chân",
+        "name_en": "ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh tiểu đường",
+        "name_en": "benh tieu duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cao huyết áp",
+        "name_en": "cao huyet ap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co rút cơ",
+        "name_en": "co rut co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm lượng nước tiểu",
+        "name_en": "giam luong nuoc tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hôn mê",
+        "name_en": "hon me",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hội chứng tan máu tăng urê máu",
+        "name_en": "hoi chung tan mau tang ure mau",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó thở không rõ nguyên nhân",
+        "name_en": "kho tho khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kém ăn",
+        "name_en": "kem an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù mắt cá chân",
+        "name_en": "phu mat ca chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thiếu máu",
+        "name_en": "thieu mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "uể oải",
+        "name_en": "ue oai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cầu thận",
+        "name_en": "viem cau than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đa u tủy xương",
+        "name_en": "da u tuy xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực hoặc cảm thấy nặng ngực",
+        "name_en": "dau nguc hoac cam thay nang nguc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Suy Thận của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Suy Thận",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như giảm lượng nước tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phù mắt cá chân và bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó thở không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau ngực hoặc cảm thấy nặng ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy buồn ngủ quá mức, mệt mỏi, uể oải. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị kém ăn, buồn nôn dai dẳng và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sụt cân và ngứa ngáy. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy co rút cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị co giật và hôn mê. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như thiếu máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy bệnh tiểu đường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị cao huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm cầu thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy hội chứng tan máu tăng urê máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đa u tủy xương. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

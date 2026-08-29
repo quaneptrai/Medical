@@ -1,0 +1,244 @@
+{
+  "disease_id": "EXP_566",
+  "name_vi": "Ăn Không Tiêu",
+  "name_en": "An Khong Tieu",
+  "category": "general",
+  "aliases": [
+    "Ăn Không Tiêu",
+    "An Khong Tieu"
+  ],
+  "description": "Ăn Không Tiêu là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có vị chua trong miệng",
+        "name_en": "co vi chua trong mieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng",
+        "name_en": "cang thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác khó chịu sau khi ăn đồ béo",
+        "name_en": "cam giac kho chiu sau khi an do beo",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác no nhanh chóng ngay cả khi ăn ít",
+        "name_en": "cam giac no nhanh chong ngay ca khi an it",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác thức ăn không di chuyển xuống được",
+        "name_en": "cam giac thuc an khong di chuyen xuong duoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu ở vùng bụng",
+        "name_en": "kho chiu o vung bung",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tiêu",
+        "name_en": "kho tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng rát ở vùng thượng vị",
+        "name_en": "nong rat o vung thuong vi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn khan",
+        "name_en": "non khan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phân sống",
+        "name_en": "phan song",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thức ăn dường như lâu tiêu hơn bình thường",
+        "name_en": "thuc an duong nhu lau tieu hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón xen kẽ",
+        "name_en": "tao bon xen ke",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xì hơi nhiều",
+        "name_en": "xi hoi nhieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng âm ỉ",
+        "name_en": "dau bung am i",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau quặn bụng sau khi ăn một số loại thức ăn",
+        "name_en": "dau quan bung sau khi an mot so loai thuc an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát thượng vị",
+        "name_en": "dau rat thuong vi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu sau khi dùng thuốc giảm đau",
+        "name_en": "dau dau sau khi dung thuoc giam dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy bụng",
+        "name_en": "day bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy hơi",
+        "name_en": "day hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là khi đói hoặc sau khi uống rượu bia",
+        "name_en": "dac biet la khi doi hoac sau khi uong ruou bia",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt sau khi ăn",
+        "name_en": "dac biet sau khi an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi lạnh sau khi ăn",
+        "name_en": "do mo hoi lanh sau khi an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ chua",
+        "name_en": "o chua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ hơi",
+        "name_en": "o hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ nóng",
+        "name_en": "o nong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ăn Không Tiêu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ăn Không Tiêu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ợ hơi và ợ chua, đặc biệt sau khi ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nóng rát ở vùng thượng vị và thức ăn dường như lâu tiêu hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đầy hơi, buồn nôn và cảm giác no nhanh chóng ngay cả khi ăn ít. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng âm ỉ, khó chịu và cảm giác thức ăn không di chuyển xuống được. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy buồn nôn, nôn khan và có vị chua trong miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ợ hơi, đầy bụng và cảm giác khó chịu sau khi ăn đồ béo. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tiêu chảy, phân sống và đau quặn bụng sau khi ăn một số loại thức ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, chán ăn và sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau rát thượng vị, đặc biệt là khi đói hoặc sau khi uống rượu bia. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như buồn nôn, nôn và đau đầu sau khi dùng thuốc giảm đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy căng thẳng, lo lắng và khó chịu ở vùng bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đầy hơi, khó tiêu và táo bón xen kẽ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ợ nóng, đau ngực và khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy buồn nôn, chóng mặt và đổ mồ hôi lạnh sau khi ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng âm ỉ, đầy hơi và xì hơi nhiều. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_229",
+  "name_vi": "Nữ Hóa Tuyến Vú",
+  "name_en": "Nu Hoa Tuyen Vu",
+  "category": "obstetrics_gynecology",
+  "aliases": [
+    "Nữ Hóa Tuyến Vú",
+    "Nu Hoa Tuyen Vu"
+  ],
+  "description": "Nữ Hóa Tuyến Vú là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Ngực của tôi ngày càng to ra và có cảm giác căng tức",
+        "name_en": "Nguc cua toi ngay cang to ra va co cam giac cang tuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Núm vú của tôi rất nhạy cảm khi cọ xát với quần áo",
+        "name_en": "Num vu cua toi rat nhay cam khi co xat voi quan ao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu khi mặc áo do ngực bị cọ xát",
+        "name_en": "kho chiu khi mac ao do nguc bi co xat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về sự phát triển bất thường của ngực mình",
+        "name_en": "lo lang ve su phat trien bat thuong cua nguc minh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về nguyên nhân gây ra tình trạng ngực to ở nam giới",
+        "name_en": "muon tim hieu ve nguyen nhan gay ra tinh trang nguc to o nam gioi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mô vú của mình bị sưng",
+        "name_en": "mo vu cua minh bi sung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngực mình mềm",
+        "name_en": "nguc minh mem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngực mình to hơn so với những người nam khác",
+        "name_en": "nguc minh to hon so voi nhung nguoi nam khac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngực phát triển bất thường",
+        "name_en": "nguc phat trien bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngực sưng",
+        "name_en": "nguc sung",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ngực to hơn bình thường",
+        "name_en": "nguc to hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm hơn bình thường",
+        "name_en": "nhay cam hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "núm vú",
+        "name_en": "num vu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tự ti về kích thước ngực của mình",
+        "name_en": "tu ti ve kich thuoc nguc cua minh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vùng ngực của mình phát triển bất thường",
+        "name_en": "vung nguc cua minh phat trien bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi sờ vào",
+        "name_en": "dau khi so vao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức ở vùng ngực",
+        "name_en": "dau nhuc o vung nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là khi còn thanh thiếu niên",
+        "name_en": "dac biet la khi con thanh thieu nien",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Nữ Hóa Tuyến Vú của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nữ Hóa Tuyến Vú",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ngực to hơn bình thường và đau ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngực sưng và đau khi sờ vào. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau ngực, đặc biệt là khi còn thanh thiếu niên. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhận thấy mô vú của mình bị sưng. Tôi có thể đang bị bệnh gì?",
+    "Núm vú của tôi rất nhạy cảm khi cọ xát với quần áo. Tôi có thể đang bị bệnh gì?",
+    "Ngực của tôi ngày càng to ra và có cảm giác căng tức. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy vùng ngực của mình phát triển bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhức ở vùng ngực và núm vú. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy ngực mình to hơn so với những người nam khác. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng về sự phát triển bất thường của ngực mình. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy khó chịu khi mặc áo do ngực bị cọ xát. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhận thấy ngực mình mềm và nhạy cảm hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy tự ti về kích thước ngực của mình. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về nguyên nhân gây ra tình trạng ngực to ở nam giới. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng về sức khỏe của mình khi thấy ngực phát triển bất thường. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

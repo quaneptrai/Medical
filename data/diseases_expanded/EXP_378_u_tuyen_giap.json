@@ -1,0 +1,214 @@
+{
+  "disease_id": "EXP_378",
+  "name_vi": "U Tuyến Giáp",
+  "name_en": "U Tuyen Giap",
+  "category": "oncology",
+  "aliases": [
+    "U Tuyến Giáp",
+    "U Tuyen Giap"
+  ],
+  "description": "U Tuyến Giáp là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy máu",
+        "name_en": "chay mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u lành tính dưới da (u bã đậu, u mỡ…) không phải ở tuyến giáp",
+        "name_en": "co khoi u lanh tinh duoi da (u ba dau, u mo...) khong phai o tuyen giap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơn bão giáp trạng",
+        "name_en": "con bao giap trang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm cân không rõ nguyên nhân, tăng tiết mồ hôi, run, lo lắng, nhịp tim nhanh hoặc không đều",
+        "name_en": "giam can khong ro nguyen nhan, tang tiet mo hoi, run, lo lang, nhip tim nhanh hoac khong deu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay mệt mỏi, tê và ngứa ran ở tay, tăng cân, da và tóc khô, thô ráp",
+        "name_en": "hay met moi, te va ngua ran o tay, tang can, da va toc kho, tho rap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạch di căn từ các loại ung thư khác vùng đầu mặt cổ",
+        "name_en": "hach di can tu cac loai ung thu khac vung dau mat co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạch viêm",
+        "name_en": "hach viem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở hoặc khó nuốt do khối u chèn ép vào khí quản hoặc thực quản",
+        "name_en": "kho tho hoac kho nuot do khoi u chen ep vao khi quan hoac thuc quan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không dung nạp nhiệt",
+        "name_en": "khong dung nap nhiet",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khối u chèn ép vào dây thanh quản quặt ngược gây khàn tiếng",
+        "name_en": "khoi u chen ep vao day thanh quan quat nguoc gay khan tieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khối u ở vùng cổ trước",
+        "name_en": "khoi u o vung co truoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khối u ở vùng cổ trước có thể nhìn thấy được",
+        "name_en": "khoi u o vung co truoc co the nhin thay duoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kinh nguyệt ra nhiều",
+        "name_en": "kinh nguyet ra nhieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng hoặc cáu kỉnh",
+        "name_en": "lo lang hoac cau kinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng",
+        "name_en": "nhiem trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn dung nạp glucose",
+        "name_en": "roi loan dung nap glucose",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng to vùng cổ dẫn đến khó nuốt",
+        "name_en": "sung to vung co dan den kho nuot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên",
+        "name_en": "thuong xuyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên rối loạn kinh nguyệt hoặc mất kinh, tiêu chảy và đi tiểu thường xuyên hơn, tăng khẩu vị",
+        "name_en": "thuong xuyen roi loan kinh nguyet hoac mat kinh, tieu chay va di tieu thuong xuyen hon, tang khau vi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trầm cảm",
+        "name_en": "tram cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư dạ dày",
+        "name_en": "ung thu da day",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư phổi",
+        "name_en": "ung thu phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư thực quản",
+        "name_en": "ung thu thuc quan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu cơ",
+        "name_en": "yeu co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu xương",
+        "name_en": "yeu xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vùng cổ",
+        "name_en": "dau vung co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh trống ngực",
+        "name_en": "danh trong nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ U Tuyến Giáp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của U Tuyến Giáp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như khối u ở vùng cổ trước có thể nhìn thấy được. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khối u chèn ép vào dây thanh quản quặt ngược gây khàn tiếng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó thở hoặc khó nuốt do khối u chèn ép vào khí quản hoặc thực quản. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang giảm cân không rõ nguyên nhân, tăng tiết mồ hôi, run, lo lắng, nhịp tim nhanh hoặc không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên rối loạn kinh nguyệt hoặc mất kinh, tiêu chảy và đi tiểu thường xuyên hơn, tăng khẩu vị. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay mệt mỏi, tê và ngứa ran ở tay, tăng cân, da và tóc khô, thô ráp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy táo bón, trầm cảm, kinh nguyệt ra nhiều và thường xuyên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng của cường giáp như đổ mồ hôi, đánh trống ngực và rối loạn dung nạp glucose. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy yếu cơ, yếu xương, không dung nạp nhiệt, lo lắng hoặc cáu kỉnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau vùng cổ, sưng to vùng cổ dẫn đến khó nuốt và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khối u ở vùng cổ trước. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy hạch viêm, hạch di căn từ các loại ung thư khác vùng đầu mặt cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ung thư thực quản, ung thư phổi, ung thư dạ dày. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có khối u lành tính dưới da (u bã đậu, u mỡ…) không phải ở tuyến giáp. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị nhiễm trùng, chảy máu, cơn bão giáp trạng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

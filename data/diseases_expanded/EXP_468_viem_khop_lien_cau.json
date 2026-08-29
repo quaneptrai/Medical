@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_468",
+  "name_vi": "Viêm Khớp Liên Cầu",
+  "name_en": "Viem Khop Lien Cau",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Viêm Khớp Liên Cầu",
+    "Viem Khop Lien Cau"
+  ],
+  "description": "Viêm Khớp Liên Cầu là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "có mụn nhọt gần khớp",
+        "name_en": "co mun nhot gan khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mủ ở khớp",
+        "name_en": "co mu o khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử chọc dò dịch khớp",
+        "name_en": "co tien su choc do dich khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử nhiễm trùng huyết",
+        "name_en": "co tien su nhiem trung huyet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử tiêm khớp",
+        "name_en": "co tien su tiem khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử viêm gân",
+        "name_en": "co tien su viem gan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử viêm đường tiêu hóa",
+        "name_en": "co tien su viem duong tieu hoa",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử viêm đường tiết niệu",
+        "name_en": "co tien su viem duong tiet nieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng sưng, nóng, đỏ ở khớp và có tiền sử chấn thương da",
+        "name_en": "hien dang co trieu chung sung, nong, do o khop va co tien su chan thuong da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau nhức khớp, sưng khớp và có tiền sử viêm bộ phận sinh dục",
+        "name_en": "hien dang co trieu chung dau nhuc khop, sung khop va co tien su viem bo phan sinh duc",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hiện đang có triệu chứng đau nhức khớp, sưng khớp và có tiền sử viêm phổi",
+        "name_en": "hien dang co trieu chung dau nhuc khop, sung khop va co tien su viem phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau nhức khớp, sưng khớp và có tiền sử viêm xương",
+        "name_en": "hien dang co trieu chung dau nhuc khop, sung khop va co tien su viem xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm đề kháng",
+        "name_en": "suy giam de khang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng khớp",
+        "name_en": "sung khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp",
+        "name_en": "dau khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khớp",
+        "name_en": "dau nhuc khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khớp dữ dội",
+        "name_en": "dau nhuc khop du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Khớp Liên Cầu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Khớp Liên Cầu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhức khớp dữ dội, sưng khớp và sốt cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp, sưng khớp và có mủ ở khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt cao, ớn lạnh, mệt mỏi và đau khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng sưng, nóng, đỏ ở khớp và có tiền sử chấn thương da. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp, sưng khớp và có mụn nhọt gần khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức khớp, sưng khớp và có tiền sử viêm gân, cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau nhức khớp, sưng khớp và có tiền sử viêm xương. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp, sưng khớp và có tiền sử viêm đường tiết niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức khớp, sưng khớp và có tiền sử viêm đường tiêu hóa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau nhức khớp, sưng khớp và có tiền sử viêm bộ phận sinh dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp, sưng khớp và có tiền sử chọc dò dịch khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức khớp, sưng khớp và có tiền sử tiêm khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau nhức khớp, sưng khớp và có tiền sử viêm phổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp, sưng khớp và có tiền sử nhiễm trùng huyết. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị suy giảm đề kháng và đau nhức khớp. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_486",
+  "name_vi": "Viêm Mống Mắt",
+  "name_en": "Viem Mong Mat",
+  "category": "ophthalmology",
+  "aliases": [
+    "Viêm Mống Mắt",
+    "Viem Mong Mat"
+  ],
+  "description": "Viêm Mống Mắt là một bệnh lý thuộc chuyên khoa ophthalmology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bệnh giang mai",
+        "name_en": "benh giang mai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh lao",
+        "name_en": "benh lao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh viêm ruột",
+        "name_en": "benh viem ruot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh zona do virus herpes",
+        "name_en": "benh zona do virus herpes",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chấn thương mắt",
+        "name_en": "chan thuong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các bệnh truyền nhiễm khác do virus",
+        "name_en": "cac benh truyen nhiem khac do virus",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "di truyền",
+        "name_en": "di truyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mắc một số bệnh tự miễn do gen di truyền ảnh hưởng đến hệ thống miễn dịch",
+        "name_en": "mac mot so benh tu mien do gen di truyen anh huong den he thong mien dich",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm ký sinh trùng toxoplasmosis",
+        "name_en": "nhiem ky sinh trung toxoplasmosis",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm trùng",
+        "name_en": "nhiem trung",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nhiễm trùng phổi do hít phải bào tử nấm",
+        "name_en": "nhiem trung phoi do hit phai bao tu nam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vi khuẩn",
+        "name_en": "vi khuan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "virus xâm nhập vào một số bộ phận trên mặt",
+        "name_en": "virus xam nhap vao mot so bo phan tren mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cột sống dính khớp",
+        "name_en": "viem cot song dinh khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm khớp",
+        "name_en": "viem khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm màng bồ đào trước",
+        "name_en": "viem mang bo dao truoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mống mắt",
+        "name_en": "viem mong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mống mắt thể mi cấp tính",
+        "name_en": "viem mong mat the mi cap tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mống mắt thể mi mạn tính",
+        "name_en": "viem mong mat the mi man tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm phần trước của màng bồ đào",
+        "name_en": "viem phan truoc cua mang bo dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vảy nến",
+        "name_en": "vay nen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vết loét",
+        "name_en": "vet loet",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Mống Mắt của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Mống Mắt",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như viêm mống mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm màng bồ đào trước. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm phần trước của màng bồ đào. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm mống mắt thể mi cấp tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm mống mắt thể mi mạn tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chấn thương mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhiễm trùng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy virus xâm nhập vào một số bộ phận trên mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị vết loét, bệnh zona do virus herpes. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như các bệnh truyền nhiễm khác do virus và vi khuẩn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nhiễm ký sinh trùng toxoplasmosis, nhiễm trùng phổi do hít phải bào tử nấm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị bệnh lao, bệnh giang mai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như di truyền. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắc một số bệnh tự miễn do gen di truyền ảnh hưởng đến hệ thống miễn dịch. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm cột sống dính khớp, viêm khớp, bệnh viêm ruột và vảy nến. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

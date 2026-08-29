@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_589",
+  "name_vi": "Đau Đầu Vận Mạch",
+  "name_en": "Dau Dau Van Mach",
+  "category": "cardiology",
+  "aliases": [
+    "Đau Đầu Vận Mạch",
+    "Dau Dau Van Mach"
+  ],
+  "description": "Đau Đầu Vận Mạch là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm lạnh",
+        "name_en": "cam lanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kéo dài 30 phút đến 2 tiếng",
+        "name_en": "keo dai 30 phut den 2 tieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kéo dài vài giờ đến vài ngày",
+        "name_en": "keo dai vai gio den vai ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lạm dụng caffeine",
+        "name_en": "lam dung caffeine",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lặp lại thường xuyên",
+        "name_en": "lap lai thuong xuyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn biết cách điều trị",
+        "name_en": "muon biet cach dieu tri",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn biết có phải do vận mạch hay không",
+        "name_en": "muon biet co phai do van mach hay khong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "muốn phân biệt với các loại đau đầu khác",
+        "name_en": "muon phan biet voi cac loai dau dau khac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ngủ",
+        "name_en": "mat ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngay cả vào ban đêm",
+        "name_en": "ngay ca vao ban dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn hormone",
+        "name_en": "roi loan hormone",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng mí mắt",
+        "name_en": "sung mi mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói một bên đầu",
+        "name_en": "dau nhoi mot ben dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng trên mắt hoặc thái dương",
+        "name_en": "dau nhuc vung tren mat hoac thai duong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu do bệnh lý khác",
+        "name_en": "dau dau do benh ly khac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu do cao huyết áp",
+        "name_en": "dau dau do cao huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu do cúm",
+        "name_en": "dau dau do cum",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu do thay đổi thời tiết",
+        "name_en": "dau dau do thay doi thoi tiet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu do tác dụng phụ của thuốc",
+        "name_en": "dau dau do tac dung phu cua thuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu dữ dội",
+        "name_en": "dau dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu từng cụm",
+        "name_en": "dau dau tung cum",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu vận mạch",
+        "name_en": "dau dau van mach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ảnh hưởng thị lực",
+        "name_en": "anh huong thi luc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Đầu Vận Mạch của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Đầu Vận Mạch",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhói một bên đầu, buồn nôn, chóng mặt và ảnh hưởng thị lực. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu dữ dội, kéo dài vài giờ đến vài ngày và lặp lại thường xuyên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu kèm theo rối loạn hormone và mất ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu do thay đổi thời tiết và lạm dụng caffeine. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu do tác dụng phụ của thuốc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu từng cụm, đau nhức vùng trên mắt hoặc thái dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu dữ dội, kéo dài 30 phút đến 2 tiếng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu kèm theo đổ mồ hôi, chảy nước mắt và sưng mí mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu từng cụm, ngay cả vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu do cúm và cảm lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu do cao huyết áp và mất ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu do bệnh lý khác. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu và muốn biết có phải do vận mạch hay không. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu và muốn phân biệt với các loại đau đầu khác. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu vận mạch và muốn biết cách điều trị. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

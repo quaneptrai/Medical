@@ -1,0 +1,149 @@
+{
+  "disease_id": "EXP_129",
+  "name_vi": "Hẹp Bao Quy Đầu",
+  "name_en": "Hep Bao Quy Dau",
+  "category": "neurology",
+  "aliases": [
+    "Hẹp Bao Quy Đầu",
+    "Hep Bao Quy Dau"
+  ],
+  "description": "Hẹp Bao Quy Đầu là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "45 tuổi và bao quy đầu của tôi chỉ tuột được một phần",
+        "name_en": "45 tuoi va bao quy dau cua toi chi tuot duoc mot phan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "50 tuổi và bao quy đầu của tôi chưa bao giờ tuột xuống được",
+        "name_en": "50 tuoi va bao quy dau cua toi chua bao gio tuot xuong duoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Bao quy đầu của con trai tôi 10 tuổi vẫn chưa tuột xuống hoàn toàn",
+        "name_en": "Bao quy dau cua con trai toi 10 tuoi van chua tuot xuong hoan toan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con trai tôi 2 tuổi và bao quy đầu của cháu vẫn dính chặt vào quy đầu",
+        "name_en": "Con trai toi 2 tuoi va bao quy dau cua chau van dinh chat vao quy dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Dương vật của con trai tôi đang phát triển nhanh chóng nhưng bao quy đầu vẫn chưa tuột xuống",
+        "name_en": "Duong vat cua con trai toi dang phat trien nhanh chong nhung bao quy dau van chua tuot xuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bao quy đầu của tôi hẹp",
+        "name_en": "bao quy dau cua toi hep",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hình vẽ người Ai Cập cổ đại đã cắt bao quy đầu từ hàng ngàn năm trước",
+        "name_en": "hinh ve nguoi Ai Cap co dai da cat bao quy dau tu hang ngan nam truoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu khi đi tiểu",
+        "name_en": "kho chiu khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu ở vùng bao quy đầu",
+        "name_en": "kho chiu o vung bao quy dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nghe nói 99% trẻ 17 tuổi có thể tuột bao quy đầu dễ dàng",
+        "name_en": "nghe noi 99% tre 17 tuoi co the tuot bao quy dau de dang",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nghe nói cắt bao quy đầu là một tục lệ phổ biến ở nhiều nơi",
+        "name_en": "nghe noi cat bao quy dau la mot tuc le pho bien o nhieu noi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghe nói hẹp bao quy đầu có thể gây vô sinh. Điều này có đúng không",
+        "name_en": "nghe noi hep bao quy dau co the gay vo sinh. Dieu nay co dung khong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "năm nay 18 tuổi và bao quy đầu của tôi vẫn không thể tuột xuống được",
+        "name_en": "nam nay 18 tuoi va bao quy dau cua toi van khong the tuot xuong duoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "năm nay 30 tuổi và gặp khó khăn khi tuột bao quy đầu",
+        "name_en": "nam nay 30 tuoi va gap kho khan khi tuot bao quy dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đỏ",
+        "name_en": "sung do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi cố gắng tuột bao quy đầu",
+        "name_en": "dau khi co gang tuot bao quy dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Hẹp Bao Quy Đầu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hẹp Bao Quy Đầu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi năm nay 18 tuổi và bao quy đầu của tôi vẫn không thể tuột xuống được. Tôi có thể đang bị bệnh gì?",
+    "Con trai tôi 2 tuổi và bao quy đầu của cháu vẫn dính chặt vào quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghe nói cắt bao quy đầu là một tục lệ phổ biến ở nhiều nơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi năm nay 30 tuổi và gặp khó khăn khi tuột bao quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy hình vẽ người Ai Cập cổ đại đã cắt bao quy đầu từ hàng ngàn năm trước. Tôi có thể đang bị bệnh gì?",
+    "Bao quy đầu của con trai tôi 10 tuổi vẫn chưa tuột xuống hoàn toàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi 45 tuổi và bao quy đầu của tôi chỉ tuột được một phần. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghe nói 99% trẻ 17 tuổi có thể tuột bao quy đầu dễ dàng. Tôi có thể đang bị bệnh gì?",
+    "Dương vật của con trai tôi đang phát triển nhanh chóng nhưng bao quy đầu vẫn chưa tuột xuống. Tôi có thể đang bị bệnh gì?",
+    "Tôi 25 tuổi và cảm thấy đau khi cố gắng tuột bao quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Con trai tôi 5 tuổi và bao quy đầu của cháu bị sưng đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy khó chịu khi đi tiểu và bao quy đầu của tôi hẹp. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghe nói hẹp bao quy đầu có thể gây vô sinh. Điều này có đúng không? Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ngứa ngáy và khó chịu ở vùng bao quy đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi 50 tuổi và bao quy đầu của tôi chưa bao giờ tuột xuống được. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

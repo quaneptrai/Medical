@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_536",
+  "name_vi": "Vô Sinh Hiếm Muộn",
+  "name_en": "Vo Sinh Hiem Muon",
+  "category": "obstetrics_gynecology",
+  "aliases": [
+    "Vô Sinh Hiếm Muộn",
+    "Vo Sinh Hiem Muon"
+  ],
+  "description": "Vô Sinh Hiếm Muộn là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bệnh celiac",
+        "name_en": "benh celiac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có kháng thể kháng tinh trùng và không có con",
+        "name_en": "co khang the khang tinh trung va khong co con",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giãn tĩnh mạch thừng tinh",
+        "name_en": "gian tinh mach thung tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm ham muốn tình dục",
+        "name_en": "giam ham muon tinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không có con",
+        "name_en": "khong co con",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không có thai sau 1 năm quan hệ tình dục thường xuyên",
+        "name_en": "khong co thai sau 1 nam quan he tinh duc thuong xuyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rối loạn cương dương",
+        "name_en": "roi loan cuong duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "teo tinh hoàn",
+        "name_en": "teo tinh hoan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tinh hoàn sưng đau",
+        "name_en": "tinh hoan sung dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tinh hoàn teo hoặc nhỏ lại",
+        "name_en": "tinh hoan teo hoac nho lai",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "tinh hoàn ẩn",
+        "name_en": "tinh hoan an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "từng phẫu thuật thắt ống dẫn tinh",
+        "name_en": "tung phau thuat that ong dan tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "u bướu",
+        "name_en": "u buou",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư",
+        "name_en": "ung thu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đường tiết niệu",
+        "name_en": "viem duong tiet nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện cục hay búi ở tinh hoàn",
+        "name_en": "xuat hien cuc hay bui o tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất tinh ngược dòng",
+        "name_en": "xuat tinh nguoc dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đạt cực khoái nhưng không xuất tinh và không có con",
+        "name_en": "dat cuc khoai nhung khong xuat tinh va khong co con",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Vô Sinh Hiếm Muộn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Vô Sinh Hiếm Muộn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như không có thai sau 1 năm quan hệ tình dục thường xuyên. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giảm ham muốn tình dục và rối loạn cương dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tinh hoàn sưng đau, xuất hiện cục hay búi ở tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tinh hoàn teo hoặc nhỏ lại và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi đạt cực khoái nhưng không xuất tinh và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giãn tĩnh mạch thừng tinh và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị teo tinh hoàn và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tinh hoàn ẩn và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị u bướu và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm đường tiết niệu và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ung thư và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất tinh ngược dòng và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bệnh celiac và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi có kháng thể kháng tinh trùng và không có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi từng phẫu thuật thắt ống dẫn tinh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

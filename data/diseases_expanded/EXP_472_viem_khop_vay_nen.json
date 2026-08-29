@@ -1,0 +1,229 @@
+{
+  "disease_id": "EXP_472",
+  "name_vi": "Viêm Khớp Vảy Nến",
+  "name_en": "Viem Khop Vay Nen",
+  "category": "dermatology",
+  "aliases": [
+    "Viêm Khớp Vảy Nến",
+    "Viem Khop Vay Nen"
+  ],
+  "description": "Viêm Khớp Vảy Nến là một bệnh lý thuộc chuyên khoa dermatology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bong tróc",
+        "name_en": "bong troc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chỉ bị đau ở một bên chân hoặc tay",
+        "name_en": "chi bi dau o mot ben chan hoac tay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử gia đình mắc bệnh vảy nến",
+        "name_en": "co tien su gia dinh mac benh vay nen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tổn thương da vảy nến",
+        "name_en": "co ton thuong da vay nen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng khớp buổi sáng",
+        "name_en": "cung khop buoi sang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng phá hủy sụn khớp, biến dạng khớp và tổn thương da vảy nến",
+        "name_en": "hien dang co trieu chung pha huy sun khop, bien dang khop va ton thuong da vay nen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng sưng phồng ngón tay, ngón chân giống hình xúc xích và đau nhức ở gót chân",
+        "name_en": "hien dang co trieu chung sung phong ngon tay, ngon chan giong hinh xuc xich va dau nhuc o got chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau khớp, cứng khớp vào buổi sáng và có mảng da đỏ có vảy",
+        "name_en": "hien dang co trieu chung dau khop, cung khop vao buoi sang va co mang da do co vay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất tự tin",
+        "name_en": "mat tu tin",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mắt cá chân",
+        "name_en": "mat ca chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngón chân",
+        "name_en": "ngon chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban đỏ có vảy ở khuỷu tay",
+        "name_en": "phat ban do co vay o khuyu tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sút cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng khớp",
+        "name_en": "sung khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đau các khớp",
+        "name_en": "sung dau cac khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tình trạng móng tay dày",
+        "name_en": "tinh trang mong tay day",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "từ cổ đến lưng dưới",
+        "name_en": "tu co den lung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm kết mạc",
+        "name_en": "viem ket mac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm màng bồ đào",
+        "name_en": "viem mang bo dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp",
+        "name_en": "dau khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp dai dẳng",
+        "name_en": "dau khop dai dang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp gối",
+        "name_en": "dau khop goi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp gối cả hai chân",
+        "name_en": "dau khop goi ca hai chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp không đối xứng",
+        "name_en": "dau khop khong doi xung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng dưới",
+        "name_en": "dau lung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau mắt đỏ",
+        "name_en": "dau mat do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khớp",
+        "name_en": "dau nhuc khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức ở các khớp ngón tay",
+        "name_en": "dau nhuc o cac khop ngon tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức ở các điểm bám gân vào xương",
+        "name_en": "dau nhuc o cac diem bam gan vao xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức ở cột sống",
+        "name_en": "dau nhuc o cot song",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là lòng bàn chân",
+        "name_en": "dac biet la long ban chan",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Khớp Vảy Nến của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Khớp Vảy Nến",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau khớp, sưng khớp và phát ban đỏ có vảy ở khuỷu tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức ở các khớp ngón tay và ngón chân, kèm theo tình trạng móng tay dày và bong tróc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau lưng dưới, cứng khớp buổi sáng và có tiền sử gia đình mắc bệnh vảy nến. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng sưng phồng ngón tay, ngón chân giống hình xúc xích và đau nhức ở gót chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, sút cân và đau khớp gối, mắt cá chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm kết mạc, đau mắt đỏ và sưng đau các khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau khớp đối xứng hai bên, ví dụ như đau khớp gối cả hai chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khớp không đối xứng, chỉ bị đau ở một bên chân hoặc tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức ở cột sống, từ cổ đến lưng dưới và có tổn thương da vảy nến. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng phá hủy sụn khớp, biến dạng khớp và tổn thương da vảy nến. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, mất tự tin và đau khớp dai dẳng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức khớp, sưng khớp và có tiền sử gia đình mắc bệnh vảy nến. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau khớp, cứng khớp vào buổi sáng và có mảng da đỏ có vảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức ở các điểm bám gân vào xương, đặc biệt là lòng bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm màng bồ đào, đau mắt đỏ và đau khớp. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

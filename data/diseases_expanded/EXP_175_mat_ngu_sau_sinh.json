@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_175",
+  "name_vi": "Mất Ngủ Sau Sinh",
+  "name_en": "Mat Ngu Sau Sinh",
+  "category": "oncology",
+  "aliases": [
+    "Mất Ngủ Sau Sinh",
+    "Mat Ngu Sau Sinh"
+  ],
+  "description": "Mất Ngủ Sau Sinh là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn ngủ ban ngày nhưng không thể ngủ được",
+        "name_en": "buon ngu ban ngay nhung khong the ngu duoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán nản",
+        "name_en": "chan nan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cô đơn",
+        "name_en": "co don",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ cáu gắt",
+        "name_en": "de cau gat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ gây tai nạn",
+        "name_en": "de gay tai nan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp khó khăn trong việc chăm sóc con vì mất ngủ và mệt mỏi",
+        "name_en": "gap kho khan trong viec cham soc con vi mat ngu va met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay cáu gắt với chồng con vì thiếu ngủ",
+        "name_en": "hay cau gat voi chong con vi thieu ngu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay lo lắng về giấc ngủ và ngủ không an giấc",
+        "name_en": "hay lo lang ve giac ngu va ngu khong an giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay lo lắng về sức khỏe của con và khó ngủ vào ban đêm",
+        "name_en": "hay lo lang ve suc khoe cua con va kho ngu vao ban dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay thức dậy quá sớm và khó ngủ lại",
+        "name_en": "hay thuc day qua som va kho ngu lai",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó ngủ lại sau khi thức giấc",
+        "name_en": "kho ngu lai sau khi thuc giac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó ngủ vào ban đêm",
+        "name_en": "kho ngu vao ban dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kiệt sức vì khó ngủ",
+        "name_en": "kiet suc vi kho ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi sau khi thức giấc",
+        "name_en": "met moi sau khi thuc giac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thiếu sự hỗ trợ vì mất ngủ sau sinh",
+        "name_en": "thieu su ho tro vi mat ngu sau sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thức dậy nhiều lần trong đêm",
+        "name_en": "thuc day nhieu lan trong dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trầm cảm",
+        "name_en": "tram cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tuyệt vọng vì không thể ngủ được",
+        "name_en": "tuyet vong vi khong the ngu duoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ác mộng",
+        "name_en": "ac mong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Mất Ngủ Sau Sinh của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mất Ngủ Sau Sinh",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như khó ngủ vào ban đêm và thức dậy nhiều lần trong đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi sau khi thức giấc và buồn ngủ ban ngày nhưng không thể ngủ được. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thức dậy quá sớm và khó ngủ lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó chịu, dễ cáu gắt và lo lắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay lo lắng về giấc ngủ và ngủ không an giấc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mệt mỏi, khó tập trung và dễ gây tai nạn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy trầm cảm và khó ngủ vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thức giấc giữa đêm và cảm thấy lo lắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy kiệt sức vì khó ngủ và thức dậy nhiều lần trong đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay mơ thấy ác mộng và khó ngủ lại sau khi thức giấc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp khó khăn trong việc chăm sóc con vì mất ngủ và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cáu gắt với chồng con vì thiếu ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chán nản và tuyệt vọng vì không thể ngủ được. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay lo lắng về sức khỏe của con và khó ngủ vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cô đơn và thiếu sự hỗ trợ vì mất ngủ sau sinh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

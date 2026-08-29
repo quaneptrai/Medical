@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_346",
+  "name_vi": "Truyền Máu Song Thai",
+  "name_en": "Truyen Mau Song Thai",
+  "category": "oncology",
+  "aliases": [
+    "Truyền Máu Song Thai",
+    "Truyen Mau Song Thai"
+  ],
+  "description": "Truyền Máu Song Thai là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bụng căng tức khi mang song thai",
+        "name_en": "bung cang tuc khi mang song thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụng to nhanh bất thường khi mang song thai",
+        "name_en": "bung to nhanh bat thuong khi mang song thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chênh lệch kích thước thai nhi khi mang song thai",
+        "name_en": "chenh lech kich thuoc thai nhi khi mang song thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay mang song thai cùng trứng, chung bánh nhau",
+        "name_en": "hay mang song thai cung trung, chung banh nhau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi mang song thai",
+        "name_en": "kho tho khi mang song thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì có thể bị hội chứng truyền máu song thai",
+        "name_en": "lo lang vi co the bi hoi chung truyen mau song thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì truyền máu song thai có thể gây nguy hiểm cho thai nhi",
+        "name_en": "lo lang vi truyen mau song thai co the gay nguy hiem cho thai nhi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì truyền máu song thai có thể gây sinh non",
+        "name_en": "lo lang vi truyen mau song thai co the gay sinh non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì truyền máu song thai có thể gây tổn thương não thai nhi",
+        "name_en": "lo lang vi truyen mau song thai co the gay ton thuong nao thai nhi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lo lắng vì truyền máu song thai có thể gây tử vong thai nhi",
+        "name_en": "lo lang vi truyen mau song thai co the gay tu vong thai nhi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng vì truyền máu song thai cần được chẩn đoán",
+        "name_en": "lo lang vi truyen mau song thai can duoc chan doan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù nề khi mang song thai",
+        "name_en": "phu ne khi mang song thai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy tim khi mang song thai",
+        "name_en": "suy tim khi mang song thai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thiểu ối khi mang song thai",
+        "name_en": "thieu oi khi mang song thai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đa ối",
+        "name_en": "da oi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đa ối khi mang song thai",
+        "name_en": "da oi khi mang song thai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "điều trị sớm",
+        "name_en": "dieu tri som",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Truyền Máu Song Thai của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Truyền Máu Song Thai",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như bụng to nhanh bất thường khi mang song thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở và bụng căng tức khi mang song thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đa ối khi mang song thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì có thể bị hội chứng truyền máu song thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay mang song thai cùng trứng, chung bánh nhau. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì truyền máu song thai có thể gây nguy hiểm cho thai nhi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thiểu ối khi mang song thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì truyền máu song thai có thể gây tử vong thai nhi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phù nề khi mang song thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì truyền máu song thai cần được chẩn đoán và điều trị sớm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị suy tim khi mang song thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì truyền máu song thai có thể gây sinh non. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chênh lệch kích thước thai nhi khi mang song thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì truyền máu song thai có thể gây tổn thương não thai nhi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đa ối và khó thở khi mang song thai. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

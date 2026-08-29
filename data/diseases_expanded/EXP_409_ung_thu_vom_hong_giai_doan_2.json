@@ -1,0 +1,149 @@
+{
+  "disease_id": "EXP_409",
+  "name_vi": "Ung Thư Vòm Họng Giai Đoạn 2",
+  "name_en": "Ung Thu Vom Hong Giai Doan 2",
+  "category": "respiratory",
+  "aliases": [
+    "Ung Thư Vòm Họng Giai Đoạn 2",
+    "Ung Thu Vom Hong Giai Doan 2"
+  ],
+  "description": "Ung Thư Vòm Họng Giai Đoạn 2 là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy dịch mủ ở tai",
+        "name_en": "chay dich mu o tai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy dịch nhầy ở mũi",
+        "name_en": "chay dich nhay o mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu mũi",
+        "name_en": "chay mau mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm thính lực",
+        "name_en": "giam thinh luc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạch cổ cứng",
+        "name_en": "hach co cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạch cổ kích thước lớn",
+        "name_en": "hach co kich thuoc lon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạch cổ ít di động",
+        "name_en": "hach co it di dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạch cổ ấn không đau",
+        "name_en": "hach co an khong dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nổi hạch ở cổ",
+        "name_en": "noi hach o co",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nổi hạch ở một bên cổ",
+        "name_en": "noi hach o mot ben co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tai giữa",
+        "name_en": "viem tai giua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức tai",
+        "name_en": "dau nhuc tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát họng",
+        "name_en": "dau rat hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ung Thư Vòm Họng Giai Đoạn 2 của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Vòm Họng Giai Đoạn 2",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như nghẹt mũi, đau đầu và ù tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giảm thính lực, đau họng và nổi hạch ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu mũi, viêm tai giữa và nổi hạch ở một bên cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như nghẹt mũi, đau nhức tai và hạch cổ cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy dịch nhầy ở mũi, giảm thính lực và nổi hạch ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu, đau rát họng và nổi hạch ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nghẹt mũi, ù tai và hạch cổ ít di động. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu mũi, viêm tai giữa và hạch cổ kích thước lớn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như nghẹt mũi, đau nhức tai và hạch cổ ấn không đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy dịch mủ ở tai, giảm thính lực và nổi hạch ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu, đau họng và hạch cổ cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nghẹt mũi, ù tai và hạch cổ kích thước lớn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu mũi, viêm tai giữa và hạch cổ ấn không đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như nghẹt mũi, đau nhức tai và hạch cổ ít di động. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy dịch nhầy ở mũi, giảm thính lực và hạch cổ kích thước lớn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

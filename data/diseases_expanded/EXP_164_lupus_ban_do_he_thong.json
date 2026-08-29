@@ -1,0 +1,239 @@
+{
+  "disease_id": "EXP_164",
+  "name_vi": "Lupus Ban Đỏ Hệ Thống",
+  "name_en": "Lupus Ban Do He Thong",
+  "category": "general",
+  "aliases": [
+    "Lupus Ban Đỏ Hệ Thống",
+    "Lupus Ban Do He Thong"
+  ],
+  "description": "Lupus Ban Đỏ Hệ Thống là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm tiểu cầu",
+        "name_en": "giam tieu cau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho ra máu",
+        "name_en": "ho ra mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khô miệng",
+        "name_en": "kho mieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khô mắt",
+        "name_en": "kho mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "loét miệng",
+        "name_en": "loet mieng",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi kéo dài",
+        "name_en": "met moi keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngón tay tím tái khi lạnh",
+        "name_en": "ngon tay tim tai khi lanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với ánh sáng mặt trời",
+        "name_en": "nhay cam voi anh sang mat troi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban da khi tiếp xúc ánh nắng",
+        "name_en": "phat ban da khi tiep xuc anh nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban hình cánh bướm trên mặt",
+        "name_en": "phat ban hinh canh buom tren mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban trên da",
+        "name_en": "phat ban tren da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rụng tóc",
+        "name_en": "rung toc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm trí nhớ",
+        "name_en": "suy giam tri nho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng hạch bạch huyết",
+        "name_en": "sung hach bach huyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng phù chân",
+        "name_en": "sung phu chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ về chiều",
+        "name_en": "sot nhe ve chieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi tính cách",
+        "name_en": "thay doi tinh cach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thiếu máu",
+        "name_en": "thieu mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì chân tay",
+        "name_en": "te bi chan tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau cơ",
+        "name_en": "dau co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp",
+        "name_en": "dau khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp vào buổi sáng",
+        "name_en": "dau khop vao buoi sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức cơ",
+        "name_en": "dau nhuc co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Lupus Ban Đỏ Hệ Thống của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Lupus Ban Đỏ Hệ Thống",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau khớp, mệt mỏi và sốt nhẹ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức cơ, rụng tóc và phát ban hình cánh bướm trên mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khớp vào buổi sáng, mệt mỏi kéo dài và sưng hạch bạch huyết. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khô mắt, khô miệng và phát ban trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu, loét miệng và nhạy cảm với ánh sáng mặt trời. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khớp, sưng phù chân và ngón tay tím tái khi lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khó thở, ho ra máu và đau ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, thiếu máu và giảm tiểu cầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng, buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như thay đổi tính cách, suy giảm trí nhớ và co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tê bì chân tay, đau nhức cơ và sốt nhẹ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị rụng tóc, loét miệng và phát ban da khi tiếp xúc ánh nắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau khớp, sưng hạch bạch huyết và mệt mỏi kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau cơ, khó thở và ho khan. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sụt cân, chán ăn và sốt nhẹ về chiều. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

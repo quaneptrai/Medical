@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_220",
+  "name_vi": "Nhồi Máu Cơ Tim Thất Phải",
+  "name_en": "Nhoi Mau Co Tim That Phai",
+  "category": "cardiology",
+  "aliases": [
+    "Nhồi Máu Cơ Tim Thất Phải",
+    "Nhoi Mau Co Tim That Phai"
+  ],
+  "description": "Nhồi Máu Cơ Tim Thất Phải là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn khi căng thẳng",
+        "name_en": "buon non khi cang thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn khi gắng sức",
+        "name_en": "buon non khi gang suc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn khi hút thuốc",
+        "name_en": "buon non khi hut thuoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co thắt",
+        "name_en": "co that",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng giãn tĩnh mạch",
+        "name_en": "cang gian tinh mach",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giãn tĩnh mạch",
+        "name_en": "gian tinh mach",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạ huyết áp",
+        "name_en": "ha huyet ap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạ huyết áp khi thay đổi tư thế",
+        "name_en": "ha huyet ap khi thay doi tu the",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hạ huyết áp khi uống rượu bia",
+        "name_en": "ha huyet ap khi uong ruou bia",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù động mạch ngoại biên",
+        "name_en": "phu dong mach ngoai bien",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù động mạch ngoại biên cấp tính",
+        "name_en": "phu dong mach ngoai bien cap tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phổi trong",
+        "name_en": "phoi trong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn chức năng thất phải",
+        "name_en": "roi loan chuc nang that phai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn nhịp tim",
+        "name_en": "roi loan nhip tim",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tụt huyết áp",
+        "name_en": "tut huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tụt huyết áp khi hoạt động mạnh",
+        "name_en": "tut huyet ap khi hoat dong manh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tụt huyết áp sau khi vận động",
+        "name_en": "tut huyet ap sau khi van dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tụt huyết áp sau khi ăn",
+        "name_en": "tut huyet ap sau khi an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Nhồi Máu Cơ Tim Thất Phải của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nhồi Máu Cơ Tim Thất Phải",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau ngực, khó thở và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chóng mặt, rối loạn nhịp tim và tụt huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phù động mạch ngoại biên cấp tính và căng giãn tĩnh mạch. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị giãn tĩnh mạch, phổi trong và hạ huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau ngực, co thắt và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị rối loạn nhịp tim, tụt huyết áp và phù động mạch ngoại biên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị căng giãn tĩnh mạch, rối loạn chức năng thất phải và hạ huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau ngực, khó thở và buồn nôn khi gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chóng mặt, rối loạn nhịp tim và tụt huyết áp sau khi vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phù động mạch ngoại biên, căng giãn tĩnh mạch và hạ huyết áp khi thay đổi tư thế. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau ngực, khó thở và buồn nôn khi căng thẳng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chóng mặt, rối loạn nhịp tim và tụt huyết áp sau khi ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phù động mạch ngoại biên, căng giãn tĩnh mạch và hạ huyết áp khi uống rượu bia. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau ngực, khó thở và buồn nôn khi hút thuốc. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chóng mặt, rối loạn nhịp tim và tụt huyết áp khi hoạt động mạnh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

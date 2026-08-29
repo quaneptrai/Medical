@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_232",
+  "name_vi": "Phì Đại Tuyến Tiền Liệt",
+  "name_en": "Phi Dai Tuyen Tien Liet",
+  "category": "urology",
+  "aliases": [
+    "Phì Đại Tuyến Tiền Liệt",
+    "Phi Dai Tuyen Tien Liet"
+  ],
+  "description": "Phì Đại Tuyến Tiền Liệt là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bàng quang luôn căng tức",
+        "name_en": "bang quang luon cang tuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có máu trong nước tiểu khi đi tiểu",
+        "name_en": "co mau trong nuoc tieu khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác mót tiểu liên tục",
+        "name_en": "cam giac mot tieu lien tuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dòng nước tiểu của mình bị phân nhánh",
+        "name_en": "dong nuoc tieu cua minh bi phan nhanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gây ảnh hưởng đến chức năng tiểu tiện",
+        "name_en": "gay anh huong den chuc nang tieu tien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp khó khăn khi bắt đầu đi tiểu và dòng nước tiểu chảy rất chậm",
+        "name_en": "gap kho khan khi bat dau di tieu va dong nuoc tieu chay rat cham",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay phải rặn khi đi tiểu và cảm giác bàng quang không được làm trống hoàn toàn",
+        "name_en": "hay phai ran khi di tieu va cam giac bang quang khong duoc lam trong hoan toan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện tại tôi cũng đang gặp các triệu chứng tương tự",
+        "name_en": "hien tai toi cung dang gap cac trieu chung tuong tu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về việc tiểu không kiểm soát và đôi khi són tiểu",
+        "name_en": "lo lang ve viec tieu khong kiem soat va doi khi son tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mót tiểu",
+        "name_en": "mot tieu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ngắt quãng",
+        "name_en": "ngat quang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng đường tiết niệu",
+        "name_en": "nhiem trung duong tiet nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhưng lượng nước tiểu mỗi lần lại rất ít",
+        "name_en": "nhung luong nuoc tieu moi lan lai rat it",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phì đại",
+        "name_en": "phi dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phì đại tuyến tiền liệt",
+        "name_en": "phi dai tuyen tien liet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "són tiểu khi ho hoặc hắt hơi",
+        "name_en": "son tieu khi ho hoac hat hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên thức dậy nhiều lần vào ban đêm để đi tiểu, ảnh hưởng đến giấc ngủ",
+        "name_en": "thuong xuyen thuc day nhieu lan vao ban dem de di tieu, anh huong den giac ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tia nước tiểu yếu",
+        "name_en": "tia nuoc tieu yeu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu nhiều lần",
+        "name_en": "tieu nhieu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu nhiều lần trong đêm",
+        "name_en": "tieu nhieu lan trong dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu rắt",
+        "name_en": "tieu rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu đêm",
+        "name_en": "tieu dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "triệu chứng tiểu buốt",
+        "name_en": "trieu chung tieu buot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "triệu chứng tiểu khó",
+        "name_en": "trieu chung tieu kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu đi",
+        "name_en": "yeu di",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vùng bụng dưới",
+        "name_en": "dau vung bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "điều này khiến tôi rất lo lắng",
+        "name_en": "dieu nay khien toi rat lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đôi khi còn bị bí tiểu",
+        "name_en": "doi khi con bi bi tieu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Phì Đại Tuyến Tiền Liệt của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Phì Đại Tuyến Tiền Liệt",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như tiểu nhiều lần trong đêm và cảm giác mót tiểu liên tục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tia nước tiểu yếu và ngắt quãng, đôi khi còn bị bí tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay phải rặn khi đi tiểu và cảm giác bàng quang không được làm trống hoàn toàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên thức dậy nhiều lần vào ban đêm để đi tiểu, ảnh hưởng đến giấc ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi gặp khó khăn khi bắt đầu đi tiểu và dòng nước tiểu chảy rất chậm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang lo lắng về việc tiểu không kiểm soát và đôi khi són tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nhiễm trùng đường tiết niệu kèm theo triệu chứng tiểu buốt và tiểu rắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhận thấy có máu trong nước tiểu khi đi tiểu, điều này khiến tôi rất lo lắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi trên 60 tuổi và bắt đầu gặp các vấn đề về tiểu tiện như tiểu đêm, tiểu nhiều lần. Tôi có thể đang bị bệnh gì?",
+    "Cha tôi từng bị phì đại tuyến tiền liệt, và hiện tại tôi cũng đang gặp các triệu chứng tương tự. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy bàng quang luôn căng tức và mót tiểu, nhưng lượng nước tiểu mỗi lần lại rất ít. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng về việc tuyến tiền liệt của mình có thể đang bị phì đại, gây ảnh hưởng đến chức năng tiểu tiện. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau vùng bụng dưới kèm theo triệu chứng tiểu khó. Tôi có thể đang bị bệnh gì?",
+    "Tôi gặp khó khăn khi trì hoãn việc đi tiểu và thường xuyên bị són tiểu khi ho hoặc hắt hơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhận thấy dòng nước tiểu của mình bị phân nhánh và yếu đi. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

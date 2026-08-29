@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_327",
+  "name_vi": "Thuyên Tắc Ối",
+  "name_en": "Thuyen Tac Oi",
+  "category": "general",
+  "aliases": [
+    "Thuyên Tắc Ối",
+    "Thuyen Tac Oi"
+  ],
+  "description": "Thuyên Tắc Ối là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chuyển dạ và đột nhiên khó thở, tím tái",
+        "name_en": "chuyen da va dot nhien kho tho, tim tai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu ở nhiều nơi",
+        "name_en": "chay mau o nhieu noi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lú lẫn",
+        "name_en": "lu lan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mang thai lần 2 và thai nhi khá lớn",
+        "name_en": "mang thai lan 2 va thai nhi kha lon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mang thai và lo lắng, hốt hoảng, khó thở và nôn mửa",
+        "name_en": "mang thai va lo lang, hot hoang, kho tho va non mua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mang thai và tim ngừng đập, ngừng thở",
+        "name_en": "mang thai va tim ngung dap, ngung tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mang thai ở tuổi 38",
+        "name_en": "mang thai o tuoi 38",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mang đa thai",
+        "name_en": "mang da thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhau thai bất thường",
+        "name_en": "nhau thai bat thuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "phù phổi",
+        "name_en": "phu phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù phổi cấp",
+        "name_en": "phu phoi cap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sau đó bất tỉnh",
+        "name_en": "sau do bat tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy gan",
+        "name_en": "suy gan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy hô hấp",
+        "name_en": "suy ho hap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy thận",
+        "name_en": "suy than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốc giảm thể tích tuần hoàn",
+        "name_en": "soc giam the tich tuan hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiền sản giật",
+        "name_en": "tien san giat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tụt huyết áp",
+        "name_en": "tut huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vỡ ối",
+        "name_en": "vo oi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đái tháo đường",
+        "name_en": "dai thao duong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đờ tử cung",
+        "name_en": "do tu cung",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Thuyên Tắc Ối của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Thuyên Tắc Ối",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đang chuyển dạ và đột nhiên khó thở, tím tái. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị vỡ ối, sau đó bất tỉnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai lần 2 và thai nhi khá lớn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị tiền sản giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi mang thai ở tuổi 38. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang đa thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhau thai bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và lo lắng, hốt hoảng, khó thở và nôn mửa. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị đái tháo đường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị tụt huyết áp, phù phổi, lú lẫn và co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị chảy máu ở nhiều nơi, đờ tử cung. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và tim ngừng đập, ngừng thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị sốc giảm thể tích tuần hoàn, suy gan, suy thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị phù phổi cấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi vừa mổ lấy thai và bị suy hô hấp. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

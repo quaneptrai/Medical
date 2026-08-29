@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_211",
+  "name_vi": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+  "name_en": "Nhiem Trung Ban Chan Tieu Duong",
+  "category": "urology",
+  "aliases": [
+    "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Nhiem Trung Ban Chan Tieu Duong"
+  ],
+  "description": "Nhiễm Trùng Bàn Chân Tiểu Đường là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "cổ cứng",
+        "name_en": "co cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có dịch tiết và đau nhức ở vết loét bàn chân",
+        "name_en": "hien dang co dich tiet va dau nhuc o vet loet ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoại tử một phần bàn chân",
+        "name_en": "hoai tu mot phan ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hụt hơi",
+        "name_en": "hut hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan rộng",
+        "name_en": "lan rong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mô đen bao quanh vết loét ở bàn chân",
+        "name_en": "mo den bao quanh vet loet o ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất cảm giác ở bàn chân",
+        "name_en": "mat cam giac o ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nhạy cảm",
+        "name_en": "nhay cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng rát ở bàn chân",
+        "name_en": "nong rat o ban chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng hạch bạch huyết",
+        "name_en": "sung hach bach huyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy",
+        "name_en": "sung tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi màu sắc da ở bàn chân",
+        "name_en": "thay doi mau sac da o ban chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì",
+        "name_en": "te bi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vết thương ở bàn chân lâu lành",
+        "name_en": "vet thuong o ban chan lau lanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức lan lên cẳng chân",
+        "name_en": "dau nhuc lan len cang chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ở bàn chân",
+        "name_en": "o ban chan",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Nhiễm Trùng Bàn Chân Tiểu Đường của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có vết thương ở bàn chân bị đỏ và lan rộng, kèm theo đau và nhạy cảm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sốt, ớn lạnh và đổ mồ hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị hụt hơi và nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có vết loét mới xuất hiện ở bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tê bì và mất cảm giác ở bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mô đen bao quanh vết loét ở bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có dịch tiết và đau nhức ở vết loét bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sốt cao và cổ cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng tấy và nóng rát ở bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như hoại tử một phần bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức lan lên cẳng chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị vết thương ở bàn chân lâu lành. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sốt, ớn lạnh và sưng hạch bạch huyết. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thay đổi màu sắc da ở bàn chân. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

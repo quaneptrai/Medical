@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_369",
+  "name_vi": "U Mềm Treo",
+  "name_en": "U Mem Treo",
+  "category": "oncology",
+  "aliases": [
+    "U Mềm Treo",
+    "U Mem Treo"
+  ],
+  "description": "U Mềm Treo là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "có cuống",
+        "name_en": "co cuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cần phẫu thuật",
+        "name_en": "can phau thuat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cần điều trị",
+        "name_en": "can dieu tri",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hậu môn",
+        "name_en": "hau mon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu khi u mềm treo xuất hiện ở mí mắt",
+        "name_en": "kho chiu khi u mem treo xuat hien o mi mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu ở những nốt sần trên da",
+        "name_en": "kho chiu o nhung not san tren da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kích thước ngày càng lớn",
+        "name_en": "kich thuoc ngay cang lon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì có thể bị u mềm treo",
+        "name_en": "lo lang vi co the bi u mem treo",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì u mềm treo có thể gây biến chứng",
+        "name_en": "lo lang vi u mem treo co the gay bien chung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì u mềm treo có thể tái phát",
+        "name_en": "lo lang vi u mem treo co the tai phat",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "màu đen",
+        "name_en": "mau den",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất thẩm mỹ vì các nốt sần xuất hiện ở vùng mặt",
+        "name_en": "mat tham my vi cac not san xuat hien o vung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nách",
+        "name_en": "nach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nâu",
+        "name_en": "nau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi các nốt sần trên da",
+        "name_en": "noi cac not san tren da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi các nốt sần ở vùng cổ",
+        "name_en": "noi cac not san o vung co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi các nốt sần ở vùng da tiếp xúc nhiều với ánh nắng",
+        "name_en": "noi cac not san o vung da tiep xuc nhieu voi anh nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi các nốt sần ở vùng sinh dục",
+        "name_en": "noi cac not san o vung sinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện các nốt sần trên da",
+        "name_en": "xuat hien cac not san tren da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đớn ở những nốt sần trên da",
+        "name_en": "dau don o nhung not san tren da",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ U Mềm Treo của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của U Mềm Treo",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như xuất hiện các nốt sần trên da, màu đen, nâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa ngáy, khó chịu ở những nốt sần trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi các nốt sần ở vùng cổ, nách. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì có thể bị u mềm treo. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi các nốt sần trên da, có cuống. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mất thẩm mỹ vì các nốt sần xuất hiện ở vùng mặt, cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi các nốt sần ở vùng da tiếp xúc nhiều với ánh nắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì u mềm treo có thể gây biến chứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi các nốt sần trên da, kích thước ngày càng lớn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đớn ở những nốt sần trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi các nốt sần trên da và cần điều trị. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì u mềm treo có thể tái phát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi các nốt sần ở vùng sinh dục và hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó chịu khi u mềm treo xuất hiện ở mí mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi các nốt sần trên da và cần phẫu thuật. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

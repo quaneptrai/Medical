@@ -1,0 +1,219 @@
+{
+  "disease_id": "EXP_235",
+  "name_vi": "Phế Cầu Khuẩn",
+  "name_en": "Phe Cau Khuan",
+  "category": "oncology",
+  "aliases": [
+    "Phế Cầu Khuẩn",
+    "Phe Cau Khuan"
+  ],
+  "description": "Phế Cầu Khuẩn là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bỏ bú",
+        "name_en": "bo bu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy dịch vàng từ tai",
+        "name_en": "chay dich vang tu tai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng cổ",
+        "name_en": "cung co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang sốt cao",
+        "name_en": "hien dang sot cao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho có đờm",
+        "name_en": "ho co dom",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho có đờm xanh hoặc vàng",
+        "name_en": "ho co dom xanh hoac vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho nhiều",
+        "name_en": "ho nhieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho ra máu",
+        "name_en": "ho ra mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kéo tai",
+        "name_en": "keo tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lú lẫn",
+        "name_en": "lu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lơ mơ",
+        "name_en": "lo mo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm HIV",
+        "name_en": "nhiem HIV",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với ánh sáng, đau đầu, nôn mửa và sốt cao",
+        "name_en": "nhay cam voi anh sang, dau dau, non mua va sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa",
+        "name_en": "non mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "quấy khóc",
+        "name_en": "quay khoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rét run",
+        "name_en": "ret run",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm thính lực",
+        "name_en": "suy giam thinh luc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực dữ dội",
+        "name_en": "dau nguc du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức cơ thể",
+        "name_en": "dau nhuc co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tai",
+        "name_en": "dau tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu dữ dội",
+        "name_en": "dau dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Phế Cầu Khuẩn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Phế Cầu Khuẩn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đang bị sốt cao, rét run, ho có đờm và đau ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt cao, quấy khóc, kéo tai và bỏ bú. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau đầu dữ dội, nôn mửa, sốt cao và cứng cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm HIV và hiện đang sốt cao, rét run, lơ mơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho nhiều, khó thở, đau ngực và sốt cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy dịch vàng từ tai, sốt và quấy khóc. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhạy cảm với ánh sáng, đau đầu, nôn mửa và sốt cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt, ớn lạnh, mệt mỏi và đau nhức cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho ra máu, khó thở và đau ngực dữ dội. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau tai, sốt và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị cứng cổ, đau đầu, buồn nôn và sốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy giảm thính lực, đau tai và sốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho có đờm xanh hoặc vàng, sốt và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiêu chảy, sốt và kéo tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau đầu, lú lẫn và sốt cao. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

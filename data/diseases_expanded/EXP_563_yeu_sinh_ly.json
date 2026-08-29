@@ -1,0 +1,149 @@
+{
+  "disease_id": "EXP_563",
+  "name_vi": "Yếu Sinh Lý",
+  "name_en": "Yeu Sinh Ly",
+  "category": "oncology",
+  "aliases": [
+    "Yếu Sinh Lý",
+    "Yeu Sinh Ly"
+  ],
+  "description": "Yếu Sinh Lý là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "béo phì",
+        "name_en": "beo phi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng không đủ lâu",
+        "name_en": "cung khong du lau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật khó cương cứng",
+        "name_en": "duong vat kho cuong cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm ham muốn tình dục",
+        "name_en": "giam ham muon tinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị rối loạn cương dương",
+        "name_en": "hien dang bi roi loan cuong duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị suy giảm ham muốn",
+        "name_en": "hien dang bi suy giam ham muon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "huyết áp cao",
+        "name_en": "huyet ap cao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không thỏa mãn sau khi xuất tinh",
+        "name_en": "khong thoa man sau khi xuat tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rối loạn cương dương",
+        "name_en": "roi loan cuong duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rối loạn lipid máu",
+        "name_en": "roi loan lipid mau",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "suy giảm ham muốn",
+        "name_en": "suy giam ham muon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "teo tinh hoàn",
+        "name_en": "teo tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu đường",
+        "name_en": "tieu duong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư dương vật",
+        "name_en": "ung thu duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư tinh hoàn",
+        "name_en": "ung thu tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất tinh sớm",
+        "name_en": "xuat tinh som",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi quan hệ",
+        "name_en": "dau khi quan he",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Yếu Sinh Lý của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Yếu Sinh Lý",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như giảm ham muốn tình dục, rối loạn cương dương và xuất tinh sớm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khi quan hệ và không thỏa mãn sau khi xuất tinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị dương vật khó cương cứng, cứng không đủ lâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi trên 40 tuổi và hiện đang bị suy giảm ham muốn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị béo phì và hiện đang bị rối loạn cương dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị rối loạn lipid máu và hiện đang bị suy giảm ham muốn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiểu đường và hiện đang bị rối loạn cương dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị huyết áp cao và hiện đang bị suy giảm ham muốn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị teo tinh hoàn và hiện đang bị suy giảm ham muốn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ung thư tinh hoàn và hiện đang bị rối loạn cương dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ung thư dương vật và hiện đang bị rối loạn cương dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi từng phẫu thuật vùng xương chậu và hiện đang bị rối loạn cương dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi từng phẫu thuật tủy sống và hiện đang bị rối loạn cương dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang sử dụng thuốc an thần và hiện đang bị suy giảm ham muốn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang sử dụng thuốc chống trầm cảm và hiện đang bị suy giảm ham muốn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_199",
+  "name_vi": "Ngộ Độc Botulinum",
+  "name_en": "Ngo Doc Botulinum",
+  "category": "general",
+  "aliases": [
+    "Ngộ Độc Botulinum",
+    "Ngo Doc Botulinum"
+  ],
+  "description": "Ngộ Độc Botulinum là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy nước dãi",
+        "name_en": "chay nuoc dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có phản xạ kém và tiếng khóc yếu",
+        "name_en": "co phan xa kem va tieng khoc yeu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ thể mệt mỏi",
+        "name_en": "co the met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ thể yếu đi",
+        "name_en": "co the yeu di",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp tình trạng nhìn đôi và khô miệng",
+        "name_en": "gap tinh trang nhin doi va kho mieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp tình trạng yếu cơ và khó nuốt",
+        "name_en": "gap tinh trang yeu co va kho nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở và chảy nước dãi nhiều",
+        "name_en": "kho tho va chay nuoc dai nhieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhìn mờ",
+        "name_en": "nhin mo",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nói lắp",
+        "name_en": "noi lap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa",
+        "name_en": "non mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phản xạ kém",
+        "name_en": "phan xa kem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụp mí mắt",
+        "name_en": "sup mi mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiếng khóc yếu ớt (Tôi)",
+        "name_en": "tieng khoc yeu ot (Toi)",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê liệt chân tay",
+        "name_en": "te liet chan tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu cơ",
+        "name_en": "yeu co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn chậm",
+        "name_en": "an cham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn kém",
+        "name_en": "an kem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn kém, sụp mí mắt và khó thở",
+        "name_en": "an kem, sup mi mat va kho tho",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ngộ Độc Botulinum của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ngộ Độc Botulinum",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sụp mí mắt, chảy nước dãi và tiếng khóc yếu ớt (Tôi). Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó nuốt và yếu cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị táo bón và phản xạ kém. Tôi có thể đang bị bệnh gì?",
+    "Tôi ăn kém, sụp mí mắt và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp tình trạng nhìn đôi và khô miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy cơ thể yếu đi và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sụp mí mắt và ăn chậm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nôn mửa và tê liệt chân tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nói lắp và khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi có phản xạ kém và tiếng khóc yếu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sụp mí mắt và nhìn mờ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị táo bón và ăn kém. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó thở và chảy nước dãi nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp tình trạng yếu cơ và khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy cơ thể mệt mỏi và phản xạ kém. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

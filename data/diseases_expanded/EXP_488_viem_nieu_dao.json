@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_488",
+  "name_vi": "Viêm Niệu Đạo",
+  "name_en": "Viem Nieu Dao",
+  "category": "oncology",
+  "aliases": [
+    "Viêm Niệu Đạo",
+    "Viem Nieu Dao"
+  ],
+  "description": "Viêm Niệu Đạo là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Chlamydia",
+        "name_en": "Chlamydia",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "HSV-2)",
+        "name_en": "HSV-2)",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Klebsiella",
+        "name_en": "Klebsiella",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Proteus",
+        "name_en": "Proteus",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chấn thương niệu đạo",
+        "name_en": "chan thuong nieu dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các thủ thuật thực hiện qua đường tiểu",
+        "name_en": "cac thu thuat thuc hien qua duong tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các vi khuẩn gram âm đường ruột như: E Coli",
+        "name_en": "cac vi khuan gram am duong ruot nhu: E Coli",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nội soi bàng quang",
+        "name_en": "noi soi bang quang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sỏi hay dị vật trong niệu đạo",
+        "name_en": "soi hay di vat trong nieu dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tiết dịch niệu đạo",
+        "name_en": "tiet dich nieu dao",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "vi khuẩn lậu (Neisseria gonorrhoeae)",
+        "name_en": "vi khuan lau (Neisseria gonorrhoeae)",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "virus herpes simplex (HSV-1",
+        "name_en": "virus herpes simplex (HSV-1",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cấp tính hay mạn tính của niệu đạo",
+        "name_en": "viem cap tinh hay man tinh cua nieu dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm niệu đạo",
+        "name_en": "viem nieu dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm niệu đạo do lậu cầu",
+        "name_en": "viem nieu dao do lau cau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm niệu đạo do vi khuẩn",
+        "name_en": "viem nieu dao do vi khuan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm niệu đạo không do lậu",
+        "name_en": "viem nieu dao khong do lau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi tiểu tiện",
+        "name_en": "dau khi tieu tien",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặt thông tiểu",
+        "name_en": "dat thong tieu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Niệu Đạo của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Niệu Đạo",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như viêm niệu đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm cấp tính hay mạn tính của niệu đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiết dịch niệu đạo và đau khi tiểu tiện. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm niệu đạo do vi khuẩn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chấn thương niệu đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị các thủ thuật thực hiện qua đường tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đặt thông tiểu, nội soi bàng quang. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sỏi hay dị vật trong niệu đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm niệu đạo do vi khuẩn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm niệu đạo do lậu cầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm niệu đạo không do lậu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị vi khuẩn lậu (Neisseria gonorrhoeae). Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như Chlamydia. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy các vi khuẩn gram âm đường ruột như: E Coli, Klebsiella, Proteus. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị virus herpes simplex (HSV-1, HSV-2). Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_335",
+  "name_vi": "Tinh Trùng Yếu",
+  "name_en": "Tinh Trung Yeu",
+  "category": "general",
+  "aliases": [
+    "Tinh Trùng Yếu",
+    "Tinh Trung Yeu"
+  ],
+  "description": "Tinh Trùng Yếu là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Tinh dịch của tôi có màu nâu và tôi đau bụng, đau tức dương vật",
+        "name_en": "Tinh dich cua toi co mau nau va toi dau bung, dau tuc duong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Tinh dịch của tôi có màu vàng hoặc xanh",
+        "name_en": "Tinh dich cua toi co mau vang hoac xanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Tinh dịch của tôi vón cục và có hạt trắng nhỏ",
+        "name_en": "Tinh dich cua toi von cuc va co hat trang nho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Tinh dịch của tôi đông đặc và khó hóa lỏng",
+        "name_en": "Tinh dich cua toi dong dac va kho hoa long",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "béo phì",
+        "name_en": "beo phi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh lậu hoặc HIV",
+        "name_en": "benh lau hoac HIV",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng",
+        "name_en": "cang thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giãn tĩnh mạch thừng tinh",
+        "name_en": "gian tinh mach thung tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khối u",
+        "name_en": "khoi u",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lạm dụng rượu bia và hút thuốc lá",
+        "name_en": "lam dung ruou bia va hut thuoc la",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mất cân bằng nội tiết tố",
+        "name_en": "mat can bang noi tiet to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phơi nhiễm với tia xạ",
+        "name_en": "phoi nhiem voi tia xa",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm",
+        "name_en": "suy giam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên tiếp xúc với hóa chất công nghiệp và kim loại nặng",
+        "name_en": "thuong xuyen tiep xuc voi hoa chat cong nghiep va kim loai nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thừa cân",
+        "name_en": "thua can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trầm cảm kéo dài",
+        "name_en": "tram cam keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mào tinh hoàn",
+        "name_en": "viem mao tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tinh hoàn",
+        "name_en": "viem tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất tinh dịch loãng và số lượng ít",
+        "name_en": "xuat tinh dich loang va so luong it",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Tinh Trùng Yếu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Tinh Trùng Yếu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi xuất tinh dịch loãng và số lượng ít. Tôi có thể đang bị bệnh gì?",
+    "Tinh dịch của tôi vón cục và có hạt trắng nhỏ. Tôi có thể đang bị bệnh gì?",
+    "Tinh dịch của tôi đông đặc và khó hóa lỏng. Tôi có thể đang bị bệnh gì?",
+    "Tinh dịch của tôi có màu vàng hoặc xanh. Tôi có thể đang bị bệnh gì?",
+    "Tinh dịch của tôi có màu nâu và tôi đau bụng, đau tức dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giãn tĩnh mạch thừng tinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm mào tinh hoàn và viêm tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bệnh lậu hoặc HIV. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khối u và mất cân bằng nội tiết tố. Tôi có thể đang bị bệnh gì?",
+    "Tôi sử dụng thuốc điều trị và khả năng sinh sản bị suy giảm. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên tiếp xúc với hóa chất công nghiệp và kim loại nặng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phơi nhiễm với tia xạ. Tôi có thể đang bị bệnh gì?",
+    "Tôi lạm dụng rượu bia và hút thuốc lá. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị căng thẳng, trầm cảm kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thừa cân, béo phì. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

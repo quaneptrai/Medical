@@ -1,0 +1,219 @@
+{
+  "disease_id": "EXP_063",
+  "name_vi": "Bệnh Trĩ Ngoại",
+  "name_en": "Benh Tri Ngoai",
+  "category": "digestive",
+  "aliases": [
+    "Bệnh Trĩ Ngoại",
+    "Benh Tri Ngoai"
+  ],
+  "description": "Bệnh Trĩ Ngoại là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Hậu môn của tôi sưng đỏ và có cảm giác cộm, đặc biệt là khi ngồi",
+        "name_en": "Hau mon cua toi sung do va co cam giac com, dac biet la khi ngoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "búi trĩ huyết khối",
+        "name_en": "bui tri huyet khoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "búi trĩ phình to",
+        "name_en": "bui tri phinh to",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "búi trĩ sa ra ngoài hậu môn",
+        "name_en": "bui tri sa ra ngoai hau mon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu",
+        "name_en": "chay mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu khi đi tiêu",
+        "name_en": "chay mau khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu khi đi vệ sinh",
+        "name_en": "chay mau khi di ve sinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có màu xanh tím",
+        "name_en": "co mau xanh tim",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác mót rặn",
+        "name_en": "cam giac mot ran",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác ngứa ngáy",
+        "name_en": "cam giac ngua ngay",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "cảm giác nóng rát",
+        "name_en": "cam giac nong rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "gây đau đớn",
+        "name_en": "gay dau don",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó chịu ở hậu môn",
+        "name_en": "kho chiu o hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi ngồi hoặc đi lại",
+        "name_en": "kho khan khi ngoi hoac di lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không thể tự thụt vào",
+        "name_en": "khong the tu thut vao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa xung quanh hậu môn",
+        "name_en": "ngua xung quanh hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nứt rát kẽ hậu môn",
+        "name_en": "nut rat ke hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rất dễ bị vỡ khi cọ xát",
+        "name_en": "rat de bi vo khi co xat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đau",
+        "name_en": "sung dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thấy búi trĩ sa ra ngoài",
+        "name_en": "thay bui tri sa ra ngoai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thấy búi trĩ sa ra ngoài sau khi đi tiêu",
+        "name_en": "thay bui tri sa ra ngoai sau khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch nhầy ở cửa hậu môn",
+        "name_en": "tiet dich nhay o cua hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tức ở hậu môn",
+        "name_en": "tuc o hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện mô trông như thịt thừa ở hậu môn",
+        "name_en": "xuat hien mo trong nhu thit thua o hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát",
+        "name_en": "dau rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát hậu môn",
+        "name_en": "dau rat hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát hậu môn âm ỉ cả ngày",
+        "name_en": "dau rat hau mon am i ca ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi ngoài ra máu đỏ tươi",
+        "name_en": "di ngoai ra mau do tuoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là khi ngồi",
+        "name_en": "dac biet la khi ngoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Trĩ Ngoại của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Trĩ Ngoại",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đi ngoài ra máu đỏ tươi và cảm giác mót rặn, tức ở hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau rát hậu môn âm ỉ cả ngày, đặc biệt là khi ngồi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa xung quanh hậu môn và thấy búi trĩ sa ra ngoài sau khi đi tiêu. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy xuất hiện mô trông như thịt thừa ở hậu môn và cảm giác nóng rát. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có búi trĩ màu đỏ, bên trong chứa nhiều mạch máu và thường xuyên bị đau rát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa và đau rát hậu môn, kèm theo chảy máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy búi trĩ phình to, có màu xanh tím và gây đau đớn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị búi trĩ huyết khối và rất dễ bị vỡ khi cọ xát. Tôi có thể đang bị bệnh gì?",
+    "Hậu môn của tôi sưng đỏ và có cảm giác cộm, đặc biệt là khi ngồi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy máu khi đi tiêu và thấy búi trĩ sa ra ngoài. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa ngáy và khó chịu ở hậu môn, kèm theo chảy máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy búi trĩ sa ra ngoài hậu môn và không thể tự thụt vào. Tôi có thể đang bị bệnh gì?",
+    "Hậu môn của tôi bị sưng đau, khó khăn khi ngồi hoặc đi lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nứt rát kẽ hậu môn và chảy máu khi đi vệ sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiết dịch nhầy ở cửa hậu môn và cảm giác ngứa ngáy. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

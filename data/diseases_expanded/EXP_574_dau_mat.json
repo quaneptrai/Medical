@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_574",
+  "name_vi": "Đau Mắt",
+  "name_en": "Dau Mat",
+  "category": "oncology",
+  "aliases": [
+    "Đau Mắt",
+    "Dau Mat"
+  ],
+  "description": "Đau Mắt là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy dịch màu vàng hoặc xanh lá cây",
+        "name_en": "chay dich mau vang hoac xanh la cay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt sống",
+        "name_en": "chay nuoc mat song",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có cảm giác có dị vật trong mắt",
+        "name_en": "co cam giac co di vat trong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác cộm",
+        "name_en": "cam giac com",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khô",
+        "name_en": "kho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không thể di chuyển mắt",
+        "name_en": "khong the di chuyen mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mỏi mắt",
+        "name_en": "moi mat",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mờ mắt",
+        "name_en": "mo mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhãn cầu lồi",
+        "name_en": "nhan cau loi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mờ",
+        "name_en": "nhin mo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn thấy quầng sáng hoặc hào quang xung quanh đèn",
+        "name_en": "nhin thay quang sang hoac hao quang xung quanh den",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn đôi",
+        "name_en": "nhin doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm ánh sáng",
+        "name_en": "nhay cam anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhức mắt âm ỉ",
+        "name_en": "nhuc mat am i",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhức đầu",
+        "name_en": "nhuc dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng mí mắt",
+        "name_en": "sung mi mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau mắt",
+        "name_en": "dau mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau mắt dữ dội",
+        "name_en": "dau mat du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau mắt khi đọc sách hoặc làm việc trên máy tính",
+        "name_en": "dau mat khi doc sach hoac lam viec tren may tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau mắt sau khi đeo kính áp tròng",
+        "name_en": "dau mat sau khi deo kinh ap trong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau sâu bên trong mắt",
+        "name_en": "dau sau ben trong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Mắt của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Mắt",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như khô và đau mắt, kèm theo cảm giác cộm và chảy nước mắt sống. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa, đỏ và đau mắt, kèm theo chảy nước mắt và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau mắt dữ dội, kèm theo nhìn mờ và nhạy cảm ánh sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhức mắt âm ỉ, kèm theo đau sâu bên trong mắt và mỏi mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau mắt và có cảm giác có dị vật trong mắt, kèm theo khó chịu và chảy nước mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau mắt, kèm theo buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau mắt, kèm theo nhãn cầu lồi và không thể di chuyển mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau mắt, kèm theo mờ mắt và nhạy cảm ánh sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau mắt sau khi đeo kính áp tròng, kèm theo đỏ và ngứa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau mắt, kèm theo chảy dịch màu vàng hoặc xanh lá cây. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau mắt, kèm theo sưng mí mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau mắt khi đọc sách hoặc làm việc trên máy tính, kèm theo mỏi mắt và nhức đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau mắt, kèm theo nhìn đôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau mắt, kèm theo nhìn thấy quầng sáng hoặc hào quang xung quanh đèn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau mắt, kèm theo đau đầu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_584",
+  "name_vi": "Đau Tinh Hoàn",
+  "name_en": "Dau Tinh Hoan",
+  "category": "oncology",
+  "aliases": [
+    "Đau Tinh Hoàn",
+    "Dau Tinh Hoan"
+  ],
+  "description": "Đau Tinh Hoàn là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bầm tím ở bìu",
+        "name_en": "bam tim o biu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bề mặt bìu bóng đỏ",
+        "name_en": "be mat biu bong do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cục u ở bìu",
+        "name_en": "cuc u o biu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau tinh hoàn, kèm theo buồn nôn và nôn",
+        "name_en": "hien dang trai qua con dau tinh hoan, kem theo buon non va non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau tinh hoàn, kèm theo khó chịu khi đi lại",
+        "name_en": "hien dang trai qua con dau tinh hoan, kem theo kho chiu khi di lai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau tinh hoàn, kèm theo thay đổi màu sắc bìu",
+        "name_en": "hien dang trai qua con dau tinh hoan, kem theo thay doi mau sac biu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "máu trong nước tiểu",
+        "name_en": "mau trong nuoc tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng rát",
+        "name_en": "nong rat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sau đó âm ỉ",
+        "name_en": "sau do am i",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sưng bìu",
+        "name_en": "sung biu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sưng tấy",
+        "name_en": "sung tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu buốt",
+        "name_en": "tieu buot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau buốt tinh hoàn",
+        "name_en": "dau buot tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi quan hệ tình dục",
+        "name_en": "dau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói ở lưng lan xuống tinh hoàn",
+        "name_en": "dau nhoi o lung lan xuong tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tinh hoàn",
+        "name_en": "dau tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tinh hoàn ngày càng trầm trọng",
+        "name_en": "dau tinh hoan ngay cang tram trong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu thường xuyên",
+        "name_en": "di tieu thuong xuyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầu dương vật",
+        "name_en": "dau duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Tinh Hoàn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Tinh Hoàn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau buốt tinh hoàn, sau đó âm ỉ, kèm theo bầm tím ở bìu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau tinh hoàn ngày càng trầm trọng, kèm theo sưng tấy và bề mặt bìu bóng đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhói ở lưng lan xuống tinh hoàn và đầu dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau tinh hoàn, kèm theo buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau tinh hoàn, kèm theo sốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tinh hoàn, kèm theo đi tiểu thường xuyên và nóng rát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau tinh hoàn, kèm theo xuất hiện cục u ở bìu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau tinh hoàn, kèm theo máu trong nước tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tinh hoàn, kèm theo sưng bìu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau tinh hoàn, kèm theo khó chịu khi đi lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau tinh hoàn, kèm theo đau bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tinh hoàn, kèm theo sốt và ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau tinh hoàn, kèm theo thay đổi màu sắc bìu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau tinh hoàn, kèm theo đau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tinh hoàn, kèm theo tiểu buốt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "disease_id": "EXP_595",
+  "name_vi": "Đái Tiểu Ra Máu",
+  "name_en": "Dai Tieu Ra Mau",
+  "category": "urology",
+  "aliases": [
+    "Đái Tiểu Ra Máu",
+    "Dai Tieu Ra Mau"
+  ],
+  "description": "Đái Tiểu Ra Máu là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụng dưới hoặc thắt lưng",
+        "name_en": "bung duoi hoac that lung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mùi hôi",
+        "name_en": "co mui hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác nóng rát khi đi tiểu",
+        "name_en": "cam giac nong rat khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dòng nước tiểu yếu",
+        "name_en": "dong nuoc tieu yeu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mặt",
+        "name_en": "mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngắt quãng",
+        "name_en": "ngat quang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nước tiểu màu hồng nhạt",
+        "name_en": "nuoc tieu mau hong nhat",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nước tiểu đục",
+        "name_en": "nuoc tieu duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù nề chân",
+        "name_en": "phu ne chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rét run",
+        "name_en": "ret run",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đau tinh hoàn",
+        "name_en": "sung dau tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu khó",
+        "name_en": "tieu kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu nhiều lần",
+        "name_en": "tieu nhieu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu ra máu",
+        "name_en": "tieu ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu ra máu sau khi quan hệ tình dục",
+        "name_en": "tieu ra mau sau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu ra máu sau khi tập thể dục nặng",
+        "name_en": "tieu ra mau sau khi tap the duc nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu rắt",
+        "name_en": "tieu rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xanh xao",
+        "name_en": "xanh xao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng hoặc lưng dưới cùng lúc tiểu ra máu",
+        "name_en": "dau bung hoac lung duoi cung luc tieu ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi xuất tinh",
+        "name_en": "dau khi xuat tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi đi tiểu",
+        "name_en": "dau khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng dữ dội",
+        "name_en": "dau lung du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vùng xương chậu",
+        "name_en": "dau vung xuong chau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở vùng chậu",
+        "name_en": "dau o vung chau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu buốt",
+        "name_en": "di tieu buot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu ra máu",
+        "name_en": "di tieu ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đái Tiểu Ra Máu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đái Tiểu Ra Máu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đi tiểu ra máu, nước tiểu màu hồng nhạt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau ở vùng chậu, bụng dưới hoặc thắt lưng kèm theo tiểu ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị buồn nôn, nôn, sốt, ớn lạnh và đau bụng hoặc lưng dưới cùng lúc tiểu ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đi tiểu buốt, tiểu rắt và tiểu nhiều lần. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, xanh xao và sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khi xuất tinh, tiểu ra máu sau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tiểu ra máu, kèm theo sưng đau tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau lưng dữ dội, kèm theo tiểu ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiểu ra máu, kèm theo sốt cao và rét run. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tiểu ra máu, kèm theo nước tiểu đục và có mùi hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tiểu khó, dòng nước tiểu yếu và ngắt quãng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiểu ra máu, kèm theo cảm giác nóng rát khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tiểu ra máu, kèm theo phù nề chân và mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khi đi tiểu, tiểu ra máu sau khi tập thể dục nặng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiểu ra máu, kèm theo đau vùng xương chậu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

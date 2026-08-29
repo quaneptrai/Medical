@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_038",
+  "name_vi": "Bệnh Lậu",
+  "name_en": "Benh Lau",
+  "category": "general",
+  "aliases": [
+    "Bệnh Lậu",
+    "Benh Lau"
+  ],
+  "description": "Bệnh Lậu là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy máu bất thường",
+        "name_en": "chay mau bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu bất thường giữa các kỳ kinh",
+        "name_en": "chay mau bat thuong giua cac ky kinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cổ họng ngứa ngáy",
+        "name_en": "co hong ngua ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cổ họng đau rát",
+        "name_en": "co hong dau rat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tiểu",
+        "name_en": "kho tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lỗ sáo dương vật tiết dịch màu trắng",
+        "name_en": "lo sao duong vat tiet dich mau trang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tiết dịch màu vàng hoặc xanh lá cây từ lỗ sáo",
+        "name_en": "tiet dich mau vang hoac xanh la cay tu lo sao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tiết dịch màu vàng từ âm đạo",
+        "name_en": "tiet dich mau vang tu am dao",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "tiết dịch màu xanh từ lỗ sáo",
+        "name_en": "tiet dich mau xanh tu lo sao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch âm đạo",
+        "name_en": "tiet dich am dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trải qua tình trạng hậu môn ngứa và tiết dịch",
+        "name_en": "trai qua tinh trang hau mon ngua va tiet dich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trải qua tình trạng hậu môn ngứa, tiết dịch và đau khi đại tiện",
+        "name_en": "trai qua tinh trang hau mon ngua, tiet dich va dau khi dai tien",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trải qua tình trạng đau bụng dưới và đau khi quan hệ",
+        "name_en": "trai qua tinh trang dau bung duoi va dau khi quan he",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trải qua tình trạng đau khi quan hệ tình dục và tiểu buốt",
+        "name_en": "trai qua tinh trang dau khi quan he tinh duc va tieu buot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xương chậu",
+        "name_en": "xuong chau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi đi tiểu",
+        "name_en": "dau khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát khi đi tiểu",
+        "name_en": "dau rat khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau sưng tinh hoàn",
+        "name_en": "dau sung tinh hoan",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Lậu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Lậu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như lỗ sáo dương vật tiết dịch màu trắng và đau rát khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó tiểu và đau sưng tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiết dịch màu vàng hoặc xanh lá cây từ lỗ sáo. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau bụng dưới và xương chậu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang trải qua tình trạng đau khi quan hệ tình dục và tiểu buốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu bất thường giữa các kỳ kinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy cổ họng ngứa ngáy, khó chịu và khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang trải qua tình trạng hậu môn ngứa, tiết dịch và đau khi đại tiện. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiết dịch màu vàng từ âm đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau rát khi đi tiểu và khó tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang trải qua tình trạng đau bụng dưới và đau khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu bất thường và tiết dịch âm đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy cổ họng đau rát và khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang trải qua tình trạng hậu môn ngứa và tiết dịch. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khi đi tiểu và tiết dịch màu xanh từ lỗ sáo. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

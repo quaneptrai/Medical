@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_487",
+  "name_vi": "Viêm Niêm Mạc Dạ Dày",
+  "name_en": "Viem Niem Mac Da Day",
+  "category": "digestive",
+  "aliases": [
+    "Viêm Niêm Mạc Dạ Dày",
+    "Viem Niem Mac Da Day"
+  ],
+  "description": "Viêm Niêm Mạc Dạ Dày là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "NSAID",
+        "name_en": "NSAID",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Steroid",
+        "name_en": "Steroid",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bao gồm cả Lympho",
+        "name_en": "bao gom ca Lympho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chuyển sản",
+        "name_en": "chuyen san",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng",
+        "name_en": "cang thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoặc chịu tác động của vi khuẩn",
+        "name_en": "hoac chiu tac dong cua vi khuan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kích ứng",
+        "name_en": "kich ung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "loạn sản",
+        "name_en": "loan san",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lạm dụng thuốc giảm đau",
+        "name_en": "lam dung thuoc giam dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lớp bảo vệ niêm mạc bị tổn thương",
+        "name_en": "lop bao ve niem mac bi ton thuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lớp niêm mạc bao tử dần trở nên mỏng hơn do các tế bào bị phá hủy bởi cơ chế phản ứng miễn dịch",
+        "name_en": "lop niem mac bao tu dan tro nen mong hon do cac te bao bi pha huy boi co che phan ung mien dich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm vi khuẩn gây bệnh",
+        "name_en": "nhiem vi khuan gay benh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "niêm mạc dạ dày bị viêm hoặc sưng đột ngột",
+        "name_en": "niem mac da day bi viem hoac sung dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy yếu",
+        "name_en": "suy yeu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thức ăn cay",
+        "name_en": "thuc an cay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu thụ chất kích thích",
+        "name_en": "tieu thu chat kich thich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tổn thương",
+        "name_en": "ton thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tổn thương niêm mạc dạ dày dai dẳng",
+        "name_en": "ton thuong niem mac da day dai dang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư dạ dày",
+        "name_en": "ung thu da day",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "virus",
+        "name_en": "virus",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm",
+        "name_en": "viem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao tử",
+        "name_en": "viem bao tu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm niêm mạc dạ dày cấp tính",
+        "name_en": "viem niem mac da day cap tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm niêm mạc dạ dày mãn tính",
+        "name_en": "viem niem mac da day man tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tiến triển tới giai đoạn teo niêm mạc",
+        "name_en": "viem tien trien toi giai doan teo niem mac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn mòn niêm mạc dạ dày",
+        "name_en": "an mon niem mac da day",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Niêm Mạc Dạ Dày của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Niêm Mạc Dạ Dày",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như viêm, kích ứng, ăn mòn niêm mạc dạ dày. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm bao tử. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị lớp bảo vệ niêm mạc bị tổn thương và suy yếu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhiễm vi khuẩn gây bệnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lạm dụng thuốc giảm đau, viêm niêm mạc dạ dày cấp tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm niêm mạc dạ dày mãn tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm niêm mạc dạ dày cấp tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy niêm mạc dạ dày bị viêm hoặc sưng đột ngột. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tổn thương, căng thẳng, tiêu thụ chất kích thích. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như NSAID, Steroid, thức ăn cay, hoặc chịu tác động của vi khuẩn, virus. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm niêm mạc dạ dày mãn tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm và tổn thương niêm mạc dạ dày dai dẳng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như lớp niêm mạc bao tử dần trở nên mỏng hơn do các tế bào bị phá hủy bởi cơ chế phản ứng miễn dịch, bao gồm cả Lympho. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm tiến triển tới giai đoạn teo niêm mạc, chuyển sản và loạn sản. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ung thư dạ dày. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

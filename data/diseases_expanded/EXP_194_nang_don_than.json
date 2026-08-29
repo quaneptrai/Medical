@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_194",
+  "name_vi": "Nang Đơn Thận",
+  "name_en": "Nang Don Than",
+  "category": "urology",
+  "aliases": [
+    "Nang Đơn Thận",
+    "Nang Don Than"
+  ],
+  "description": "Nang Đơn Thận là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bí tiểu",
+        "name_en": "bi tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụng to lên bất thường",
+        "name_en": "bung to len bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy lo lắng",
+        "name_en": "cam thay lo lang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "huyết áp cao hơn bình thường",
+        "name_en": "huyet ap cao hon binh thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "huyết áp tăng cao",
+        "name_en": "huyet ap tang cao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "một khối u ở vùng bụng",
+        "name_en": "mot khoi u o vung bung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nước tiểu có màu đục",
+        "name_en": "nuoc tieu co mau duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nặng vùng thắt lưng",
+        "name_en": "nang vung that lung",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thận to hơn bình thường khi đi khám sức khỏe",
+        "name_en": "than to hon binh thuong khi di kham suc khoe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu ra máu",
+        "name_en": "tieu ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu rắt",
+        "name_en": "tieu rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng sau khi gặp chấn thương",
+        "name_en": "dau bung sau khi gap chan thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng trên",
+        "name_en": "dau bung tren",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu nhiều lần",
+        "name_en": "di tieu nhieu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Nang Đơn Thận của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nang Đơn Thận",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau bụng trên và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nặng vùng thắt lưng và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt và ớn lạnh kèm theo đau bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy huyết áp cao hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi sờ thấy một khối u ở vùng bụng và cảm thấy lo lắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bí tiểu và tiểu rắt, kèm theo đau bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nước tiểu có màu đục và đi tiểu nhiều lần. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng sau khi gặp chấn thương. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy thận to hơn bình thường khi đi khám sức khỏe. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng và đi tiểu nhiều lần. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mệt mỏi và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiểu ra máu và cảm thấy lo lắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy bụng to lên bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng và sốt cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy huyết áp tăng cao và đau lưng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

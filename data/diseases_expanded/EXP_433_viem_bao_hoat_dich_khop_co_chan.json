@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_433",
+  "name_vi": "Viêm Bao Hoạt Dịch Khớp Cổ Chân",
+  "name_en": "Viem Bao Hoat Dich Khop Co Chan",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Viêm Bao Hoạt Dịch Khớp Cổ Chân",
+    "Viem Bao Hoat Dich Khop Co Chan"
+  ],
+  "description": "Viêm Bao Hoạt Dịch Khớp Cổ Chân là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Streptococci hoặc một số loại nấm gây hại",
+        "name_en": "Streptococci hoac mot so loai nam gay hai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chạy",
+        "name_en": "chay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơn đau trở nên dữ dội khi thực hiện động tác co lại hoặc duỗi ra do các cơ bị nén",
+        "name_en": "con dau tro nen du doi khi thuc hien dong tac co lai hoac duoi ra do cac co bi nen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy khó khăn khi thực hiện các hoạt động chịu trọng lượng như chạy",
+        "name_en": "cam thay kho khan khi thuc hien cac hoat dong chiu trong luong nhu chay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cổ chân bị căng cứng",
+        "name_en": "co chan bi cang cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhảy… gây áp lực lên khớp cổ chân",
+        "name_en": "nhay... gay ap luc len khop co chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng",
+        "name_en": "nong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phạm vi chuyển động của cổ chân bị hạn chế",
+        "name_en": "pham vi chuyen dong cua co chan bi han che",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phạm vi cử động của khớp bị thu hẹp",
+        "name_en": "pham vi cu dong cua khop bi thu hep",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "viêm bao hoạt dịch do nhiễm trùng với nhiệt độ trên da tăng lên",
+        "name_en": "viem bao hoat dich do nhiem trung voi nhiet do tren da tang len",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "viêm bao hoạt dịch khớp cổ chân do bệnh lý như gút",
+        "name_en": "viem bao hoat dich khop co chan do benh ly nhu gut",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao hoạt dịch khớp cổ chân do cổ chân bị chấn thương hoặc va chạm mạnh",
+        "name_en": "viem bao hoat dich khop co chan do co chan bi chan thuong hoac va cham manh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao hoạt dịch khớp cổ chân do khớp cổ chân đã bị chấn thương trước đó",
+        "name_en": "viem bao hoat dich khop co chan do khop co chan da bi chan thuong truoc do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao hoạt dịch khớp cổ chân do mang giày không vừa vặn",
+        "name_en": "viem bao hoat dich khop co chan do mang giay khong vua van",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao hoạt dịch khớp cổ chân do nhiễm trùng do Staphylococcus Aureus",
+        "name_en": "viem bao hoat dich khop co chan do nhiem trung do Staphylococcus Aureus",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao hoạt dịch khớp cổ chân do tập luyện thể thao",
+        "name_en": "viem bao hoat dich khop co chan do tap luyen the thao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao hoạt dịch khớp cổ chân do vận động quá mức hoặc thực hiện các động tác lặp đi lặp lại như đi bộ",
+        "name_en": "viem bao hoat dich khop co chan do van dong qua muc hoac thuc hien cac dong tac lap di lap lai nhu di bo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao hoạt dịch mạn tính thường xảy ra do các chấn thương lặp đi lặp lại hoặc khớp chịu áp lực quá lớn",
+        "name_en": "viem bao hoat dich man tinh thuong xay ra do cac chan thuong lap di lap lai hoac khop chiu ap luc qua lon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm khớp dạng thấp",
+        "name_en": "viem khop dang thap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vùng da cổ chân bị sưng",
+        "name_en": "vung da co chan bi sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau dữ dội khi vận động",
+        "name_en": "dau du doi khi van dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi sờ nắn",
+        "name_en": "dau khi so nan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng phía sau cổ chân",
+        "name_en": "dau nhuc vung phia sau co chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi giày cao gót… gây áp lực lên cổ chân",
+        "name_en": "di giay cao got... gay ap luc len co chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi khập khiễng",
+        "name_en": "di khap khieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là thực hiện động tác leo lên cao nhưng không khởi động kỹ trước đó",
+        "name_en": "dac biet la thuc hien dong tac leo len cao nhung khong khoi dong ky truoc do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đứng",
+        "name_en": "dung",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Bao Hoạt Dịch Khớp Cổ Chân của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Bao Hoạt Dịch Khớp Cổ Chân",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhức vùng phía sau cổ chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đi khập khiễng, phạm vi chuyển động của cổ chân bị hạn chế. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị cổ chân bị căng cứng, vùng da cổ chân bị sưng, đỏ và nóng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như cảm thấy khó khăn khi thực hiện các hoạt động chịu trọng lượng như chạy, đứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khi sờ nắn, phạm vi cử động của khớp bị thu hẹp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau dữ dội khi vận động, cơn đau trở nên dữ dội khi thực hiện động tác co lại hoặc duỗi ra do các cơ bị nén. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm bao hoạt dịch do nhiễm trùng với nhiệt độ trên da tăng lên. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm bao hoạt dịch mạn tính thường xảy ra do các chấn thương lặp đi lặp lại hoặc khớp chịu áp lực quá lớn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm bao hoạt dịch khớp cổ chân do vận động quá mức hoặc thực hiện các động tác lặp đi lặp lại như đi bộ, chạy, nhảy… gây áp lực lên khớp cổ chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm bao hoạt dịch khớp cổ chân do tập luyện thể thao, đặc biệt là thực hiện động tác leo lên cao nhưng không khởi động kỹ trước đó. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm bao hoạt dịch khớp cổ chân do mang giày không vừa vặn, đi giày cao gót… gây áp lực lên cổ chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm bao hoạt dịch khớp cổ chân do nhiễm trùng do Staphylococcus Aureus, Streptococci hoặc một số loại nấm gây hại. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm bao hoạt dịch khớp cổ chân do khớp cổ chân đã bị chấn thương trước đó. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm bao hoạt dịch khớp cổ chân do bệnh lý như gút, viêm khớp dạng thấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm bao hoạt dịch khớp cổ chân do cổ chân bị chấn thương hoặc va chạm mạnh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "disease_id": "EXP_102",
+  "name_vi": "Cường Giáp",
+  "name_en": "Cuong Giap",
+  "category": "general",
+  "aliases": [
+    "Cường Giáp",
+    "Cuong Giap"
+  ],
+  "description": "Cường Giáp là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bồn chồn",
+        "name_en": "bon chon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chói mắt",
+        "name_en": "choi mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ thể mệt mỏi",
+        "name_en": "co the met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ thể nóng hơn bình thường",
+        "name_en": "co the nong hon binh thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da mỏng",
+        "name_en": "da mong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da nóng",
+        "name_en": "da nong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ cáu gắt",
+        "name_en": "de cau gat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ gãy",
+        "name_en": "de gay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp vấn đề rối loạn kinh nguyệt và sụt cân nhanh mặc dù ăn uống bình thường",
+        "name_en": "gap van de roi loan kinh nguyet va sut can nhanh mac du an uong binh thuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hồi hộp",
+        "name_en": "hoi hop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khoảng 5-10 lần/ngày",
+        "name_en": "khoang 5-10 lan/ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó ngủ",
+        "name_en": "kho ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở khi gắng sức",
+        "name_en": "kho tho khi gang suc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở khi xúc động",
+        "name_en": "kho tho khi xuc dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ngủ",
+        "name_en": "mat ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt bị đẩy ra ngoài",
+        "name_en": "mat bi day ra ngoai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt lồi ra",
+        "name_en": "mat loi ra",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "run ở đầu ngón tay",
+        "name_en": "run o dau ngon tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ nóng",
+        "name_en": "so nong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tim đập nhanh",
+        "name_en": "tim dap nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy không kèm đau quặn",
+        "name_en": "tieu chay khong kem dau quan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tính khí thất thường",
+        "name_en": "tinh khi that thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tóc giòn",
+        "name_en": "toc gion",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng sự thèm ăn nhưng vẫn sụt cân",
+        "name_en": "tang su them an nhung van sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng tiết mồ hôi",
+        "name_en": "tang tiet mo hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu cơ",
+        "name_en": "yeu co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu ớt",
+        "name_en": "yeu ot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh trống ngực",
+        "name_en": "danh trong nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đùi",
+        "name_en": "dui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là ở cánh tay",
+        "name_en": "dac biet la o canh tay",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Cường Giáp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Cường Giáp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sợ nóng, da nóng, tăng tiết mồ hôi và sốt nhẹ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy bồn chồn, lo lắng, khó ngủ, tính khí thất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đánh trống ngực, hồi hộp, khó thở khi xúc động. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề rối loạn kinh nguyệt và sụt cân nhanh mặc dù ăn uống bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như run ở đầu ngón tay và yếu cơ, đặc biệt là ở cánh tay và đùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chói mắt, chảy nước mắt và mắt lồi ra. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiêu chảy không kèm đau quặn, khoảng 5-10 lần/ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da mỏng và tóc giòn, dễ gãy. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tăng sự thèm ăn nhưng vẫn sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cơ thể nóng hơn bình thường và dễ cáu gắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mất ngủ và khó tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề về thị lực và cảm thấy mắt bị đẩy ra ngoài. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tim đập nhanh và khó thở khi gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cơ thể mệt mỏi và yếu ớt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiêu chảy và đau bụng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

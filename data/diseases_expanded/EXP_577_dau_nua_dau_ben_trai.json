@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_577",
+  "name_vi": "Đau Nửa Đầu Bên Trái",
+  "name_en": "Dau Nua Dau Ben Trai",
+  "category": "neurology",
+  "aliases": [
+    "Đau Nửa Đầu Bên Trái",
+    "Dau Nua Dau Ben Trai"
+  ],
+  "description": "Đau Nửa Đầu Bên Trái là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng cổ",
+        "name_en": "cang co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng cơ cổ",
+        "name_en": "cung co co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau nửa đầu bên trái nghiêm trọng, kèm theo buồn nôn và nôn",
+        "name_en": "hien dang trai qua con dau nua dau ben trai nghiem trong, kem theo buon non va non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau nửa đầu bên trái, kèm theo giảm cảm giác thèm ăn",
+        "name_en": "hien dang trai qua con dau nua dau ben trai, kem theo giam cam giac them an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau nửa đầu bên trái, kèm theo mệt mỏi",
+        "name_en": "hien dang trai qua con dau nua dau ben trai, kem theo met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau nửa đầu bên trái, kèm theo nhạy cảm với ánh sáng và âm thanh",
+        "name_en": "hien dang trai qua con dau nua dau ben trai, kem theo nhay cam voi anh sang va am thanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoa mắt",
+        "name_en": "hoa mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mờ mắt",
+        "name_en": "mo mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với mùi hương",
+        "name_en": "nhay cam voi mui huong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm thị lực",
+        "name_en": "suy giam thi luc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụp mí mắt",
+        "name_en": "sup mi mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi thị lực",
+        "name_en": "thay doi thi luc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vai",
+        "name_en": "vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lan tỏa khắp nửa đầu bên trái",
+        "name_en": "dau lan toa khap nua dau ben trai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói ở một vị trí nhất định bên trái đầu",
+        "name_en": "dau nhoi o mot vi tri nhat dinh ben trai dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu bên trái",
+        "name_en": "dau nua dau ben trai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu bên trái khi vừa ngủ dậy",
+        "name_en": "dau nua dau ben trai khi vua ngu day",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu bên trái nặng hơn vào buổi tối",
+        "name_en": "dau nua dau ben trai nang hon vao buoi toi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu bên trái âm ỉ",
+        "name_en": "dau nua dau ben trai am i",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Nửa Đầu Bên Trái của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Nửa Đầu Bên Trái",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau lan tỏa khắp nửa đầu bên trái, kèm theo sụp mí mắt và mờ mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhói ở một vị trí nhất định bên trái đầu, kèm theo chảy nước mắt và suy giảm thị lực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu bên trái âm ỉ, kèm theo căng cổ và vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau nửa đầu bên trái nghiêm trọng, kèm theo buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nửa đầu bên trái, kèm theo chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu bên trái nặng hơn vào buổi tối. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau nửa đầu bên trái, kèm theo nhạy cảm với ánh sáng và âm thanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nửa đầu bên trái, kèm theo hoa mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu bên trái khi vừa ngủ dậy. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau nửa đầu bên trái, kèm theo mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nửa đầu bên trái, kèm theo khó tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu bên trái, kèm theo thay đổi thị lực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau nửa đầu bên trái, kèm theo giảm cảm giác thèm ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nửa đầu bên trái, kèm theo nhạy cảm với mùi hương. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu bên trái, kèm theo cứng cơ cổ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

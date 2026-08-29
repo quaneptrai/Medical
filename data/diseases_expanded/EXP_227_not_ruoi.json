@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_227",
+  "name_vi": "Nốt Ruồi",
+  "name_en": "Not Ruoi",
+  "category": "general",
+  "aliases": [
+    "Nốt Ruồi",
+    "Not Ruoi"
+  ],
+  "description": "Nốt Ruồi là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Nốt ruồi của tôi chảy máu và đóng vảy",
+        "name_en": "Not ruoi cua toi chay mau va dong vay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Nốt ruồi của tôi có màu hồng và bề mặt nhẵn",
+        "name_en": "Not ruoi cua toi co mau hong va be mat nhan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Nốt ruồi của tôi có đường viền không đều và màu sắc không đồng nhất",
+        "name_en": "Not ruoi cua toi co duong vien khong deu va mau sac khong dong nhat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bờ viền rõ ràng",
+        "name_en": "bo vien ro rang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có hình dạng không đối xứng",
+        "name_en": "co hinh dang khong doi xung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có màu sắc đồng nhất",
+        "name_en": "co mau sac dong nhat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có nhiều nốt ruồi ở vùng da tiếp xúc với ánh nắng mặt trời",
+        "name_en": "co nhieu not ruoi o vung da tiep xuc voi anh nang mat troi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cần tư vấn về việc có nên loại bỏ nốt ruồi hay không",
+        "name_en": "can tu van ve viec co nen loai bo not ruoi hay khong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gây ngứa ngáy",
+        "name_en": "gay ngua ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có một nốt ruồi màu nâu, hình tròn, đường kính nhỏ hơn 6mm",
+        "name_en": "hien dang co mot not ruoi mau nau, hinh tron, duong kinh nho hon 6mm",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lo lắng vì nốt ruồi của mình lớn hơn 6mm và có màu sắc thay đổi",
+        "name_en": "lo lang vi not ruoi cua minh lon hon 6mm va co mau sac thay doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng về nguy cơ ung thư da từ nốt ruồi",
+        "name_en": "lo lang ve nguy co ung thu da tu not ruoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn tìm hiểu cách phân biệt nốt ruồi lành tính và ác tính",
+        "name_en": "muon tim hieu cach phan biet not ruoi lanh tinh va ac tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt ruồi bẩm sinh có kích thước lớn hơn bình thường",
+        "name_en": "not ruoi bam sinh co kich thuoc lon hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt ruồi của mình có hình bầu dục",
+        "name_en": "not ruoi cua minh co hinh bau duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt ruồi của mình hơi gồ lên",
+        "name_en": "not ruoi cua minh hoi go len",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt ruồi của mình ngày càng nhô cao",
+        "name_en": "not ruoi cua minh ngay cang nho cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt ruồi của mình xuất hiện sau 25 tuổi",
+        "name_en": "not ruoi cua minh xuat hien sau 25 tuoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt ruồi của mình đột nhiên mềm đi",
+        "name_en": "not ruoi cua minh dot nhien mem di",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rụng lông",
+        "name_en": "rung long",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Nốt Ruồi của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nốt Ruồi",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có một nốt ruồi màu nâu, hình tròn, đường kính nhỏ hơn 6mm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nốt ruồi của mình hơi gồ lên và có màu sắc đồng nhất. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nốt ruồi bẩm sinh có kích thước lớn hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhận thấy nốt ruồi của mình có hình bầu dục và bờ viền rõ ràng. Tôi có thể đang bị bệnh gì?",
+    "Nốt ruồi của tôi có màu hồng và bề mặt nhẵn. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nốt ruồi của mình xuất hiện sau 25 tuổi và có hình dạng không đối xứng. Tôi có thể đang bị bệnh gì?",
+    "Nốt ruồi của tôi có đường viền không đều và màu sắc không đồng nhất. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng vì nốt ruồi của mình lớn hơn 6mm và có màu sắc thay đổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nốt ruồi của mình ngày càng nhô cao và gây ngứa ngáy. Tôi có thể đang bị bệnh gì?",
+    "Nốt ruồi của tôi chảy máu và đóng vảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nốt ruồi của mình đột nhiên mềm đi và rụng lông. Tôi có thể đang bị bệnh gì?",
+    "Tôi có nhiều nốt ruồi ở vùng da tiếp xúc với ánh nắng mặt trời. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng về nguy cơ ung thư da từ nốt ruồi. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu cách phân biệt nốt ruồi lành tính và ác tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi cần tư vấn về việc có nên loại bỏ nốt ruồi hay không. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

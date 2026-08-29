@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_513",
+  "name_vi": "Viêm Tuyến Tiền Liệt",
+  "name_en": "Viem Tuyen Tien Liet",
+  "category": "urology",
+  "aliases": [
+    "Viêm Tuyến Tiền Liệt",
+    "Viem Tuyen Tien Liet"
+  ],
+  "description": "Viêm Tuyến Tiền Liệt là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "HIV/AIDS",
+        "name_en": "HIV/AIDS",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị đau bụng dưới",
+        "name_en": "hien dang bi dau bung duoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị đau khi đi tiểu",
+        "name_en": "hien dang bi dau khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng tiểu rắt",
+        "name_en": "hien dang co trieu chung tieu rat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang đau bụng dưới",
+        "name_en": "hien dang dau bung duoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất nước",
+        "name_en": "mat nuoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm trùng đường tiết niệu",
+        "name_en": "nhiem trung duong tiet nieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nước tiểu có màu đục",
+        "name_en": "nuoc tieu co mau duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rung lắc",
+        "name_en": "rung lac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "tinh hoàn",
+        "name_en": "tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu buốt",
+        "name_en": "tieu buot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu khó",
+        "name_en": "tieu kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu nhiều lần",
+        "name_en": "tieu nhieu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu nhiều lần vào ban đêm",
+        "name_en": "tieu nhieu lan vao ban dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu rắt",
+        "name_en": "tieu rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu đêm",
+        "name_en": "tieu dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bàng quang",
+        "name_en": "dau bang quang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau dương vật",
+        "name_en": "dau duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi xuất tinh",
+        "name_en": "dau khi xuat tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi đi tiểu",
+        "name_en": "dau khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng dưới",
+        "name_en": "dau lung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức cơ",
+        "name_en": "dau nhuc co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát khi đi tiểu",
+        "name_en": "dau rat khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vùng chậu",
+        "name_en": "dau vung chau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Tuyến Tiền Liệt của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Tuyến Tiền Liệt",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như tiểu buốt, tiểu rắt và đau bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau lưng dưới, đau khi xuất tinh và tiểu đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiểu khó, tiểu nhiều lần và nước tiểu có màu đục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm trùng đường tiết niệu và hiện đang đau bụng dưới, tiểu buốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị HIV/AIDS và hiện đang có triệu chứng tiểu rắt, tiểu khó. Tôi có thể đang bị bệnh gì?",
+    "Tôi vừa đặt ống thông tiểu và hiện đang bị đau khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi từng được sinh thiết tuyến tiền liệt và hiện đang bị đau bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi uống ít nước và hiện đang bị tiểu rắt, tiểu buốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị mất nước và hiện đang bị đau khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi làm công việc hay bị rung lắc và hiện đang bị đau bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau rát khi đi tiểu và tiểu nhiều lần vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau vùng chậu, đau lưng dưới và tiểu khó. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau dương vật, tinh hoàn và tiểu buốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bàng quang và tiểu rắt, tiểu nhiều lần. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt, ớn lạnh và đau nhức cơ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

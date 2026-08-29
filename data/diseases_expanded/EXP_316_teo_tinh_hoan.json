@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_316",
+  "name_vi": "Teo Tính Hoàn",
+  "name_en": "Teo Tinh Hoan",
+  "category": "general",
+  "aliases": [
+    "Teo Tính Hoàn",
+    "Teo Tinh Hoan"
+  ],
+  "description": "Teo Tính Hoàn là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "giãn tĩnh mạch thừng tinh",
+        "name_en": "gian tinh mach thung tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm ham muốn tình dục",
+        "name_en": "giam ham muon tinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu khi đi lại",
+        "name_en": "kho chiu khi di lai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về nguy cơ vô sinh",
+        "name_en": "lo lang ve nguy co vo sinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lạm dụng rượu bia và lo lắng về nguy cơ teo tinh hoàn",
+        "name_en": "lam dung ruou bia va lo lang ve nguy co teo tinh hoan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về các dấu hiệu của teo tinh hoàn",
+        "name_en": "muon tim hieu ve cac dau hieu cua teo tinh hoan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về cách phòng ngừa teo tinh hoàn",
+        "name_en": "muon tim hieu ve cach phong ngua teo tinh hoan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về cách điều trị teo tinh hoàn",
+        "name_en": "muon tim hieu ve cach dieu tri teo tinh hoan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm một cơ sở y tế uy tín để điều trị teo tinh hoàn",
+        "name_en": "muon tim mot co so y te uy tin de dieu tri teo tinh hoan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn được tư vấn về các vấn đề sức khỏe sinh sản nam giới",
+        "name_en": "muon duoc tu van ve cac van de suc khoe sinh san nam gioi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "quai bị",
+        "name_en": "quai bi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng bìu",
+        "name_en": "sung biu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "teo nhỏ",
+        "name_en": "teo nho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "teo tinh hoàn",
+        "name_en": "teo tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn bị teo nhỏ",
+        "name_en": "tinh hoan bi teo nho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn bị teo nhỏ lại",
+        "name_en": "tinh hoan bi teo nho lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn ẩn",
+        "name_en": "tinh hoan an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư tinh hoàn",
+        "name_en": "ung thu tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tinh hoàn",
+        "name_en": "dau tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức vùng bìu",
+        "name_en": "dau tuc vung biu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Teo Tính Hoàn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Teo Tính Hoàn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như tinh hoàn bị teo nhỏ lại, giảm ham muốn tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau tinh hoàn, sưng bìu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tức vùng bìu, khó chịu khi đi lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi từng bị quai bị và tinh hoàn bị teo nhỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giãn tĩnh mạch thừng tinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tinh hoàn ẩn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ung thư tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi sử dụng steroid và tinh hoàn bị teo nhỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi lạm dụng rượu bia và lo lắng về nguy cơ teo tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị teo tinh hoàn và lo lắng về nguy cơ vô sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về các dấu hiệu của teo tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về cách điều trị teo tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm một cơ sở y tế uy tín để điều trị teo tinh hoàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn được tư vấn về các vấn đề sức khỏe sinh sản nam giới. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về cách phòng ngừa teo tinh hoàn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

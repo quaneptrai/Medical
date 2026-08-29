@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_250",
+  "name_vi": "Rò Luân Nhĩ",
+  "name_en": "Ro Luan Nhi",
+  "category": "general",
+  "aliases": [
+    "Rò Luân Nhĩ",
+    "Ro Luan Nhi"
+  ],
+  "description": "Rò Luân Nhĩ là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "ban đỏ",
+        "name_en": "ban do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ban đỏ ở tai ngoài",
+        "name_en": "ban do o tai ngoai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy mủ tai tái phát",
+        "name_en": "chay mu tai tai phat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có dịch có mùi hôi chảy ra từ một lỗ nhỏ",
+        "name_en": "co dich co mui hoi chay ra tu mot lo nho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có dịch mủ chảy ra từ một lỗ nhỏ ở tai",
+        "name_en": "co dich mu chay ra tu mot lo nho o tai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có dịch mủ ở khu vực tai ngoài",
+        "name_en": "co dich mu o khu vuc tai ngoai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có dịch tiết ra từ một lỗ nhỏ gần vành tai",
+        "name_en": "co dich tiet ra tu mot lo nho gan vanh tai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một dị tật khác ở tai",
+        "name_en": "co mot di tat khac o tai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một lỗ nhỏ gần vành tai tiết ra dịch màu trắng đục",
+        "name_en": "co mot lo nho gan vanh tai tiet ra dich mau trang duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một lỗ nhỏ ở trước vành tai",
+        "name_en": "co mot lo nho o truoc vanh tai",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "có tiền sử gia đình bị điếc",
+        "name_en": "co tien su gia dinh bi diec",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "cạnh lỗ nhỏ có thể sờ thấy một cục nhỏ như đầu ngón tay",
+        "name_en": "canh lo nho co the so thay mot cuc nho nhu dau ngon tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhức đầu",
+        "name_en": "nhuc dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy",
+        "name_en": "sung tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy ở tai",
+        "name_en": "sung tay o tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy ở tai ngoài",
+        "name_en": "sung tay o tai ngoai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đau",
+        "name_en": "sung dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thấy một lỗ nhỏ gần vành tai tiết ra dịch màu trắng đục",
+        "name_en": "thay mot lo nho gan vanh tai tiet ra dich mau trang duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thấy một lỗ nhỏ ngay giữa phần sưng đau",
+        "name_en": "thay mot lo nho ngay giua phan sung dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tụ mủ ở tai ngoài",
+        "name_en": "tu mu o tai ngoai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mô tế bào",
+        "name_en": "viem mo te bao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức ở tai",
+        "name_en": "dau nhuc o tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức ở tai ngoài",
+        "name_en": "dau nhuc o tai ngoai",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rò Luân Nhĩ của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rò Luân Nhĩ",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sưng đau, có dịch mủ ở khu vực tai ngoài và thấy một lỗ nhỏ ngay giữa phần sưng đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa, sưng tấy ở tai ngoài và có dịch tiết ra từ một lỗ nhỏ gần vành tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy mủ tai tái phát và có một lỗ nhỏ ở trước vành tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ban đỏ, đau nhức ở tai ngoài và thấy một lỗ nhỏ gần vành tai tiết ra dịch màu trắng đục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa, sưng tấy ở tai và có dịch có mùi hôi chảy ra từ một lỗ nhỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm mô tế bào, tụ mủ ở tai ngoài và có một lỗ nhỏ ở trước vành tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhức đầu, sốt và có dịch mủ chảy ra từ một lỗ nhỏ ở tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau, sưng tấy ở tai và có một lỗ nhỏ gần vành tai tiết ra dịch màu trắng đục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa, ban đỏ ở tai ngoài và có một lỗ nhỏ ở trước vành tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sưng tấy, đau nhức ở tai và có dịch có mùi hôi chảy ra từ một lỗ nhỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa, có dịch mủ chảy ra từ một lỗ nhỏ ở tai và cạnh lỗ nhỏ có thể sờ thấy một cục nhỏ như đầu ngón tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy mủ tai tái phát, nhức đầu và có một lỗ nhỏ ở trước vành tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ban đỏ, sưng tấy ở tai và cạnh lỗ nhỏ có thể sờ thấy một cục nhỏ như đầu ngón tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau, có dịch tiết ra từ một lỗ nhỏ gần vành tai và có tiền sử gia đình bị điếc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa, sưng tấy ở tai ngoài và có một dị tật khác ở tai. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_290",
+  "name_vi": "Suy Tim Phải",
+  "name_en": "Suy Tim Phai",
+  "category": "cardiology",
+  "aliases": [
+    "Suy Tim Phải",
+    "Suy Tim Phai"
+  ],
+  "description": "Suy Tim Phải là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bối rối",
+        "name_en": "boi roi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da lạnh",
+        "name_en": "da lanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay quên",
+        "name_en": "hay quen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang phải đi tiểu nhiều hơn, nhất là vào ban đêm",
+        "name_en": "hien dang phai di tieu nhieu hon, nhat la vao ban dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi nằm",
+        "name_en": "kho tho khi nam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mạch nhanh",
+        "name_en": "mach nhanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mắt cá chân",
+        "name_en": "mat ca chan",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngực đau",
+        "name_en": "nguc dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù nề ở cẳng chân",
+        "name_en": "phu ne o cang chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng gan",
+        "name_en": "sung gan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng phù ở bàn chân",
+        "name_en": "sung phu o ban chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng phù ở dạ dày",
+        "name_en": "sung phu o da day",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tĩnh mạch cổ",
+        "name_en": "sung tinh mach co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tim đập nhanh",
+        "name_en": "tim dap nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh thần mệt mỏi",
+        "name_en": "tinh than met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng cân",
+        "name_en": "tang can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Suy Tim Phải của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Suy Tim Phải",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang bị sưng phù ở bàn chân và mắt cá chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng tĩnh mạch cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị tăng cân và chán ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da lạnh và đổ mồ hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phù nề ở cẳng chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang phải đi tiểu nhiều hơn, nhất là vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mạch nhanh và ngực đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tinh thần mệt mỏi và bối rối. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị sưng phù ở dạ dày. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy hay quên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng gan. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị khó thở khi nằm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tim đập nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho khan. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

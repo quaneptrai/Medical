@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_314",
+  "name_vi": "Tai Biến Mạch Máu Não",
+  "name_en": "Tai Bien Mach Mau Nao",
+  "category": "cardiology",
+  "aliases": [
+    "Tai Biến Mạch Máu Não",
+    "Tai Bien Mach Mau Nao"
+  ],
+  "description": "Tai Biến Mạch Máu Não là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "béo phì",
+        "name_en": "beo phi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh tim mạch",
+        "name_en": "benh tim mach",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoa mắt",
+        "name_en": "hoa mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nói",
+        "name_en": "kho noi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về nguy cơ tai biến mạch máu não",
+        "name_en": "lo lang ve nguy co tai bien mach mau nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về các dấu hiệu của tai biến mạch máu não",
+        "name_en": "muon tim hieu ve cac dau hieu cua tai bien mach mau nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về cách phòng ngừa tai biến mạch máu não",
+        "name_en": "muon tim hieu ve cach phong ngua tai bien mach mau nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về cách điều trị tai biến mạch máu não",
+        "name_en": "muon tim hieu ve cach dieu tri tai bien mach mau nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm một cơ sở y tế uy tín để điều trị tai biến mạch máu não",
+        "name_en": "muon tim mot co so y te uy tin de dieu tri tai bien mach mau nao",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "muốn được tư vấn về các vấn đề sức khỏe liên quan đến tai biến mạch máu não",
+        "name_en": "muon duoc tu van ve cac van de suc khoe lien quan den tai bien mach mau nao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "méo miệng",
+        "name_en": "meo mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất thăng bằng",
+        "name_en": "mat thang bang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghiện thuốc lá và lo lắng về nguy cơ tai biến mạch máu não",
+        "name_en": "nghien thuoc la va lo lang ve nguy co tai bien mach mau nao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhịp tim đập nhanh",
+        "name_en": "nhip tim dap nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thừa cân",
+        "name_en": "thua can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu đường",
+        "name_en": "tieu duong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì tay chân",
+        "name_en": "te bi tay chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng huyết áp",
+        "name_en": "tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "uống nhiều rượu bia và lo lắng về nguy cơ tai biến mạch máu não",
+        "name_en": "uong nhieu ruou bia va lo lang ve nguy co tai bien mach mau nao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ít vận động và lo lắng về nguy cơ tai biến mạch máu não",
+        "name_en": "it van dong va lo lang ve nguy co tai bien mach mau nao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Tai Biến Mạch Máu Não của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Tai Biến Mạch Máu Não",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau đầu, hoa mắt, chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy méo miệng, khó nói, tê bì tay chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mất thăng bằng, nhịp tim đập nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thừa cân, béo phì và lo lắng về nguy cơ tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi nghiện thuốc lá và lo lắng về nguy cơ tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi uống nhiều rượu bia và lo lắng về nguy cơ tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi ít vận động và lo lắng về nguy cơ tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tăng huyết áp và lo lắng về nguy cơ tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiểu đường và lo lắng về nguy cơ tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bệnh tim mạch và lo lắng về nguy cơ tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về các dấu hiệu của tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về cách điều trị tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm một cơ sở y tế uy tín để điều trị tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn được tư vấn về các vấn đề sức khỏe liên quan đến tai biến mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về cách phòng ngừa tai biến mạch máu não. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

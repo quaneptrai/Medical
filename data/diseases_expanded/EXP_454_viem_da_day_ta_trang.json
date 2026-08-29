@@ -1,0 +1,149 @@
+{
+  "disease_id": "EXP_454",
+  "name_vi": "Viêm Dạ Dày Tá Tràng",
+  "name_en": "Viem Da Day Ta Trang",
+  "category": "digestive",
+  "aliases": [
+    "Viêm Dạ Dày Tá Tràng",
+    "Viem Da Day Ta Trang"
+  ],
+  "description": "Viêm Dạ Dày Tá Tràng là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bị đau vùng thượng vị",
+        "name_en": "bi dau vung thuong vi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị sản ruột",
+        "name_en": "di san ruot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gây ra những bất tiện khó chịu trong hoạt động ăn uống",
+        "name_en": "gay ra nhung bat tien kho chiu trong hoat dong an uong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm vi khuẩn Helicobacter Pylori",
+        "name_en": "nhiem vi khuan Helicobacter Pylori",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng rát thượng vị",
+        "name_en": "nong rat thuong vi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ung thư dạ dày",
+        "name_en": "ung thu da day",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "viêm",
+        "name_en": "viem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "viêm teo niêm mạc dạ dày",
+        "name_en": "viem teo niem mac da day",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "xuất huyết dạ dày",
+        "name_en": "xuat huyet da day",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ăn nhanh no",
+        "name_en": "an nhanh no",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "đau vùng thượng vị",
+        "name_en": "dau vung thuong vi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở vùng thượng vị khi đói hoặc sau khi ăn",
+        "name_en": "dau o vung thuong vi khi doi hoac sau khi an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "được bác sĩ chỉ định dùng thuốc kháng sinh Amoxicillin",
+        "name_en": "duoc bac si chi dinh dung thuoc khang sinh Amoxicillin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy bụng",
+        "name_en": "day bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ậm ạch khó chịu vùng thượng vị sau ăn",
+        "name_en": "am ach kho chiu vung thuong vi sau an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ chua",
+        "name_en": "o chua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ợ hơi",
+        "name_en": "o hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Dạ Dày Tá Tràng của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Dạ Dày Tá Tràng",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau ở vùng thượng vị khi đói hoặc sau khi ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ăn nhanh no, ậm ạch khó chịu vùng thượng vị sau ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nóng rát thượng vị, ợ hơi, ợ chua và đầy bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau vùng thượng vị, gây ra những bất tiện khó chịu trong hoạt động ăn uống. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm vi khuẩn Helicobacter Pylori và bị đau vùng thượng vị. Tôi có thể đang bị bệnh gì?",
+    "Tôi ăn nhiều gia vị có tính kích ứng mạnh niêm mạc dạ dày và bị đau vùng thượng vị. Tôi có thể đang bị bệnh gì?",
+    "Tôi bỏ bữa sáng, ăn không đúng bữa hoặc có giờ giấc cụ thể và bị đau vùng thượng vị. Tôi có thể đang bị bệnh gì?",
+    "Tôi lạm dụng rượu bia và bị đau vùng thượng vị. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất huyết dạ dày. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ung thư dạ dày. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm teo niêm mạc dạ dày. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị dị sản ruột. Tôi có thể đang bị bệnh gì?",
+    "Tôi nội soi dạ dày và phát hiện niêm mạc dạ dày bị viêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi sinh thiết dạ dày và phát hiện niêm mạc dạ dày bị viêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi được bác sĩ chỉ định dùng thuốc kháng sinh Amoxicillin. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

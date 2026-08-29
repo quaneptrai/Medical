@@ -1,0 +1,219 @@
+{
+  "disease_id": "EXP_110",
+  "name_vi": "Gai Cột Sống",
+  "name_en": "Gai Cot Song",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Gai Cột Sống",
+    "Gai Cot Song"
+  ],
+  "description": "Gai Cột Sống là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cánh tay",
+        "name_en": "canh tay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ bắp yếu đi",
+        "name_en": "co bap yeu di",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơn đau tăng lên khi di chuyển",
+        "name_en": "con dau tang len khi di chuyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khả năng cầm nắm",
+        "name_en": "giam kha nang cam nam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khả năng vận động",
+        "name_en": "giam kha nang van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khả năng vận động ở cổ",
+        "name_en": "giam kha nang van dong o co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gây mất kiểm soát tiểu tiện",
+        "name_en": "gay mat kiem soat tieu tien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi di chuyển",
+        "name_en": "kho khan khi di chuyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan xuống chân",
+        "name_en": "lan xuong chan",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lan xuống cánh tay",
+        "name_en": "lan xuong canh tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lan xuống mông",
+        "name_en": "lan xuong mong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất cân bằng cơ thể",
+        "name_en": "mat can bang co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "như \"đau thấu trời\"",
+        "name_en": "nhu \"dau thau troi\"",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn thần kinh thực vật",
+        "name_en": "roi loan than kinh thuc vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "teo cơ",
+        "name_en": "teo co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì cánh tay",
+        "name_en": "te bi canh tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì tay",
+        "name_en": "te bi tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê chân",
+        "name_en": "te chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê tay",
+        "name_en": "te tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng tiết mồ hôi",
+        "name_en": "tang tiet mo hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu cơ",
+        "name_en": "yeu co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau chân",
+        "name_en": "dau chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau cổ",
+        "name_en": "dau co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng dữ dội",
+        "name_en": "dau lung du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau thắt lưng",
+        "name_en": "dau that lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau thắt lưng lan xuống hai chân",
+        "name_en": "dau that lung lan xuong hai chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vai gáy",
+        "name_en": "dau vai gay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đùi",
+        "name_en": "dui",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Gai Cột Sống của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Gai Cột Sống",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau vai gáy, lan xuống cánh tay và tê tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau lưng, đau thắt lưng, cơn đau tăng lên khi di chuyển. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau cổ, giảm khả năng vận động ở cổ và cánh tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau thắt lưng lan xuống hai chân, kèm theo tê chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau vai gáy, kèm theo mất cân bằng cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau lưng dữ dội, như \"đau thấu trời\". Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau cổ, tê bì cánh tay và yếu cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau lưng, giảm khả năng vận động và cơ bắp yếu đi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau thắt lưng, lan xuống chân và gây mất kiểm soát tiểu tiện. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau vai gáy, kèm theo rối loạn thần kinh thực vật và tăng tiết mồ hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau lưng, đau chân và khó khăn khi di chuyển. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau cổ, tê bì tay và giảm khả năng cầm nắm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau thắt lưng, lan xuống mông và đùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau vai gáy, kèm theo chóng mặt và ù tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau lưng, đau chân và teo cơ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_094",
+  "name_vi": "Chóng Mặt",
+  "name_en": "Chong Mat",
+  "category": "general",
+  "aliases": [
+    "Chóng Mặt",
+    "Chong Mat"
+  ],
+  "description": "Chóng Mặt là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn khi bị chóng mặt",
+        "name_en": "buon non khi bi chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn khi di chuyển đầu đột ngột",
+        "name_en": "buon non khi di chuyen dau dot ngot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn khi đi tàu xe",
+        "name_en": "buon non khi di tau xe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "choáng váng",
+        "name_en": "choang vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt khi thay đổi tư thế nằm sang ngồi hoặc đứng",
+        "name_en": "chong mat khi thay doi tu the nam sang ngoi hoac dung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt khi tập thể dục hoặc vận động mạnh",
+        "name_en": "chong mat khi tap the duc hoac van dong manh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt khi đói hoặc hạ đường huyết",
+        "name_en": "chong mat khi doi hoac ha duong huyet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt khi đứng dưới trời nắng nóng quá lâu",
+        "name_en": "chong mat khi dung duoi troi nang nong qua lau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác bị kéo về một hướng",
+        "name_en": "cam giac bi keo ve mot huong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hoa mắt",
+        "name_en": "hoa mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung khi bị chóng mặt",
+        "name_en": "kho tap trung khi bi chong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "loạng choạng khi đi bộ",
+        "name_en": "loang choang khi di bo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn ngã khi bị chóng mặt",
+        "name_en": "muon nga khi bi chong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất thăng bằng",
+        "name_en": "mat thang bang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mọi thứ xung quanh như đang xoay tròn khi tôi đứng dậy quá nhanh",
+        "name_en": "moi thu xung quanh nhu dang xoay tron khi toi dung day qua nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghiêng ngả",
+        "name_en": "nghieng nga",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mờ khi bị chóng mặt",
+        "name_en": "nhin mo khi bi chong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "quay cuồng",
+        "name_en": "quay cuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai khi thay đổi tư thế đột ngột",
+        "name_en": "u tai khi thay doi tu the dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầu óc rối loạn",
+        "name_en": "dau oc roi loan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Chóng Mặt của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Chóng Mặt",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đang cảm thấy choáng váng và mọi thứ xung quanh như đang xoay tròn khi tôi đứng dậy quá nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mất thăng bằng và buồn nôn khi di chuyển đầu đột ngột. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như quay cuồng, nghiêng ngả và cảm giác bị kéo về một hướng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chóng mặt kèm theo đau đầu và ù tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đầu óc rối loạn và khó tập trung khi bị chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đổ mồ hôi và buồn nôn khi bị chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như hoa mắt và nhìn mờ khi bị chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chóng mặt khi thay đổi tư thế nằm sang ngồi hoặc đứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mất thăng bằng và muốn ngã khi bị chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt khi tập thể dục hoặc vận động mạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như choáng váng và buồn nôn khi đi tàu xe. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chóng mặt khi đứng dưới trời nắng nóng quá lâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mất thăng bằng và loạng choạng khi đi bộ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt khi đói hoặc hạ đường huyết. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như choáng váng và ù tai khi thay đổi tư thế đột ngột. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

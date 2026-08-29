@@ -1,0 +1,219 @@
+{
+  "disease_id": "EXP_477",
+  "name_vi": "Viêm Màng Bồ Đào",
+  "name_en": "Viem Mang Bo Dao",
+  "category": "infectious",
+  "aliases": [
+    "Viêm Màng Bồ Đào",
+    "Viem Mang Bo Dao"
+  ],
+  "description": "Viêm Màng Bồ Đào là một bệnh lý thuộc chuyên khoa infectious, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bệnh Vogt-Koyanagi-Harada",
+        "name_en": "benh Vogt-Koyanagi-Harada",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh giang mai hoặc bệnh Lyme",
+        "name_en": "benh giang mai hoac benh Lyme",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh sarcoidosis",
+        "name_en": "benh sarcoidosis",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh toxoplasmosis",
+        "name_en": "benh toxoplasmosis",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh viêm ruột (bệnh Crohn",
+        "name_en": "benh viem ruot (benh Crohn",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh zona (do virus varicella-zoster)",
+        "name_en": "benh zona (do virus varicella-zoster)",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chẳng hạn như bệnh lao",
+        "name_en": "chang han nhu benh lao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chẳng hạn như hội chứng Behçet",
+        "name_en": "chang han nhu hoi chung Behcet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chẳng hạn như nhiễm trùng herpes (do virus herpes simplex)",
+        "name_en": "chang han nhu nhiem trung herpes (do virus herpes simplex)",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cytomegalovirus",
+        "name_en": "cytomegalovirus",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "các bệnh viêm nhiễm",
+        "name_en": "cac benh viem nhiem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "giảm thị lực",
+        "name_en": "giam thi luc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt đỏ",
+        "name_en": "mat do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng có thể chỉ ảnh hưởng đến mắt",
+        "name_en": "nhiem trung co the chi anh huong den mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng lan rộng",
+        "name_en": "nhiem trung lan rong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn thấy các đốm đen bất thường (ruồi bay)",
+        "name_en": "nhin thay cac dom den bat thuong (ruoi bay)",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn các cơ quan ở những nơi khác trong cơ thể",
+        "name_en": "roi loan cac co quan o nhung noi khac trong co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cột sống dính khớp",
+        "name_en": "viem cot song dinh khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm giới hạn ở một phần của màng bồ đào",
+        "name_en": "viem gioi han o mot phan cua mang bo dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm hắc mạc",
+        "name_en": "viem hac mac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm khớp phản ứng",
+        "name_en": "viem khop phan ung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm khớp tự phát ở trẻ vị thành niên",
+        "name_en": "viem khop tu phat o tre vi thanh nien",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm loét đại tràng)",
+        "name_en": "viem loet dai trang)",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm màng bồ đào sau",
+        "name_en": "viem mang bo dao sau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm màng bồ đào trung gian",
+        "name_en": "viem mang bo dao trung gian",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm màng bồ đào trước",
+        "name_en": "viem mang bo dao truoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm mống mắt",
+        "name_en": "viem mong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm toàn màng bồ đào",
+        "name_en": "viem toan mang bo dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm ở bất kỳ vị trí nào trong lớp có sắc tố bên trong mắt",
+        "name_en": "viem o bat ky vi tri nao trong lop co sac to ben trong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau dữ dội ở mắt",
+        "name_en": "dau du doi o mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau hơn khi tiếp xúc với ánh sáng chói",
+        "name_en": "dau hon khi tiep xuc voi anh sang choi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Màng Bồ Đào của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Màng Bồ Đào",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như viêm ở bất kỳ vị trí nào trong lớp có sắc tố bên trong mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm mống mắt, viêm hắc mạc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau dữ dội ở mắt, mắt đỏ, đau hơn khi tiếp xúc với ánh sáng chói. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như giảm thị lực. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nhìn thấy các đốm đen bất thường (ruồi bay). Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm giới hạn ở một phần của màng bồ đào. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm màng bồ đào trước. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm màng bồ đào trung gian. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm màng bồ đào sau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm toàn màng bồ đào. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy rối loạn các cơ quan ở những nơi khác trong cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị các bệnh viêm nhiễm, chẳng hạn như hội chứng Behçet, viêm cột sống dính khớp, viêm khớp tự phát ở trẻ vị thành niên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như bệnh sarcoidosis, viêm khớp phản ứng, bệnh viêm ruột (bệnh Crohn và viêm loét đại tràng), bệnh Vogt-Koyanagi-Harada. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nhiễm trùng lan rộng, chẳng hạn như bệnh lao, bệnh giang mai hoặc bệnh Lyme. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nhiễm trùng có thể chỉ ảnh hưởng đến mắt, chẳng hạn như nhiễm trùng herpes (do virus herpes simplex), bệnh zona (do virus varicella-zoster), bệnh toxoplasmosis và cytomegalovirus. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

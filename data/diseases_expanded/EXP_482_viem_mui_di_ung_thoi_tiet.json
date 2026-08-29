@@ -1,0 +1,214 @@
+{
+  "disease_id": "EXP_482",
+  "name_vi": "Viêm Mũi Dị Ứng Thời Tiết",
+  "name_en": "Viem Mui Di Ung Thoi Tiet",
+  "category": "respiratory",
+  "aliases": [
+    "Viêm Mũi Dị Ứng Thời Tiết",
+    "Viem Mui Di Ung Thoi Tiet"
+  ],
+  "description": "Viêm Mũi Dị Ứng Thời Tiết là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy dịch mũi sau",
+        "name_en": "chay dich mui sau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi",
+        "name_en": "chay nuoc mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi liên tục",
+        "name_en": "chay nuoc mui lien tuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi màu vàng xanh",
+        "name_en": "chay nuoc mui mau vang xanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay hắt hơi liên tục, chảy nước mũi trong và ngứa mũi sau khi tiếp xúc với bụi",
+        "name_en": "hay hat hoi lien tuc, chay nuoc mui trong va ngua mui sau khi tiep xuc voi bui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay hắt hơi, sổ mũi và ngứa mắt khi tiếp xúc với lông chó mèo",
+        "name_en": "hay hat hoi, so mui va ngua mat khi tiep xuc voi long cho meo",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng ngứa họng, khàn giọng và ù tai",
+        "name_en": "hien dang co trieu chung ngua hong, khan giong va u tai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hắt hơi",
+        "name_en": "hat hoi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hắt hơi khi thời tiết thay đổi",
+        "name_en": "hat hoi khi thoi tiet thay doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hắt hơi sau khi dọn dẹp nhà cửa",
+        "name_en": "hat hoi sau khi don dep nha cua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "họng sau khi tiếp xúc với phấn hoa",
+        "name_en": "hong sau khi tiep xuc voi phan hoa",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khàn tiếng",
+        "name_en": "khan tieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó ngủ",
+        "name_en": "kho ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất khứu giác",
+        "name_en": "mat khuu giac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt",
+        "name_en": "mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa mũi",
+        "name_en": "ngua mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa mắt",
+        "name_en": "ngua mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng mắt",
+        "name_en": "sung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên thức giấc vì nghẹt mũi",
+        "name_en": "thuong xuyen thuc giac vi nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau mặt",
+        "name_en": "dau mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu do nghẹt mũi",
+        "name_en": "dau dau do nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu khi ở trong phòng điều hòa",
+        "name_en": "dau dau khi o trong phong dieu hoa",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là vào mùa xuân",
+        "name_en": "dac biet la vao mua xuan",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Mũi Dị Ứng Thời Tiết của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Mũi Dị Ứng Thời Tiết",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như hắt hơi, ngứa mũi và chảy nước mũi, đặc biệt là vào mùa xuân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa mắt, chảy nước mắt và sưng mắt kèm theo nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay hắt hơi liên tục, chảy nước mũi trong và ngứa mũi sau khi tiếp xúc với bụi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị nghẹt mũi, khó thở và đau mặt, kèm theo chảy dịch mũi sau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng ngứa họng, khàn giọng và ù tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mệt mỏi, khó ngủ và thường xuyên thức giấc vì nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy nước mũi, nghẹt mũi và hắt hơi khi thời tiết thay đổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa mũi, mắt và họng sau khi tiếp xúc với phấn hoa. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị nghẹt mũi, chảy nước mũi và đau đầu khi ở trong phòng điều hòa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay hắt hơi, sổ mũi và ngứa mắt khi tiếp xúc với lông chó mèo. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị ngứa mũi, chảy nước mắt và hắt hơi sau khi dọn dẹp nhà cửa. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy khó thở, nghẹt mũi và chảy nước mũi màu vàng xanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau họng, khàn tiếng và ho khan kèm theo ngứa mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị mất khứu giác, nghẹt mũi và chảy nước mũi liên tục. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mệt mỏi, khó tập trung và đau đầu do nghẹt mũi. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

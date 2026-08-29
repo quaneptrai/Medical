@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_185",
+  "name_vi": "Mụn Cóc",
+  "name_en": "Mun Coc",
+  "category": "dermatology",
+  "aliases": [
+    "Mụn Cóc",
+    "Mun Coc"
+  ],
+  "description": "Mụn Cóc là một bệnh lý thuộc chuyên khoa dermatology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bỏng rát ở vùng da có nốt sần sùi",
+        "name_en": "bong rat o vung da co not san sui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bộ phận sinh dục",
+        "name_en": "bo phan sinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chân",
+        "name_en": "chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có hình dạng như súp lơ",
+        "name_en": "co hinh dang nhu sup lo",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "côn trùng cắn",
+        "name_en": "con trung can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da mình khô ráp",
+        "name_en": "da minh kho rap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da mình ngứa ngáy",
+        "name_en": "da minh ngua ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da mình xuất hiện nốt sần sùi ở tay",
+        "name_en": "da minh xuat hien not san sui o tay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da xuất hiện nhiều nốt sần sùi",
+        "name_en": "da xuat hien nhieu not san sui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da xuất hiện nốt sần sùi",
+        "name_en": "da xuat hien not san sui",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "màu da hoặc xám trắng",
+        "name_en": "mau da hoac xam trang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mặt",
+        "name_en": "mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn cóc",
+        "name_en": "mun coc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy ở vùng da có nốt sần sùi",
+        "name_en": "ngua ngay o vung da co not san sui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt sần sùi",
+        "name_en": "not san sui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt sần sùi ở da chảy máu khi va chạm",
+        "name_en": "not san sui o da chay mau khi va cham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt sần sùi ở da có màu đen ở giữa",
+        "name_en": "not san sui o da co mau den o giua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt sần sùi ở da mọc thành từng cụm",
+        "name_en": "not san sui o da moc thanh tung cum",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt sần sùi ở da ngày càng lan rộng",
+        "name_en": "not san sui o da ngay cang lan rong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nứt nẻ sau khi xuất hiện nốt sần sùi",
+        "name_en": "nut ne sau khi xuat hien not san sui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sau đó da tôi cũng xuất hiện nốt sần sùi",
+        "name_en": "sau do da toi cung xuat hien not san sui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sau đó da xuất hiện nốt sần sùi",
+        "name_en": "sau do da xuat hien not san sui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm miễn dịch",
+        "name_en": "suy giam mien dich",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Mụn Cóc của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mụn Cóc",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như da xuất hiện nốt sần sùi, màu da hoặc xám trắng, có hình dạng như súp lơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa ngáy ở vùng da có nốt sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cắn móng tay và da tay xuất hiện nốt sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi có vết trầy xước trên da và sau đó xuất hiện nốt sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi tiếp xúc với người bị mụn cóc và sau đó da tôi cũng xuất hiện nốt sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy da mình xuất hiện nốt sần sùi ở tay, chân, mặt và bộ phận sinh dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy da mình ngứa ngáy và bỏng rát ở vùng da có nốt sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay gãi khi bị côn trùng cắn và sau đó da xuất hiện nốt sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi sử dụng chung khăn tắm với người bị mụn cóc và sau đó da tôi cũng xuất hiện nốt sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy giảm miễn dịch và da xuất hiện nhiều nốt sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nốt sần sùi ở da có màu đen ở giữa. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nốt sần sùi ở da ngày càng lan rộng. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nốt sần sùi ở da mọc thành từng cụm. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy da mình khô ráp và nứt nẻ sau khi xuất hiện nốt sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nốt sần sùi ở da chảy máu khi va chạm. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "disease_id": "EXP_465",
+  "name_vi": "Viêm Họng Xuất Huyết",
+  "name_en": "Viem Hong Xuat Huyet",
+  "category": "respiratory",
+  "aliases": [
+    "Viêm Họng Xuất Huyết",
+    "Viem Hong Xuat Huyet"
+  ],
+  "description": "Viêm Họng Xuất Huyết là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bị viêm họng",
+        "name_en": "bi viem hong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các tổ chức bạch huyết ở thành sau họng nổi rõ mao mạch",
+        "name_en": "cac to chuc bach huyet o thanh sau hong noi ro mao mach",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có thể chảy máu cam",
+        "name_en": "co the chay mau cam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng",
+        "name_en": "cang thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho hoặc nuốt hoặc cảm giác đau rát",
+        "name_en": "ho hoac nuot hoac cam giac dau rat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan hoặc ho có đờm",
+        "name_en": "ho khan hoac ho co dom",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho nhiều về đêm",
+        "name_en": "ho nhieu ve dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho từng cơn",
+        "name_en": "ho tung con",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "niêm mạc họng tấy đỏ",
+        "name_en": "niem mac hong tay do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù nề",
+        "name_en": "phu ne",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "stress kéo dài",
+        "name_en": "stress keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm miễn dịch",
+        "name_en": "suy giam mien dich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sáng",
+        "name_en": "sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng nhẹ hạch góc hàm",
+        "name_en": "sung nhe hach goc ham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sống trong môi trường ô nhiễm và viêm họng",
+        "name_en": "song trong moi truong o nhiem va viem hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt trên 38 độ",
+        "name_en": "sot tren 38 do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sổ mũi",
+        "name_en": "so mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thời tiết thay đổi thất thường",
+        "name_en": "thoi tiet thay doi that thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trào ngược dạ dày – thực quản",
+        "name_en": "trao nguoc da day - thuc quan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm họng",
+        "name_en": "viem hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm họng xung huyết do vi khuẩn",
+        "name_en": "viem hong xung huyet do vi khuan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm họng xung huyết do virus",
+        "name_en": "viem hong xung huyet do virus",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vướng víu cổ họng",
+        "name_en": "vuong viu co hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói lên tai khi nói",
+        "name_en": "dau nhoi len tai khi noi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức toàn thân",
+        "name_en": "dau nhuc toan than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Họng Xuất Huyết của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Họng Xuất Huyết",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sốt trên 38 độ, đau đầu, mệt mỏi, khó thở, ớn lạnh, đau nhức toàn thân, chán ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhói lên tai khi nói, ho hoặc nuốt hoặc cảm giác đau rát, vướng víu cổ họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho từng cơn, ho khan hoặc ho có đờm, ho nhiều về đêm và sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sổ mũi, nghẹt mũi, có thể chảy máu cam. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị niêm mạc họng tấy đỏ, phù nề; các tổ chức bạch huyết ở thành sau họng nổi rõ mao mạch và sưng nhẹ hạch góc hàm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thời tiết thay đổi thất thường và viêm họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy giảm miễn dịch và viêm họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị trào ngược dạ dày – thực quản và viêm họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi sống trong môi trường ô nhiễm và viêm họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hút thuốc lá và bị viêm họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi ăn uống không hợp lý và bị viêm họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị căng thẳng, stress kéo dài và bị viêm họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi phải nói, hát nhiều và bị viêm họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm họng xung huyết do virus. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm họng xung huyết do vi khuẩn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_439",
+  "name_vi": "Viêm Bàng Quang Kẽ",
+  "name_en": "Viem Bang Quang Ke",
+  "category": "urology",
+  "aliases": [
+    "Viêm Bàng Quang Kẽ",
+    "Viem Bang Quang Ke"
+  ],
+  "description": "Viêm Bàng Quang Kẽ là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bàng quang đang chứa một lượng trước tiểu lớn",
+        "name_en": "bang quang dang chua mot luong truoc tieu lon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "châm chích hoặc nóng rát khi đi tiểu",
+        "name_en": "cham chich hoac nong rat khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có nhu cầu đi tiểu cao hơn bình thường dù rằng tôi không hề uống nhiều nước",
+        "name_en": "co nhu cau di tieu cao hon binh thuong du rang toi khong he uong nhieu nuoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng tức bàng quang",
+        "name_en": "cang tuc bang quang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cần đào thải ra ngoài mặc dù mới tiểu xong",
+        "name_en": "can dao thai ra ngoai mac du moi tieu xong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm chất lượng cuộc sống do đau",
+        "name_en": "giam chat luong cuoc song do dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm dung tích bàng quang",
+        "name_en": "giam dung tich bang quang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó kiểm soát được phản xạ đi tiểu",
+        "name_en": "kho kiem soat duoc phan xa di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng rát hoặc châm chích khi đi tiểu",
+        "name_en": "nong rat hoac cham chich khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tiểu gấp",
+        "name_en": "tieu gap",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "tiểu rắt",
+        "name_en": "tieu rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu són hoặc tiểu không tự chủ",
+        "name_en": "tieu son hoac tieu khong tu chu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trên xương mu hoặc đau bụng",
+        "name_en": "tren xuong mu hoac dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tình trạng đi tiểu thường xuyên",
+        "name_en": "tinh trang di tieu thuong xuyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xương mu",
+        "name_en": "xuong mu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "áp lực bàng quang cùng với tình trạng tiểu gấp",
+        "name_en": "ap luc bang quang cung voi tinh trang tieu gap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi căng thẳng hoặc gặp các vấn đề về sức khỏe tâm thần",
+        "name_en": "dau khi cang thang hoac gap cac van de ve suc khoe tam than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi quan hệ tình dục",
+        "name_en": "dau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau trong thời kỳ kinh nguyệt",
+        "name_en": "dau trong thoi ky kinh nguyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức ở vùng chậu",
+        "name_en": "dau tuc o vung chau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở vùng chậu",
+        "name_en": "dau o vung chau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Bàng Quang Kẽ của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Bàng Quang Kẽ",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau ở vùng chậu, trên xương mu hoặc đau bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy châm chích hoặc nóng rát khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiểu rắt, tiểu gấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau tức ở vùng chậu, xương mu, áp lực bàng quang cùng với tình trạng tiểu gấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó kiểm soát được phản xạ đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiểu són hoặc tiểu không tự chủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi có nhu cầu đi tiểu cao hơn bình thường dù rằng tôi không hề uống nhiều nước. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên cảm thấy căng tức bàng quang. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên có cảm giác như bàng quang đang chứa một lượng trước tiểu lớn và cần đào thải ra ngoài mặc dù mới tiểu xong. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau, nóng rát hoặc châm chích khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau khi căng thẳng hoặc gặp các vấn đề về sức khỏe tâm thần. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau trong thời kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giảm dung tích bàng quang. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giảm chất lượng cuộc sống do đau và tình trạng đi tiểu thường xuyên. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

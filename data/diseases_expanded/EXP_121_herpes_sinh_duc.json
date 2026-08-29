@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_121",
+  "name_vi": "Herpes Sinh Dục",
+  "name_en": "Herpes Sinh Duc",
+  "category": "obstetrics_gynecology",
+  "aliases": [
+    "Herpes Sinh Dục",
+    "Herpes Sinh Duc"
+  ],
+  "description": "Herpes Sinh Dục là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mụn nước ở bìu và vùng da xung quanh hậu môn",
+        "name_en": "co mun nuoc o biu va vung da xung quanh hau mon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mụn nước ở dương vật và vùng da lân cận",
+        "name_en": "co mun nuoc o duong vat va vung da lan can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mụn rộp trên dương vật và mông",
+        "name_en": "co mun rop tren duong vat va mong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mụn nước ở vùng hậu môn",
+        "name_en": "mun nuoc o vung hau mon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mụn rộp xuất hiện trong miệng",
+        "name_en": "mun rop xuat hien trong mieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mụn rộp xuất hiện trên môi",
+        "name_en": "mun rop xuat hien tren moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mụn rộp xuất hiện trên mặt",
+        "name_en": "mun rop xuat hien tren mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mụn rộp ở vùng hậu môn",
+        "name_en": "mun rop o vung hau mon",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mụn rộp ở vùng âm đạo",
+        "name_en": "mun rop o vung am dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy ở mông",
+        "name_en": "ngua ngay o mong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy ở vùng kín",
+        "name_en": "ngua ngay o vung kin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ran ở vùng da xung quanh hậu môn",
+        "name_en": "ngua ran o vung da xung quanh hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ran ở vùng kín",
+        "name_en": "ngua ran o vung kin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng hạch bạch huyết",
+        "name_en": "sung hach bach huyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng hạch bạch huyết ở vùng bẹn",
+        "name_en": "sung hach bach huyet o vung ben",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện mụn nước",
+        "name_en": "xuat hien mun nuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện vết loét",
+        "name_en": "xuat hien vet loet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức cơ thể",
+        "name_en": "dau nhuc co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Herpes Sinh Dục của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Herpes Sinh Dục",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như mụn rộp ở vùng âm đạo và đau nhức cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa ran ở vùng da xung quanh hậu môn và xuất hiện mụn nước. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt và sưng hạch bạch huyết ở vùng bẹn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có mụn rộp trên dương vật và mông. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mụn nước ở vùng hậu môn và đau đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa ngáy ở vùng kín và xuất hiện mụn nước. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt và mụn rộp xuất hiện trong miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có mụn nước ở bìu và vùng da xung quanh hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mụn rộp ở vùng âm đạo và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa ran ở vùng kín và xuất hiện vết loét. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng hạch bạch huyết và mụn rộp xuất hiện trên môi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có mụn nước ở dương vật và vùng da lân cận. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mụn rộp ở vùng hậu môn và chán ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa ngáy ở mông và xuất hiện mụn nước. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức cơ thể và mụn rộp xuất hiện trên mặt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

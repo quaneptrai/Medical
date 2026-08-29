@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_498",
+  "name_vi": "Viêm Tai Giữa Ứ Dịch",
+  "name_en": "Viem Tai Giua U Dich",
+  "category": "ent",
+  "aliases": [
+    "Viêm Tai Giữa Ứ Dịch",
+    "Viem Tai Giua U Dich"
+  ],
+  "description": "Viêm Tai Giữa Ứ Dịch là một bệnh lý thuộc chuyên khoa ent, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chậm nói",
+        "name_en": "cham noi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chậm phát triển ngôn ngữ",
+        "name_en": "cham phat trien ngon ngu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u ở vòm họng",
+        "name_en": "co khoi u o vom hong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử cảm cúm",
+        "name_en": "co tien su cam cum",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử viêm VA",
+        "name_en": "co tien su viem VA",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử viêm amidan",
+        "name_en": "co tien su viem amidan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử viêm mũi xoang",
+        "name_en": "co tien su viem mui xoang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử viêm tai giữa",
+        "name_en": "co tien su viem tai giua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có vấn đề về hành vi",
+        "name_en": "co van de ve hanh vi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay nghịch tai",
+        "name_en": "hay nghich tai",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "học tập kém",
+        "name_en": "hoc tap kem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "màng nhĩ có màu hổ phách",
+        "name_en": "mang nhi co mau ho phach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắc hội chứng Down",
+        "name_en": "mac hoi chung Down",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghe kém",
+        "name_en": "nghe kem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nặng tai",
+        "name_en": "nang tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phải nghe đài",
+        "name_en": "phai nghe dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn đọc",
+        "name_en": "roi loan doc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vô tuyến với âm lượng lớn",
+        "name_en": "vo tuyen voi am luong lon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vừa đi máy bay",
+        "name_en": "vua di may bay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tai",
+        "name_en": "dau tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tai khi nuốt",
+        "name_en": "dau tai khi nuot",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Tai Giữa Ứ Dịch của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Tai Giữa Ứ Dịch",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như nghe kém, ù tai và đau tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nặng tai, đau tai khi nuốt và có tiền sử viêm tai giữa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ù tai, nghe kém và phải nghe đài, vô tuyến với âm lượng lớn. Tôi có thể đang bị bệnh gì?",
+    "Con tôi bị nghe kém, chậm nói và hay nghịch tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ù tai, nghe kém và có tiền sử viêm mũi xoang. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ù tai, nghe kém và có tiền sử viêm amidan. Tôi có thể đang bị bệnh gì?",
+    "Con tôi bị nghe kém, học tập kém và có vấn đề về hành vi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ù tai, nghe kém và vừa đi máy bay. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ù tai, nghe kém và mắc hội chứng Down. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ù tai, nghe kém và có tiền sử viêm VA. Tôi có thể đang bị bệnh gì?",
+    "Con tôi bị nghe kém, chậm phát triển ngôn ngữ và hay nghịch tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ù tai, nghe kém và có tiền sử cảm cúm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ù tai, nghe kém và có khối u ở vòm họng. Tôi có thể đang bị bệnh gì?",
+    "Con tôi bị nghe kém, rối loạn đọc và học tập kém. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ù tai, nghe kém và màng nhĩ có màu hổ phách. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

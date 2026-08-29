@@ -1,0 +1,209 @@
+{
+  "disease_id": "EXP_179",
+  "name_vi": "Mỡ Máu Cao",
+  "name_en": "Mo Mau Cao",
+  "category": "oncology",
+  "aliases": [
+    "Mỡ Máu Cao",
+    "Mo Mau Cao"
+  ],
+  "description": "Mỡ Máu Cao là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "béo phì",
+        "name_en": "beo phi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chuột rút",
+        "name_en": "chuot rut",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một vòng cung màu trắng ở xung quanh giác mạc của mắt",
+        "name_en": "co mot vong cung mau trang o xung quanh giac mac cua mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng",
+        "name_en": "cang thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da khô",
+        "name_en": "da kho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ cáu gắt",
+        "name_en": "de cau gat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoa mắt",
+        "name_en": "hoa mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khát nước thường xuyên",
+        "name_en": "khat nuoc thuong xuyen",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó thở khi gắng sức",
+        "name_en": "kho tho khi gang suc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ngủ",
+        "name_en": "mat ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mờ mắt",
+        "name_en": "mo mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi các cục u ở góc trong của mắt",
+        "name_en": "noi cac cuc u o goc trong cua mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thị lực giảm sút",
+        "name_en": "thi luc giam sut",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thừa cân",
+        "name_en": "thua can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu nhiều",
+        "name_en": "tieu nhieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì chân tay",
+        "name_en": "te bi chan tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện các khối u hoặc nếp nhăn màu vàng ở bên dưới lớp da",
+        "name_en": "xuat hien cac khoi u hoac nep nhan mau vang o ben duoi lop da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn uống kém",
+        "name_en": "an uong kem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Mỡ Máu Cao của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mỡ Máu Cao",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như xuất hiện các khối u hoặc nếp nhăn màu vàng ở bên dưới lớp da. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có một vòng cung màu trắng ở xung quanh giác mạc của mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy nổi các cục u ở góc trong của mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mệt mỏi, khó thở khi gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau ngực, tê bì chân tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt, hoa mắt, ù tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như béo phì, thừa cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tiểu nhiều, khát nước thường xuyên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mờ mắt, thị lực giảm sút. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu, mất ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, căng thẳng, dễ cáu gắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng, buồn nôn, nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ăn uống kém, sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da khô, ngứa ngáy. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chuột rút, tê bì chân tay. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

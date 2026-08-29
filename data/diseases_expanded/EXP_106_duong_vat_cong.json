@@ -1,0 +1,189 @@
+{
+  "disease_id": "EXP_106",
+  "name_vi": "Dương Vật Cong",
+  "name_en": "Duong Vat Cong",
+  "category": "general",
+  "aliases": [
+    "Dương Vật Cong",
+    "Duong Vat Cong"
+  ],
+  "description": "Dương Vật Cong là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "cong",
+        "name_en": "cong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có cảm giác đau khi chạm vào",
+        "name_en": "co cam giac dau khi cham vao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u cứng trên thân dương vật",
+        "name_en": "co khoi u cung tren than duong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u cứng trên trục dương vật",
+        "name_en": "co khoi u cung tren truc duong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật bị co rút",
+        "name_en": "duong vat bi co rut",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật bị cong",
+        "name_en": "duong vat bi cong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật bị cong gập",
+        "name_en": "duong vat bi cong gap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật bị cong hình chữ C khi cương cứng",
+        "name_en": "duong vat bi cong hinh chu C khi cuong cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật bị cong lên trên",
+        "name_en": "duong vat bi cong len tren",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật bị cong sang một bên",
+        "name_en": "duong vat bi cong sang mot ben",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "dương vật bị cong xuống dưới khi cương cứng",
+        "name_en": "duong vat bi cong xuong duoi khi cuong cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "dương vật bị lệch sang trái hoặc sang phải khi cương cứng",
+        "name_en": "duong vat bi lech sang trai hoac sang phai khi cuong cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "dương vật bị thu hẹp chiều dài",
+        "name_en": "duong vat bi thu hep chieu dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "dương vật cong",
+        "name_en": "duong vat cong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "dương vật cong khi cương cứng",
+        "name_en": "duong vat cong khi cuong cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi quan hệ tình dục do dương vật bị cong",
+        "name_en": "kho khan khi quan he tinh duc do duong vat bi cong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi quan hệ tình dục do dương vật bị đau",
+        "name_en": "kho khan khi quan he tinh duc do duong vat bi dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi đi tiểu do dương vật bị cong",
+        "name_en": "kho khan khi di tieu do duong vat bi cong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lệch sang một bên khi cương cứng",
+        "name_en": "lech sang mot ben khi cuong cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngắn lại",
+        "name_en": "ngan lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện mảng xơ cứng trên thân dương vật",
+        "name_en": "xuat hien mang xo cung tren than duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau dương vật",
+        "name_en": "dau duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi cương cứng",
+        "name_en": "dau khi cuong cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đường kính",
+        "name_en": "duong kinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là khi cương cứng",
+        "name_en": "dac biet la khi cuong cung",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Dương Vật Cong của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Dương Vật Cong",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như có khối u cứng trên trục dương vật và dương vật cong khi cương cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau dương vật, đặc biệt là khi cương cứng và dương vật bị cong lên trên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy dương vật bị lệch sang trái hoặc sang phải khi cương cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như dương vật bị thu hẹp chiều dài và đường kính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khi cương cứng, dương vật cong và có khối u cứng trên thân dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy dương vật bị cong xuống dưới khi cương cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khó khăn khi quan hệ tình dục do dương vật bị cong. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy dương vật bị cong sang một bên và có cảm giác đau khi chạm vào. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy dương vật bị co rút và ngắn lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khó khăn khi đi tiểu do dương vật bị cong. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khi cương cứng và dương vật bị cong gập. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy dương vật bị cong hình chữ C khi cương cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như xuất hiện mảng xơ cứng trên thân dương vật và dương vật bị cong. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn khi quan hệ tình dục do dương vật bị đau và cong. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy dương vật bị cong lên trên và lệch sang một bên khi cương cứng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

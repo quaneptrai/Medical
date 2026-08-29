@@ -1,0 +1,224 @@
+{
+  "disease_id": "EXP_259",
+  "name_vi": "Rối Loạn Lưỡng Cực",
+  "name_en": "Roi Loan Luong Cuc",
+  "category": "general",
+  "aliases": [
+    "Rối Loạn Lưỡng Cực",
+    "Roi Loan Luong Cuc"
+  ],
+  "description": "Rối Loạn Lưỡng Cực là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn bã vô cớ",
+        "name_en": "buon ba vo co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy bế tắc",
+        "name_en": "cam thay be tac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ bị kích động",
+        "name_en": "de bi kich dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm ham muốn tình dục",
+        "name_en": "giam ham muon tinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay có những giai đoạn tràn đầy năng lượng xen kẽ với giai đoạn buồn bã và mất năng lượng",
+        "name_en": "hay co nhung giai doan tran day nang luong xen ke voi giai doan buon ba va mat nang luong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay có những giai đoạn tăng ham muốn tình dục xen kẽ với giai đoạn giảm ham muốn tình dục",
+        "name_en": "hay co nhung giai doan tang ham muon tinh duc xen ke voi giai doan giam ham muon tinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay có những giai đoạn đưa ra quyết định liều lĩnh xen kẽ với giai đoạn không thể đưa ra quyết định",
+        "name_en": "hay co nhung giai doan dua ra quyet dinh lieu linh xen ke voi giai doan khong the dua ra quyet dinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay suy nghĩ tiêu cực, mất năng lượng, và có ý định tự sát",
+        "name_en": "hay suy nghi tieu cuc, mat nang luong, va co y dinh tu sat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hưng phấn",
+        "name_en": "hung phan",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hưng phấn thái quá",
+        "name_en": "hung phan thai qua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "liên tưởng chậm chạp",
+        "name_en": "lien tuong cham chap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mình có thể vượt qua mọi khó khăn xen kẽ với cảm giác bế tắc",
+        "name_en": "minh co the vuot qua moi kho khan xen ke voi cam giac be tac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mình có tài năng đặc biệt xen kẽ với cảm giác vô dụng",
+        "name_en": "minh co tai nang dac biet xen ke voi cam giac vo dung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất niềm tin vào tương lai",
+        "name_en": "mat niem tin vao tuong lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngủ ít",
+        "name_en": "ngu it",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nói liên tục",
+        "name_en": "noi lien tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nói nhiều",
+        "name_en": "noi nhieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn giấc ngủ",
+        "name_en": "roi loan giac ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sau đó chuyển sang trầm cảm",
+        "name_en": "sau do chuyen sang tram cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy nghĩ lạc quan một cách đơn giản",
+        "name_en": "suy nghi lac quan mot cach don gian",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sức khỏe vô cùng hoàn hảo",
+        "name_en": "suc khoe vo cung hoan hao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi chế độ ăn uống",
+        "name_en": "thay doi che do an uong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi cảm xúc thất thường",
+        "name_en": "thay doi cam xuc that thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tràn đầy năng lượng",
+        "name_en": "tran day nang luong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tuyệt vọng",
+        "name_en": "tuyet vong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tội lỗi",
+        "name_en": "toi loi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khổ",
+        "name_en": "dau kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh giá thấp bản thân",
+        "name_en": "danh gia thap ban than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đưa ra quyết định liều lĩnh",
+        "name_en": "dua ra quyet dinh lieu linh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rối Loạn Lưỡng Cực của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Lưỡng Cực",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như tràn đầy năng lượng, nói nhiều, và đưa ra quyết định liều lĩnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy hưng phấn, ngủ ít, và suy nghĩ lạc quan một cách đơn giản. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay tăng động, nói nhanh, và cảm thấy sức khỏe vô cùng hoàn hảo. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như buồn bã vô cớ, đánh giá thấp bản thân, và cảm thấy bế tắc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, chán ăn, và khó tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay suy nghĩ tiêu cực, mất năng lượng, và có ý định tự sát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như thay đổi chế độ ăn uống, rối loạn giấc ngủ, và giảm ham muốn tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khổ, mất niềm tin vào tương lai, và liên tưởng chậm chạp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay có những giai đoạn tràn đầy năng lượng xen kẽ với giai đoạn buồn bã và mất năng lượng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như hưng phấn thái quá và sau đó chuyển sang trầm cảm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mình có tài năng đặc biệt xen kẽ với cảm giác vô dụng và tội lỗi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay có những giai đoạn đưa ra quyết định liều lĩnh xen kẽ với giai đoạn không thể đưa ra quyết định. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như dễ bị kích động, thay đổi cảm xúc thất thường, và nói liên tục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mình có thể vượt qua mọi khó khăn xen kẽ với cảm giác bế tắc và tuyệt vọng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay có những giai đoạn tăng ham muốn tình dục xen kẽ với giai đoạn giảm ham muốn tình dục. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

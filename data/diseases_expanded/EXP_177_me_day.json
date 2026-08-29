@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_177",
+  "name_vi": "Mề Đay",
+  "name_en": "Me Day",
+  "category": "general",
+  "aliases": [
+    "Mề Đay",
+    "Me Day"
+  ],
+  "description": "Mề Đay là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "các nốt mẩn sưng to",
+        "name_en": "cac not man sung to",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có hình dạng như vết muỗi đốt",
+        "name_en": "co hinh dang nhu vet muoi dot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lông thú",
+        "name_en": "long thu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lưỡi",
+        "name_en": "luoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "môi",
+        "name_en": "moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mỹ phẩm",
+        "name_en": "my pham",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa ngáy dữ dội",
+        "name_en": "ngua ngay du doi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa ngáy khắp người",
+        "name_en": "ngua ngay khap nguoi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nổi mẩn",
+        "name_en": "noi man",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn kéo dài nhiều ngày không khỏi",
+        "name_en": "noi man keo dai nhieu ngay khong khoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn sau khi bị côn trùng cắn",
+        "name_en": "noi man sau khi bi con trung can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn sau khi thay đổi thời tiết",
+        "name_en": "noi man sau khi thay doi thoi tiet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn sau khi tiếp xúc với bụi bẩn",
+        "name_en": "noi man sau khi tiep xuc voi bui ban",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn sau khi tiếp xúc với hóa chất",
+        "name_en": "noi man sau khi tiep xuc voi hoa chat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn sau khi uống thuốc",
+        "name_en": "noi man sau khi uong thuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn sau khi vận động mạnh",
+        "name_en": "noi man sau khi van dong manh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn sau khi ăn một số loại thực phẩm",
+        "name_en": "noi man sau khi an mot so loai thuc pham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn đỏ",
+        "name_en": "noi man do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù nề mặt",
+        "name_en": "phu ne mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tức ngực",
+        "name_en": "tuc nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Mề Đay của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mề Đay",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như nổi mẩn đỏ, ngứa ngáy khắp người. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy các nốt mẩn sưng to, có hình dạng như vết muỗi đốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa ngáy dữ dội, khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nổi mẩn sau khi ăn một số loại thực phẩm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nổi mẩn sau khi tiếp xúc với hóa chất, mỹ phẩm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi mẩn sau khi uống thuốc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nổi mẩn sau khi thay đổi thời tiết. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nổi mẩn sau khi tiếp xúc với bụi bẩn, lông thú. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi mẩn sau khi vận động mạnh, đổ mồ hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nổi mẩn sau khi bị côn trùng cắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nổi mẩn kèm theo sốt, đau họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi mẩn kèm theo đau bụng, tiêu chảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nổi mẩn kèm theo khó thở, tức ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nổi mẩn kèm theo phù nề mặt, môi, lưỡi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi mẩn kéo dài nhiều ngày không khỏi. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

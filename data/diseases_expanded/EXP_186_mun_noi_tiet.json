@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_186",
+  "name_vi": "Mụn Nội Tiết",
+  "name_en": "Mun Noi Tiet",
+  "category": "dermatology",
+  "aliases": [
+    "Mụn Nội Tiết",
+    "Mun Noi Tiet"
+  ],
+  "description": "Mụn Nội Tiết là một bệnh lý thuộc chuyên khoa dermatology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "có liên quan đến chu kỳ kinh nguyệt",
+        "name_en": "co lien quan den chu ky kinh nguyet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mụn đầu trắng ở cằm và trán, không gây đau nhưng mất thẩm mỹ",
+        "name_en": "co mun dau trang o cam va tran, khong gay dau nhung mat tham my",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mụn đầu đen ở mũi và cằm, không viêm nhưng lo lắng về nguyên nhân",
+        "name_en": "co mun dau den o mui va cam, khong viem nhung lo lang ve nguyen nhan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có những nốt mụn viêm",
+        "name_en": "co nhung not mun viem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có thể do thay đổi nội tiết tố",
+        "name_en": "co the do thay doi noi tiet to",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cường androgen",
+        "name_en": "cuong androgen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cằm",
+        "name_en": "cam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gây đau",
+        "name_en": "gay dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng mụn mủ và nốt sần ở lưng, gây đau và mất thẩm mỹ",
+        "name_en": "hien dang co trieu chung mun mu va not san o lung, gay dau va mat tham my",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng mụn mủ ở lưng và ngực, kèm theo rối loạn kinh nguyệt",
+        "name_en": "hien dang co trieu chung mun mu o lung va nguc, kem theo roi loan kinh nguyet",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hiện đang có triệu chứng mụn đầu đen ở mũi và cằm",
+        "name_en": "hien dang co trieu chung mun dau den o mui va cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lưng",
+        "name_en": "lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn mọc ở lưng",
+        "name_en": "mun moc o lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn mủ",
+        "name_en": "mun mu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn nội tiết ở quai hàm",
+        "name_en": "mun noi tiet o quai ham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn nội tiết ở vùng má",
+        "name_en": "mun noi tiet o vung ma",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn nội tiết ở vùng trán",
+        "name_en": "mun noi tiet o vung tran",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn đầu trắng",
+        "name_en": "mun dau trang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt sần trên mặt",
+        "name_en": "not san tren mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn kinh nguyệt",
+        "name_en": "roi loan kinh nguyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn nội tiết tố",
+        "name_en": "roi loan noi tiet to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy ở cổ",
+        "name_en": "sung tay o co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện mụn mủ ở ngực",
+        "name_en": "xuat hien mun mu o nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện mụn viêm sưng ở trán",
+        "name_en": "xuat hien mun viem sung o tran",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện nốt sần ở cằm",
+        "name_en": "xuat hien not san o cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầu đen",
+        "name_en": "dau den",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Mụn Nội Tiết của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mụn Nội Tiết",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như mụn đầu trắng, đầu đen, mụn mủ và nốt sần trên mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có những nốt mụn viêm, sưng tấy ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mụn mọc ở lưng, kèm theo rối loạn kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi có mụn đầu đen không đau ở má, nhưng lại bị cường androgen. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy xuất hiện mụn mủ ở ngực và cằm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mụn nội tiết ở quai hàm, kèm theo rối loạn nội tiết tố. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng mụn đầu đen ở mũi và cằm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy xuất hiện mụn viêm sưng ở trán và lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mụn nội tiết ở vùng má và cổ, có thể do thay đổi nội tiết tố. Tôi có thể đang bị bệnh gì?",
+    "Tôi có mụn đầu trắng ở cằm và trán, không gây đau nhưng mất thẩm mỹ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng mụn mủ ở lưng và ngực, kèm theo rối loạn kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy xuất hiện nốt sần ở cằm, gây đau và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mụn nội tiết ở vùng trán và má, có liên quan đến chu kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi có mụn đầu đen ở mũi và cằm, không viêm nhưng lo lắng về nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng mụn mủ và nốt sần ở lưng, gây đau và mất thẩm mỹ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_381",
+  "name_vi": "U Xơ Tử Cung Khi Mang Thai",
+  "name_en": "U Xo Tu Cung Khi Mang Thai",
+  "category": "oncology",
+  "aliases": [
+    "U Xơ Tử Cung Khi Mang Thai",
+    "U Xo Tu Cung Khi Mang Thai"
+  ],
+  "description": "U Xơ Tử Cung Khi Mang Thai là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "3 tháng cuối thai kỳ",
+        "name_en": "3 thang cuoi thai ky",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "băng huyết sau khi sinh",
+        "name_en": "bang huyet sau khi sinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bị sảy thai liên tiếp",
+        "name_en": "bi say thai lien tiep",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chèn ép",
+        "name_en": "chen ep",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoặc gặp cả hai triệu chứng trong 3 tháng đầu thai kỳ",
+        "name_en": "hoac gap ca hai trieu chung trong 3 thang dau thai ky",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoặc tình trạng xuất huyết bất thường",
+        "name_en": "hoac tinh trang xuat huyet bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn trong chuyển dạ",
+        "name_en": "kho khan trong chuyen da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thụ thai",
+        "name_en": "kho thu thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mang thai và khối u xơ tử cung không được cung cấp đủ lượng máu",
+        "name_en": "mang thai va khoi u xo tu cung khong duoc cung cap du luong mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mang thai và khối u xơ tử cung làm giảm khả năng co bóp của tử cung",
+        "name_en": "mang thai va khoi u xo tu cung lam giam kha nang co bop cua tu cung",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mang thai và khối u xơ tử cung phát triển lớn hơn",
+        "name_en": "mang thai va khoi u xo tu cung phat trien lon hon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm khuẩn hậu sản",
+        "name_en": "nhiem khuan hau san",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rau bong non trong thai kỳ",
+        "name_en": "rau bong non trong thai ky",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sinh ngôi mông",
+        "name_en": "sinh ngoi mong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sinh non",
+        "name_en": "sinh non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "u xơ tử cung",
+        "name_en": "u xo tu cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội trong thai kỳ",
+        "name_en": "dau bung du doi trong thai ky",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau quặn bụng trong 3 tháng giữa",
+        "name_en": "dau quan bung trong 3 thang giua",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ U Xơ Tử Cung Khi Mang Thai của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của U Xơ Tử Cung Khi Mang Thai",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau bụng, hoặc tình trạng xuất huyết bất thường, hoặc gặp cả hai triệu chứng trong 3 tháng đầu thai kỳ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau quặn bụng trong 3 tháng giữa và 3 tháng cuối thai kỳ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng dữ dội trong thai kỳ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị rau bong non trong thai kỳ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sinh non. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị u xơ tử cung và khó khăn trong chuyển dạ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị u xơ tử cung và sinh ngôi mông. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị băng huyết sau khi sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm khuẩn hậu sản. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị u xơ tử cung và khó thụ thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị u xơ tử cung và bị sảy thai liên tiếp. Tôi có thể đang bị bệnh gì?",
+    "Tôi mang thai và khối u xơ tử cung phát triển lớn hơn. Tôi có thể đang bị bệnh gì?",
+    "Tôi mang thai và khối u xơ tử cung bị chèn ép. Tôi có thể đang bị bệnh gì?",
+    "Tôi mang thai và khối u xơ tử cung không được cung cấp đủ lượng máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi mang thai và khối u xơ tử cung làm giảm khả năng co bóp của tử cung. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

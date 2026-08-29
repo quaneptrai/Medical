@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_348",
+  "name_vi": "Trầm Cảm Sau Sinh",
+  "name_en": "Tram Cam Sau Sinh",
+  "category": "oncology",
+  "aliases": [
+    "Trầm Cảm Sau Sinh",
+    "Tram Cam Sau Sinh"
+  ],
+  "description": "Trầm Cảm Sau Sinh là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chán ăn hoặc ăn nhiều hơn bình thường sau sinh",
+        "name_en": "chan an hoac an nhieu hon binh thuong sau sinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cáu gắt",
+        "name_en": "cau gat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có suy nghĩ làm hại bản thân hoặc em bé",
+        "name_en": "co suy nghi lam hai ban than hoac em be",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ cáu gắt, khó chịu và tức giận với con",
+        "name_en": "de cau gat, kho chiu va tuc gian voi con",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ kích động",
+        "name_en": "de kich dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "em bé dường như không phải là con của mình",
+        "name_en": "em be duong nhu khong phai la con cua minh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm trí nhớ và khả năng tập trung sau sinh",
+        "name_en": "giam tri nho va kha nang tap trung sau sinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay chán ghét bản thân và có ý nghĩ tự tử sau khi sinh con",
+        "name_en": "hay chan ghet ban than va co y nghi tu tu sau khi sinh con",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay khóc lóc và ủ rũ sau khi sinh con",
+        "name_en": "hay khoc loc va u ru sau khi sinh con",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hành động",
+        "name_en": "hanh dong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó khăn trong việc đưa ra quyết định sau sinh",
+        "name_en": "kho khan trong viec dua ra quyet dinh sau sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khóc",
+        "name_en": "khoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng mình không phải là một người mẹ tốt",
+        "name_en": "lo lang minh khong phai la mot nguoi me tot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lú lẫn",
+        "name_en": "lu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ngủ",
+        "name_en": "mat ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ngủ sau sinh",
+        "name_en": "mat ngu sau sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ngủ triền miên hoặc ngủ quá nhiều sau sinh",
+        "name_en": "mat ngu trien mien hoac ngu qua nhieu sau sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi quá mức sau sinh và không có hứng thú với các hoạt động xung quanh",
+        "name_en": "met moi qua muc sau sinh va khong co hung thu voi cac hoat dong xung quanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi sau sinh",
+        "name_en": "met moi sau sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phản ứng chậm chạp hoặc lặp lại sau sinh",
+        "name_en": "phan ung cham chap hoac lap lai sau sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy nghĩ",
+        "name_en": "suy nghi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy nghĩ thường xuyên về cái chết hoặc tự tử",
+        "name_en": "suy nghi thuong xuyen ve cai chet hoac tu tu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thiếu tập trung",
+        "name_en": "thieu tap trung",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Trầm Cảm Sau Sinh của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Trầm Cảm Sau Sinh",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay khóc lóc và ủ rũ sau khi sinh con. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như lo lắng, khóc, mất ngủ, mệt mỏi sau sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy thiếu tập trung và khó khăn trong việc đưa ra quyết định sau sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay chán ghét bản thân và có ý nghĩ tự tử sau khi sinh con. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy dễ kích động, lú lẫn, cáu gắt và mất ngủ sau sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng mình không phải là một người mẹ tốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi không có hứng thú với em bé hoặc cảm thấy em bé dường như không phải là con của mình. Tôi có thể đang bị bệnh gì?",
+    "Tôi giảm trí nhớ và khả năng tập trung sau sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi có suy nghĩ làm hại bản thân hoặc em bé. Tôi có thể đang bị bệnh gì?",
+    "Tôi suy nghĩ thường xuyên về cái chết hoặc tự tử. Tôi có thể đang bị bệnh gì?",
+    "Tôi mệt mỏi quá mức sau sinh và không có hứng thú với các hoạt động xung quanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi dễ cáu gắt, khó chịu và tức giận với con. Tôi có thể đang bị bệnh gì?",
+    "Tôi chán ăn hoặc ăn nhiều hơn bình thường sau sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi mất ngủ triền miên hoặc ngủ quá nhiều sau sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy suy nghĩ, hành động và phản ứng chậm chạp hoặc lặp lại sau sinh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

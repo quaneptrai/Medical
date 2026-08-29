@@ -1,0 +1,149 @@
+{
+  "disease_id": "EXP_048",
+  "name_vi": "Bệnh Rubella",
+  "name_en": "Benh Rubella",
+  "category": "general",
+  "aliases": [
+    "Bệnh Rubella",
+    "Benh Rubella"
+  ],
+  "description": "Bệnh Rubella là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kéo dài khoảng 2-3 tuần",
+        "name_en": "keo dai khoang 2-3 tuan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kéo dài vài ngày",
+        "name_en": "keo dai vai ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phát ban",
+        "name_en": "phat ban",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phát ban bắt đầu từ mặt",
+        "name_en": "phat ban bat dau tu mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phát ban kéo dài 1-3 ngày",
+        "name_en": "phat ban keo dai 1-3 ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sau đó lan xuống cơ thể",
+        "name_en": "sau do lan xuong co the",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sưng hạch sau tai",
+        "name_en": "sung hach sau tai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sưng hạch sau tai sau khi tiếp xúc với người bệnh Rubella",
+        "name_en": "sung hach sau tai sau khi tiep xuc voi nguoi benh Rubella",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sưng hạch ở cổ",
+        "name_en": "sung hach o co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm kết mạc",
+        "name_en": "viem ket mac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm kết mạc nhẹ",
+        "name_en": "viem ket mac nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp",
+        "name_en": "dau khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp kéo dài 3-10 ngày",
+        "name_en": "dau khop keo dai 3-10 ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là ở phụ nữ",
+        "name_en": "dac biet la o phu nu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Rubella của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Rubella",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như phát ban, sốt nhẹ và viêm kết mạc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy buồn nôn và sưng hạch sau tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phát ban bắt đầu từ mặt và cổ, sau đó lan xuống cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sốt nhẹ, viêm kết mạc và đau khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi và sưng hạch ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phát ban kéo dài 1-3 ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sốt nhẹ, phát ban và đau khớp kéo dài 3-10 ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi và sưng hạch sau tai sau khi tiếp xúc với người bệnh Rubella. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phát ban và viêm kết mạc nhẹ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sốt nhẹ, phát ban và sưng hạch sau tai, kéo dài khoảng 2-3 tuần. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi và đau khớp, đặc biệt là ở phụ nữ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phát ban và sốt nhẹ, kèm theo buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm kết mạc, sưng hạch sau tai và phát ban. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi và sưng hạch ở cổ, kèm theo phát ban. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt nhẹ và đau khớp, kéo dài vài ngày. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_357",
+  "name_vi": "Tăng Huyết Áp Vô Căn",
+  "name_en": "Tang Huyet Ap Vo Can",
+  "category": "cardiology",
+  "aliases": [
+    "Tăng Huyết Áp Vô Căn",
+    "Tang Huyet Ap Vo Can"
+  ],
+  "description": "Tăng Huyết Áp Vô Căn là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu cam",
+        "name_en": "chay mau cam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có lối sống ít vận động và lo lắng về nguy cơ tăng huyết áp",
+        "name_en": "co loi song it van dong va lo lang ve nguy co tang huyet ap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hút thuốc lá và lo lắng về nguy cơ tăng huyết áp",
+        "name_en": "hut thuoc la va lo lang ve nguy co tang huyet ap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về nguy cơ tăng huyết áp",
+        "name_en": "lo lang ve nguy co tang huyet ap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về các dấu hiệu của tăng huyết áp vô căn",
+        "name_en": "muon tim hieu ve cac dau hieu cua tang huyet ap vo can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về cách phòng ngừa tăng huyết áp vô căn",
+        "name_en": "muon tim hieu ve cach phong ngua tang huyet ap vo can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về cách điều trị tăng huyết áp vô căn",
+        "name_en": "muon tim hieu ve cach dieu tri tang huyet ap vo can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn tìm một cơ sở y tế uy tín để điều trị tăng huyết áp vô căn",
+        "name_en": "muon tim mot co so y te uy tin de dieu tri tang huyet ap vo can",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "muốn được tư vấn về các vấn đề sức khỏe liên quan đến tăng huyết áp vô căn",
+        "name_en": "muon duoc tu van ve cac van de suc khoe lien quan den tang huyet ap vo can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng phừng mặt",
+        "name_en": "nong phung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "stress",
+        "name_en": "stress",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thừa cân, béo phì và lo lắng về nguy cơ tăng huyết áp",
+        "name_en": "thua can, beo phi va lo lang ve nguy co tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng huyết áp",
+        "name_en": "tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "uống rượu bia nhiều và lo lắng về nguy cơ tăng huyết áp",
+        "name_en": "uong ruou bia nhieu va lo lang ve nguy co tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn mặn và lo lắng về nguy cơ tăng huyết áp",
+        "name_en": "an man va lo lang ve nguy co tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Tăng Huyết Áp Vô Căn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Tăng Huyết Áp Vô Căn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau đầu, chóng mặt, mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở và nóng phừng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu cam. Tôi có thể đang bị bệnh gì?",
+    "Tôi thừa cân, béo phì và lo lắng về nguy cơ tăng huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi có lối sống ít vận động và lo lắng về nguy cơ tăng huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi ăn mặn và lo lắng về nguy cơ tăng huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hút thuốc lá và lo lắng về nguy cơ tăng huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi uống rượu bia nhiều và lo lắng về nguy cơ tăng huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị stress và lo lắng về nguy cơ tăng huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi có tiền sử gia đình bị tăng huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về các dấu hiệu của tăng huyết áp vô căn. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về cách điều trị tăng huyết áp vô căn. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm một cơ sở y tế uy tín để điều trị tăng huyết áp vô căn. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn được tư vấn về các vấn đề sức khỏe liên quan đến tăng huyết áp vô căn. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về cách phòng ngừa tăng huyết áp vô căn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

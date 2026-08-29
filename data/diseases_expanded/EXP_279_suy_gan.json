@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_279",
+  "name_vi": "Suy Gan",
+  "name_en": "Suy Gan",
+  "category": "digestive",
+  "aliases": [
+    "Suy Gan",
+    "Suy Gan"
+  ],
+  "description": "Suy Gan là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu",
+        "name_en": "chay mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu không kiểm soát",
+        "name_en": "chay mau khong kiem soat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ thể mệt mỏi",
+        "name_en": "co the met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "huyết áp cao",
+        "name_en": "huyet ap cao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hơi thở có mùi amoniac",
+        "name_en": "hoi tho co mui amoniac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất phương hướng",
+        "name_en": "mat phuong huong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mắt",
+        "name_en": "mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ngứa ngáy khắp người",
+        "name_en": "ngua ngay khap nguoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng tiểu",
+        "name_en": "nhiem trung tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn ra máu",
+        "name_en": "non ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù chân",
+        "name_en": "phu chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù não",
+        "name_en": "phu nao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn tiêu hóa",
+        "name_en": "roi loan tieu hoa",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy thận",
+        "name_en": "suy than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tích nước trong bụng",
+        "name_en": "tich nuoc trong bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm phổi",
+        "name_en": "viem phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng da",
+        "name_en": "vang da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy hơi",
+        "name_en": "day hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Suy Gan của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Suy Gan",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như mệt mỏi, buồn nôn và chán ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tiêu chảy và nôn ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị vàng da và mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như phù chân và tích nước trong bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mất phương hướng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu và hơi thở có mùi amoniac. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như vàng da và cơ thể mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phù não và huyết áp cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu không kiểm soát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm phổi và nhiễm trùng tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy suy thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mệt mỏi và sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng và đầy hơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa ngáy khắp người. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị rối loạn tiêu hóa. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

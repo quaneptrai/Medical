@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_533",
+  "name_vi": "Viêm Đường Tiết Niệu",
+  "name_en": "Viem Duong Tiet Nieu",
+  "category": "urology",
+  "aliases": [
+    "Viêm Đường Tiết Niệu",
+    "Viem Duong Tiet Nieu"
+  ],
+  "description": "Viêm Đường Tiết Niệu là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bàng quang thần kinh",
+        "name_en": "bang quang than kinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bị viêm quy đầu",
+        "name_en": "bi viem quy dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chấn thương dương vật do quan hệ tình dục thô bạo",
+        "name_en": "chan thuong duong vat do quan he tinh duc tho bao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da quy đầu do vệ sinh không đúng cách",
+        "name_en": "da quy dau do ve sinh khong dung cach",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gây kích thích niệu đạo dẫn tới tình trạng viêm niệu đạo",
+        "name_en": "gay kich thich nieu dao dan toi tinh trang viem nieu dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hẹp niệu quản",
+        "name_en": "hep nieu quan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hẹp niệu đạo",
+        "name_en": "hep nieu dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "một số cơ quan trong hệ tiết niệu bị viêm nhiễm",
+        "name_en": "mot so co quan trong he tiet nieu bi viem nhiem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm khuẩn niệu phức tạp",
+        "name_en": "nhiem khuan nieu phuc tap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm khuẩn niệu đơn giản",
+        "name_en": "nhiem khuan nieu don gian",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nước tiểu có sự xâm nhập của vi khuẩn",
+        "name_en": "nuoc tieu co su xam nhap cua vi khuan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phì đại tuyến tiền liệt",
+        "name_en": "phi dai tuyen tien liet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phụ nữ mang thai",
+        "name_en": "phu nu mang thai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sỏi",
+        "name_en": "soi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sỏi tiết niệu",
+        "name_en": "soi tiet nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thận ứ mủ",
+        "name_en": "than u mu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vi khuẩn Escherichia coli (E.coli) xâm nhập vào đường tiết niệu",
+        "name_en": "vi khuan Escherichia coli (E.coli) xam nhap vao duong tiet nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vi khuẩn bội nhiễm ngược dòng niệu đạo vào bàng quang",
+        "name_en": "vi khuan boi nhiem nguoc dong nieu dao vao bang quang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bàng quang",
+        "name_en": "viem bang quang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm niệu đạo",
+        "name_en": "viem nieu dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm thận – bể thận cấp",
+        "name_en": "viem than - be than cap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm thận – bể thận mạn tính",
+        "name_en": "viem than - be than man tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tinh hoàn",
+        "name_en": "viem tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tiền liệt tuyến",
+        "name_en": "viem tien liet tuyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đường tiết niệu dưới",
+        "name_en": "viem duong tiet nieu duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đường tiết niệu trên",
+        "name_en": "viem duong tiet nieu tren",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "áp xe thận",
+        "name_en": "ap xe than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặt Catheter đường tiết niệu",
+        "name_en": "dat Catheter duong tiet nieu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Đường Tiết Niệu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Đường Tiết Niệu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như nước tiểu có sự xâm nhập của vi khuẩn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy một số cơ quan trong hệ tiết niệu bị viêm nhiễm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm đường tiết niệu trên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm thận – bể thận cấp, viêm thận – bể thận mạn tính, áp xe thận, thận ứ mủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm đường tiết niệu dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm bàng quang, viêm niệu đạo, viêm tinh hoàn, viêm tiền liệt tuyến. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhiễm khuẩn niệu đơn giản. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nhiễm khuẩn niệu phức tạp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị bàng quang thần kinh, sỏi tiết niệu, phì đại tuyến tiền liệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như phụ nữ mang thai, đặt Catheter đường tiết niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy vi khuẩn bội nhiễm ngược dòng niệu đạo vào bàng quang. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị vi khuẩn Escherichia coli (E.coli) xâm nhập vào đường tiết niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như bị viêm quy đầu, da quy đầu do vệ sinh không đúng cách. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chấn thương dương vật do quan hệ tình dục thô bạo, gây kích thích niệu đạo dẫn tới tình trạng viêm niệu đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sỏi, phì đại tuyến tiền liệt, bàng quang thần kinh, hẹp niệu quản, hẹp niệu đạo. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "disease_id": "EXP_085",
+  "name_vi": "Bệnh Động Kinh",
+  "name_en": "Benh Dong Kinh",
+  "category": "neurology",
+  "aliases": [
+    "Bệnh Động Kinh",
+    "Benh Dong Kinh"
+  ],
+  "description": "Bệnh Động Kinh là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co cứng cơ bắp",
+        "name_en": "co cung co bap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật một phần cơ thể",
+        "name_en": "co giat mot phan co the",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật toàn thân không kiểm soát",
+        "name_en": "co giat toan than khong kiem soat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác lo lắng",
+        "name_en": "cam giac lo lang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác tê bì ở một phần cơ thể",
+        "name_en": "cam giac te bi o mot phan co the",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy bồn chồn",
+        "name_en": "cam thay bon chon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ghi nhớ thông tin",
+        "name_en": "ghi nho thong tin",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp ác mộng",
+        "name_en": "gap ac mong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hoang mang",
+        "name_en": "hoang mang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó chịu vùng dạ dày",
+        "name_en": "kho chiu vung da day",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi tập trung",
+        "name_en": "kho khan khi tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng về việc lên cơn co giật ở nơi công cộng",
+        "name_en": "lo lang ve viec len con co giat o noi cong cong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất phương hướng sau khi tỉnh dậy từ cơn co giật",
+        "name_en": "mat phuong huong sau khi tinh day tu con co giat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ý thức",
+        "name_en": "mat y thuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ý thức trong vài giây",
+        "name_en": "mat y thuc trong vai giay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mặt đờ đẫn",
+        "name_en": "mat do dan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi sau khi trải qua cơn co giật",
+        "name_en": "met moi sau khi trai qua con co giat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngã xuống",
+        "name_en": "nga xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn chằm chằm",
+        "name_en": "nhin cham cham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa trước hoặc sau khi lên cơn co giật",
+        "name_en": "non mua truoc hoac sau khi len con co giat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn giấc ngủ",
+        "name_en": "roi loan giac ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sau đó mất ý thức tạm thời",
+        "name_en": "sau do mat y thuc tam thoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ hãi",
+        "name_en": "so hai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ hãi không rõ nguyên nhân",
+        "name_en": "so hai khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tay chân co giật",
+        "name_en": "tay chan co giat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi hành vi",
+        "name_en": "thay doi hanh vi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi tâm trạng đột ngột",
+        "name_en": "thay doi tam trang dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thực hiện những hành vi vô nghĩa như xoa tay",
+        "name_en": "thuc hien nhung hanh vi vo nghia nhu xoa tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "toàn thân uốn cong",
+        "name_en": "toan than uon cong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tính cách sau khi trải qua cơn co giật",
+        "name_en": "tinh cach sau khi trai qua con co giat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xoay đầu",
+        "name_en": "xoay dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh rơi đồ vật đang cầm",
+        "name_en": "danh roi do vat dang cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầu gật mạnh xuống",
+        "name_en": "dau gat manh xuong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Động Kinh của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Động Kinh",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay bị co giật một phần cơ thể, kèm theo cảm giác lo lắng và sợ hãi không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chóng mặt và khó chịu vùng dạ dày, sau đó mất ý thức tạm thời. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nhìn chằm chằm, mặt đờ đẫn và thực hiện những hành vi vô nghĩa như xoa tay, xoay đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mất ý thức, ngã xuống và co giật toàn thân không kiểm soát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mất ý thức trong vài giây, nhìn chằm chằm và đánh rơi đồ vật đang cầm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đầu gật mạnh xuống, toàn thân uốn cong và tay chân co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị co cứng cơ bắp và cảm giác tê bì ở một phần cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy hoang mang và mất phương hướng sau khi tỉnh dậy từ cơn co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thay đổi tâm trạng đột ngột và cảm thấy bồn chồn, lo lắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy buồn nôn và nôn mửa trước hoặc sau khi lên cơn co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu và mệt mỏi sau khi trải qua cơn co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn khi tập trung và ghi nhớ thông tin. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị rối loạn giấc ngủ và gặp ác mộng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sợ hãi và lo lắng về việc lên cơn co giật ở nơi công cộng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thay đổi hành vi và tính cách sau khi trải qua cơn co giật. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

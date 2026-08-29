@@ -1,0 +1,239 @@
+{
+  "disease_id": "EXP_017",
+  "name_vi": "Bệnh Bạch Hầu",
+  "name_en": "Benh Bach Hau",
+  "category": "general",
+  "aliases": [
+    "Bệnh Bạch Hầu",
+    "Benh Bach Hau"
+  ],
+  "description": "Bệnh Bạch Hầu là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt kéo dài",
+        "name_en": "chong mat keo dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi có màu vàng hoặc xanh",
+        "name_en": "chay nuoc mui co mau vang hoac xanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy ra chất mủ nhầy đôi khi có máu",
+        "name_en": "chay ra chat mu nhay doi khi co mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có cảm giác vướng víu ở cổ họng",
+        "name_en": "co cam giac vuong viu o co hong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có cảm giác đau nhức",
+        "name_en": "co cam giac dau nhuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có cảm giác ớn lạnh",
+        "name_en": "co cam giac on lanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có giả mạc tại thanh quản",
+        "name_en": "co gia mac tai thanh quan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có màng trắng ở vách ngăn mũi",
+        "name_en": "co mang trang o vach ngan mui",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "có một đám hoại tử tạo thành lớp giả mạc màu trắng xanh ở amiđan",
+        "name_en": "co mot dam hoai tu tao thanh lop gia mac mau trang xanh o amidan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "có tiếng rít khi thở",
+        "name_en": "co tieng rit khi tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "có đờm trắng đục",
+        "name_en": "co dom trang duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ho khan kéo dài",
+        "name_en": "ho khan keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khàn tiếng",
+        "name_en": "khan tieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mạch nhanh",
+        "name_en": "mach nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phờ phạc",
+        "name_en": "pho phac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sau đó xuất hiện một lớp màng trắng ở cổ họng",
+        "name_en": "sau do xuat hien mot lop mang trang o co hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng các hạch vùng cổ",
+        "name_en": "sung cac hach vung co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng hạch ở cổ",
+        "name_en": "sung hach o co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng nề vùng dưới hàm",
+        "name_en": "sung ne vung duoi ham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao đột ngột",
+        "name_en": "sot cao dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sổ mũi",
+        "name_en": "so mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xanh tái",
+        "name_en": "xanh tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau cổ họng",
+        "name_en": "dau co hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi nuốt",
+        "name_en": "dau khi nuot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đờ đẫn",
+        "name_en": "do dan",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Bạch Hầu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Bạch Hầu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sổ mũi, chảy ra chất mủ nhầy đôi khi có máu, có màng trắng ở vách ngăn mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, đau cổ họng, chán ăn, sốt nhẹ và có một đám hoại tử tạo thành lớp giả mạc màu trắng xanh ở amiđan. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng nề vùng dưới hàm và sưng các hạch vùng cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phờ phạc, xanh tái, mạch nhanh, đờ đẫn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt nhẹ, khàn tiếng, ho và có giả mạc tại thanh quản. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như mệt mỏi, đau họng và sốt nhẹ, sau đó xuất hiện một lớp màng trắng ở cổ họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy khó thở và có tiếng rít khi thở, kèm theo sốt và ho. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy nước mũi có màu vàng hoặc xanh, kèm theo sốt và đau họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khi nuốt và có cảm giác vướng víu ở cổ họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị sưng hạch ở cổ và có cảm giác đau nhức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ho khan kéo dài và có đờm trắng đục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, chán ăn và sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt cao đột ngột và có cảm giác ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị đau đầu và chóng mặt kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như buồn nôn và nôn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

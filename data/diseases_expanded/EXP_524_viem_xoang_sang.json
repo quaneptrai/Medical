@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_524",
+  "name_vi": "Viêm Xoang sàng",
+  "name_en": "Viem Xoang sang",
+  "category": "respiratory",
+  "aliases": [
+    "Viêm Xoang sàng",
+    "Viem Xoang sang"
+  ],
+  "description": "Viêm Xoang sàng là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bệnh u hạt Wegener",
+        "name_en": "benh u hat Wegener",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy dịch mũi",
+        "name_en": "chay dich mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy dịch mũi sau",
+        "name_en": "chay dich mui sau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi",
+        "name_en": "chay nuoc mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi đục",
+        "name_en": "chay nuoc mui duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị ứng phấn hoa",
+        "name_en": "di ung phan hoa",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị nghẹt mũi",
+        "name_en": "hien dang bi nghet mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị đau nhức vùng mặt",
+        "name_en": "hien dang bi dau nhuc vung mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị đau đầu",
+        "name_en": "hien dang bi dau dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hôi miệng",
+        "name_en": "hoi mieng",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lan xuống vai",
+        "name_en": "lan xuong vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lệch vách ngăn mũi",
+        "name_en": "lech vach ngan mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng răng miệng",
+        "name_en": "nhiem trung rang mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhức đầu",
+        "name_en": "nhuc dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhức đầu phía trước",
+        "name_en": "nhuc dau phia truoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "polyp mũi",
+        "name_en": "polyp mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sarcoidosis",
+        "name_en": "sarcoidosis",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm miễn dịch",
+        "name_en": "suy giam mien dich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng huyết áp",
+        "name_en": "tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ nang",
+        "name_en": "xo nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau giữa hai mắt",
+        "name_en": "dau giua hai mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức quanh mắt",
+        "name_en": "dau nhuc quanh mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng mặt",
+        "name_en": "dau nhuc vung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng sau gáy",
+        "name_en": "dau nhuc vung sau gay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Xoang sàng của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Xoang sàng",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhức quanh mắt, sốt và nhức đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nghẹt mũi, chảy dịch mũi sau và đau họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị hôi miệng, đau đầu và đau nhức vùng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị dị ứng phấn hoa và hiện đang bị nghẹt mũi, đau nhức vùng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị lệch vách ngăn mũi và hiện đang bị nghẹt mũi, chảy dịch mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị polyp mũi và hiện đang bị đau nhức vùng mặt, chảy nước mũi đục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ nang và hiện đang bị đau đầu, nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sarcoidosis và hiện đang bị đau nhức vùng mặt, chảy nước mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bệnh u hạt Wegener và hiện đang bị đau đầu, nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm trùng răng miệng và hiện đang bị đau nhức vùng mặt, chảy nước mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy giảm miễn dịch và hiện đang bị đau đầu, nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hút thuốc lá và hiện đang bị đau nhức vùng mặt, chảy nước mũi đục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tăng huyết áp và hiện đang bị đau đầu, nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau giữa hai mắt và nhức đầu phía trước. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhức vùng sau gáy, lan xuống vai. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

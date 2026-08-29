@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_580",
+  "name_vi": "Đau Nửa Đầu",
+  "name_en": "Dau Nua Dau",
+  "category": "neurology",
+  "aliases": [
+    "Đau Nửa Đầu",
+    "Dau Nua Dau"
+  ],
+  "description": "Đau Nửa Đầu là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "aura",
+        "name_en": "aura",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chẳng hạn như nhìn thấy ánh sáng nhấp nháy hoặc điểm mù",
+        "name_en": "chang han nhu nhin thay anh sang nhap nhay hoac diem mu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nói hoặc khó hiểu lời nói",
+        "name_en": "kho noi hoac kho hieu loi noi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất ý thức",
+        "name_en": "mat y thuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nhạy cảm tiếng ồn",
+        "name_en": "nhay cam tieng on",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm ánh sáng",
+        "name_en": "nhay cam anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn thị giác",
+        "name_en": "roi loan thi giac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt hoặc cứng cổ",
+        "name_en": "sot hoac cung co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi tâm trạng hoặc trầm cảm",
+        "name_en": "thay doi tam trang hoac tram cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiếng ồn",
+        "name_en": "tieng on",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì hoặc yếu cơ",
+        "name_en": "te bi hoac yeu co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu",
+        "name_en": "dau nua dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu diễn tiến theo từng đợt",
+        "name_en": "dau nua dau dien tien theo tung dot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu dữ dội",
+        "name_en": "dau nua dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu khi gắng sức",
+        "name_en": "dau nua dau khi gang suc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu khi tiếp xúc với ánh sáng mạnh",
+        "name_en": "dau nua dau khi tiep xuc voi anh sang manh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu ngày càng tăng dần cường độ",
+        "name_en": "dau nua dau ngay cang tang dan cuong do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu theo nhịp mạch đập",
+        "name_en": "dau nua dau theo nhip mach dap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu xuất hiện vào nửa đêm về sáng",
+        "name_en": "dau nua dau xuat hien vao nua dem ve sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nửa đầu âm ỉ kéo dài",
+        "name_en": "dau nua dau am i keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Nửa Đầu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Nửa Đầu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nửa đầu theo nhịp mạch đập, kèm theo buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nửa đầu ngày càng tăng dần cường độ, kèm theo chóng mặt và rối loạn thị giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu diễn tiến theo từng đợt, kèm theo nhạy cảm ánh sáng và tiếng ồn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau nửa đầu xuất hiện vào nửa đêm về sáng, kèm theo mệt mỏi và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nửa đầu khi gắng sức, kèm theo đổ mồ hôi và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu khi tiếp xúc với ánh sáng mạnh, kèm theo chóng mặt và nhạy cảm tiếng ồn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau nửa đầu dữ dội, kèm theo nôn và rối loạn thị giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nửa đầu âm ỉ kéo dài, kèm theo mệt mỏi và khó tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu kèm theo aura, chẳng hạn như nhìn thấy ánh sáng nhấp nháy hoặc điểm mù. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau nửa đầu kèm theo tê bì hoặc yếu cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nửa đầu kèm theo khó nói hoặc khó hiểu lời nói. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu kèm theo thay đổi tâm trạng hoặc trầm cảm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau nửa đầu kèm theo sốt hoặc cứng cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nửa đầu kèm theo co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nửa đầu kèm theo mất ý thức. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

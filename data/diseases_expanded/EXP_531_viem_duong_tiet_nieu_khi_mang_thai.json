@@ -1,0 +1,214 @@
+{
+  "disease_id": "EXP_531",
+  "name_vi": "Viêm Đường Tiết Niệu Khi Mang Thai",
+  "name_en": "Viem Duong Tiet Nieu Khi Mang Thai",
+  "category": "urology",
+  "aliases": [
+    "Viêm Đường Tiết Niệu Khi Mang Thai",
+    "Viem Duong Tiet Nieu Khi Mang Thai"
+  ],
+  "description": "Viêm Đường Tiết Niệu Khi Mang Thai là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chuột rút",
+        "name_en": "chuot rut",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chèn ép lên đường tiết niệu",
+        "name_en": "chen ep len duong tiet nieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chứa nhiều đường",
+        "name_en": "chua nhieu duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác khẩn cấp khi đi tiểu",
+        "name_en": "cam giac khan cap khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm trương lực bàng quang",
+        "name_en": "giam truong luc bang quang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tống hết nước tiểu ra ngoài",
+        "name_en": "kho tong het nuoc tieu ra ngoai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lượng nước tiểu thay đổi (nhiều hơn hoặc ít hơn)",
+        "name_en": "luong nuoc tieu thay doi (nhieu hon hoac it hon)",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mùi hôi bất thường",
+        "name_en": "mui hoi bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhưng tiểu lại ít",
+        "name_en": "nhung tieu lai it",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "niệu quản mở rộng",
+        "name_en": "nieu quan mo rong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu bị cô đặc",
+        "name_en": "nuoc tieu bi co dac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu có lẫn máu",
+        "name_en": "nuoc tieu co lan mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu tập trung nhiều",
+        "name_en": "nuoc tieu tap trung nhieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát triển",
+        "name_en": "phat trien",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "protein",
+        "name_en": "protein",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thể tích bàng quang tăng lên",
+        "name_en": "the tich bang quang tang len",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu tiện không tự chủ",
+        "name_en": "tieu tien khong tu chu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tạo môi trường thuận lợi cho vi khuẩn tồn tại",
+        "name_en": "tao moi truong thuan loi cho vi khuan ton tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi quan hệ tình dục",
+        "name_en": "dau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát hoặc cảm thấy khó chịu khi đi tiểu",
+        "name_en": "dau rat hoac cam thay kho chiu khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức ở vùng bụng dưới",
+        "name_en": "dau tuc o vung bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu thường xuyên hơn bình thường",
+        "name_en": "di tieu thuong xuyen hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là bàng quang khiến nước tiểu dễ bị rò rỉ",
+        "name_en": "dac biet la bang quang khien nuoc tieu de bi ro ri",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi nhiều vào ban đêm",
+        "name_en": "do mo hoi nhieu vao ban dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đục",
+        "name_en": "duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Đường Tiết Niệu Khi Mang Thai của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Đường Tiết Niệu Khi Mang Thai",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau rát hoặc cảm thấy khó chịu khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đi tiểu thường xuyên hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị lượng nước tiểu thay đổi (nhiều hơn hoặc ít hơn). Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như cảm giác khẩn cấp khi đi tiểu, nhưng tiểu lại ít. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tiểu tiện không tự chủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nước tiểu có lẫn máu, đục, mùi hôi bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như chuột rút. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau tức ở vùng bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ớn lạnh, sốt, đổ mồ hôi nhiều vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau lưng, ớn lạnh, sốt, buồn nôn, nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nước tiểu bị cô đặc, chứa nhiều đường, protein, tạo môi trường thuận lợi cho vi khuẩn tồn tại và phát triển. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như niệu quản mở rộng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nước tiểu tập trung nhiều, thể tích bàng quang tăng lên, giảm trương lực bàng quang và khó tống hết nước tiểu ra ngoài. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chèn ép lên đường tiết niệu, đặc biệt là bàng quang khiến nước tiểu dễ bị rò rỉ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

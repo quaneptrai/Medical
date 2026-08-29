@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_452",
+  "name_vi": "Viêm Da Xoang",
+  "name_en": "Viem Da Xoang",
+  "category": "respiratory",
+  "aliases": [
+    "Viêm Da Xoang",
+    "Viem Da Xoang"
+  ],
+  "description": "Viêm Da Xoang là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Haemophilus influenzae",
+        "name_en": "Haemophilus influenzae",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Moraxella catarrhalis",
+        "name_en": "Moraxella catarrhalis",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bất thường cấu trúc vùng mũi xoang",
+        "name_en": "bat thuong cau truc vung mui xoang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh hệ thống ảnh hưởng tới chức năng lông chuyển niêm mạc mũi xoang",
+        "name_en": "benh he thong anh huong toi chuc nang long chuyen niem mac mui xoang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các bệnh đồng mắc hoặc có yếu tố nguy cơ có liên quan như viêm mũi dị ứng",
+        "name_en": "cac benh dong mac hoac co yeu to nguy co co lien quan nhu viem mui di ung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cúm",
+        "name_en": "cum",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị ứng hoặc nhiễm trùng do vi khuẩn",
+        "name_en": "di ung hoac nhiem trung do vi khuan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hen suyễn",
+        "name_en": "hen suyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hút thuốc lá",
+        "name_en": "hut thuoc la",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm trùng răng miệng",
+        "name_en": "nhiem trung rang mieng",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nhiễm trùng vi khuẩn hoặc phát triển nhiễm vi khuẩn thứ phát",
+        "name_en": "nhiem trung vi khuan hoac phat trien nhiem vi khuan thu phat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "parainfluenza (virus gây các bệnh viêm đường hô hấp trên)",
+        "name_en": "parainfluenza (virus gay cac benh viem duong ho hap tren)",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tụ cầu hoặc vi khuẩn kỵ khí khi nhiễm trùng từ vùng răng miệng",
+        "name_en": "tu cau hoac vi khuan ky khi khi nhiem trung tu vung rang mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "virus hoặc do nấm",
+        "name_en": "virus hoac do nam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm sưng nề của lớp niêm mạc biểu mô lót trong xoang",
+        "name_en": "viem sung ne cua lop niem mac bieu mo lot trong xoang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm xoang tái phát",
+        "name_en": "viem xoang tai phat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đa xoang bán cấp tính",
+        "name_en": "viem da xoang ban cap tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đa xoang cấp tính",
+        "name_en": "viem da xoang cap tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đa xoang cấp tính do tác nhân virus gây ra",
+        "name_en": "viem da xoang cap tinh do tac nhan virus gay ra",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đa xoang do nấm cấp tính",
+        "name_en": "viem da xoang do nam cap tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đa xoang do phản ứng viêm",
+        "name_en": "viem da xoang do phan ung viem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đa xoang do phế cầu",
+        "name_en": "viem da xoang do phe cau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đa xoang do rhinovirus (virus gây cảm lạnh)",
+        "name_en": "viem da xoang do rhinovirus (virus gay cam lanh)",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm đa xoang mạn tính",
+        "name_en": "viem da xoang man tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ít nhất từ hai xoang trở lên bị viêm",
+        "name_en": "it nhat tu hai xoang tro len bi viem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ô nhiễm không khí",
+        "name_en": "o nhiem khong khi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Da Xoang của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Da Xoang",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như viêm sưng nề của lớp niêm mạc biểu mô lót trong xoang. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ít nhất từ hai xoang trở lên bị viêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm đa xoang do phản ứng viêm, dị ứng hoặc nhiễm trùng do vi khuẩn, virus hoặc do nấm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm đa xoang cấp tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm đa xoang bán cấp tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm đa xoang mạn tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm xoang tái phát. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm đa xoang cấp tính do tác nhân virus gây ra. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm đa xoang do rhinovirus (virus gây cảm lạnh), cúm, parainfluenza (virus gây các bệnh viêm đường hô hấp trên). Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhiễm trùng vi khuẩn hoặc phát triển nhiễm vi khuẩn thứ phát. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm đa xoang do phế cầu, Haemophilus influenzae, Moraxella catarrhalis, tụ cầu hoặc vi khuẩn kỵ khí khi nhiễm trùng từ vùng răng miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm đa xoang do nấm cấp tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm đa xoang mạn tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy các bệnh đồng mắc hoặc có yếu tố nguy cơ có liên quan như viêm mũi dị ứng, hen suyễn, hút thuốc lá, ô nhiễm không khí. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị bất thường cấu trúc vùng mũi xoang, bệnh hệ thống ảnh hưởng tới chức năng lông chuyển niêm mạc mũi xoang và nhiễm trùng răng miệng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

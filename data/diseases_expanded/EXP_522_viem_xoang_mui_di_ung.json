@@ -1,0 +1,219 @@
+{
+  "disease_id": "EXP_522",
+  "name_vi": "Viêm Xoang Mũi Dị Ứng",
+  "name_en": "Viem Xoang Mui Di Ung",
+  "category": "respiratory",
+  "aliases": [
+    "Viêm Xoang Mũi Dị Ứng",
+    "Viem Xoang Mui Di Ung"
+  ],
+  "description": "Viêm Xoang Mũi Dị Ứng là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy nước mũi",
+        "name_en": "chay nuoc mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi kéo dài",
+        "name_en": "chay nuoc mui keo dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi trong",
+        "name_en": "chay nuoc mui trong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị ứng bụi mịn",
+        "name_en": "di ung bui min",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị ứng hóa mỹ phẩm",
+        "name_en": "di ung hoa my pham",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị ứng lông động vật",
+        "name_en": "di ung long dong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị ứng nấm mốc",
+        "name_en": "di ung nam moc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị ứng phấn hoa",
+        "name_en": "di ung phan hoa",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dịch nhầy trong",
+        "name_en": "dich nhay trong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hiện đang bị nghẹt mũi",
+        "name_en": "hien dang bi nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang bị ngứa mũi",
+        "name_en": "hien dang bi ngua mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang hắt xì",
+        "name_en": "hien dang hat xi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang ngứa mũi",
+        "name_en": "hien dang ngua mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hắt hơi",
+        "name_en": "hat hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hắt hơi khi thức dậy",
+        "name_en": "hat hoi khi thuc day",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hắt hơi liên tục khi thời tiết thay đổi",
+        "name_en": "hat hoi lien tuc khi thoi tiet thay doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hắt xì",
+        "name_en": "hat xi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hắt xì liên tục",
+        "name_en": "hat xi lien tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khạc đờm trong",
+        "name_en": "khac dom trong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi khi thời tiết thay đổi",
+        "name_en": "met moi khi thoi tiet thay doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghẹt mũi khi trời lạnh",
+        "name_en": "nghet mui khi troi lanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa họng",
+        "name_en": "ngua hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa mũi",
+        "name_en": "ngua mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa mắt",
+        "name_en": "ngua mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhức đầu khi thời tiết thay đổi",
+        "name_en": "nhuc dau khi thoi tiet thay doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sổ mũi",
+        "name_en": "so mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm họng",
+        "name_en": "viem hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm thanh quản",
+        "name_en": "viem thanh quan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đỏ mắt",
+        "name_en": "do mat",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Xoang Mũi Dị Ứng của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Xoang Mũi Dị Ứng",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ngứa mũi, hắt xì liên tục và chảy nước mũi trong. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa mắt, chảy nước mắt và nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa họng, ho và khạc đờm trong. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị dị ứng phấn hoa và hiện đang hắt xì, chảy nước mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị dị ứng lông động vật và hiện đang ngứa mũi, ngứa mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị dị ứng bụi mịn và hiện đang bị nghẹt mũi, chảy nước mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị dị ứng hóa mỹ phẩm và hiện đang bị ngứa mũi, hắt xì. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị dị ứng nấm mốc và hiện đang bị nghẹt mũi, chảy nước mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngứa mũi, chảy nước mũi và nhức đầu khi thời tiết thay đổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngứa mắt, đỏ mắt và hắt hơi liên tục khi thời tiết thay đổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy nước mũi, dịch nhầy trong và mệt mỏi khi thời tiết thay đổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sổ mũi, hắt hơi khi thức dậy và nghẹt mũi khi trời lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy nước mũi, dịch nhầy trong và viêm họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy nước mũi, dịch nhầy trong và viêm thanh quản. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngứa mũi, hắt hơi và chảy nước mũi kéo dài. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

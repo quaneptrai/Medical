@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_588",
+  "name_vi": "Đau Đầu Sau Gáy",
+  "name_en": "Dau Dau Sau Gay",
+  "category": "neurology",
+  "aliases": [
+    "Đau Đầu Sau Gáy",
+    "Dau Dau Sau Gay"
+  ],
+  "description": "Đau Đầu Sau Gáy là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không thể kiểm soát bằng thuốc giảm đau",
+        "name_en": "khong the kiem soat bang thuoc giam dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về bệnh mạn tính",
+        "name_en": "lo lang ve benh man tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn biết cách điều trị",
+        "name_en": "muon biet cach dieu tri",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn biết có phải bệnh lý ác tính hay không",
+        "name_en": "muon biet co phai benh ly ac tinh hay khong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn biết mức độ nguy hiểm",
+        "name_en": "muon biet muc do nguy hiem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mức độ vừa đến nặng",
+        "name_en": "muc do vua den nang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nói ngọng",
+        "name_en": "noi ngong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rối loạn thị giác",
+        "name_en": "roi loan thi giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sợ tiếng động",
+        "name_en": "so tieng dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê yếu chân tay",
+        "name_en": "te yeu chan tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tần suất ngày càng tăng",
+        "name_en": "tan suat ngay cang tang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ánh sáng",
+        "name_en": "anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói phần nửa đầu phía sau gáy",
+        "name_en": "dau nhoi phan nua dau phia sau gay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng sau gáy",
+        "name_en": "dau nhuc vung sau gay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu dữ dội",
+        "name_en": "dau dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu sau gáy",
+        "name_en": "dau dau sau gay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu sau gáy kèm buồn nôn",
+        "name_en": "dau dau sau gay kem buon non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu sau gáy kèm cứng cổ",
+        "name_en": "dau dau sau gay kem cung co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu sau gáy kèm rối loạn tâm lý",
+        "name_en": "dau dau sau gay kem roi loan tam ly",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu sau gáy kèm rối loạn vận động",
+        "name_en": "dau dau sau gay kem roi loan van dong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Đầu Sau Gáy của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Đầu Sau Gáy",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhức vùng sau gáy, mức độ vừa đến nặng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu dữ dội, không thể kiểm soát bằng thuốc giảm đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhói phần nửa đầu phía sau gáy, tần suất ngày càng tăng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu sau gáy kèm theo co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tê yếu chân tay, nói ngọng và sốt cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu sau gáy kèm cứng cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu sau gáy, sợ tiếng động và ánh sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu sau gáy kèm buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu sau gáy kèm rối loạn vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu sau gáy và rối loạn thị giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu sau gáy kèm rối loạn tâm lý. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu sau gáy và muốn biết mức độ nguy hiểm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu sau gáy và lo lắng về bệnh mạn tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu sau gáy và muốn biết có phải bệnh lý ác tính hay không. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu sau gáy và muốn biết cách điều trị. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

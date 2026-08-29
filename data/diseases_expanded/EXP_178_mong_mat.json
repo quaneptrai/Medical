@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_178",
+  "name_vi": "Mộng Mắt",
+  "name_en": "Mong Mat",
+  "category": "ophthalmology",
+  "aliases": [
+    "Mộng Mắt",
+    "Mong Mat"
+  ],
+  "description": "Mộng Mắt là một bệnh lý thuộc chuyên khoa ophthalmology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u phát triển trên bề mặt mắt",
+        "name_en": "co khoi u phat trien tren be mat mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cộm",
+        "name_en": "com",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có một mảng nhỏ màu hồng hơi nhô trên mắt",
+        "name_en": "hien dang co mot mang nho mau hong hoi nho tren mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hình ảnh bị nhòe hoặc kép",
+        "name_en": "hinh anh bi nhoe hoac kep",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu khi tiếp xúc với ánh sáng",
+        "name_en": "kho chiu khi tiep xuc voi anh sang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi đeo kính áp tròng",
+        "name_en": "kho khan khi deo kinh ap trong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mắt bị chảy ghèn vàng",
+        "name_en": "mat bi chay ghen vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mắt bị khô",
+        "name_en": "mat bi kho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mắt bị mờ khi nhìn",
+        "name_en": "mat bi mo khi nhin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt bị nhức mỏi",
+        "name_en": "mat bi nhuc moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt bị đau khi chớp mắt",
+        "name_en": "mat bi dau khi chop mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt bị đỏ",
+        "name_en": "mat bi do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt sưng tấy",
+        "name_en": "mat sung tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt đỏ",
+        "name_en": "mat do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "như có cát hoặc sạn trong mắt",
+        "name_en": "nhu co cat hoac san trong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng húp mí mắt",
+        "name_en": "sung hup mi mat",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Mộng Mắt của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mộng Mắt",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có một mảng nhỏ màu hồng hơi nhô trên mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt đỏ và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cảm thấy mắt bị khô và ngứa. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy như có cát hoặc sạn trong mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mắt sưng tấy và chảy nước mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt bị mờ khi nhìn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay nhìn thấy hình ảnh bị nhòe hoặc kép. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có khối u phát triển trên bề mặt mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mắt bị đỏ và cộm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt bị chảy ghèn vàng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cảm thấy khó chịu khi tiếp xúc với ánh sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt bị đau khi chớp mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mắt bị đỏ và sưng húp mí mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn khi đeo kính áp tròng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cảm thấy mắt bị nhức mỏi. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

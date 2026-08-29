@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_581",
+  "name_vi": "Đau Thắt Ngực",
+  "name_en": "Dau That Nguc",
+  "category": "oncology",
+  "aliases": [
+    "Đau Thắt Ngực",
+    "Dau That Nguc"
+  ],
+  "description": "Đau Thắt Ngực là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "choáng váng",
+        "name_en": "choang vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có các triệu chứng đau thắt ngực không thể đoán trước và ngày càng nặng hơn",
+        "name_en": "hien dang co cac trieu chung dau that nguc khong the doan truoc va ngay cang nang hon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có các triệu chứng đau thắt ngực nghiêm trọng, có thể dẫn đến nhồi máu cơ tim",
+        "name_en": "hien dang co cac trieu chung dau that nguc nghiem trong, co the dan den nhoi mau co tim",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau thắt ngực kéo dài hơn bình thường và tần suất ngày càng tăng",
+        "name_en": "hien dang trai qua con dau that nguc keo dai hon binh thuong va tan suat ngay cang tang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tiêu",
+        "name_en": "kho tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kéo dài khoảng 30 phút",
+        "name_en": "keo dai khoang 30 phut",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan ra lưng",
+        "name_en": "lan ra lung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan xuống cánh tay trái",
+        "name_en": "lan xuong canh tay trai",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngất xỉu",
+        "name_en": "ngat xiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngất xỉu khi đau thắt ngực",
+        "name_en": "ngat xiu khi dau that nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhưng giảm khi dùng thuốc giãn mạch",
+        "name_en": "nhung giam khi dung thuoc gian mach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhưng giảm khi nghỉ ngơi",
+        "name_en": "nhung giam khi nghi ngoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "stress",
+        "name_en": "stress",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thiếu năng lượng",
+        "name_en": "thieu nang luong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vai",
+        "name_en": "vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực dữ dội",
+        "name_en": "dau nguc du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau sau xương ức khi leo cầu thang",
+        "name_en": "dau sau xuong uc khi leo cau thang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau thắt ngực",
+        "name_en": "dau that nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau thắt ngực khi căng thẳng",
+        "name_en": "dau that nguc khi cang thang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau thắt ngực khi hoạt động gắng sức",
+        "name_en": "dau that nguc khi hoat dong gang suc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau thắt ngực đột ngột vào ban đêm",
+        "name_en": "dau that nguc dot ngot vao ban dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy bụng",
+        "name_en": "day bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt khi căng thẳng",
+        "name_en": "dac biet khi cang thang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Thắt Ngực của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Thắt Ngực",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau thắt ngực, lan xuống cánh tay trái và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau ngực dữ dội, kèm theo đổ mồ hôi và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau sau xương ức khi leo cầu thang, nhưng giảm khi nghỉ ngơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau thắt ngực kéo dài hơn bình thường và tần suất ngày càng tăng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau thắt ngực đột ngột vào ban đêm, kéo dài khoảng 30 phút. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau thắt ngực kèm theo khó thở và mệt mỏi, đặc biệt khi căng thẳng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau ngực, lan ra lưng và vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đầy bụng, khó tiêu và đau thắt ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị choáng váng và ngất xỉu khi đau thắt ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng đau thắt ngực nghiêm trọng, có thể dẫn đến nhồi máu cơ tim. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau thắt ngực, kèm theo khó thở và ngất xỉu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau thắt ngực khi hoạt động gắng sức, nhưng giảm khi dùng thuốc giãn mạch. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng đau thắt ngực không thể đoán trước và ngày càng nặng hơn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau thắt ngực kèm theo mệt mỏi và thiếu năng lượng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau thắt ngực khi căng thẳng và stress. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

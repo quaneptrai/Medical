@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_241",
+  "name_vi": "Protein Niệu",
+  "name_en": "Protein Nieu",
+  "category": "general",
+  "aliases": [
+    "Protein Niệu",
+    "Protein Nieu"
+  ],
+  "description": "Protein Niệu là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bàn chân hoặc mắt cá chân",
+        "name_en": "ban chan hoac mat ca chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bọng quanh mắt",
+        "name_en": "bong quanh mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụng",
+        "name_en": "bung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chuột rút cơ bắp vào ban đêm",
+        "name_en": "chuot rut co bap vao ban dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hụt hơi",
+        "name_en": "hut hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì các triệu chứng của mình giống với bệnh thận mãn tính",
+        "name_en": "lo lang vi cac trieu chung cua minh giong voi benh than man tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về biến chứng của protein niệu",
+        "name_en": "lo lang ve bien chung cua protein nieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về tác dụng phụ của các loại thuốc điều trị protein niệu",
+        "name_en": "lo lang ve tac dung phu cua cac loai thuoc dieu tri protein nieu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "muốn biết cách chẩn đoán protein niệu",
+        "name_en": "muon biet cach chan doan protein nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn biết cách theo dõi tình trạng protein niệu tại nhà",
+        "name_en": "muon biet cach theo doi tinh trang protein nieu tai nha",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn biết liệu protein niệu có nguy hiểm hay không",
+        "name_en": "muon biet lieu protein nieu co nguy hiem hay khong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn biết liệu protein niệu có thể tự khỏi hay không",
+        "name_en": "muon biet lieu protein nieu co the tu khoi hay khong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về các loại thuốc điều trị protein niệu",
+        "name_en": "muon tim hieu ve cac loai thuoc dieu tri protein nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng ở mặt",
+        "name_en": "sung o mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thế nào khi bị protein niệu",
+        "name_en": "the nao khi bi protein nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tìm hiểu về nguyên nhân gây ra protein niệu",
+        "name_en": "tim hieu ve nguyen nhan gay ra protein nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tìm kiếm phương pháp điều trị protein niệu",
+        "name_en": "tim kiem phuong phap dieu tri protein nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu thường xuyên",
+        "name_en": "di tieu thuong xuyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là vào buổi sáng. Nước tiểu của tôi cũng có bọt",
+        "name_en": "dac biet la vao buoi sang. Nuoc tieu cua toi cung co bot",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Protein Niệu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Protein Niệu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sưng ở mặt, bụng, bàn chân hoặc mắt cá chân, đi tiểu thường xuyên và hụt hơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, buồn nôn và nôn, chán ăn và chuột rút cơ bắp vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay xuất hiện bọng quanh mắt, đặc biệt là vào buổi sáng. Nước tiểu của tôi cũng có bọt. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng vì các triệu chứng của mình giống với bệnh thận mãn tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn biết liệu protein niệu có nguy hiểm hay không. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang tìm hiểu về nguyên nhân gây ra protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn biết cách chẩn đoán protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang tìm kiếm phương pháp điều trị protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn biết liệu protein niệu có thể tự khỏi hay không. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng về biến chứng của protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi cần thay đổi chế độ ăn uống như thế nào khi bị protein niệu? Tôi có thể đang bị bệnh gì?",
+    "Tôi cần tập luyện như thế nào khi bị protein niệu? Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn biết cách theo dõi tình trạng protein niệu tại nhà. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về các loại thuốc điều trị protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng về tác dụng phụ của các loại thuốc điều trị protein niệu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

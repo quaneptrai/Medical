@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_549",
+  "name_vi": "Xuất Tinh Sớm",
+  "name_en": "Xuat Tinh Som",
+  "category": "andrology",
+  "aliases": [
+    "Xuất Tinh Sớm",
+    "Xuat Tinh Som"
+  ],
+  "description": "Xuất Tinh Sớm là một bệnh lý thuộc chuyên khoa andrology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chán chường",
+        "name_en": "chan chuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng quá mức",
+        "name_en": "cang thang qua muc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị giảm khả năng sinh sản",
+        "name_en": "hien dang bi giam kha nang sinh san",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị liệt dương",
+        "name_en": "hien dang bi liet duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị mệt mỏi",
+        "name_en": "hien dang bi met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị rối loạn cương dương",
+        "name_en": "hien dang bi roi loan cuong duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị vô sinh",
+        "name_en": "hien dang bi vo sinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị xuất tinh sớm",
+        "name_en": "hien dang bi xuat tinh som",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không thể kiểm soát được thời gian xuất tinh",
+        "name_en": "khong the kiem soat duoc thoi gian xuat tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rối loạn cương",
+        "name_en": "roi loan cuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "rối loạn nội tiết",
+        "name_en": "roi loan noi tiet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tuyến tiền liệt mạn tính",
+        "name_en": "viem tuyen tien liet man tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất tinh chỉ sau 1-2 phút quan hệ",
+        "name_en": "xuat tinh chi sau 1-2 phut quan he",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất tinh sớm",
+        "name_en": "xuat tinh som",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất tinh sớm ngay từ những lần đầu giao hợp",
+        "name_en": "xuat tinh som ngay tu nhung lan dau giao hop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất tinh trong vòng 15 giây khi bắt đầu quan hệ",
+        "name_en": "xuat tinh trong vong 15 giay khi bat dau quan he",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất tinh trong vòng 30 giây đến 1 phút",
+        "name_en": "xuat tinh trong vong 30 giay den 1 phut",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất tinh trước khi quan hệ tình dục",
+        "name_en": "xuat tinh truoc khi quan he tinh duc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Xuất Tinh Sớm của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Xuất Tinh Sớm",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như không thể kiểm soát được thời gian xuất tinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy xuất tinh chỉ sau 1-2 phút quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị xuất tinh trong vòng 30 giây đến 1 phút. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất tinh trong vòng 15 giây khi bắt đầu quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất tinh trước khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị rối loạn cương và hiện đang bị xuất tinh sớm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị căng thẳng quá mức và hiện đang bị xuất tinh sớm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm tuyến tiền liệt mạn tính và hiện đang bị xuất tinh sớm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị rối loạn nội tiết và hiện đang bị xuất tinh sớm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất tinh sớm ngay từ những lần đầu giao hợp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất tinh sớm và hiện đang bị rối loạn cương dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất tinh sớm và hiện đang bị liệt dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất tinh sớm và hiện đang bị giảm khả năng sinh sản. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất tinh sớm và hiện đang bị vô sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất tinh sớm và hiện đang bị mệt mỏi, chán chường. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

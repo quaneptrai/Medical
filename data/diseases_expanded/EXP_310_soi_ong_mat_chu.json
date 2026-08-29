@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_310",
+  "name_vi": "Sỏi Ống Mật Chủ",
+  "name_en": "Soi Ong Mat Chu",
+  "category": "digestive",
+  "aliases": [
+    "Sỏi Ống Mật Chủ",
+    "Soi Ong Mat Chu"
+  ],
+  "description": "Sỏi Ống Mật Chủ là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "béo phì",
+        "name_en": "beo phi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da vàng",
+        "name_en": "da vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gan to",
+        "name_en": "gan to",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay thấy đau bụng",
+        "name_en": "hay thay dau bung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tiêu",
+        "name_en": "kho tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan lên vai",
+        "name_en": "lan len vai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lưng",
+        "name_en": "lung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ngứa da",
+        "name_en": "ngua da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu sẫm màu",
+        "name_en": "nuoc tieu sam mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phân bạc màu",
+        "name_en": "phan bac mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rét run",
+        "name_en": "ret run",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn tri giác",
+        "name_en": "roi loan tri giac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sờ thấy túi mật",
+        "name_en": "so thay tui mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng da",
+        "name_en": "vang da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội",
+        "name_en": "dau bung du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng sau khi ăn đồ nhiều dầu mỡ",
+        "name_en": "dau bung sau khi an do nhieu dau mo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau dữ dội ở hạ sườn phải",
+        "name_en": "dau du doi o ha suon phai",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Sỏi Ống Mật Chủ của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Sỏi Ống Mật Chủ",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi bị đau dữ dội ở hạ sườn phải, lan lên vai và lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt cao, rét run và vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy mệt mỏi, chán ăn và da vàng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng, buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngứa da và nước tiểu sẫm màu. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy phân bạc màu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng sau khi ăn đồ nhiều dầu mỡ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đã từng mổ túi mật nhưng vẫn thấy đau bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị béo phì và hay thấy đau bụng, buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và thấy đau bụng, vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi ăn chay trường và thấy đau bụng, khó tiêu. Tôi có thể đang bị bệnh gì?",
+    "Tôi giảm cân nhanh và thấy đau bụng, buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi ít vận động và thấy đau bụng, khó tiêu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng dữ dội, sốt cao và rối loạn tri giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng, gan to và sờ thấy túi mật. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

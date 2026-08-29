@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_561",
+  "name_vi": "Xẹp Đốt Sống",
+  "name_en": "Xep Dot Song",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Xẹp Đốt Sống",
+    "Xep Dot Song"
+  ],
+  "description": "Xẹp Đốt Sống là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "biến dạng cột sống",
+        "name_en": "bien dang cot song",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chấn thương cột sống",
+        "name_en": "chan thuong cot song",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm chiều cao",
+        "name_en": "giam chieu cao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khi nằm nghỉ",
+        "name_en": "giam khi nam nghi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gãy lún đốt sống",
+        "name_en": "gay lun dot song",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gù lưng",
+        "name_en": "gu lung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị đau lưng",
+        "name_en": "hien dang bi dau lung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạn chế vận động",
+        "name_en": "han che van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khả năng di động cột sống bị hạn chế",
+        "name_en": "kha nang di dong cot song bi han che",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "loãng xương",
+        "name_en": "loang xuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "thoát vị đĩa đệm",
+        "name_en": "thoat vi dia dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tàn phế",
+        "name_en": "tan phe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng lên khi đứng hoặc đi bộ",
+        "name_en": "tang len khi dung hoac di bo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư di căn",
+        "name_en": "ung thu di can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư xương",
+        "name_en": "ung thu xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tủy xương",
+        "name_en": "viem tuy xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm xương biến dạng Paget",
+        "name_en": "viem xuong bien dang Paget",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức",
+        "name_en": "dau nhuc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Xẹp Đốt Sống của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Xẹp Đốt Sống",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau lưng và giảm chiều cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau lưng, tăng lên khi đứng hoặc đi bộ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau lưng, giảm khi nằm nghỉ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị loãng xương và hiện đang bị đau lưng, giảm chiều cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chấn thương cột sống và hiện đang bị đau lưng, hạn chế vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ung thư xương và hiện đang bị đau lưng, gãy lún đốt sống. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ung thư di căn và hiện đang bị đau lưng, gãy lún đốt sống. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm xương biến dạng Paget và hiện đang bị đau lưng, gãy lún đốt sống. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm tủy xương và hiện đang bị đau lưng, gãy lún đốt sống. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau lưng và khả năng di động cột sống bị hạn chế. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau lưng và biến dạng cột sống. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau lưng và gù lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau lưng và tê, đau nhức. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau lưng và tàn phế. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau lưng và thoát vị đĩa đệm. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

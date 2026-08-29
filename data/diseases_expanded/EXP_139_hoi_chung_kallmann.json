@@ -1,0 +1,139 @@
+{
+  "disease_id": "EXP_139",
+  "name_vi": "Hội Chứng Kallmann",
+  "name_en": "Hoi Chung Kallmann",
+  "category": "general",
+  "aliases": [
+    "Hội Chứng Kallmann",
+    "Hoi Chung Kallmann"
+  ],
+  "description": "Hội Chứng Kallmann là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Hai tay tôi hay bắt chước động tác của nhau và tôi không có khứu giác",
+        "name_en": "Hai tay toi hay bat chuoc dong tac cua nhau va toi khong co khuu giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Ngón tay tôi có hình dạng bất thường và tôi không thể ngửi",
+        "name_en": "Ngon tay toi co hinh dang bat thuong va toi khong the ngui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Tay tôi hay bắt chước động tác của nhau, khó thực hiện công việc cần sự khéo léo, và tôi không có khứu giác",
+        "name_en": "Tay toi hay bat chuoc dong tac cua nhau, kho thuc hien cong viec can su kheo leo, va toi khong co khuu giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Xương ngón tay tôi bất thường và tôi không thể ngửi",
+        "name_en": "Xuong ngon tay toi bat thuong va toi khong the ngui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hở hàm ếch",
+        "name_en": "ho ham ech",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó ngửi thấy mùi",
+        "name_en": "kho ngui thay mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không có khứu giác",
+        "name_en": "khong co khuu giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không thể ngửi thấy mùi",
+        "name_en": "khong the ngui thay mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mùi",
+        "name_en": "mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mùi gì",
+        "name_en": "mui gi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mùi gì cả",
+        "name_en": "mui gi ca",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất khứu giác",
+        "name_en": "mat khuu giac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất thính lực",
+        "name_en": "mat thinh luc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sứt môi",
+        "name_en": "sut moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn ẩn",
+        "name_en": "tinh hoan an",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Hội Chứng Kallmann của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hội Chứng Kallmann",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi không thể ngửi thấy mùi gì cả. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sứt môi và không thể ngửi thấy mùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi chỉ có một quả thận và khó ngửi thấy mùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất thính lực và không có khứu giác. Tôi có thể đang bị bệnh gì?",
+    "Mắt tôi di chuyển bất thường và tôi không thể ngửi thấy mùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tinh hoàn ẩn và không có khứu giác. Tôi có thể đang bị bệnh gì?",
+    "Ngón tay tôi có hình dạng bất thường và tôi không thể ngửi. Tôi có thể đang bị bệnh gì?",
+    "Tay tôi hay bắt chước động tác của nhau, khó thực hiện công việc cần sự khéo léo, và tôi không có khứu giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sứt môi, hở hàm ếch và mất khứu giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất thính lực và khó ngửi thấy mùi. Tôi có thể đang bị bệnh gì?",
+    "Mắt tôi di chuyển bất thường và tôi không ngửi thấy mùi gì. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tinh hoàn ẩn và không có khứu giác. Tôi có thể đang bị bệnh gì?",
+    "Xương ngón tay tôi bất thường và tôi không thể ngửi. Tôi có thể đang bị bệnh gì?",
+    "Hai tay tôi hay bắt chước động tác của nhau và tôi không có khứu giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi có một quả thận và không ngửi thấy mùi. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

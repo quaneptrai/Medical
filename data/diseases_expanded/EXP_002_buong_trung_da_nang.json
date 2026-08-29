@@ -1,0 +1,229 @@
+{
+  "disease_id": "EXP_002",
+  "name_vi": "Buồng Trứng Đa Nang",
+  "name_en": "Buong Trung Da Nang",
+  "category": "obstetrics_gynecology",
+  "aliases": [
+    "Buồng Trứng Đa Nang",
+    "Buong Trung Da Nang"
+  ],
+  "description": "Buồng Trứng Đa Nang là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "da dầu",
+        "name_en": "da dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da mặt nhờn mụn",
+        "name_en": "da mat nhon mun",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da sạm màu",
+        "name_en": "da sam mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu vùng bụng dưới",
+        "name_en": "kho chiu vung bung duoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu ở vùng chậu",
+        "name_en": "kho chiu o vung chau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn trong việc có con",
+        "name_en": "kho khan trong viec co con",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn trong việc giảm cân",
+        "name_en": "kho khan trong viec giam can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó kiểm soát cân nặng",
+        "name_en": "kho kiem soat can nang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thụ thai",
+        "name_en": "kho thu thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kinh nguyệt không đều",
+        "name_en": "kinh nguyet khong deu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "kinh nguyệt kéo dài",
+        "name_en": "kinh nguyet keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kinh nguyệt kéo dài bất thường",
+        "name_en": "kinh nguyet keo dai bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kinh nguyệt ra nhiều",
+        "name_en": "kinh nguyet ra nhieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kinh nguyệt thưa",
+        "name_en": "kinh nguyet thua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kinh nguyệt thưa dần",
+        "name_en": "kinh nguyet thua dan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kinh nguyệt thất thường",
+        "name_en": "kinh nguyet that thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kinh nguyệt ít",
+        "name_en": "kinh nguyet it",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn trứng cá",
+        "name_en": "mun trung ca",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rậm lông",
+        "name_en": "ram long",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rậm lông ở bụng",
+        "name_en": "ram long o bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rậm lông ở vùng mặt",
+        "name_en": "ram long o vung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rậm lông ở vùng ngực",
+        "name_en": "ram long o vung nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rụng tóc",
+        "name_en": "rung toc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "stress",
+        "name_en": "stress",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi tâm trạng",
+        "name_en": "thay doi tam trang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trầm cảm",
+        "name_en": "tram cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng cân",
+        "name_en": "tang can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng cân không kiểm soát",
+        "name_en": "tang can khong kiem soat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Buồng Trứng Đa Nang của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Buồng Trứng Đa Nang",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như kinh nguyệt không đều, rậm lông và tăng cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó chịu ở vùng chậu, da mặt nhờn mụn và kinh nguyệt thất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, thay đổi tâm trạng và kinh nguyệt kéo dài bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như rụng tóc, da sạm màu và kinh nguyệt thưa dần. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, tăng cân không kiểm soát và khó thụ thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng dưới, kinh nguyệt ít và rậm lông ở vùng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như da dầu, mụn trứng cá và kinh nguyệt không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, trầm cảm và khó khăn trong việc giảm cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau lưng, kinh nguyệt kéo dài và rậm lông ở vùng ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tăng cân, da sạm màu và kinh nguyệt thưa. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó chịu vùng bụng dưới, kinh nguyệt ra nhiều và rậm lông. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, thay đổi tâm trạng và khó khăn trong việc có con. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như rụng tóc, da dầu và kinh nguyệt không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, stress và khó kiểm soát cân nặng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau lưng, kinh nguyệt không đều và rậm lông ở bụng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

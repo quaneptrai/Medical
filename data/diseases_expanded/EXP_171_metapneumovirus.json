@@ -1,0 +1,139 @@
+{
+  "disease_id": "EXP_171",
+  "name_vi": "Metapneumovirus",
+  "name_en": "Metapneumovirus",
+  "category": "infectious",
+  "aliases": [
+    "Metapneumovirus",
+    "Metapneumovirus"
+  ],
+  "description": "Metapneumovirus là một bệnh lý thuộc chuyên khoa infectious, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "có dấu hiệu suy hô hấp",
+        "name_en": "co dau hieu suy ho hap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da tím tái",
+        "name_en": "da tim tai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay ho, nghẹt mũi và sốt nhẹ",
+        "name_en": "hay ho, nghet mui va sot nhe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay khò khè và ho có đờm đặc",
+        "name_en": "hay kho khe va ho co dom dac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay nghẹt mũi, sổ mũi và khò khè",
+        "name_en": "hay nghet mui, so mui va kho khe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay nghẹt mũi, sổ mũi và sốt nhẹ",
+        "name_en": "hay nghet mui, so mui va sot nhe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay sốt cao và ho có đờm đặc",
+        "name_en": "hay sot cao va ho co dom dac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho có đờm đặc",
+        "name_en": "ho co dom dac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khò khè",
+        "name_en": "kho khe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rát họng",
+        "name_en": "rat hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sổ mũi",
+        "name_en": "so mui",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Metapneumovirus của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Metapneumovirus",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ho, nghẹt mũi, sổ mũi và rát họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sốt nhẹ và ho. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay khò khè và ho có đờm đặc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khó thở và da tím tái. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sốt cao và có dấu hiệu suy hô hấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay ho, nghẹt mũi và sốt nhẹ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như rát họng, khò khè và ho có đờm đặc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở và da tím tái. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay sốt cao và ho có đờm đặc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khò khè, khó thở và có dấu hiệu suy hô hấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy rát họng, sốt nhẹ và ho. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay nghẹt mũi, sổ mũi và khò khè. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ho, sốt cao và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy rát họng, khò khè và có dấu hiệu suy hô hấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay nghẹt mũi, sổ mũi và sốt nhẹ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

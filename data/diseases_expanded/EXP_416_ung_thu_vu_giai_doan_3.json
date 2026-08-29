@@ -1,0 +1,144 @@
+{
+  "disease_id": "EXP_416",
+  "name_vi": "Ung Thư Vú Giai Đoạn 3",
+  "name_en": "Ung Thu Vu Giai Doan 3",
+  "category": "oncology",
+  "aliases": [
+    "Ung Thư Vú Giai Đoạn 3",
+    "Ung Thu Vu Giai Doan 3"
+  ],
+  "description": "Ung Thư Vú Giai Đoạn 3 là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "có khối u vú hay da vú sưng đỏ, nóng",
+        "name_en": "co khoi u vu hay da vu sung do, nong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da dày lên",
+        "name_en": "da day len",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da trên vú bị loét",
+        "name_en": "da tren vu bi loet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giống vỏ cam hoặc trông có thể giống lúm đồng tiền",
+        "name_en": "giong vo cam hoac trong co the giong lum dong tien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khối u lớn ở nách (hạch nách) có thể di động hay không",
+        "name_en": "khoi u lon o nach (hach nach) co the di dong hay khong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khối u ở cổ (hạch cổ)",
+        "name_en": "khoi u o co (hach co)",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khối u ở vú dính cứng vào thành ngực",
+        "name_en": "khoi u o vu dinh cung vao thanh nguc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "u vú sùi ra da",
+        "name_en": "u vu sui ra da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "được bác sĩ chỉ định phẫu thuật bảo tồn vú",
+        "name_en": "duoc bac si chi dinh phau thuat bao ton vu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "được bác sĩ chỉ định phẫu thuật cắt bỏ tuyến vú (đoạn nhũ)",
+        "name_en": "duoc bac si chi dinh phau thuat cat bo tuyen vu (doan nhu)",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "được bác sĩ chỉ định phẫu thuật nạo vét hạch nách",
+        "name_en": "duoc bac si chi dinh phau thuat nao vet hach nach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "được bác sĩ chỉ định điều trị bằng hóa trị, liệu pháp nội tiết, liệu pháp nhắm trúng đích sau khi phẫu thuật",
+        "name_en": "duoc bac si chi dinh dieu tri bang hoa tri, lieu phap noi tiet, lieu phap nham trung dich sau khi phau thuat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "được bác sĩ chỉ định điều trị bằng hóa trị, liệu pháp nội tiết, liệu pháp nhắm trúng đích trước khi phẫu thuật",
+        "name_en": "duoc bac si chi dinh dieu tri bang hoa tri, lieu phap noi tiet, lieu phap nham trung dich truoc khi phau thuat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "được chẩn đoán ung thư vú giai đoạn 3A",
+        "name_en": "duoc chan doan ung thu vu giai doan 3A",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "được chẩn đoán ung thư vú giai đoạn 3B",
+        "name_en": "duoc chan doan ung thu vu giai doan 3B",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "được chẩn đoán ung thư vú giai đoạn 3C",
+        "name_en": "duoc chan doan ung thu vu giai doan 3C",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ung Thư Vú Giai Đoạn 3 của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Vú Giai Đoạn 3",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như da dày lên, giống vỏ cam hoặc trông có thể giống lúm đồng tiền. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da trên vú bị loét. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị u vú sùi ra da. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khối u ở vú dính cứng vào thành ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi có khối u vú hay da vú sưng đỏ, nóng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khối u lớn ở nách (hạch nách) có thể di động hay không. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khối u ở cổ (hạch cổ). Tôi có thể đang bị bệnh gì?",
+    "Tôi được chẩn đoán ung thư vú giai đoạn 3A. Tôi có thể đang bị bệnh gì?",
+    "Tôi được chẩn đoán ung thư vú giai đoạn 3B. Tôi có thể đang bị bệnh gì?",
+    "Tôi được chẩn đoán ung thư vú giai đoạn 3C. Tôi có thể đang bị bệnh gì?",
+    "Tôi được bác sĩ chỉ định điều trị bằng hóa trị, liệu pháp nội tiết, liệu pháp nhắm trúng đích trước khi phẫu thuật. Tôi có thể đang bị bệnh gì?",
+    "Tôi được bác sĩ chỉ định điều trị bằng hóa trị, liệu pháp nội tiết, liệu pháp nhắm trúng đích sau khi phẫu thuật. Tôi có thể đang bị bệnh gì?",
+    "Tôi được bác sĩ chỉ định phẫu thuật bảo tồn vú. Tôi có thể đang bị bệnh gì?",
+    "Tôi được bác sĩ chỉ định phẫu thuật cắt bỏ tuyến vú (đoạn nhũ). Tôi có thể đang bị bệnh gì?",
+    "Tôi được bác sĩ chỉ định phẫu thuật nạo vét hạch nách. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

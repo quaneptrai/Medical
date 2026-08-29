@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_543",
+  "name_vi": "Vỡ Tử Cung",
+  "name_en": "Vo Tu Cung",
+  "category": "obstetrics_gynecology",
+  "aliases": [
+    "Vỡ Tử Cung",
+    "Vo Tu Cung"
+  ],
+  "description": "Vỡ Tử Cung là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bất tương xứng khung chậu",
+        "name_en": "bat tuong xung khung chau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "choáng nhẹ hoặc nặng",
+        "name_en": "choang nhe hoac nang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu màu đỏ tươi ở âm đạo",
+        "name_en": "chay mau mau do tuoi o am dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có dấu hiệu suy thai",
+        "name_en": "co dau hieu suy thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơn co tử cung kéo dài với cường độ mạnh",
+        "name_en": "con co tu cung keo dai voi cuong do manh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơn đau kéo dài",
+        "name_en": "con dau keo dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cường độ đau tăng dần",
+        "name_en": "cuong do dau tang dan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da xanh xao",
+        "name_en": "da xanh xao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm cơn co tử cung",
+        "name_en": "giam con co tu cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị đau bụng nhiều",
+        "name_en": "hien dang bi dau bung nhieu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "huyết áp thấp",
+        "name_en": "huyet ap thap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mạch đập nhanh",
+        "name_en": "mach dap nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mạch đập nhẹ",
+        "name_en": "mach dap nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu có màu đỏ",
+        "name_en": "nuoc tieu co mau do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốc",
+        "name_en": "soc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tim thai bất thường",
+        "name_en": "tim thai bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tụt huyết áp",
+        "name_en": "tut huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tử cung thắt lại tạo thành hình quả bầu nậm",
+        "name_en": "tu cung that lai tao thanh hinh qua bau nam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng nhiều",
+        "name_en": "dau bung nhieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói chỗ sẹo mổ cũ",
+        "name_en": "dau nhoi cho seo mo cu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói vùng hạ vị đột ngột",
+        "name_en": "dau nhoi vung ha vi dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đột ngột đau nhói sau đó bớt đau hơn",
+        "name_en": "dot ngot dau nhoi sau do bot dau hon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ấn vào thành đoạn dưới tử cung thấy mỏng",
+        "name_en": "an vao thanh doan duoi tu cung thay mong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Vỡ Tử Cung của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Vỡ Tử Cung",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhói vùng hạ vị đột ngột. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy choáng nhẹ hoặc nặng và đau nhói chỗ sẹo mổ cũ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị giảm cơn co tử cung, sốc, huyết áp thấp và mạch đập nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều, cơn đau kéo dài và cường độ đau tăng dần. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều, tử cung thắt lại tạo thành hình quả bầu nậm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều, ấn vào thành đoạn dưới tử cung thấy mỏng và đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều, cơn co tử cung kéo dài với cường độ mạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều và tim thai bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều, đột ngột đau nhói sau đó bớt đau hơn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều, da xanh xao, mạch đập nhẹ, tụt huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều, chảy máu màu đỏ tươi ở âm đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều và nước tiểu có màu đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng nhiều và có dấu hiệu suy thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi có sẹo mổ cũ trên tử cung và hiện đang bị đau bụng nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bất tương xứng khung chậu và hiện đang bị đau bụng nhiều. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

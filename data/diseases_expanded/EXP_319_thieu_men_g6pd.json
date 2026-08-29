@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_319",
+  "name_vi": "Thiếu Men G6PD",
+  "name_en": "Thieu Men G6PD",
+  "category": "oncology",
+  "aliases": [
+    "Thiếu Men G6PD",
+    "Thieu Men G6PD"
+  ],
+  "description": "Thiếu Men G6PD là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở sau khi vận động mạnh",
+        "name_en": "kho tho sau khi van dong manh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kiệt sức",
+        "name_en": "kiet suc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kiệt sức sau khi tiếp xúc với hóa chất",
+        "name_en": "kiet suc sau khi tiep xuc voi hoa chat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm khuẩn",
+        "name_en": "nhiem khuan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm trùng",
+        "name_en": "nhiem trung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm virus",
+        "name_en": "nhiem virus",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhịp tim nhanh",
+        "name_en": "nhip tim nhanh",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nước tiểu sậm màu",
+        "name_en": "nuoc tieu sam mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu sậm màu sau khi bị nhiễm trùng",
+        "name_en": "nuoc tieu sam mau sau khi bi nhiem trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu sậm màu sau khi dùng aspirin",
+        "name_en": "nuoc tieu sam mau sau khi dung aspirin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng da",
+        "name_en": "vang da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng mắt",
+        "name_en": "vang mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng mắt sau khi dùng một số loại thuốc",
+        "name_en": "vang mat sau khi dung mot so loai thuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng mắt sau khi ăn việt quất",
+        "name_en": "vang mat sau khi an viet quat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xanh xao",
+        "name_en": "xanh xao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xanh xao sau khi sử dụng thuốc chống sốt rét",
+        "name_en": "xanh xao sau khi su dung thuoc chong sot ret",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xanh xao sau khi ăn đậu fava",
+        "name_en": "xanh xao sau khi an dau fava",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Thiếu Men G6PD của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Thiếu Men G6PD",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như vàng da, vàng mắt và nước tiểu sậm màu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, xanh xao và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt, đau bụng và nhịp tim nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề về sức khỏe, suy giảm sức đề kháng và dễ bị nhiễm trùng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, chóng mặt và kiệt sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như vàng da, vàng mắt sau khi dùng một số loại thuốc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, xanh xao sau khi ăn đậu fava. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt, đau bụng và nước tiểu sậm màu sau khi bị nhiễm trùng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề về sức khỏe, suy giảm sức đề kháng và dễ bị nhiễm virus. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, chóng mặt và khó thở sau khi vận động mạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như vàng da, vàng mắt sau khi ăn việt quất. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, xanh xao sau khi sử dụng thuốc chống sốt rét. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt, đau bụng và nước tiểu sậm màu sau khi dùng aspirin. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề về sức khỏe, suy giảm sức đề kháng và dễ bị nhiễm khuẩn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, chóng mặt và kiệt sức sau khi tiếp xúc với hóa chất. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

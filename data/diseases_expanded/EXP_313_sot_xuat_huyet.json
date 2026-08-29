@@ -1,0 +1,209 @@
+{
+  "disease_id": "EXP_313",
+  "name_vi": "Sốt Xuất Huyết",
+  "name_en": "Sot Xuat Huyet",
+  "category": "infectious",
+  "aliases": [
+    "Sốt Xuất Huyết",
+    "Sot Xuat Huyet"
+  ],
+  "description": "Sốt Xuất Huyết là một bệnh lý thuộc chuyên khoa infectious, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụng to nhanh",
+        "name_en": "bung to nhanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "choáng váng",
+        "name_en": "choang vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chân tay lạnh",
+        "name_en": "chan tay lanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chướng bụng",
+        "name_en": "chuong bung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu cam",
+        "name_en": "chay mau cam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu chân răng",
+        "name_en": "chay mau chan rang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da lạnh",
+        "name_en": "da lanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay ho ra máu và rong kinh",
+        "name_en": "hay ho ra mau va rong kinh",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "li bì",
+        "name_en": "li bi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn ra máu",
+        "name_en": "non ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban",
+        "name_en": "phat ban",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao đột ngột",
+        "name_en": "sot cao dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu ít",
+        "name_en": "tieu it",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "uống thuốc hạ sốt không giảm",
+        "name_en": "uong thuoc ha sot khong giam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vật vã",
+        "name_en": "vat va",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện các chấm xuất huyết ngoài da",
+        "name_en": "xuat hien cac cham xuat huyet ngoai da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức cơ thể",
+        "name_en": "dau nhuc co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức hai hốc mắt",
+        "name_en": "dau nhuc hai hoc mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức vùng dưới sườn",
+        "name_en": "dau tuc vung duoi suon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Sốt Xuất Huyết của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Sốt Xuất Huyết",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sốt cao, đau đầu, đau nhức cơ thể và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau họng và tiêu chảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu chân răng và chảy máu cam. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như phát ban và đau nhức hai hốc mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chán ăn và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt cao đột ngột và uống thuốc hạ sốt không giảm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như xuất hiện các chấm xuất huyết ngoài da. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng và chân tay lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nôn ra máu và choáng váng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau ngực và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chướng bụng và bụng to nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tức vùng dưới sườn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như vật vã và li bì. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da lạnh và tiểu ít. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay ho ra máu và rong kinh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

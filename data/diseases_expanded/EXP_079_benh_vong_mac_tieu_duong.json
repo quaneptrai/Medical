@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_079",
+  "name_vi": "Bệnh Võng Mạc Tiểu Đường",
+  "name_en": "Benh Vong Mac Tieu Duong",
+  "category": "urology",
+  "aliases": [
+    "Bệnh Võng Mạc Tiểu Đường",
+    "Benh Vong Mac Tieu Duong"
+  ],
+  "description": "Bệnh Võng Mạc Tiểu Đường là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "biến dạng",
+        "name_en": "bien dang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bị méo mó",
+        "name_en": "bi meo mo",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chỉ nhìn thấy ở trung tâm",
+        "name_en": "chi nhin thay o trung tam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi đọc sách và nhìn các chi tiết nhỏ",
+        "name_en": "kho khan khi doc sach va nhin cac chi tiet nho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nhìn vào ban đêm",
+        "name_en": "kho nhin vao ban dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó phân biệt màu sắc và nhìn mọi thứ nhạt nhòa",
+        "name_en": "kho phan biet mau sac va nhin moi thu nhat nhoa",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "màu sắc nhòe đi",
+        "name_en": "mau sac nhoe di",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất thị lực ngoại vi",
+        "name_en": "mat thi luc ngoai vi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất thị lực đột ngột ở một bên mắt",
+        "name_en": "mat thi luc dot ngot o mot ben mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhìn mờ",
+        "name_en": "nhin mo",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nhìn mờ như có sương mù",
+        "name_en": "nhin mo nhu co suong mu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "những chấm đen di chuyển trong tầm nhìn",
+        "name_en": "nhung cham den di chuyen trong tam nhin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "những hình ảnh trùng lặp",
+        "name_en": "nhung hinh anh trung lap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "những tia sáng lóe lên trong mắt",
+        "name_en": "nhung tia sang loe len trong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "những đường kẻ cong queo",
+        "name_en": "nhung duong ke cong queo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thu hẹp tầm nhìn",
+        "name_en": "thu hep tam nhin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thấy những vùng sáng tối",
+        "name_en": "thay nhung vung sang toi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thị lực giảm sút",
+        "name_en": "thi luc giam sut",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu đường",
+        "name_en": "tieu duong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tầm nhìn của tôi ngày càng kém",
+        "name_en": "tam nhin cua toi ngay cang kem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Ánh sáng chói làm tôi khó chịu và nhìn mờ",
+        "name_en": "Anh sang choi lam toi kho chiu va nhin mo",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Võng Mạc Tiểu Đường của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Võng Mạc Tiểu Đường",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như nhìn mờ và thấy những vùng sáng tối. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó nhìn vào ban đêm và màu sắc nhòe đi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thu hẹp tầm nhìn và nhìn mờ như có sương mù. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiểu đường và thị lực giảm sút. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhìn thấy những chấm đen di chuyển trong tầm nhìn. Tôi có thể đang bị bệnh gì?",
+    "Hình ảnh tôi nhìn thấy bị méo mó và biến dạng. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó khăn khi đọc sách và nhìn các chi tiết nhỏ. Tôi có thể đang bị bệnh gì?",
+    "Ánh sáng chói làm tôi khó chịu và nhìn mờ. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhìn thấy những tia sáng lóe lên trong mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất thị lực đột ngột ở một bên mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiểu đường và tầm nhìn của tôi ngày càng kém. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó phân biệt màu sắc và nhìn mọi thứ nhạt nhòa. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhìn thấy những đường kẻ cong queo và biến dạng. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhìn thấy những hình ảnh trùng lặp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất thị lực ngoại vi và chỉ nhìn thấy ở trung tâm. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

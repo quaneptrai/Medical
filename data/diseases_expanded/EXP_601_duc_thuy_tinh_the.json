@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_601",
+  "name_vi": "Đục Thủy Tinh Thể",
+  "name_en": "Duc Thuy Tinh The",
+  "category": "general",
+  "aliases": [
+    "Đục Thủy Tinh Thể",
+    "Duc Thuy Tinh The"
+  ],
+  "description": "Đục Thủy Tinh Thể là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác như có màng che trước mắt",
+        "name_en": "cam giac nhu co mang che truoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hình ảnh bị nhòe",
+        "name_en": "hinh anh bi nhoe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi lái xe",
+        "name_en": "kho khan khi lai xe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi lái xe vào ban đêm",
+        "name_en": "kho khan khi lai xe vao ban dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi nhìn gần",
+        "name_en": "kho khan khi nhin gan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi nhìn vào những vật có màu tương phản thấp",
+        "name_en": "kho khan khi nhin vao nhung vat co mau tuong phan thap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi phân biệt màu sắc",
+        "name_en": "kho khan khi phan biet mau sac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi đọc sách",
+        "name_en": "kho khan khi doc sach",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "màu sắc nhạt dần",
+        "name_en": "mau sac nhat dan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "méo mó",
+        "name_en": "meo mo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt bị chói khi ra ngoài trời nắng",
+        "name_en": "mat bi choi khi ra ngoai troi nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt bị khô",
+        "name_en": "mat bi kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt bị lóa khi nhìn vào ánh đèn",
+        "name_en": "mat bi loa khi nhin vao anh den",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt bị nhức mỏi",
+        "name_en": "mat bi nhuc moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mọi vật có màu vàng nhạt hoặc nâu nhạt",
+        "name_en": "moi vat co mau vang nhat hoac nau nhat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mờ mắt",
+        "name_en": "mo mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn một thành hai",
+        "name_en": "nhin mot thanh hai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mờ",
+        "name_en": "nhin mo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mờ khi nhìn gần",
+        "name_en": "nhin mo khi nhin gan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mờ vào ban đêm",
+        "name_en": "nhin mo vao ban dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn thấy chấm đen trước mắt",
+        "name_en": "nhin thay cham den truoc mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn vào màn hình máy tính",
+        "name_en": "nhin vao man hinh may tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn xa",
+        "name_en": "nhin xa",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm hơn với ánh sáng",
+        "name_en": "nhay cam hon voi anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "quầng sáng xung quanh nguồn sáng",
+        "name_en": "quang sang xung quanh nguon sang",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đục Thủy Tinh Thể của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đục Thủy Tinh Thể",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như mờ mắt, khó khăn khi lái xe vào ban đêm và cảm giác như có màng che trước mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy màu sắc nhạt dần, nhìn thấy chấm đen trước mắt và nhạy cảm hơn với ánh sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy mọi vật có màu vàng nhạt hoặc nâu nhạt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhìn một thành hai, khó khăn khi nhìn gần và nhìn xa. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt bị lóa khi nhìn vào ánh đèn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy quầng sáng xung quanh nguồn sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhìn mờ, khó khăn khi đọc sách và nhìn vào màn hình máy tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt bị khô và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy khó khăn khi phân biệt màu sắc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhìn mờ vào ban đêm và khó khăn khi lái xe. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt bị nhức mỏi và chảy nước mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy hình ảnh bị nhòe và méo mó. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhìn mờ khi nhìn gần và nhìn xa. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt bị chói khi ra ngoài trời nắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay thấy khó khăn khi nhìn vào những vật có màu tương phản thấp. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

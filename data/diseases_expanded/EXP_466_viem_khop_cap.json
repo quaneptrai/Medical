@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_466",
+  "name_vi": "Viêm Khớp Cấp",
+  "name_en": "Viem Khop Cap",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Viêm Khớp Cấp",
+    "Viem Khop Cap"
+  ],
+  "description": "Viêm Khớp Cấp là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "gãy xương",
+        "name_en": "gay xuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho dữ dội",
+        "name_en": "ho du doi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoại tử vô mạch",
+        "name_en": "hoai tu vo mach",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mũi hoặc bộ phận sinh dục",
+        "name_en": "mui hoac bo phan sinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm virus",
+        "name_en": "nhiem virus",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng ở các khớp bị ảnh hưởng",
+        "name_en": "nong o cac khop bi anh huong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phát ban với các đốm màu tím",
+        "name_en": "phat ban voi cac dom mau tim",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phạm vi chuyển động bị hạn chế",
+        "name_en": "pham vi chuyen dong bi han che",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sau một bữa ăn thịnh soạn hoặc khi thời tiết thay đổi",
+        "name_en": "sau mot bua an thinh soan hoac khi thoi tiet thay doi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đau khớp",
+        "name_en": "sung dau khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư xương",
+        "name_en": "ung thu xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm bao hoạt dịch",
+        "name_en": "viem bao hoat dich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cột sống dính khớp",
+        "name_en": "viem cot song dinh khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện vết loét trong miệng",
+        "name_en": "xuat hien vet loet trong mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau các khớp xuất hiện đột ngột",
+        "name_en": "dau cac khop xuat hien dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau hoặc đỏ mắt",
+        "name_en": "dau hoac do mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Khớp Cấp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Khớp Cấp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sưng, đỏ và nóng ở các khớp bị ảnh hưởng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phạm vi chuyển động bị hạn chế. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau các khớp xuất hiện đột ngột, sau một bữa ăn thịnh soạn hoặc khi thời tiết thay đổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng đau khớp và sốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phát ban với các đốm màu tím. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất hiện vết loét trong miệng, mũi hoặc bộ phận sinh dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau ngực, khó thở và ho dữ dội. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng, sốt, đổ mồ hôi, ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sụt cân, đau hoặc đỏ mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm virus và sưng đau khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm cột sống dính khớp và sưng đau khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị hoại tử vô mạch và sưng đau khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ung thư xương và sưng đau khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị gãy xương và sưng đau khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm bao hoạt dịch và sưng đau khớp. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

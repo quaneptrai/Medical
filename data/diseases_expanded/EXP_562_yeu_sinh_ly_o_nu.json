@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_562",
+  "name_vi": "Yếu Sinh Lý Ở Nữ",
+  "name_en": "Yeu Sinh Ly O Nu",
+  "category": "oncology",
+  "aliases": [
+    "Yếu Sinh Lý Ở Nữ",
+    "Yeu Sinh Ly O Nu"
+  ],
+  "description": "Yếu Sinh Lý Ở Nữ là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "co thắt âm đạo",
+        "name_en": "co that am dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng",
+        "name_en": "cang thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị khô âm đạo",
+        "name_en": "hien dang bi kho am dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị rối loạn cực khoái",
+        "name_en": "hien dang bi roi loan cuc khoai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị suy giảm ham muốn",
+        "name_en": "hien dang bi suy giam ham muon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị đau khi quan hệ",
+        "name_en": "hien dang bi dau khi quan he",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang sợ hãi khi gần gũi bạn đời",
+        "name_en": "hien dang so hai khi gan gui ban doi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khô hạn",
+        "name_en": "kho han",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khô âm đạo",
+        "name_en": "kho am dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không đạt được khoái cảm khi quan hệ",
+        "name_en": "khong dat duoc khoai cam khi quan he",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lạc nội mạc tử cung",
+        "name_en": "lac noi mac tu cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn cực khoái",
+        "name_en": "roi loan cuc khoai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn hormone",
+        "name_en": "roi loan hormone",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "stress",
+        "name_en": "stress",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm ham muốn",
+        "name_en": "suy giam ham muon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm ham muốn tình dục",
+        "name_en": "suy giam ham muon tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm nồng độ Estrogen",
+        "name_en": "suy giam nong do Estrogen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "u nang buồng trứng",
+        "name_en": "u nang buong trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "u xơ tử cung",
+        "name_en": "u xo tu cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm âm đạo",
+        "name_en": "viem am dao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát khi quan hệ",
+        "name_en": "dau rat khi quan he",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát ở âm đạo",
+        "name_en": "dau rat o am dao",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Yếu Sinh Lý Ở Nữ của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Yếu Sinh Lý Ở Nữ",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như khô hạn và đau rát ở âm đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy suy giảm ham muốn tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị rối loạn cực khoái, không đạt được khoái cảm khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi mới sinh con và hiện đang bị khô âm đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang trong giai đoạn tiền mãn kinh và hiện đang bị khô âm đạo, đau rát khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy giảm nồng độ Estrogen và hiện đang bị khô âm đạo. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị rối loạn hormone và hiện đang bị khô âm đạo, đau rát khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau rát khi quan hệ và hiện đang bị suy giảm ham muốn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy giảm ham muốn và hiện đang bị rối loạn cực khoái. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị căng thẳng, stress và hiện đang bị suy giảm ham muốn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị lạc nội mạc tử cung và hiện đang bị đau khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị u xơ tử cung và hiện đang bị đau khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị u nang buồng trứng và hiện đang bị đau khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm âm đạo và hiện đang bị đau khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị co thắt âm đạo và hiện đang sợ hãi khi gần gũi bạn đời. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

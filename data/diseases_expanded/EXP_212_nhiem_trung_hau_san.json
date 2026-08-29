@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_212",
+  "name_vi": "Nhiễm Trùng Hậu Sản",
+  "name_en": "Nhiem Trung Hau San",
+  "category": "oncology",
+  "aliases": [
+    "Nhiễm Trùng Hậu Sản",
+    "Nhiem Trung Hau San"
+  ],
+  "description": "Nhiễm Trùng Hậu Sản là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy mủ",
+        "name_en": "chay mu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác phải đi tiểu thường xuyên nhưng tiểu ra rất ít",
+        "name_en": "cam giac phai di tieu thuong xuyen nhung tieu ra rat it",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng",
+        "name_en": "cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có da đỏ, tiết dịch và sưng đau xung quanh vết mổ lấy thai",
+        "name_en": "hien dang co da do, tiet dich va sung dau xung quanh vet mo lay thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có dịch tiết âm đạo có mùi hôi và màu vàng xanh",
+        "name_en": "hien dang co dich tiet am dao co mui hoi va mau vang xanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có nước tiểu nhiều bọt và có lẫn máu",
+        "name_en": "hien dang co nuoc tieu nhieu bot va co lan mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "màu sắc bất thường",
+        "name_en": "mau sac bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng đỏ ở cả hai bên vú",
+        "name_en": "nong do o ca hai ben vu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ra máu âm đạo bất thường sau sinh",
+        "name_en": "ra mau am dao bat thuong sau sinh",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sưng tấy",
+        "name_en": "sung tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sản dịch có mùi hôi",
+        "name_en": "san dich co mui hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu buốt",
+        "name_en": "tieu buot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu khó",
+        "name_en": "tieu kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu ra máu",
+        "name_en": "tieu ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vết khâu tầng sinh môn có dấu hiệu sắp bung",
+        "name_en": "vet khau tang sinh mon co dau hieu sap bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới sau sinh",
+        "name_en": "dau bung duoi sau sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau hạ vị",
+        "name_en": "dau ha vi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi đi tiểu",
+        "name_en": "dau khi di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng xương chậu",
+        "name_en": "dau nhuc vung xuong chau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở một bên vú",
+        "name_en": "dau o mot ben vu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Nhiễm Trùng Hậu Sản của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nhiễm Trùng Hậu Sản",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau hạ vị, sốt nhẹ và sản dịch có mùi hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau ở một bên vú kèm theo sốt và ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau, cứng và nóng đỏ ở cả hai bên vú, kèm theo mệt mỏi và đau đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có da đỏ, tiết dịch và sưng đau xung quanh vết mổ lấy thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau và vết khâu tầng sinh môn có dấu hiệu sắp bung. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiểu khó, tiểu buốt và cảm giác phải đi tiểu thường xuyên nhưng tiểu ra rất ít. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có nước tiểu nhiều bọt và có lẫn máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau hạ vị kèm theo sốt cao và ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sản dịch có mùi hôi và màu sắc bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có vết mổ lấy thai bị sưng tấy và chảy mủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức vùng xương chậu và sốt cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ra máu âm đạo bất thường sau sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có dịch tiết âm đạo có mùi hôi và màu vàng xanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau khi đi tiểu và tiểu ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau lưng và đau bụng dưới sau sinh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

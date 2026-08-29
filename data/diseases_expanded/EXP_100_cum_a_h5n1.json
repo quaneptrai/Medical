@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_100",
+  "name_vi": "Cúm A H5N1",
+  "name_en": "Cum A H5N1",
+  "category": "general",
+  "aliases": [
+    "Cúm A H5N1",
+    "Cum A H5N1"
+  ],
+  "description": "Cúm A H5N1 là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh",
+        "name_en": "benh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi",
+        "name_en": "chay nuoc mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy mệt mỏi",
+        "name_en": "cam thay met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy tức ngực",
+        "name_en": "cam thay tuc nguc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mắt đỏ",
+        "name_en": "mat do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "rối loạn tâm thần",
+        "name_en": "roi loan tam than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy hô hấp",
+        "name_en": "suy ho hap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy đa tạng",
+        "name_en": "suy da tang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao trên 38 độ, kèm theo ho và đau rát họng",
+        "name_en": "sot cao tren 38 do, kem theo ho va dau rat hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thở gấp",
+        "name_en": "tho gap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm kết mạc",
+        "name_en": "viem ket mac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm phổi nặng",
+        "name_en": "viem phoi nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất huyết dưới da",
+        "name_en": "xuat huyet duoi da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn thịt gia cầm chưa nấu chín kỹ",
+        "name_en": "an thit gia cam chua nau chin ky",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức cơ thể",
+        "name_en": "dau nhuc co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi du lịch đến vùng có dịch cúm gia cầm",
+        "name_en": "di du lich den vung co dich cum gia cam",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Cúm A H5N1 của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Cúm A H5N1",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đang sốt cao trên 38 độ, kèm theo ho và đau rát họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhức cơ thể và cảm thấy mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng, buồn nôn và tiêu chảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó thở, thở gấp và cảm thấy tức ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy nước mũi và nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau đầu và chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm kết mạc và mắt đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị co giật và rối loạn tâm thần. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xuất huyết dưới da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy hô hấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy đa tạng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm phổi nặng. Tôi có thể đang bị bệnh gì?",
+    "Tôi tiếp xúc với gia cầm bị bệnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đi du lịch đến vùng có dịch cúm gia cầm. Tôi có thể đang bị bệnh gì?",
+    "Tôi ăn thịt gia cầm chưa nấu chín kỹ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

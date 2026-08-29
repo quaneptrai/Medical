@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_168",
+  "name_vi": "Lỗ Tiểu Lệch Thấp",
+  "name_en": "Lo Tieu Lech Thap",
+  "category": "urology",
+  "aliases": [
+    "Lỗ Tiểu Lệch Thấp",
+    "Lo Tieu Lech Thap"
+  ],
+  "description": "Lỗ Tiểu Lệch Thấp là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bắn ra nhiều hướng",
+        "name_en": "ban ra nhieu huong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bắn ra sau",
+        "name_en": "ban ra sau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da quy đầu thiếu ở mặt bụng",
+        "name_en": "da quy dau thieu o mat bung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật bị cong khi cương cứng",
+        "name_en": "duong vat bi cong khi cuong cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi tiểu đứng",
+        "name_en": "kho khan khi tieu dung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi đi tiểu",
+        "name_en": "kho khan khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi đi tiểu đứng",
+        "name_en": "kho khan khi di tieu dung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó kiểm soát",
+        "name_en": "kho kiem soat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lỗ tiểu nằm gần gốc dương vật",
+        "name_en": "lo tieu nam gan goc duong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lỗ tiểu nằm thấp",
+        "name_en": "lo tieu nam thap",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lỗ tiểu nằm thấp hơn bình thường",
+        "name_en": "lo tieu nam thap hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "són tiểu",
+        "name_en": "son tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thừa ở mặt lưng",
+        "name_en": "thua o mat lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tia nước tiểu bắn ra nhiều hướng",
+        "name_en": "tia nuoc tieu ban ra nhieu huong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tia nước tiểu bị lệch",
+        "name_en": "tia nuoc tieu bi lech",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tia nước tiểu bị lệch xuống dưới",
+        "name_en": "tia nuoc tieu bi lech xuong duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tia nước tiểu yếu",
+        "name_en": "tia nuoc tieu yeu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn ẩn",
+        "name_en": "tinh hoan an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu buốt",
+        "name_en": "tieu buot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tự ti về hình dáng của dương vật",
+        "name_en": "tu ti ve hinh dang cua duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm nhiễm đường tiết niệu",
+        "name_en": "viem nhiem duong tiet nieu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Lỗ Tiểu Lệch Thấp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Lỗ Tiểu Lệch Thấp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như lỗ tiểu nằm thấp hơn bình thường và tia nước tiểu bị lệch xuống dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn khi tiểu đứng và dương vật bị cong khi cương cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị són tiểu, tia nước tiểu yếu và bắn ra sau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như da quy đầu thiếu ở mặt bụng và thừa ở mặt lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tự ti về hình dáng của dương vật và khó khăn khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm nhiễm đường tiết niệu và khó khăn khi tiểu đứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như lỗ tiểu nằm gần gốc dương vật và tia nước tiểu bị lệch. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn khi đi tiểu và dương vật bị cong khi cương cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị són tiểu, tia nước tiểu yếu và bắn ra nhiều hướng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như da quy đầu thiếu ở mặt bụng và thừa ở mặt lưng, kèm theo tinh hoàn ẩn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tự ti về hình dáng của dương vật và khó khăn khi đi tiểu đứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm nhiễm đường tiết niệu và tiểu buốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như lỗ tiểu nằm thấp, tia nước tiểu yếu và bắn ra sau. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn khi đi tiểu đứng và dương vật bị cong khi cương cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị són tiểu, tia nước tiểu bắn ra nhiều hướng và khó kiểm soát. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

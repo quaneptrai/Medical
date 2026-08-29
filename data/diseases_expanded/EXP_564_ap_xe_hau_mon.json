@@ -1,0 +1,209 @@
+{
+  "disease_id": "EXP_564",
+  "name_vi": "Áp Xe Hậu Môn",
+  "name_en": "Ap Xe Hau Mon",
+  "category": "digestive",
+  "aliases": [
+    "Áp Xe Hậu Môn",
+    "Ap Xe Hau Mon"
+  ],
+  "description": "Áp Xe Hậu Môn là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy máu hậu môn",
+        "name_en": "chay mau hau mon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu khi đi vệ sinh",
+        "name_en": "chay mau khi di ve sinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy mủ",
+        "name_en": "chay mu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có các triệu chứng sốt, ớn lạnh về đêm và đau hậu môn",
+        "name_en": "co cac trieu chung sot, on lanh ve dem va dau hau mon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ thể mệt mỏi",
+        "name_en": "co the met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy khó chịu",
+        "name_en": "cam thay kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy ngứa ngáy khó chịu",
+        "name_en": "cam thay ngua ngay kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dịch mủ chảy ra từ hậu môn",
+        "name_en": "dich mu chay ra tu hau mon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp tình trạng trực tràng tiết dịch bất thường kèm theo ớn lạnh",
+        "name_en": "gap tinh trang truc trang tiet dich bat thuong kem theo on lanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau nhức hậu môn",
+        "name_en": "hien dang co trieu chung dau nhuc hau mon",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khối cứng",
+        "name_en": "khoi cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mềm ở rìa hậu môn",
+        "name_en": "mem o ria hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhanh chóng trở nên trầm trọng hơn sau 2 ngày",
+        "name_en": "nhanh chong tro nen tram trong hon sau 2 ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nốt sưng đỏ",
+        "name_en": "not sung do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy",
+        "name_en": "sung tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sờ thấy một khối u mềm ở rìa hậu môn",
+        "name_en": "so thay mot khoi u mem o ria hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau hậu môn",
+        "name_en": "dau hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau hậu môn dữ dội",
+        "name_en": "dau hau mon du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau hậu môn kéo dài",
+        "name_en": "dau hau mon keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói hậu môn",
+        "name_en": "dau nhoi hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát hậu môn",
+        "name_en": "dau rat hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vùng da xung quanh hậu môn",
+        "name_en": "dau vung da xung quanh hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở gần hậu môn",
+        "name_en": "dau o gan hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là khi đi vệ sinh",
+        "name_en": "dac biet la khi di ve sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Áp Xe Hậu Môn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Áp Xe Hậu Môn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhói hậu môn, sưng tấy và chảy máu khi đi vệ sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cơ thể mệt mỏi, sốt nhẹ và sờ thấy một khối u mềm ở rìa hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị táo bón và đau vùng da xung quanh hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp tình trạng trực tràng tiết dịch bất thường kèm theo ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau hậu môn dữ dội và nhanh chóng trở nên trầm trọng hơn sau 2 ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi có các triệu chứng sốt, ớn lạnh về đêm và đau hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy nốt sưng đỏ, mềm ở rìa hậu môn và cảm thấy khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng và hiện đang có triệu chứng đau nhức hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau hậu môn, sưng tấy và chảy mủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau rát hậu môn, đặc biệt là khi đi vệ sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt cao, ớn lạnh và đau nhói hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi sờ thấy khối cứng và đau ở gần hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy máu hậu môn và cảm thấy ngứa ngáy khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị táo bón và đau hậu môn kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy dịch mủ chảy ra từ hậu môn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

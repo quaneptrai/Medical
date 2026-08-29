@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_205",
+  "name_vi": "Nhau Bám Thấp",
+  "name_en": "Nhau Bam Thap",
+  "category": "oncology",
+  "aliases": [
+    "Nhau Bám Thấp",
+    "Nhau Bam Thap"
+  ],
+  "description": "Nhau Bám Thấp là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bất an",
+        "name_en": "bat an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu khi vận động mạnh khi mang thai",
+        "name_en": "chay mau khi van dong manh khi mang thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu sau khi quan hệ tình dục khi mang thai",
+        "name_en": "chay mau sau khi quan he tinh duc khi mang thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo",
+        "name_en": "chay mau am dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo khi làm việc nặng nhọc khi mang thai",
+        "name_en": "chay mau am dao khi lam viec nang nhoc khi mang thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo không rõ nguyên nhân khi mang thai 3 tháng cuối",
+        "name_en": "chay mau am dao khong ro nguyen nhan khi mang thai 3 thang cuoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo không đau khi mang thai",
+        "name_en": "chay mau am dao khong dau khi mang thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo màu đỏ tươi khi mang thai 3 tháng cuối",
+        "name_en": "chay mau am dao mau do tuoi khi mang thai 3 thang cuoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo đột ngột",
+        "name_en": "chay mau am dao dot ngot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mang thai và lo lắng cho sức khỏe của thai nhi",
+        "name_en": "mang thai va lo lang cho suc khoe cua thai nhi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ra máu đông cục",
+        "name_en": "ra mau dong cuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "uể oải",
+        "name_en": "ue oai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới khi mang thai",
+        "name_en": "dau bung duoi khi mang thai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội khi mang thai 3 tháng cuối",
+        "name_en": "dau bung du doi khi mang thai 3 thang cuoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng từng cơn",
+        "name_en": "dau bung tung con",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói ở tử cung",
+        "name_en": "dau nhoi o tu cung",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Nhau Bám Thấp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nhau Bám Thấp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đang mang thai 3 tháng cuối và bị chảy máu âm đạo đột ngột. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy máu âm đạo không đau khi mang thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị ra máu đông cục. Tôi có thể đang bị bệnh gì?",
+    "Tôi dễ bị chảy máu khi vận động mạnh khi mang thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy máu sau khi quan hệ tình dục khi mang thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy đau nhói ở tử cung. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy máu âm đạo và đau bụng dưới khi mang thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và lo lắng cho sức khỏe của thai nhi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy máu âm đạo không rõ nguyên nhân khi mang thai 3 tháng cuối. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy mệt mỏi, uể oải. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy máu âm đạo khi làm việc nặng nhọc khi mang thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy đau bụng từng cơn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy máu âm đạo màu đỏ tươi khi mang thai 3 tháng cuối. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy lo lắng, bất an. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy máu âm đạo và đau bụng dữ dội khi mang thai 3 tháng cuối. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

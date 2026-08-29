@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_046",
+  "name_vi": "Bệnh Polyp Mũi",
+  "name_en": "Benh Polyp Mui",
+  "category": "respiratory",
+  "aliases": [
+    "Bệnh Polyp Mũi",
+    "Benh Polyp Mui"
+  ],
+  "description": "Bệnh Polyp Mũi là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bị giảm khứu giác",
+        "name_en": "bi giam khuu giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi",
+        "name_en": "chay nuoc mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mũi màu vàng xanh",
+        "name_en": "chay nuoc mui mau vang xanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chất lượng cuộc sống giảm sút do nghẹt mũi",
+        "name_en": "chat luong cuoc song giam sut do nghet mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có dị vật trong mũi",
+        "name_en": "co di vat trong mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u mềm trong mũi",
+        "name_en": "co khoi u mem trong mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u trong mũi",
+        "name_en": "co khoi u trong mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang gặp vấn đề về giấc ngủ do khó thở khi nằm",
+        "name_en": "hien dang gap van de ve giac ngu do kho tho khi nam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hắt hơi",
+        "name_en": "hat hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu khi thở",
+        "name_en": "kho chiu khi tho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó khăn khi thở bằng mũi",
+        "name_en": "kho khan khi tho bang mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở khi ngủ",
+        "name_en": "kho tho khi ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất khứu giác",
+        "name_en": "mat khuu giac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất khứu giác hoàn toàn",
+        "name_en": "mat khuu giac hoan toan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất mùi vị thức ăn",
+        "name_en": "mat mui vi thuc an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghẹt mũi kéo dài",
+        "name_en": "nghet mui keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghẹt mũi liên tục",
+        "name_en": "nghet mui lien tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngáy ngủ",
+        "name_en": "ngay ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa mũi",
+        "name_en": "ngua mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên khạc đàm",
+        "name_en": "thuong xuyen khac dam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên nghẹt mũi",
+        "name_en": "thuong xuyen nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng mặt",
+        "name_en": "dau nhuc vung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng xoang mặt",
+        "name_en": "dau nhuc vung xoang mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là về đêm",
+        "name_en": "dac biet la ve dem",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Polyp Mũi của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Polyp Mũi",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như nghẹt mũi liên tục và mất khứu giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức vùng mặt và thường xuyên khạc đàm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nghẹt mũi, đặc biệt là về đêm, kèm theo chảy nước mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang gặp vấn đề về giấc ngủ do khó thở khi nằm. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy có khối u mềm trong mũi và bị giảm khứu giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu và nghẹt mũi kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chất lượng cuộc sống giảm sút do nghẹt mũi và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị chảy nước mũi, nghẹt mũi và mất mùi vị thức ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy có khối u trong mũi và khó khăn khi thở bằng mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa mũi, hắt hơi và nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị chảy nước mũi màu vàng xanh và nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau nhức vùng xoang mặt và thường xuyên nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngáy ngủ và khó thở khi ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị mất khứu giác hoàn toàn và nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy có dị vật trong mũi và khó chịu khi thở. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

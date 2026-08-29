@@ -1,0 +1,234 @@
+{
+  "disease_id": "EXP_027",
+  "name_vi": "Bệnh Giun Lươn",
+  "name_en": "Benh Giun Luon",
+  "category": "general",
+  "aliases": [
+    "Bệnh Giun Lươn",
+    "Benh Giun Luon"
+  ],
+  "description": "Bệnh Giun Lươn là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "biếng ăn",
+        "name_en": "bieng an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chậm lớn",
+        "name_en": "cham lon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "di chuyển vị trí liên tục",
+        "name_en": "di chuyen vi tri lien tuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp tình trạng phù phổi, khó thở, ho khan",
+        "name_en": "gap tinh trang phu phoi, kho tho, ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp tình trạng viêm màng não, kèm theo sốt cao và co giật",
+        "name_en": "gap tinh trang viem mang nao, kem theo sot cao va co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hắt hơi",
+        "name_en": "hat hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khò khè",
+        "name_en": "kho khe",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở về đêm",
+        "name_en": "kho tho ve dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy khó chịu",
+        "name_en": "ngua ngay kho chiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng máu",
+        "name_en": "nhiem trung mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mề đay ngoằn ngoèo ở chân",
+        "name_en": "noi me day ngoan ngoeo o chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy dinh dưỡng",
+        "name_en": "suy dinh duong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm miễn dịch",
+        "name_en": "suy giam mien dich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt kéo dài",
+        "name_en": "sot keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi vị trí liên tục",
+        "name_en": "thay doi vi tri lien tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thậm chí ho ra máu",
+        "name_en": "tham chi ho ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thở nhanh",
+        "name_en": "tho nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy mạn tính",
+        "name_en": "tieu chay man tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón kéo dài",
+        "name_en": "tao bon keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện nốt sần ngứa ở tay",
+        "name_en": "xuat hien not san ngua o tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện nốt xuất huyết ở chân",
+        "name_en": "xuat hien not xuat huyet o chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực kiểu màng phổi",
+        "name_en": "dau nguc kieu mang phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy hơi",
+        "name_en": "day hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Giun Lươn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Giun Lươn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ngứa, nổi mề đay ngoằn ngoèo ở chân, thay đổi vị trí liên tục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy buồn nôn, nôn, đầy hơi, táo bón kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khò khè, hắt hơi, ho, khó thở, thậm chí ho ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như sốt kéo dài, kèm theo tiêu chảy và đau bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị biếng ăn, chậm lớn, suy dinh dưỡng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp tình trạng viêm màng não, kèm theo sốt cao và co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy xuất hiện nốt xuất huyết ở chân, ngứa ngáy khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiêu chảy mạn tính, kèm theo đau bụng và đầy hơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như khó thở, thở nhanh, đau ngực kiểu màng phổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy giảm miễn dịch, kèm theo sốt kéo dài và nhiễm trùng máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp tình trạng phù phổi, khó thở, ho khan. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy xuất hiện nốt sần ngứa ở tay, di chuyển vị trí liên tục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng, buồn nôn, nôn, kèm theo táo bón. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như ho khan, khò khè, khó thở về đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sụt cân, mệt mỏi, chán ăn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

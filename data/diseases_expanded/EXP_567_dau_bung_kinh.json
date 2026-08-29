@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_567",
+  "name_vi": "Đau Bụng Kinh",
+  "name_en": "Dau Bung Kinh",
+  "category": "oncology",
+  "aliases": [
+    "Đau Bụng Kinh",
+    "Dau Bung Kinh"
+  ],
+  "description": "Đau Bụng Kinh là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn trước kỳ kinh nguyệt",
+        "name_en": "buon non truoc ky kinh nguyet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt trong ngày đầu hành kinh",
+        "name_en": "chong mat trong ngay dau hanh kinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi trong kỳ kinh",
+        "name_en": "met moi trong ky kinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tiêu chảy khi đến kỳ kinh nguyệt",
+        "name_en": "tieu chay khi den ky kinh nguyet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "táo bón khi đến chu kỳ kinh nguyệt",
+        "name_en": "tao bon khi den chu ky kinh nguyet",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội",
+        "name_en": "dau bung du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội trong ngày đầu hành kinh",
+        "name_en": "dau bung du doi trong ngay dau hanh kinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội tỷ lệ thuận với mức độ co bóp của tử cung",
+        "name_en": "dau bung du doi ty le thuan voi muc do co bop cua tu cung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng kinh",
+        "name_en": "dau bung kinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng kinh kéo dài 2-3 ngày",
+        "name_en": "dau bung kinh keo dai 2-3 ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng lan xuống đùi",
+        "name_en": "dau bung lan xuong dui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng lan xuống đùi trong những ngày đèn đỏ",
+        "name_en": "dau bung lan xuong dui trong nhung ngay den do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng quặn từng cơn",
+        "name_en": "dau bung quan tung con",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng âm ỉ",
+        "name_en": "dau bung am i",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng trong những ngày đèn đỏ",
+        "name_en": "dau lung trong nhung ngay den do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau quặn",
+        "name_en": "dau quan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau quặn bụng",
+        "name_en": "dau quan bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau âm ỉ ở bụng dưới",
+        "name_en": "dau am i o bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu trong kỳ kinh",
+        "name_en": "dau dau trong ky kinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu trong những ngày đèn đỏ",
+        "name_en": "dau dau trong nhung ngay den do",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Bụng Kinh của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Bụng Kinh",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau âm ỉ ở bụng dưới, đau quặn và buồn nôn trước kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng dữ dội trong ngày đầu hành kinh, kèm theo mệt mỏi và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng lan xuống đùi trong những ngày đèn đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị đau bụng kinh kèm theo chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng quặn từng cơn và tiêu chảy khi đến kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng dữ dội tỷ lệ thuận với mức độ co bóp của tử cung. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng dưới, buồn nôn và mệt mỏi trong kỳ kinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng âm ỉ, đau lưng và táo bón khi đến chu kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau quặn bụng và đau đầu trong những ngày đèn đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị đau bụng kinh kéo dài 2-3 ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng dưới, buồn nôn và chóng mặt trong ngày đầu hành kinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng dữ dội kèm theo mệt mỏi và tiêu chảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng lan xuống đùi và đau lưng trong những ngày đèn đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị đau bụng kinh kèm theo táo bón. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng dưới, buồn nôn và đau đầu trong kỳ kinh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

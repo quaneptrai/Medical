@@ -1,0 +1,244 @@
+{
+  "disease_id": "EXP_330",
+  "name_vi": "Thận Đa Nang",
+  "name_en": "Than Da Nang",
+  "category": "urology",
+  "aliases": [
+    "Thận Đa Nang",
+    "Than Da Nang"
+  ],
+  "description": "Thận Đa Nang là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bầm tím",
+        "name_en": "bam tim",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chuột rút",
+        "name_en": "chuot rut",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có máu trong nước tiểu",
+        "name_en": "co mau trong nuoc tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp vấn đề về thận, kích thước bụng tăng lên và cảm giác mệt mỏi",
+        "name_en": "gap van de ve than, kich thuoc bung tang len va cam giac met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "huyết áp cao",
+        "name_en": "huyet ap cao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hồi hộp đánh trống ngực",
+        "name_en": "hoi hop danh trong nguc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó khăn trong vận động",
+        "name_en": "kho khan trong van dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mờ mắt",
+        "name_en": "mo mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng đường tiết niệu",
+        "name_en": "nhiem trung duong tiet nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu có màu bất thường",
+        "name_en": "nuoc tieu co mau bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù chân",
+        "name_en": "phu chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm trí nhớ",
+        "name_en": "suy giam tri nho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sỏi thận",
+        "name_en": "soi than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu buốt",
+        "name_en": "tieu buot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu rắt",
+        "name_en": "tieu rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu ít",
+        "name_en": "tieu it",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón xen kẽ",
+        "name_en": "tao bon xen ke",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì chân tay",
+        "name_en": "te bi chan tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu cơ",
+        "name_en": "yeu co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau hông",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức ngực",
+        "name_en": "dau tuc nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau xương khớp",
+        "name_en": "dau xuong khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy bụng",
+        "name_en": "day bung",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Thận Đa Nang của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Thận Đa Nang",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau lưng, đau hông và huyết áp cao. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đầy bụng, khó chịu và có máu trong nước tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, sỏi thận và nhiễm trùng đường tiết niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề về thận, kích thước bụng tăng lên và cảm giác mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau lưng, tiểu buốt, tiểu rắt và nước tiểu có màu bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng, buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, chán ăn và sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phù chân, khó thở và tiểu ít. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau đầu, chóng mặt và mờ mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau tức ngực, khó thở và hồi hộp đánh trống ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng, tiêu chảy và táo bón xen kẽ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp vấn đề về da, da khô, ngứa và dễ bị bầm tím. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chuột rút, tê bì chân tay và yếu cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau xương khớp, khó khăn trong vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, khó tập trung và suy giảm trí nhớ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

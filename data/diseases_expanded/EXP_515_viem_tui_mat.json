@@ -1,0 +1,184 @@
+{
+  "disease_id": "EXP_515",
+  "name_vi": "Viêm Túi Mật",
+  "name_en": "Viem Tui Mat",
+  "category": "digestive",
+  "aliases": [
+    "Viêm Túi Mật",
+    "Viem Tui Mat"
+  ],
+  "description": "Viêm Túi Mật là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có màu nhạt",
+        "name_en": "co mau nhat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau bụng, buồn nôn và nôn, kèm theo sụt cân",
+        "name_en": "hien dang co trieu chung dau bung, buon non va non, kem theo sut can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau bụng, đầy hơi và khó tiêu",
+        "name_en": "hien dang co trieu chung dau bung, day hoi va kho tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau bụng, đầy hơi, khó tiêu và khó thở",
+        "name_en": "hien dang co trieu chung dau bung, day hoi, kho tieu va kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tiêu",
+        "name_en": "kho tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tiêu sau khi ăn no",
+        "name_en": "kho tieu sau khi an no",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa da",
+        "name_en": "ngua da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nôn sau khi uống rượu bia",
+        "name_en": "non sau khi uong ruou bia",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nước tiểu sẫm màu",
+        "name_en": "nuoc tieu sam mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phân lỏng",
+        "name_en": "phan long",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt sau khi giảm cân nhanh chóng",
+        "name_en": "sot sau khi giam can nhanh chong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng da",
+        "name_en": "vang da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng da sau khi phẫu thuật",
+        "name_en": "vang da sau khi phau thuat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng mắt",
+        "name_en": "vang mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội sau khi ăn đồ ăn nhiều dầu mỡ",
+        "name_en": "dau bung du doi sau khi an do an nhieu dau mo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói ở vùng hạ sườn phải",
+        "name_en": "dau nhoi o vung ha suon phai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy hơi",
+        "name_en": "day hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Túi Mật của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Túi Mật",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhói ở vùng hạ sườn phải, buồn nôn và sốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng, vàng da và vàng mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng dữ dội sau khi ăn đồ ăn nhiều dầu mỡ, kèm theo buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị sốt, ớn lạnh và đau lưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau bụng, đầy hơi và khó tiêu. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau bụng, buồn nôn và nôn, kèm theo phân lỏng và có màu nhạt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng, đầy hơi và khó tiêu sau khi ăn no. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị đau bụng, sốt và vàng da sau khi phẫu thuật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau bụng, buồn nôn và nôn, kèm theo sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau bụng, đầy hơi và khó tiêu, kèm theo táo bón. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng, buồn nôn và nôn sau khi uống rượu bia. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị đau bụng, sốt, vàng da và nước tiểu sẫm màu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau bụng, đầy hơi, khó tiêu và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau bụng, buồn nôn, nôn và sốt sau khi giảm cân nhanh chóng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng, vàng da và ngứa da. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

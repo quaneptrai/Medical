@@ -1,0 +1,209 @@
+{
+  "disease_id": "EXP_108",
+  "name_vi": "Dị Vật Trong Mắt",
+  "name_en": "Di Vat Trong Mat",
+  "category": "ophthalmology",
+  "aliases": [
+    "Dị Vật Trong Mắt",
+    "Di Vat Trong Mat"
+  ],
+  "description": "Dị Vật Trong Mắt là một bệnh lý thuộc chuyên khoa ophthalmology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy máu lòng trắng mắt",
+        "name_en": "chay mau long trang mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt liên tục",
+        "name_en": "chay nuoc mat lien tuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt sống",
+        "name_en": "chay nuoc mat song",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có ghèn",
+        "name_en": "co ghen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác có dị vật",
+        "name_en": "cam giac co di vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác có vật lạ cọ xát",
+        "name_en": "cam giac co vat la co xat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác cộm",
+        "name_en": "cam giac com",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cộm mắt",
+        "name_en": "com mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm thị lực",
+        "name_en": "giam thi luc",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó chịu khi chớp mắt",
+        "name_en": "kho chiu khi chop mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi đeo kính áp tròng",
+        "name_en": "kho khan khi deo kinh ap trong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kích ứng mắt",
+        "name_en": "kich ung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt liên tục bị kích thích",
+        "name_en": "mat lien tuc bi kich thich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt đỏ ngầu",
+        "name_en": "mat do ngau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mờ",
+        "name_en": "nhin mo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mờ một phần",
+        "name_en": "nhin mo mot phan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với ánh sáng",
+        "name_en": "nhay cam voi anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng rát",
+        "name_en": "nong rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phải nheo mắt khi nhìn",
+        "name_en": "phai nheo mat khi nhin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng mí mắt",
+        "name_en": "sung mi mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ hãi vì dị vật trong mắt",
+        "name_en": "so hai vi di vat trong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ ánh sáng",
+        "name_en": "so anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi liếc mắt",
+        "name_en": "dau khi liec mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói trong mắt",
+        "name_en": "dau nhoi trong mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng mắt",
+        "name_en": "dau nhuc vung mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu do mỏi mắt",
+        "name_en": "dau dau do moi mat",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Dị Vật Trong Mắt của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Dị Vật Trong Mắt",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhói trong mắt, cảm giác có dị vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nóng rát và kích ứng mắt, chảy nước mắt liên tục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay dụi mắt liên tục, cảm thấy khó chịu khi chớp mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhìn mờ, nhạy cảm với ánh sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cộm mắt, chảy nước mắt và có ghèn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khi liếc mắt, cảm giác có vật lạ cọ xát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như chảy máu lòng trắng mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sợ ánh sáng, phải nheo mắt khi nhìn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng mí mắt, đau nhức vùng mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như giảm thị lực, nhìn mờ một phần. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn khi đeo kính áp tròng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu do mỏi mắt, khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mắt đỏ ngầu, kèm theo cảm giác cộm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, sợ hãi vì dị vật trong mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy nước mắt sống, mắt liên tục bị kích thích. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

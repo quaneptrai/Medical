@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_583",
+  "name_vi": "Đau Tinh Hoàn Bên Trái",
+  "name_en": "Dau Tinh Hoan Ben Trai",
+  "category": "oncology",
+  "aliases": [
+    "Đau Tinh Hoàn Bên Trái",
+    "Dau Tinh Hoan Ben Trai"
+  ],
+  "description": "Đau Tinh Hoàn Bên Trái là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ thể mệt mỏi",
+        "name_en": "co the met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơn đau lan xuống vùng bụng dưới",
+        "name_en": "con dau lan xuong vung bung duoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác nóng rát khi đi tiểu",
+        "name_en": "cam giac nong rat khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy đau",
+        "name_en": "cam thay dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dương vật tiết dịch bất thường",
+        "name_en": "duong vat tiet dich bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dữ dội ở tinh hoàn bên trái",
+        "name_en": "du doi o tinh hoan ben trai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kích ứng bên trong dương vật",
+        "name_en": "kich ung ben trong duong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn trái của mình nằm ở vị trí bất thường",
+        "name_en": "tinh hoan trai cua minh nam o vi tri bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện máu trong nước tiểu",
+        "name_en": "xuat hien mau trong nuoc tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tinh hoàn trái",
+        "name_en": "dau tinh hoan trai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tinh hoàn trái khi đi xe đạp",
+        "name_en": "dau tinh hoan trai khi di xe dap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tinh hoàn trái sau khi quan hệ tình dục",
+        "name_en": "dau tinh hoan trai sau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tinh hoàn trái sau khi tập thể dục mạnh",
+        "name_en": "dau tinh hoan trai sau khi tap the duc manh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau âm ỉ ở tinh hoàn trái",
+        "name_en": "dau am i o tinh hoan trai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đột ngột",
+        "name_en": "dau dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Tinh Hoàn Bên Trái của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Tinh Hoàn Bên Trái",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau đột ngột và dữ dội ở tinh hoàn bên trái, kèm theo sưng và đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau âm ỉ ở tinh hoàn trái, cơn đau lan xuống vùng bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tinh hoàn trái, kèm theo cảm giác nóng rát khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy tinh hoàn trái của mình nằm ở vị trí bất thường và cảm thấy đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt và ớn lạnh, kèm theo đau tinh hoàn trái. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị buồn nôn và nôn, kèm theo đau tinh hoàn trái. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy cơ thể mệt mỏi và đau tinh hoàn trái. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy dương vật tiết dịch bất thường và đau tinh hoàn trái. Tôi có thể đang bị bệnh gì?",
+    "Tần suất đi tiểu của tôi thay đổi và tôi bị đau tinh hoàn trái. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy xuất hiện máu trong nước tiểu và đau tinh hoàn trái. Tôi có thể đang bị bệnh gì?",
+    "Nước tiểu của tôi có màu đục và tôi bị đau tinh hoàn trái. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ngứa và kích ứng bên trong dương vật, kèm theo đau tinh hoàn trái. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau tinh hoàn trái sau khi tập thể dục mạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau tinh hoàn trái sau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau tinh hoàn trái khi đi xe đạp. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

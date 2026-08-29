@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_170",
+  "name_vi": "Mang Thai Ngoài Tử Cung",
+  "name_en": "Mang Thai Ngoai Tu Cung",
+  "category": "obstetrics_gynecology",
+  "aliases": [
+    "Mang Thai Ngoài Tử Cung",
+    "Mang Thai Ngoai Tu Cung"
+  ],
+  "description": "Mang Thai Ngoài Tử Cung là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn sau khi quan hệ",
+        "name_en": "buon non sau khi quan he",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "choáng váng",
+        "name_en": "choang vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo bất thường",
+        "name_en": "chay mau am dao bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo kéo dài",
+        "name_en": "chay mau am dao keo dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo nhiều",
+        "name_en": "chay mau am dao nhieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng tức ngực",
+        "name_en": "cang tuc nguc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn đi tiêu",
+        "name_en": "muon di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mệt mỏi kéo dài",
+        "name_en": "met moi keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngất xỉu",
+        "name_en": "ngat xiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ra máu màu nâu đen",
+        "name_en": "ra mau mau nau den",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ra máu âm đạo bất thường",
+        "name_en": "ra mau am dao bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rong huyết",
+        "name_en": "rong huyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trễ kinh",
+        "name_en": "tre kinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới",
+        "name_en": "dau bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội",
+        "name_en": "dau bung du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng một bên",
+        "name_en": "dau bung mot ben",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng âm ỉ",
+        "name_en": "dau bung am i",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng đột ngột",
+        "name_en": "dau bung dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vai",
+        "name_en": "dau vai",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Mang Thai Ngoài Tử Cung của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mang Thai Ngoài Tử Cung",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như trễ kinh, đau bụng dưới và chảy máu âm đạo bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng một bên, buồn nôn và ra máu màu nâu đen. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau bụng âm ỉ, rong huyết và đau vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như trễ kinh, căng tức ngực và đau bụng dữ dội. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy choáng váng, ngất xỉu và đau bụng đột ngột. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ra máu âm đạo bất thường, đau bụng dưới và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như trễ kinh, đau bụng và chảy máu âm đạo kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng một bên, chóng mặt và muốn đi tiêu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ra máu màu nâu đen, đau bụng âm ỉ và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như trễ kinh, căng tức ngực và đau bụng dữ dội kèm theo choáng váng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng đột ngột, chảy máu âm đạo nhiều và ngất xỉu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ra máu âm đạo bất thường, đau bụng dưới và buồn nôn sau khi quan hệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như trễ kinh, đau bụng và chảy máu âm đạo kéo dài kèm theo đau vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng một bên, chóng mặt và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ra máu màu nâu đen, đau bụng âm ỉ và mệt mỏi kéo dài. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

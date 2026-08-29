@@ -1,0 +1,139 @@
+{
+  "disease_id": "EXP_438",
+  "name_vi": "Viêm Bàng Quang Cấp",
+  "name_en": "Viem Bang Quang Cap",
+  "category": "urology",
+  "aliases": [
+    "Viêm Bàng Quang Cấp",
+    "Viem Bang Quang Cap"
+  ],
+  "description": "Viêm Bàng Quang Cấp là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bị đau",
+        "name_en": "bi dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu khi đi tiểu",
+        "name_en": "kho chiu khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "luôn có cảm giác phải đi tiểu gấp",
+        "name_en": "luon co cam giac phai di tieu gap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng rát khi đi tiểu",
+        "name_en": "nong rat khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nước tiểu đục hay có mùi hôi nồng",
+        "name_en": "nuoc tieu duc hay co mui hoi nong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phì đại tuyến tiền liệt",
+        "name_en": "phi dai tuyen tien liet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tiểu máu",
+        "name_en": "tieu mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tiểu nhiều lần trong ngày hơn so với bình thường",
+        "name_en": "tieu nhieu lan trong ngay hon so voi binh thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "tái phát",
+        "name_en": "tai phat",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "viêm bàng quang sau khi quan hệ tình dục",
+        "name_en": "viem bang quang sau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau trằn bụng dưới",
+        "name_en": "dau tran bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vùng bụng dưới",
+        "name_en": "dau vung bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đái tháo đường",
+        "name_en": "dai thao duong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Bàng Quang Cấp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Bàng Quang Cấp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau và khó chịu khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nóng rát khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau vùng bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiểu nhiều lần trong ngày hơn so với bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiểu máu, nước tiểu đục hay có mùi hôi nồng. Tôi có thể đang bị bệnh gì?",
+    "Tôi luôn có cảm giác phải đi tiểu gấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt nhẹ và đau trằn bụng dưới. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm bàng quang sau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi có tiền sử viêm bàng quang và hiện tại đang bị tái phát. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị đau, khó chịu khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi lạm dụng thuốc tránh thai và bị đau, khó chịu khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi sau khi mãn kinh và bị đau, khó chịu khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đái tháo đường và bị đau, khó chịu khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi thực hiện xạ trị và bị đau, khó chịu khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phì đại tuyến tiền liệt và bị đau, khó chịu khi đi tiểu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

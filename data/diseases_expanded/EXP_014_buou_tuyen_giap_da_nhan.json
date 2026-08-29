@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_014",
+  "name_vi": "Bướu Tuyến Giáp Đa Nhân",
+  "name_en": "Buou Tuyen Giap Da Nhan",
+  "category": "oncology",
+  "aliases": [
+    "Bướu Tuyến Giáp Đa Nhân",
+    "Buou Tuyen Giap Da Nhan"
+  ],
+  "description": "Bướu Tuyến Giáp Đa Nhân là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chậm chạp",
+        "name_en": "cham chap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u chèn ép",
+        "name_en": "co khoi u chen ep",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u ở cổ",
+        "name_en": "co khoi u o co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u ở cổ lớn dần",
+        "name_en": "co khoi u o co lon dan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u ở cổ phát triển nhanh",
+        "name_en": "co khoi u o co phat trien nhanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da khô",
+        "name_en": "da kho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm cân không rõ lý do",
+        "name_en": "giam can khong ro ly do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm cân nhanh",
+        "name_en": "giam can nhanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khàn tiếng",
+        "name_en": "khan tieng",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu nóng bức",
+        "name_en": "kho chiu nong buc",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó chịu ở cổ họng",
+        "name_en": "kho chiu o co hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó ngủ",
+        "name_en": "kho ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khô da",
+        "name_en": "kho da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không chịu được lạnh",
+        "name_en": "khong chiu duoc lanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ngủ",
+        "name_en": "mat ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "run tay",
+        "name_en": "run tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rụng tóc",
+        "name_en": "rung toc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ lý do",
+        "name_en": "sut can khong ro ly do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng cân",
+        "name_en": "tang can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh trống ngực",
+        "name_en": "danh trong nguc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bướu Tuyến Giáp Đa Nhân của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bướu Tuyến Giáp Đa Nhân",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sụt cân, run tay và lo lắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, tăng cân và không chịu được lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đánh trống ngực, khó ngủ và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khô da, táo bón và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở, khàn tiếng và có khối u ở cổ lớn dần. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị run tay, lo lắng và sụt cân không rõ lý do. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mệt mỏi, tăng cân và da khô. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó chịu ở cổ họng, khó nuốt và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đánh trống ngực, mất ngủ và giảm cân nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như táo bón, da khô và rụng tóc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở, khàn tiếng và có khối u ở cổ phát triển nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị run tay, lo lắng và khó chịu nóng bức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mệt mỏi, tăng cân và chậm chạp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó chịu ở cổ họng, khó nuốt và có khối u chèn ép. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đánh trống ngực, mất ngủ và giảm cân không rõ lý do. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

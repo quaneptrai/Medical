@@ -1,0 +1,239 @@
+{
+  "disease_id": "EXP_032",
+  "name_vi": "Bệnh Gout Cấp Tính",
+  "name_en": "Benh Gout Cap Tinh",
+  "category": "general",
+  "aliases": [
+    "Bệnh Gout Cấp Tính",
+    "Benh Gout Cap Tinh"
+  ],
+  "description": "Bệnh Gout Cấp Tính là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chán ăn. Cơn đau khiến tôi khó ngủ",
+        "name_en": "chan an. Con dau khien toi kho ngu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng khớp",
+        "name_en": "cung khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da vùng khớp đỏ",
+        "name_en": "da vung khop do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khả năng vận động. Cơn đau xuất hiện vào ban đêm",
+        "name_en": "giam kha nang van dong. Con dau xuat hien vao ban dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khả năng vận động. Cơn đau ảnh hưởng đến công việc hàng ngày của tôi",
+        "name_en": "giam kha nang van dong. Con dau anh huong den cong viec hang ngay cua toi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp tình trạng đau nhức dữ dội ở khớp ngón chân cái, sưng tấy và nóng đỏ. Tôi khó khăn khi mang giày",
+        "name_en": "gap tinh trang dau nhuc du doi o khop ngon chan cai, sung tay va nong do. Toi kho khan khi mang giay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp tình trạng đau nhức khớp háng, khó khăn khi vận động. Cơn đau tăng lên khi đi lại",
+        "name_en": "gap tinh trang dau nhuc khop hang, kho khan khi van dong. Con dau tang len khi di lai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạn chế vận động",
+        "name_en": "han che van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi di chuyển. Cơn đau khiến tôi thức giấc vào ban đêm",
+        "name_en": "kho khan khi di chuyen. Con dau khien toi thuc giac vao ban dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi di chuyển. Cơn đau tăng lên khi chạm vào",
+        "name_en": "kho khan khi di chuyen. Con dau tang len khi cham vao",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "không thể co duỗi bình thường. Cơn đau xuất hiện đột ngột",
+        "name_en": "khong the co duoi binh thuong. Con dau xuat hien dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khớp gối sưng to",
+        "name_en": "khop goi sung to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "kéo dài",
+        "name_en": "keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mớn mửa",
+        "name_en": "mon mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng",
+        "name_en": "nong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng đỏ",
+        "name_en": "nong do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng đỏ. Cơn đau xuất hiện đột ngột vào ban đêm",
+        "name_en": "nong do. Con dau xuat hien dot ngot vao ban dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng. Tôi khó khăn khi đi lại",
+        "name_en": "nong. Toi kho khan khi di lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng to",
+        "name_en": "sung to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy",
+        "name_en": "sung tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đau khớp cổ tay",
+        "name_en": "sung dau khop co tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt nhẹ",
+        "name_en": "sot nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp ngón chân cái",
+        "name_en": "dau khop ngon chan cai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức",
+        "name_en": "dau nhuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức dữ dội ở khớp ngón chân cái",
+        "name_en": "dau nhuc du doi o khop ngon chan cai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khớp cổ tay",
+        "name_en": "dau nhuc khop co tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khớp gối",
+        "name_en": "dau nhuc khop goi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khớp mắt cá chân",
+        "name_en": "dau nhuc khop mat ca chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khớp vai",
+        "name_en": "dau nhuc khop vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tăng khi cử động. Cơn đau xuất hiện vào ban đêm",
+        "name_en": "dau tang khi cu dong. Con dau xuat hien vao ban dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở khớp khuỷu tay. Cơn đau dữ dội",
+        "name_en": "dau o khop khuyu tay. Con dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở khớp khuỷu tay. Cơn đau khiến tôi khó khăn khi cầm nắm đồ vật",
+        "name_en": "dau o khop khuyu tay. Con dau khien toi kho khan khi cam nam do vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh thức tôi",
+        "name_en": "danh thuc toi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Gout Cấp Tính của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Gout Cấp Tính",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau nhức dữ dội ở khớp ngón chân cái, sưng tấy và nóng đỏ. Cơn đau xuất hiện đột ngột vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp gối, sưng to và nóng, khó khăn khi di chuyển. Cơn đau tăng lên khi chạm vào. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức khớp cổ tay, cứng khớp, giảm khả năng vận động. Cơn đau xuất hiện vào ban đêm và đánh thức tôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như sưng, nóng, đỏ, đau ở khớp khuỷu tay. Cơn đau dữ dội và kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhức khớp mắt cá chân, sưng tấy, da vùng khớp đỏ và nóng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp tình trạng đau nhức khớp háng, khó khăn khi vận động. Cơn đau tăng lên khi đi lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy khớp gối sưng to, nóng đỏ, đau nhức, không thể co duỗi bình thường. Cơn đau xuất hiện đột ngột. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khớp ngón chân cái, kèm theo sốt nhẹ và mớn mửa. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như sưng đau khớp cổ tay, kèm theo mệt mỏi và chán ăn. Cơn đau khiến tôi khó ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhức khớp vai, hạn chế vận động, đau tăng khi cử động. Cơn đau xuất hiện vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp tình trạng đau nhức dữ dội ở khớp ngón chân cái, sưng tấy và nóng đỏ. Tôi khó khăn khi mang giày. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy đau nhức khớp gối, sưng to và nóng, khó khăn khi di chuyển. Cơn đau khiến tôi thức giấc vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức khớp cổ tay, cứng khớp, giảm khả năng vận động. Cơn đau ảnh hưởng đến công việc hàng ngày của tôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang có các triệu chứng như sưng, nóng, đỏ, đau ở khớp khuỷu tay. Cơn đau khiến tôi khó khăn khi cầm nắm đồ vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhức khớp mắt cá chân, sưng tấy, da vùng khớp đỏ và nóng. Tôi khó khăn khi đi lại. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

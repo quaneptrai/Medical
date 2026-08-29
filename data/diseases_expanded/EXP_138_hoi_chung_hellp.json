@@ -1,0 +1,149 @@
+{
+  "disease_id": "EXP_138",
+  "name_vi": "Hội Chứng HELLP",
+  "name_en": "Hoi Chung HELLP",
+  "category": "general",
+  "aliases": [
+    "Hội Chứng HELLP",
+    "Hoi Chung HELLP"
+  ],
+  "description": "Hội Chứng HELLP là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mặt",
+        "name_en": "mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "protein niệu",
+        "name_en": "protein nieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "rối loạn thị giác",
+        "name_en": "roi loan thi giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sưng phù",
+        "name_en": "sung phu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sưng tấy",
+        "name_en": "sung tay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sưng tấy ở tay",
+        "name_en": "sung tay o tay",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng trên bên phải",
+        "name_en": "dau bung tren ben phai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau cơ",
+        "name_en": "dau co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau cơ vai",
+        "name_en": "dau co vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi hít thở sâu",
+        "name_en": "dau khi hit tho sau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vùng bụng trên bên phải",
+        "name_en": "dau vung bung tren ben phai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Hội Chứng HELLP của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hội Chứng HELLP",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang mang thai và cảm thấy mệt mỏi, buồn nôn và đau vùng bụng trên bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị đau đầu, rối loạn thị giác, sưng phù và protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy mệt mỏi, khó chịu, buồn nôn, nôn và đau cơ vai, cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị đau bụng trên bên phải, đau đầu, rối loạn thị giác và sưng phù. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy mệt mỏi, buồn nôn, đau cơ và sưng tấy ở tay và mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị đau khi hít thở sâu, mệt mỏi, buồn nôn và đau bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị sưng phù, protein niệu, đau đầu và rối loạn thị giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy mệt mỏi, buồn nôn, nôn, đau cơ và đau bụng trên bên phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị đau đầu, rối loạn thị giác, sưng phù và đau khi hít thở sâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy mệt mỏi, buồn nôn, đau cơ, sưng tấy và protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị đau bụng trên bên phải, đau đầu, rối loạn thị giác và đau khi hít thở sâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy mệt mỏi, buồn nôn, đau cơ, sưng tấy và protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị đau đầu, rối loạn thị giác, sưng phù, đau khi hít thở sâu và protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy mệt mỏi, buồn nôn, đau cơ, sưng tấy và protein niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị đau bụng trên bên phải, đau đầu, rối loạn thị giác, sưng phù và protein niệu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

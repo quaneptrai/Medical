@@ -1,0 +1,274 @@
+{
+  "disease_id": "EXP_430",
+  "name_vi": "Viêm Amidan",
+  "name_en": "Viem Amidan",
+  "category": "respiratory",
+  "aliases": [
+    "Viêm Amidan",
+    "Viem Amidan"
+  ],
+  "description": "Viêm Amidan là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "amidan sưng đỏ",
+        "name_en": "amidan sung do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "biếng ăn",
+        "name_en": "bieng an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụng khó chịu",
+        "name_en": "bung kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước dãi",
+        "name_en": "chay nuoc dai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có thể sốt khi về chiều",
+        "name_en": "co the sot khi ve chieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác vướng víu nơi cổ họng khi nuốt thức ăn hoặc uống nước",
+        "name_en": "cam giac vuong viu noi co hong khi nuot thuc an hoac uong nuoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cổ cứng",
+        "name_en": "co cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói khó nghe hoặc nghẹt thở",
+        "name_en": "giong noi kho nghe hoac nghet tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói thay đổi do ho nhiều gây đau họng",
+        "name_en": "giong noi thay doi do ho nhieu gay dau hong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan từng cơn",
+        "name_en": "ho khan tung con",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hôi miệng",
+        "name_en": "hoi mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khạc nhổ có đờm",
+        "name_en": "khac nho co dom",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "một số triệu chứng khác như miệng có mùi hôi",
+        "name_en": "mot so trieu chung khac nhu mieng co mui hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "người lớn ngủ ngáy",
+        "name_en": "nguoi lon ngu ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa",
+        "name_en": "non mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước bọt",
+        "name_en": "nuoc bot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rát cổ họng",
+        "name_en": "rat co hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng hạch ở cổ hoặc hàm",
+        "name_en": "sung hach o co hoac ham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sỏi amidan do các mảnh vật chất như tế bào chết",
+        "name_en": "soi amidan do cac manh vat chat nhu te bao chet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt tái lại nhiều lần",
+        "name_en": "sot tai lai nhieu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường có những cơn ho kéo dài",
+        "name_en": "thuong co nhung con ho keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thể trạng kém",
+        "name_en": "the trang kem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thở khò khè",
+        "name_en": "tho kho khe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thức ăn tích tụ trong các kẽ của amidan",
+        "name_en": "thuc an tich tu trong cac ke cua amidan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trẻ em có thể gặp hội chứng ngưng thở khi ngủ",
+        "name_en": "tre em co the gap hoi chung ngung tho khi ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm amidan cấp tính với các triệu chứng kéo dài dưới 10 ngày",
+        "name_en": "viem amidan cap tinh voi cac trieu chung keo dai duoi 10 ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm amidan mãn tính với những biểu hiện giống với viêm cấp tính nhưng có",
+        "name_en": "viem amidan man tinh voi nhung bieu hien giong voi viem cap tinh nhung co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm amidan mãn tính với tình trạng viêm tái phát nhiều lần trong năm",
+        "name_en": "viem amidan man tinh voi tinh trang viem tai phat nhieu lan trong nam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm amidan quá phát với các triệu chứng tương tự như viêm amidan cấp tính nhưng sẽ kéo dài hơn",
+        "name_en": "viem amidan qua phat voi cac trieu chung tuong tu nhu viem amidan cap tinh nhung se keo dai hon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm amidan quá phát với nguồn cơn từ viêm amidan mãn tính",
+        "name_en": "viem amidan qua phat voi nguon con tu viem amidan man tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm amidan quá phát xảy ra khoảng 4 lần mỗi năm",
+        "name_en": "viem amidan qua phat xay ra khoang 4 lan moi nam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện lớp dịch phủ màu trắng hoặc vàng",
+        "name_en": "xuat hien lop dich phu mau trang hoac vang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện vết phồng rộp hoặc vết loét đau rát trên cổ họng",
+        "name_en": "xuat hien vet phong rop hoac vet loet dau rat tren co hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu ớt",
+        "name_en": "yeu ot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn mất ngon",
+        "name_en": "an mat ngon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau cổ họng",
+        "name_en": "dau co hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tai",
+        "name_en": "dau tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Amidan của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Amidan",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau cổ họng, amidan sưng đỏ, xuất hiện lớp dịch phủ màu trắng hoặc vàng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy xuất hiện vết phồng rộp hoặc vết loét đau rát trên cổ họng, đau đầu, ăn mất ngon. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tai, khó nuốt, sưng hạch ở cổ hoặc hàm, sốt và ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như hôi miệng, giọng nói khó nghe hoặc nghẹt thở, cổ cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy bụng khó chịu, nôn mửa, đau bụng, chảy nước dãi, biếng ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm amidan cấp tính với các triệu chứng kéo dài dưới 10 ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm amidan mãn tính với tình trạng viêm tái phát nhiều lần trong năm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm amidan mãn tính với những biểu hiện giống với viêm cấp tính nhưng có kèm theo một số triệu chứng khác như miệng có mùi hôi, sốt tái lại nhiều lần. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị cảm giác vướng víu nơi cổ họng khi nuốt thức ăn hoặc uống nước, thể trạng kém, yếu ớt và có thể sốt khi về chiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ho khan từng cơn, khạc nhổ có đờm và thường có những cơn ho kéo dài, giọng nói thay đổi do ho nhiều gây đau họng, rát cổ họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy thở khò khè, người lớn ngủ ngáy, trẻ em có thể gặp hội chứng ngưng thở khi ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sỏi amidan do các mảnh vật chất như tế bào chết, nước bọt và thức ăn tích tụ trong các kẽ của amidan. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm amidan quá phát với nguồn cơn từ viêm amidan mãn tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm amidan quá phát với các triệu chứng tương tự như viêm amidan cấp tính nhưng sẽ kéo dài hơn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm amidan quá phát xảy ra khoảng 4 lần mỗi năm. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

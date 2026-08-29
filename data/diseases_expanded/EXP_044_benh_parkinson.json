@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_044",
+  "name_vi": "Bệnh Parkinson",
+  "name_en": "Benh Parkinson",
+  "category": "neurology",
+  "aliases": [
+    "Bệnh Parkinson",
+    "Benh Parkinson"
+  ],
+  "description": "Bệnh Parkinson là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "cơ bắp cứng đờ",
+        "name_en": "co bap cung do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ thể cứng đờ",
+        "name_en": "co the cung do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "di chuyển chậm chạp và bước đi ngắn",
+        "name_en": "di chuyen cham chap va buoc di ngan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "di chuyển chậm chạp và dáng đi bất thường",
+        "name_en": "di chuyen cham chap va dang di bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khả năng ngôn ngữ",
+        "name_en": "giam kha nang ngon ngu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp khó khăn trong việc nói chuyện",
+        "name_en": "gap kho khan trong viec noi chuyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp vấn đề về đường ruột",
+        "name_en": "gap van de ve duong ruot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó di chuyển linh hoạt",
+        "name_en": "kho di chuyen linh hoat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi biểu lộ cảm xúc",
+        "name_en": "kho khan khi bieu lo cam xuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi cử động",
+        "name_en": "kho khan khi cu dong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó khăn trong việc thực hiện các hoạt động chính xác",
+        "name_en": "kho khan trong viec thuc hien cac hoat dong chinh xac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn trong việc vận động",
+        "name_en": "kho khan trong viec van dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lưỡi",
+        "name_en": "luoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất thăng bằng",
+        "name_en": "mat thang bang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngã",
+        "name_en": "nga",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "run môi",
+        "name_en": "run moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "run tay chân khi nghỉ ngơi",
+        "name_en": "run tay chan khi nghi ngoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "run tay chân khi xúc động",
+        "name_en": "run tay chan khi xuc dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "run ở mặt",
+        "name_en": "run o mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn giấc ngủ",
+        "name_en": "roi loan giac ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sa sút trí tuệ",
+        "name_en": "sa sut tri tue",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi tính cách",
+        "name_en": "thay doi tinh cach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thói quen sinh hoạt",
+        "name_en": "thoi quen sinh hoat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên mất ngủ",
+        "name_en": "thuong xuyen mat ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Parkinson của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Parkinson",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay bị run tay chân khi nghỉ ngơi và khó khăn trong việc vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy cơ thể cứng đờ và khó di chuyển linh hoạt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị run môi, lưỡi và gặp khó khăn trong việc nói chuyện. Tôi có thể đang bị bệnh gì?",
+    "Tôi di chuyển chậm chạp và dáng đi bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó giữ thăng bằng và dễ bị ngã. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sa sút trí tuệ và giảm khả năng ngôn ngữ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị rối loạn giấc ngủ và thường xuyên mất ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị táo bón và gặp vấn đề về đường ruột. Tôi có thể đang bị bệnh gì?",
+    "Tôi giảm khả năng phân biệt mùi và cảm thấy mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thay đổi tính cách và thói quen sinh hoạt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị run tay chân khi xúc động và khó khăn trong việc thực hiện các hoạt động chính xác. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy cơ bắp cứng đờ và khó khăn khi cử động. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị run ở mặt và khó khăn khi biểu lộ cảm xúc. Tôi có thể đang bị bệnh gì?",
+    "Tôi di chuyển chậm chạp và bước đi ngắn. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó khăn khi đứng dậy từ ghế và dễ bị mất thăng bằng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

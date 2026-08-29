@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_296",
+  "name_vi": "Sán Lá Phổi",
+  "name_en": "San La Phoi",
+  "category": "respiratory",
+  "aliases": [
+    "Sán Lá Phổi",
+    "San La Phoi"
+  ],
+  "description": "Sán Lá Phổi là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da bụng",
+        "name_en": "da bung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da chân xuất hiện vết sưng",
+        "name_en": "da chan xuat hien vet sung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay ho khan và ho có đờm màu gỉ sắt",
+        "name_en": "hay ho khan va ho co dom mau gi sat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay ho ra máu và ho có đờm lẫn máu",
+        "name_en": "hay ho ra mau va ho co dom lan mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho nhiều",
+        "name_en": "ho nhieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho ra máu",
+        "name_en": "ho ra mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không có triệu chứng ở giai đoạn mới mắc bệnh",
+        "name_en": "khong co trieu chung o giai doan moi mac benh",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn đôi",
+        "name_en": "nhin doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa",
+        "name_en": "non mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban",
+        "name_en": "phat ban",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy ra máu",
+        "name_en": "tieu chay ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng sau khi ăn tôm cua",
+        "name_en": "dau bung sau khi an tom cua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Sán Lá Phổi của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Sán Lá Phổi",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như tiêu chảy và đau bụng sau khi ăn tôm cua. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sốt, đau ngực và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay ho khan và ho có đờm màu gỉ sắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ho nhiều và ho ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy buồn nôn, nôn và đau bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiêu chảy và ngứa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như phát ban. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ho và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay ho ra máu và ho có đờm lẫn máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tiêu chảy ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da bụng và da chân xuất hiện vết sưng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị co giật và nhìn đôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nôn mửa và đau đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy không có triệu chứng ở giai đoạn mới mắc bệnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

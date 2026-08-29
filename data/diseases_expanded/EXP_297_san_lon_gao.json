@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_297",
+  "name_vi": "Sán Lợn Gạo",
+  "name_en": "San Lon Gao",
+  "category": "general",
+  "aliases": [
+    "Sán Lợn Gạo",
+    "San Lon Gao"
+  ],
+  "description": "Sán Lợn Gạo là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay buồn nôn và nhức đầu",
+        "name_en": "hay buon non va nhuc dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay cần xét nghiệm phân tìm trứng",
+        "name_en": "hay can xet nghiem phan tim trung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chẩn đoán bệnh",
+        "name_en": "kho chan doan benh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ký sinh trùng",
+        "name_en": "ky sinh trung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "màng não",
+        "name_en": "mang nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm vi khuẩn",
+        "name_en": "nhiem vi khuan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "như bị lao màng não",
+        "name_en": "nhu bi lao mang nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhầm lẫn với bệnh viêm não",
+        "name_en": "nham lan voi benh viem nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhầm lẫn với u tế bào hình sao ở hệ thần kinh trung ương",
+        "name_en": "nham lan voi u te bao hinh sao o he than kinh trung uong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nấm",
+        "name_en": "nam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn tim mạch",
+        "name_en": "roi loan tim mach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sán di chuyển từ ruột non qua ruột già",
+        "name_en": "san di chuyen tu ruot non qua ruot gia",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy từng đợt",
+        "name_en": "tieu chay tung dot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng áp lực nội sọ",
+        "name_en": "tang ap luc noi so",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "u nguyên bào tủy",
+        "name_en": "u nguyen bao tuy",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "u sọ hầu",
+        "name_en": "u so hau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "virus",
+        "name_en": "virus",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng nhẹ",
+        "name_en": "dau bung nhe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lan xuống ruột thừa",
+        "name_en": "dau lan xuong ruot thua",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Sán Lợn Gạo của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Sán Lợn Gạo",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau bụng và tiêu chảy từng đợt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau lan xuống ruột thừa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay buồn nôn và nhức đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sụt cân và co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy rối loạn tim mạch và tăng áp lực nội sọ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nhầm lẫn với bệnh viêm não, màng não. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như u sọ hầu và u nguyên bào tủy. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy như bị lao màng não. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nhầm lẫn với u tế bào hình sao ở hệ thần kinh trung ương. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhiễm vi khuẩn, virus, ký sinh trùng, nấm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau bụng nhẹ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiêu chảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sán di chuyển từ ruột non qua ruột già. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó chẩn đoán bệnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cần xét nghiệm phân tìm trứng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "disease_id": "EXP_600",
+  "name_vi": "Đột Quỵ",
+  "name_en": "Dot Quy",
+  "category": "cardiology",
+  "aliases": [
+    "Đột Quỵ",
+    "Dot Quy"
+  ],
+  "description": "Đột Quỵ là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "choáng váng",
+        "name_en": "choang vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cười khó khăn",
+        "name_en": "cuoi kho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác mất kiểm soát cơ thể",
+        "name_en": "cam giac mat kiem soat co the",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoa mắt",
+        "name_en": "hoa mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi di chuyển",
+        "name_en": "kho khan khi di chuyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi đứng vững",
+        "name_en": "kho khan khi dung vung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn trong việc cử động",
+        "name_en": "kho khan trong viec cu dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn trong việc diễn đạt lời nói",
+        "name_en": "kho khan trong viec dien dat loi noi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không thể kiểm soát cơ thể",
+        "name_en": "khong the kiem soat co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lú lẫn",
+        "name_en": "lu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "méo miệng",
+        "name_en": "meo mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất phương hướng",
+        "name_en": "mat phuong huong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất thăng bằng",
+        "name_en": "mat thang bang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ý thức tạm thời",
+        "name_en": "mat y thuc tam thoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mặt bị méo",
+        "name_en": "mat bi meo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mờ mắt",
+        "name_en": "mo mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn một thành hai",
+        "name_en": "nhin mot thanh hai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nói khó",
+        "name_en": "noi kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nói lắp",
+        "name_en": "noi lap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn ói",
+        "name_en": "non oi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn ói liên tục",
+        "name_en": "non oi lien tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thị lực giảm sút",
+        "name_en": "thi luc giam sut",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì tay chân",
+        "name_en": "te bi tay chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê cứng môi lưỡi",
+        "name_en": "te cung moi luoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê liệt một bên cơ thể",
+        "name_en": "te liet mot ben co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê một bên tay",
+        "name_en": "te mot ben tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu liệt một bên chân",
+        "name_en": "yeu liet mot ben chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu dữ dội",
+        "name_en": "dau dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi lại loạng choạng",
+        "name_en": "di lai loang choang",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đột Quỵ của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đột Quỵ",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như mặt bị méo, cười khó khăn và tê một bên tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chóng mặt, mất thăng bằng và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu dữ dội và thị lực giảm sút. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nói lắp, khó khăn trong việc diễn đạt lời nói. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy yếu liệt một bên chân, khó khăn khi di chuyển. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tê cứng môi lưỡi và cảm giác mất kiểm soát cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như hoa mắt, chóng mặt và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lú lẫn, khó tập trung và mất phương hướng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu dữ dội kèm theo nôn ói. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như méo miệng, nói khó và tê bì tay chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mất thăng bằng, đi lại loạng choạng và khó khăn khi đứng vững. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, mờ mắt và nhìn một thành hai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tê liệt một bên cơ thể và khó khăn trong việc cử động. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy choáng váng, mất ý thức tạm thời và không thể kiểm soát cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu dữ dội, buồn nôn và nôn ói liên tục. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

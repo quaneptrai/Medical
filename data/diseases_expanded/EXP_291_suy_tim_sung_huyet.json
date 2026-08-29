@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_291",
+  "name_vi": "Suy Tim Sung Huyết",
+  "name_en": "Suy Tim Sung Huyet",
+  "category": "cardiology",
+  "aliases": [
+    "Suy Tim Sung Huyết",
+    "Suy Tim Sung Huyet"
+  ],
+  "description": "Suy Tim Sung Huyết là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bàn chân",
+        "name_en": "ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh mạch vành",
+        "name_en": "benh mach vanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh tuyến giáp",
+        "name_en": "benh tuyen giap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh van tim",
+        "name_en": "benh van tim",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh đái tháo đường",
+        "name_en": "benh dai thao duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cẳng chân",
+        "name_en": "cang chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da có màu xanh tím",
+        "name_en": "da co mau xanh tim",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi nằm xuống",
+        "name_en": "kho tho khi nam xuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ngất xỉu",
+        "name_en": "ngat xiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhịp tim nhanh hoặc không đều",
+        "name_en": "nhip tim nhanh hoac khong deu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng phù ở mắt cá chân",
+        "name_en": "sung phu o mat ca chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thở khò khè",
+        "name_en": "tho kho khe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thức giấc vào ban đêm",
+        "name_en": "thuc giac vao ban dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng cân",
+        "name_en": "tang can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng huyết áp",
+        "name_en": "tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng nhu cầu đi tiểu",
+        "name_en": "tang nhu cau di tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt vào ban đêm",
+        "name_en": "dac biet vao ban dem",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Suy Tim Sung Huyết của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Suy Tim Sung Huyết",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như mệt mỏi và sưng phù ở mắt cá chân, bàn chân và cẳng chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở khi nằm xuống. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thức giấc vào ban đêm và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhịp tim nhanh hoặc không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tăng cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thở khò khè. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như da có màu xanh tím. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tăng nhu cầu đi tiểu, đặc biệt vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ngất xỉu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tăng huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị bệnh mạch vành. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như bệnh van tim. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy bệnh đái tháo đường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị bệnh tuyến giáp. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

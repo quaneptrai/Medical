@@ -1,0 +1,279 @@
+{
+  "disease_id": "EXP_450",
+  "name_vi": "Viêm Da Cơ Địa",
+  "name_en": "Viem Da Co Dia",
+  "category": "dermatology",
+  "aliases": [
+    "Viêm Da Cơ Địa",
+    "Viem Da Co Dia"
+  ],
+  "description": "Viêm Da Cơ Địa là một bệnh lý thuộc chuyên khoa dermatology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bong vảy",
+        "name_en": "bong vay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bẹn",
+        "name_en": "ben",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bội nhiễm",
+        "name_en": "boi nhiem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy dịch",
+        "name_en": "chay dich",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da bị tổn thương",
+        "name_en": "da bi ton thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da khô",
+        "name_en": "da kho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da khô ráp",
+        "name_en": "da kho rap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da khô sần sùi kéo dài dai dẳng",
+        "name_en": "da kho san sui keo dai dai dang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da viêm đỏ",
+        "name_en": "da viem do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da viêm đỏ rỉ dịch",
+        "name_en": "da viem do ri dich",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "dày sừng",
+        "name_en": "day sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "giảm chất lượng cuộc sống",
+        "name_en": "giam chat luong cuoc song",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "giảm tự tin khi giao tiếp",
+        "name_en": "giam tu tin khi giao tiep",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "gây trầm cảm",
+        "name_en": "gay tram cam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khuỷu tay",
+        "name_en": "khuyu tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "loét",
+        "name_en": "loet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ngủ",
+        "name_en": "mat ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn mủ",
+        "name_en": "mun mu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn nước vỡ chảy dịch gây phù nề",
+        "name_en": "mun nuoc vo chay dich gay phu ne",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa râm ran hay ngứa dữ dội",
+        "name_en": "ngua ram ran hay ngua du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng rát",
+        "name_en": "nong rat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nông",
+        "name_en": "nong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nứt nẻ",
+        "name_en": "nut ne",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "quanh miệng",
+        "name_en": "quanh mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng nóng",
+        "name_en": "sung nong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đau",
+        "name_en": "sung dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sẩn ngứa",
+        "name_en": "san ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thân mình",
+        "name_en": "than minh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trán",
+        "name_en": "tran",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trên bề mặt da có mụn nước nhỏ",
+        "name_en": "tren be mat da co mun nuoc nho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trên đầu gối",
+        "name_en": "tren dau goi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tróc vảy",
+        "name_en": "troc vay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tróc vảy ở 2 bên má",
+        "name_en": "troc vay o 2 ben ma",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tổn thương da dai dẳng gây ảnh hưởng đến thẩm mỹ",
+        "name_en": "ton thuong da dai dang gay anh huong den tham my",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tổn thương da thường xuất hiện ở các vùng sau đầu gối",
+        "name_en": "ton thuong da thuong xuat hien o cac vung sau dau goi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vùng da tổn thương thấy ngứa",
+        "name_en": "vung da ton thuong thay ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vảy tiết",
+        "name_en": "vay tiet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện ban đỏ",
+        "name_en": "xuat hien ban do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện các mảng da viêm đỏ",
+        "name_en": "xuat hien cac mang da viem do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện các mảng lichen hóa dạng đĩa",
+        "name_en": "xuat hien cac mang lichen hoa dang dia",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện nhiều ban đỏ",
+        "name_en": "xuat hien nhieu ban do",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Da Cơ Địa của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Da Cơ Địa",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như ngứa râm ran hay ngứa dữ dội. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da viêm đỏ, tróc vảy, chảy dịch, dày sừng, nứt nẻ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị xuất hiện ban đỏ, tróc vảy ở 2 bên má, quanh miệng, trán, thân mình, cổ và bẹn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như xuất hiện các mảng da viêm đỏ, bong vảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da viêm đỏ rỉ dịch và ngứa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tổn thương da dai dẳng gây ảnh hưởng đến thẩm mỹ, giảm tự tin khi giao tiếp, gây trầm cảm, mất ngủ và giảm chất lượng cuộc sống. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như da khô ráp, nứt nẻ, ngứa ngáy. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tổn thương da thường xuất hiện ở các vùng sau đầu gối, trên đầu gối, khuỷu tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị xuất hiện các mảng lichen hóa dạng đĩa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sẩn ngứa, da khô. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da khô sần sùi kéo dài dai dẳng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị xuất hiện nhiều ban đỏ, trên bề mặt da có mụn nước nhỏ, nông. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mụn nước vỡ chảy dịch gây phù nề, vảy tiết. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy vùng da tổn thương thấy ngứa, nóng rát và sưng đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị da bị tổn thương, bội nhiễm, loét, mụn mủ, sưng nóng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "disease_id": "EXP_083",
+  "name_vi": "Bệnh Đậu Mùa Khỉ",
+  "name_en": "Benh Dau Mua Khi",
+  "category": "oncology",
+  "aliases": [
+    "Bệnh Đậu Mùa Khỉ",
+    "Benh Dau Mua Khi"
+  ],
+  "description": "Bệnh Đậu Mùa Khỉ là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bàn chân",
+        "name_en": "ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ quan sinh dục",
+        "name_en": "co quan sinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lòng bàn tay",
+        "name_en": "long ban tay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nổi hạch",
+        "name_en": "noi hach",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nổi hạch ở cổ",
+        "name_en": "noi hach o co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phát ban trên mặt",
+        "name_en": "phat ban tren mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phát ban ở cơ quan sinh dục",
+        "name_en": "phat ban o co quan sinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phát ban ở lòng bàn tay",
+        "name_en": "phat ban o long ban tay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phát ban ở miệng",
+        "name_en": "phat ban o mieng",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "phát ban ở mắt",
+        "name_en": "phat ban o mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau mỏi cơ",
+        "name_en": "dau moi co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu dữ dội",
+        "name_en": "dau dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Đậu Mùa Khỉ của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Đậu Mùa Khỉ",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đang cảm thấy sốt, đau đầu dữ dội và nổi hạch. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phát ban trên mặt, lòng bàn tay và bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như ớn lạnh, mệt mỏi và đau mỏi cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy sốt và nổi hạch ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị phát ban ở miệng và cơ quan sinh dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau lưng và phát ban trên mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sốt, đau đầu và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ớn lạnh và phát ban ở lòng bàn tay, bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị nổi hạch và phát ban ở mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau mỏi cơ và phát ban trên mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sốt, đau đầu và phát ban ở miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ớn lạnh, mệt mỏi và phát ban ở cơ quan sinh dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị đau lưng, nổi hạch và phát ban trên mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau mỏi cơ và phát ban ở lòng bàn tay, bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sốt, đau đầu và phát ban ở mắt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

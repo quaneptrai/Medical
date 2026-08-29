@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_022",
+  "name_vi": "Bệnh Cơ Tim Giãn Nở",
+  "name_en": "Benh Co Tim Gian No",
+  "category": "cardiology",
+  "aliases": [
+    "Bệnh Cơ Tim Giãn Nở",
+    "Benh Co Tim Gian No"
+  ],
+  "description": "Bệnh Cơ Tim Giãn Nở là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "cao huyết áp",
+        "name_en": "cao huyet ap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng tăng cân, tăng vòng bụng và cao huyết áp",
+        "name_en": "hien dang co trieu chung tang can, tang vong bung va cao huyet ap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hồi hộp",
+        "name_en": "hoi hop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hụt hơi khi gắng sức",
+        "name_en": "hut hoi khi gang suc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi leo cầu thang",
+        "name_en": "kho tho khi leo cau thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi nằm",
+        "name_en": "kho tho khi nam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không thể tập thể dục như bình thường",
+        "name_en": "khong the tap the duc nhu binh thuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngất xỉu",
+        "name_en": "ngat xiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhịp tim không đều",
+        "name_en": "nhip tim khong deu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhịp tim nhanh",
+        "name_en": "nhip tim nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng phù bàn chân",
+        "name_en": "sung phu ban chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng phù chân",
+        "name_en": "sung phu chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thở khò khè",
+        "name_en": "tho kho khe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng cân",
+        "name_en": "tang can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tĩnh mạch cổ nổi",
+        "name_en": "tinh mach co noi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tĩnh mạch cổ nổi lên",
+        "name_en": "tinh mach co noi len",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức ngực",
+        "name_en": "dau tuc nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh trống ngực",
+        "name_en": "danh trong nguc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Cơ Tim Giãn Nở của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Cơ Tim Giãn Nở",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như khó thở, hụt hơi khi gắng sức và sưng phù bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, không thể tập thể dục như bình thường và nhịp tim không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt, ngất xỉu và đau tức ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi tạo thấy tĩnh mạch cổ nổi lên và thở khò khè. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng tăng cân, tăng vòng bụng và cao huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy hồi hộp, đánh trống ngực và khó thở khi nằm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng phù chân, mệt mỏi và nhịp tim nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi tạo thấy khó thở khi leo cầu thang và đau tức ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị sưng phù bàn chân, khó thở và ho khan. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, chóng mặt và nhịp tim không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tức ngực, khó thở và hồi hộp. Tôi có thể đang bị bệnh gì?",
+    "Tôi tạo thấy tĩnh mạch cổ nổi, khó thở và ho khan. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang bị tăng cân, sưng phù chân và cao huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, khó thở và không thể tập thể dục như bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tức ngực, chóng mặt và ngất xỉu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

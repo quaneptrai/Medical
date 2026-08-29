@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_265",
+  "name_vi": "Rối Loạn Sàn Chậu",
+  "name_en": "Roi Loan San Chau",
+  "category": "general",
+  "aliases": [
+    "Rối Loạn Sàn Chậu",
+    "Roi Loan San Chau"
+  ],
+  "description": "Rối Loạn Sàn Chậu là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "giao hợp giảm cảm giác",
+        "name_en": "giao hop giam cam giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giãn rộng âm đạo sau sinh",
+        "name_en": "gian rong am dao sau sinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp tình trạng đại tiện nhiều lần và không hết",
+        "name_en": "gap tinh trang dai tien nhieu lan va khong het",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về sự phục hồi của sàn chậu sau sinh",
+        "name_en": "lo lang ve su phuc hoi cua san chau sau sinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mang song thai và tăng cân nhanh",
+        "name_en": "mang song thai va tang can nhanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mang thai con thứ 3 và lo lắng về sức khỏe sàn chậu",
+        "name_en": "mang thai con thu 3 va lo lang ve suc khoe san chau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "muốn biết cách tăng cường sức cơ sàn chậu",
+        "name_en": "muon biet cach tang cuong suc co san chau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sa tử cung khi mang thai",
+        "name_en": "sa tu cung khi mang thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "són hơi",
+        "name_en": "son hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "són phân",
+        "name_en": "son phan",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "són tiểu sau khi sinh con",
+        "name_en": "son tieu sau khi sinh con",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu không hết",
+        "name_en": "tieu khong het",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu lắt nhắt",
+        "name_en": "tieu lat nhat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu nhiều lần",
+        "name_en": "tieu nhieu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón hoặc đau bụng",
+        "name_en": "tao bon hoac dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi giao hợp và không giao hợp được",
+        "name_en": "dau khi giao hop va khong giao hop duoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng khi mang thai",
+        "name_en": "dau lung khi mang thai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau thốn hậu môn khi mắc đại tiện",
+        "name_en": "dau thon hau mon khi mac dai tien",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đã từng sinh con to và rách tầng sinh môn nhiều",
+        "name_en": "da tung sinh con to va rach tang sinh mon nhieu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rối Loạn Sàn Chậu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Sàn Chậu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như són tiểu sau khi sinh con. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tiểu nhiều lần và tiểu không hết. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị són hơi và són phân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp tình trạng đại tiện nhiều lần và không hết. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị táo bón hoặc đau bụng, đau thốn hậu môn khi mắc đại tiện. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giãn rộng âm đạo sau sinh và giao hợp giảm cảm giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi đau khi giao hợp và không giao hợp được. Tôi có thể đang bị bệnh gì?",
+    "Tôi đã từng sinh con to và rách tầng sinh môn nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai con thứ 3 và lo lắng về sức khỏe sàn chậu. Tôi có thể đang bị bệnh gì?",
+    "Tôi mang song thai và tăng cân nhanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sa tử cung khi mang thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiểu lắt nhắt và đau lưng khi mang thai. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn đi khám sàn chậu nhưng không biết cần chuẩn bị gì. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng về sự phục hồi của sàn chậu sau sinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn biết cách tăng cường sức cơ sàn chậu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

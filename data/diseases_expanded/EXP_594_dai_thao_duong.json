@@ -1,0 +1,219 @@
+{
+  "disease_id": "EXP_594",
+  "name_vi": "Đái Tháo Đường",
+  "name_en": "Dai Thao Duong",
+  "category": "general",
+  "aliases": [
+    "Đái Tháo Đường",
+    "Dai Thao Duong"
+  ],
+  "description": "Đái Tháo Đường là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "choáng váng khi đứng lên ngồi xuống",
+        "name_en": "choang vang khi dung len ngoi xuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có vết loét ở chân mãi không lành",
+        "name_en": "co vet loet o chan mai khong lanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có vết thương nhỏ nhưng rất lâu lành, kèm theo cảm giác tê bì ở chân",
+        "name_en": "co vet thuong nho nhung rat lau lanh, kem theo cam giac te bi o chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác như kiến bò trên da",
+        "name_en": "cam giac nhu kien bo tren da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy đói",
+        "name_en": "cam thay doi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dù ăn uống đầy đủ",
+        "name_en": "du an uong day du",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giữa các ngón chân",
+        "name_en": "giua cac ngon chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay bị nhiễm trùng",
+        "name_en": "hay bi nhiem trung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hơn hẳn so với trước đây",
+        "name_en": "hon han so voi truoc day",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khát nước nhiều hơn bình thường",
+        "name_en": "khat nuoc nhieu hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khô miệng",
+        "name_en": "kho mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi hơn bình thường",
+        "name_en": "met moi hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mờ mắt",
+        "name_en": "mo mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa da",
+        "name_en": "ngua da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa da toàn thân",
+        "name_en": "ngua da toan than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng nấm men ở vùng kín",
+        "name_en": "nhiem trung nam men o vung kin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng đường tiết niệu tái đi tái lại",
+        "name_en": "nhiem trung duong tiet nieu tai di tai lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mờ",
+        "name_en": "nhin mo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn đỏ",
+        "name_en": "noi man do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rất khát nước",
+        "name_en": "rat khat nuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân đột ngột",
+        "name_en": "sut can dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên buồn nôn",
+        "name_en": "thuong xuyen buon non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thị lực giảm sút",
+        "name_en": "thi luc giam sut",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì chân tay",
+        "name_en": "te bi chan tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu cũng nhiều hơn",
+        "name_en": "di tieu cung nhieu hon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đi tiểu nhiều lần trong ngày",
+        "name_en": "di tieu nhieu lan trong ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là vào ban đêm",
+        "name_en": "dac biet la vao ban dem",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đái Tháo Đường của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đái Tháo Đường",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như cảm thấy đói và mệt mỏi hơn bình thường, dù ăn uống đầy đủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy rất khát nước và đi tiểu nhiều lần trong ngày, hơn hẳn so với trước đây. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khô miệng và ngứa da, đặc biệt là vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi ăn uống bình thường nhưng lại bị sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm trùng nấm men ở vùng kín và giữa các ngón chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi có vết thương nhỏ nhưng rất lâu lành, kèm theo cảm giác tê bì ở chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và cảm thấy khát nước nhiều hơn bình thường, đi tiểu cũng nhiều hơn. Tôi có thể đang bị bệnh gì?",
+    "Gần đây tôi thường xuyên cảm thấy mệt mỏi, nhìn mờ và hay bị nhiễm trùng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tê bì chân tay và cảm giác như kiến bò trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sụt cân đột ngột, thường xuyên buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt, choáng váng khi đứng lên ngồi xuống. Tôi có thể đang bị bệnh gì?",
+    "Tôi có vết loét ở chân mãi không lành. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mờ mắt và thị lực giảm sút. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhiễm trùng đường tiết niệu tái đi tái lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ngứa da toàn thân và nổi mẩn đỏ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

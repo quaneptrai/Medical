@@ -1,0 +1,189 @@
+{
+  "disease_id": "EXP_090",
+  "name_vi": "Chuyển Phôi Thất Bại",
+  "name_en": "Chuyen Phoi That Bai",
+  "category": "general",
+  "aliases": [
+    "Chuyển Phôi Thất Bại",
+    "Chuyen Phoi That Bai"
+  ],
+  "description": "Chuyển Phôi Thất Bại là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn sau khi chuyển phôi",
+        "name_en": "buon non sau khi chuyen phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng sau chuyển phôi",
+        "name_en": "cang thang sau chuyen phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cương ngực sau khi chuyển phôi",
+        "name_en": "cuong nguc sau khi chuyen phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ cáu gắt sau chuyển phôi",
+        "name_en": "de cau gat sau chuyen phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay chóng mặt và choáng váng sau chuyển phôi",
+        "name_en": "hay chong mat va choang vang sau chuyen phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay mệt mỏi và chán ăn sau chuyển phôi",
+        "name_en": "hay met moi va chan an sau chuyen phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu sau khi chuyển phôi",
+        "name_en": "kho chiu sau khi chuyen phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó ngủ sau chuyển phôi",
+        "name_en": "kho ngu sau chuyen phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tiêu sau chuyển phôi",
+        "name_en": "kho tieu sau chuyen phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "liệu đây có phải dấu hiệu thất bại",
+        "name_en": "lieu day co phai dau hieu that bai",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất ngủ",
+        "name_en": "mat ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngực căng tức",
+        "name_en": "nguc cang tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ra máu sau chuyển phôi",
+        "name_en": "ra mau sau chuyen phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ra máu âm đạo bất thường sau chuyển phôi",
+        "name_en": "ra mau am dao bat thuong sau chuyen phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi khẩu vị",
+        "name_en": "thay doi khau vi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi tâm trạng",
+        "name_en": "thay doi tam trang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thèm ăn lạ sau chuyển phôi",
+        "name_en": "them an la sau chuyen phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng",
+        "name_en": "dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới sau chuyển phôi",
+        "name_en": "dau bung duoi sau chuyen phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội",
+        "name_en": "dau bung du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng từng cơn",
+        "name_en": "dau bung tung con",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy hơi",
+        "name_en": "day hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ốm nghén",
+        "name_en": "om nghen",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Chuyển Phôi Thất Bại của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Chuyển Phôi Thất Bại",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau bụng và buồn nôn sau khi chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cương ngực sau khi chuyển phôi, liệu đây có phải dấu hiệu thất bại? Tôi có thể đang bị bệnh gì?",
+    "Tôi hay buồn nôn và mệt mỏi sau chuyển phôi, giống như ốm nghén. Tôi có thể đang bị bệnh gì?",
+    "Sau chuyển phôi, tôi bị đau bụng dữ dội. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ngực căng tức và khó chịu sau khi chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay mệt mỏi và chán ăn sau chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau bụng từng cơn và ra máu sau chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đầy hơi và khó tiêu sau chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau lưng và đau bụng dưới sau chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay chóng mặt và choáng váng sau chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thay đổi tâm trạng và dễ cáu gắt sau chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy lo lắng và căng thẳng sau chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mất ngủ và khó ngủ sau chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thay đổi khẩu vị và thèm ăn lạ sau chuyển phôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ra máu âm đạo bất thường sau chuyển phôi. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

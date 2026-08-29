@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_461",
+  "name_vi": "Viêm Gan Tự Miễn",
+  "name_en": "Viem Gan Tu Mien",
+  "category": "digestive",
+  "aliases": [
+    "Viêm Gan Tự Miễn",
+    "Viem Gan Tu Mien"
+  ],
+  "description": "Viêm Gan Tự Miễn là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Epstein-Barr",
+        "name_en": "Epstein-Barr",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh viêm loét đại tràng hay hội chứng Hội chứng Sjögren",
+        "name_en": "benh viem loet dai trang hay hoi chung Hoi chung Sjogren",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh viêm ruột",
+        "name_en": "benh viem ruot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cytomegalovirus",
+        "name_en": "cytomegalovirus",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dùng minocycline hoặc nitrofurantoin",
+        "name_en": "dung minocycline hoac nitrofurantoin",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gan bị viêm",
+        "name_en": "gan bi viem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "herpes simplex",
+        "name_en": "herpes simplex",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hydralazine hay thuống kháng sinh nitrofurantoin",
+        "name_en": "hydralazine hay thuong khang sinh nitrofurantoin",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hệ thống miễn dịch của cơ thể tấn công các tế bào gan",
+        "name_en": "he thong mien dich cua co the tan cong cac te bao gan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "liên quan tới viêm gan A",
+        "name_en": "lien quan toi viem gan A",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "minocycline",
+        "name_en": "minocycline",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắc các bệnh tự miễn như bệnh Grave",
+        "name_en": "mac cac benh tu mien nhu benh Grave",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi uể oải",
+        "name_en": "met moi ue oai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm các loại virus như sởi",
+        "name_en": "nhiem cac loai virus nhu soi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn tự miễn dịch",
+        "name_en": "roi loan tu mien dich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sử dụng các loại thuốc như statin",
+        "name_en": "su dung cac loai thuoc nhu statin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh thần căng thẳng",
+        "name_en": "tinh than cang thang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tổn thương",
+        "name_en": "ton thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tổn thương gan biến mất khi ngưng dùng thuốc",
+        "name_en": "ton thuong gan bien mat khi ngung dung thuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tổn thương gan do sử dụng một số loại thuốc",
+        "name_en": "ton thuong gan do su dung mot so loai thuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "virus herpes simplex",
+        "name_en": "virus herpes simplex",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan do vi rút",
+        "name_en": "viem gan do vi rut",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan mạn tính",
+        "name_en": "viem gan man tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan tự miễn loại 1",
+        "name_en": "viem gan tu mien loai 1",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan tự miễn loại 2",
+        "name_en": "viem gan tu mien loai 2",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tuyến giáp",
+        "name_en": "viem tuyen giap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ cứng bì",
+        "name_en": "xo cung bi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đái tháo đường tuýp 1",
+        "name_en": "dai thao duong tuyp 1",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Gan Tự Miễn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Gan Tự Miễn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như hệ thống miễn dịch của cơ thể tấn công các tế bào gan. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy gan bị viêm và tổn thương. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm gan mạn tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như rối loạn tự miễn dịch. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm gan tự miễn loại 1. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm gan tự miễn loại 2. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhiễm các loại virus như sởi, herpes simplex, Epstein-Barr. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy liên quan tới viêm gan A, B, C. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm gan do vi rút, virus herpes simplex và cytomegalovirus. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như tổn thương gan do sử dụng một số loại thuốc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tổn thương gan biến mất khi ngưng dùng thuốc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị dùng minocycline hoặc nitrofurantoin. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mắc các bệnh tự miễn như bệnh Grave, bệnh viêm ruột, xơ cứng bì, viêm tuyến giáp, đái tháo đường tuýp 1, bệnh viêm loét đại tràng hay hội chứng Hội chứng Sjögren. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tinh thần căng thẳng, sử dụng các loại thuốc như statin và hydralazine hay thuống kháng sinh nitrofurantoin và minocycline. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mệt mỏi uể oải. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

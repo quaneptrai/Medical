@@ -1,0 +1,144 @@
+{
+  "disease_id": "EXP_558",
+  "name_vi": "Xơ Phổi",
+  "name_en": "Xo Phoi",
+  "category": "respiratory",
+  "aliases": [
+    "Xơ Phổi",
+    "Xo Phoi"
+  ],
+  "description": "Xơ Phổi là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bệnh lupus ban đỏ",
+        "name_en": "benh lupus ban do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị khó thở",
+        "name_en": "hien dang bi kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hội chứng Sjogren",
+        "name_en": "hoi chung Sjogren",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi vận động",
+        "name_en": "kho tho khi van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khớp",
+        "name_en": "khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lao phổi",
+        "name_en": "lao phoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhồi máu phổi",
+        "name_en": "nhoi mau phoi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sarcoidosis",
+        "name_en": "sarcoidosis",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm khớp dạng thấp",
+        "name_en": "viem khop dang thap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm phổi",
+        "name_en": "viem phoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức các bắp thịt",
+        "name_en": "dau nhuc cac bap thit",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức ngực",
+        "name_en": "dau tuc nguc",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Xơ Phổi của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Xơ Phổi",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như khó thở và ho khan. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau tức ngực và đau nhức các bắp thịt, khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mệt mỏi, sụt cân và khó thở khi vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi làm việc trong môi trường ô nhiễm và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi tiếp xúc với bụi silic và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi tiếp xúc với sợi amiăng và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi từng xạ trị ung thư và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi lạm dụng thuốc và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị lao phổi và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm phổi và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nhồi máu phổi và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm khớp dạng thấp và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bệnh lupus ban đỏ và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị hội chứng Sjogren và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sarcoidosis và hiện đang bị khó thở. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

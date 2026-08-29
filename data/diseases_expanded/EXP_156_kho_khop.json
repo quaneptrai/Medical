@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_156",
+  "name_vi": "Khô Khớp",
+  "name_en": "Kho Khop",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Khô Khớp",
+    "Kho Khop"
+  ],
+  "description": "Khô Khớp là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bệnh gút",
+        "name_en": "benh gut",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chấn thương khớp",
+        "name_en": "chan thuong khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng khớp vào buổi sáng",
+        "name_en": "cung khop vao buoi sang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp triệu chứng hạn chế vận động",
+        "name_en": "gap trieu chung han che van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khớp vai",
+        "name_en": "khop vai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "loãng xương",
+        "name_en": "loang xuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lupus ban đỏ hệ thống",
+        "name_en": "lupus ban do he thong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng",
+        "name_en": "nong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "sử dụng một số loại thuốc điều trị bệnh",
+        "name_en": "su dung mot so loai thuoc dieu tri benh",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "thường xuyên phải làm việc nặng nhọc",
+        "name_en": "thuong xuyen phai lam viec nang nhoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thừa cân",
+        "name_en": "thua can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiếng lục cục ở khớp gối",
+        "name_en": "tieng luc cuc o khop goi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cột sống dính khớp",
+        "name_en": "viem cot song dinh khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm khớp dạng thấp",
+        "name_en": "viem khop dang thap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ cứng bì",
+        "name_en": "xo cung bi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp",
+        "name_en": "dau khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp khi vận động",
+        "name_en": "dau khop khi van dong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Khô Khớp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Khô Khớp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau khớp khi vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cứng khớp vào buổi sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay nghe thấy tiếng lục cục ở khớp gối và khớp vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp triệu chứng hạn chế vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau khớp kèm theo sưng, nóng, đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên phải làm việc nặng nhọc. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thừa cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đã từng bị chấn thương khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị loãng xương. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị bệnh gút. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm khớp dạng thấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị lupus ban đỏ hệ thống. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ cứng bì. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm cột sống dính khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang sử dụng một số loại thuốc điều trị bệnh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

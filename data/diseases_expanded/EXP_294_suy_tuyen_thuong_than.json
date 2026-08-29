@@ -1,0 +1,214 @@
+{
+  "disease_id": "EXP_294",
+  "name_vi": "Suy Tuyến Thượng Thận",
+  "name_en": "Suy Tuyen Thuong Than",
+  "category": "urology",
+  "aliases": [
+    "Suy Tuyến Thượng Thận",
+    "Suy Tuyen Thuong Than"
+  ],
+  "description": "Suy Tuyến Thượng Thận là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu",
+        "name_en": "biu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụng cồn cào khó chịu",
+        "name_en": "bung con cao kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác nhớp nháp",
+        "name_en": "cam giac nhop nhap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da nhợt nhạt",
+        "name_en": "da nhot nhat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "huyết áp thấp",
+        "name_en": "huyet ap thap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạ đường huyết",
+        "name_en": "ha duong huyet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kinh nguyệt không đều",
+        "name_en": "kinh nguyet khong deu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về nguy cơ suy tuyến thượng thận",
+        "name_en": "lo lang ve nguy co suy tuyen thuong than",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lo lắng về nguy cơ suy tuyến thượng thận cấp",
+        "name_en": "lo lang ve nguy co suy tuyen thuong than cap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lạnh",
+        "name_en": "lanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "miệng",
+        "name_en": "mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về các dấu hiệu của suy tuyến thượng thận",
+        "name_en": "muon tim hieu ve cac dau hieu cua suy tuyen thuong than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn tìm hiểu về cách điều trị suy tuyến thượng thận",
+        "name_en": "muon tim hieu ve cach dieu tri suy tuyen thuong than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn tìm một cơ sở y tế uy tín để điều trị suy tuyến thượng thận",
+        "name_en": "muon tim mot co so y te uy tin de dieu tri suy tuyen thuong than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn được tư vấn về các vấn đề sức khỏe liên quan đến tuyến thượng thận",
+        "name_en": "muon duoc tu van ve cac van de suc khoe lien quan den tuyen thuong than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa",
+        "name_en": "non mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sạm màu",
+        "name_en": "sam mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sử dụng corticoid kéo dài để điều trị hen suyễn",
+        "name_en": "su dung corticoid keo dai de dieu tri hen suyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sử dụng corticoid kéo dài để điều trị viêm khớp dạng thấp",
+        "name_en": "su dung corticoid keo dai de dieu tri viem khop dang thap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy nặng",
+        "name_en": "tieu chay nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trực tràng",
+        "name_en": "truc trang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vô kinh",
+        "name_en": "vo kinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vùng núm vú",
+        "name_en": "vung num vu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "âm đạo bị xanh đen",
+        "name_en": "am dao bi xanh den",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau cơ",
+        "name_en": "dau co",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Suy Tuyến Thượng Thận của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Suy Tuyến Thượng Thận",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi đang cảm thấy mệt mỏi, chóng mặt, sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Da của tôi đang bị sạm màu, vùng núm vú, miệng, trực tràng, bìu, âm đạo bị xanh đen. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị buồn nôn, nôn mửa, bụng cồn cào khó chịu, tiêu chảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau cơ, huyết áp thấp, hạ đường huyết. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị vô kinh, kinh nguyệt không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang sử dụng corticoid kéo dài để điều trị hen suyễn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang sử dụng corticoid kéo dài để điều trị viêm khớp dạng thấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng về nguy cơ suy tuyến thượng thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về các dấu hiệu của suy tuyến thượng thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm hiểu về cách điều trị suy tuyến thượng thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn tìm một cơ sở y tế uy tín để điều trị suy tuyến thượng thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi muốn được tư vấn về các vấn đề sức khỏe liên quan đến tuyến thượng thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng về nguy cơ suy tuyến thượng thận cấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị da nhợt nhạt, lạnh, cảm giác nhớp nháp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị nôn mửa, tiêu chảy nặng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

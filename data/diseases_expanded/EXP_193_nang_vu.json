@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_193",
+  "name_vi": "Nang Vú",
+  "name_en": "Nang Vu",
+  "category": "obstetrics_gynecology",
+  "aliases": [
+    "Nang Vú",
+    "Nang Vu"
+  ],
+  "description": "Nang Vú là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bề mặt trơn láng",
+        "name_en": "be mat tron lang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một khối u trong vú, sau kỳ kinh nguyệt thì kích thước khối u giảm và bớt đau",
+        "name_en": "co mot khoi u trong vu, sau ky kinh nguyet thi kich thuoc khoi u giam va bot dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ di chuyển",
+        "name_en": "de di chuyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó phân biệt so với chu kỳ kinh nguyệt thông thường",
+        "name_en": "kho phan biet so voi chu ky kinh nguyet thong thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kích thước khối u tăng lên trước kỳ kinh nguyệt",
+        "name_en": "kich thuoc khoi u tang len truoc ky kinh nguyet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng về nguy cơ ung thư vú",
+        "name_en": "lo lang ve nguy co ung thu vu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "một khối tròn trong vú",
+        "name_en": "mot khoi tron trong vu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngực căng tức",
+        "name_en": "nguc cang tuc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhạy cảm ở vùng có khối u tròn",
+        "name_en": "nhay cam o vung co khoi u tron",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phát hiện khối u ở cả hai vú, không đau và di chuyển dễ dàng",
+        "name_en": "phat hien khoi u o ca hai vu, khong dau va di chuyen de dang",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "phát hiện khối u ở vú nhưng không đau, di chuyển dễ dàng và có tiết dịch màu nâu sẫm",
+        "name_en": "phat hien khoi u o vu nhung khong dau, di chuyen de dang va co tiet dich mau nau sam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch màu trắng đục ở cả hai vú",
+        "name_en": "tiet dich mau trang duc o ca hai vu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch núm vú màu trong",
+        "name_en": "tiet dich num vu mau trong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch núm vú màu vàng rơm",
+        "name_en": "tiet dich num vu mau vang rom",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch núm vú màu vàng sau khi thay đổi nội tiết tố",
+        "name_en": "tiet dich num vu mau vang sau khi thay doi noi tiet to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vú căng tức",
+        "name_en": "vu cang tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vú sần sùi",
+        "name_en": "vu san sui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vú thay đổi",
+        "name_en": "vu thay doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện khối u ở vú sau khi ngừng cho con bú",
+        "name_en": "xuat hien khoi u o vu sau khi ngung cho con bu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi đến kỳ kinh nguyệt",
+        "name_en": "dau khi den ky kinh nguyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức trước kỳ kinh nguyệt",
+        "name_en": "dau nhuc truoc ky kinh nguyet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vú",
+        "name_en": "dau vu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là trước kỳ kinh nguyệt",
+        "name_en": "dac biet la truoc ky kinh nguyet",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Nang Vú của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nang Vú",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như một khối tròn trong vú, dễ di chuyển và bề mặt trơn láng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau vú và nhạy cảm ở vùng có khối u tròn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiết dịch núm vú màu vàng rơm, đặc biệt là trước kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy ngực căng tức và kích thước khối u tăng lên trước kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi có một khối u trong vú, sau kỳ kinh nguyệt thì kích thước khối u giảm và bớt đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cho con bú và thấy tiết dịch màu trắng đục ở cả hai vú. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy vú sần sùi và đau khi đến kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi phát hiện khối u ở vú nhưng không đau, di chuyển dễ dàng và có tiết dịch màu nâu sẫm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và thấy tiết dịch núm vú màu trong. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy xuất hiện khối u ở vú sau khi ngừng cho con bú. Tôi có thể đang bị bệnh gì?",
+    "Tôi có khối u ở vú và cảm thấy lo lắng về nguy cơ ung thư vú. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy vú thay đổi và khó phân biệt so với chu kỳ kinh nguyệt thông thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi phát hiện khối u ở cả hai vú, không đau và di chuyển dễ dàng. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy tiết dịch núm vú màu vàng sau khi thay đổi nội tiết tố. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy vú căng tức và đau nhức trước kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

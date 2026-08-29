@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_413",
+  "name_vi": "Ung Thư Vú Giai Đoạn 0",
+  "name_en": "Ung Thu Vu Giai Doan 0",
+  "category": "oncology",
+  "aliases": [
+    "Ung Thư Vú Giai Đoạn 0",
+    "Ung Thu Vu Giai Doan 0"
+  ],
+  "description": "Ung Thư Vú Giai Đoạn 0 là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "da vú bị lõm",
+        "name_en": "da vu bi lom",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da vú dày lên",
+        "name_en": "da vu day len",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da vú sần sùi",
+        "name_en": "da vu san sui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "di động",
+        "name_en": "di dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm cân không rõ nguyên nhân",
+        "name_en": "giam can khong ro nguyen nhan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hình dạng của vú",
+        "name_en": "hinh dang cua vu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạch di động",
+        "name_en": "hach di dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạch dính vào nhau",
+        "name_en": "hach dinh vao nhau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khối u ở vú",
+        "name_en": "khoi u o vu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kích thước nhỏ",
+        "name_en": "kich thuoc nho",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "núm vú bị tụt vào trong",
+        "name_en": "num vu bi tut vao trong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát hiện hạch ở nách, kích thước nhỏ, di động",
+        "name_en": "phat hien hach o nach, kich thuoc nho, di dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát hiện hạch ở nách, kích thước nhỏ, dính vào da",
+        "name_en": "phat hien hach o nach, kich thuoc nho, dinh vao da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sờ thấy hạch ở nách",
+        "name_en": "so thay hach o nach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sờ thấy khối u ở vú",
+        "name_en": "so thay khoi u o vu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi kích thước",
+        "name_en": "thay doi kich thuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch núm vú",
+        "name_en": "tiet dich num vu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch núm vú có màu trắng đục",
+        "name_en": "tiet dich num vu co mau trang duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch núm vú có màu vàng",
+        "name_en": "tiet dich num vu co mau vang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vú thay đổi hình dạng",
+        "name_en": "vu thay doi hinh dang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng núm vú",
+        "name_en": "dau nhuc vung num vu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức vùng vú",
+        "name_en": "dau nhuc vung vu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ung Thư Vú Giai Đoạn 0 của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Vú Giai Đoạn 0",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như tiết dịch núm vú và da vú dày lên. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức vùng vú và sờ thấy hạch ở nách. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thay đổi kích thước, hình dạng của vú. Tôi có thể đang bị bệnh gì?",
+    "Tôi sờ thấy khối u ở vú, kích thước nhỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi phát hiện hạch ở nách, kích thước nhỏ, di động. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy vú thay đổi hình dạng, da vú sần sùi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhức vùng núm vú, sờ thấy khối u ở vú, kích thước nhỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giảm cân không rõ nguyên nhân, sờ thấy hạch ở nách, hạch di động. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiết dịch núm vú có màu trắng đục, núm vú bị tụt vào trong. Tôi có thể đang bị bệnh gì?",
+    "Tôi sờ thấy khối u ở vú, kích thước nhỏ, di động. Tôi có thể đang bị bệnh gì?",
+    "Tôi phát hiện hạch ở nách, kích thước nhỏ, dính vào da. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy vú thay đổi hình dạng, da vú sần sùi, núm vú bị tụt vào trong. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhức vùng núm vú, sờ thấy khối u ở vú, kích thước nhỏ, da vú bị lõm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị giảm cân không rõ nguyên nhân, sờ thấy hạch ở nách, hạch dính vào nhau. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị tiết dịch núm vú có màu vàng, da vú sần sùi, núm vú bị tụt vào trong. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

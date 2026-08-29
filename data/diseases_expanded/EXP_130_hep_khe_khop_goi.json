@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_130",
+  "name_vi": "Hẹp Khe Khớp Gối",
+  "name_en": "Hep Khe Khop Goi",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Hẹp Khe Khớp Gối",
+    "Hep Khe Khop Goi"
+  ],
+  "description": "Hẹp Khe Khớp Gối là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "biến dạng",
+        "name_en": "bien dang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có gai xương ở khớp gối",
+        "name_en": "co gai xuong o khop goi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơn đau tăng lên khi leo cầu thang",
+        "name_en": "con dau tang len khi leo cau thang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ bị trẹo",
+        "name_en": "de bi treo",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hạn chế vận động",
+        "name_en": "han che van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi lên xuống xe buýt",
+        "name_en": "kho khan khi len xuong xe buyt",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi ngồi xổm",
+        "name_en": "kho khan khi ngoi xom",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi đi bộ",
+        "name_en": "kho khan khi di bo",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó vận động",
+        "name_en": "kho van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không thể chạy nhảy như trước",
+        "name_en": "khong the chay nhay nhu truoc",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "khớp gối của tôi kêu lục cục",
+        "name_en": "khop goi cua toi keu luc cuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khớp gối cứng đờ vào buổi sáng",
+        "name_en": "khop goi cung do vao buoi sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khớp gối nóng",
+        "name_en": "khop goi nong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khớp gối yếu đi",
+        "name_en": "khop goi yeu di",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lan xuống khớp gối",
+        "name_en": "lan xuong khop goi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất vững",
+        "name_en": "mat vung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng đỏ",
+        "name_en": "sung do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì ở chân",
+        "name_en": "te bi o chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi đi lại",
+        "name_en": "dau khi di lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói ở khớp gối khi co duỗi chân",
+        "name_en": "dau nhoi o khop goi khi co duoi chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khi thay đổi tư thế",
+        "name_en": "dau nhuc khi thay doi tu the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khi đứng lâu",
+        "name_en": "dau nhuc khi dung lau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức ở khớp gối khi thời tiết thay đổi",
+        "name_en": "dau nhuc o khop goi khi thoi tiet thay doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau âm ỉ ở khớp gối",
+        "name_en": "dau am i o khop goi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở vùng bắp chân",
+        "name_en": "dau o vung bap chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở vùng mông",
+        "name_en": "dau o vung mong",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Hẹp Khe Khớp Gối của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hẹp Khe Khớp Gối",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi bị đau âm ỉ ở khớp gối và cơn đau tăng lên khi leo cầu thang. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy khó khăn khi ngồi xổm và khớp gối của tôi kêu lục cục. Tôi có thể đang bị bệnh gì?",
+    "Khớp gối của tôi bị sưng và đau nhức khi thay đổi tư thế. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy khớp gối cứng đờ vào buổi sáng và khó vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy có gai xương ở khớp gối và đau khi đi lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị hạn chế vận động và không thể chạy nhảy như trước. Tôi có thể đang bị bệnh gì?",
+    "Khớp gối của tôi bị biến dạng và đau nhức khi đứng lâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy tê bì ở chân và khớp gối yếu đi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau nhói ở khớp gối khi co duỗi chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy khớp gối nóng và sưng đỏ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau ở vùng bắp chân và khó khăn khi đi bộ. Tôi có thể đang bị bệnh gì?",
+    "Khớp gối của tôi bị mất vững và dễ bị trẹo. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau nhức ở khớp gối khi thời tiết thay đổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau ở vùng mông và lan xuống khớp gối. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy khó khăn khi lên xuống xe buýt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_207",
+  "name_vi": "Nhiễm Khuẩn H",
+  "name_en": "Nhiem Khuan H",
+  "category": "infectious",
+  "aliases": [
+    "Nhiễm Khuẩn H",
+    "Nhiem Khuan H"
+  ],
+  "description": "Nhiễm Khuẩn H là một bệnh lý thuộc chuyên khoa infectious, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn hoặc nôn",
+        "name_en": "buon non hoac non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da xanh xao",
+        "name_en": "da xanh xao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay buồn nôn, nôn khan",
+        "name_en": "hay buon non, non khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay ợ chua, buồn nôn sau khi ăn",
+        "name_en": "hay o chua, buon non sau khi an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay ợ nóng, đau thượng vị",
+        "name_en": "hay o nong, dau thuong vi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tiêu",
+        "name_en": "kho tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "no sau khi ăn một lượng nhỏ thức ăn",
+        "name_en": "no sau khi an mot luong nho thuc an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phân sẫm màu hoặc màu hắc ín",
+        "name_en": "phan sam mau hoac mau hac in",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "phân đen",
+        "name_en": "phan den",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phình hoặc trướng bụng",
+        "name_en": "phinh hoac truong bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thiếu máu",
+        "name_en": "thieu mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dữ dội",
+        "name_en": "dau bung du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng sau khi ăn",
+        "name_en": "dau bung sau khi an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng âm ỉ kéo dài",
+        "name_en": "dau bung am i keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau hoặc khó chịu ở bụng trên",
+        "name_en": "dau hoac kho chiu o bung tren",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đầy hơi",
+        "name_en": "day hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Nhiễm Khuẩn H của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Nhiễm Khuẩn H",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau hoặc khó chịu ở bụng trên. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phình hoặc trướng bụng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cảm thấy no sau khi ăn một lượng nhỏ thức ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như chán ăn, buồn nôn hoặc nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phân sẫm màu hoặc màu hắc ín. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thiếu máu và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng âm ỉ kéo dài. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó tiêu, đầy hơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay ợ chua, buồn nôn sau khi ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng dữ dội, phân đen. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, da xanh xao. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay ợ nóng, đau thượng vị. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau bụng sau khi ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chán ăn, sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay buồn nôn, nôn khan. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

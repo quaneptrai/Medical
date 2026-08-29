@@ -1,0 +1,119 @@
+{
+  "disease_id": "EXP_203",
+  "name_vi": "Ngứa Hậu Môn",
+  "name_en": "Ngua Hau Mon",
+  "category": "digestive",
+  "aliases": [
+    "Ngứa Hậu Môn",
+    "Ngua Hau Mon"
+  ],
+  "description": "Ngứa Hậu Môn là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "ngứa hậu môn",
+        "name_en": "ngua hau mon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa ngáy hậu môn khi đại tiện",
+        "name_en": "ngua ngay hau mon khi dai tien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa ngáy hậu môn kèm máu",
+        "name_en": "ngua ngay hau mon kem mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa ngáy hậu môn kèm ngứa bộ phận sinh dục",
+        "name_en": "ngua ngay hau mon kem ngua bo phan sinh duc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng rát",
+        "name_en": "nong rat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng rát vùng hậu môn",
+        "name_en": "nong rat vung hau mon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "vùng da xung quanh dày lên",
+        "name_en": "vung da xung quanh day len",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "xuất hiện vết trầy xước",
+        "name_en": "xuat hien vet tray xuoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "đau nhức",
+        "name_en": "dau nhuc",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "đau nhức hậu môn",
+        "name_en": "dau nhuc hau mon",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ngứa Hậu Môn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ngứa Hậu Môn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay bị ngứa ngáy và nóng rát vùng hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa hậu môn và vùng da xung quanh dày lên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức hậu môn và ngứa ngáy. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa hậu môn và xuất hiện vết trầy xước. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa ngáy hậu môn kèm ngứa bộ phận sinh dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa hậu môn và nóng rát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức hậu môn và vùng da xung quanh dày lên. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa hậu môn và xuất hiện vết trầy xước. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa ngáy hậu môn kèm máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa hậu môn và đau nhức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa ngáy hậu môn khi đại tiện. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa hậu môn và nóng rát. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức hậu môn và vùng da xung quanh dày lên. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa hậu môn và xuất hiện vết trầy xước. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa ngáy hậu môn kèm ngứa bộ phận sinh dục. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

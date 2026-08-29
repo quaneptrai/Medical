@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_353",
+  "name_vi": "Túi Phình Mạch Máu Não",
+  "name_en": "Tui Phinh Mach Mau Nao",
+  "category": "cardiology",
+  "aliases": [
+    "Túi Phình Mạch Máu Não",
+    "Tui Phinh Mach Mau Nao"
+  ],
+  "description": "Túi Phình Mạch Máu Não là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử gia đình bị túi phình mạch máu não",
+        "name_en": "co tien su gia dinh bi tui phinh mach mau nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cổ cứng",
+        "name_en": "co cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì có thể bị túi phình mạch máu não",
+        "name_en": "lo lang vi co the bi tui phinh mach mau nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì hút thuốc lá có thể làm tăng nguy cơ túi phình mạch máu não",
+        "name_en": "lo lang vi hut thuoc la co the lam tang nguy co tui phinh mach mau nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì túi phình mạch máu não có thể gây xuất huyết não",
+        "name_en": "lo lang vi tui phinh mach mau nao co the gay xuat huyet nao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì túi phình mạch máu não có thể gây đột quỵ",
+        "name_en": "lo lang vi tui phinh mach mau nao co the gay dot quy",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mí mắt sụp xuống",
+        "name_en": "mi mat sup xuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất dần ý thức",
+        "name_en": "mat dan y thuc",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nhìn mờ",
+        "name_en": "nhin mo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn đôi",
+        "name_en": "nhin doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với ánh sáng",
+        "name_en": "nhay cam voi anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn nhận thức",
+        "name_en": "roi loan nhan thuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi thị lực",
+        "name_en": "thay doi thi luc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì mặt",
+        "name_en": "te bi mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng huyết áp",
+        "name_en": "tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu liệt cơ thể",
+        "name_en": "yeu liet co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau phía sau mắt",
+        "name_en": "dau phia sau mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu dữ dội",
+        "name_en": "dau dau du doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đồng tử giãn ra",
+        "name_en": "dong tu gian ra",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Túi Phình Mạch Máu Não của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Túi Phình Mạch Máu Não",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau đầu dữ dội, buồn nôn và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cổ cứng, nhìn mờ và nhạy cảm với ánh sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, co giật và yếu liệt cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì có thể bị túi phình mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, tê bì mặt và thay đổi thị lực. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu dữ dội và mất dần ý thức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị rối loạn nhận thức, đau đầu và co giật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì túi phình mạch máu não có thể gây đột quỵ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, mí mắt sụp xuống và đồng tử giãn ra. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu, đau phía sau mắt và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tăng huyết áp và đau đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì hút thuốc lá có thể làm tăng nguy cơ túi phình mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu và có tiền sử gia đình bị túi phình mạch máu não. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì túi phình mạch máu não có thể gây xuất huyết não. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu, nhìn đôi và co giật. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

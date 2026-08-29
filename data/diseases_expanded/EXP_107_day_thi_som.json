@@ -1,0 +1,139 @@
+{
+  "disease_id": "EXP_107",
+  "name_vi": "Dậy Thì Sớm",
+  "name_en": "Day Thi Som",
+  "category": "general",
+  "aliases": [
+    "Dậy Thì Sớm",
+    "Day Thi Som"
+  ],
+  "description": "Dậy Thì Sớm là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Con gái tôi 12 tuổi và đã mọc lông mu và lông nách",
+        "name_en": "Con gai toi 12 tuoi va da moc long mu va long nach",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con gái tôi 8 tuổi và đã có kinh nguyệt",
+        "name_en": "Con gai toi 8 tuoi va da co kinh nguyet",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con gái tôi có tâm sinh lý thay đổi thất thường",
+        "name_en": "Con gai toi co tam sinh ly thay doi that thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con gái tôi mới 7 tuổi nhưng ngực đã bắt đầu phát triển",
+        "name_en": "Con gai toi moi 7 tuoi nhung nguc da bat dau phat trien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con trai tôi 10 tuổi và đã bắt đầu mọc lông mặt và râu",
+        "name_en": "Con trai toi 10 tuoi va da bat dau moc long mat va rau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con trai tôi 11 tuổi và giọng nói bắt đầu trầm và vỡ giọng",
+        "name_en": "Con trai toi 11 tuoi va giong noi bat dau tram va vo giong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con trai tôi có ham muốn tình dục sớm",
+        "name_en": "Con trai toi co ham muon tinh duc som",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Con trai tôi mới 9 tuổi nhưng tinh hoàn và dương vật đã phát triển",
+        "name_en": "Con trai toi moi 9 tuoi nhung tinh hoan va duong vat da phat trien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bắt đầu có mùi cơ thể",
+        "name_en": "bat dau co mui co the",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có biểu hiện trầm cảm và lo âu",
+        "name_en": "co bieu hien tram cam va lo au",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "có hành vi chống đối xã hội",
+        "name_en": "co hanh vi chong doi xa hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "có xu hướng bạo lực và gây hấn",
+        "name_en": "co xu huong bao luc va gay han",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "gặp khó khăn trong học tập",
+        "name_en": "gap kho khan trong hoc tap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn trứng cá trên mặt",
+        "name_en": "mun trung ca tren mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát triển chiều cao nhanh chóng so với bạn bè cùng trang lứa",
+        "name_en": "phat trien chieu cao nhanh chong so voi ban be cung trang lua",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Dậy Thì Sớm của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Dậy Thì Sớm",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Con gái tôi mới 7 tuổi nhưng ngực đã bắt đầu phát triển. Tôi có thể đang bị bệnh gì?",
+    "Con gái tôi 8 tuổi và đã có kinh nguyệt. Tôi có thể đang bị bệnh gì?",
+    "Con trai tôi mới 9 tuổi nhưng tinh hoàn và dương vật đã phát triển. Tôi có thể đang bị bệnh gì?",
+    "Con trai tôi 10 tuổi và đã bắt đầu mọc lông mặt và râu. Tôi có thể đang bị bệnh gì?",
+    "Con trai tôi 11 tuổi và giọng nói bắt đầu trầm và vỡ giọng. Tôi có thể đang bị bệnh gì?",
+    "Con gái tôi 12 tuổi và đã mọc lông mu và lông nách. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang phát triển chiều cao nhanh chóng so với bạn bè cùng trang lứa. Tôi có thể đang bị bệnh gì?",
+    "Tôi bắt đầu xuất hiện mụn trứng cá trên mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bắt đầu có mùi cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Con gái tôi có tâm sinh lý thay đổi thất thường. Tôi có thể đang bị bệnh gì?",
+    "Con trai tôi có ham muốn tình dục sớm. Tôi có thể đang bị bệnh gì?",
+    "Tôi có xu hướng bạo lực và gây hấn. Tôi có thể đang bị bệnh gì?",
+    "Tôi có biểu hiện trầm cảm và lo âu. Tôi có thể đang bị bệnh gì?",
+    "Tôi gặp khó khăn trong học tập. Tôi có thể đang bị bệnh gì?",
+    "Tôi có hành vi chống đối xã hội. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

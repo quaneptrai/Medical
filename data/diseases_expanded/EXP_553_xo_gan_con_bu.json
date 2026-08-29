@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_553",
+  "name_vi": "Xơ Gan Còn Bù",
+  "name_en": "Xo Gan Con Bu",
+  "category": "digestive",
+  "aliases": [
+    "Xơ Gan Còn Bù",
+    "Xo Gan Con Bu"
+  ],
+  "description": "Xơ Gan Còn Bù là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "béo phì",
+        "name_en": "beo phi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bầm tím ngoài da",
+        "name_en": "bam tim ngoai da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu cam",
+        "name_en": "chay mau cam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gan nhiễm mỡ",
+        "name_en": "gan nhiem mo",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị bầm tím ngoài da",
+        "name_en": "hien dang bi bam tim ngoai da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị chán ăn",
+        "name_en": "hien dang bi chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị cổ trướng",
+        "name_en": "hien dang bi co truong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị mệt mỏi",
+        "name_en": "hien dang bi met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị ngứa ngáy",
+        "name_en": "hien dang bi ngua ngay",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hiện đang bị phù nhẹ ở chân",
+        "name_en": "hien dang bi phu nhe o chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang bị vàng da",
+        "name_en": "hien dang bi vang da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang bị xuất huyết tiêu hóa",
+        "name_en": "hien dang bi xuat huyet tieu hoa",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không tỉnh táo",
+        "name_en": "khong tinh tao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ngáy",
+        "name_en": "ngua ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu vàng đậm",
+        "name_en": "nuoc tieu vang dam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù nhẹ ở chân",
+        "name_en": "phu nhe o chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm khả năng tình dục",
+        "name_en": "suy giam kha nang tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thừa cân",
+        "name_en": "thua can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tức vùng hạ sườn phải",
+        "name_en": "tuc vung ha suon phai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan virus B",
+        "name_en": "viem gan virus B",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan virus C",
+        "name_en": "viem gan virus C",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan virus D",
+        "name_en": "viem gan virus D",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ gan còn bù",
+        "name_en": "xo gan con bu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ăn không ngon",
+        "name_en": "an khong ngon",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Xơ Gan Còn Bù của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Xơ Gan Còn Bù",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như chán ăn, ăn không ngon và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy không tỉnh táo, ngứa ngáy và bầm tím ngoài da. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị phù nhẹ ở chân, tức vùng hạ sườn phải và nước tiểu vàng đậm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm gan virus B và hiện đang bị chán ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm gan virus C và hiện đang bị mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm gan virus D và hiện đang bị ngứa ngáy. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị gan nhiễm mỡ và hiện đang bị bầm tím ngoài da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thừa cân, béo phì và hiện đang bị phù nhẹ ở chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay lạm dụng rượu bia và hiện đang bị tức vùng hạ sườn phải. Tôi có thể đang bị bệnh gì?",
+    "Tôi có chế độ ăn uống không đủ chất và hiện đang bị nước tiểu vàng đậm. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên tiếp xúc với thạch tín, asen và hiện đang bị chảy máu cam. Tôi có thể đang bị bệnh gì?",
+    "Tôi có tiền sử gia đình mắc bệnh gan và hiện đang bị suy giảm khả năng tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ gan còn bù và hiện đang bị cổ trướng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ gan còn bù và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ gan còn bù và hiện đang bị xuất huyết tiêu hóa. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

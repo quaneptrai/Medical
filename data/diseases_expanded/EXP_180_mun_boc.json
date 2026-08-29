@@ -1,0 +1,229 @@
+{
+  "disease_id": "EXP_180",
+  "name_vi": "Mụn Bọc",
+  "name_en": "Mun Boc",
+  "category": "dermatology",
+  "aliases": [
+    "Mụn Bọc",
+    "Mun Boc"
+  ],
+  "description": "Mụn Bọc là một bệnh lý thuộc chuyên khoa dermatology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "có mủ trắng ở mặt",
+        "name_en": "co mu trang o mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng thẳng vì tình trạng mụn bọc",
+        "name_en": "cang thang vi tinh trang mun boc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cằm",
+        "name_en": "cam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng",
+        "name_en": "cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da mặt sần sùi",
+        "name_en": "da mat san sui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dịch vàng",
+        "name_en": "dich vang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gây ngứa ngáy",
+        "name_en": "gay ngua ngay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay sử dụng nhiều loại mỹ phẩm, kem trị mụn nhưng không hiệu quả",
+        "name_en": "hay su dung nhieu loai my pham, kem tri mun nhung khong hieu qua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu khi chạm vào mụn",
+        "name_en": "kho chiu khi cham vao mun",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "không đều màu do mụn",
+        "name_en": "khong deu mau do mun",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lan rộng ra nhiều vùng da",
+        "name_en": "lan rong ra nhieu vung da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mũi",
+        "name_en": "mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn bọc có kích thước lớn",
+        "name_en": "mun boc co kich thuoc lon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn bọc có mủ",
+        "name_en": "mun boc co mu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn bọc gây mất thẩm mỹ",
+        "name_en": "mun boc gay mat tham my",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn bọc khiến tôi khó chịu",
+        "name_en": "mun boc khien toi kho chiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn bọc mọc ở lưng",
+        "name_en": "mun boc moc o lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn bọc ngày càng nặng hơn",
+        "name_en": "mun boc ngay cang nang hon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn bọc tái đi tái lại nhiều lần",
+        "name_en": "mun boc tai di tai lai nhieu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn bọc để lại vết thâm",
+        "name_en": "mun boc de lai vet tham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mụn mọc thành từng cụm",
+        "name_en": "mun moc thanh tung cum",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngại giao tiếp do mụn bọc",
+        "name_en": "ngai giao tiep do mun boc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngực",
+        "name_en": "nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mụn sưng đỏ",
+        "name_en": "noi mun sung do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy",
+        "name_en": "sung tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sẹo rỗ trên da",
+        "name_en": "seo ro tren da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tập trung ở vùng trán",
+        "name_en": "tap trung o vung tran",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tự ti",
+        "name_en": "tu ti",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vai",
+        "name_en": "vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức",
+        "name_en": "dau nhuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ảnh hưởng đến cuộc sống",
+        "name_en": "anh huong den cuoc song",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ảnh hưởng đến tâm lý",
+        "name_en": "anh huong den tam ly",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Mụn Bọc của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Mụn Bọc",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như nổi mụn sưng đỏ, cứng, có mủ trắng ở mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức, khó chịu khi chạm vào mụn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mụn mọc thành từng cụm, tập trung ở vùng trán, mũi, cằm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mụn bọc để lại vết thâm, sẹo rỗ trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy da mặt sần sùi, không đều màu do mụn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mụn bọc tái đi tái lại nhiều lần. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mụn bọc có kích thước lớn, sưng tấy. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mụn bọc có mủ, dịch vàng, gây ngứa ngáy. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mụn bọc mọc ở lưng, ngực, vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mụn bọc gây mất thẩm mỹ, ảnh hưởng đến tâm lý. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, căng thẳng vì tình trạng mụn bọc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tự ti, ngại giao tiếp do mụn bọc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mụn bọc khiến tôi khó chịu, ảnh hưởng đến cuộc sống. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mụn bọc ngày càng nặng hơn, lan rộng ra nhiều vùng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay sử dụng nhiều loại mỹ phẩm, kem trị mụn nhưng không hiệu quả. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "disease_id": "EXP_149",
+  "name_vi": "Hội Chứng Ống Cổ Tay",
+  "name_en": "Hoi Chung Ong Co Tay",
+  "category": "general",
+  "aliases": [
+    "Hội Chứng Ống Cổ Tay",
+    "Hoi Chung Ong Co Tay"
+  ],
+  "description": "Hội Chứng Ống Cổ Tay là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chuột rút ở bàn tay",
+        "name_en": "chuot rut o ban tay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các triệu chứng giảm đi khi ngừng vận động",
+        "name_en": "cac trieu chung giam di khi ngung van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các triệu chứng này tăng về đêm",
+        "name_en": "cac trieu chung nay tang ve dem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị cảm",
+        "name_en": "di cam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp tình trạng cầm nắm khó, các động tác khéo léo của bàn tay giảm, hay đánh rơi đồ vật",
+        "name_en": "gap tinh trang cam nam kho, cac dong tac kheo leo cua ban tay giam, hay danh roi do vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó cử động",
+        "name_en": "kho cu dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi thực hiện các động tác tinh",
+        "name_en": "kho khan khi thuc hien cac dong tac tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "làm cho tôi thức giấc",
+        "name_en": "lam cho toi thuc giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "một nửa ngón áp út",
+        "name_en": "mot nua ngon ap ut",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nghỉ ngơi",
+        "name_en": "nghi ngoi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ngón giữa",
+        "name_en": "ngon giua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngón trỏ",
+        "name_en": "ngon tro",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa ran ở lòng bàn tay",
+        "name_en": "ngua ran o long ban tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tay mình lạnh",
+        "name_en": "tay minh lanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tay mình sưng phù",
+        "name_en": "tay minh sung phu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tay yếu",
+        "name_en": "tay yeu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì ngón cái",
+        "name_en": "te bi ngon cai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì tay chân",
+        "name_en": "te bi tay chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì tay khi ngủ",
+        "name_en": "te bi tay khi ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê bì tay khi đi xe máy",
+        "name_en": "te bi tay khi di xe may",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vai",
+        "name_en": "vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vẩy tay",
+        "name_en": "vay tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau buốt do kim châm hoặc rát bỏng ở vùng da thuộc chi phối của dây thần kinh giữa",
+        "name_en": "dau buot do kim cham hoac rat bong o vung da thuoc chi phoi cua day than kinh giua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lan lên cánh tay",
+        "name_en": "dau lan len canh tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhói ở cổ tay",
+        "name_en": "dau nhoi o co tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức từ cổ tay đến các ngón",
+        "name_en": "dau nhuc tu co tay den cac ngon",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Hội Chứng Ống Cổ Tay của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Hội Chứng Ống Cổ Tay",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như tê bì tay chân, dị cảm, đau buốt do kim châm hoặc rát bỏng ở vùng da thuộc chi phối của dây thần kinh giữa. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy các triệu chứng này tăng về đêm và làm cho tôi thức giấc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tê bì tay khi đi xe máy. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp tình trạng cầm nắm khó, các động tác khéo léo của bàn tay giảm, hay đánh rơi đồ vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy các triệu chứng giảm đi khi ngừng vận động, nghỉ ngơi, vẩy tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tê bì ngón cái, ngón trỏ, ngón giữa và một nửa ngón áp út. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức từ cổ tay đến các ngón. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy tay yếu và khó khăn khi thực hiện các động tác tinh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chuột rút ở bàn tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngứa ran ở lòng bàn tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy tay mình sưng phù và đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tê bì tay khi ngủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhói ở cổ tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy tay mình lạnh và khó cử động. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau lan lên cánh tay và vai. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

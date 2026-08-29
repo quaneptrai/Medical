@@ -1,0 +1,264 @@
+{
+  "disease_id": "EXP_251",
+  "name_vi": "Rối Loạn Chuyển Hóa Bẩm Sinh",
+  "name_en": "Roi Loan Chuyen Hoa Bam Sinh",
+  "category": "obstetrics_gynecology",
+  "aliases": [
+    "Rối Loạn Chuyển Hóa Bẩm Sinh",
+    "Roi Loan Chuyen Hoa Bam Sinh"
+  ],
+  "description": "Rối Loạn Chuyển Hóa Bẩm Sinh là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bú kém",
+        "name_en": "bu kem",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bỏ bú",
+        "name_en": "bo bu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụng chướng",
+        "name_en": "bung chuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bụng phình to",
+        "name_en": "bung phinh to",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chán ăn",
+        "name_en": "chan an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chậm lành vết thương",
+        "name_en": "cham lanh vet thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chậm phát triển",
+        "name_en": "cham phat trien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chậm phát triển trí tuệ",
+        "name_en": "cham phat trien tri tue",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chậm phát triển vận động",
+        "name_en": "cham phat trien van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chậm tăng cân",
+        "name_en": "cham tang can",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "co cứng cơ",
+        "name_en": "co cung co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "da tím tái",
+        "name_en": "da tim tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "da vàng",
+        "name_en": "da vang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "da xanh xao",
+        "name_en": "da xanh xao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "dễ bị chảy máu",
+        "name_en": "de bi chay mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hôn mê",
+        "name_en": "hon me",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lờ đờ",
+        "name_en": "lo do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mất nước",
+        "name_en": "mat nuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt lờ đờ",
+        "name_en": "mat lo do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhiễm trùng tái phát",
+        "name_en": "nhiem trung tai phat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn trớ",
+        "name_en": "non tro",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn trớ sau khi bú",
+        "name_en": "non tro sau khi bu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu có mùi lạ",
+        "name_en": "nuoc tieu co mui la",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu sẫm màu",
+        "name_en": "nuoc tieu sam mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phân bạc màu",
+        "name_en": "phan bac mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phân có mùi chua",
+        "name_en": "phan co mui chua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn nhịp tim",
+        "name_en": "roi loan nhip tim",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân nhanh chóng",
+        "name_en": "sut can nhanh chong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thở nhanh",
+        "name_en": "tho nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy kéo dài",
+        "name_en": "tieu chay keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng da",
+        "name_en": "vang da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng da kéo dài",
+        "name_en": "vang da keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "động kinh",
+        "name_en": "dong kinh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rối Loạn Chuyển Hóa Bẩm Sinh của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Chuyển Hóa Bẩm Sinh",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như mệt mỏi, lờ đờ, chán ăn, bỏ bú. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở, bụng phình to, nước tiểu có mùi lạ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sốt, co giật, vàng da, chậm phát triển. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị nôn trớ, tiêu chảy, mất nước, sụt cân nhanh chóng. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mệt mỏi, lờ đờ, mắt lờ đờ, da xanh xao. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị rối loạn nhịp tim, khó thở, da tím tái. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị co cứng cơ, động kinh, chậm phát triển trí tuệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị hôn mê, co giật, sốt cao, khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mệt mỏi, bỏ bú, bụng chướng, da vàng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị tiêu chảy kéo dài, phân có mùi chua, sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nôn trớ sau khi bú, chậm tăng cân, chậm phát triển. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị vàng da kéo dài, nước tiểu sẫm màu, phân bạc màu. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy mệt mỏi, bú kém, thở nhanh, da xanh xao. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị co giật, động kinh, chậm phát triển vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nhiễm trùng tái phát, chậm lành vết thương, dễ bị chảy máu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

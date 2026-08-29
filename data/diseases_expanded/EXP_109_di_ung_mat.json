@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_109",
+  "name_vi": "Dị Ứng Mắt",
+  "name_en": "Di Ung Mat",
+  "category": "ophthalmology",
+  "aliases": [
+    "Dị Ứng Mắt",
+    "Di Ung Mat"
+  ],
+  "description": "Dị Ứng Mắt là một bệnh lý thuộc chuyên khoa ophthalmology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt sống khi ra ngoài trời nắng",
+        "name_en": "chay nuoc mat song khi ra ngoai troi nang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác cộm như có cát",
+        "name_en": "cam giac com nhu co cat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác khó chịu khi đeo kính áp tròng",
+        "name_en": "cam giac kho chiu khi deo kinh ap trong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ghèn vàng hoặc xanh",
+        "name_en": "ghen vang hoac xanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay dụi mắt vì ngứa, mí mắt sưng húp",
+        "name_en": "hay dui mat vi ngua, mi mat sung hup",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hắt hơi",
+        "name_en": "hat hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó mở mắt vào buổi sáng",
+        "name_en": "kho mo mat vao buoi sang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó ngủ ngon giấc",
+        "name_en": "kho ngu ngon giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mắt khó chịu",
+        "name_en": "mat kho chiu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mắt mờ đi",
+        "name_en": "mat mo di",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt sưng húp",
+        "name_en": "mat sung hup",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mắt đỏ",
+        "name_en": "mat do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa mắt khi tiếp xúc với bụi",
+        "name_en": "ngua mat khi tiep xuc voi bui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa mắt khi trang điểm hoặc sử dụng các loại mỹ phẩm",
+        "name_en": "ngua mat khi trang diem hoac su dung cac loai my pham",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa mắt về đêm",
+        "name_en": "ngua mat ve dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn mọi thứ như có màn sương",
+        "name_en": "nhin moi thu nhu co man suong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với ánh sáng",
+        "name_en": "nhay cam voi anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng rát mắt",
+        "name_en": "nong rat mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phải nheo mắt khi ra ngoài",
+        "name_en": "phai nheo mat khi ra ngoai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phấn hoa hoặc lông thú",
+        "name_en": "phan hoa hoac long thu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sổ mũi",
+        "name_en": "so mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Dị Ứng Mắt của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Dị Ứng Mắt",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như mắt đỏ, ngứa và chảy nước mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nhạy cảm với ánh sáng, phải nheo mắt khi ra ngoài. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay dụi mắt vì ngứa, mí mắt sưng húp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nóng rát mắt, cảm giác cộm như có cát. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chảy nước mắt, kèm theo hắt hơi và sổ mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa mắt khi tiếp xúc với bụi, phấn hoa hoặc lông thú. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mắt đỏ, kèm theo cảm giác khó chịu khi đeo kính áp tròng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt sưng húp, khó mở mắt vào buổi sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa mắt về đêm, khó ngủ ngon giấc. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mắt đỏ, kèm theo đau họng và ho. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt mờ đi, nhìn mọi thứ như có màn sương. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy nước mắt sống khi ra ngoài trời nắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như mắt đỏ, kèm theo ghèn vàng hoặc xanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mắt khó chịu, kèm theo đau đầu và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị ngứa mắt khi trang điểm hoặc sử dụng các loại mỹ phẩm. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

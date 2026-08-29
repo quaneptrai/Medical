@@ -1,0 +1,189 @@
+{
+  "disease_id": "EXP_469",
+  "name_vi": "Viêm Khớp Ngón Tay",
+  "name_en": "Viem Khop Ngon Tay",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Viêm Khớp Ngón Tay",
+    "Viem Khop Ngon Tay"
+  ],
+  "description": "Viêm Khớp Ngón Tay là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "béo phì",
+        "name_en": "beo phi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khớp bị biến dạng",
+        "name_en": "co khop bi bien dang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có kết quả X-quang cho thấy gai xương",
+        "name_en": "co ket qua X-quang cho thay gai xuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có kết quả X-quang cho thấy mòn sụn",
+        "name_en": "co ket qua X-quang cho thay mon sun",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có nốt sần ở khớp",
+        "name_en": "co not san o khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng khớp buổi sáng",
+        "name_en": "cung khop buoi sang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "duỗi quá mức",
+        "name_en": "duoi qua muc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm sức mạnh khi cầm nắm",
+        "name_en": "giam suc manh khi cam nam",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gập",
+        "name_en": "gap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau nhức khớp ngón tay, sưng khớp và có dây chằng khớp lỏng",
+        "name_en": "hien dang co trieu chung dau nhuc khop ngon tay, sung khop va co day chang khop long",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hiện đang có triệu chứng đau nhức khớp ngón tay, sưng khớp và có tiền sử chấn thương khớp ngón tay",
+        "name_en": "hien dang co trieu chung dau nhuc khop ngon tay, sung khop va co tien su chan thuong khop ngon tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang có triệu chứng đau nhức khớp ngón tay, sưng khớp và có tiền sử gia đình mắc bệnh viêm khớp",
+        "name_en": "hien dang co trieu chung dau nhuc khop ngon tay, sung khop va co tien su gia dinh mac benh viem khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi cử động ngón tay",
+        "name_en": "kho khan khi cu dong ngon tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngón tay có xu hướng biến dạng",
+        "name_en": "ngon tay co xu huong bien dang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng khớp",
+        "name_en": "sung khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng khớp liên đốt ngón tay",
+        "name_en": "sung khop lien dot ngon tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên làm việc nặng bằng tay",
+        "name_en": "thuong xuyen lam viec nang bang tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thừa cân",
+        "name_en": "thua can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trên 40 tuổi",
+        "name_en": "tren 40 tuoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tầm vận động ngón tay hạn chế",
+        "name_en": "tam van dong ngon tay han che",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp ngón tay",
+        "name_en": "dau khop ngon tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức",
+        "name_en": "dau nhuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức khớp ngón tay",
+        "name_en": "dau nhuc khop ngon tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức ở gốc ngón tay khi cầm nắm đồ vật",
+        "name_en": "dau nhuc o goc ngon tay khi cam nam do vat",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Khớp Ngón Tay của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Khớp Ngón Tay",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau khớp ngón tay, sưng khớp và cứng khớp buổi sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức ở gốc ngón tay khi cầm nắm đồ vật và ngón tay có xu hướng biến dạng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng khớp liên đốt ngón tay, đau nhức và khó khăn khi cử động ngón tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng khớp liên đốt ngón tay bị gập, duỗi quá mức và đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp ngón tay, sưng khớp và có nốt sần ở khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị giảm sức mạnh khi cầm nắm, tầm vận động ngón tay hạn chế và đau khớp ngón tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau nhức khớp ngón tay, sưng khớp và có tiền sử gia đình mắc bệnh viêm khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp ngón tay, sưng khớp và trên 40 tuổi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thừa cân, béo phì và đau nhức khớp ngón tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau nhức khớp ngón tay, sưng khớp và có dây chằng khớp lỏng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp ngón tay, sưng khớp và có khớp bị biến dạng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức khớp ngón tay, sưng khớp và thường xuyên làm việc nặng bằng tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có triệu chứng đau nhức khớp ngón tay, sưng khớp và có tiền sử chấn thương khớp ngón tay. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức khớp ngón tay, sưng khớp và có kết quả X-quang cho thấy gai xương. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức khớp ngón tay, sưng khớp và có kết quả X-quang cho thấy mòn sụn. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

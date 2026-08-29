@@ -1,0 +1,179 @@
+{
+  "disease_id": "EXP_231",
+  "name_vi": "Phát Ban Ở Ngực",
+  "name_en": "Phat Ban O Nguc",
+  "category": "general",
+  "aliases": [
+    "Phát Ban Ở Ngực",
+    "Phat Ban O Nguc"
+  ],
+  "description": "Phát Ban Ở Ngực là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bong tróc",
+        "name_en": "bong troc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có dịch tiết ra",
+        "name_en": "co dich tiet ra",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mụn nước",
+        "name_en": "co mun nuoc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có mủ",
+        "name_en": "co mu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có vảy",
+        "name_en": "co vay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da vùng ngực bị đỏ",
+        "name_en": "da vung nguc bi do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khô",
+        "name_en": "kho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan ra các vùng xung quanh",
+        "name_en": "lan ra cac vung xung quanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan rộng ra lưng",
+        "name_en": "lan rong ra lung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nóng",
+        "name_en": "nong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nổi mẩn đỏ",
+        "name_en": "noi man do",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban ngứa ở ngực",
+        "name_en": "phat ban ngua o nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban ở ngực",
+        "name_en": "phat ban o nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban ở ngực sau khi sử dụng sản phẩm chăm sóc da mới",
+        "name_en": "phat ban o nguc sau khi su dung san pham cham soc da moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban ở ngực sau khi tiếp xúc với ánh nắng mặt trời",
+        "name_en": "phat ban o nguc sau khi tiep xuc voi anh nang mat troi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sổ mũi",
+        "name_en": "so mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức xương khớp",
+        "name_en": "dau nhuc xuong khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Phát Ban Ở Ngực của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Phát Ban Ở Ngực",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi thấy da vùng ngực bị đỏ, ngứa và đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phát ban ở ngực kèm theo ho, sổ mũi và đau họng. Tôi có thể đang bị bệnh gì?",
+    "Da vùng ngực của tôi bị sưng, nóng và đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phát ban ngứa ở ngực và lan ra các vùng xung quanh. Tôi có thể đang bị bệnh gì?",
+    "Vùng da ngực của tôi bị nổi mẩn đỏ và có mủ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phát ban ở ngực kèm theo sốt và ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Da ngực của tôi bị khô, bong tróc và ngứa. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phát ban ở ngực sau khi sử dụng sản phẩm chăm sóc da mới. Tôi có thể đang bị bệnh gì?",
+    "Vùng da ngực của tôi bị nổi mẩn đỏ và có dịch tiết ra. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phát ban ở ngực kèm theo đau nhức xương khớp. Tôi có thể đang bị bệnh gì?",
+    "Da ngực của tôi bị nổi mẩn đỏ và có vảy. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phát ban ở ngực sau khi tiếp xúc với ánh nắng mặt trời. Tôi có thể đang bị bệnh gì?",
+    "Vùng da ngực của tôi bị sưng, nóng, đỏ và đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị phát ban ngứa ở ngực và lan rộng ra lưng. Tôi có thể đang bị bệnh gì?",
+    "Da ngực của tôi bị nổi mẩn đỏ và có mụn nước. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

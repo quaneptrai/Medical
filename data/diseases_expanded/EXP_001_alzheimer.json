@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_001",
+  "name_vi": "Alzheimer",
+  "name_en": "Alzheimer",
+  "category": "neurology",
+  "aliases": [
+    "Alzheimer",
+    "Alzheimer"
+  ],
+  "description": "Alzheimer là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chán nản",
+        "name_en": "chan nan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ cáu gắt",
+        "name_en": "de cau gat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gia đình",
+        "name_en": "gia dinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay lặp lại những câu chuyện đã kể",
+        "name_en": "hay lap lai nhung cau chuyen da ke",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay quên mất ngày tháng, mùa và sự chuyển biến của thời gian",
+        "name_en": "hay quen mat ngay thang, mua va su chuyen bien cua thoi gian",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay quên mất những sự kiện vừa xảy ra nhưng vẫn nhớ được những trải nghiệm từ lâu",
+        "name_en": "hay quen mat nhung su kien vua xay ra nhung van nho duoc nhung trai nghiem tu lau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay quên nghĩa của từ và không thể theo dõi các cuộc trò chuyện",
+        "name_en": "hay quen nghia cua tu va khong the theo doi cac cuoc tro chuyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay quên thông tin vừa tiếp nhận",
+        "name_en": "hay quen thong tin vua tiep nhan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay đặt đồ vật sai vị trí và không thể nhớ đã để chúng ở đâu",
+        "name_en": "hay dat do vat sai vi tri va khong the nho da de chung o dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoạt động xã hội",
+        "name_en": "hoat dong xa hoi",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hành vi của mình",
+        "name_en": "hanh vi cua minh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi lái xe đến địa điểm quen thuộc",
+        "name_en": "kho khan khi lai xe den dia diem quen thuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi tham gia cuộc hội thoại",
+        "name_en": "kho khan khi tham gia cuoc hoi thoai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn khi đọc hiểu",
+        "name_en": "kho khan khi doc hieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó khăn trong việc học hỏi điều mới",
+        "name_en": "kho khan trong viec hoc hoi dieu moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không thể tính toán đơn giản",
+        "name_en": "khong the tinh toan don gian",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "liên kết chúng với kiến thức cũ",
+        "name_en": "lien ket chung voi kien thuc cu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "muốn từ bỏ các sở thích",
+        "name_en": "muon tu bo cac so thich",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi vì công việc",
+        "name_en": "met moi vi cong viec",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghi ngờ người khác lấy cắp đồ của mình",
+        "name_en": "nghi ngo nguoi khac lay cap do cua minh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngại giao tiếp xã hội do những thay đổi trong nhận thức",
+        "name_en": "ngai giao tiep xa hoi do nhung thay doi trong nhan thuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sử dụng các đồ vật trong gia đình",
+        "name_en": "su dung cac do vat trong gia dinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sử dụng từ ngữ không phù hợp với ngữ cảnh",
+        "name_en": "su dung tu ngu khong phu hop voi ngu canh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi tâm trạng thất thường",
+        "name_en": "thay doi tam trang that thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trách nhiệm xã hội",
+        "name_en": "trach nhiem xa hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "định hướng thời gian",
+        "name_en": "dinh huong thoi gian",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Alzheimer của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Alzheimer",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như hay quên thông tin vừa tiếp nhận, khó tập trung và định hướng thời gian. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn khi tham gia cuộc hội thoại và hay lặp lại những câu chuyện đã kể. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay quên nghĩa của từ và không thể theo dõi các cuộc trò chuyện. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như thay đổi tâm trạng thất thường, dễ cáu gắt và lo lắng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chán nản và muốn từ bỏ các sở thích, hoạt động xã hội. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay quên mất ngày tháng, mùa và sự chuyển biến của thời gian. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khó khăn khi lái xe đến địa điểm quen thuộc, không thể tính toán đơn giản. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn khi đọc hiểu và sử dụng các đồ vật trong gia đình. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay đặt đồ vật sai vị trí và không thể nhớ đã để chúng ở đâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nghi ngờ người khác lấy cắp đồ của mình. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó khăn trong việc học hỏi điều mới và liên kết chúng với kiến thức cũ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay quên mất những sự kiện vừa xảy ra nhưng vẫn nhớ được những trải nghiệm từ lâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như sử dụng từ ngữ không phù hợp với ngữ cảnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngại giao tiếp xã hội do những thay đổi trong nhận thức và hành vi của mình. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cảm thấy mệt mỏi vì công việc, gia đình và trách nhiệm xã hội. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

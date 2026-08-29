@@ -1,0 +1,229 @@
+{
+  "disease_id": "EXP_473",
+  "name_vi": "Viêm Khớp",
+  "name_en": "Viem Khop",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Viêm Khớp",
+    "Viem Khop"
+  ],
+  "description": "Viêm Khớp là một bệnh lý thuộc chuyên khoa musculoskeletal, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chấn thương khớp",
+        "name_en": "chan thuong khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có tiền sử gia đình mắc bệnh viêm khớp dạng thấp",
+        "name_en": "co tien su gia dinh mac benh viem khop dang thap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng cột sống",
+        "name_en": "cung cot song",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng khớp",
+        "name_en": "cung khop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng khớp vào buổi sáng",
+        "name_en": "cung khop vao buoi sang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gout",
+        "name_en": "gout",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị khô mắt",
+        "name_en": "hien dang bi kho mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị mệt mỏi",
+        "name_en": "hien dang bi met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị đau",
+        "name_en": "hien dang bi dau",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hiện đang bị đau bụng",
+        "name_en": "hien dang bi dau bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang bị đau dữ dội ở khớp ngón chân cái",
+        "name_en": "hien dang bi dau du doi o khop ngon chan cai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang bị đau khớp",
+        "name_en": "hien dang bi dau khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang bị đau khớp gối",
+        "name_en": "hien dang bi dau khop goi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang bị đau lưng",
+        "name_en": "hien dang bi dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang bị đau mắt",
+        "name_en": "hien dang bi dau mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "hiện đang bị đau ngực",
+        "name_en": "hien dang bi dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó chịu. Các khớp của tôi bị sưng",
+        "name_en": "kho chiu. Cac khop cua toi bi sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khô miệng",
+        "name_en": "kho mieng",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lupus",
+        "name_en": "lupus",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mờ mắt",
+        "name_en": "mo mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban trên da",
+        "name_en": "phat ban tren da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng khớp",
+        "name_en": "sung khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thừa cân",
+        "name_en": "thua can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cột sống dính khớp",
+        "name_en": "viem cot song dinh khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm khớp dạng thấp",
+        "name_en": "viem khop dang thap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau",
+        "name_en": "dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp",
+        "name_en": "dau khop",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp gối",
+        "name_en": "dau khop goi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khớp háng",
+        "name_en": "dau khop hang",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Khớp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Khớp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau khớp, cứng khớp và sưng khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, sốt và khó chịu. Các khớp của tôi bị sưng và đau. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khớp gối, đau khớp háng và cứng khớp vào buổi sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau khớp và có tiền sử gia đình mắc bệnh viêm khớp dạng thấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hút thuốc lá và hiện đang bị đau khớp, sưng khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thừa cân và hiện đang bị đau khớp gối, đau khớp háng. Tôi có thể đang bị bệnh gì?",
+    "Tôi từng bị chấn thương khớp và hiện đang bị đau, cứng khớp. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm khớp dạng thấp và hiện đang bị khô mắt, khô miệng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm khớp dạng thấp và hiện đang bị đau ngực, khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị lupus và hiện đang bị đau khớp, phát ban trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị lupus và hiện đang bị mệt mỏi, sốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị gout và hiện đang bị đau dữ dội ở khớp ngón chân cái. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị gout và hiện đang bị đau bụng, buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm cột sống dính khớp và hiện đang bị đau lưng, cứng cột sống. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm cột sống dính khớp và hiện đang bị đau mắt, mờ mắt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

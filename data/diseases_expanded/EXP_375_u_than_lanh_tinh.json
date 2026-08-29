@@ -1,0 +1,244 @@
+{
+  "disease_id": "EXP_375",
+  "name_vi": "U Thận Lành Tính",
+  "name_en": "U Than Lanh Tinh",
+  "category": "urology",
+  "aliases": [
+    "U Thận Lành Tính",
+    "U Than Lanh Tinh"
+  ],
+  "description": "U Thận Lành Tính là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh di truyền đa u tuyến nội tiết type 1",
+        "name_en": "benh di truyen da u tuyen noi tiet type 1",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bồn chồn",
+        "name_en": "bon chon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chèn lên các cơ quan nội tạng",
+        "name_en": "chen len cac co quan noi tang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các bệnh lý về thận",
+        "name_en": "cac benh ly ve than",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các mô lân cận",
+        "name_en": "cac mo lan can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có những vấn đề liên quan đến rối loạn di truyền như bệnh xơ hóa thần kinh đệm 1",
+        "name_en": "co nhung van de lien quan den roi loan di truyen nhu benh xo hoa than kinh dem 1",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có vấn đề về tiêu hóa như táo bón",
+        "name_en": "co van de ve tieu hoa nhu tao bon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có đặc điểm là lành tính",
+        "name_en": "co dac diem la lanh tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay có thói quen sống thiếu khoa học: ăn uống không lành mạnh, ít vận động, dùng thuốc không đúng chỉ định, hút thuốc lá",
+        "name_en": "hay co thoi quen song thieu khoa hoc: an uong khong lanh manh, it van dong, dung thuoc khong dung chi dinh, hut thuoc la",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hay đổ mồ hôi",
+        "name_en": "hay do mo hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khối u có thể lớn dần",
+        "name_en": "khoi u co the lon dan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khối u hình thành",
+        "name_en": "khoi u hinh thanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khối u lành tính ở thận",
+        "name_en": "khoi u lanh tinh o than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khối u tuyến thận (Adenoma) xuất hiện rất nhiều",
+        "name_en": "khoi u tuyen than (Adenoma) xuat hien rat nhieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "màu da tái nhợt",
+        "name_en": "mau da tai nhot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nang đơn thận là tình trạng xuất hiện khối dịch bất thường ở một hoặc hai bên quả thận",
+        "name_en": "nang don than la tinh trang xuat hien khoi dich bat thuong o mot hoac hai ben qua than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "người mệt mỏi",
+        "name_en": "nguoi met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhưng có nhiều nguy cơ phát triển thành u ác tính hơn",
+        "name_en": "nhung co nhieu nguy co phat trien thanh u ac tinh hon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhưng không có khả năng di căn đến các bộ phận khác của cơ thể",
+        "name_en": "nhung khong co kha nang di can den cac bo phan khac cua co the",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhưng không được điều trị kịp thời",
+        "name_en": "nhung khong duoc dieu tri kip thoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát triển trong quả thận",
+        "name_en": "phat trien trong qua than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sử dụng các loại thuốc ức chế enzyme monoamin oxidase trong điều trị trầm cảm, chất kích thích nên gây ra các khối u thận",
+        "name_en": "su dung cac loai thuoc uc che enzyme monoamin oxidase trong dieu tri tram cam, chat kich thich nen gay ra cac khoi u than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tâm trạng bất an",
+        "name_en": "tam trang bat an",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng huyết áp",
+        "name_en": "tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng nhịp tim bất thường",
+        "name_en": "tang nhip tim bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "u mạch cơ mỡ thận thuộc loại hiếm gặp nhất",
+        "name_en": "u mach co mo than thuoc loai hiem gap nhat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "u tế bào hạt (Oncocytom) khá hiếm gặp",
+        "name_en": "u te bao hat (Oncocytom) kha hiem gap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xanh xao",
+        "name_en": "xanh xao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu ớt",
+        "name_en": "yeu ot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu không tìm được nguyên nhân",
+        "name_en": "dau dau khong tim duoc nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đúng phác đồ làm xuất hiện các khối u thận",
+        "name_en": "dung phac do lam xuat hien cac khoi u than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ U Thận Lành Tính của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của U Thận Lành Tính",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như tăng huyết áp, tăng nhịp tim bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy màu da tái nhợt, xanh xao, người mệt mỏi, yếu ớt, sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu không tìm được nguyên nhân, buồn nôn, khó thở, ớn lạnh, hay đổ mồ hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có vấn đề về tiêu hóa như táo bón, tâm trạng bất an, lo lắng, bồn chồn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khối u hình thành và phát triển trong quả thận, nhưng không có khả năng di căn đến các bộ phận khác của cơ thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khối u có thể lớn dần, chèn lên các cơ quan nội tạng và các mô lân cận. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khối u tuyến thận (Adenoma) xuất hiện rất nhiều và có đặc điểm là lành tính. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy u tế bào hạt (Oncocytom) khá hiếm gặp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị u mạch cơ mỡ thận thuộc loại hiếm gặp nhất, nhưng có nhiều nguy cơ phát triển thành u ác tính hơn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nang đơn thận là tình trạng xuất hiện khối dịch bất thường ở một hoặc hai bên quả thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị các bệnh lý về thận, nhưng không được điều trị kịp thời và đúng phác đồ làm xuất hiện các khối u thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang sử dụng các loại thuốc ức chế enzyme monoamin oxidase trong điều trị trầm cảm, chất kích thích nên gây ra các khối u thận. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy có những vấn đề liên quan đến rối loạn di truyền như bệnh xơ hóa thần kinh đệm 1, bệnh di truyền đa u tuyến nội tiết type 1. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay có thói quen sống thiếu khoa học: ăn uống không lành mạnh, ít vận động, dùng thuốc không đúng chỉ định, hút thuốc lá. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như khối u lành tính ở thận. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

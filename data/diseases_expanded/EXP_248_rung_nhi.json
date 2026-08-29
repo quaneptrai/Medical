@@ -1,0 +1,169 @@
+{
+  "disease_id": "EXP_248",
+  "name_vi": "Rung Nhĩ",
+  "name_en": "Rung Nhi",
+  "category": "general",
+  "aliases": [
+    "Rung Nhĩ",
+    "Rung Nhi"
+  ],
+  "description": "Rung Nhĩ là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt hoặc thậm chí cảm giác muốn ngất xỉu",
+        "name_en": "chong mat hoac tham chi cam giac muon ngat xiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ đuối sức",
+        "name_en": "de duoi suc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm khả năng gắng sức",
+        "name_en": "giam kha nang gang suc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hồi hộp",
+        "name_en": "hoi hop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hụt hơi",
+        "name_en": "hut hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở khi vận động",
+        "name_en": "kho tho khi van dong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lâng lâng",
+        "name_en": "lang lang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lệch nhịp hoặc nhịp tim không đều",
+        "name_en": "lech nhip hoac nhip tim khong deu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "muốn ngất xỉu",
+        "name_en": "muon ngat xiu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhịp tim không đều",
+        "name_en": "nhip tim khong deu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nặng ngực",
+        "name_en": "nang nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tức ngực",
+        "name_en": "tuc nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu người",
+        "name_en": "yeu nguoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu trong người",
+        "name_en": "yeu trong nguoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực",
+        "name_en": "dau nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đánh trống ngực",
+        "name_en": "danh trong nguc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt khi vận động hoặc tập thể dục",
+        "name_en": "dac biet khi van dong hoac tap the duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đột quỵ não",
+        "name_en": "dot quy nao",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rung Nhĩ của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rung Nhĩ",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như hồi hộp, đánh trống ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy hụt hơi, lệch nhịp hoặc nhịp tim không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó thở, đặc biệt khi vận động hoặc tập thể dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như lâng lâng, chóng mặt hoặc thậm chí cảm giác muốn ngất xỉu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giảm khả năng gắng sức, yếu trong người, dễ đuối sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nặng ngực, tức ngực, đau ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đột quỵ não. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, khó thở và nhịp tim không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chóng mặt, lâng lâng và hồi hộp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đánh trống ngực, hụt hơi và khó thở khi vận động. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy yếu người, dễ đuối sức và nhịp tim không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau ngực, tức ngực và hồi hộp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như chóng mặt, muốn ngất xỉu và nhịp tim không đều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó thở, hụt hơi và yếu người. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đánh trống ngực, chóng mặt và dễ đuối sức. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

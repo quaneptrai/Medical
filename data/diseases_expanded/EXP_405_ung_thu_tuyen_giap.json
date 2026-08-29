@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_405",
+  "name_vi": "Ung Thư Tuyến Giáp",
+  "name_en": "Ung Thu Tuyen Giap",
+  "category": "oncology",
+  "aliases": [
+    "Ung Thư Tuyến Giáp",
+    "Ung Thu Tuyen Giap"
+  ],
+  "description": "Ung Thư Tuyến Giáp là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "béo phì",
+        "name_en": "beo phi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bướu cổ",
+        "name_en": "buou co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có khối u ở cổ",
+        "name_en": "co khoi u o co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cường giáp",
+        "name_en": "cuong giap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện tại tôi cũng có khối u ở cổ",
+        "name_en": "hien tai toi cung co khoi u o co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khàn giọng",
+        "name_en": "khan giong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở, khàn giọng và có khối u ở cổ",
+        "name_en": "kho tho, khan giong va co khoi u o co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở, khó nuốt, khàn giọng và có khối u ở cổ",
+        "name_en": "kho tho, kho nuot, khan giong va co khoi u o co",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "là người châu Á và có khối u ở cổ",
+        "name_en": "la nguoi chau A va co khoi u o co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "là nữ giới, trên 40 tuổi và có khối u ở cổ",
+        "name_en": "la nu gioi, tren 40 tuoi va co khoi u o co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giáp",
+        "name_en": "suy giap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng ở cổ",
+        "name_en": "sung o co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thường xuyên tiếp xúc với tia bức xạ và có khối u ở cổ",
+        "name_en": "thuong xuyen tiep xuc voi tia buc xa va co khoi u o co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ung thư tuyến giáp",
+        "name_en": "ung thu tuyen giap",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ung Thư Tuyến Giáp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Tuyến Giáp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như khó thở, khó nuốt, sưng ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy mệt mỏi, sụt cân không rõ nguyên nhân và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khàn giọng, khó nuốt và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi là nữ giới, trên 40 tuổi và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị béo phì và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên tiếp xúc với tia bức xạ và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi có mẹ bị ung thư tuyến giáp và hiện tại tôi cũng có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị cường giáp và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó thở, khó nuốt, khàn giọng và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sụt cân không rõ nguyên nhân, mệt mỏi và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi là người châu Á và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mệt mỏi, khó nuốt và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy giáp và có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi có bố bị bướu cổ và hiện tại tôi cũng có khối u ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó thở, khàn giọng và có khối u ở cổ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

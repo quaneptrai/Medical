@@ -1,0 +1,189 @@
+{
+  "disease_id": "EXP_258",
+  "name_vi": "Rối Loạn Lo Âu",
+  "name_en": "Roi Loan Lo Au",
+  "category": "general",
+  "aliases": [
+    "Rối Loạn Lo Âu",
+    "Roi Loan Lo Au"
+  ],
+  "description": "Rối Loạn Lo Âu là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cáu kỉnh",
+        "name_en": "cau kinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có những suy nghĩ ám ảnh và lặp đi lặp lại",
+        "name_en": "co nhung suy nghi am anh va lap di lap lai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "căng cơ",
+        "name_en": "cang co",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy không an toàn",
+        "name_en": "cam thay khong an toan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ nổi nóng",
+        "name_en": "de noi nong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "gặp khó khăn trong việc kiểm soát nỗi sợ hãi của mình",
+        "name_en": "gap kho khan trong viec kiem soat noi so hai cua minh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay gặp ác mộng",
+        "name_en": "hay gap ac mong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay quên",
+        "name_en": "hay quen",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hoảng loạn",
+        "name_en": "hoang loan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó ngủ",
+        "name_en": "kho ngu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không thể giữ bình tĩnh và hay lo lắng về mọi thứ",
+        "name_en": "khong the giu binh tinh va hay lo lang ve moi thu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ hãi quá mức",
+        "name_en": "so hai qua muc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sợ ở một mình hoặc ở nơi đông người",
+        "name_en": "so o mot minh hoac o noi dong nguoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thiếu năng lượng",
+        "name_en": "thieu nang luong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thực hiện các hành vi nghi thức một cách quá mức",
+        "name_en": "thuc hien cac hanh vi nghi thuc mot cach qua muc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tránh né các tình huống xã hội",
+        "name_en": "tranh ne cac tinh huong xa hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau dạ dày",
+        "name_en": "dau da day",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu",
+        "name_en": "dau dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rối Loạn Lo Âu của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Lo Âu",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay cảm thấy lo lắng và sợ hãi quá mức. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang gặp khó khăn trong việc kiểm soát nỗi sợ hãi của mình. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị hoảng loạn và cảm thấy không an toàn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó ngủ và hay gặp ác mộng. Tôi có thể đang bị bệnh gì?",
+    "Tôi không thể giữ bình tĩnh và hay lo lắng về mọi thứ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đổ mồ hôi, chóng mặt và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi có những suy nghĩ ám ảnh và lặp đi lặp lại. Tôi có thể đang bị bệnh gì?",
+    "Tôi thực hiện các hành vi nghi thức một cách quá mức. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau dạ dày và buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau đầu và căng cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị mệt mỏi và thiếu năng lượng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó tập trung và hay quên. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị cáu kỉnh và dễ nổi nóng. Tôi có thể đang bị bệnh gì?",
+    "Tôi tránh né các tình huống xã hội. Tôi có thể đang bị bệnh gì?",
+    "Tôi sợ ở một mình hoặc ở nơi đông người. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

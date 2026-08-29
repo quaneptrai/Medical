@@ -1,0 +1,229 @@
+{
+  "disease_id": "EXP_270",
+  "name_vi": "Sa Tinh Hoàn",
+  "name_en": "Sa Tinh Hoan",
+  "category": "andrology",
+  "aliases": [
+    "Sa Tinh Hoàn",
+    "Sa Tinh Hoan"
+  ],
+  "description": "Sa Tinh Hoàn là một bệnh lý thuộc chuyên khoa andrology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bìu bị chảy xệ nghiêm trọng",
+        "name_en": "biu bi chay xe nghiem trong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu bị giãn ra",
+        "name_en": "biu bi gian ra",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu chảy xệ xuống",
+        "name_en": "biu chay xe xuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu của mình chảy xệ",
+        "name_en": "biu cua minh chay xe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu của mình giãn xuống",
+        "name_en": "biu cua minh gian xuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu giãn ra",
+        "name_en": "biu gian ra",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu sưng to",
+        "name_en": "biu sung to",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bìu to hơn",
+        "name_en": "biu to hon",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy xệ",
+        "name_en": "chay xe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy nặng hơn bình thường",
+        "name_en": "cam thay nang hon binh thuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "da bìu của mình rộng hơn so với túi tinh",
+        "name_en": "da biu cua minh rong hon so voi tui tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó chịu ở vùng bụng dưới",
+        "name_en": "kho chiu o vung bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không co lại như bình thường",
+        "name_en": "khong co lai nhu binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lỏng lẻo",
+        "name_en": "long leo",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "một bên tinh hoàn của mình to lên bất thường",
+        "name_en": "mot ben tinh hoan cua minh to len bat thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nặng",
+        "name_en": "nang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phần ruột phía trên của mình bị kéo xuống dưới theo chiều bên tinh hoàn bị xệ",
+        "name_en": "phan ruot phia tren cua minh bi keo xuong duoi theo chieu ben tinh hoan bi xe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng tấy ở tinh hoàn",
+        "name_en": "sung tay o tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt cao",
+        "name_en": "sot cao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn bị chảy xệ",
+        "name_en": "tinh hoan bi chay xe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn bị xệ xuống",
+        "name_en": "tinh hoan bi xe xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn bị xệ xuống sau khi vận động mạnh",
+        "name_en": "tinh hoan bi xe xuong sau khi van dong manh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn chảy xệ",
+        "name_en": "tinh hoan chay xe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn của mình bị xệ xuống sau khi tiếp xúc với nhiệt độ nóng",
+        "name_en": "tinh hoan cua minh bi xe xuong sau khi tiep xuc voi nhiet do nong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn của mình có hạch",
+        "name_en": "tinh hoan cua minh co hach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn của mình to hơn bình thường",
+        "name_en": "tinh hoan cua minh to hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tinh hoàn của mình tăng kích thước",
+        "name_en": "tinh hoan cua minh tang kich thuoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức",
+        "name_en": "dau nhuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức tinh hoàn",
+        "name_en": "dau nhuc tinh hoan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức vùng bìu",
+        "name_en": "dau tuc vung biu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ở vùng bụng dưới",
+        "name_en": "dau o vung bung duoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt khi đi lại",
+        "name_en": "dac biet khi di lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đứng",
+        "name_en": "dung",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Sa Tinh Hoàn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Sa Tinh Hoàn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như sốt cao, đau nhức, sưng tấy ở tinh hoàn và bìu giãn ra. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tinh hoàn của mình to hơn bình thường và bìu chảy xệ xuống. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tức vùng bìu, đặc biệt khi đi lại và đứng, kèm theo tinh hoàn chảy xệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy bìu của mình giãn xuống và lỏng lẻo, không co lại như bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay cảm thấy nặng và khó chịu ở vùng bụng dưới, kèm theo bìu to hơn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy một bên tinh hoàn của mình to lên bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau nhức tinh hoàn, bìu sưng to và chảy xệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy da bìu của mình rộng hơn so với túi tinh và tinh hoàn bị chảy xệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tinh hoàn của mình bị xệ xuống sau khi tiếp xúc với nhiệt độ nóng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau tức vùng bìu và tinh hoàn bị xệ xuống sau khi vận động mạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy bìu của mình chảy xệ và cảm thấy nặng hơn bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tinh hoàn của mình tăng kích thước và bìu bị giãn ra. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau ở vùng bụng dưới và tinh hoàn bị xệ xuống. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy phần ruột phía trên của mình bị kéo xuống dưới theo chiều bên tinh hoàn bị xệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tinh hoàn của mình có hạch và bìu bị chảy xệ nghiêm trọng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

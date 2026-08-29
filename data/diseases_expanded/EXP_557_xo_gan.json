@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_557",
+  "name_vi": "Xơ Gan",
+  "name_en": "Xo Gan",
+  "category": "digestive",
+  "aliases": [
+    "Xơ Gan",
+    "Xo Gan"
+  ],
+  "description": "Xơ Gan là một bệnh lý thuộc chuyên khoa digestive, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bàn chân",
+        "name_en": "ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu",
+        "name_en": "chay mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dễ bị bầm tím",
+        "name_en": "de bi bam tim",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị cổ trướng",
+        "name_en": "hien dang bi co truong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị tăng áp tĩnh mạch cửa",
+        "name_en": "hien dang bi tang ap tinh mach cua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang bị vàng da",
+        "name_en": "hien dang bi vang da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lòng bàn tay đỏ rực",
+        "name_en": "long ban tay do ruc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mắt cá chân",
+        "name_en": "mat ca chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa da",
+        "name_en": "ngua da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "phù nề",
+        "name_en": "phu ne",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "suy tim",
+        "name_en": "suy tim",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng ở cẳng chân",
+        "name_en": "sung o cang chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan nhiễm mỡ không do rượu",
+        "name_en": "viem gan nhiem mo khong do ruou",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan tự miễn",
+        "name_en": "viem gan tu mien",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan virus",
+        "name_en": "viem gan virus",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tắc tĩnh mạch trên gan",
+        "name_en": "viem tac tinh mach tren gan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng da",
+        "name_en": "vang da",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vàng mắt",
+        "name_en": "vang mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ gan",
+        "name_en": "xo gan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ gan do bệnh di truyền",
+        "name_en": "xo gan do benh di truyen",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ gan do ký sinh trùng",
+        "name_en": "xo gan do ky sinh trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xơ gan do tắc nghẽn ống dẫn mật",
+        "name_en": "xo gan do tac nghen ong dan mat",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Xơ Gan của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Xơ Gan",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như vàng da, vàng mắt và ngứa da. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy dễ bị bầm tím và chảy máu, lòng bàn tay đỏ rực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng ở cẳng chân, bàn chân và mắt cá chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm gan virus và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi lạm dụng rượu kéo dài và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm gan nhiễm mỡ không do rượu và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm gan tự miễn và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi lạm dụng thuốc và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ gan do ký sinh trùng và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ gan do bệnh di truyền và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ gan do tắc nghẽn ống dẫn mật và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị suy tim và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm tắc tĩnh mạch trên gan và hiện đang bị vàng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ gan và hiện đang bị tăng áp tĩnh mạch cửa. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị xơ gan và hiện đang bị cổ trướng, phù nề. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

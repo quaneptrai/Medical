@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_245",
+  "name_vi": "Rau Tiền Đạo",
+  "name_en": "Rau Tien Dao",
+  "category": "oncology",
+  "aliases": [
+    "Rau Tiền Đạo",
+    "Rau Tien Dao"
+  ],
+  "description": "Rau Tiền Đạo là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo",
+        "name_en": "chay mau am dao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo bất thường",
+        "name_en": "chay mau am dao bat thuong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo bất thường khi mang thai",
+        "name_en": "chay mau am dao bat thuong khi mang thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo khi mang thai",
+        "name_en": "chay mau am dao khi mang thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu âm đạo từng đợt khi mang thai",
+        "name_en": "chay mau am dao tung dot khi mang thai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơn co thắt",
+        "name_en": "con co that",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm giác mệt mỏi",
+        "name_en": "cam giac met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dù không đau nhưng máu ra khá nhiều",
+        "name_en": "du khong dau nhung mau ra kha nhieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dù siêu âm thai nhi vẫn phát triển bình thường",
+        "name_en": "du sieu am thai nhi van phat trien binh thuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "dù đã uống thuốc dưỡng thai theo chỉ định của bác sĩ",
+        "name_en": "du da uong thuoc duong thai theo chi dinh cua bac si",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không rõ nguyên nhân",
+        "name_en": "khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không đau ở tam cá nguyệt thứ ba",
+        "name_en": "khong dau o tam ca nguyet thu ba",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng vì bị chảy máu âm đạo khi mang thai",
+        "name_en": "lo lang vi bi chay mau am dao khi mang thai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lo lắng vì bị xuất huyết âm đạo trong thai kỳ",
+        "name_en": "lo lang vi bi xuat huyet am dao trong thai ky",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lượng máu ngày càng nhiều",
+        "name_en": "luong mau ngay cang nhieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "lượng máu ra nhiều hơn khi vận động mạnh",
+        "name_en": "luong mau ra nhieu hon khi van dong manh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "máu có lẫn cục máu đông",
+        "name_en": "mau co lan cuc mau dong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "máu có màu đỏ tươi",
+        "name_en": "mau co mau do tuoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất huyết âm đạo bất thường tái phát nhiều lần",
+        "name_en": "xuat huyet am dao bat thuong tai phat nhieu lan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất huyết âm đạo bất thường với máu đỏ tươi",
+        "name_en": "xuat huyet am dao bat thuong voi mau do tuoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất huyết âm đạo sau khi quan hệ tình dục",
+        "name_en": "xuat huyet am dao sau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất huyết âm đạo đột ngột",
+        "name_en": "xuat huyet am dao dot ngot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau bụng dưới âm ỉ",
+        "name_en": "dau bung duoi am i",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là sau khi đi vệ sinh",
+        "name_en": "dac biet la sau khi di ve sinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là vào ban đêm",
+        "name_en": "dac biet la vao ban dem",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rau Tiền Đạo của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rau Tiền Đạo",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như xuất huyết âm đạo bất thường với máu đỏ tươi, không đau ở tam cá nguyệt thứ ba. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy xuất huyết âm đạo bất thường tái phát nhiều lần, lượng máu ngày càng nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu âm đạo khi mang thai, kèm theo cơn co thắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai ở tháng thứ 7 và bị chảy máu âm đạo bất thường, máu có lẫn cục máu đông. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy lo lắng vì bị xuất huyết âm đạo trong thai kỳ, dù không đau nhưng máu ra khá nhiều. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và thỉnh thoảng bị chảy máu âm đạo, máu có màu đỏ tươi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu âm đạo bất thường khi mang thai, đặc biệt là vào ban đêm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai tháng thứ 8 và bị xuất huyết âm đạo đột ngột, không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy lo lắng vì bị chảy máu âm đạo khi mang thai, dù đã uống thuốc dưỡng thai theo chỉ định của bác sĩ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị chảy máu âm đạo, kèm theo cảm giác mệt mỏi, chóng mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu âm đạo từng đợt khi mang thai, lượng máu ra nhiều hơn khi vận động mạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị xuất huyết âm đạo sau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy lo lắng vì bị chảy máu âm đạo khi mang thai, dù siêu âm thai nhi vẫn phát triển bình thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang mang thai và bị chảy máu âm đạo, kèm theo đau bụng dưới âm ỉ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị chảy máu âm đạo bất thường khi mang thai, đặc biệt là sau khi đi vệ sinh. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

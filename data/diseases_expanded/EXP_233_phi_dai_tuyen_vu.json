@@ -1,0 +1,149 @@
+{
+  "disease_id": "EXP_233",
+  "name_vi": "Phì Đại Tuyến Vú",
+  "name_en": "Phi Dai Tuyen Vu",
+  "category": "obstetrics_gynecology",
+  "aliases": [
+    "Phì Đại Tuyến Vú",
+    "Phi Dai Tuyen Vu"
+  ],
+  "description": "Phì Đại Tuyến Vú là một bệnh lý thuộc chuyên khoa obstetrics_gynecology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy xệ",
+        "name_en": "chay xe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy ngực nặng nề",
+        "name_en": "cam thay nguc nang ne",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da vùng ngực bị rạn",
+        "name_en": "da vung nguc bi ran",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa",
+        "name_en": "ngua",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa rát ở vú",
+        "name_en": "ngua rat o vu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngực lớn hơn bình thường rất nhiều",
+        "name_en": "nguc lon hon binh thuong rat nhieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngực sưng to",
+        "name_en": "nguc sung to",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng rát ở vú",
+        "name_en": "nong rat o vu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "núm vú mất cảm giác",
+        "name_en": "num vu mat cam giac",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "núm vú to ra",
+        "name_en": "num vu to ra",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "sờ thấy có nhân cứng lan rộng ra xung quanh",
+        "name_en": "so thay co nhan cung lan rong ra xung quanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sờ thấy có nhân cứng ở chính giữa",
+        "name_en": "so thay co nhan cung o chinh giua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vai",
+        "name_en": "vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xệ xuống",
+        "name_en": "xe xuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lưng",
+        "name_en": "dau lung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức",
+        "name_en": "dau nhuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau vú",
+        "name_en": "dau vu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Phì Đại Tuyến Vú của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Phì Đại Tuyến Vú",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như núm vú to ra và sờ thấy có nhân cứng ở chính giữa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau vú và cảm thấy ngực nặng nề, xệ xuống. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy ngực lớn hơn bình thường rất nhiều và da vùng ngực bị rạn. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị đau lưng, vai, cổ và ngực sưng to, chảy xệ. Tôi có thể đang bị bệnh gì?",
+    "Dạo gần đây tôi hay bị đau vú và sờ thấy có nhân cứng lan rộng ra xung quanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ngực lớn hơn bình thường rất nhiều và da vùng ngực bị rạn, núm vú to ra. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau vú và cảm thấy ngực nặng nề, chảy xệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau lưng, vai, cổ và ngực sưng to, chảy xệ, da vùng ngực bị rạn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau vú và sờ thấy có nhân cứng lan rộng ra xung quanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau lưng, vai, cổ và ngực sưng to, chảy xệ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau nhức, ngứa, nóng rát ở vú và ngực sưng to, chảy xệ, da vùng ngực bị rạn. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị đau lưng, vai, cổ và ngực sưng to, chảy xệ, núm vú mất cảm giác. Tôi có thể đang bị bệnh gì?",
+    "Dạo gần đây tôi hay bị đau vú và sờ thấy có nhân cứng lan rộng ra xung quanh, kèm theo ngứa rát ở vú. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy ngực lớn hơn bình thường rất nhiều và da vùng ngực bị rạn, núm vú mất cảm giác. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau vú và cảm thấy ngực nặng nề, chảy xệ, kèm theo ngứa rát ở vú. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

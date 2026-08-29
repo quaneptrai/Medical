@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_011",
+  "name_vi": "Bướu Giáp Lan Tỏa",
+  "name_en": "Buou Giap Lan Toa",
+  "category": "oncology",
+  "aliases": [
+    "Bướu Giáp Lan Tỏa",
+    "Buou Giap Lan Toa"
+  ],
+  "description": "Bướu Giáp Lan Tỏa là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "cổ mình to lên",
+        "name_en": "co minh to len",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay bị hồi hộp",
+        "name_en": "hay bi hoi hop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay bị tiêu chảy",
+        "name_en": "hay bi tieu chay",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay lo lắng",
+        "name_en": "hay lo lang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay đổ mồ hôi",
+        "name_en": "hay do mo hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hồi hộp",
+        "name_en": "hoi hop",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó chịu",
+        "name_en": "kho chiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó ngủ",
+        "name_en": "kho ngu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó tập trung",
+        "name_en": "kho tap trung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng",
+        "name_en": "lo lang",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "mắt lồi",
+        "name_en": "mat loi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nóng nảy",
+        "name_en": "nong nay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "run tay",
+        "name_en": "run tay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tim đập nhanh",
+        "name_en": "tim dap nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tuyến giáp của mình to lên",
+        "name_en": "tuyen giap cua minh to len",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tuyến giáp phì đại",
+        "name_en": "tuyen giap phi dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tuyến giáp to",
+        "name_en": "tuyen giap to",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổ mồ hôi",
+        "name_en": "do mo hoi",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bướu Giáp Lan Tỏa của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bướu Giáp Lan Tỏa",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay bị hồi hộp, tim đập nhanh, run tay và sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy tuyến giáp của mình to lên, hay bị tiêu chảy và khó chịu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, khó ngủ, mắt lồi và tuyến giáp phì đại. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đổ mồ hôi, nóng nảy, tuyến giáp to và mắt lồi. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy cổ mình to lên, tim đập nhanh, hay lo lắng và khó tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mệt mỏi, sụt cân, tuyến giáp to và mắt lồi. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy khó chịu, nóng nảy, tim đập nhanh và tuyến giáp phì đại. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, hồi hộp, hay đổ mồ hôi và tuyến giáp to. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị run tay, khó ngủ, mắt lồi và sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy cổ mình to lên, hay bị tiêu chảy và mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng, khó chịu, hay bị hồi hộp và tuyến giáp to. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nóng nảy, khó ngủ, mắt lồi và tuyến giáp phì đại. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy cổ mình to lên, tim đập nhanh, hay đổ mồ hôi và sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị mệt mỏi, khó chịu, tuyến giáp to và mắt lồi. Tôi có thể đang bị bệnh gì?",
+    "Tôi thấy khó chịu, nóng nảy, tim đập nhanh và tuyến giáp phì đại. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

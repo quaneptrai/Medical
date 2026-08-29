@@ -1,0 +1,164 @@
+{
+  "disease_id": "EXP_050",
+  "name_vi": "Bệnh Sán Dây Lợn",
+  "name_en": "Benh San Day Lon",
+  "category": "general",
+  "aliases": [
+    "Bệnh Sán Dây Lợn",
+    "Benh San Day Lon"
+  ],
+  "description": "Bệnh Sán Dây Lợn là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có triệu chứng giảm thị lực và tăng nhãn áp",
+        "name_en": "co trieu chung giam thi luc va tang nhan ap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có triệu chứng rối loạn nhịp tim",
+        "name_en": "co trieu chung roi loan nhip tim",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có triệu chứng động kinh và suy giảm trí nhớ",
+        "name_en": "co trieu chung dong kinh va suy giam tri nho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay co giật và thay đổi tính tình",
+        "name_en": "hay co giat va thay doi tinh tinh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay ngất xỉu",
+        "name_en": "hay ngat xiu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay nhìn mờ và có những nốt trắng đục trong mắt",
+        "name_en": "hay nhin mo va co nhung not trang duc trong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay đau đầu dữ dội và tăng áp lực trong sọ",
+        "name_en": "hay dau dau du doi va tang ap luc trong so",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ngứa và nổi sần dưới da",
+        "name_en": "ngua va noi san duoi da",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nhức đầu",
+        "name_en": "nhuc dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rối loạn tâm thần",
+        "name_en": "roi loan tam than",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân",
+        "name_en": "sut can",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tim đập nhanh",
+        "name_en": "tim dap nhanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau lan xuống ruột thừa",
+        "name_en": "dau lan xuong ruot thua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau nhức cơ",
+        "name_en": "dau nhuc co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau quặn bụng",
+        "name_en": "dau quan bung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đột ngột bị liệt",
+        "name_en": "dot ngot bi liet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đục thủy tinh thể",
+        "name_en": "duc thuy tinh the",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Sán Dây Lợn của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Sán Dây Lợn",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như buồn nôn, nhức đầu, tiêu chảy và sụt cân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau quặn bụng và đau lan xuống ruột thừa. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay co giật và thay đổi tính tình. Tôi có thể đang bị bệnh gì?",
+    "Tôi có triệu chứng rối loạn nhịp tim. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang ngứa và nổi sần dưới da. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đau nhức cơ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay đau đầu dữ dội và tăng áp lực trong sọ. Tôi có thể đang bị bệnh gì?",
+    "Tôi có triệu chứng động kinh và suy giảm trí nhớ. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang rối loạn tâm thần. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy đột ngột bị liệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay nhìn mờ và có những nốt trắng đục trong mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi có triệu chứng giảm thị lực và tăng nhãn áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang bị đục thủy tinh thể. Tôi có thể đang bị bệnh gì?",
+    "Tôi cảm thấy tim đập nhanh và khó thở. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay ngất xỉu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

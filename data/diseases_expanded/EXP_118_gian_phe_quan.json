@@ -1,0 +1,209 @@
+{
+  "disease_id": "EXP_118",
+  "name_vi": "Giãn Phế Quản",
+  "name_en": "Gian Phe Quan",
+  "category": "respiratory",
+  "aliases": [
+    "Giãn Phế Quản",
+    "Gian Phe Quan"
+  ],
+  "description": "Giãn Phế Quản là một bệnh lý thuộc chuyên khoa respiratory, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "cảm thấy mệt mỏi",
+        "name_en": "cam thay met moi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy ngứa ngáy ở cổ họng",
+        "name_en": "cam thay ngua ngay o co hong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy tức ngực",
+        "name_en": "cam thay tuc nguc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy đau rát ở ngực",
+        "name_en": "cam thay dau rat o nguc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay bị khò khè",
+        "name_en": "hay bi kho khe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hay ho và khạc đờm kéo dài nhiều năm, đờm có màu vàng hoặc xanh",
+        "name_en": "hay ho va khac dom keo dai nhieu nam, dom co mau vang hoac xanh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho có đờm",
+        "name_en": "ho co dom",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho dai dẳng",
+        "name_en": "ho dai dang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan kéo dài",
+        "name_en": "ho khan keo dai",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "ho kéo dài",
+        "name_en": "ho keo dai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ho nhiều về đêm",
+        "name_en": "ho nhieu ve dem",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ho ra máu",
+        "name_en": "ho ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó thở khi gắng sức",
+        "name_en": "kho tho khi gang suc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khạc ra đờm đặc",
+        "name_en": "khac ra dom dac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khạc đờm màu vàng hoặc xanh",
+        "name_en": "khac dom mau vang hoac xanh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khạc đờm đặc vào buổi sáng",
+        "name_en": "khac dom dac vao buoi sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhất là khi gắng sức",
+        "name_en": "nhat la khi gang suc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sổ mũi",
+        "name_en": "so mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụt cân không rõ nguyên nhân",
+        "name_en": "sut can khong ro nguyen nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thỉnh thoảng có lẫn máu",
+        "name_en": "thinh thoang co lan mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm phổi tái đi tái lại",
+        "name_en": "viem phoi tai di tai lai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau ngực khi hít thở sâu",
+        "name_en": "dau nguc khi hit tho sau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đặc biệt là vào buổi sáng",
+        "name_en": "dac biet la vao buoi sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Giãn Phế Quản của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Giãn Phế Quản",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay ho và khạc đờm kéo dài nhiều năm, đờm có màu vàng hoặc xanh. Tôi có thể đang bị bệnh gì?",
+    "Tôi thường xuyên bị ho, đặc biệt là vào buổi sáng, và khạc ra đờm đặc. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho khan kéo dài và khó thở, nhất là khi gắng sức. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm phổi tái đi tái lại và ho có đờm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho dai dẳng, khạc đờm màu vàng hoặc xanh, và thỉnh thoảng có lẫn máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho khan, khó thở, và đau ngực khi hít thở sâu. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho kéo dài, kèm theo sốt và ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho ra máu và cảm thấy mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó thở khi gắng sức và hay bị khò khè. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho dai dẳng, kèm theo sổ mũi và nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho nhiều về đêm và khạc đờm đặc vào buổi sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho khan kéo dài và cảm thấy ngứa ngáy ở cổ họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho ra máu và cảm thấy đau rát ở ngực. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó thở, mệt mỏi và sụt cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho dai dẳng và cảm thấy tức ngực. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

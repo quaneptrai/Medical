@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_392",
+  "name_vi": "Ung Thư Dương Vật",
+  "name_en": "Ung Thu Duong Vat",
+  "category": "oncology",
+  "aliases": [
+    "Ung Thư Dương Vật",
+    "Ung Thu Duong Vat"
+  ],
+  "description": "Ung Thư Dương Vật là một bệnh lý thuộc chuyên khoa oncology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chưa cắt",
+        "name_en": "chua cat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy máu khi cương cứng",
+        "name_en": "chay mau khi cuong cung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hẹp bao quy đầu",
+        "name_en": "hep bao quy dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì có thể bị ung thư dương vật",
+        "name_en": "lo lang vi co the bi ung thu duong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì hút thuốc lá có thể gây ung thư dương vật",
+        "name_en": "lo lang vi hut thuoc la co the gay ung thu duong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì nhiễm HPV có thể gây ung thư dương vật",
+        "name_en": "lo lang vi nhiem HPV co the gay ung thu duong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì ung thư dương vật có thể di căn",
+        "name_en": "lo lang vi ung thu duong vat co the di can",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì ung thư dương vật có thể gây tử vong",
+        "name_en": "lo lang vi ung thu duong vat co the gay tu vong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lo lắng vì xuất hiện các nốt sần trên dương vật",
+        "name_en": "lo lang vi xuat hien cac not san tren duong vat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nổi cục u trên dương vật",
+        "name_en": "noi cuc u tren duong vat",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nổi hạch ở háng",
+        "name_en": "noi hach o hang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy giảm miễn dịch do HIV/AIDS",
+        "name_en": "suy giam mien dich do HIV/AIDS",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng dương vật",
+        "name_en": "sung duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi màu sắc da dương vật",
+        "name_en": "thay doi mau sac da duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiết dịch hôi",
+        "name_en": "tiet dich hoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau dương vật",
+        "name_en": "dau duong vat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau khi quan hệ tình dục",
+        "name_en": "dau khi quan he tinh duc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát khi đi tiểu",
+        "name_en": "dau rat khi di tieu",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ung Thư Dương Vật của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ung Thư Dương Vật",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như thay đổi màu sắc da dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì xuất hiện các nốt sần trên dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau dương vật và chảy máu khi cương cứng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì có thể bị ung thư dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sưng dương vật và tiết dịch hôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì ung thư dương vật có thể di căn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi cục u trên dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau rát khi đi tiểu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị hẹp bao quy đầu và chưa cắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì nhiễm HPV có thể gây ung thư dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nổi hạch ở háng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì hút thuốc lá có thể gây ung thư dương vật. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị suy giảm miễn dịch do HIV/AIDS. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy lo lắng vì ung thư dương vật có thể gây tử vong. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

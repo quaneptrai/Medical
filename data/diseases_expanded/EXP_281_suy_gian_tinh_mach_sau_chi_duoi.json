@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_281",
+  "name_vi": "Suy Giãn Tĩnh Mạch Sau Chi Dưới",
+  "name_en": "Suy Gian Tinh Mach Sau Chi Duoi",
+  "category": "cardiology",
+  "aliases": [
+    "Suy Giãn Tĩnh Mạch Sau Chi Dưới",
+    "Suy Gian Tinh Mach Sau Chi Duoi"
+  ],
+  "description": "Suy Giãn Tĩnh Mạch Sau Chi Dưới là một bệnh lý thuộc chuyên khoa cardiology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bàn chân",
+        "name_en": "ban chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "búi tĩnh mạch nổi to rõ trên da",
+        "name_en": "bui tinh mach noi to ro tren da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chuột rút",
+        "name_en": "chuot rut",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "các mảng máu bầm trên da",
+        "name_en": "cac mang mau bam tren da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da cứng lại",
+        "name_en": "da cung lai",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kiến bò vùng cẳng chân",
+        "name_en": "kien bo vung cang chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "loét chân",
+        "name_en": "loet chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "máu thoát ra ngoài mạch",
+        "name_en": "mau thoat ra ngoai mach",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm trùng chân",
+        "name_en": "nhiem trung chan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nóng rát chân",
+        "name_en": "nong rat chan",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nặng mỏi chân",
+        "name_en": "nang moi chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phát ban",
+        "name_en": "phat ban",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù chân không mất đi khi nghỉ ngơi",
+        "name_en": "phu chan khong mat di khi nghi ngoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù chân về chiều",
+        "name_en": "phu chan ve chieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù mắt cá chân",
+        "name_en": "phu mat ca chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng",
+        "name_en": "sung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi màu sắc",
+        "name_en": "thay doi mau sac",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi màu sắc da vùng cẳng chân",
+        "name_en": "thay doi mau sac da vung cang chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê chân",
+        "name_en": "te chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tĩnh mạch nông giãn to thành búi",
+        "name_en": "tinh mach nong gian to thanh bui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm tĩnh mạch",
+        "name_en": "viem tinh mach",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vọp bẻ",
+        "name_en": "vop be",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau chân",
+        "name_en": "dau chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau tức chân",
+        "name_en": "dau tuc chan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đớn",
+        "name_en": "dau don",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đổi màu nâu trên da chân",
+        "name_en": "doi mau nau tren da chan",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Suy Giãn Tĩnh Mạch Sau Chi Dưới của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Suy Giãn Tĩnh Mạch Sau Chi Dưới",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như nặng mỏi chân và đau chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phù chân về chiều và tê chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị vọp bẻ, chuột rút và nóng rát chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như kiến bò vùng cẳng chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phù mắt cá chân và bàn chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị thay đổi màu sắc da vùng cẳng chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như đau tức chân và máu thoát ra ngoài mạch. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phù chân không mất đi khi nghỉ ngơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị búi tĩnh mạch nổi to rõ trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như các mảng máu bầm trên da. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tĩnh mạch nông giãn to thành búi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm tĩnh mạch và loét chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhiễm trùng chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy sưng, phát ban và đổi màu nâu trên da chân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đớn, da cứng lại và thay đổi màu sắc. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

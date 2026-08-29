@@ -1,0 +1,204 @@
+{
+  "disease_id": "EXP_446",
+  "name_vi": "Viêm Cầu Thận Cấp",
+  "name_en": "Viem Cau Than Cap",
+  "category": "urology",
+  "aliases": [
+    "Viêm Cầu Thận Cấp",
+    "Viem Cau Than Cap"
+  ],
+  "description": "Viêm Cầu Thận Cấp là một bệnh lý thuộc chuyên khoa urology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "HIV",
+        "name_en": "HIV",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "buồn nôn",
+        "name_en": "buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bệnh lupus ban đỏ",
+        "name_en": "benh lupus ban do",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "bọng mắt",
+        "name_en": "bong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chuột rút cơ bắp",
+        "name_en": "chuot rut co bap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "huyết áp cao",
+        "name_en": "huyet ap cao",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hồng cầu niệu",
+        "name_en": "hong cau nieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm trùng thận do virus",
+        "name_en": "nhiem trung than do virus",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhiễm trùng ở lớp niêm mạc trong của buồng tim",
+        "name_en": "nhiem trung o lop niem mac trong cua buong tim",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "nhu cầu đi tiểu thay đổi bất thường",
+        "name_en": "nhu cau di tieu thay doi bat thuong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nhu cầu đi tiểu ít hơn bình thường",
+        "name_en": "nhu cau di tieu it hon binh thuong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu có bọt",
+        "name_en": "nuoc tieu co bot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nước tiểu màu nâu hoặc có lẫn máu trong nước tiểu",
+        "name_en": "nuoc tieu mau nau hoac co lan mau trong nuoc tieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù",
+        "name_en": "phu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phù nề ở mắt cá nhân",
+        "name_en": "phu ne o mat ca nhan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "protein niệu",
+        "name_en": "protein nieu",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sức khỏe thể chất giảm",
+        "name_en": "suc khoe the chat giam",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu ra máu",
+        "name_en": "tieu ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tăng huyết áp",
+        "name_en": "tang huyet ap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "van",
+        "name_en": "van",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cầu thận hậu liên cầu",
+        "name_en": "viem cau than hau lien cau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm cầu thận sau nhiễm trùng",
+        "name_en": "viem cau than sau nhiem trung",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm gan B hoặc C",
+        "name_en": "viem gan B hoac C",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm họng",
+        "name_en": "viem hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm họng hạt hay nhiễm trùng vi khuẩn liên cầu",
+        "name_en": "viem hong hat hay nhiem trung vi khuan lien cau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm nội tâm mạc do vi khuẩn",
+        "name_en": "viem noi tam mac do vi khuan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "xuất hiện tình trạng sưng",
+        "name_en": "xuat hien tinh trang sung",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Viêm Cầu Thận Cấp của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Viêm Cầu Thận Cấp",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như tiểu ra máu, huyết áp cao, nhu cầu đi tiểu thay đổi bất thường. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phù, tăng huyết áp, protein niệu, hồng cầu niệu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nước tiểu màu nâu hoặc có lẫn máu trong nước tiểu, nước tiểu có bọt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như nhu cầu đi tiểu ít hơn bình thường, xuất hiện tình trạng sưng, phù nề ở mắt cá nhân, bọng mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy chuột rút cơ bắp, buồn nôn và nôn, tăng huyết áp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sức khỏe thể chất giảm. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm cầu thận sau nhiễm trùng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy viêm họng, viêm họng hạt hay nhiễm trùng vi khuẩn liên cầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm cầu thận hậu liên cầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm nội tâm mạc do vi khuẩn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy nhiễm trùng ở lớp niêm mạc trong của buồng tim và van. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nhiễm trùng thận do virus. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang có các triệu chứng như viêm gan B hoặc C. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy HIV. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị bệnh lupus ban đỏ. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

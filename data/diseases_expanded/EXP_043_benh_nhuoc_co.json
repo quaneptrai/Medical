@@ -1,0 +1,159 @@
+{
+  "disease_id": "EXP_043",
+  "name_vi": "Bệnh Nhược Cơ",
+  "name_en": "Benh Nhuoc Co",
+  "category": "general",
+  "aliases": [
+    "Bệnh Nhược Cơ",
+    "Benh Nhuoc Co"
+  ],
+  "description": "Bệnh Nhược Cơ là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "\"cơn nhược cơ\"",
+        "name_en": "\"con nhuoc co\"",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dáng đi nặng nề và khó khăn khi di chuyển",
+        "name_en": "dang di nang ne va kho khan khi di chuyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói như giọng mũi",
+        "name_en": "giong noi nhu giong mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hít sặc khi ăn uống",
+        "name_en": "hit sac khi an uong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi cười và biểu lộ cảm xúc trên khuôn mặt",
+        "name_en": "kho khan khi cuoi va bieu lo cam xuc tren khuon mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi nhai và nuốt thức ăn",
+        "name_en": "kho khan khi nhai va nuot thuc an",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi nhắm mắt",
+        "name_en": "kho khan khi nham mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó khăn khi nâng đồ vật và đứng dậy từ ghế",
+        "name_en": "kho khan khi nang do vat va dung day tu ghe",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mỏi cổ",
+        "name_en": "moi co",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nhai mệt và khó khăn khi ăn thịt",
+        "name_en": "nhai met va kho khan khi an thit",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhìn đôi",
+        "name_en": "nhin doi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nói khó",
+        "name_en": "noi kho",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụp mí mắt",
+        "name_en": "sup mi mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sụp mí mắt một bên",
+        "name_en": "sup mi mat mot ben",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu cơ hô hấp",
+        "name_en": "yeu co ho hap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu cơ tay chân và khó khăn khi leo cầu thang",
+        "name_en": "yeu co tay chan va kho khan khi leo cau thang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "yếu cơ tay chân và khó khăn khi đánh răng",
+        "name_en": "yeu co tay chan va kho khan khi danh rang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau mỏi cổ",
+        "name_en": "dau moi co",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Bệnh Nhược Cơ của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Bệnh Nhược Cơ",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi bị sụp mí mắt và nhìn đôi. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó khăn khi nhai và nuốt thức ăn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị nói khó và giọng nói như giọng mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó khăn khi giữ đầu ngẩng cao và dễ bị mỏi cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi yếu cơ tay chân và khó khăn khi leo cầu thang. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó khăn khi nâng đồ vật và đứng dậy từ ghế. Tôi có thể đang bị bệnh gì?",
+    "Tôi dáng đi nặng nề và khó khăn khi di chuyển. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó khăn khi cười và biểu lộ cảm xúc trên khuôn mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó thở và yếu cơ hô hấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi lo lắng mình có thể bị \"cơn nhược cơ\". Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sụp mí mắt một bên và khó khăn khi nhắm mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi nhai mệt và khó khăn khi ăn thịt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị hít sặc khi ăn uống. Tôi có thể đang bị bệnh gì?",
+    "Tôi khó khăn khi giữ đầu thẳng và hay bị đau mỏi cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi yếu cơ tay chân và khó khăn khi đánh răng. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

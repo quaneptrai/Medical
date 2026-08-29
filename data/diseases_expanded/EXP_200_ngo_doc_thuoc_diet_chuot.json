@@ -1,0 +1,194 @@
+{
+  "disease_id": "EXP_200",
+  "name_vi": "Ngộ Độc Thuốc Diệt Chuột",
+  "name_en": "Ngo Doc Thuoc Diet Chuot",
+  "category": "general",
+  "aliases": [
+    "Ngộ Độc Thuốc Diệt Chuột",
+    "Ngo Doc Thuoc Diet Chuot"
+  ],
+  "description": "Ngộ Độc Thuốc Diệt Chuột là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "bỏng da",
+        "name_en": "bong da",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "chảy nước mắt",
+        "name_en": "chay nuoc mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co giật",
+        "name_en": "co giat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "co thắt cơ bắp không kiểm soát",
+        "name_en": "co that co bap khong kiem soat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cơ thể ưỡn cong ra sau",
+        "name_en": "co the uon cong ra sau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cứng hàm",
+        "name_en": "cung ham",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giảm thị lực",
+        "name_en": "giam thi luc",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho ra máu",
+        "name_en": "ho ra mau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "huyết áp thấp",
+        "name_en": "huyet ap thap",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hôn mê",
+        "name_en": "hon me",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "hạ thân nhiệt",
+        "name_en": "ha than nhiet",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "loạn nhịp tim",
+        "name_en": "loan nhip tim",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn",
+        "name_en": "non",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nôn mửa",
+        "name_en": "non mua",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "phân bốc khói",
+        "name_en": "phan boc khoi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "run rẩy",
+        "name_en": "run ray",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "rụng tóc",
+        "name_en": "rung toc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "suy hô hấp",
+        "name_en": "suy ho hap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sùi bọt mép",
+        "name_en": "sui bot mep",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy",
+        "name_en": "tieu chay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu chảy ra máu",
+        "name_en": "tieu chay ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiêu cơ vân",
+        "name_en": "tieu co van",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tiểu ra máu",
+        "name_en": "tieu ra mau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trong miệng có mùi tỏi",
+        "name_en": "trong mieng co mui toi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm dạ dày cấp tính",
+        "name_en": "viem da day cap tinh",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm ruột cấp tính",
+        "name_en": "viem ruot cap tinh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Ngộ Độc Thuốc Diệt Chuột của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Ngộ Độc Thuốc Diệt Chuột",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như viêm ruột cấp tính và rụng tóc. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy run rẩy và giảm thị lực. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị co thắt cơ bắp không kiểm soát và cứng hàm. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy cơ thể ưỡn cong ra sau và tiêu cơ vân. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị nôn mửa và tiêu chảy ra máu. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy huyết áp thấp và trong miệng có mùi tỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị viêm dạ dày cấp tính và bỏng da. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy phân bốc khói và loạn nhịp tim. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị co giật và hôn mê. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy suy hô hấp và loạn nhịp tim. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị sùi bọt mép và chảy nước mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy tiêu chảy và nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị co giật và hạ thân nhiệt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy suy hô hấp. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị tiểu ra máu và ho ra máu. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

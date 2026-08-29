@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_254",
+  "name_vi": "Rối Loạn Giọng Nói",
+  "name_en": "Roi Loan Giong Noi",
+  "category": "general",
+  "aliases": [
+    "Rối Loạn Giọng Nói",
+    "Roi Loan Giong Noi"
+  ],
+  "description": "Rối Loạn Giọng Nói là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chảy nước mũi",
+        "name_en": "chay nuoc mui",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có giọng nói quá cao hoặc quá trầm",
+        "name_en": "co giong noi qua cao hoac qua tram",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có giọng nói run rẩy và ngắt quãng",
+        "name_en": "co giong noi run ray va ngat quang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "dị ứng hoặc hen suyễn",
+        "name_en": "di ung hoac hen suyen",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "giọng nói của mình yếu",
+        "name_en": "giong noi cua minh yeu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "ho khan",
+        "name_en": "ho khan",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khàn giọng",
+        "name_en": "khan giong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó nuốt",
+        "name_en": "kho nuot",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "khó thở",
+        "name_en": "kho tho",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "mất giọng",
+        "name_en": "mat giong",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "nghẹt mũi",
+        "name_en": "nghet mui",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ngứa họng",
+        "name_en": "ngua hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nói chuyện một cách miễn cưỡng và căng thẳng",
+        "name_en": "noi chuyen mot cach mien cuong va cang thang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sưng hạch bạch huyết ở cổ",
+        "name_en": "sung hach bach huyet o co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "sốt",
+        "name_en": "sot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thay đổi giọng nói theo từng thời điểm trong ngày",
+        "name_en": "thay doi giong noi theo tung thoi diem trong ngay",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thều thào",
+        "name_en": "theu thao",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "thở khò khè",
+        "name_en": "tho kho khe",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "trào ngược dạ dày thực quản",
+        "name_en": "trao nguoc da day thuc quan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "viêm thanh quản hoặc viêm amidan",
+        "name_en": "viem thanh quan hoac viem amidan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau họng",
+        "name_en": "dau hong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ớn lạnh",
+        "name_en": "on lanh",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Rối Loạn Giọng Nói của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Rối Loạn Giọng Nói",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay bị khàn giọng và mất giọng. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy giọng nói của mình yếu và thều thào. Tôi có thể đang bị bệnh gì?",
+    "Tôi có giọng nói run rẩy và ngắt quãng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị thay đổi giọng nói theo từng thời điểm trong ngày. Tôi có thể đang bị bệnh gì?",
+    "Tôi nói chuyện một cách miễn cưỡng và căng thẳng. Tôi có thể đang bị bệnh gì?",
+    "Tôi có giọng nói quá cao hoặc quá trầm. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị đau họng và khó nuốt. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị ho khan và ngứa họng. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị chảy nước mũi và nghẹt mũi. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sốt và ớn lạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị sưng hạch bạch huyết ở cổ. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị khó thở và thở khò khè. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị trào ngược dạ dày thực quản. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị dị ứng hoặc hen suyễn. Tôi có thể đang bị bệnh gì?",
+    "Tôi bị viêm thanh quản hoặc viêm amidan. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

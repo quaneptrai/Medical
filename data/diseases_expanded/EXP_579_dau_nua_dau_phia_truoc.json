@@ -1,0 +1,174 @@
+{
+  "disease_id": "EXP_579",
+  "name_vi": "Đau Nửa Đầu Phía Trước",
+  "name_en": "Dau Nua Dau Phia Truoc",
+  "category": "neurology",
+  "aliases": [
+    "Đau Nửa Đầu Phía Trước",
+    "Dau Nua Dau Phia Truoc"
+  ],
+  "description": "Đau Nửa Đầu Phía Trước là một bệnh lý thuộc chuyên khoa neurology, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "chóng mặt",
+        "name_en": "chong mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "da đầu",
+        "name_en": "da dau",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau đầu phía trước, bắt đầu từ trán và thái dương",
+        "name_en": "hien dang trai qua con dau dau phia truoc, bat dau tu tran va thai duong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau đầu phía trước, kèm theo buồn nôn",
+        "name_en": "hien dang trai qua con dau dau phia truoc, kem theo buon non",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau đầu phía trước, kèm theo khó tập trung",
+        "name_en": "hien dang trai qua con dau dau phia truoc, kem theo kho tap trung",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hiện đang trải qua cơn đau đầu phía trước, kèm theo đau sau mắt",
+        "name_en": "hien dang trai qua con dau dau phia truoc, kem theo dau sau mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "hoa mắt",
+        "name_en": "hoa mat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kéo dài 30 phút đến vài giờ",
+        "name_en": "keo dai 30 phut den vai gio",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "kéo dài 4-72 giờ",
+        "name_en": "keo dai 4-72 gio",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "lan ra vùng quanh đầu",
+        "name_en": "lan ra vung quanh dau",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "lan xuống cổ",
+        "name_en": "lan xuong co",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "liên tục",
+        "name_en": "lien tuc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "mệt mỏi",
+        "name_en": "met moi",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "nhạy cảm với ánh sáng",
+        "name_en": "nhay cam voi anh sang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "tê buốt da đầu",
+        "name_en": "te buot da dau",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "vai",
+        "name_en": "vai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "ù tai",
+        "name_en": "u tai",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau mặt",
+        "name_en": "dau mat",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau theo nhịp mạch đập",
+        "name_en": "dau theo nhip mach dap",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu phía trước",
+        "name_en": "dau dau phia truoc",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu phía trước khi căng thẳng",
+        "name_en": "dau dau phia truoc khi cang thang",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau đầu phía trước âm ỉ",
+        "name_en": "dau dau phia truoc am i",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Đau Nửa Đầu Phía Trước của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Đau Nửa Đầu Phía Trước",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hiện đang có các triệu chứng như đau đầu phía trước, kéo dài 4-72 giờ, kèm theo chóng mặt và ù tai. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía trước, tê buốt da đầu và đau theo nhịp mạch đập. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía trước âm ỉ và liên tục, kéo dài 30 phút đến vài giờ. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau đầu phía trước, bắt đầu từ trán và thái dương. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía trước, lan ra vùng quanh đầu và da đầu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía trước khi căng thẳng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau đầu phía trước, kèm theo đau sau mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía trước, lan xuống cổ và vai. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía trước, kèm theo hoa mắt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau đầu phía trước, kèm theo buồn nôn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía trước, kèm theo nhạy cảm với ánh sáng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía trước, kèm theo mệt mỏi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hiện đang trải qua cơn đau đầu phía trước, kèm theo khó tập trung. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy đau đầu phía trước, kèm theo đau mặt. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị đau đầu phía trước, kèm theo chóng mặt. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}

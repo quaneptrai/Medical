@@ -1,0 +1,154 @@
+{
+  "disease_id": "EXP_271",
+  "name_vi": "Sa Trực Tràng",
+  "name_en": "Sa Truc Trang",
+  "category": "general",
+  "aliases": [
+    "Sa Trực Tràng",
+    "Sa Truc Trang"
+  ],
+  "description": "Sa Trực Tràng là một bệnh lý thuộc chuyên khoa general, được ghi nhận trong phác đồ chẩn đoán của Bệnh viện Đa khoa Tâm Anh với các biểu hiện lâm sàng đặc trưng.",
+  "urgency": "moderate",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "có máu đỏ tươi chảy ra từ trực tràng",
+        "name_en": "co mau do tuoi chay ra tu truc trang",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có máu đỏ tươi chảy ra từ trực tràng khi đi đại tiện",
+        "name_en": "co mau do tuoi chay ra tu truc trang khi di dai tien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một khối mô sưng tấy sa ra khỏi hậu môn khi đi tiêu",
+        "name_en": "co mot khoi mo sung tay sa ra khoi hau mon khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một khối u sa ra khỏi hậu môn khi ho hoặc hắt hơi",
+        "name_en": "co mot khoi u sa ra khoi hau mon khi ho hoac hat hoi",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một khối u sa ra khỏi hậu môn khi vận động mạnh",
+        "name_en": "co mot khoi u sa ra khoi hau mon khi van dong manh",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một khối u sa ra khỏi hậu môn khi đứng lên",
+        "name_en": "co mot khoi u sa ra khoi hau mon khi dung len",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một khối u sa ra khỏi hậu môn trong khi đi tiêu",
+        "name_en": "co mot khoi u sa ra khoi hau mon trong khi di tieu",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có một khối u sa ra khỏi hậu môn vĩnh viễn",
+        "name_en": "co mot khoi u sa ra khoi hau mon vinh vien",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "có thể dùng tay đẩy ngược vào bên trong",
+        "name_en": "co the dung tay day nguoc vao ben trong",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "cảm thấy khó chịu",
+        "name_en": "cam thay kho chiu",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "cảm thấy khó chịu ở hậu môn",
+        "name_en": "cam thay kho chiu o hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "cảm thấy như đi đại tiện chưa hết phân",
+        "name_en": "cam thay nhu di dai tien chua het phan",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "cảm thấy như “ngồi trên một quả bóng”",
+        "name_en": "cam thay nhu \"ngoi tren mot qua bong\"",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "khó kiểm soát nhu động ruột",
+        "name_en": "kho kiem soat nhu dong ruot",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "không thể đẩy ngược vào bên trong",
+        "name_en": "khong the day nguoc vao ben trong",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "táo bón",
+        "name_en": "tao bon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát ở hậu môn",
+        "name_en": "dau rat o hau mon",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "đau rát ở hậu môn khi đi đại tiện",
+        "name_en": "dau rat o hau mon khi di dai tien",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "risk_factors": [
+    "Tiền sử gia đình hoặc bệnh lý nền mạn tính",
+    "Môi trường sống, chế độ dinh dưỡng và thói quen sinh hoạt"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nghi ngờ Sa Trực Tràng của bạn xuất hiện từ khi nào?",
+    "Mức độ ảnh hưởng đến sinh hoạt hàng ngày như thế nào?",
+    "Bạn đã từng đi khám chuyên khoa hoặc dùng thuốc điều trị trước đây chưa?"
+  ],
+  "differential_diagnoses": [
+    "Các bệnh lý viêm nhiễm hoặc rối loạn chức năng cùng cơ quan",
+    "Hội chứng mệt mỏi và suy giảm miễn dịch toàn thân"
+  ],
+  "red_flags": [
+    "Khó thở, tím tái, tụt huyết áp hoặc sốt cao li bì trong đợt tiến triển của Sa Trực Tràng",
+    "Đau dữ dội không đáp ứng thuốc, mất tri giác, nôn ra máu"
+  ],
+  "when_to_seek_emergency": [
+    "Xuất hiện cơn đau đột ngột dữ dội, khó thở tím tái hoặc ngất xỉu",
+    "Sốt cao co giật hoặc nôn mửa liên tục không cầm được"
+  ],
+  "user_language_variants": [
+    "Tôi hay cảm thấy có một khối u sa ra khỏi hậu môn trong khi đi tiêu và có thể dùng tay đẩy ngược vào bên trong. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy khó kiểm soát nhu động ruột và có máu đỏ tươi chảy ra từ trực tràng. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị táo bón và cảm thấy như đi đại tiện chưa hết phân. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có một khối u sa ra khỏi hậu môn khi ho hoặc hắt hơi. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó kiểm soát nhu động ruột và cảm thấy khó chịu ở hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có một khối u sa ra khỏi hậu môn khi đứng lên. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị táo bón và cảm thấy như “ngồi trên một quả bóng”. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có một khối u sa ra khỏi hậu môn vĩnh viễn và không thể đẩy ngược vào bên trong. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó kiểm soát nhu động ruột và có máu đỏ tươi chảy ra từ trực tràng, kèm theo táo bón. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có một khối u sa ra khỏi hậu môn khi vận động mạnh. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị táo bón và cảm thấy khó chịu, đau rát ở hậu môn. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có một khối mô sưng tấy sa ra khỏi hậu môn khi đi tiêu. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị khó kiểm soát nhu động ruột và có máu đỏ tươi chảy ra từ trực tràng khi đi đại tiện. Tôi có thể đang bị bệnh gì?",
+    "Tôi đang cảm thấy có một khối u sa ra khỏi hậu môn khi ho hoặc hắt hơi, kèm theo táo bón. Tôi có thể đang bị bệnh gì?",
+    "Tôi hay bị táo bón và cảm thấy khó chịu, đau rát ở hậu môn khi đi đại tiện. Tôi có thể đang bị bệnh gì?"
+  ],
+  "provenance": {
+    "source_document": "Bộ dữ liệu ViMedical 603 bệnh - Bệnh viện Đa khoa Tâm Anh & Kalapa Bytebattles 2023",
+    "issuing_body": "Bệnh viện Đa khoa Tâm Anh / Kalapa",
+    "year": 2023,
+    "evidence_level": "Level B - Lâm sàng thực nghiệm",
+    "reviewed_by": "Hội đồng Y khoa & Chuyên gia AI Kalapa 2023",
+    "review_date": "2023-11-15"
+  }
+}
