@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# Training and validation tooling. Install a CUDA-enabled torch wheel/container
+# supplied by the GPU provider before installing this file.
+datasets>=3.2,<6
+accelerate>=1.2,<2
+pytest>=8,<9

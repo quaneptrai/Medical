@@ -1,6 +1,7 @@
 import sys
 import io
 import json
+import unicodedata
 from pathlib import Path
 from unidecode import unidecode
 from rank_bm25 import BM25Okapi
@@ -13,6 +14,36 @@ sys.path.insert(0, str(ROOT))
 
 from knowledge.schema import DiseaseSchema, load_all_diseases
 from retrieval.search_engine import HybridDiseaseSearcher, tokenize_vietnamese
+
+
+def normalize_query(text: str) -> str:
+    """Normalize Unicode/case/whitespace consistently for leakage checks."""
+    return " ".join(unicodedata.normalize("NFKC", text).casefold().split())
+
+
+def load_forbidden_benchmark_queries() -> set[str]:
+    benchmark_files = [
+        ROOT / "data" / "test_cases" / "benchmark_603_diseases.json",
+        ROOT / "data" / "test_cases" / "generated_benchmark.json",
+        ROOT / "data" / "test_cases" / "golden_cases.json",
+    ]
+    forbidden: set[str] = set()
+    for path in benchmark_files:
+        if not path.exists():
+            continue
+        with path.open("r", encoding="utf-8") as handle:
+            payload = json.load(handle)
+        cases = payload if isinstance(payload, list) else payload.get("cases", [])
+        loaded = 0
+        for item in cases:
+            if not isinstance(item, dict) or not item.get("query"):
+                continue
+            query = normalize_query(item["query"])
+            forbidden.add(query)
+            forbidden.add(normalize_query(unidecode(query)))
+            loaded += 1
+        print(f"-> Reserved benchmark: {path.name} ({loaded:,} cases)")
+    return forbidden
 
 def build_triplets(dst_path: Path):
     print("=== 1. NẠP KNOWLEDGE BASE (TIER 1 + TIER 2) ===")
@@ -47,33 +78,15 @@ def build_triplets(dst_path: Path):
     bm25 = BM25Okapi(corpus_tokens)
 
     print("\n=== 3. NẠP BỘ TEST ĐỘC LẬP ĐỂ KIỂM SOÁT CHỐNG RÒ RỈ ===")
-    bench_file = ROOT / "data" / "test_cases" / "benchmark_603_diseases.json"
-    golden_file = ROOT / "data" / "test_cases" / "golden_cases.json"
-    
-    benchmark_queries = set()
-    if bench_file.exists():
-        with open(bench_file, "r", encoding="utf-8") as f:
-            b_data = json.load(f)
-            cases = b_data if isinstance(b_data, list) else b_data.get("cases", [])
-            for item in cases:
-                if isinstance(item, dict) and "query" in item:
-                    benchmark_queries.add(item["query"].strip().lower())
-                    benchmark_queries.add(unidecode(item["query"].strip().lower()))
-                
-    if golden_file.exists():
-        with open(golden_file, "r", encoding="utf-8") as f:
-            g_data = json.load(f)
-            cases = g_data if isinstance(g_data, list) else g_data.get("cases", [])
-            for item in cases:
-                if isinstance(item, dict) and "query" in item:
-                    benchmark_queries.add(item["query"].strip().lower())
-                    benchmark_queries.add(unidecode(item["query"].strip().lower()))
+    benchmark_queries = load_forbidden_benchmark_queries()
 
     print(f"-> Đã ghi nhận {len(benchmark_queries)} câu hỏi thuộc tập Benchmark cấm.")
 
     print("\n=== 4. KHAI THÁC TRIPLET VỚI LEAVE-ONE-OUT & CHỐNG RÒ RỈ ===")
     triplets = []
+    triplet_keys = set()
     leakage_count = 0
+    duplicate_count = 0
     
     for d in all_diseases:
         excluded_names = {d.name_vi.lower().strip(), unidecode(d.name_vi.lower().strip())}
@@ -87,7 +100,8 @@ def build_triplets(dst_path: Path):
                 continue
                 
             # Kiểm tra rò rỉ vào benchmark
-            if v_clean.lower() in benchmark_queries or unidecode(v_clean.lower()) in benchmark_queries:
+            v_normalized = normalize_query(v_clean)
+            if v_normalized in benchmark_queries or normalize_query(unidecode(v_normalized)) in benchmark_queries:
                 leakage_count += 1
                 continue # Bỏ ngay, tuyệt đối không cho vào train!
 
@@ -112,25 +126,37 @@ def build_triplets(dst_path: Path):
 
             # Thêm triplet chuẩn có dấu
             for neg_name in hard_neg_candidates:
-                triplets.append({
+                triplet = {
                     "anchor": v_clean,
                     "positive": pos_doc_leave_one_out,
                     "negative": doc_map[neg_name],
                     "target_disease": d.name_vi,
                     "confusable_disease": neg_name,
-                })
+                }
+                key = (triplet["anchor"], triplet["positive"], triplet["negative"])
+                if key not in triplet_keys:
+                    triplets.append(triplet)
+                    triplet_keys.add(key)
+                else:
+                    duplicate_count += 1
 
             # Thêm bản không dấu (symmetric anchor trick)
             v_unidecode = unidecode(v_clean)
             if v_unidecode != v_clean:
                 for neg_name in hard_neg_candidates:
-                    triplets.append({
+                    triplet = {
                         "anchor": v_unidecode,
                         "positive": pos_doc_leave_one_out,
                         "negative": doc_map[neg_name],
                         "target_disease": d.name_vi,
                         "confusable_disease": neg_name,
-                    })
+                    }
+                    key = (triplet["anchor"], triplet["positive"], triplet["negative"])
+                    if key not in triplet_keys:
+                        triplets.append(triplet)
+                        triplet_keys.add(key)
+                    else:
+                        duplicate_count += 1
 
     # 5. Báo cáo kiểm tra rò rỉ bắt buộc
     print(f"\n================ [BÁO CÁO KIỂM SOÁT RÒ RỈ DỮ LIỆU] ================")
@@ -139,13 +165,14 @@ def build_triplets(dst_path: Path):
     
     final_overlap = 0
     for t in triplets:
-        anc = t["anchor"].lower().strip()
-        if anc in benchmark_queries:
+        anc = normalize_query(t["anchor"])
+        if anc in benchmark_queries or normalize_query(unidecode(anc)) in benchmark_queries:
             final_overlap += 1
             
     print(f"[LEAKAGE CHECK] Số câu trùng giữa tập Train và Benchmark: {final_overlap}")
     assert final_overlap == 0, "NGUY HIỂM: Phát hiện rò rỉ dữ liệu giữa tập Train và Benchmark!"
     print("-> XÁC NHẬN: Tập Train và Benchmark độc lập 100% (0 câu trùng lặp)!")
+    print(f"-> Exact duplicate triplets removed: {duplicate_count:,}")
 
     # 6. Lưu file
     dst_path.parent.mkdir(parents=True, exist_ok=True)

@@ -1,3 +1,5 @@
+import json
+import os
 import re
 from typing import List, Dict, Tuple, Optional
 from pathlib import Path
@@ -15,14 +17,77 @@ class ClinicalGuardrailEngine:
     - Ngân hàng 100+ anchors phủ trọn vẹn mọi nhóm cấp cứu sinh tử và mọi biến thể khẩu ngữ.
     """
 
-    def __init__(self, model_path: Optional[str] = None, semantic_threshold: float = 0.52):
-        self.semantic_threshold = semantic_threshold
+    def __init__(
+        self,
+        model_path: Optional[str] = None,
+        semantic_threshold: Optional[float] = None,
+        calibration_path: Optional[str] = None,
+        require_semantic: bool = True,
+        allow_unverified_config: bool = False,
+    ):
+        config_path = Path(
+            calibration_path
+            or os.getenv("BOTMED_GUARDRAIL_CONFIG", "")
+            or ROOT / "artifacts" / "evaluation" / "guardrail_calibration.json"
+        )
+        runtime_config = self._load_runtime_config(config_path)
+        if (
+            runtime_config
+            and runtime_config.get("runtime_verified") is not True
+            and not allow_unverified_config
+        ):
+            raise RuntimeError(
+                f"Guardrail runtime config has not passed production wiring verification: {config_path}"
+            )
+
+        configured_threshold = os.getenv("BOTMED_GUARDRAIL_THRESHOLD")
+        if semantic_threshold is not None:
+            self.semantic_threshold = float(semantic_threshold)
+        elif configured_threshold is not None:
+            self.semantic_threshold = float(configured_threshold)
+        else:
+            self.semantic_threshold = float(runtime_config.get("selected_threshold", 0.52))
+
+        configured_model = (
+            model_path
+            or os.getenv("BOTMED_GUARDRAIL_MODEL")
+            or runtime_config.get("model")
+        )
+        if configured_model is None:
+            local_default = ROOT / "models" / "bge-m3-medical"
+            configured_model = str(local_default) if local_default.exists() else "BAAI/bge-m3"
+        self.model_path = self._resolve_model_reference(str(configured_model))
+        self.calibration_path = str(config_path) if config_path.exists() else None
         self.emergency_rules = self._init_universal_emergency_rules()
         self.semantic_anchors = self._build_symmetric_emergency_anchors()
         
         self.embed_model = None
         self.anchor_embeddings = None
-        self._init_embedding_matcher(model_path)
+        self.semantic_load_error = None
+        self._init_embedding_matcher(self.model_path, require_semantic=require_semantic)
+
+    @staticmethod
+    def _load_runtime_config(path: Path) -> Dict:
+        if not path.exists():
+            return {}
+        try:
+            with path.open("r", encoding="utf-8") as handle:
+                config = json.load(handle)
+        except (OSError, json.JSONDecodeError) as exc:
+            raise RuntimeError(f"Invalid guardrail runtime config at {path}: {exc}") from exc
+        if not isinstance(config, dict):
+            raise RuntimeError(f"Guardrail runtime config must be a JSON object: {path}")
+        return config
+
+    @staticmethod
+    def _resolve_model_reference(reference: str) -> str:
+        path = Path(reference)
+        if path.is_absolute():
+            return str(path)
+        project_path = ROOT / path
+        if project_path.exists() or reference.startswith(("models/", "models\\", ".")):
+            return str(project_path)
+        return reference
 
     def _normalize(self, text: str) -> str:
         return unidecode(text.lower().strip())
@@ -251,19 +316,22 @@ class ClinicalGuardrailEngine:
             }
         ]
 
-    def _init_embedding_matcher(self, model_path: Optional[str]):
+    def _init_embedding_matcher(self, model_path: str, require_semantic: bool = True):
         try:
             from sentence_transformers import SentenceTransformer
-            path_to_load = model_path or str(ROOT / "models" / "bge-m3-medical")
-            if not Path(path_to_load).exists():
-                path_to_load = "BAAI/bge-m3"
-                
-            self.embed_model = SentenceTransformer(path_to_load, device="cpu")
+
+            device = os.getenv("BOTMED_GUARDRAIL_DEVICE", "cpu")
+            self.embed_model = SentenceTransformer(model_path, device=device)
             anchor_texts = [a["text"] for a in self.semantic_anchors]
             self.anchor_embeddings = self.embed_model.encode(anchor_texts, normalize_embeddings=True)
-        except Exception:
+        except Exception as exc:
             self.embed_model = None
             self.anchor_embeddings = None
+            self.semantic_load_error = repr(exc)
+            if require_semantic:
+                raise RuntimeError(
+                    f"Failed to load required semantic guardrail model '{model_path}': {exc}"
+                ) from exc
 
     def evaluate_emergency(self, user_message: str, current_symptoms: Optional[List[str]] = None) -> Optional[Dict]:
         """
