@@ -93,6 +93,9 @@ def run_top5_judge_calibration():
     }
     
     top5_miss_count = 0
+    total_positives = 0
+    judge_total = 0
+    judge_correct = 0
     confusion_pairs = []
 
     for case in tqdm(test_cases):
@@ -103,8 +106,11 @@ def run_top5_judge_calibration():
         top5 = get_top5_candidates(query)
         
         # Kiểm tra xem đáp án đúng có lọt vào Top 5 của BM25 không
-        if src != "negative" and true_label not in top5:
-            top5_miss_count += 1
+        in_top5 = (src == "negative") or (true_label in top5)
+        if src != "negative":
+            total_positives += 1
+            if not in_top5:
+                top5_miss_count += 1
             
         # Xây dựng prompt ngắn gọn chỉ gồm 5 ứng viên
         candidates_text = ""
@@ -132,11 +138,16 @@ QUY TẮC PHÂN LOẠI:
             continue
             
         stats[src]["total"] += 1
+        if in_top5:
+            judge_total += 1
+
         ans_clean = ans.strip().lower()
         true_clean = true_label.strip().lower()
         
         if ans_clean == true_clean:
             stats[src]["correct"] += 1
+            if in_top5:
+                judge_correct += 1
         else:
             if src == "negative":
                 stats[src]["false_positive"] += 1
@@ -148,31 +159,45 @@ QUY TẮC PHÂN LOẠI:
                     confusion_pairs.append(f"Đúng: {true_label} -> Đoán nhầm: {ans}")
 
     print("\n================ [KẾT QUẢ SÁT HẠCH RAG TOP-5] ================")
+    
+    # 1. Độ chính xác riêng của Giám khảo (chỉ tính trên ca có đáp án trong Top 5)
+    if judge_total > 0:
+        print(f"1. Độ chính xác RIÊNG của Giám khảo (chỉ tính ca có đáp án trong Top 5):")
+        print(f"   - Accuracy riêng của Giám khảo: {judge_correct/judge_total:.2%} ({judge_correct}/{judge_total})")
+        
+    # 2. Độ phủ của tầng Truy xuất (Ceiling)
+    if total_positives > 0:
+        top5_recall = (total_positives - top5_miss_count) / total_positives
+        print(f"\n2. Hiệu năng tầng Truy xuất BM25 (Trần của hệ thống):")
+        print(f"   - Tỉ lệ bệnh đúng lọt vào Top 5: {top5_recall:.2%} ({total_positives - top5_miss_count}/{total_positives})")
+        print(f"   - Số ca bị trượt ngay từ vòng gửi xe: {top5_miss_count} ca")
+
+    # 3. Chi tiết theo từng tập
+    print(f"\n3. Phân loại lỗi chi tiết:")
     if stats["variants"]["total"] > 0:
         v = stats["variants"]
         acc_v = v["correct"] / v["total"]
-        print(f"1. Tập VARIANTS:")
-        print(f"   - Accuracy: {acc_v:.2%} ({v['correct']}/{v['total']})")
-        print(f"   - Từ chối nhầm (trả KHONG_THUOC): {v['false_khong_thuoc']} ca ({v['false_khong_thuoc']/v['total']:.1%})")
-        print(f"   - Đoán nhầm sang bệnh khác: {v['wrong_disease']} ca ({v['wrong_disease']/v['total']:.1%})")
+        print(f"   * Tập VARIANTS:")
+        print(f"     - Accuracy tổng gộp: {acc_v:.2%} ({v['correct']}/{v['total']})")
+        print(f"     - Từ chối nhầm (trả KHONG_THUOC): {v['false_khong_thuoc']} ca ({v['false_khong_thuoc']/v['total']:.1%})")
+        print(f"     - Đoán nhầm sang bệnh khác: {v['wrong_disease']} ca ({v['wrong_disease']/v['total']:.1%})")
 
     if stats["generated"]["total"] > 0:
         g = stats["generated"]
         acc_g = g["correct"] / g["total"]
-        print(f"\n2. Tập GENERATED:")
-        print(f"   - Accuracy: {acc_g:.2%} ({g['correct']}/{g['total']})")
-        print(f"   - Từ chối nhầm (KHONG_THUOC): {g['false_khong_thuoc']}")
-        print(f"   - Đoán nhầm sang bệnh khác: {g['wrong_disease']}")
+        print(f"   * Tập GENERATED:")
+        print(f"     - Accuracy tổng gộp: {acc_g:.2%} ({g['correct']}/{g['total']})")
+        print(f"     - Từ chối nhầm (KHONG_THUOC): {g['false_khong_thuoc']} ca")
+        print(f"     - Đoán nhầm sang bệnh khác: {g['wrong_disease']} ca")
 
     if stats["negative"]["total"] > 0:
         n = stats["negative"]
         acc_n = n["correct"] / n["total"]
         fpr = n["false_positive"] / n["total"]
-        print(f"\n3. Tập NEGATIVE (Khả năng từ chối):")
-        print(f"   - Accuracy từ chối: {acc_n:.2%} ({n['correct']}/{n['total']})")
-        print(f"   - Tỉ lệ báo nhầm (FPR): {fpr:.2%}")
+        print(f"   * Tập NEGATIVE (Khả năng từ chối):")
+        print(f"     - Accuracy từ chối: {acc_n:.2%} ({n['correct']}/{n['total']})")
+        print(f"     - Tỉ lệ báo nhầm (FPR): {fpr:.2%}")
 
-    print(f"\nTop 5 BM25 bỏ sót nhãn đúng ở vòng gửi xe: {top5_miss_count} ca")
     if confusion_pairs:
         print("\nCác ca nhầm lẫn tiêu biểu:")
         for cp in confusion_pairs[:8]:
