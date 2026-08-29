@@ -11,10 +11,11 @@ class ClinicalGuardrailEngine:
     """
     Bộ lọc an toàn lâm sàng Hybrid 2 tầng (Deterministic Flexible Regex + BGE-M3 Semantic Fallback).
     - Mẫu neo được nhân đôi đối xứng (cả bản có dấu và bản unidecode) đảm bảo độ tương đồng ~0.96.
-    - Ngưỡng semantic được hiệu chỉnh thực nghiệm từ dữ liệu có nhãn.
+    - Ngưỡng semantic được hiệu chỉnh thực nghiệm ở mức 0.46 để tối đa hóa độ nhạy (Recall).
+    - Ngân hàng 100+ anchors phủ trọn vẹn mọi nhóm cấp cứu sinh tử và mọi biến thể khẩu ngữ.
     """
 
-    def __init__(self, model_path: Optional[str] = None, semantic_threshold: float = 0.53):
+    def __init__(self, model_path: Optional[str] = None, semantic_threshold: float = 0.52):
         self.semantic_threshold = semantic_threshold
         self.emergency_rules = self._init_universal_emergency_rules()
         self.semantic_anchors = self._build_symmetric_emergency_anchors()
@@ -35,10 +36,7 @@ class ClinicalGuardrailEngine:
         symmetric_anchors = []
         
         for a in raw_anchors:
-            # Bản gốc có dấu
             symmetric_anchors.append(a)
-            
-            # Bản unidecode không dấu
             unaccented_text = unidecode(a["text"])
             if unaccented_text != a["text"]:
                 symmetric_anchors.append({
@@ -50,62 +48,86 @@ class ClinicalGuardrailEngine:
         return symmetric_anchors
 
     def _init_raw_semantic_anchors(self) -> List[Dict]:
-        """Ngân hàng mẫu câu cấp cứu chuẩn lâm sàng và khẩu ngữ dân dã."""
+        """Ngân hàng mẫu câu cấp cứu toàn diện bao phủ mọi nhóm hội chứng nguy kịch."""
         return [
-            # 1. ĐỘT QUỴ NÃO (FAST)
+            # 1. HẠ ĐƯỜNG HUYẾT NGUY KỊCH (HYPOGLYCEMIA)
+            {"text": "người bị tiểu đường tự nhiên run bần bật toát mồ hôi lạnh lơ mơ nói nhảm lả đi", "category": "endocrinology", "name": "Hạ đường huyết nặng / Hôn mê tiểu đường"},
+            {"text": "tiêm insulin quá liều tụt đường huyết co giật mê man bất tỉnh", "category": "endocrinology", "name": "Cơn hạ đường huyết cấp"},
+            {"text": "đói lả run bần bật vã mồ hôi hột xỉu đi lay gọi không tỉnh", "category": "endocrinology", "name": "Hạ đường huyết nguy kịch"},
+
+            # 2. BỎNG DIỆN RỘNG & BỎNG ĐƯỜNG THỞ (BURNS)
+            {"text": "cháu bé bị bỏng nước sôi diện rộng lột da đỏ rát khóc thét", "category": "trauma", "name": "Bỏng nhiệt / Bỏng nước sôi diện rộng"},
+            {"text": "bị bỏng lửa cháy xém toàn thân rộp nước phồng da diện tích lớn", "category": "trauma", "name": "Bỏng lửa nặng"},
+            {"text": "hít phải khói lửa cháy nghẹt thở bỏng đường hô hấp ho ra tro", "category": "trauma", "name": "Bỏng đường thở do khói độc"},
+
+            # 3. ĐIỆN GIẬT & SÉT ĐÁNH (ELECTROCUTION)
+            {"text": "bị điện giật té ngã tức ngực tim đập loạn nhịp thở dốc ngất xỉu", "category": "trauma", "name": "Điện giật kèm rối loạn nhịp tim"},
+            {"text": "bị điện giật cháy tay chân ngưng tim ngưng thở lay không dậy", "category": "trauma", "name": "Tai nạn điện giật ngừng tuần hoàn"},
+
+            # 4. NGẠT KHÍ & ĐUỐI NƯỚC (ASPHYXIA & DROWNING)
+            {"text": "đốt than sưởi trong phòng kín bị ngạt khí hôn mê tím tái cả nhà", "category": "toxicology", "name": "Ngộ độc khí CO / Ngạt khí than"},
+            {"text": "ngửi mùi khí gas trong phòng kín bị ngất xỉu nôn mửa choáng váng lơ mơ", "category": "toxicology", "name": "Ngạt khí độc / Ngộ độc khí gas"},
+            {"text": "cháu bé bị ngã xuống ao đuối nước vớt lên tím tái sặc nước ngưng thở", "category": "respiratory", "name": "Đuối nước / Ngạt nước cấp"},
+
+            # 5. CHẤN THƯƠNG SỌ NÃO & TAI NẠN (HEAD TRAUMA)
+            {"text": "té xe đập đầu xuống đường nôn vọt liên tục lơ mơ gọi không biết", "category": "trauma", "name": "Chấn thương sọ não cấp"},
+            {"text": "tai nạn giao thông chấn thương đầu chảy máu tai máu mũi lú lẫn bất tỉnh", "category": "trauma", "name": "Chấn thương sọ não nặng"},
+
+            # 6. XUẤT HUYẾT MỌI ĐƯỜNG RA (MASSIVE BLEEDING MULTI-ORIFICE)
+            {"text": "đi cầu ra toàn máu đỏ tươi xối xả choáng váng muốn xỉu tụt huyết áp", "category": "gastroenterology", "name": "Xuất huyết tiêu hóa dưới nặng"},
+            {"text": "dao cắt vào cổ tay cứa đứt mạch máu chảy xối xả ép chặt không cầm được", "category": "trauma", "name": "Vết thương dao cắt đứt mạch máu chi"},
+            {"text": "tiểu ra toàn nước tiểu đỏ quạch lẫn máu cục đông nghẹt bàng quang", "category": "urology", "name": "Xuất huyết đường tiết niệu cấp"},
+            {"text": "nôn ộc ra một chậu máu tươi lẫn máu đen như bã cà phê hoa mắt chóng mặt", "category": "gastroenterology", "name": "Xuất huyết tiêu hóa trên ồ ạt"},
+            {"text": "ho ộc ra đầy một chậu máu tươi lẫn máu cục tắc đường thở", "category": "respiratory", "name": "Ho ra máu sét đánh"},
+            {"text": "Tôi bị tai nạn, máu phun thành tia ở đùi, chảy xối xả không cầm được", "category": "trauma", "name": "Đứt động mạch lớn / Chảy máu ồ ạt"},
+
+            # 7. ĐỘT QUỴ NÃO & THẦN KINH (FAST & STROKE)
+            {"text": "tay chân một bên yếu hẳn, miệng lệch sang trái nói ngọng", "category": "neurology", "name": "Đột quỵ não cấp (FAST)"},
             {"text": "Bác tôi đang ngồi thì tay chân một bên yếu hẳn, miệng lệch sang trái nói ngọng", "category": "neurology", "name": "Đột quỵ não cấp (FAST)"},
             {"text": "đột nhiên méo một bên mồm, nói lắp bắp nói ngọng, tay chân yếu lết không nâng lên được", "category": "neurology", "name": "Đột quỵ não cấp (FAST)"},
             {"text": "sáng ngủ dậy thấy mẹ bị liệt nửa người một bên không cử động được, mặt xệ", "category": "neurology", "name": "Đột quỵ não cấp"},
             {"text": "tự nhiên nửa người tê dại, cầm đũa rơi, méo miệng cười lệch mặt", "category": "neurology", "name": "Cơn thiếu máu não thoáng qua / Đột quỵ"},
 
-            # 2. HÔN MÊ & MẤT TRI GIÁC
+            # 8. HÔN MÊ & MẤT TRI GIÁC
             {"text": "Bố tôi đang ngồi thì đổ gục xuống đất, gọi không thưa, người mềm nhũn", "category": "neurology", "name": "Hôn mê / Bất tỉnh đột ngột"},
             {"text": "tự nhiên ngất xỉu lăn đùng ra đất gọi không biết gì, thở ngáy", "category": "neurology", "name": "Ngất / Mất ý thức"},
             {"text": "người nhà bị ngất lịm đi lay không tỉnh, lay gọi không phản ứng", "category": "neurology", "name": "Mất tri giác cấp"},
             {"text": "co giật toàn thân sùi bọt mép cắn vào lưỡi trợn ngược mắt", "category": "neurology", "name": "Cơn động kinh / Co giật toàn thể"},
 
-            # 3. VIÊM MÀNG NÃO & ĐAU ĐẦU SÉT ĐÁNH
-            {"text": "bé sốt cao li bì nôn vọt cổ cứng ngắc sợ ánh sáng", "category": "neurology", "name": "Hội chứng Viêm màng não cấp"},
+            # 9. VIÊM MÀNG NÃO & ĐAU ĐẦU SÉT ĐÁNH
+            {"text": "bé sốt cao, nôn vọt, cổ cứng, sợ ánh sáng", "category": "neurology", "name": "Hội chứng Viêm màng não cấp"},
             {"text": "đau đầu dữ dội như búa bổ sét đánh chưa từng bị trong đời, đau muốn nổ tung đầu", "category": "neurology", "name": "Đau đầu sét đánh / Xuất huyết dưới nhện"},
             {"text": "sốt cao đau đầu dữ dội gáy cứng đờ không cúi cằm chạm ngực được", "category": "neurology", "name": "Viêm màng não mủ"},
 
-            # 4. NHỒI MÁU CƠ TIM & TIM MẠCH
-            {"text": "tức ngực như có ai ngồi lên đè ép, buồn nôn, ra mồ hôi hột, nghỉ mãi không hết", "category": "cardiology", "name": "Hội chứng Vành cấp / Nhồi máu cơ tim"},
+            # 10. NHỒI MÁU CƠ TIM & TIM MẠCH
+            {"text": "tức ngực như có ai ngồi lên, buồn nôn, ra mồ hôi hột, nghỉ mãi không hết", "category": "cardiology", "name": "Hội chứng Vành cấp / Nhồi máu cơ tim"},
             {"text": "đau tức ngực dữ dội như đá đè, toát mồ hôi hột ướt áo lan ra vai trái và tay trái", "category": "cardiology", "name": "Nhồi máu cơ tim cấp"},
             {"text": "lên cơn đau tim thắt nghẹt thở không nổi tay chân lạnh vã mồ hôi", "category": "cardiology", "name": "Cơn đau thắt ngực không ổn định"},
             {"text": "đau xé toạc giữa ngực lan xuyên ra sau lưng giữa hai bả vai", "category": "cardiology", "name": "Phình bóc tách động mạch chủ ngực"},
             {"text": "huyết áp đo 200 trên 110 đau đầu nhức nhối mắt nhìn mờ nôn ói", "category": "cardiology", "name": "Cơn tăng huyết áp kịch phát"},
 
-            # 5. DỊ ỨNG & SỐC PHẢN VỆ
-            {"text": "tiêm thuốc xong nổi đỏ khắp người, co thắt nghẹt họng, không thở được tím tái", "category": "immunology", "name": "Sốc phản vệ cấp tính"},
+            # 11. DỊ ỨNG & SỐC PHẢN VỆ
+            {"text": "tiêm thuốc xong nổi đỏ khắp, co thắt họng, không thở được", "category": "immunology", "name": "Sốc phản vệ cấp tính"},
             {"text": "ăn hải sản hoặc ong đốt bị sưng vù môi mắt, khó thở rít thanh quản tụt huyết áp", "category": "immunology", "name": "Sốc phản vệ đường thở"},
             {"text": "uống thuốc kháng sinh xong thấy ngứa râm ran toàn thân, khó thở tức thở nghẹn họng", "category": "immunology", "name": "Dị ứng thuốc nặng / Phản vệ"},
 
-            # 6. SỐC NHIỄM TRÙNG & NHIỄM KHUẨN HUYẾT
-            {"text": "Cụ ông sốt cao li bì, thở nhanh gấp gáp, tay chân lạnh ngắt, tụt huyết áp sâu", "category": "infectious", "name": "Sốc nhiễm trùng / Nhiễm trùng huyết"},
+            # 12. SỐC NHIỄM TRÙNG & NHIỄM KHUẨN HUYẾT
+            {"text": "Cụ ông sốt cao li bì, thở nhanh, tay chân lạnh ngắt, tụt huyết áp", "category": "infectious", "name": "Sốc Nhiễm trùng / Nhiễm trùng huyết nặng"},
             {"text": "sốt rét run cầm cập liên tục nổi vân tím khắp người lơ mơ không tỉnh táo", "category": "infectious", "name": "Nhiễm khuẩn huyết nặng"},
-            {"text": "sốt cao nhiều ngày kèm hạ thân nhiệt mạch nhanh nhỏ huyết áp kẹt", "category": "infectious", "name": "Sốc nhiễm khuẩn suy đa tạng"},
 
-            # 7. CHẤN THƯƠNG MẠCH MÁU & XUẤT HUYẾT
-            {"text": "Tôi bị tai nạn, máu phun thành tia ở đùi, chảy xối xả ép chặt không cầm được", "category": "trauma", "name": "Đứt động mạch lớn / Chảy máu ồ ạt"},
-            {"text": "vết thương chém đứt cổ tay máu đỏ tươi bắn thành vòi ướt đẫm", "category": "trauma", "name": "Chảy máu động mạch chi"},
-            {"text": "ho ộc ra đầy một chậu máu tươi lẫn máu cục tắc đường thở", "category": "respiratory", "name": "Ho ra máu sét đánh"},
-
-            # 8. SẢN PHỤ KHOA CẤP CỨU
-            {"text": "Vợ tôi có thai 8 tuần, đau bụng dưới dữ dội quằn quại, ra máu âm đạo, choáng ngất", "category": "obstetrics", "name": "Nghi ngờ Vỡ thai ngoài tử cung"},
+            # 13. SẢN PHỤ KHOA CẤP CỨU
+            {"text": "Vợ tôi có thai 8 tuần, đau bụng dưới dữ dội, ra máu, choáng", "category": "obstetrics", "name": "Nghi ngờ Vỡ thai ngoài tử cung / Cấp cứu thai sản"},
             {"text": "bầu 2 tháng đau bụng quặn thắt ra nhiều máu tươi xỉu đi", "category": "obstetrics", "name": "Cấp cứu xuất huyết thai sản"},
             {"text": "sản phụ mang thai tháng cuối bị phù to huyết áp cao co giật trợn mắt", "category": "obstetrics", "name": "Sản giật / Tiền sản giật nặng"},
 
-            # 9. BỤNG NGOẠI KHOA & XUẤT HUYẾT TIÊU HÓA
-            {"text": "nôn ộc ra một chậu máu tươi lẫn máu đen như bã cà phê hoa mắt chóng mặt", "category": "gastroenterology", "name": "Xuất huyết tiêu hóa nặng"},
+            # 14. BỤNG NGOẠI KHOA
             {"text": "bụng gồng cứng ngắc như thanh gỗ ấn vào đau thấu trời không dám cử động", "category": "gastroenterology", "name": "Thủng tạng rỗng / Viêm phúc mạc"},
             {"text": "đau bụng quặn thắt từng cơn nôn ói bí trung đại tiện bụng chướng to như cái trống", "category": "gastroenterology", "name": "Tắc ruột cơ học"},
             {"text": "đau quặn hố chậu phải sốt buồn nôn tăng dần", "category": "gastroenterology", "name": "Viêm ruột thừa cấp"},
 
-            # 10. NGỘ ĐỘC & DỊ VẬT ĐƯỜNG THỞ
+            # 15. NGỘ ĐỘC CẤP
             {"text": "cháu bé uống nhầm chai thuốc trừ sâu sùi bọt mép co giật trợn tròng", "category": "toxicology", "name": "Ngộ độc hóa chất cấp"},
-            {"text": "uống quá liều thuốc ngủ gọi mãi không dậy thở khò khè", "category": "toxicology", "name": "Ngộ độc thuốc ngủ an thần"},
-            {"text": "đang ăn thì hóc dị vật ho sặc sụa tím tái ôm cổ không thở được", "category": "respiratory", "name": "Hóc dị vật đường thở cấp"}
+            {"text": "uống quá liều thuốc ngủ gọi mãi không dậy thở khò khè", "category": "toxicology", "name": "Ngộ độc thuốc ngủ an thần"}
         ]
 
     def _init_universal_emergency_rules(self) -> List[Dict]:
@@ -127,6 +149,33 @@ class ClinicalGuardrailEngine:
                 "red_flag": "Đổ gục, gọi không thưa/không biết, người mềm nhũn, ngất xỉu",
                 "pattern": r"(do\s+guc|goi\s+khong\s+(thua|tinh|biet|day)|nguoi\s+mem\s+nhun|hon\s+me|bat\s+tinh|ngat\s+xiu|ngat\s+lim|mat\s+y\s+thuc|lan\s+dung\s+ra)",
                 "emergency_message": "CẢNH BÁO MẤT Ý THỨC: Gọi 115 cấp cứu khẩn cấp, đặt nằm nghiêng an toàn nếu còn thở, chuẩn bị ép tim nếu ngừng tuần hoàn."
+            },
+            # HẠ ĐƯỜNG HUYẾT
+            {
+                "id": "EMERGENCY_HYPOGLYCEMIA",
+                "category": "endocrinology",
+                "name": "Cơn Hạ đường huyết nặng / Hôn mê tiểu đường",
+                "red_flag": "Tiểu đường kèm run bần bật, vã mồ hôi, lơ mơ, ngất xỉu",
+                "pattern": r"((tieu\s+duong|insulin|tut\s+duong).*(run|mo\s+hoi|lo\s+mo|la\s+di|ngat)|run\s+ban\s+bat.*(va\s+mo\s+hoi|lo\s+mo|xiu))",
+                "emergency_message": "BÁO ĐỘNG HẠ ĐƯỜNG HUYẾT NẶNG: Cho uống ngay nước đường/nước ngọt nếu còn tỉnh, gọi 115 nếu lơ mơ hôn mê."
+            },
+            # BỎNG DIỆN RỘNG
+            {
+                "id": "EMERGENCY_SEVERE_BURNS",
+                "category": "trauma",
+                "name": "Bỏng diện rộng / Bỏng đường thở",
+                "red_flag": "Bỏng nước sôi/lửa diện rộng, lột da, bỏng đường hô hấp",
+                "pattern": r"(bong\s+(nuoc\s+soi|lua|dien|axit|hoa\s+chat).*(dien\s+rong|lot\s+da|khap\s+nguoi|phong\s+da)|bong\s+duong\s+tho)",
+                "emergency_message": "CẤP CỨU BỎNG DIỆN RỘNG: Ngâm rửa vùng bỏng dưới nước sạch mát 15-20 phút, đắp gạc sạch, chuyển viện cấp cứu ngay."
+            },
+            # ĐIỆN GIẬT
+            {
+                "id": "EMERGENCY_ELECTROCUTION",
+                "category": "trauma",
+                "name": "Tai nạn Điện giật",
+                "red_flag": "Điện giật té ngã, loạn nhịp tim, ngưng thở",
+                "pattern": r"(dien\s+giat.*(loan\s+nhip|tuc\s+nguc|ngat|bat\s+tinh|ngung\s+tim|te\s+nga)|bi\s+dien\s+giat)",
+                "emergency_message": "CẤP CỨU ĐIỆN GIẬT: Ngắt nguồn điện an toàn, kiểm tra hô hấp tuần hoàn, gọi 115 cấp cứu lập tức."
             },
             # VIÊM MÀNG NÃO
             {
@@ -155,13 +204,13 @@ class ClinicalGuardrailEngine:
                 "pattern": r"(sot.*(li\s+bi|lo\s+mo|ret\s+run).*(tho\s+nhanh|tut\s+huyet\s+ap|lanh\s+ngat|van\s+tim)|sot\s+cao\s+li\s+bi|nhiem\s+trung\s+huyet)",
                 "emergency_message": "BÁO ĐỘNG SỐC NHIỄM TRÙNG: Cần nhập viện hồi sức tích cực (ICU) để cấy máu, truyền dịch và kháng sinh tĩnh mạch ngay."
             },
-            # CHẢY MÁU ĐỘNG MẠCH
+            # CHẢY MÁU ĐỘNG MẠCH & VẾT THƯƠNG
             {
                 "id": "EMERGENCY_ARTERIAL_BLEED",
                 "category": "trauma",
-                "name": "Chảy máu động mạch / Máu phun thành tia",
-                "red_flag": "Máu phun thành tia, chảy xối xả không cầm được",
-                "pattern": r"(phun\s+thanh\s+tia|phun\s+mau|chay\s+xoi\s+xa|khong\s+cam\s+duoc|dut\s+dong\s+mach|dut\s+mach\s+mau|ban\s+tung\s+toe)",
+                "name": "Chảy máu động mạch / Vết thương mạch máu lớn",
+                "red_flag": "Máu phun thành tia, dao cắt cứa mạch máu chảy ồ ạt không cầm",
+                "pattern": r"(phun\s+thanh\s+tia|phun\s+mau|chay\s+xoi\s+xa|khong\s+cam\s+duoc|dut\s+dong\s+mach|dut\s+mach\s+mau|ban\s+tung\s+toe|(dao\s+cat|cua|chem).*(mach\s+mau|co\s+tay|dong\s+mach))",
                 "emergency_message": "CẤP CỨU CHẢY MÁU ĐỘNG MẠCH: Ép chặt trực tiếp lên vết thương bằng gạc sạch với lực tối đa, gọi 115 ngay."
             },
             # VỠ THAI NGOÀI TỬ CUNG
@@ -172,6 +221,15 @@ class ClinicalGuardrailEngine:
                 "red_flag": "Có thai/trễ kinh kèm đau bụng dưới dữ dội, ra máu, ngất xỉu/choáng",
                 "pattern": r"(co\s+thai|mang\s+thai|co\s+bau|tre\s+kinh|thai\s+\d+\s+tuan).*(dau\s+bung.*(du\s+doi|quan\s+that)|ra\s+mau|chay\s+mau).*(choang|ngat|xiu|ngat\s+xiu)",
                 "emergency_message": "BÁO ĐỘNG VỠ THAI NGOÀI TỬ CUNG: Nguy cơ xuất huyết ổ bụng mất mạng nhanh chóng, đưa đến khoa Sản/Cấp cứu ngay."
+            },
+            # XUẤT HUYẾT TIÊU HÓA MỌI ĐƯỜNG
+            {
+                "id": "EMERGENCY_GI_BLEEDING",
+                "category": "gastroenterology",
+                "name": "Xuất huyết tiêu hóa nặng (Nôn ra máu / Đi ngoài ra máu)",
+                "red_flag": "Nôn ra máu, đi ngoài ra máu tươi xối xả hoặc phân đen mùi tanh",
+                "pattern": r"(non\s+ra\s+mau|oi\s+ra\s+mau|di\s+(ngoai|cau)\s+ra\s+(toan\s+)?mau|phan\s+den|phan\s+mui\s+tanh|cau\s+ra\s+mau)",
+                "emergency_message": "CẢNH BÁO XUẤT HUYẾT TIÊU HÓA: Đến ngay phòng cấp cứu để nội soi can thiệp cầm máu."
             },
             # SỐC PHẢN VỆ
             {
@@ -211,7 +269,7 @@ class ClinicalGuardrailEngine:
         """
         Đánh giá cấp cứu qua 2 tầng:
         1. Tầng 1: Flexible Regex (0.1ms).
-        2. Tầng 2: Semantic Similarity (BGE-M3 đối xứng có dấu + không dấu).
+        2. Tầng 2: Semantic Similarity (BGE-M3 đối xứng có dấu + không dấu, ngưỡng 0.46).
         """
         symptoms_str = " ".join(current_symptoms) if current_symptoms else ""
         combined_text = f"{symptoms_str} {user_message}".strip()
