@@ -75,8 +75,9 @@ Pipeline production giữ riêng hai thư mục model:
 - `models/bge-m3-medical-v2-raw`: model fine-tune đầy đủ và checkpoint để resume.
 - `models/bge-m3-medical-v2`: model deploy được tạo bằng cách scale weight delta đã học.
 
-`BLEND_ALPHA=0.07` là giá trị mặc định đã được chọn trên benchmark độc lập. Không tăng
-giá trị này nếu chưa chạy lại toàn bộ quality gate. Gate cho phép tối đa 0,5 điểm phần
+`BLEND_ALPHA=0.07` là giá trị mặc định đã được chọn trên tập validation hiện có. Vì tập
+này đã tham gia chọn alpha, nó không còn là final holdout độc lập và không được dùng để
+tuyên bố hiệu quả lâm sàng. Không tăng giá trị này nếu chưa chạy lại toàn bộ quality gate. Gate cho phép tối đa 0,5 điểm phần
 trăm suy giảm ở Recall@1/Recall@5 thông thường và không cho phép bất kỳ suy giảm nào ở
 `emergency_recall@5`.
 
@@ -89,15 +90,21 @@ precision đang chạy trong production.
 - `models/bge-m3-medical-v2/`: model cuối.
 - `training_manifest.json`: tham số, GPU, phiên bản torch, SHA-256 dữ liệu và metric train.
 - `artifacts/evaluation/bge_m3_comparison.json`: toàn bộ 476 ca khẩu ngữ và 3.015 ca 603 bệnh.
-- `artifacts/evaluation/guardrail_calibration.json`: model + ngưỡng semantic mà runtime production tự nạp.
+- `artifacts/evaluation/guardrail_calibration.json`: báo cáo calibration; semantic chỉ chạy
+  ở chế độ advisory trừ khi artifact vượt đồng thời recall/specificity gate và được đánh
+  dấu `deployment_approved=true`.
 - `training.log`: log trọn pipeline.
 
 Quality gate sẽ dừng pipeline nếu candidate giảm quá 0,5 điểm phần trăm ở
 Recall@1 hoặc Recall@5 so với BAAI/bge-m3 trên dense/hybrid retrieval. Không
 thay model production chỉ dựa vào training loss.
 
-Calibration dùng toàn bộ benchmark có nhãn cấp cứu, loại câu trùng, ghi confusion
-matrix và Wilson 95% CI. “0 false negatives” trong report chỉ có nghĩa là không
-quan sát thấy ca bỏ sót trên tập hữu hạn này, không phải bảo đảm tuyệt đối. Script
-sẽ fail nếu semantic model không nạp được, và sau khi ghi config sẽ khởi tạo lại
-`ClinicalGuardrailEngine()` theo đúng đường production để xác minh model/ngưỡng.
+Calibration dùng benchmark có nhãn cấp cứu, loại câu trùng, ghi confusion matrix và
+Wilson 95% CI. “0 false negatives” trong report chỉ có nghĩa là không quan sát thấy ca
+bỏ sót trên tập hữu hạn này, không phải bảo đảm tuyệt đối. Mặc định script yêu cầu ít
+nhất 200 ca cấp cứu, 200 ca thường và specificity >= 90%; tập 34/432 hiện tại không đủ
+để bật semantic auto. Lỗi nạp hoặc suy luận semantic không được âm thầm bỏ qua.
+
+Trước khi phát hành, tạo và đóng băng holdout theo `CLINICAL_VALIDATION.md`, sau đó chạy
+`scripts/validate_clinical_holdout.py`. Không dùng final holdout để chọn alpha, threshold,
+BM25 weight hay bất kỳ hyperparameter nào.

@@ -120,6 +120,7 @@ def run_threshold_sweep(
     batch_size: int,
     min_emergencies: int,
     min_non_emergencies: int,
+    min_specificity: float,
 ):
     cases = load_labeled_cases(dataset_path)
     labels = np.asarray([row["is_emergency"] for row in cases], dtype=bool)
@@ -151,37 +152,49 @@ def run_threshold_sweep(
         )
 
     zero_observed_fn = [row for row in sweep if row["false_negatives"] == 0]
-    selected = min(
+    advisory = min(
         zero_observed_fn,
         key=lambda row: (row["false_positives"], -row["threshold"]),
         default=None,
     )
-    if selected is None:
-        raise SystemExit(
-            "No threshold achieved zero observed false negatives on the calibration set; candidate rejected."
-        )
+    deployable = [row for row in zero_observed_fn if row["specificity"] >= min_specificity]
+    selected = min(deployable, key=lambda row: (row["false_positives"], -row["threshold"]), default=None)
+    deployment_approved = selected is not None
+    reported = selected or advisory
 
     report = {
         "schema_version": 1,
         "model": _project_reference(model_path),
-        "selected_threshold": selected["threshold"],
-        "selection_rule": "zero observed false negatives, then minimum false positives, then highest threshold",
+        "selected_threshold": reported["threshold"] if reported else None,
+        "selection_rule": (
+            "zero observed false negatives and minimum specificity gate, then minimum false positives"
+        ),
+        "minimum_specificity": min_specificity,
         "dataset": _project_reference(dataset_path),
         "sample_counts": {
             "total_unique": len(cases),
             "emergency": emergency_count,
             "non_emergency": non_emergency_count,
         },
-        "selected_metrics": selected,
+        "selected_metrics": reported,
+        "deployment_approved": deployment_approved,
+        "semantic_mode": "auto" if deployment_approved else "advisory",
         "runtime_verified": False,
         "limitations": [
             "Zero observed false negatives is not a guarantee of zero false negatives in production.",
             "The Wilson confidence interval quantifies sampling uncertainty.",
             "Clinical review and a larger independently sourced emergency holdout remain required before safety claims.",
+            "A rejected cosine threshold remains advisory and must not trigger an emergency alert by itself.",
         ],
         "sweep": sweep,
     }
     _atomic_json_write(report_path, report)
+
+    if not deployment_approved:
+        raise SystemExit(
+            "No semantic threshold met both zero observed false negatives and "
+            f"specificity >= {min_specificity:.1%}. Report saved as advisory-only: {report_path}"
+        )
 
     # Verify the exact default production constructor consumes this artifact.
     del engine
@@ -197,6 +210,7 @@ def run_threshold_sweep(
         calibration_path=str(report_path),
         require_semantic=True,
         allow_unverified_config=True,
+        semantic_mode="auto",
     )
     if Path(runtime_engine.model_path).resolve() != model_path.resolve():
         raise RuntimeError(
@@ -224,8 +238,9 @@ def main():
     parser.add_argument("--threshold-stop", type=float, default=0.70)
     parser.add_argument("--threshold-step", type=float, default=0.01)
     parser.add_argument("--batch-size", type=int, default=64)
-    parser.add_argument("--min-emergencies", type=int, default=30)
-    parser.add_argument("--min-non-emergencies", type=int, default=100)
+    parser.add_argument("--min-emergencies", type=int, default=200)
+    parser.add_argument("--min-non-emergencies", type=int, default=200)
+    parser.add_argument("--min-specificity", type=float, default=0.90)
     args = parser.parse_args()
 
     def rooted(value: str) -> Path:
@@ -254,6 +269,7 @@ def main():
         batch_size=args.batch_size,
         min_emergencies=args.min_emergencies,
         min_non_emergencies=args.min_non_emergencies,
+        min_specificity=args.min_specificity,
     )
 
 

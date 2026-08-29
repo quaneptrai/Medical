@@ -11,10 +11,13 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 
 class ClinicalGuardrailEngine:
     """
-    Bộ lọc an toàn lâm sàng Hybrid 2 tầng (Deterministic Flexible Regex + BGE-M3 Semantic Fallback).
-    - Mẫu neo được nhân đôi đối xứng (cả bản có dấu và bản unidecode) đảm bảo độ tương đồng ~0.96.
-    - Ngưỡng semantic được hiệu chỉnh thực nghiệm ở mức 0.46 để tối đa hóa độ nhạy (Recall).
-    - Ngân hàng 100+ anchors phủ trọn vẹn mọi nhóm cấp cứu sinh tử và mọi biến thể khẩu ngữ.
+    Two-stage clinical safety filter.
+
+    Deterministic red-flag rules may trigger an emergency override directly.
+    Embedding similarity is advisory by default because calibration showed that a
+    single cosine threshold cannot separate emergency from routine cases with an
+    acceptable false-positive rate. ``semantic_mode='auto'`` is therefore only
+    allowed with an explicitly deployment-approved calibration artifact.
     """
 
     def __init__(
@@ -24,6 +27,7 @@ class ClinicalGuardrailEngine:
         calibration_path: Optional[str] = None,
         require_semantic: bool = True,
         allow_unverified_config: bool = False,
+        semantic_mode: Optional[str] = None,
     ):
         config_path = Path(
             calibration_path
@@ -31,8 +35,25 @@ class ClinicalGuardrailEngine:
             or ROOT / "artifacts" / "evaluation" / "guardrail_calibration.json"
         )
         runtime_config = self._load_runtime_config(config_path)
+        self.semantic_mode = (
+            semantic_mode
+            or os.getenv("BOTMED_GUARDRAIL_SEMANTIC_MODE")
+            or runtime_config.get("semantic_mode")
+            or "advisory"
+        ).strip().lower()
+        if self.semantic_mode not in {"advisory", "auto", "off"}:
+            raise ValueError("semantic_mode must be one of: advisory, auto, off")
         if (
-            runtime_config
+            self.semantic_mode == "auto"
+            and runtime_config.get("deployment_approved") is not True
+            and not allow_unverified_config
+        ):
+            raise RuntimeError(
+                "Automatic semantic emergency escalation requires a deployment-approved calibration"
+            )
+        if (
+            self.semantic_mode == "auto"
+            and runtime_config
             and runtime_config.get("runtime_verified") is not True
             and not allow_unverified_config
         ):
@@ -54,7 +75,7 @@ class ClinicalGuardrailEngine:
             or runtime_config.get("model")
         )
         if configured_model is None:
-            local_default = ROOT / "models" / "bge-m3-medical"
+            local_default = ROOT / "models" / "bge-m3-medical-v2-safe-fp16"
             configured_model = str(local_default) if local_default.exists() else "BAAI/bge-m3"
         self.model_path = self._resolve_model_reference(str(configured_model))
         self.calibration_path = str(config_path) if config_path.exists() else None
@@ -64,7 +85,8 @@ class ClinicalGuardrailEngine:
         self.embed_model = None
         self.anchor_embeddings = None
         self.semantic_load_error = None
-        self._init_embedding_matcher(self.model_path, require_semantic=require_semantic)
+        if self.semantic_mode != "off":
+            self._init_embedding_matcher(self.model_path, require_semantic=require_semantic)
 
     @staticmethod
     def _load_runtime_config(path: Path) -> Dict:
@@ -203,7 +225,7 @@ class ClinicalGuardrailEngine:
                 "category": "neurology",
                 "name": "Nghi ngờ Đột quỵ não cấp (FAST)",
                 "red_flag": "Yếu liệt nửa người/tay chân, méo miệng, nói khó, lệch mặt",
-                "pattern": r"((yeu|liet|te\s+liet|khong\s+cu\s+dong).*(nua\s+nguoi|mot\s+ben|tay\s+chan)|(meo|lech).*(mieng|mat|mom)|noi\s+(ngong|kho|lap|khong\s+ra\s+tieng|khong\s+thanh\s+tieng))",
+                "pattern": r"((yeu|liet|te\s+liet|khong\s+cu\s+dong).*(nua\s+nguoi|mot\s+ben|tay\s+chan)|(tay\s+chan|nua\s+nguoi|mot\s+ben).*(yeu|liet|te\s+liet)|(meo|lech).*(mieng|mat|mom)|(mieng|mat|mom).*(meo|lech)|noi\s+(ngong|kho|lap|khong\s+ra\s+tieng|khong\s+thanh\s+tieng))",
                 "emergency_message": "BÁO ĐỘNG ĐỘT QUỴ NÃO CẤP: Gọi ngay 115 hoặc đưa đến Trung tâm Đột quỵ gần nhất trong giờ vàng (<4.5h)."
             },
             # HÔN MÊ / BẤT TỈNH
@@ -230,7 +252,7 @@ class ClinicalGuardrailEngine:
                 "category": "trauma",
                 "name": "Bỏng diện rộng / Bỏng đường thở",
                 "red_flag": "Bỏng nước sôi/lửa diện rộng, lột da, bỏng đường hô hấp",
-                "pattern": r"(bong\s+(nuoc\s+soi|lua|dien|axit|hoa\s+chat).*(dien\s+rong|lot\s+da|khap\s+nguoi|phong\s+da)|bong\s+duong\s+tho)",
+                "pattern": r"(bong\s+(nuoc\s+soi|lua|dien|axit|hoa\s+chat).*(dien\s+rong|lot\s+(het\s+(ca\s+)?)?da|khap\s+nguoi|phong\s+da)|bong\s+duong\s+tho)",
                 "emergency_message": "CẤP CỨU BỎNG DIỆN RỘNG: Ngâm rửa vùng bỏng dưới nước sạch mát 15-20 phút, đắp gạc sạch, chuyển viện cấp cứu ngay."
             },
             # ĐIỆN GIẬT
@@ -333,6 +355,42 @@ class ClinicalGuardrailEngine:
                     f"Failed to load required semantic guardrail model '{model_path}': {exc}"
                 ) from exc
 
+    def evaluate_semantic_candidate(
+        self,
+        user_message: str,
+        current_symptoms: Optional[List[str]] = None,
+    ) -> Optional[Dict]:
+        """Return a semantic candidate for confirmation, never a hard alert."""
+        if self.semantic_mode == "off" or self.embed_model is None or self.anchor_embeddings is None:
+            return None
+
+        symptoms_str = " ".join(current_symptoms) if current_symptoms else ""
+        combined_text = f"{symptoms_str} {user_message}".strip()
+        try:
+            query_vec = self.embed_model.encode([combined_text], normalize_embeddings=True)[0]
+            scores = np.dot(self.anchor_embeddings, query_vec)
+            best_idx = int(np.argmax(scores))
+            best_score = float(scores[best_idx])
+        except Exception as exc:
+            raise RuntimeError(f"Semantic guardrail inference failed: {exc}") from exc
+
+        if best_score < self.semantic_threshold:
+            return None
+        matched_anchor = self.semantic_anchors[best_idx]
+        return {
+            "is_emergency": False,
+            "requires_confirmation": True,
+            "tier": "semantic_advisory",
+            "similarity_score": round(best_score, 4),
+            "rule_id": f"SEMANTIC_{matched_anchor['category'].upper()}",
+            "rule_category": matched_anchor["category"],
+            "rule_name": matched_anchor["name"],
+            "red_flag": (
+                f"Semantic emergency candidate: {matched_anchor['name']} "
+                f"(similarity {best_score:.2f}); requires independent confirmation"
+            ),
+        }
+
     def evaluate_emergency(self, user_message: str, current_symptoms: Optional[List[str]] = None) -> Optional[Dict]:
         """
         Đánh giá cấp cứu qua 2 tầng:
@@ -356,31 +414,20 @@ class ClinicalGuardrailEngine:
                     "emergency_reply": rule["emergency_message"]
                 }
 
-        # TẦNG 2: Semantic Matcher (Hỗ trợ cả câu có dấu và câu không dấu)
-        if self.embed_model is not None and self.anchor_embeddings is not None:
-            try:
-                query_vec = self.embed_model.encode([combined_text], normalize_embeddings=True)[0]
-                scores = np.dot(self.anchor_embeddings, query_vec)
-                best_idx = int(np.argmax(scores))
-                best_score = float(scores[best_idx])
-
-                if best_score >= self.semantic_threshold:
-                    matched_anchor = self.semantic_anchors[best_idx]
-                    return {
-                        "is_emergency": True,
-                        "tier": "semantic_embedding",
-                        "similarity_score": round(best_score, 4),
-                        "rule_id": f"SEMANTIC_{matched_anchor['category'].upper()}",
-                        "rule_category": matched_anchor["category"],
-                        "rule_name": matched_anchor["name"],
-                        "red_flag": f"Mẫu ngữ nghĩa cấp cứu tương đồng: {matched_anchor['name']} (Độ tin cậy: {best_score:.2f})",
-                        "emergency_reply": (
-                            f"BÁO ĐỘNG CẤP CỨU Y TẾ ({matched_anchor['name'].upper()}):\n"
-                            "Triệu chứng bạn mô tả có dấu hiệu nguy kịch đến tính mạng.\n"
-                            "HÀNH ĐỘNG NGAY: Gọi cấp cứu 115 hoặc nhờ người thân đưa đến Khoa Cấp cứu của Bệnh viện gần nhất lập tức."
-                        )
-                    }
-            except Exception:
-                pass
+        # A cosine hit is only an advisory unless an approved calibration has
+        # explicitly enabled legacy automatic escalation.
+        if self.semantic_mode == "auto":
+            candidate = self.evaluate_semantic_candidate(user_message, current_symptoms)
+            if candidate:
+                return {
+                    **candidate,
+                    "is_emergency": True,
+                    "requires_confirmation": False,
+                    "tier": "semantic_auto",
+                    "emergency_reply": (
+                        f"BÁO ĐỘNG CẤP CỨU Y TẾ ({candidate['rule_name'].upper()}):\n"
+                        "HÀNH ĐỘNG NGAY: Gọi cấp cứu 115 hoặc đến Khoa Cấp cứu gần nhất."
+                    ),
+                }
 
         return None

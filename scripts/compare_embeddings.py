@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -74,6 +75,7 @@ def _ranking_metrics(rankings: list[list[int]], cases: list[dict], diseases: lis
     reciprocal_ranks = []
     emergency_hits = 0
     emergency_total = 0
+    per_case = []
 
     for indices, case in zip(rankings, cases):
         rank = next(
@@ -86,6 +88,15 @@ def _ranking_metrics(rankings: list[list[int]], cases: list[dict], diseases: lis
         if case.get("is_emergency"):
             emergency_total += 1
             emergency_hits += int(rank is not None and rank <= 5)
+        per_case.append({
+            "case_id": case.get("case_id") or case.get("query"),
+            "disease_id": case.get("disease_id"),
+            "is_emergency": bool(case.get("is_emergency")),
+            "rank": rank,
+            "hit@1": bool(rank is not None and rank <= 1),
+            "hit@3": bool(rank is not None and rank <= 3),
+            "hit@5": bool(rank is not None and rank <= 5),
+        })
 
     total = len(cases)
     metrics = {
@@ -94,11 +105,65 @@ def _ranking_metrics(rankings: list[list[int]], cases: list[dict], diseases: lis
         "recall@5": hits[5] / total,
         "mrr": float(np.mean(reciprocal_ranks)),
         "cases": total,
+        "per_case": per_case,
     }
     if emergency_total:
         metrics["emergency_recall@5"] = emergency_hits / emergency_total
         metrics["emergency_cases"] = emergency_total
     return metrics
+
+
+def _mcnemar_exact_pvalue(baseline_hits: np.ndarray, candidate_hits: np.ndarray) -> float:
+    """Two-sided exact McNemar p-value without a scipy dependency."""
+    baseline_only = int(np.sum(baseline_hits & ~candidate_hits))
+    candidate_only = int(np.sum(~baseline_hits & candidate_hits))
+    discordant = baseline_only + candidate_only
+    if discordant == 0:
+        return 1.0
+    tail = sum(math.comb(discordant, k) for k in range(0, min(baseline_only, candidate_only) + 1))
+    return min(1.0, 2.0 * tail / (2 ** discordant))
+
+
+def _paired_comparison(all_results: dict, bootstrap_samples: int = 10_000) -> dict:
+    model_names = list(all_results)
+    if len(model_names) < 2:
+        return {}
+    baseline_name, candidate_name = model_names[0], model_names[-1]
+    rng = np.random.default_rng(20260829)
+    comparisons = {}
+    for benchmark in all_results[baseline_name]:
+        comparisons[benchmark] = {}
+        for mode in ("dense", "hybrid"):
+            baseline_rows = all_results[baseline_name][benchmark][mode]["per_case"]
+            candidate_rows = all_results[candidate_name][benchmark][mode]["per_case"]
+            if [row["case_id"] for row in baseline_rows] != [row["case_id"] for row in candidate_rows]:
+                raise ValueError(f"Unpaired case order for {benchmark}.{mode}")
+            mode_stats = {}
+            for cutoff in (1, 3, 5):
+                key = f"hit@{cutoff}"
+                before = np.asarray([row[key] for row in baseline_rows], dtype=bool)
+                after = np.asarray([row[key] for row in candidate_rows], dtype=bool)
+                delta = after.astype(float) - before.astype(float)
+                indices = rng.integers(0, len(delta), size=(bootstrap_samples, len(delta)))
+                boot = delta[indices].mean(axis=1)
+                mode_stats[f"recall@{cutoff}"] = {
+                    "delta": float(delta.mean()),
+                    "paired_bootstrap_95": [
+                        float(np.quantile(boot, 0.025)),
+                        float(np.quantile(boot, 0.975)),
+                    ],
+                    "mcnemar_exact_p": _mcnemar_exact_pvalue(before, after),
+                    "baseline_only_hits": int(np.sum(before & ~after)),
+                    "candidate_only_hits": int(np.sum(~before & after)),
+                }
+            comparisons[benchmark][mode] = mode_stats
+    return {
+        "baseline": baseline_name,
+        "candidate": candidate_name,
+        "bootstrap_samples": bootstrap_samples,
+        "warning": "If this benchmark was used to select alpha/hyperparameters, these intervals are validation statistics, not final-holdout evidence.",
+        "benchmarks": comparisons,
+    }
 
 
 def evaluate_corpus(
@@ -248,6 +313,12 @@ def main():
         "sequence_length": args.seq_len,
         "bm25_weight": args.bm25_weight,
         "models": all_results,
+        "paired_comparison": _paired_comparison(all_results),
+        "evaluation_role": "validation",
+        "limitations": [
+            "The alpha blend was selected using these benchmarks, so they are not an untouched final holdout.",
+            "A separately sourced and clinician-reviewed final holdout is required for clinical claims.",
+        ],
     }
     report_path = ROOT / args.report
     report_path.parent.mkdir(parents=True, exist_ok=True)

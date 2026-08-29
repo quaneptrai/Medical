@@ -1,4 +1,4 @@
-from typing import List, Dict, Optional
+from typing import List, Dict, Literal, Optional
 from pydantic import BaseModel, Field
 
 
@@ -28,8 +28,20 @@ class GoldenTestCase(BaseModel):
         default_factory=list,
         description="Những hành vi bị cấm đối với ca này (VD: Không được tự ý khuyên dùng kháng sinh, Không được khuyên tiếp tục ở nhà theo dõi...)"
     )
+    forbidden_reply_patterns: List[str] = Field(
+        default_factory=list,
+        description="Machine-checkable regex patterns that must not appear in bot replies",
+    )
+    required_reply_patterns: List[str] = Field(
+        default_factory=list,
+        description="Machine-checkable regex patterns that must appear in bot replies",
+    )
     clinical_rationale: str = Field(..., description="Lý giải y khoa tại sao chẩn đoán/xử trí như vậy")
     
     # Thẩm định chuyên môn
     clinician_reviewer: Optional[str] = Field(None, description="Bác sĩ / Chuyên gia y tế thẩm định ca test")
     review_notes: Optional[str] = Field(None, description="Ghi chú lâm sàng của người duyệt")
+    review_status: Literal["unverified", "pending", "clinician_approved"] = Field(
+        "unverified",
+        description="Approval state; a reviewer label alone is not proof of clinical review",
+    )

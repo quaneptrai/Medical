@@ -49,6 +49,7 @@ EMBEDDING_MODELS = {
     "minilm": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
 }
 DEFAULT_EMBEDDING_MODEL = os.getenv("BOTMED_EMBEDDING_MODEL", "minilm")
+DEFAULT_GENERAL_BM25_WEIGHT = float(os.getenv("BOTMED_GENERAL_BM25_WEIGHT", "0.75"))
 
 
 def resolve_device(device: Optional[str] = None) -> str:
@@ -72,7 +73,9 @@ class HybridDiseaseSearcher:
     Production-grade Hybrid Disease Searcher:
     - BM25 for keyword & exact clinical symptom matching (with diacritics & non-diacritics support).
     - ChromaDB (SentenceTransformer: BGE-M3 or MiniLM) for semantic representation.
-    - Normalized Score Fusion (alpha = 0.75 BM25 + 0.25 Vector Cosine Similarity).
+    - Configurable score fusion for general retrieval.
+    - Dense-only routing for emergency candidates so lexical fusion cannot suppress
+      a semantic red-flag match.
     """
     def __init__(
         self,
@@ -219,7 +222,8 @@ class HybridDiseaseSearcher:
         self,
         query: str,
         top_k: int = 5,
-        bm25_weight: float = 0.75
+        bm25_weight: Optional[float] = None,
+        route: str = "general",
     ) -> List[Dict[str, Any]]:
         """
         Hybrid Search combining:
@@ -227,6 +231,14 @@ class HybridDiseaseSearcher:
         2. ChromaDB (SentenceTransformer semantic matching)
         3. Normalized Score Fusion
         """
+        if route not in {"general", "emergency"}:
+            raise ValueError("route must be 'general' or 'emergency'")
+        if bm25_weight is None:
+            bm25_weight = DEFAULT_GENERAL_BM25_WEIGHT
+        if route == "emergency":
+            bm25_weight = 0.0
+        if not 0.0 <= bm25_weight <= 1.0:
+            raise ValueError("bm25_weight must be between 0 and 1")
         if not self.diseases or not query.strip():
             return []
             
@@ -287,3 +299,7 @@ class HybridDiseaseSearcher:
         # Sort descending by final score
         candidates.sort(key=lambda x: x["score"], reverse=True)
         return candidates[:top_k]
+
+    def search_emergency(self, query: str, top_k: int = 5) -> List[Dict[str, Any]]:
+        """Retrieve emergency candidates with semantic ranking only."""
+        return self.search(query, top_k=top_k, route="emergency")

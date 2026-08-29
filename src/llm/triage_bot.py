@@ -118,9 +118,17 @@ class TriageBot:
         current_sym_names = [s.name for s in state.symptoms]
         guardrail_eval = self.guardrail_engine.evaluate_emergency(user_message, current_sym_names)
         
-        # 2. Hybrid Search
+        # 2. General queries retain tuned hybrid retrieval. A deterministic safety
+        # hit uses dense-only retrieval so BM25 cannot suppress the emergency result.
+        # Raw semantic similarity is intentionally not a router: calibration showed
+        # that it fires on most routine cases and still needs a separate confirmer.
         search_query = f"{state.get_symptoms_summary()} {user_message}"
-        retrieved_diseases = self.search_engine.search(search_query, top_k=3)
+        retrieval_route = "emergency" if guardrail_eval else "general"
+        retrieved_diseases = self.search_engine.search(
+            search_query,
+            top_k=3,
+            route=retrieval_route,
+        )
         
         disease_context = ""
         candidate_ids = []
@@ -132,7 +140,7 @@ class TriageBot:
             disease_context += f"  + Triệu chứng chính: {', '.join(sym_list)}\n"
             disease_context += f"  + Red flags: {', '.join(d.red_flags)}\n"
             disease_context += f"  + Câu hỏi gợi ý: {', '.join(d.questions_to_ask[:3])}\n\n"
-            
+
         state.candidate_diseases = candidate_ids
         
         # 3. Build prompt
