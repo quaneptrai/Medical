@@ -44,7 +44,7 @@ available.
    specialty, required/forbidden reply patterns, and emergency-language
    consistency. A wrong-specialty emergency response must not pass.
 6. Create `evaluation_report_current.md` as a concise index of evidence. Include:
-   retrieval model ID and SHA256, alpha and reconstruction limitation, BM25 0.15
+   retrieval model ID and SHA256, alpha and reconstruction limitation, BM25 0.10
    decision and sweep artifact, dense/hybrid metrics with dataset sizes, paired
    McNemar/bootstrap results, guardrail model/hash/alpha, advisory-only status,
    calibration precision/specificity limitations, golden automated vs clinical

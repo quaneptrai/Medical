@@ -50,7 +50,7 @@ def test_target_blend_can_be_reconstructed_from_known_linear_blend():
 
 
 def test_production_retrieval_defaults_to_evaluated_candidate():
-    assert CONFIGURED_GENERAL_BM25_WEIGHT == pytest.approx(0.15)
+    assert CONFIGURED_GENERAL_BM25_WEIGHT == pytest.approx(0.10)
     assert CONFIGURED_EMBEDDING_MODEL.endswith(
         "models\\bge-m3-medical-v2-recovered-a050-fp16"
     )
@@ -59,7 +59,8 @@ def test_production_retrieval_defaults_to_evaluated_candidate():
 
 def test_settings_yaml_is_the_runtime_source_of_truth():
     settings = load_settings(ROOT / "config" / "settings.yaml")
-    assert settings["retrieval"]["bm25_weight"] == pytest.approx(0.15)
+    assert settings["retrieval"]["bm25_weight"] == pytest.approx(0.10)
+    assert settings["retrieval"]["top_k"] == 5
     assert get_setting("retrieval.embedding_model") == (
         "models/bge-m3-medical-v2-recovered-a050-fp16"
     )
@@ -253,6 +254,7 @@ def test_triage_routes_only_confirmed_rule_hits_to_dense(monkeypatch, hard_alert
 
         def search(self, query, top_k=3, route="general"):
             captured["route"] = route
+            captured["top_k"] = top_k
             return []
 
     bot.search_engine = FakeSearcher()
@@ -268,4 +270,18 @@ def test_triage_routes_only_confirmed_rule_hits_to_dense(monkeypatch, hard_alert
     )
     _reply, state = bot.process_turn("test message", ConversationState(session_id="route-test"))
     assert captured["route"] == expected_route
+    assert captured["top_k"] == 5
     assert (state.diagnostic_stage == "emergency") is hard_alert
+
+
+def test_guardrail_registry_distinguishes_fp16_integrity_from_parent_provenance():
+    registry = json.loads((ROOT / "models" / "registry.json").read_text(encoding="utf-8"))
+    guardrail_model = next(
+        model for model in registry["models"]
+        if model["id"] == "bge-m3-medical-v2-safe-fp16"
+    )
+    assert guardrail_model["artifact_integrity_status"] == "verified"
+    provenance = guardrail_model["hash_provenance"]
+    assert provenance["fp16_artifact_sha256"] == guardrail_model["sha256"]
+    assert provenance["parent_fp32_status"] == "lost"
+    assert "manifest_hash_matches_artifact" not in guardrail_model

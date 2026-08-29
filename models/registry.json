@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-29T13:41:13Z",
+  "updated_at": "2026-08-29T14:02:41Z",
   "models": [
     {
       "id": "bge-m3-medical-v2-recovered-a050-fp16",
@@ -37,11 +37,19 @@
       "semantic_mode": "advisory",
       "status": "local_available",
       "backup": "botmedical-safe-fp16-export.tar (local only; external location not recorded)",
-      "manifest_declared_sha256": "532318d1c7d143364d919e7520751f874723d15f63db5c965b4ae1305d8059e6",
-      "manifest_hash_matches_artifact": false,
+      "artifact_integrity_status": "verified",
+      "hash_provenance": {
+        "fp16_artifact_sha256": "e72ee7ad51b883cd31057c5c642b8530ad485e0335e8f125af8276433da83fbb",
+        "fp16_hash_declared_by": "models/bge-m3-medical-v2-safe-fp16/precision_manifest.json",
+        "parent_fp32_sha256": "532318d1c7d143364d919e7520751f874723d15f63db5c965b4ae1305d8059e6",
+        "parent_hash_declared_by": "models/bge-m3-medical-v2-safe-fp16/blend_manifest.json",
+        "parent_fp32_path": "models/bge-m3-medical-v2-safe",
+        "parent_fp32_status": "lost",
+        "chain_status": "consistent_manifests_parent_unavailable_for_rehash"
+      },
       "limitations": [
         "The calibration applies only to this alpha-0.07 model and is advisory, not an automatic emergency trigger.",
-        "The embedded blend manifest hash does not match the currently observed artifact hash; investigate before any release claim.",
+        "The copied blend manifest records the lost parent FP32 hash; precision_manifest.json records and matches the current FP16 artifact hash.",
         "Model binaries remain outside git and require an external content-addressed backup."
       ]
     },

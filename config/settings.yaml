@@ -14,12 +14,14 @@ llm:
 
 retrieval:
   # Selected provisionally from artifacts/evaluation/bm25_weight_sweep.json.
+  # Weight 0.10 is the balanced point across 603-disease and colloquial metrics;
+  # top_k remains 5 because the weight sweep did not justify truncating at 3.
   # Revisit only after the independently labeled clinical holdout exists.
   embedding_model: models/bge-m3-medical-v2-recovered-a050-fp16
   diseases_dir: data/diseases_expanded
   vector_db_path: data/embeddings
-  top_k: 3
-  bm25_weight: 0.15
+  top_k: 5
+  bm25_weight: 0.10
 
 safety:
   deterministic_rules: hard_override

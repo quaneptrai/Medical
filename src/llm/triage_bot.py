@@ -137,7 +137,7 @@ class TriageBot:
         retrieval_route = "emergency" if guardrail_eval else "general"
         retrieved_diseases = self.search_engine.search(
             search_query,
-            top_k=getattr(self, "retrieval_top_k", 3),
+            top_k=getattr(self, "retrieval_top_k", 5),
             route=retrieval_route,
         )
         
