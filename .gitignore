@@ -11,6 +11,10 @@ data/embeddings/
 *.egg-info/
 dist/
 build/
+*.log
+*.tar
+*.part.*
+PIPELINE_SUCCESS
 data/finetune/
 dataset_candidates.json
 models/*
