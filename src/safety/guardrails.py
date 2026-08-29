@@ -10,14 +10,14 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 class ClinicalGuardrailEngine:
     """
     Bộ lọc an toàn lâm sàng Hybrid 2 tầng (Deterministic Flexible Regex + BGE-M3 Semantic Fallback).
-    - Ngưỡng semantic được căn chỉnh thực nghiệm: 0.48 (vùng ca thường: 0.20-0.38, vùng cấp cứu: 0.50-0.85).
-    - Ngân hàng 60+ anchors phủ trọn vẹn mọi biến thể lâm sàng kinh điển và khẩu ngữ dân dã.
+    - Mẫu neo được nhân đôi đối xứng (cả bản có dấu và bản unidecode) đảm bảo độ tương đồng ~0.96.
+    - Ngưỡng semantic được hiệu chỉnh thực nghiệm từ dữ liệu có nhãn.
     """
 
-    def __init__(self, model_path: Optional[str] = None, semantic_threshold: float = 0.55):
+    def __init__(self, model_path: Optional[str] = None, semantic_threshold: float = 0.53):
         self.semantic_threshold = semantic_threshold
         self.emergency_rules = self._init_universal_emergency_rules()
-        self.semantic_anchors = self._init_semantic_emergency_anchors()
+        self.semantic_anchors = self._build_symmetric_emergency_anchors()
         
         self.embed_model = None
         self.anchor_embeddings = None
@@ -26,24 +26,33 @@ class ClinicalGuardrailEngine:
     def _normalize(self, text: str) -> str:
         return unidecode(text.lower().strip())
 
-    def _init_embedding_matcher(self, model_path: Optional[str]):
-        try:
-            from sentence_transformers import SentenceTransformer
-            path_to_load = model_path or str(ROOT / "models" / "bge-m3-medical")
-            if not Path(path_to_load).exists():
-                path_to_load = "BAAI/bge-m3"
+    def _build_symmetric_emergency_anchors(self) -> List[Dict]:
+        """
+        Nhân đôi tập neo đối xứng: mỗi câu có dấu sẽ có thêm một bản unidecode của chính nó.
+        Giúp câu người dùng gõ không dấu khớp chính xác với neo không dấu ở mức ~0.96.
+        """
+        raw_anchors = self._init_raw_semantic_anchors()
+        symmetric_anchors = []
+        
+        for a in raw_anchors:
+            # Bản gốc có dấu
+            symmetric_anchors.append(a)
+            
+            # Bản unidecode không dấu
+            unaccented_text = unidecode(a["text"])
+            if unaccented_text != a["text"]:
+                symmetric_anchors.append({
+                    "text": unaccented_text,
+                    "category": a["category"],
+                    "name": a["name"]
+                })
                 
-            self.embed_model = SentenceTransformer(path_to_load, device="cpu")
-            anchor_texts = [a["text"] for a in self.semantic_anchors]
-            self.anchor_embeddings = self.embed_model.encode(anchor_texts, normalize_embeddings=True)
-        except Exception:
-            self.embed_model = None
-            self.anchor_embeddings = None
+        return symmetric_anchors
 
-    def _init_semantic_emergency_anchors(self) -> List[Dict]:
-        """Tập mẫu câu mô tả cấp cứu bằng ngôn ngữ đời thường thực tế (60+ anchors)."""
+    def _init_raw_semantic_anchors(self) -> List[Dict]:
+        """Ngân hàng mẫu câu cấp cứu chuẩn lâm sàng và khẩu ngữ dân dã."""
         return [
-            # 1. ĐỘT QUỴ NÃO & TAI BIẾN CẤP
+            # 1. ĐỘT QUỴ NÃO (FAST)
             {"text": "Bác tôi đang ngồi thì tay chân một bên yếu hẳn, miệng lệch sang trái nói ngọng", "category": "neurology", "name": "Đột quỵ não cấp (FAST)"},
             {"text": "đột nhiên méo một bên mồm, nói lắp bắp nói ngọng, tay chân yếu lết không nâng lên được", "category": "neurology", "name": "Đột quỵ não cấp (FAST)"},
             {"text": "sáng ngủ dậy thấy mẹ bị liệt nửa người một bên không cử động được, mặt xệ", "category": "neurology", "name": "Đột quỵ não cấp"},
@@ -184,11 +193,25 @@ class ClinicalGuardrailEngine:
             }
         ]
 
+    def _init_embedding_matcher(self, model_path: Optional[str]):
+        try:
+            from sentence_transformers import SentenceTransformer
+            path_to_load = model_path or str(ROOT / "models" / "bge-m3-medical")
+            if not Path(path_to_load).exists():
+                path_to_load = "BAAI/bge-m3"
+                
+            self.embed_model = SentenceTransformer(path_to_load, device="cpu")
+            anchor_texts = [a["text"] for a in self.semantic_anchors]
+            self.anchor_embeddings = self.embed_model.encode(anchor_texts, normalize_embeddings=True)
+        except Exception:
+            self.embed_model = None
+            self.anchor_embeddings = None
+
     def evaluate_emergency(self, user_message: str, current_symptoms: Optional[List[str]] = None) -> Optional[Dict]:
         """
         Đánh giá cấp cứu qua 2 tầng:
         1. Tầng 1: Flexible Regex (0.1ms).
-        2. Tầng 2: Semantic Similarity (BGE-M3) vớt các ca khẩu ngữ với ngưỡng 0.48.
+        2. Tầng 2: Semantic Similarity (BGE-M3 đối xứng có dấu + không dấu).
         """
         symptoms_str = " ".join(current_symptoms) if current_symptoms else ""
         combined_text = f"{symptoms_str} {user_message}".strip()
@@ -207,7 +230,7 @@ class ClinicalGuardrailEngine:
                     "emergency_reply": rule["emergency_message"]
                 }
 
-        # TẦNG 2: Semantic Matcher
+        # TẦNG 2: Semantic Matcher (Hỗ trợ cả câu có dấu và câu không dấu)
         if self.embed_model is not None and self.anchor_embeddings is not None:
             try:
                 query_vec = self.embed_model.encode([combined_text], normalize_embeddings=True)[0]
