@@ -14,6 +14,11 @@ from chromadb.utils import embedding_functions
 from rank_bm25 import BM25Okapi
 from unidecode import unidecode
 
+try:
+    from src.runtime_config import get_setting, resolve_project_path
+except ImportError:  # Script mode with ``src`` inserted into sys.path.
+    from runtime_config import get_setting, resolve_project_path
+
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from knowledge.schema import DiseaseSchema, load_all_diseases
 
@@ -48,15 +53,15 @@ EMBEDDING_MODELS = {
     "bge-m3": "BAAI/bge-m3",
     "minilm": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
 }
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RECOVERED_MEDICAL_MODEL = PROJECT_ROOT / "models" / "bge-m3-medical-v2-recovered-a050-fp16"
-FALLBACK_EMBEDDING_MODEL = (
-    str(RECOVERED_MEDICAL_MODEL) if RECOVERED_MEDICAL_MODEL.exists() else "bge-m3"
+CONFIGURED_EMBEDDING_MODEL = str(
+    resolve_project_path(get_setting("retrieval.embedding_model"))
 )
-FALLBACK_GENERAL_BM25_WEIGHT = 0.15
-DEFAULT_EMBEDDING_MODEL = os.getenv("BOTMED_EMBEDDING_MODEL", FALLBACK_EMBEDDING_MODEL)
+CONFIGURED_GENERAL_BM25_WEIGHT = float(get_setting("retrieval.bm25_weight"))
+DEFAULT_DISEASES_DIR = str(resolve_project_path(get_setting("retrieval.diseases_dir")))
+DEFAULT_VECTOR_DB_PATH = str(resolve_project_path(get_setting("retrieval.vector_db_path")))
+DEFAULT_EMBEDDING_MODEL = os.getenv("BOTMED_EMBEDDING_MODEL", CONFIGURED_EMBEDDING_MODEL)
 DEFAULT_GENERAL_BM25_WEIGHT = float(
-    os.getenv("BOTMED_GENERAL_BM25_WEIGHT", str(FALLBACK_GENERAL_BM25_WEIGHT))
+    os.getenv("BOTMED_GENERAL_BM25_WEIGHT", str(CONFIGURED_GENERAL_BM25_WEIGHT))
 )
 
 
@@ -87,8 +92,8 @@ class HybridDiseaseSearcher:
     """
     def __init__(
         self,
-        diseases_dir: str = "data/diseases",
-        db_path: str = "data/embeddings",
+        diseases_dir: str = DEFAULT_DISEASES_DIR,
+        db_path: str = DEFAULT_VECTOR_DB_PATH,
         rebuild_index: bool = False,
         embedding_model: str = DEFAULT_EMBEDDING_MODEL,
         device: Optional[str] = None

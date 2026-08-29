@@ -16,10 +16,12 @@ from scripts.compare_embeddings import (
 )
 from src.safety.guardrails import ClinicalGuardrailEngine
 from src.retrieval.search_engine import (
-    FALLBACK_EMBEDDING_MODEL,
-    FALLBACK_GENERAL_BM25_WEIGHT,
+    CONFIGURED_EMBEDDING_MODEL,
+    CONFIGURED_GENERAL_BM25_WEIGHT,
+    DEFAULT_DISEASES_DIR,
     HybridDiseaseSearcher,
 )
+from src.runtime_config import get_setting, load_settings, resolve_project_path
 from src.llm.triage_bot import TriageBot
 from src.conversation.state import ConversationState
 
@@ -48,10 +50,23 @@ def test_target_blend_can_be_reconstructed_from_known_linear_blend():
 
 
 def test_production_retrieval_defaults_to_evaluated_candidate():
-    assert FALLBACK_GENERAL_BM25_WEIGHT == pytest.approx(0.15)
-    assert FALLBACK_EMBEDDING_MODEL.endswith(
+    assert CONFIGURED_GENERAL_BM25_WEIGHT == pytest.approx(0.15)
+    assert CONFIGURED_EMBEDDING_MODEL.endswith(
         "models\\bge-m3-medical-v2-recovered-a050-fp16"
-    ) or FALLBACK_EMBEDDING_MODEL == "bge-m3"
+    )
+    assert DEFAULT_DISEASES_DIR.endswith("data\\diseases_expanded")
+
+
+def test_settings_yaml_is_the_runtime_source_of_truth():
+    settings = load_settings(ROOT / "config" / "settings.yaml")
+    assert settings["retrieval"]["bm25_weight"] == pytest.approx(0.15)
+    assert get_setting("retrieval.embedding_model") == (
+        "models/bge-m3-medical-v2-recovered-a050-fp16"
+    )
+    assert resolve_project_path(settings["retrieval"]["diseases_dir"]) == (
+        ROOT / "data" / "diseases_expanded"
+    )
+    assert settings["llm"]["provider"] == "ollama"
 
 
 def test_embedding_metric_prefers_disease_id():
@@ -138,6 +153,34 @@ def test_guardrail_rejects_auto_semantic_without_deployment_approval(tmp_path):
     }), encoding="utf-8")
     with pytest.raises(RuntimeError, match="deployment-approved"):
         ClinicalGuardrailEngine(calibration_path=str(report), semantic_mode="auto")
+
+
+def test_guardrail_rejects_model_hash_mismatch(tmp_path):
+    model_dir = tmp_path / "guardrail-model"
+    model_dir.mkdir()
+    (model_dir / "model.safetensors").write_bytes(b"not-the-calibrated-model")
+    report = tmp_path / "guardrail_calibration.json"
+    report.write_text(json.dumps({
+        "model": str(model_dir),
+        "model_sha256": "0" * 64,
+        "selected_threshold": 0.58,
+        "semantic_mode": "advisory",
+    }), encoding="utf-8")
+    with pytest.raises(RuntimeError, match="SHA256 mismatch"):
+        ClinicalGuardrailEngine(calibration_path=str(report), require_semantic=False)
+
+
+def test_guardrail_calibration_is_explicitly_pinned_to_alpha_007():
+    calibration = json.loads(
+        (ROOT / "artifacts" / "evaluation" / "guardrail_calibration.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    assert calibration["model"] == "models/bge-m3-medical-v2-safe-fp16"
+    assert calibration["model_alpha"] == pytest.approx(0.07)
+    assert calibration["semantic_mode"] == "advisory"
+    assert calibration["deployment_approved"] is False
+    assert len(calibration["model_sha256"]) == 64
 
 
 def test_semantic_advisory_does_not_become_hard_emergency():

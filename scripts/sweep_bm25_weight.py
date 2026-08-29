@@ -26,6 +26,7 @@ sys.path.insert(0, str(ROOT))
 
 from knowledge.schema import load_all_diseases
 from retrieval.search_engine import HybridDiseaseSearcher, resolve_device, tokenize_vietnamese
+from runtime_config import get_setting, resolve_project_path
 from scripts.compare_embeddings import (
     _load_cases,
     _validate_benchmark_labels,
@@ -148,7 +149,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--model",
-        default="models/bge-m3-medical-v2-recovered-a050-fp16",
+        default=str(resolve_project_path(get_setting("retrieval.embedding_model"))),
         help="Model path or huggingface id",
     )
     parser.add_argument("--device", default=resolve_device())

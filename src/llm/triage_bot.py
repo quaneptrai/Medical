@@ -8,6 +8,10 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from conversation.state import ConversationState, SymptomExtracted
 from retrieval.search_engine import HybridDiseaseSearcher
+try:
+    from src.runtime_config import get_setting
+except ImportError:  # Script mode with ``src`` inserted into sys.path.
+    from runtime_config import get_setting
 
 PROMPT_TRIAGE_SYSTEM = """Bạn là trợ lý AI Phân loại Y tế (Triage Bot) chuyên nghiệp tại Việt Nam.
 
@@ -49,14 +53,19 @@ from safety.guardrails import ClinicalGuardrailEngine
 class TriageBot:
     def __init__(
         self,
-        provider: str = "auto",
+        provider: Optional[str] = None,
         api_key: Optional[str] = None,
-        ollama_model: str = "llama3.1:8b",
-        ollama_base_url: str = "http://localhost:11434/v1"
+        ollama_model: Optional[str] = None,
+        ollama_base_url: Optional[str] = None,
     ):
-        self.provider = provider
-        self.ollama_model = ollama_model
-        self.ollama_base_url = ollama_base_url
+        self.provider = provider or os.getenv("BOTMED_LLM_PROVIDER") or get_setting("llm.provider")
+        self.ollama_model = ollama_model or os.getenv("BOTMED_OLLAMA_MODEL") or get_setting("llm.ollama_model")
+        self.ollama_base_url = ollama_base_url or os.getenv("BOTMED_OLLAMA_BASE_URL") or get_setting("llm.ollama_base_url")
+        self.gemini_model = os.getenv("BOTMED_GEMINI_MODEL") or get_setting("llm.gemini_model")
+        self.llm_temperature = float(get_setting("llm.temperature"))
+        self.llm_max_tokens = int(get_setting("llm.max_tokens"))
+        self.retrieval_top_k = int(get_setting("retrieval.top_k"))
+        self.max_turns = int(get_setting("conversation.max_turns"))
         self.gemini_api_key = api_key or os.getenv("GEMINI_API_KEY")
         
         # Initialize Hybrid Search
@@ -92,7 +101,8 @@ class TriageBot:
                 {"role": "user", "content": user_message}
             ],
             response_format={"type": "json_object"},
-            temperature=0.1
+            temperature=self.llm_temperature,
+            max_tokens=self.llm_max_tokens,
         )
         return resp.choices[0].message.content
 
@@ -102,11 +112,12 @@ class TriageBot:
             
         from google.genai import types
         response = self.gemini_client.models.generate_content(
-            model="gemini-3.6-flash",
+            model=self.gemini_model,
             contents=[prompt, f"User: {user_message}"],
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
-                temperature=0.1,
+                temperature=self.llm_temperature,
+                max_output_tokens=self.llm_max_tokens,
             )
         )
         return response.text
@@ -126,7 +137,7 @@ class TriageBot:
         retrieval_route = "emergency" if guardrail_eval else "general"
         retrieved_diseases = self.search_engine.search(
             search_query,
-            top_k=3,
+            top_k=getattr(self, "retrieval_top_k", 3),
             route=retrieval_route,
         )
         
@@ -148,7 +159,7 @@ class TriageBot:
             symptoms=state.get_symptoms_summary(),
             red_flags=", ".join(state.red_flags_detected) if state.red_flags_detected else "Chưa có",
             turn_count=state.turn_count,
-            max_turns=6,
+            max_turns=getattr(self, "max_turns", 6),
             disease_context=disease_context if disease_context else "Chưa có dữ liệu liên quan."
         )
         

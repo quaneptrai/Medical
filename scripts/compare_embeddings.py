@@ -22,6 +22,7 @@ sys.path.insert(0, str(ROOT))
 
 from knowledge.schema import load_all_diseases
 from retrieval.search_engine import HybridDiseaseSearcher, resolve_device, tokenize_vietnamese
+from runtime_config import get_setting
 
 
 def _normalize(text: str) -> str:
@@ -289,7 +290,11 @@ def main():
     parser.add_argument("--device", default=resolve_device())
     parser.add_argument("--seq-len", type=int, default=768)
     parser.add_argument("--encode-batch-size", type=int, default=32)
-    parser.add_argument("--bm25-weight", type=float, default=0.75)
+    parser.add_argument(
+        "--bm25-weight",
+        type=float,
+        default=float(get_setting("retrieval.bm25_weight")),
+    )
     parser.add_argument("--limit-generated", type=int, default=0, help="0 evaluates all cases")
     parser.add_argument("--limit-603", type=int, default=0, help="0 evaluates all cases")
     parser.add_argument("--report", default="artifacts/evaluation/bge_m3_comparison.json")

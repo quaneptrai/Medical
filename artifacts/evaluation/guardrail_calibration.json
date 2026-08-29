@@ -1,6 +1,12 @@
 {
   "schema_version": 1,
   "model": "models/bge-m3-medical-v2-safe-fp16",
+  "model_role": "semantic_guardrail_advisory",
+  "model_alpha": 0.07,
+  "model_sha256": "e72ee7ad51b883cd31057c5c642b8530ad485e0335e8f125af8276433da83fbb",
+  "semantic_mode": "advisory",
+  "deployment_approved": false,
+  "pinning_rationale": "Threshold 0.58 was calibrated on this exact alpha-0.07 artifact. Keep it separate from alpha-0.50 retrieval until recalibration on an independent clinical holdout.",
   "selected_threshold": 0.58,
   "selection_rule": "zero observed false negatives, then minimum false positives, then highest threshold",
   "dataset": "data/test_cases/generated_benchmark.json",

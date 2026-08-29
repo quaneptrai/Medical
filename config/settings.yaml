@@ -1,40 +1,35 @@
-# Medical Chatbot Configuration
-
+# Canonical runtime configuration. Environment variables remain explicit
+# deployment overrides; evaluation scripts must record any override they use.
 project:
-  name: "BotMedical"
-  version: "0.1.0"
-  description: "Medical symptom checker chatbot with RAG-based diagnosis support"
+  name: BotMedical
+  version: 0.2.0
 
-# LLM Settings
 llm:
-  provider: "google"  # google | openai
-  model: "gemini-2.0-flash"
-  temperature: 0.3
+  provider: ollama
+  ollama_model: llama3.1:8b
+  ollama_base_url: http://localhost:11434/v1
+  gemini_model: gemini-3.6-flash
+  temperature: 0.1
   max_tokens: 2048
-  system_prompt: |
-    Bạn là một trợ lý sức khỏe ảo. Nhiệm vụ:
-    1. Thu thập triệu chứng từ người dùng qua hội thoại tự nhiên bằng tiếng Việt.
-    2. Hỏi các câu hỏi bổ sung để thu hẹp khả năng chẩn đoán.
-    3. Phát hiện các dấu hiệu nguy hiểm (red flags) và cảnh báo cấp cứu ngay.
-    4. Đưa ra danh sách các khả năng bệnh lý (differential diagnosis), KHÔNG BAO GIỜ khẳng định chắc chắn.
-    5. Luôn khuyên người dùng đến cơ sở y tế để được thăm khám trực tiếp.
-    6. KHÔNG BAO GIỜ kê đơn thuốc hoặc đưa ra liều lượng điều trị.
 
-# Retrieval Settings
 retrieval:
-  embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-  vector_db_path: "data/embeddings"
-  top_k: 5
-  bm25_weight: 0.4
-  vector_weight: 0.6
+  # Selected provisionally from artifacts/evaluation/bm25_weight_sweep.json.
+  # Revisit only after the independently labeled clinical holdout exists.
+  embedding_model: models/bge-m3-medical-v2-recovered-a050-fp16
+  diseases_dir: data/diseases_expanded
+  vector_db_path: data/embeddings
+  top_k: 3
+  bm25_weight: 0.15
 
-# Conversation Settings
+safety:
+  deterministic_rules: hard_override
+  semantic:
+    mode: advisory
+    calibration: artifacts/evaluation/guardrail_calibration.json
+    rationale: >-
+      Keep the alpha-0.07 model pinned because threshold 0.58 was calibrated on
+      that exact artifact. Semantic similarity is advisory only; deterministic
+      red-flag rules own automatic emergency escalation.
+
 conversation:
-  max_turns: 8
-  min_symptoms_before_diagnosis: 2
-  max_questions_before_suggestion: 4
-
-# Disease KB
-knowledge_base:
-  diseases_dir: "data/diseases"
-  schema_version: "1.0"
+  max_turns: 6

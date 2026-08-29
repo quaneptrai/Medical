@@ -1,10 +1,16 @@
 import json
 import os
 import re
+import hashlib
 from typing import List, Dict, Tuple, Optional
 from pathlib import Path
 import numpy as np
 from unidecode import unidecode
+
+try:
+    from src.runtime_config import get_setting, resolve_project_path
+except ImportError:  # Script mode with ``src`` inserted into sys.path.
+    from runtime_config import get_setting, resolve_project_path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 
@@ -32,14 +38,14 @@ class ClinicalGuardrailEngine:
         config_path = Path(
             calibration_path
             or os.getenv("BOTMED_GUARDRAIL_CONFIG", "")
-            or ROOT / "artifacts" / "evaluation" / "guardrail_calibration.json"
+            or resolve_project_path(get_setting("safety.semantic.calibration"))
         )
         runtime_config = self._load_runtime_config(config_path)
         self.semantic_mode = (
             semantic_mode
             or os.getenv("BOTMED_GUARDRAIL_SEMANTIC_MODE")
             or runtime_config.get("semantic_mode")
-            or "advisory"
+            or get_setting("safety.semantic.mode")
         ).strip().lower()
         if self.semantic_mode not in {"advisory", "auto", "off"}:
             raise ValueError("semantic_mode must be one of: advisory, auto, off")
@@ -86,7 +92,26 @@ class ClinicalGuardrailEngine:
         self.anchor_embeddings = None
         self.semantic_load_error = None
         if self.semantic_mode != "off":
+            expected_sha256 = runtime_config.get("model_sha256")
+            if expected_sha256:
+                self._verify_model_sha256(self.model_path, expected_sha256)
             self._init_embedding_matcher(self.model_path, require_semantic=require_semantic)
+
+    @staticmethod
+    def _verify_model_sha256(model_path: str, expected_sha256: str) -> None:
+        artifact = Path(model_path) / "model.safetensors"
+        if not artifact.is_file():
+            raise RuntimeError(f"Guardrail model artifact not found: {artifact}")
+        digest = hashlib.sha256()
+        with artifact.open("rb") as handle:
+            for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                digest.update(chunk)
+        actual = digest.hexdigest()
+        if actual.lower() != str(expected_sha256).lower():
+            raise RuntimeError(
+                "Guardrail model SHA256 mismatch: "
+                f"expected {expected_sha256}, got {actual}"
+            )
 
     @staticmethod
     def _load_runtime_config(path: Path) -> Dict:
@@ -404,7 +429,7 @@ class ClinicalGuardrailEngine:
         """
         Đánh giá cấp cứu qua 2 tầng:
         1. Tầng 1: Flexible Regex (0.1ms).
-        2. Tầng 2: Semantic Similarity (BGE-M3 đối xứng có dấu + không dấu, ngưỡng 0.46).
+        2. Tầng 2: Semantic Similarity advisory, dùng model/ngưỡng đã ghim trong calibration artifact.
         """
         symptoms_str = " ".join(current_symptoms) if current_symptoms else ""
         combined_text = f"{symptoms_str} {user_message}".strip()

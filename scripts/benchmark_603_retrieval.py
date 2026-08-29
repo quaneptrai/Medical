@@ -10,10 +10,12 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from knowledge.schema import load_all_diseases
 from retrieval.search_engine import tokenize_vietnamese
+from runtime_config import get_setting, resolve_project_path
 from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
 
 def run_clean_benchmark():
+    bm25_weight = float(get_setting("retrieval.bm25_weight"))
     print("1. Nạp 603 hồ sơ bệnh Tier 2 sạch...")
     diseases = load_all_diseases(ROOT / "data/diseases_expanded")
     disease_map = {d.name_vi: d for d in diseases}
@@ -39,7 +41,10 @@ def run_clean_benchmark():
 
     # 3. Mã hóa Embeddings cho 603 bệnh
     print("3. Đang mã hóa vector embeddings cho 603 bệnh...")
-    model = SentenceTransformer(str(ROOT / "models/bge-m3-medical"), device="cpu")
+    model = SentenceTransformer(
+        str(resolve_project_path(get_setting("retrieval.embedding_model"))),
+        device="cpu",
+    )
     t_enc = time.time()
     doc_embeddings = model.encode(dense_docs, batch_size=64, normalize_embeddings=True, show_progress_bar=False)
     print(f"-> Đã mã hóa xong 603 vector embedding trong: {time.time() - t_enc:.2f}s!")
@@ -69,8 +74,8 @@ def run_clean_benchmark():
         q_vec = model.encode([query], normalize_embeddings=True)[0]
         dense_scores = np.dot(doc_embeddings, q_vec)
 
-        # Fused scoring (0.4 BM25 + 0.6 Dense)
-        fused_scores = 0.4 * bm25_norm + 0.6 * dense_scores
+        # Fused scoring from the canonical runtime configuration.
+        fused_scores = bm25_weight * bm25_norm + (1.0 - bm25_weight) * dense_scores
 
         # Rank predictions
         top_bm25 = [disease_names[i] for i in np.argsort(bm25_raw)[::-1][:5]]
@@ -97,7 +102,8 @@ def run_clean_benchmark():
     print("-" * 70)
     print(f"{'BM25 Thuần':<22} | {bm25_top1/n:<12.2%} | {bm25_top3/n:<14.2%} | {bm25_top5/n:<14.2%}")
     print(f"{'BGE-M3 Dense':<22} | {dense_top1/n:<12.2%} | {dense_top3/n:<14.2%} | {dense_top5/n:<14.2%}")
-    print(f"{'Hybrid (0.4 BM + 0.6 Vec)':<22} | {hybrid_top1/n:<12.2%} | {hybrid_top3/n:<14.2%} | {hybrid_top5/n:<14.2%}")
+    hybrid_label = f"Hybrid ({bm25_weight:.2f} BM)"
+    print(f"{hybrid_label:<22} | {hybrid_top1/n:<12.2%} | {hybrid_top3/n:<14.2%} | {hybrid_top5/n:<14.2%}")
     print("-" * 70)
     print(f"Độ trễ trung bình trên CPU: {latency:.2f} ms / truy vấn")
 
