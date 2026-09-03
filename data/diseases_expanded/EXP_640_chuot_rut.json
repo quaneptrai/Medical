@@ -1,0 +1,79 @@
+{
+  "disease_id": "EXP_640",
+  "name_vi": "Chuột rút",
+  "name_en": "Muscle Cramps",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Chuột rút bắp chân",
+    "Co thắt cơ bắp",
+    "Vọp bẻ"
+  ],
+  "tier": 1,
+  "description": "Cơn co rút đột ngột, đau đớn và không tự chủ của một hoặc nhóm cơ (hay gặp nhất ở bắp chân và bàn chân), kéo dài từ vài giây đến vài phút.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cơ bắp chân co cứng ngắt thành cục đau nhói dữ dội",
+        "name_en": "Sudden intense pain and hard knot in calf muscle",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Không thể cử động bàn chân trong cơn co rút",
+        "name_en": "Inability to move foot during spasm",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Cảm giác đau ê ẩm cơ bắp sau khi cơn rút đã hết",
+        "name_en": "Residual muscle soreness after cramp resolves",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Thường xảy ra vào ban đêm lúc ngủ hoặc khi bơi lội",
+        "name_en": "Occurs frequently at night or during swimming",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Bắp chân một bên sưng to nóng đỏ đau liên tục (nghi ngờ huyết khối tĩnh mạch sâu chi dưới)",
+    "Chuột rút liên tục toàn thân kèm co cứng hàm hoặc co giật",
+    "Khó thở, đau ngực đi kèm"
+  ],
+  "risk_factors": [
+    "Thiếu nước và chất điện giải (magie, canxi, kali)",
+    "Vận động cơ bắp quá sức",
+    "Mang thai",
+    "Thời tiết lạnh ban đêm"
+  ],
+  "questions_to_ask": [
+    "Chuột rút xảy ra ở bắp chân vào ban đêm hay khi tập thể thao?",
+    "Sau khi hết cơn chuột rút, chân có bị sưng đỏ nóng đau liên tục không?",
+    "Bạn có đang mang thai hoặc uống thuốc lợi tiểu không?"
+  ],
+  "differential_diagnoses": [
+    "Huyết khối tĩnh mạch sâu chi dưới (DVT)",
+    "Hội chứng chân không yên",
+    "Thiếu canxi máu"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Một bên bắp chân sưng phù nóng đỏ đau dữ dội kèm khó thở đau ngực (nghi thuyên tắc phổi do huyết khối)"
+  ],
+  "user_language_variants": [
+    "đang ngủ nửa đêm bắp chân giật cứng co thắt đau thấu trời",
+    "bị chuột rút bắp chuối cứng đơ phải duỗi gập ngón chân",
+    "bị vọp bẻ căng cứng cơ chân lúc sáng sớm lạnh",
+    "chuột rút bắp chân đau điếng khi đang bơi",
+    "chân hay bị chuột rút co cứng bắp thịt ban đêm"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

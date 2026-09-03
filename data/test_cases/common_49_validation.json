@@ -1,0 +1,1478 @@
+{
+  "dataset_id": "common-49-validation-v1",
+  "evaluation_role": "model_selection_validation_not_clinical_holdout",
+  "source": "Manually authored synthetic Vietnamese queries; not clinician-reviewed",
+  "minimum_cases_per_disease": 5,
+  "cases": [
+    {
+      "case_id": "C49-604-01",
+      "disease_id": "EXP_604",
+      "expected_disease": "Cảm lạnh thông thường",
+      "query": "Hai hôm nay tôi hắt xì, nước mũi trong và hơi rát cổ nhưng vẫn sinh hoạt bình thường"
+    },
+    {
+      "case_id": "C49-604-02",
+      "disease_id": "EXP_604",
+      "expected_disease": "Cảm lạnh thông thường",
+      "query": "Đi mưa về bị nghẹt mũi, gai người nhẹ rồi ho lâm râm"
+    },
+    {
+      "case_id": "C49-604-03",
+      "disease_id": "EXP_604",
+      "expected_disease": "Cảm lạnh thông thường",
+      "query": "Không sốt cao, chỉ sụt sịt và ê ẩm người như mới cảm"
+    },
+    {
+      "case_id": "C49-604-04",
+      "disease_id": "EXP_604",
+      "expected_disease": "Cảm lạnh thông thường",
+      "query": "Mũi chảy nước, cổ hơi khô, ho ít từ hôm qua"
+    },
+    {
+      "case_id": "C49-604-05",
+      "disease_id": "EXP_604",
+      "expected_disease": "Cảm lạnh thông thường",
+      "query": "Tôi bị cảm nhẹ, hắt hơi nhiều và tắc mũi về đêm"
+    },
+    {
+      "case_id": "C49-605-01",
+      "disease_id": "EXP_605",
+      "expected_disease": "Ho khan",
+      "query": "Cứ ngứa cổ là tôi ho thành tràng nhưng không khạc ra gì"
+    },
+    {
+      "case_id": "C49-605-02",
+      "disease_id": "EXP_605",
+      "expected_disease": "Ho khan",
+      "query": "Ho cộc cộc không có đờm làm cổ họng khô rát"
+    },
+    {
+      "case_id": "C49-605-03",
+      "disease_id": "EXP_605",
+      "expected_disease": "Ho khan",
+      "query": "Ban đêm tôi ho khô nhiều, nói chuyện xong giọng hơi khàn"
+    },
+    {
+      "case_id": "C49-605-04",
+      "disease_id": "EXP_605",
+      "expected_disease": "Ho khan",
+      "query": "Trong cổ cứ nhột nhột rồi ho, hoàn toàn không có dịch"
+    },
+    {
+      "case_id": "C49-605-05",
+      "disease_id": "EXP_605",
+      "expected_disease": "Ho khan",
+      "query": "Ho không đàm mấy ngày làm cơ ngực hơi đau"
+    },
+    {
+      "case_id": "C49-606-01",
+      "disease_id": "EXP_606",
+      "expected_disease": "Ho có đờm",
+      "query": "Sáng ngủ dậy tôi phải khạc nhiều chất nhầy trong cổ"
+    },
+    {
+      "case_id": "C49-606-02",
+      "disease_id": "EXP_606",
+      "expected_disease": "Ho có đờm",
+      "query": "Ho nghe lọc sọc và có đàm nhưng không khó thở"
+    },
+    {
+      "case_id": "C49-606-03",
+      "disease_id": "EXP_606",
+      "expected_disease": "Ho có đờm",
+      "query": "Cảm giác đờm mắc ở họng, ho lên mới dễ chịu"
+    },
+    {
+      "case_id": "C49-606-04",
+      "disease_id": "EXP_606",
+      "expected_disease": "Ho có đờm",
+      "query": "Tôi ho ra chất nhầy trắng, ngực chỉ hơi nặng"
+    },
+    {
+      "case_id": "C49-606-05",
+      "disease_id": "EXP_606",
+      "expected_disease": "Ho có đờm",
+      "query": "Mấy ngày nay cứ khạc đàm vào buổi sáng"
+    },
+    {
+      "case_id": "C49-607-01",
+      "disease_id": "EXP_607",
+      "expected_disease": "Sổ mũi",
+      "query": "Nước mũi trong cứ chảy phải lau liên tục"
+    },
+    {
+      "case_id": "C49-607-02",
+      "disease_id": "EXP_607",
+      "expected_disease": "Sổ mũi",
+      "query": "Mũi tôi ngứa rồi chảy nước loãng cả ngày"
+    },
+    {
+      "case_id": "C49-607-03",
+      "disease_id": "EXP_607",
+      "expected_disease": "Sổ mũi",
+      "query": "Da quanh cánh mũi đỏ vì sụt sịt và lau nhiều"
+    },
+    {
+      "case_id": "C49-607-04",
+      "disease_id": "EXP_607",
+      "expected_disease": "Sổ mũi",
+      "query": "Tự nhiên chảy nước mũi hai bên kèm vài cái hắt hơi"
+    },
+    {
+      "case_id": "C49-607-05",
+      "disease_id": "EXP_607",
+      "expected_disease": "Sổ mũi",
+      "query": "Tôi chỉ bị chảy mũi trong và hơi tắc thoáng qua"
+    },
+    {
+      "case_id": "C49-608-01",
+      "disease_id": "EXP_608",
+      "expected_disease": "Nghẹt mũi",
+      "query": "Tối nằm xuống hai lỗ mũi bí nên phải há miệng thở"
+    },
+    {
+      "case_id": "C49-608-02",
+      "disease_id": "EXP_608",
+      "expected_disease": "Nghẹt mũi",
+      "query": "Mũi bị tắc làm giọng nói nghe đặc lại"
+    },
+    {
+      "case_id": "C49-608-03",
+      "disease_id": "EXP_608",
+      "expected_disease": "Nghẹt mũi",
+      "query": "Không chảy nhiều nước nhưng thở qua mũi rất khó"
+    },
+    {
+      "case_id": "C49-608-04",
+      "disease_id": "EXP_608",
+      "expected_disease": "Nghẹt mũi",
+      "query": "Sáng dậy miệng khô vì cả đêm phải thở miệng"
+    },
+    {
+      "case_id": "C49-608-05",
+      "disease_id": "EXP_608",
+      "expected_disease": "Nghẹt mũi",
+      "query": "Sống mũi nặng và bí cả hai bên"
+    },
+    {
+      "case_id": "C49-609-01",
+      "disease_id": "EXP_609",
+      "expected_disease": "Hăm kẽ do ẩm",
+      "query": "Nếp bẹn đỏ ẩm và xót khi hai mặt da cọ nhau"
+    },
+    {
+      "case_id": "C49-609-02",
+      "disease_id": "EXP_609",
+      "expected_disease": "Hăm kẽ do ẩm",
+      "query": "Dưới ngực bị hăm ngứa vào ngày nóng ra nhiều mồ hôi"
+    },
+    {
+      "case_id": "C49-609-03",
+      "disease_id": "EXP_609",
+      "expected_disease": "Hăm kẽ do ẩm",
+      "query": "Nếp bụng có mảng đỏ ướt, mặc đồ bí thì rát hơn"
+    },
+    {
+      "case_id": "C49-609-04",
+      "disease_id": "EXP_609",
+      "expected_disease": "Hăm kẽ do ẩm",
+      "query": "Vùng nách hăm đỏ nhẹ nhưng chưa có mủ hay sốt"
+    },
+    {
+      "case_id": "C49-609-05",
+      "disease_id": "EXP_609",
+      "expected_disease": "Hăm kẽ do ẩm",
+      "query": "Da ở nếp gấp cọ xát có mùi và nứt nông"
+    },
+    {
+      "case_id": "C49-610-01",
+      "disease_id": "EXP_610",
+      "expected_disease": "Chảy máu cam nhẹ",
+      "query": "Ngoáy mũi xong rỉ ít máu đỏ rồi tự ngừng"
+    },
+    {
+      "case_id": "C49-610-02",
+      "disease_id": "EXP_610",
+      "expected_disease": "Chảy máu cam nhẹ",
+      "query": "Trời khô làm một bên mũi chảy vài giọt máu"
+    },
+    {
+      "case_id": "C49-610-03",
+      "disease_id": "EXP_610",
+      "expected_disease": "Chảy máu cam nhẹ",
+      "query": "Bóp cánh mũi khoảng bảy phút thì máu đã cầm"
+    },
+    {
+      "case_id": "C49-610-04",
+      "disease_id": "EXP_610",
+      "expected_disease": "Chảy máu cam nhẹ",
+      "query": "Trong mũi có vảy khô và thỉnh thoảng rớm máu"
+    },
+    {
+      "case_id": "C49-610-05",
+      "disease_id": "EXP_610",
+      "expected_disease": "Chảy máu cam nhẹ",
+      "query": "Máu cam lượng ít, không chóng mặt và đã tự hết"
+    },
+    {
+      "case_id": "C49-611-01",
+      "disease_id": "EXP_611",
+      "expected_disease": "Ù tai cơ năng",
+      "query": "Khi phòng yên tôi nghe tiếng vo ve trong tai rõ hơn"
+    },
+    {
+      "case_id": "C49-611-02",
+      "disease_id": "EXP_611",
+      "expected_disease": "Ù tai cơ năng",
+      "query": "Đi máy bay xuống thấy tai lùng bùng và ù nhẹ"
+    },
+    {
+      "case_id": "C49-611-03",
+      "disease_id": "EXP_611",
+      "expected_disease": "Ù tai cơ năng",
+      "query": "Tai cứ ro ro làm tôi khó ngủ nhưng vẫn nghe được"
+    },
+    {
+      "case_id": "C49-611-04",
+      "disease_id": "EXP_611",
+      "expected_disease": "Ù tai cơ năng",
+      "query": "Mệt là tiếng ù một bên tai tăng lên, không đau"
+    },
+    {
+      "case_id": "C49-611-05",
+      "disease_id": "EXP_611",
+      "expected_disease": "Ù tai cơ năng",
+      "query": "Tôi nghe tiếng kêu trong tai dù bên ngoài không có âm thanh"
+    },
+    {
+      "case_id": "C49-612-01",
+      "disease_id": "EXP_612",
+      "expected_disease": "Nút ráy tai",
+      "query": "Tai như bị bịt, ngoáy ra thấy nhiều ráy cứng"
+    },
+    {
+      "case_id": "C49-612-02",
+      "disease_id": "EXP_612",
+      "expected_disease": "Nút ráy tai",
+      "query": "Sau khi tắm tai nghẹt hơn vì ráy tai hút nước"
+    },
+    {
+      "case_id": "C49-612-03",
+      "disease_id": "EXP_612",
+      "expected_disease": "Nút ráy tai",
+      "query": "Một bên nghe nhỏ và ngứa trong ống tai"
+    },
+    {
+      "case_id": "C49-612-04",
+      "disease_id": "EXP_612",
+      "expected_disease": "Nút ráy tai",
+      "query": "Cảm giác có cục gì bít tai kèm ù nhẹ"
+    },
+    {
+      "case_id": "C49-612-05",
+      "disease_id": "EXP_612",
+      "expected_disease": "Nút ráy tai",
+      "query": "Tai đầy tức nhưng không sốt, không chảy mủ"
+    },
+    {
+      "case_id": "C49-613-01",
+      "disease_id": "EXP_613",
+      "expected_disease": "Nước vào tai",
+      "query": "Bơi xong trong tai nghe ọc ọc khi nghiêng đầu"
+    },
+    {
+      "case_id": "C49-613-02",
+      "disease_id": "EXP_613",
+      "expected_disease": "Nước vào tai",
+      "query": "Tắm xong một bên tai lùng bùng như còn nước"
+    },
+    {
+      "case_id": "C49-613-03",
+      "disease_id": "EXP_613",
+      "expected_disease": "Nước vào tai",
+      "query": "Lắc đầu thấy chất lỏng di chuyển trong ống tai"
+    },
+    {
+      "case_id": "C49-613-04",
+      "disease_id": "EXP_613",
+      "expected_disease": "Nước vào tai",
+      "query": "Tai hơi ngứa và nghe nhỏ ngay sau lúc đi bơi"
+    },
+    {
+      "case_id": "C49-613-05",
+      "disease_id": "EXP_613",
+      "expected_disease": "Nước vào tai",
+      "query": "Nước mắc trong tai chưa ra nhưng chưa đau nhức"
+    },
+    {
+      "case_id": "C49-614-01",
+      "disease_id": "EXP_614",
+      "expected_disease": "Rát họng kích ứng",
+      "query": "Ngủ điều hòa dậy cổ khô rát, uống nước ấm thì dễ chịu"
+    },
+    {
+      "case_id": "C49-614-02",
+      "disease_id": "EXP_614",
+      "expected_disease": "Rát họng kích ứng",
+      "query": "Ở phòng nhiều khói tôi húng hắng ho và xót họng"
+    },
+    {
+      "case_id": "C49-614-03",
+      "disease_id": "EXP_614",
+      "expected_disease": "Rát họng kích ứng",
+      "query": "Nuốt nước bọt hơi rát vào sáng sớm nhưng không sốt"
+    },
+    {
+      "case_id": "C49-614-04",
+      "disease_id": "EXP_614",
+      "expected_disease": "Rát họng kích ứng",
+      "query": "Cổ họng khô háo sau khi nói lâu"
+    },
+    {
+      "case_id": "C49-614-05",
+      "disease_id": "EXP_614",
+      "expected_disease": "Rát họng kích ứng",
+      "query": "Tôi chỉ rát cổ nhẹ khi thiếu nước, không sưng amidan"
+    },
+    {
+      "case_id": "C49-615-01",
+      "disease_id": "EXP_615",
+      "expected_disease": "Nhiệt miệng",
+      "query": "Trong má có nốt loét trắng viền đỏ, ăn chua rất xót"
+    },
+    {
+      "case_id": "C49-615-02",
+      "disease_id": "EXP_615",
+      "expected_disease": "Nhiệt miệng",
+      "query": "Đầu lưỡi nổi một vết loét tròn nhỏ đau khi chạm"
+    },
+    {
+      "case_id": "C49-615-03",
+      "disease_id": "EXP_615",
+      "expected_disease": "Nhiệt miệng",
+      "query": "Miệng lở một nốt trắng mấy ngày nay, không sốt"
+    },
+    {
+      "case_id": "C49-615-04",
+      "disease_id": "EXP_615",
+      "expected_disease": "Nhiệt miệng",
+      "query": "Ăn đồ mặn là vết loét bên trong môi rát buốt"
+    },
+    {
+      "case_id": "C49-615-05",
+      "disease_id": "EXP_615",
+      "expected_disease": "Nhiệt miệng",
+      "query": "Niêm mạc miệng có vết tròn đau, xung quanh hơi đỏ"
+    },
+    {
+      "case_id": "C49-616-01",
+      "disease_id": "EXP_616",
+      "expected_disease": "Móng chân mọc ngược",
+      "query": "Mép móng ngón cái cong vào da làm khóe chân đau"
+    },
+    {
+      "case_id": "C49-616-02",
+      "disease_id": "EXP_616",
+      "expected_disease": "Móng chân mọc ngược",
+      "query": "Đi giày kín là bờ móng chọc thịt đau hơn"
+    },
+    {
+      "case_id": "C49-616-03",
+      "disease_id": "EXP_616",
+      "expected_disease": "Móng chân mọc ngược",
+      "query": "Khóe móng chân đỏ sưng vì móng mọc xiên vào"
+    },
+    {
+      "case_id": "C49-616-04",
+      "disease_id": "EXP_616",
+      "expected_disease": "Móng chân mọc ngược",
+      "query": "Cắt móng quá sát xong một bên ngón cái đau nhói"
+    },
+    {
+      "case_id": "C49-616-05",
+      "disease_id": "EXP_616",
+      "expected_disease": "Móng chân mọc ngược",
+      "query": "Móng chân bị quặp, quanh mép có ít mô đỏ"
+    },
+    {
+      "case_id": "C49-617-01",
+      "disease_id": "EXP_617",
+      "expected_disease": "Ợ chua ợ nóng",
+      "query": "Nằm ngay sau bữa ăn là chất chua trào lên cổ"
+    },
+    {
+      "case_id": "C49-617-02",
+      "disease_id": "EXP_617",
+      "expected_disease": "Ợ chua ợ nóng",
+      "query": "Sau xương ức nóng rát kèm ợ vị đắng"
+    },
+    {
+      "case_id": "C49-617-03",
+      "disease_id": "EXP_617",
+      "expected_disease": "Ợ chua ợ nóng",
+      "query": "Ăn tối muộn xong tôi bị nóng ngực và chua miệng"
+    },
+    {
+      "case_id": "C49-617-04",
+      "disease_id": "EXP_617",
+      "expected_disease": "Ợ chua ợ nóng",
+      "query": "Ợ lên nước chua, cổ hơi vướng nhưng không đau thắt"
+    },
+    {
+      "case_id": "C49-617-05",
+      "disease_id": "EXP_617",
+      "expected_disease": "Ợ chua ợ nóng",
+      "query": "Cúi người sau ăn thì cảm giác bỏng rát ngực tăng"
+    },
+    {
+      "case_id": "C49-618-01",
+      "disease_id": "EXP_618",
+      "expected_disease": "Nấc cụt",
+      "query": "Tôi nấc từng tiếng liên tục khoảng mười phút sau ăn"
+    },
+    {
+      "case_id": "C49-618-02",
+      "disease_id": "EXP_618",
+      "expected_disease": "Nấc cụt",
+      "query": "Ngực bụng cứ giật nhẹ rồi phát ra tiếng nấc"
+    },
+    {
+      "case_id": "C49-618-03",
+      "disease_id": "EXP_618",
+      "expected_disease": "Nấc cụt",
+      "query": "Uống nước có ga xong bị nấc nhưng vẫn thở bình thường"
+    },
+    {
+      "case_id": "C49-618-04",
+      "disease_id": "EXP_618",
+      "expected_disease": "Nấc cụt",
+      "query": "Cơn nấc ngắt quãng làm cơ ngực hơi mỏi"
+    },
+    {
+      "case_id": "C49-618-05",
+      "disease_id": "EXP_618",
+      "expected_disease": "Nấc cụt",
+      "query": "Ăn quá nhanh khiến tôi nấc mãi chưa hết"
+    },
+    {
+      "case_id": "C49-619-01",
+      "disease_id": "EXP_619",
+      "expected_disease": "Viêm quanh móng nhẹ",
+      "query": "Da sát móng tay sưng đỏ sau khi tôi cắn móng"
+    },
+    {
+      "case_id": "C49-619-02",
+      "disease_id": "EXP_619",
+      "expected_disease": "Viêm quanh móng nhẹ",
+      "query": "Khóe móng có túi mủ rất nhỏ và ấn đau"
+    },
+    {
+      "case_id": "C49-619-03",
+      "disease_id": "EXP_619",
+      "expected_disease": "Viêm quanh móng nhẹ",
+      "query": "Làm móng xong nếp da cạnh móng căng tức"
+    },
+    {
+      "case_id": "C49-619-04",
+      "disease_id": "EXP_619",
+      "expected_disease": "Viêm quanh móng nhẹ",
+      "query": "Quanh móng ngón tay đỏ nhức nhưng chưa lan lên bàn tay"
+    },
+    {
+      "case_id": "C49-619-05",
+      "disease_id": "EXP_619",
+      "expected_disease": "Viêm quanh móng nhẹ",
+      "query": "Xước da ở khóe móng rồi chỗ đó viêm nhẹ"
+    },
+    {
+      "case_id": "C49-620-01",
+      "disease_id": "EXP_620",
+      "expected_disease": "Say tàu xe",
+      "query": "Ngồi ô tô đường đèo là tôi chóng mặt và toát mồ hôi"
+    },
+    {
+      "case_id": "C49-620-02",
+      "disease_id": "EXP_620",
+      "expected_disease": "Say tàu xe",
+      "query": "Xe vừa chạy một lúc tôi đã nôn nao muốn ói"
+    },
+    {
+      "case_id": "C49-620-03",
+      "disease_id": "EXP_620",
+      "expected_disease": "Say tàu xe",
+      "query": "Đi tàu bị choáng váng, xuống tàu nghỉ thì hết"
+    },
+    {
+      "case_id": "C49-620-04",
+      "disease_id": "EXP_620",
+      "expected_disease": "Say tàu xe",
+      "query": "Nhìn điện thoại trên xe làm tôi vã mồ hôi lạnh và buồn nôn"
+    },
+    {
+      "case_id": "C49-620-05",
+      "disease_id": "EXP_620",
+      "expected_disease": "Say tàu xe",
+      "query": "Mỗi lần đi xe khách tôi mệt lả và ói"
+    },
+    {
+      "case_id": "C49-621-01",
+      "disease_id": "EXP_621",
+      "expected_disease": "Sâu răng",
+      "query": "Răng hàm có lỗ nâu, ăn ngọt là ê buốt"
+    },
+    {
+      "case_id": "C49-621-02",
+      "disease_id": "EXP_621",
+      "expected_disease": "Sâu răng",
+      "query": "Thức ăn hay mắc vào một chiếc răng bị đen"
+    },
+    {
+      "case_id": "C49-621-03",
+      "disease_id": "EXP_621",
+      "expected_disease": "Sâu răng",
+      "query": "Uống lạnh thấy nhói đúng chỗ răng có lỗ"
+    },
+    {
+      "case_id": "C49-621-04",
+      "disease_id": "EXP_621",
+      "expected_disease": "Sâu răng",
+      "query": "Nhai bên răng sâu hơi đau và có mùi"
+    },
+    {
+      "case_id": "C49-621-05",
+      "disease_id": "EXP_621",
+      "expected_disease": "Sâu răng",
+      "query": "Bề mặt răng bị khuyết màu đen nhưng chưa sưng mặt"
+    },
+    {
+      "case_id": "C49-622-01",
+      "disease_id": "EXP_622",
+      "expected_disease": "Viêm lợi",
+      "query": "Đánh răng là nướu đỏ chảy máu"
+    },
+    {
+      "case_id": "C49-622-02",
+      "disease_id": "EXP_622",
+      "expected_disease": "Viêm lợi",
+      "query": "Chân răng sưng bóng và hơi thở có mùi"
+    },
+    {
+      "case_id": "C49-622-03",
+      "disease_id": "EXP_622",
+      "expected_disease": "Viêm lợi",
+      "query": "Dùng chỉ nha khoa xong lợi chảy máu dễ dàng"
+    },
+    {
+      "case_id": "C49-622-04",
+      "disease_id": "EXP_622",
+      "expected_disease": "Viêm lợi",
+      "query": "Nướu ngứa tức và hơi tụt khỏi chân răng"
+    },
+    {
+      "case_id": "C49-622-05",
+      "disease_id": "EXP_622",
+      "expected_disease": "Viêm lợi",
+      "query": "Lợi sưng đỏ nhiều ngày nhưng răng chưa lung lay"
+    },
+    {
+      "case_id": "C49-623-01",
+      "disease_id": "EXP_623",
+      "expected_disease": "Hôi miệng",
+      "query": "Dù đánh răng rồi hơi thở vẫn có mùi khó chịu"
+    },
+    {
+      "case_id": "C49-623-02",
+      "disease_id": "EXP_623",
+      "expected_disease": "Hôi miệng",
+      "query": "Sáng ngủ dậy miệng đắng và lưỡi phủ mảng trắng"
+    },
+    {
+      "case_id": "C49-623-03",
+      "disease_id": "EXP_623",
+      "expected_disease": "Hôi miệng",
+      "query": "Miệng khô làm hơi thở nặng mùi"
+    },
+    {
+      "case_id": "C49-623-04",
+      "disease_id": "EXP_623",
+      "expected_disease": "Hôi miệng",
+      "query": "Người nhà bảo tôi thở ra có mùi dù không đau răng"
+    },
+    {
+      "case_id": "C49-623-05",
+      "disease_id": "EXP_623",
+      "expected_disease": "Hôi miệng",
+      "query": "Có mảng bám dày trên lưỡi kèm mùi miệng"
+    },
+    {
+      "case_id": "C49-624-01",
+      "disease_id": "EXP_624",
+      "expected_disease": "Đau răng",
+      "query": "Một chiếc răng đau nhói mỗi khi cắn thức ăn"
+    },
+    {
+      "case_id": "C49-624-02",
+      "disease_id": "EXP_624",
+      "expected_disease": "Đau răng",
+      "query": "Đêm nằm răng nhức âm ỉ lan lên thái dương"
+    },
+    {
+      "case_id": "C49-624-03",
+      "disease_id": "EXP_624",
+      "expected_disease": "Đau răng",
+      "query": "Chạm vào răng là đau, nướu quanh đó hơi sưng"
+    },
+    {
+      "case_id": "C49-624-04",
+      "disease_id": "EXP_624",
+      "expected_disease": "Đau răng",
+      "query": "Tôi bị nhức một bên hàm do răng nhưng không sốt"
+    },
+    {
+      "case_id": "C49-624-05",
+      "disease_id": "EXP_624",
+      "expected_disease": "Đau răng",
+      "query": "Răng đau từng cơn, nhai bên đó khó chịu"
+    },
+    {
+      "case_id": "C49-625-01",
+      "disease_id": "EXP_625",
+      "expected_disease": "Hắc lào",
+      "query": "Da có vòng tròn đỏ, rìa nổi mụn nhỏ và rất ngứa"
+    },
+    {
+      "case_id": "C49-625-02",
+      "disease_id": "EXP_625",
+      "expected_disease": "Hắc lào",
+      "query": "Mảng ngứa hình đồng xu đang lan rộng, giữa nhạt màu"
+    },
+    {
+      "case_id": "C49-625-03",
+      "disease_id": "EXP_625",
+      "expected_disease": "Hắc lào",
+      "query": "Đổ mồ hôi là viền tổn thương tròn trên da ngứa hơn"
+    },
+    {
+      "case_id": "C49-625-04",
+      "disease_id": "EXP_625",
+      "expected_disease": "Hắc lào",
+      "query": "Tôi có nhiều khoanh đỏ viền gồ lây sang vùng bên cạnh"
+    },
+    {
+      "case_id": "C49-625-05",
+      "disease_id": "EXP_625",
+      "expected_disease": "Hắc lào",
+      "query": "Vết nấm da tròn có trung tâm gần lành"
+    },
+    {
+      "case_id": "C49-626-01",
+      "disease_id": "EXP_626",
+      "expected_disease": "Lang ben",
+      "query": "Trên lưng có nhiều đốm trắng nâu phủ vảy mịn"
+    },
+    {
+      "case_id": "C49-626-02",
+      "disease_id": "EXP_626",
+      "expected_disease": "Lang ben",
+      "query": "Ngực loang màu, cạo nhẹ thấy bụi vảy như cám"
+    },
+    {
+      "case_id": "C49-626-03",
+      "disease_id": "EXP_626",
+      "expected_disease": "Lang ben",
+      "query": "Các mảng nhạt màu ở cổ hơi châm chích khi ra mồ hôi"
+    },
+    {
+      "case_id": "C49-626-04",
+      "disease_id": "EXP_626",
+      "expected_disease": "Lang ben",
+      "query": "Da bắp tay có đốm nâu trắng không đều màu"
+    },
+    {
+      "case_id": "C49-626-05",
+      "disease_id": "EXP_626",
+      "expected_disease": "Lang ben",
+      "query": "Tôi bị loang da có vảy rất mỏng ở thân mình"
+    },
+    {
+      "case_id": "C49-627-01",
+      "disease_id": "EXP_627",
+      "expected_disease": "Gàu da đầu",
+      "query": "Tóc có nhiều vảy trắng rơi đầy vai áo"
+    },
+    {
+      "case_id": "C49-627-02",
+      "disease_id": "EXP_627",
+      "expected_disease": "Gàu da đầu",
+      "query": "Da đầu ngứa nhẹ và bong vảy sau khi gội"
+    },
+    {
+      "case_id": "C49-627-03",
+      "disease_id": "EXP_627",
+      "expected_disease": "Gàu da đầu",
+      "query": "Chân tóc hơi đỏ, có vảy vàng nhờn"
+    },
+    {
+      "case_id": "C49-627-04",
+      "disease_id": "EXP_627",
+      "expected_disease": "Gàu da đầu",
+      "query": "Gãi đầu là bụi gàu trắng rơi xuống"
+    },
+    {
+      "case_id": "C49-627-05",
+      "disease_id": "EXP_627",
+      "expected_disease": "Gàu da đầu",
+      "query": "Da đầu khô bong tróc nhưng không rụng tóc thành mảng"
+    },
+    {
+      "case_id": "C49-628-01",
+      "disease_id": "EXP_628",
+      "expected_disease": "Vết côn trùng cắn",
+      "query": "Sau khi đi vườn chân nổi nốt đỏ có chấm nhỏ ở giữa"
+    },
+    {
+      "case_id": "C49-628-02",
+      "disease_id": "EXP_628",
+      "expected_disease": "Vết côn trùng cắn",
+      "query": "Một nốt sưng ngứa tại chỗ nghi bị muỗi đốt"
+    },
+    {
+      "case_id": "C49-628-03",
+      "disease_id": "EXP_628",
+      "expected_disease": "Vết côn trùng cắn",
+      "query": "Da châm chích và có mụn nước nhỏ sau khi bị cắn"
+    },
+    {
+      "case_id": "C49-628-04",
+      "disease_id": "EXP_628",
+      "expected_disease": "Vết côn trùng cắn",
+      "query": "Nhiều nốt ngứa ở cổ chân xuất hiện sau khi ngủ"
+    },
+    {
+      "case_id": "C49-628-05",
+      "disease_id": "EXP_628",
+      "expected_disease": "Vết côn trùng cắn",
+      "query": "Vết đốt chỉ sưng nhẹ quanh một điểm, không khó thở"
+    },
+    {
+      "case_id": "C49-629-01",
+      "disease_id": "EXP_629",
+      "expected_disease": "Rôm sảy",
+      "query": "Trời nóng lưng nổi chi chít mụn đỏ li ti"
+    },
+    {
+      "case_id": "C49-629-02",
+      "disease_id": "EXP_629",
+      "expected_disease": "Rôm sảy",
+      "query": "Mồ hôi ra là vùng cổ có các nốt nhỏ châm chích"
+    },
+    {
+      "case_id": "C49-629-03",
+      "disease_id": "EXP_629",
+      "expected_disease": "Rôm sảy",
+      "query": "Bé nổi mụn nước rất nhỏ ở nếp gấp khi trời oi"
+    },
+    {
+      "case_id": "C49-629-04",
+      "disease_id": "EXP_629",
+      "expected_disease": "Rôm sảy",
+      "query": "Ngực và lưng đỏ lấm tấm, vào chỗ mát thì dịu"
+    },
+    {
+      "case_id": "C49-629-05",
+      "disease_id": "EXP_629",
+      "expected_disease": "Rôm sảy",
+      "query": "Da ngứa râm ran ở vùng bí mồ hôi"
+    },
+    {
+      "case_id": "C49-630-01",
+      "disease_id": "EXP_630",
+      "expected_disease": "Trầy xước da",
+      "query": "Ngã xe làm đầu gối mất lớp da ngoài và rỉ ít máu"
+    },
+    {
+      "case_id": "C49-630-02",
+      "disease_id": "EXP_630",
+      "expected_disease": "Trầy xước da",
+      "query": "Cọ vào tường khiến da đỏ ướt và rát"
+    },
+    {
+      "case_id": "C49-630-03",
+      "disease_id": "EXP_630",
+      "expected_disease": "Trầy xước da",
+      "query": "Vết xước nông đã đóng mày nâu sau hai ngày"
+    },
+    {
+      "case_id": "C49-630-04",
+      "disease_id": "EXP_630",
+      "expected_disease": "Trầy xước da",
+      "query": "Da bị quệt xước, dính nước thì xót nhưng không rách sâu"
+    },
+    {
+      "case_id": "C49-630-05",
+      "disease_id": "EXP_630",
+      "expected_disease": "Trầy xước da",
+      "query": "Tôi chỉ bị tróc da nhẹ sau va quẹt"
+    },
+    {
+      "case_id": "C49-631-01",
+      "disease_id": "EXP_631",
+      "expected_disease": "Bỏng nhẹ độ 1",
+      "query": "Chạm nồi nóng làm da tay đỏ rát nhưng không nổi bóng nước"
+    },
+    {
+      "case_id": "C49-631-02",
+      "disease_id": "EXP_631",
+      "expected_disease": "Bỏng nhẹ độ 1",
+      "query": "Vết bỏng nhỏ chỉ đỏ và hơi sưng"
+    },
+    {
+      "case_id": "C49-631-03",
+      "disease_id": "EXP_631",
+      "expected_disease": "Bỏng nhẹ độ 1",
+      "query": "Nước nóng bắn vào cẳng tay gây nóng rát bề mặt"
+    },
+    {
+      "case_id": "C49-631-04",
+      "disease_id": "EXP_631",
+      "expected_disease": "Bỏng nhẹ độ 1",
+      "query": "Da bỏng nông vài hôm sau khô và bong nhẹ"
+    },
+    {
+      "case_id": "C49-631-05",
+      "disease_id": "EXP_631",
+      "expected_disease": "Bỏng nhẹ độ 1",
+      "query": "Một vùng da nhỏ đỏ đau khi chạm, không có phỏng nước"
+    },
+    {
+      "case_id": "C49-632-01",
+      "disease_id": "EXP_632",
+      "expected_disease": "Cháy nắng",
+      "query": "Đi biển về vai và lưng đỏ rực, chạm áo rất rát"
+    },
+    {
+      "case_id": "C49-632-02",
+      "disease_id": "EXP_632",
+      "expected_disease": "Cháy nắng",
+      "query": "Da cánh tay phơi nắng bị nóng và vài ngày sau bong"
+    },
+    {
+      "case_id": "C49-632-03",
+      "disease_id": "EXP_632",
+      "expected_disease": "Cháy nắng",
+      "query": "Mặt đỏ bỏng sau khi đứng ngoài trời lâu không che"
+    },
+    {
+      "case_id": "C49-632-04",
+      "disease_id": "EXP_632",
+      "expected_disease": "Cháy nắng",
+      "query": "Vùng da hở rát châm chích đúng sau buổi đi nắng"
+    },
+    {
+      "case_id": "C49-632-05",
+      "disease_id": "EXP_632",
+      "expected_disease": "Cháy nắng",
+      "query": "Lưng đỏ theo vệt áo tắm, không có bóng nước lớn"
+    },
+    {
+      "case_id": "C49-633-01",
+      "disease_id": "EXP_633",
+      "expected_disease": "Nấm kẽ chân",
+      "query": "Kẽ ngón chân trắng bở, ngứa và có mùi"
+    },
+    {
+      "case_id": "C49-633-02",
+      "disease_id": "EXP_633",
+      "expected_disease": "Nấm kẽ chân",
+      "query": "Da giữa hai ngón chân nứt rát khi dính nước"
+    },
+    {
+      "case_id": "C49-633-03",
+      "disease_id": "EXP_633",
+      "expected_disease": "Nấm kẽ chân",
+      "query": "Mang giày kín làm kẽ chân bong tróc và rất ngứa"
+    },
+    {
+      "case_id": "C49-633-04",
+      "disease_id": "EXP_633",
+      "expected_disease": "Nấm kẽ chân",
+      "query": "Có mụn nước nhỏ ở rìa kẽ ngón kèm mùi hôi"
+    },
+    {
+      "case_id": "C49-633-05",
+      "disease_id": "EXP_633",
+      "expected_disease": "Nấm kẽ chân",
+      "query": "Kẽ chân luôn ẩm, da mủn trắng nhưng chưa sưng bàn chân"
+    },
+    {
+      "case_id": "C49-634-01",
+      "disease_id": "EXP_634",
+      "expected_disease": "Khô môi nứt môi",
+      "query": "Môi khô bong vảy và căng rát"
+    },
+    {
+      "case_id": "C49-634-02",
+      "disease_id": "EXP_634",
+      "expected_disease": "Khô môi nứt môi",
+      "query": "Cười lớn là rãnh môi nứt rớm máu"
+    },
+    {
+      "case_id": "C49-634-03",
+      "disease_id": "EXP_634",
+      "expected_disease": "Khô môi nứt môi",
+      "query": "Trời lạnh làm môi nẻ, ăn mặn thấy xót"
+    },
+    {
+      "case_id": "C49-634-04",
+      "disease_id": "EXP_634",
+      "expected_disease": "Khô môi nứt môi",
+      "query": "Da chết trên môi bong liên tục nhưng không nổi mụn nước"
+    },
+    {
+      "case_id": "C49-634-05",
+      "disease_id": "EXP_634",
+      "expected_disease": "Khô môi nứt môi",
+      "query": "Hai môi ráp và có nhiều đường nứt nhỏ"
+    },
+    {
+      "case_id": "C49-635-01",
+      "disease_id": "EXP_635",
+      "expected_disease": "Nứt gót chân",
+      "query": "Gót chân dày vàng và có các rãnh nứt sâu"
+    },
+    {
+      "case_id": "C49-635-02",
+      "disease_id": "EXP_635",
+      "expected_disease": "Nứt gót chân",
+      "query": "Đặt chân xuống đất thì khe nứt ở gót đau thốn"
+    },
+    {
+      "case_id": "C49-635-03",
+      "disease_id": "EXP_635",
+      "expected_disease": "Nứt gót chân",
+      "query": "Da gót khô cứng, một chỗ nứt rớm máu"
+    },
+    {
+      "case_id": "C49-635-04",
+      "disease_id": "EXP_635",
+      "expected_disease": "Nứt gót chân",
+      "query": "Đi dép hở lâu ngày làm viền gót nẻ nhiều đường"
+    },
+    {
+      "case_id": "C49-635-05",
+      "disease_id": "EXP_635",
+      "expected_disease": "Nứt gót chân",
+      "query": "Gót chân chai khô và đau khi đi bộ"
+    },
+    {
+      "case_id": "C49-636-01",
+      "disease_id": "EXP_636",
+      "expected_disease": "Vết bầm tím dưới da",
+      "query": "Va cạnh bàn xong đùi xuất hiện mảng tím đau nhẹ"
+    },
+    {
+      "case_id": "C49-636-02",
+      "disease_id": "EXP_636",
+      "expected_disease": "Vết bầm tím dưới da",
+      "query": "Vết bầm đang đổi từ xanh sang vàng sau một tuần"
+    },
+    {
+      "case_id": "C49-636-03",
+      "disease_id": "EXP_636",
+      "expected_disease": "Vết bầm tím dưới da",
+      "query": "Chỗ va chạm sưng nhẹ và ấn vào hơi tức"
+    },
+    {
+      "case_id": "C49-636-04",
+      "disease_id": "EXP_636",
+      "expected_disease": "Vết bầm tím dưới da",
+      "query": "Cánh tay tím đỏ sau khi bị đập nhưng cử động bình thường"
+    },
+    {
+      "case_id": "C49-636-05",
+      "disease_id": "EXP_636",
+      "expected_disease": "Vết bầm tím dưới da",
+      "query": "Một mảng tụ máu nhỏ dưới da đang nhạt dần"
+    },
+    {
+      "case_id": "C49-637-01",
+      "disease_id": "EXP_637",
+      "expected_disease": "Da khô nứt nẻ",
+      "query": "Tắm xong da cẳng chân căng và ngứa, bong vảy mịn"
+    },
+    {
+      "case_id": "C49-637-02",
+      "disease_id": "EXP_637",
+      "expected_disease": "Da khô nứt nẻ",
+      "query": "Da tay thô ráp có đường nứt như mạng lưới"
+    },
+    {
+      "case_id": "C49-637-03",
+      "disease_id": "EXP_637",
+      "expected_disease": "Da khô nứt nẻ",
+      "query": "Mùa lạnh da toàn thân khô và tróc vụn"
+    },
+    {
+      "case_id": "C49-637-04",
+      "disease_id": "EXP_637",
+      "expected_disease": "Da khô nứt nẻ",
+      "query": "Cẳng tay sần như vảy cá nhưng không đỏ nhiều"
+    },
+    {
+      "case_id": "C49-637-05",
+      "disease_id": "EXP_637",
+      "expected_disease": "Da khô nứt nẻ",
+      "query": "Da thiếu ẩm, ráp và ngứa nhẹ về tối"
+    },
+    {
+      "case_id": "C49-638-01",
+      "disease_id": "EXP_638",
+      "expected_disease": "Đau mỏi vai gáy",
+      "query": "Ngồi máy tính lâu làm cổ và hai vai căng cứng"
+    },
+    {
+      "case_id": "C49-638-02",
+      "disease_id": "EXP_638",
+      "expected_disease": "Đau mỏi vai gáy",
+      "query": "Quay đầu sang bên thấy cơ gáy đau kéo"
+    },
+    {
+      "case_id": "C49-638-03",
+      "disease_id": "EXP_638",
+      "expected_disease": "Đau mỏi vai gáy",
+      "query": "Hai bả vai nặng trĩu sau một ngày làm bàn giấy"
+    },
+    {
+      "case_id": "C49-638-04",
+      "disease_id": "EXP_638",
+      "expected_disease": "Đau mỏi vai gáy",
+      "query": "Cổ mỏi lan nhẹ lên sau đầu, nghỉ ngơi thì đỡ"
+    },
+    {
+      "case_id": "C49-638-05",
+      "disease_id": "EXP_638",
+      "expected_disease": "Đau mỏi vai gáy",
+      "query": "Ngủ sai gối khiến sáng dậy khó cúi ngửa cổ"
+    },
+    {
+      "case_id": "C49-639-01",
+      "disease_id": "EXP_639",
+      "expected_disease": "Đau lưng cơ năng",
+      "query": "Ngồi lâu làm thắt lưng căng đau, nằm nghỉ thì giảm"
+    },
+    {
+      "case_id": "C49-639-02",
+      "disease_id": "EXP_639",
+      "expected_disease": "Đau lưng cơ năng",
+      "query": "Cúi nhấc đồ xong cơ lưng dưới co cứng"
+    },
+    {
+      "case_id": "C49-639-03",
+      "disease_id": "EXP_639",
+      "expected_disease": "Đau lưng cơ năng",
+      "query": "Đau ngang hông lưng tăng khi xoay người"
+    },
+    {
+      "case_id": "C49-639-04",
+      "disease_id": "EXP_639",
+      "expected_disease": "Đau lưng cơ năng",
+      "query": "Lưng dưới ê âm ỉ sau cả ngày đứng làm việc"
+    },
+    {
+      "case_id": "C49-639-05",
+      "disease_id": "EXP_639",
+      "expected_disease": "Đau lưng cơ năng",
+      "query": "Đổi tư thế thì đau lưng, không tê chân hay bí tiểu"
+    },
+    {
+      "case_id": "C49-640-01",
+      "disease_id": "EXP_640",
+      "expected_disease": "Chuột rút",
+      "query": "Đang ngủ bắp chân bỗng co cứng thành cục rất đau"
+    },
+    {
+      "case_id": "C49-640-02",
+      "disease_id": "EXP_640",
+      "expected_disease": "Chuột rút",
+      "query": "Bơi một lúc bàn chân bị rút không cử động được"
+    },
+    {
+      "case_id": "C49-640-03",
+      "disease_id": "EXP_640",
+      "expected_disease": "Chuột rút",
+      "query": "Cơn co cơ qua rồi bắp chân còn ê"
+    },
+    {
+      "case_id": "C49-640-04",
+      "disease_id": "EXP_640",
+      "expected_disease": "Chuột rút",
+      "query": "Ban đêm cơ chân thắt lại vài phút rồi tự hết"
+    },
+    {
+      "case_id": "C49-640-05",
+      "disease_id": "EXP_640",
+      "expected_disease": "Chuột rút",
+      "query": "Sau vận động tôi bị co rút bắp chân đột ngột"
+    },
+    {
+      "case_id": "C49-641-01",
+      "disease_id": "EXP_641",
+      "expected_disease": "Bong gân mắt cá chân",
+      "query": "Trẹo chân khi xuống cầu thang làm mắt cá ngoài sưng đau"
+    },
+    {
+      "case_id": "C49-641-02",
+      "disease_id": "EXP_641",
+      "expected_disease": "Bong gân mắt cá chân",
+      "query": "Cổ chân bị lật, vẫn bước được nhưng hơi đau"
+    },
+    {
+      "case_id": "C49-641-03",
+      "disease_id": "EXP_641",
+      "expected_disease": "Bong gân mắt cá chân",
+      "query": "Sau khi trẹo mắt cá xuất hiện bầm tím vào hôm sau"
+    },
+    {
+      "case_id": "C49-641-04",
+      "disease_id": "EXP_641",
+      "expected_disease": "Bong gân mắt cá chân",
+      "query": "Chạy bộ hụt chân khiến quanh mắt cá sưng vừa"
+    },
+    {
+      "case_id": "C49-641-05",
+      "disease_id": "EXP_641",
+      "expected_disease": "Bong gân mắt cá chân",
+      "query": "Tôi lật cổ chân nhưng khớp không biến dạng"
+    },
+    {
+      "case_id": "C49-642-01",
+      "disease_id": "EXP_642",
+      "expected_disease": "Đau mỏi cơ sau vận động",
+      "query": "Tập chân hôm qua nên hôm nay cơ đùi ê ẩm hai bên"
+    },
+    {
+      "case_id": "C49-642-02",
+      "disease_id": "EXP_642",
+      "expected_disease": "Đau mỏi cơ sau vận động",
+      "query": "Sau buổi gym bắp tay căng, co cơ thì đau hơn"
+    },
+    {
+      "case_id": "C49-642-03",
+      "disease_id": "EXP_642",
+      "expected_disease": "Đau mỏi cơ sau vận động",
+      "query": "Cơ ngực mỏi và hơi cứng sau khi tập tạ"
+    },
+    {
+      "case_id": "C49-642-04",
+      "disease_id": "EXP_642",
+      "expected_disease": "Đau mỏi cơ sau vận động",
+      "query": "Vận động lại sau thời gian nghỉ làm toàn thân nhức cơ"
+    },
+    {
+      "case_id": "C49-642-05",
+      "disease_id": "EXP_642",
+      "expected_disease": "Đau mỏi cơ sau vận động",
+      "query": "Cơ bắp tạm yếu và đau khi kéo giãn sau tập"
+    },
+    {
+      "case_id": "C49-643-01",
+      "disease_id": "EXP_643",
+      "expected_disease": "Đau gót chân do viêm cân gan chân",
+      "query": "Bước đầu tiên lúc sáng làm mặt dưới gót đau nhói"
+    },
+    {
+      "case_id": "C49-643-02",
+      "disease_id": "EXP_643",
+      "expected_disease": "Đau gót chân do viêm cân gan chân",
+      "query": "Đi vài phút thì gót đỡ, đứng lâu lại đau"
+    },
+    {
+      "case_id": "C49-643-03",
+      "disease_id": "EXP_643",
+      "expected_disease": "Đau gót chân do viêm cân gan chân",
+      "query": "Gót chân thốn khi vừa rời giường, không có chấn thương"
+    },
+    {
+      "case_id": "C49-643-04",
+      "disease_id": "EXP_643",
+      "expected_disease": "Đau gót chân do viêm cân gan chân",
+      "query": "Cuối ngày đứng nhiều tôi đau gót và căng lòng bàn chân"
+    },
+    {
+      "case_id": "C49-643-05",
+      "disease_id": "EXP_643",
+      "expected_disease": "Đau gót chân do viêm cân gan chân",
+      "query": "Mỗi lần nghỉ lâu rồi đứng dậy gót lại đau"
+    },
+    {
+      "case_id": "C49-644-01",
+      "disease_id": "EXP_644",
+      "expected_disease": "Đau đầu căng thẳng",
+      "query": "Đầu ê đều hai bên như có vòng bó quanh trán"
+    },
+    {
+      "case_id": "C49-644-02",
+      "disease_id": "EXP_644",
+      "expected_disease": "Đau đầu căng thẳng",
+      "query": "Làm việc căng thẳng khiến thái dương và gáy cùng căng"
+    },
+    {
+      "case_id": "C49-644-03",
+      "disease_id": "EXP_644",
+      "expected_disease": "Đau đầu căng thẳng",
+      "query": "Tôi đau đầu âm ỉ không giật theo nhịp mạch"
+    },
+    {
+      "case_id": "C49-644-04",
+      "disease_id": "EXP_644",
+      "expected_disease": "Đau đầu căng thẳng",
+      "query": "Thiếu ngủ xong đầu nặng, khó tập trung nhưng không nôn"
+    },
+    {
+      "case_id": "C49-644-05",
+      "disease_id": "EXP_644",
+      "expected_disease": "Đau đầu căng thẳng",
+      "query": "Cảm giác siết nhẹ quanh đầu kèm mỏi vai"
+    },
+    {
+      "case_id": "C49-645-01",
+      "disease_id": "EXP_645",
+      "expected_disease": "Say nắng nhẹ",
+      "query": "Ở ngoài trời lâu tôi khát dữ, chóng mặt và ra nhiều mồ hôi"
+    },
+    {
+      "case_id": "C49-645-02",
+      "disease_id": "EXP_645",
+      "expected_disease": "Say nắng nhẹ",
+      "query": "Đi nắng về mệt rũ, hơi buồn nôn nhưng vẫn tỉnh táo"
+    },
+    {
+      "case_id": "C49-645-03",
+      "disease_id": "EXP_645",
+      "expected_disease": "Say nắng nhẹ",
+      "query": "Trời nóng làm tim đập nhanh, da ướt mồ hôi và nhức đầu nhẹ"
+    },
+    {
+      "case_id": "C49-645-04",
+      "disease_id": "EXP_645",
+      "expected_disease": "Say nắng nhẹ",
+      "query": "Làm việc ngoài trời xong hoa mắt, vào mát uống nước thì đỡ"
+    },
+    {
+      "case_id": "C49-645-05",
+      "disease_id": "EXP_645",
+      "expected_disease": "Say nắng nhẹ",
+      "query": "Tôi kiệt sức nhẹ vì nóng nhưng không lú lẫn hay co giật"
+    },
+    {
+      "case_id": "C49-646-01",
+      "disease_id": "EXP_646",
+      "expected_disease": "Suy nhược cơ thể",
+      "query": "Nhiều tuần nay tôi uể oải, ngủ dậy vẫn không khỏe"
+    },
+    {
+      "case_id": "C49-646-02",
+      "disease_id": "EXP_646",
+      "expected_disease": "Suy nhược cơ thể",
+      "query": "Chân tay rã rời và ăn uống kém ngon"
+    },
+    {
+      "case_id": "C49-646-03",
+      "disease_id": "EXP_646",
+      "expected_disease": "Suy nhược cơ thể",
+      "query": "Tôi thiếu năng lượng làm việc và khó tập trung"
+    },
+    {
+      "case_id": "C49-646-04",
+      "disease_id": "EXP_646",
+      "expected_disease": "Suy nhược cơ thể",
+      "query": "Cơ thể mệt triền miên dù không vận động nặng"
+    },
+    {
+      "case_id": "C49-646-05",
+      "disease_id": "EXP_646",
+      "expected_disease": "Suy nhược cơ thể",
+      "query": "Dạo này trí nhớ ngắn hạn giảm kèm mệt mỏi kéo dài"
+    },
+    {
+      "case_id": "C49-647-01",
+      "disease_id": "EXP_647",
+      "expected_disease": "Căng thẳng thần kinh",
+      "query": "Áp lực công việc làm tôi bồn chồn và khó ngủ"
+    },
+    {
+      "case_id": "C49-647-02",
+      "disease_id": "EXP_647",
+      "expected_disease": "Căng thẳng thần kinh",
+      "query": "Nghĩ đến deadline là tim đập nhanh nhẹ và vai gáy căng"
+    },
+    {
+      "case_id": "C49-647-03",
+      "disease_id": "EXP_647",
+      "expected_disease": "Căng thẳng thần kinh",
+      "query": "Tôi hay cáu gắt, trằn trọc vì lo nhiều việc"
+    },
+    {
+      "case_id": "C49-647-04",
+      "disease_id": "EXP_647",
+      "expected_disease": "Căng thẳng thần kinh",
+      "query": "Mỗi khi stress bụng lại đầy tức và đầu căng"
+    },
+    {
+      "case_id": "C49-647-05",
+      "disease_id": "EXP_647",
+      "expected_disease": "Căng thẳng thần kinh",
+      "query": "Lo nghĩ liên tục khiến tôi mệt và ngủ chập chờn"
+    },
+    {
+      "case_id": "C49-648-01",
+      "disease_id": "EXP_648",
+      "expected_disease": "Sốt phát ban do virus",
+      "query": "Bé vừa hạ sốt thì ngực bụng nổi ban hồng mịn"
+    },
+    {
+      "case_id": "C49-648-02",
+      "disease_id": "EXP_648",
+      "expected_disease": "Sốt phát ban do virus",
+      "query": "Sốt nhẹ hai ngày rồi xuất hiện chấm hồng ấn vào nhạt đi"
+    },
+    {
+      "case_id": "C49-648-03",
+      "disease_id": "EXP_648",
+      "expected_disease": "Sốt phát ban do virus",
+      "query": "Ban nhỏ lan từ thân mình sau đợt sốt, trẻ vẫn tỉnh"
+    },
+    {
+      "case_id": "C49-648-04",
+      "disease_id": "EXP_648",
+      "expected_disease": "Sốt phát ban do virus",
+      "query": "Nổi ban hồng kèm sổ mũi và ho nhẹ sau khi hết sốt"
+    },
+    {
+      "case_id": "C49-648-05",
+      "disease_id": "EXP_648",
+      "expected_disease": "Sốt phát ban do virus",
+      "query": "Da có ban mất màu khi căng, hạch sau tai hơi đau"
+    },
+    {
+      "case_id": "C49-649-01",
+      "disease_id": "EXP_649",
+      "expected_disease": "Phồng rộp da do ma sát",
+      "query": "Giày mới cọ gót tạo một bọng nước trong"
+    },
+    {
+      "case_id": "C49-649-02",
+      "disease_id": "EXP_649",
+      "expected_disease": "Phồng rộp da do ma sát",
+      "query": "Đi bộ lâu làm lòng bàn chân phồng và rát khi bước"
+    },
+    {
+      "case_id": "C49-649-03",
+      "disease_id": "EXP_649",
+      "expected_disease": "Phồng rộp da do ma sát",
+      "query": "Cầm xẻng cả buổi khiến lòng bàn tay nổi bóng nước"
+    },
+    {
+      "case_id": "C49-649-04",
+      "disease_id": "EXP_649",
+      "expected_disease": "Phồng rộp da do ma sát",
+      "query": "Da chân bị mép dép chà phồng lên nhưng không có mủ"
+    },
+    {
+      "case_id": "C49-649-05",
+      "disease_id": "EXP_649",
+      "expected_disease": "Phồng rộp da do ma sát",
+      "query": "Bọng ở gót vỡ ra chỉ chảy dịch trong"
+    },
+    {
+      "case_id": "C49-650-01",
+      "disease_id": "EXP_650",
+      "expected_disease": "Khô mắt",
+      "query": "Nhìn màn hình lâu mắt cộm như có cát"
+    },
+    {
+      "case_id": "C49-650-02",
+      "disease_id": "EXP_650",
+      "expected_disease": "Khô mắt",
+      "query": "Mắt châm chích, chớp vài lần thì nhìn rõ lại"
+    },
+    {
+      "case_id": "C49-650-03",
+      "disease_id": "EXP_650",
+      "expected_disease": "Khô mắt",
+      "query": "Ra gió mắt khô lại chảy nước phản xạ"
+    },
+    {
+      "case_id": "C49-650-04",
+      "disease_id": "EXP_650",
+      "expected_disease": "Khô mắt",
+      "query": "Hai mắt hơi đỏ và rát sau nhiều giờ dùng máy tính"
+    },
+    {
+      "case_id": "C49-650-05",
+      "disease_id": "EXP_650",
+      "expected_disease": "Khô mắt",
+      "query": "Tôi thấy cộm khô nhưng không có ghèn vàng"
+    },
+    {
+      "case_id": "C49-651-01",
+      "disease_id": "EXP_651",
+      "expected_disease": "Mỏi mắt do điều tiết",
+      "query": "Đọc chữ nhỏ lâu làm quanh hốc mắt nặng và nhức"
+    },
+    {
+      "case_id": "C49-651-02",
+      "disease_id": "EXP_651",
+      "expected_disease": "Mỏi mắt do điều tiết",
+      "query": "Xem màn hình nhiều tôi khó lấy nét, nghỉ mắt thì hết"
+    },
+    {
+      "case_id": "C49-651-03",
+      "disease_id": "EXP_651",
+      "expected_disease": "Mỏi mắt do điều tiết",
+      "query": "Cuối ngày hai mí nặng trĩu và thái dương hơi đau"
+    },
+    {
+      "case_id": "C49-651-04",
+      "disease_id": "EXP_651",
+      "expected_disease": "Mỏi mắt do điều tiết",
+      "query": "Làm việc gần lâu khiến mắt mỏi, chỉ muốn nhắm lại"
+    },
+    {
+      "case_id": "C49-651-05",
+      "disease_id": "EXP_651",
+      "expected_disease": "Mỏi mắt do điều tiết",
+      "query": "Mắt nhìn đôi thoáng qua lúc quá mệt rồi bình thường lại"
+    },
+    {
+      "case_id": "C49-652-01",
+      "disease_id": "EXP_652",
+      "expected_disease": "Dày sừng nang lông",
+      "query": "Mặt ngoài hai cánh tay có nhiều hạt nhỏ ráp như da gà"
+    },
+    {
+      "case_id": "C49-652-02",
+      "disease_id": "EXP_652",
+      "expected_disease": "Dày sừng nang lông",
+      "query": "Da đùi sần đều quanh từng lỗ chân lông"
+    },
+    {
+      "case_id": "C49-652-03",
+      "disease_id": "EXP_652",
+      "expected_disease": "Dày sừng nang lông",
+      "query": "Trời lạnh tay nổi chấm sần rõ hơn nhưng không đau"
+    },
+    {
+      "case_id": "C49-652-04",
+      "disease_id": "EXP_652",
+      "expected_disease": "Dày sừng nang lông",
+      "query": "Các nốt nhỏ màu da tồn tại lâu và sờ như giấy nhám"
+    },
+    {
+      "case_id": "C49-652-05",
+      "disease_id": "EXP_652",
+      "expected_disease": "Dày sừng nang lông",
+      "query": "Da khô ở cánh tay nổi hạt li ti không lây"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "disease_id": "EXP_628",
+  "name_vi": "Vết côn trùng cắn",
+  "name_en": "Insect Bite Reaction",
+  "category": "dermatology",
+  "aliases": [
+    "Côn trùng cắn",
+    "Muỗi đốt",
+    "Vết bọ cắn",
+    "Kiến cắn"
+  ],
+  "tier": 1,
+  "description": "Phản ứng viêm tại chỗ do độc tố hoặc nước bọt của côn trùng (muỗi, kiến, bọ, dĩn) khi đốt cắn vào da, gây sẩn đỏ ngứa rát.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Nốt sẩn đỏ sưng nề nhẹ tại vị trí đốt",
+        "name_en": "Erythematous papule and localized swelling",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ngứa rát châm chích tại chỗ",
+        "name_en": "Localized itching and stinging",
+        "frequency": "very_common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Vết chích nhỏ hoặc mụn nước nhỏ ở trung tâm",
+        "name_en": "Central punctum or tiny vesicle",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Vết thâm da sau khi lành tổn thương",
+        "name_en": "Post-inflammatory hyperpigmentation",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Sưng phù môi, mắt, lưỡi, họng kèm khó thở, thở rít sau khi bị côn trùng đốt (sốc phản vệ)",
+    "Tụt huyết áp, choáng váng, ngất xỉu",
+    "Vết cắn hoại tử đen lan rộng (ong độc, nhện độc cắn)"
+  ],
+  "risk_factors": [
+    "Đi rừng, cắm trại",
+    "Môi trường nhiều cây cối bụi rậm",
+    "Không dùng thuốc xịt chống muỗi"
+  ],
+  "questions_to_ask": [
+    "Bạn bị côn trùng gì đốt (muỗi, kiến lửa, ong hay bọ)?",
+    "Ngoài nốt ngứa tại chỗ bạn có bị khó thở, sưng môi mắt hay nổi mề đay toàn thân không?",
+    "Vết cắn có bị sưng mủ hay hoại tử đen không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm da tiếp xúc do kiến ba khoang",
+    "Mề đay cấp",
+    "Viêm mô tế bào"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Khó thở, phù nề môi mắt họng, tụt huyết áp sau khi bị côn trùng đốt (sốc phản vệ khẩn cấp 115)"
+  ],
+  "user_language_variants": [
+    "bị muỗi với dĩn đốt nổi cục sưng đỏ ngứa gãi trầy da",
+    "con gì cắn ở bắp chân sưng đỏ ngứa rát một cục to",
+    "vết kiến cắn nổi nốt đỏ ngứa ngáy châm chích",
+    "bị côn trùng cắn sưng một cục ngứa gãi liên tục",
+    "nốt muỗi cắn sưng đỏ ngứa ngáy ở tay chân"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

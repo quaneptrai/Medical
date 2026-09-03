@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_614",
+  "name_vi": "Rát họng kích ứng",
+  "name_en": "Irritant Sore Throat",
+  "category": "respiratory",
+  "aliases": [
+    "Rát cổ họng do khô bụi",
+    "Khô rát họng điều hòa",
+    "Đau rát họng nhẹ"
+  ],
+  "tier": 1,
+  "description": "Tình trạng đau rát khô niêm mạc hầu họng do hít phải không khí khô điều hòa, khói bụi, thuốc lá hoặc la hét nhiều, không có dấu hiệu nhiễm trùng nặng.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cảm giác khô rát ở cổ họng",
+        "name_en": "Dry and scratchy sensation in throat",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Hơi đau rát khi nuốt nước bọt vào buổi sáng",
+        "name_en": "Mild throat discomfort when swallowing in morning",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Khát nước, cảm giác háo nước ở họng",
+        "name_en": "Throat thirst and dryness",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Húng hắng ho nhẹ để làm ẩm cổ họng",
+        "name_en": "Mild clearing cough",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Giảm rát sau khi uống nước ấm",
+        "name_en": "Relief after drinking warm water",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Khó nuốt nặng, không nuốt được nước bọt, chảy nước dãi (nghi áp xe quanh amidan hoặc viêm nắp thanh thiệt)",
+    "Khó thở, thở rít",
+    "Sốt cao rét run kèm amidan sưng to phủ mủ trắng"
+  ],
+  "risk_factors": [
+    "Nằm ngủ phòng điều hòa nhiệt độ thấp",
+    "Hút thuốc lá",
+    "Môi trường nhiều khói bụi",
+    "Uống nhiều nước đá lạnh"
+  ],
+  "questions_to_ask": [
+    "Cổ họng bạn rát nhiều vào buổi sáng ngủ dậy phải không?",
+    "Bạn có bị sốt hoặc thấy amidan có đốm mủ trắng không?",
+    "Uống nước ấm vào có thấy đỡ rát họng không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm họng cấp do virus/vi khuẩn",
+    "Trào ngược họng thanh quản",
+    "Viêm amidan"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Khó thở, khó nuốt nặng không thể nuốt được nước bọt"
+  ],
+  "user_language_variants": [
+    "ngủ điều hòa cả đêm dậy cổ họng khô khốc rát buốt",
+    "cổ họng cứ khô rát ngứa ngáy uống ngụm nước ấm thì đỡ",
+    "hít phải khói bụi về rát hết cả cổ họng",
+    "rát họng khô họng sau khi nằm quạt điều hòa",
+    "cổ họng khô ráp nuốt nước bọt hơi rát"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

@@ -6,7 +6,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
 from knowledge.schema import load_all_diseases
-from retrieval.search_engine import HybridDiseaseSearcher, tokenize_vietnamese
+from retrieval.search_engine import (
+    HybridDiseaseSearcher,
+    build_collection_name,
+    tokenize_vietnamese,
+)
 from safety.guardrails import ClinicalGuardrailEngine
 
 
@@ -44,6 +48,15 @@ def test_tokenizer_diacritics_normalization():
     assert "tho" in tokens
     assert "ngực," not in tokens
     assert "tối!" not in tokens
+
+
+def test_collection_name_isolated_by_knowledge_base_path(tmp_path):
+    first = build_collection_name("same-model", tmp_path / "diseases")
+    second = build_collection_name("same-model", tmp_path / "diseases_expanded")
+
+    assert first != second
+    assert len(first) <= 63
+    assert len(second) <= 63
 
 
 # Clinical benchmark query test dataset

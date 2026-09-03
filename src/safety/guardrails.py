@@ -377,7 +377,10 @@ class ClinicalGuardrailEngine:
             from sentence_transformers import SentenceTransformer
 
             device = os.getenv("BOTMED_GUARDRAIL_DEVICE", "cpu")
-            self.embed_model = SentenceTransformer(model_path, device=device)
+            self.embed_model = SentenceTransformer(
+                model_path,
+                device=device,
+            )
             anchor_texts = [a["text"] for a in self.semantic_anchors]
             self.anchor_embeddings = self.embed_model.encode(anchor_texts, normalize_embeddings=True)
         except Exception as exc:

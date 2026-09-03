@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_648",
+  "name_vi": "Sốt phát ban do virus",
+  "name_en": "Viral Exanthem",
+  "category": "infectious",
+  "aliases": [
+    "Sốt phát ban lành tính",
+    "Ban đào do virus",
+    "Sốt ban đỏ sau sốt"
+  ],
+  "tier": 1,
+  "description": "Bệnh nhiễm virus lành tính thường gặp ở trẻ nhỏ và thanh thiếu niên, đặc trưng bởi sốt nhẹ 2-3 ngày, khi hạ sốt thì xuất hiện ban hồng mịn rải rác toàn thân.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Sốt nhẹ đến vừa trong 2-3 ngày đầu",
+        "name_en": "Low to moderate fever for 2-3 days",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Nổi ban hồng mịn li ti khắp ngực, bụng sau khi hết sốt",
+        "name_en": "Maculopapular pink rash on trunk after fever subsides",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ban biến mất khi ấn căng da (dấu hiệu căng da mất ban)",
+        "name_en": "Blanching rash on pressure",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Chảy nước mũi nhẹ hoặc ho húng hắng",
+        "name_en": "Mild coryza or cough",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Hạch nhỏ vùng cổ hoặc sau tai hơi đau",
+        "name_en": "Small tender cervical or postauricular lymph nodes",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Ban xuất huyết dạng chấm tím đen KHÔNG biến mất khi căng da (nghi ngờ nhiễm não mô cầu hoặc sốt xuất huyết)",
+    "Sốt cao co giật, li bì, nôn vọt, thở rút lõm lồng ngực",
+    "Chảy máu cam, chảy máu chân răng hoặc nôn ra máu"
+  ],
+  "risk_factors": [
+    "Trẻ em dưới 5 tuổi",
+    "Môi trường nhà trẻ trường học",
+    "Thời điểm giao mùa"
+  ],
+  "questions_to_ask": [
+    "Ban nổi lên khi người bệnh còn đang sốt cao hay sau khi đã cắt sốt?",
+    "Khi lấy tay căng vùng da có nốt đỏ thì nốt có mờ biến mất không?",
+    "Bệnh nhân có tỉnh táo ăn uống được không hay li bì mệt mỏi?"
+  ],
+  "differential_diagnoses": [
+    "Sốt xuất huyết Dengue",
+    "Bệnh Sởi",
+    "Bệnh Rubella",
+    "Nhiễm khuẩn huyết do não mô cầu"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Nốt ban tím đen không lặn khi căng da kèm sốt cao li bì (cấp cứu nhiễm não mô cầu ngay)"
+  ],
+  "user_language_variants": [
+    "sau khi cắt sốt thì người nổi mẩn đỏ li ti khắp bụng lưng",
+    "bé sốt 3 hôm nay hạ sốt rồi thấy phát ban hồng toàn thân",
+    "sốt phát ban lấm tấm đỏ trên da nhưng người đã khỏe tỉnh táo",
+    "hạ sốt xong nổi ban đỏ lấm tấm khắp người",
+    "bị sốt phát ban sau khi sốt nổi nốt đỏ li ti không ngứa"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "disease_id": "EXP_605",
+  "name_vi": "Ho khan",
+  "name_en": "Dry Cough",
+  "category": "respiratory",
+  "aliases": [
+    "Ho không có đờm",
+    "Cơn ho khan kích ứng",
+    "Ho rát cổ họng"
+  ],
+  "tier": 1,
+  "description": "Tình trạng ho từng cơn không có chất tiết (đờm), thường do kích ứng niêm mạc hầu họng, khí quản hoặc tiếp xúc khói bụi, thời tiết hanh khô.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Ho từng cơn không có đờm",
+        "name_en": "Non-productive paroxysmal cough",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ngứa rát cổ họng",
+        "name_en": "Throat tickle and irritation",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác vướng họng",
+        "name_en": "Globus sensation in throat",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Khàn giọng nhẹ sau cơn ho",
+        "name_en": "Mild hoarseness after coughing",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đau rát cơ ngực do ho nhiều",
+        "name_en": "Chest wall muscle soreness from coughing",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Ho ra máu tươi hoặc đờm lẫn vệt máu",
+    "Ho khan kéo dài trên 3 tuần kèm sụt cân không rõ nguyên nhân",
+    "Khó thở cấp hoặc thở rít"
+  ],
+  "risk_factors": [
+    "Khói thuốc lá",
+    "Không khí hanh khô lạnh",
+    "Bụi bẩn",
+    "Trào ngược dạ dày thực quản"
+  ],
+  "questions_to_ask": [
+    "Cơn ho xuất hiện nhiều vào thời điểm nào (ban đêm, lúc mới ngủ dậy hay khi tiếp xúc gió lạnh)?",
+    "Bạn có cảm giác ngứa cổ hay trào ngược dịch chua từ dạ dày lên họng không?",
+    "Bạn có bị ho ra máu hoặc khó thở không?"
+  ],
+  "differential_diagnoses": [
+    "Ho do trào ngược GERD",
+    "Hen phế quản thể ho",
+    "Ho do tác dụng phụ thuốc ức chế men chuyển"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Ho ra máu lượng nhiều",
+    "Khó thở cấp dữ dội, tím tái môi đầu chi"
+  ],
+  "user_language_variants": [
+    "bị ho khan ngứa cổ ho rũ rượi từng cơn không có tí đờm nào",
+    "cổ họng cứ ngứa ran rồi ho khùng khục rát hết cả họng",
+    "cứ đêm nằm xuống là ho khan sù sụ không ngủ được",
+    "ho khan rát cổ khó chịu ngứa ngáy ở họng",
+    "ho khọt khẹt ngứa cổ họng không khạc ra đờm"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

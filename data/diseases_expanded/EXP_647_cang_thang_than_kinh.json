@@ -1,0 +1,85 @@
+{
+  "disease_id": "EXP_647",
+  "name_vi": "Căng thẳng thần kinh",
+  "name_en": "Psychological Stress",
+  "category": "general",
+  "aliases": [
+    "Căng thẳng thần kinh",
+    "Stress tâm lý",
+    "Áp lực công việc quá tải"
+  ],
+  "tier": 1,
+  "description": "Phản ứng tâm lý và sinh lý của cơ thể trước các áp lực, yêu cầu quá tải từ công việc, học tập hoặc biến cố đời sống, gây bồn chồn, lo âu và khó ngủ.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cảm giác bồn chồn, lo nghĩ căng thẳng triền miên",
+        "name_en": "Persistent worry and restlessness",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Khó vào giấc ngủ hoặc hay trằn trọc tỉnh giấc",
+        "name_en": "Difficulty falling asleep and fragmented sleep",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Dễ cáu gắt, hồi hộp tim đập nhanh nhẹ khi nghĩ đến công việc",
+        "name_en": "Irritability and mild palpitations",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Đau căng cơ vùng gáy và thái dương",
+        "name_en": "Tension headaches and neck stiffness",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đầy tức bụng hoặc rối loạn tiêu hóa nhẹ do căng thẳng",
+        "name_en": "Stress-related digestive discomfort",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Ý nghĩ tự gây hại hoặc tự sát",
+    "Cơn hoảng loạn kịch phát (Panic attack) nghẹt thở, đau thắt ngực sợ chết",
+    "Hoang tưởng, ảo giác, mất kết nối thực tế"
+  ],
+  "risk_factors": [
+    "Áp lực công việc / thi cử",
+    "Xung đột gia đình",
+    "Biến cố tài chính",
+    "Thiếu thời gian nghỉ ngơi giải tỏa"
+  ],
+  "questions_to_ask": [
+    "Bạn cảm thấy căng thẳng nhiều nhất vì công việc, học tập hay chuyện gia đình?",
+    "Bạn có ngủ được không, giấc ngủ có bị chập chờn không?",
+    "Bạn có bao giờ cảm thấy bế tắc tuyệt vọng hoặc có ý nghĩ tiêu cực muốn buông xuôi không?"
+  ],
+  "differential_diagnoses": [
+    "Rối loạn lo âu lan tỏa (GAD)",
+    "Trầm cảm",
+    "Cường giáp"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Có ý nghĩ hoặc kế hoạch tự sát cụ thể",
+    "Cơn hoảng loạn dữ dội kèm đau thắt ngực khó thở cấp"
+  ],
+  "user_language_variants": [
+    "dạo này áp lực công việc quá đầu óc căng thẳng bồn chồn khó ngủ",
+    "stress nhiều hay cáu gắt tim đập hồi hộp lo lắng suốt",
+    "tinh thần căng thẳng mệt mỏi mất ngủ triền miên",
+    "bị stress công việc căng thẳng thần kinh đau đầu",
+    "đầu óc căng thẳng lo nghĩ không ngủ được"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

@@ -1,9 +1,12 @@
+import argparse
+import hashlib
 import sys
 import json
 import unicodedata
 from pathlib import Path
 from unidecode import unidecode
 from rank_bm25 import BM25Okapi
+import numpy as np
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -14,6 +17,7 @@ sys.path.insert(0, str(ROOT))
 
 from knowledge.schema import DiseaseSchema, load_all_diseases
 from retrieval.search_engine import HybridDiseaseSearcher, tokenize_vietnamese
+from runtime_config import get_setting, resolve_project_path
 
 
 def normalize_query(text: str) -> str:
@@ -26,6 +30,8 @@ def load_forbidden_benchmark_queries() -> set[str]:
         ROOT / "data" / "test_cases" / "benchmark_603_diseases.json",
         ROOT / "data" / "test_cases" / "generated_benchmark.json",
         ROOT / "data" / "test_cases" / "golden_cases.json",
+        ROOT / "data" / "test_cases" / "common_49_validation.json",
+        ROOT / "data" / "test_cases" / "clinical_holdout.json",
     ]
     forbidden: set[str] = set()
     for path in benchmark_files:
@@ -36,30 +42,79 @@ def load_forbidden_benchmark_queries() -> set[str]:
         cases = payload if isinstance(payload, list) else payload.get("cases", [])
         loaded = 0
         for item in cases:
-            if not isinstance(item, dict) or not item.get("query"):
+            if not isinstance(item, dict):
                 continue
-            query = normalize_query(item["query"])
-            forbidden.add(query)
-            forbidden.add(normalize_query(unidecode(query)))
-            loaded += 1
+            queries = []
+            if item.get("query"):
+                queries.append(item["query"])
+            for turn in item.get("dialogue", []):
+                if isinstance(turn, dict) and turn.get("user_utterance"):
+                    queries.append(turn["user_utterance"])
+            for raw_query in queries:
+                query = normalize_query(raw_query)
+                forbidden.add(query)
+                forbidden.add(normalize_query(unidecode(query)))
+                loaded += 1
         print(f"-> Reserved benchmark: {path.name} ({loaded:,} cases)")
     return forbidden
 
-def build_triplets(dst_path: Path):
-    print("=== 1. NẠP KNOWLEDGE BASE (TIER 1 + TIER 2) ===")
-    t1_diseases = load_all_diseases(ROOT / "data" / "diseases")
-    t2_diseases = load_all_diseases(ROOT / "data" / "diseases_expanded")
-    
-    # Gộp và khử trùng lặp theo tên bệnh tiếng Việt
-    all_diseases = []
-    seen_names = set()
-    for d in t1_diseases + t2_diseases:
-        n_low = d.name_vi.lower().strip()
-        if n_low not in seen_names:
-            all_diseases.append(d)
-            seen_names.add(n_low)
-            
-    print(f"-> Tổng số bệnh nạp vào: {len(all_diseases)} bệnh ({len(t1_diseases)} Tier 1, {len(all_diseases)-len(t1_diseases)} Tier 2)")
+def _mine_dense_negatives(
+    all_diseases: list[DiseaseSchema],
+    documents: list[str],
+    forbidden: set[str],
+    model_name: str,
+) -> dict[tuple[str, str], list[str]]:
+    from sentence_transformers import SentenceTransformer
+
+    print(f"\n=== 4. ĐÀO HARD NEGATIVE TỪ LỖI/CẬN KỀ CỦA INCUMBENT: {model_name} ===")
+    anchors = []
+    owners = []
+    for disease in all_diseases:
+        for variant in disease.user_language_variants:
+            clean = variant.strip()
+            normalized = normalize_query(clean)
+            if clean and normalized not in forbidden and normalize_query(unidecode(normalized)) not in forbidden:
+                anchors.append(clean)
+                owners.append(disease.name_vi)
+    model = SentenceTransformer(model_name)
+    model.max_seq_length = 768
+    document_embeddings = model.encode(
+        documents, batch_size=32, normalize_embeddings=True, show_progress_bar=True
+    )
+    query_embeddings = model.encode(
+        anchors, batch_size=32, normalize_embeddings=True, show_progress_bar=True
+    )
+    scores = np.matmul(np.asarray(query_embeddings), np.asarray(document_embeddings).T)
+    names = [disease.name_vi for disease in all_diseases]
+    aliases_by_owner = {}
+    for disease in all_diseases:
+        aliases_by_owner[disease.name_vi] = {
+            disease.name_vi.casefold().strip(),
+            unidecode(disease.name_vi.casefold().strip()),
+            *(alias.casefold().strip() for alias in disease.aliases),
+            *(unidecode(alias.casefold().strip()) for alias in disease.aliases),
+        }
+    result = {}
+    for row, owner, anchor in zip(scores, owners, anchors):
+        excluded = aliases_by_owner[owner]
+        negatives = []
+        for index in np.argsort(row)[::-1]:
+            candidate = names[int(index)]
+            normalized_candidate = candidate.casefold().strip()
+            if normalized_candidate not in excluded and unidecode(normalized_candidate) not in excluded:
+                negatives.append(candidate)
+            if len(negatives) == 2:
+                break
+        result[(owner, anchor)] = negatives
+    print(f"-> Đã đào dense hard negatives cho {len(result):,} anchor không thuộc benchmark/holdout.")
+    return result
+
+
+def build_triplets(dst_path: Path, corpus_dir: Path, mining_model: str | None = None):
+    print("=== 1. NẠP ĐÚNG KNOWLEDGE BASE ĐANG CHẠY PRODUCTION ===")
+    all_diseases = load_all_diseases(corpus_dir)
+    print(f"-> Corpus: {corpus_dir}")
+    print(f"-> Tổng số bệnh nạp vào: {len(all_diseases)}")
 
     # Dựng tài liệu chuẩn duy nhất qua HybridDiseaseSearcher._prepare_document_text
     doc_map = {}
@@ -82,7 +137,12 @@ def build_triplets(dst_path: Path):
 
     print(f"-> Đã ghi nhận {len(benchmark_queries)} câu hỏi thuộc tập Benchmark cấm.")
 
-    print("\n=== 4. KHAI THÁC TRIPLET VỚI LEAVE-ONE-OUT & CHỐNG RÒ RỈ ===")
+    dense_negative_map = (
+        _mine_dense_negatives(all_diseases, list(doc_map.values()), benchmark_queries, mining_model)
+        if mining_model else {}
+    )
+
+    print("\n=== 5. KHAI THÁC TRIPLET VỚI LEAVE-ONE-OUT & CHỐNG RÒ RỈ ===")
     triplets = []
     triplet_keys = set()
     leakage_count = 0
@@ -113,13 +173,21 @@ def build_triplets(dst_path: Path):
             scores = bm25.get_scores(q_tok)
             top_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
             
-            hard_neg_candidates = []
+            # Prefer one or two mistakes/near-neighbours from the incumbent,
+            # then fill with lexical BM25 negatives. This prevents another paid
+            # run from merely repeating the old BM25-only objective.
+            hard_neg_candidates = list(dense_negative_map.get((d.name_vi, v_clean), []))
             for idx in top_indices:
                 cand_name = disease_names[idx]
-                if cand_name.lower().strip() not in excluded_names and unidecode(cand_name.lower().strip()) not in excluded_names:
+                if (
+                    cand_name not in hard_neg_candidates
+                    and cand_name.lower().strip() not in excluded_names
+                    and unidecode(cand_name.lower().strip()) not in excluded_names
+                ):
                     hard_neg_candidates.append(cand_name)
                     if len(hard_neg_candidates) >= 2:
                         break
+            hard_neg_candidates = hard_neg_candidates[:2]
                         
             if not hard_neg_candidates:
                 continue
@@ -179,9 +247,37 @@ def build_triplets(dst_path: Path):
     with open(dst_path, "w", encoding="utf-8") as f:
         for t in triplets:
             f.write(json.dumps(t, ensure_ascii=False) + "\n")
-            
+
+    digest = hashlib.sha256(dst_path.read_bytes()).hexdigest()
+    manifest_path = dst_path.with_suffix(".manifest.json")
+    manifest_path.write_text(json.dumps({
+        "schema_version": 1,
+        "corpus_dir": str(corpus_dir.resolve()),
+        "rows": len(triplets),
+        "diseases": len(all_diseases),
+        "sha256": digest,
+        "reserved_query_count": len(benchmark_queries),
+        "exact_reserved_overlap": final_overlap,
+        "duplicate_triplets_removed": duplicate_count,
+        "hard_negative_sources": ["incumbent_dense", "bm25"] if mining_model else ["bm25"],
+        "mining_model": mining_model,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n-> Đã lưu thành công {len(triplets):,} triplets vào: {dst_path}")
+    print(f"-> Manifest: {manifest_path} | SHA256: {digest}")
 
 if __name__ == "__main__":
-    out_file = ROOT / "data" / "finetune" / "task_triplets_633.jsonl"
-    build_triplets(out_file)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="data/finetune/task_triplets_633.jsonl")
+    parser.add_argument(
+        "--corpus-dir",
+        default=str(get_setting("retrieval.diseases_dir")),
+        help="Must match the production retrieval corpus",
+    )
+    parser.add_argument(
+        "--mining-model",
+        help="Current production model used to mine model-aware hard negatives",
+    )
+    args = parser.parse_args()
+    out_file = resolve_project_path(args.output)
+    corpus_dir = resolve_project_path(args.corpus_dir)
+    build_triplets(out_file, corpus_dir, args.mining_model)

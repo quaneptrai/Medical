@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_609",
+  "name_vi": "Hăm kẽ do ẩm",
+  "name_en": "Intertrigo",
+  "category": "dermatology",
+  "aliases": [
+    "Hăm kẽ",
+    "Viêm da kẽ",
+    "Hăm da do ẩm"
+  ],
+  "tier": 1,
+  "description": "Tình trạng viêm kích ứng ở vùng hai bề mặt da cọ xát và giữ ẩm như bẹn, nách, dưới vú hoặc nếp bụng, gây đỏ rát và dễ bội nhiễm.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Mảng da đỏ ẩm ở nếp gấp",
+        "name_en": "Moist red patch in a skin fold",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Rát xót tăng khi ra mồ hôi",
+        "name_en": "Burning worsened by sweating",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Ngứa nhẹ đến vừa tại vùng da cọ xát",
+        "name_en": "Mild to moderate itch at friction area",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Da nứt nông hoặc rỉ dịch nhẹ",
+        "name_en": "Superficial fissuring or mild weeping",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Mùi khó chịu ở nếp da ẩm",
+        "name_en": "Odor from the moist skin fold",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Vùng đỏ sưng nóng lan nhanh, đau tăng hoặc chảy mủ kèm sốt",
+    "Da chuyển tím đen, phồng rộp hoặc đau dữ dội bất thường",
+    "Tổn thương lan rộng ở người đái tháo đường hoặc suy giảm miễn dịch"
+  ],
+  "risk_factors": [
+    "Thời tiết nóng ẩm",
+    "Thừa cân có nhiều nếp da",
+    "Quần áo chật bí",
+    "Ra nhiều mồ hôi"
+  ],
+  "questions_to_ask": [
+    "Vùng đỏ nằm ở nếp bẹn, nách, dưới vú hay nếp bụng?",
+    "Da có rỉ dịch, mùi hôi, mụn mủ hoặc lan nhanh không?",
+    "Bạn có đái tháo đường hoặc đang suy giảm miễn dịch không?"
+  ],
+  "differential_diagnoses": [
+    "Nấm Candida kẽ",
+    "Hắc lào vùng bẹn",
+    "Viêm da tiếp xúc"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Sốt kèm vùng da sưng nóng đỏ lan nhanh, đau dữ dội hoặc hoại tử"
+  ],
+  "user_language_variants": [
+    "nếp bẹn đỏ ẩm rát mỗi khi đi lại ra mồ hôi",
+    "dưới ngực bị hăm đỏ ngứa và có mùi lúc trời nóng",
+    "nếp bụng ẩm ướt cọ vào nhau đau rát",
+    "vùng nách đỏ hăm do mồ hôi bí lâu ngày",
+    "da giữa các nếp gấp đỏ rỉ nhẹ và xót"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "disease_id": "EXP_646",
+  "name_vi": "Suy nhược cơ thể",
+  "name_en": "General Fatigue and Asthenia",
+  "category": "general",
+  "aliases": [
+    "Suy nhược cơ thể",
+    "Mệt mỏi mạn tính nhẹ",
+    "Kiệt sức thể lực"
+  ],
+  "tier": 1,
+  "description": "Trạng thái mệt mỏi kéo dài, kiệt sức về thể chất và tinh thần không thuyên giảm hoàn toàn sau khi nghỉ ngơi, thường liên quan đến làm việc quá tải, dinh dưỡng kém hoặc stress.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cảm giác mệt mỏi uể oải triền miên",
+        "name_en": "Persistent fatigue and lethargy",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Chân tay rã rời, thiếu năng lượng làm việc",
+        "name_en": "Lack of energy and limb weakness sensation",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Giảm tập trung và giảm trí nhớ ngắn hạn",
+        "name_en": "Poor concentration and brain fog",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Ăn uống kém ngon miệng",
+        "name_en": "Decreased appetite",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Ngủ dậy vẫn cảm thấy mệt mỏi",
+        "name_en": "Unrefreshing sleep",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Sụt cân nhanh không rõ nguyên nhân (trên 5% trọng lượng cơ thể)",
+    "Sốt nhẹ về chiều kéo dài, đổ mồ hôi trộm ban đêm",
+    "Nổi hạch ở cổ, nách, bẹn không đau",
+    "Khó thở khi gắng sức nhẹ, da xanh xao niêm mạc nhợt nhạt"
+  ],
+  "risk_factors": [
+    "Làm việc quá sức không nghỉ ngơi",
+    "Thiếu ngủ triền miên",
+    "Chế độ ăn thiếu chất dinh dưỡng",
+    "Sau đợt ốm virus kéo dài"
+  ],
+  "questions_to_ask": [
+    "Tình trạng mệt mỏi đã kéo dài bao nhiêu tuần/tháng rồi?",
+    "Bạn có bị sụt cân, sốt nhẹ về chiều hoặc sưng hạch ở đâu không?",
+    "Bạn có cảm thấy khó thở hoặc đánh trống ngực khi đi lại nhẹ nhàng không?"
+  ],
+  "differential_diagnoses": [
+    "Thiếu máu thiếu sắt",
+    "Suy giáp",
+    "Trầm cảm",
+    "Đái tháo đường"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Mệt lả kiệt sức kèm khó thở dữ dội, đau ngực hoặc ngất xỉu"
+  ],
+  "user_language_variants": [
+    "dạo này người cứ suy nhược uể oải không có chút sức sống nào",
+    "ngủ dậy vẫn thấy mệt mỏi chân tay rã rời không muốn làm gì",
+    "người kiệt sức hụt hơi ăn uống không ngon miệng sút cân nhẹ",
+    "bị suy nhược cơ thể người mệt mỏi uể oải suốt ngày",
+    "cơ thể suy nhược mệt mỏi rã rời thiếu sức sống"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

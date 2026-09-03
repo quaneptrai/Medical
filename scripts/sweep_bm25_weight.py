@@ -157,7 +157,10 @@ def main():
     parser.add_argument("--output", default="artifacts/evaluation/bm25_weight_sweep.json")
     args = parser.parse_args()
 
-    model = SentenceTransformer(args.model, device=args.device)
+    model = SentenceTransformer(
+        args.model,
+        device=args.device,
+    )
     model.max_seq_length = 768
 
     weights = [round(w, 4) for w in np.arange(0.0, 1.0 + args.step / 2, args.step)]

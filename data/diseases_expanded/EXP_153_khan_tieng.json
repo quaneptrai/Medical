@@ -5,7 +5,9 @@
   "category": "general",
   "aliases": [
     "Khàn Tiếng",
-    "Khan Tieng"
+    "Khan Tieng",
+    "Khản tiếng",
+    "Khản tiếng cơ năng"
   ],
   "tier": 2,
   "description": "Khàn Tiếng (Chuyên khoa: general)",
@@ -145,7 +147,10 @@
     "Tôi hay bị căng thẳng và hiện tại bị khàn tiếng do nói nhiều. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy giọng nói của mình thay đổi, không còn trong trẻo như trước. Tôi có thể đang bị bệnh gì?",
     "Tôi bị khàn tiếng và ho ra máu. Tôi có thể đang bị bệnh gì?",
-    "Tôi là ca sĩ, thường xuyên phải luyện thanh và hiện tại bị khàn tiếng. Tôi có thể đang bị bệnh gì?"
+    "Tôi là ca sĩ, thường xuyên phải luyện thanh và hiện tại bị khàn tiếng. Tôi có thể đang bị bệnh gì?",
+    "nói nhiều cả ngày xong giọng rè và nhanh hết hơi",
+    "sau khi hát lớn gần như mất tiếng nhưng không sốt",
+    "dạy học xong giọng đục nghỉ nói thì đỡ"
   ],
   "provenance": {
     "source_document": "ViMedical_Disease Dataset",

@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_622",
+  "name_vi": "Viêm lợi",
+  "name_en": "Gingivitis",
+  "category": "digestive",
+  "aliases": [
+    "Viêm nướu răng",
+    "Sưng nướu",
+    "Chảy máu chân răng"
+  ],
+  "tier": 1,
+  "description": "Tình trạng viêm nhiễm mạn tính không phá hủy xương ổ răng của mô nướu do tích tụ mảng bám vi khuẩn và cao răng quanh viền nướu.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Nướu sưng đỏ bóng",
+        "name_en": "Swollen, red, shiny gums",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Dễ chảy máu khi chải răng hoặc dùng chỉ nha khoa",
+        "name_en": "Bleeding gums on brushing or flossing",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác ngứa tức chân răng",
+        "name_en": "Tenderness and itching along gumline",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Hơi thở có mùi hôi",
+        "name_en": "Halitosis from inflamed gums",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Tụt nướu nhẹ lộ chân răng",
+        "name_en": "Mild gum recession",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Răng lung lay hàng loạt (chuyển sang viêm nha chu phá hủy xương)",
+    "Chảy mủ từ túi nướu kèm sốt cao và nổi hạch góc hàm",
+    "Loét hoại tử nướu đau đớn dữ dội (viêm nướu hoại tử lở loét)"
+  ],
+  "risk_factors": [
+    "Cao răng mảng bám tích tụ",
+    "Chải răng không đúng cách",
+    "Hút thuốc lá",
+    "Thay đổi nội tiết thai kỳ"
+  ],
+  "questions_to_ask": [
+    "Nướu của bạn chảy máu khi đánh răng hay tự nhiên chảy máu?",
+    "Răng có bị lung lay hoặc chảy mủ chân răng không?",
+    "Lần gần nhất bạn đi lấy cao răng là khi nào?"
+  ],
+  "differential_diagnoses": [
+    "Viêm nha chu",
+    "Chảy máu chân răng do thiếu vitamin C",
+    "Bệnh bạch cầu cấp"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Chảy máu nướu ồ ạt không cầm kèm bầm tím toàn thân và sốt cao"
+  ],
+  "user_language_variants": [
+    "đánh răng hay bị chảy máu chân răng nướu sưng đỏ ửng",
+    "lợi bị sưng phồng đỏ chạm bàn chải vào là chảy máu",
+    "chân răng bị viêm đỏ tấy ngứa ngáy chảy máu nướu",
+    "sưng nướu răng đánh răng chảy máu đỏ",
+    "viêm lợi sưng đỏ chân răng chảy máu"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

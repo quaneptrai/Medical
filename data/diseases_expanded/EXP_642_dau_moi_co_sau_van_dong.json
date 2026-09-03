@@ -1,0 +1,78 @@
+{
+  "disease_id": "EXP_642",
+  "name_vi": "Đau mỏi cơ sau vận động",
+  "name_en": "Delayed Onset Muscle Soreness (DOMS)",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Đau cơ sau tập gym",
+    "Đau nhức cơ bắp do vận động",
+    "DOMS"
+  ],
+  "tier": 1,
+  "description": "Hiện tượng đau nhức căng cơ xuất hiện sau 24-48 giờ tập luyện thể lực cường độ cao hoặc bài tập cơ mới, do tổn thương vi thể sợi cơ và tự hồi phục sau vài ngày.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau nhức ê ẩm các khối cơ vận động (đùi, bắp tay, ngực)",
+        "name_en": "Aching soreness in exercised muscle groups",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cơ bắp căng cứng nhẹ, giảm độ linh hoạt khi vận động",
+        "name_en": "Muscle stiffness and reduced range of motion",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Đau tăng lên khi co cơ hoặc kéo giãn khối cơ bị ê",
+        "name_en": "Pain with contraction or stretching",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Cảm giác mỏi cơ giảm sức mạnh cơ bắp tạm thời",
+        "name_en": "Temporary loss of muscle strength",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Nước tiểu đổi màu nâu sẫm như xì dầu hoặc nước ngọt Coca-Cola (dấu hiệu tiêu cơ vân cấp)",
+    "Cơ bắp sưng to căng cứng dữ dội mất cảm giác (hội chứng chèn ép khoang)",
+    "Thiểu niệu, vô niệu hoặc kiệt sức lơ mơ"
+  ],
+  "risk_factors": [
+    "Tập bài tập cơ lệch tâm (eccentric exercises)",
+    "Tập tạ quá nặng đột ngột",
+    "Chạy bộ leo dốc đường dài không khởi động"
+  ],
+  "questions_to_ask": [
+    "Bạn mới tập thể thao hoặc làm việc nặng cường độ cao 1-2 hôm trước phải không?",
+    "Nước tiểu của bạn có màu vàng bình thường hay chuyển sang màu nâu đen như nước tương?",
+    "Khối cơ bị đau có sưng to căng cứng mất cảm giác không?"
+  ],
+  "differential_diagnoses": [
+    "Tiêu cơ vân cấp (Rhabdomyolysis)",
+    "Rách cơ chấn thương",
+    "Huyết khối tĩnh mạch sâu"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Nước tiểu màu nâu đen xì dầu kèm đau cơ dữ dội và mệt lả (tiêu cơ vân cấp cứu lọc máu)"
+  ],
+  "user_language_variants": [
+    "mới đi tập gym hôm qua về hôm nay cả người ê ẩm đau nhức cơ bắp",
+    "leo núi về hai bắp đùi căng mỏi bước lên cầu thang đau điếng",
+    "tập tạ xong hôm sau đau cơ bắp tay không duỗi thẳng tay được",
+    "đau cơ sau tập gym ê ẩm khắp người",
+    "cơ bắp đau nhức sau khi vận động thể thao mạnh"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

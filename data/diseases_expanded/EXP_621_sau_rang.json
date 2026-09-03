@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_621",
+  "name_vi": "Sâu răng",
+  "name_en": "Dental Caries",
+  "category": "digestive",
+  "aliases": [
+    "Sâu răng",
+    "Sâu men răng",
+    "Lỗ sâu răng"
+  ],
+  "tier": 1,
+  "description": "Bệnh lý phá hủy cấu trúc vôi hóa của răng do axit sinh ra từ vi khuẩn lên men carbohydrate mảng bám, tạo thành các lỗ khuyết trên răng.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Lỗ khuyết sâu màu nâu đen trên bề mặt răng",
+        "name_en": "Visible brown or black cavity on tooth",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ê buốt khi ăn đồ ngọt, lạnh hoặc nóng",
+        "name_en": "Tooth sensitivity to sweets, cold, or heat",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Thức ăn hay dắt vào kẽ răng sâu",
+        "name_en": "Food impaction in cavity",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Đau nhức nhẹ thoáng qua khi nhai trúng",
+        "name_en": "Transient pain on biting",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Hơi thở có mùi hôi từ lỗ sâu",
+        "name_en": "Bad breath from decayed tooth",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Sưng to vùng góc hàm, má hoặc dưới cằm kèm sốt cao (viêm mô tế bào lan tỏa sàn miệng)",
+    "Khó thở, khó nuốt do sưng tấy chèn ép đường thở",
+    "Đau nhức dữ dội giật theo nhịp mạch đập không đáp ứng thuốc giảm đau"
+  ],
+  "risk_factors": [
+    "Ăn nhiều đồ ngọt bánh kẹo",
+    "Vệ sinh răng miệng kém",
+    "Ít dùng chỉ nha khoa",
+    "Khô miệng"
+  ],
+  "questions_to_ask": [
+    "Răng bạn ê buốt khi ăn đồ ngọt hay đồ nóng lạnh?",
+    "Cơn đau có tự phát vào ban đêm hay chỉ đau khi nhai vào lỗ sâu?",
+    "Vùng má hay nướu quanh răng có bị sưng mủ không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm tủy răng cấp",
+    "Mòn cổ răng",
+    "Nứt thân răng"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Sưng phù to nửa mặt kèm sốt cao và khó thở, há miệng hạn chế"
+  ],
+  "user_language_variants": [
+    "răng hàm có lỗ sâu đen ăn đồ ngọt hay kem là buốt tận óc",
+    "bị sâu răng thức ăn hay nhét vào lỗ đen ê ẩm",
+    "răng bị mẻ sâu đen nhức nhẹ khi uống nước đá lạnh",
+    "lỗ sâu răng màu đen ê buốt khi ăn nhai",
+    "bị sâu răng hàm thức ăn dắt vào buốt răng"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

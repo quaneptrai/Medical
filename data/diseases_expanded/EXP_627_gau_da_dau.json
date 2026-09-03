@@ -1,0 +1,83 @@
+{
+  "disease_id": "EXP_627",
+  "name_vi": "Gàu da đầu",
+  "name_en": "Dandruff",
+  "category": "dermatology",
+  "aliases": [
+    "Gàu",
+    "Vảy gàu da đầu",
+    "Viêm da tiết bã da đầu nhẹ"
+  ],
+  "tier": 1,
+  "description": "Tình trạng bong tróc quá mức của các tế bào sừng chết trên da đầu tạo thành các vảy màu trắng hoặc xám rơi rụng trên tóc và vai áo.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Vảy trắng hoặc vàng bong tróc trên da đầu và tóc",
+        "name_en": "White or yellowish flakes shedding from scalp",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ngứa da đầu nhẹ đến vừa",
+        "name_en": "Mild to moderate scalp pruritus",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Vảy gàu rơi bám trên vai áo",
+        "name_en": "Flakes visible on clothing",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Da đầu bóng nhờn hoặc khô ráp",
+        "name_en": "Oily or dry scalp condition",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đỏ nhẹ chân tóc khi gãi nhiều",
+        "name_en": "Mild erythema from scratching",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Da đầu viêm loét chảy mủ vàng hôi, sưng đau dữ dội",
+    "Rụng tóc từng mảng lớn tạo sẹo hoặc hói loang lổ"
+  ],
+  "risk_factors": [
+    "Tăng tiết bã nhờn da đầu",
+    "Nấm men Malassezia phát triển",
+    "Căng thẳng stress",
+    "Gội đầu nước quá nóng"
+  ],
+  "questions_to_ask": [
+    "Gàu của bạn dạng vảy khô trắng hay vảy nhờn dính vào da đầu?",
+    "Bạn có bị ngứa nhiều hoặc da đầu có bị đỏ ửng lở loét không?",
+    "Tóc có bị rụng thành từng mảng lớn không?"
+  ],
+  "differential_diagnoses": [
+    "Vảy nến da đầu",
+    "Nấm da đầu (Tinea capitis)",
+    "Viêm da tiếp xúc dị ứng dầu gội"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Nhiễm trùng da đầu sâu áp xe hóa chảy mủ kèm sốt cao"
+  ],
+  "user_language_variants": [
+    "đầu nhiều gàu rụng trắng xóa cả vai áo ngứa ngáy",
+    "da đầu bong tróc vảy gàu trắng ngứa gãi liên tục",
+    "tóc nhiều gàu ngứa bết dính dù mới gội đầu",
+    "bị gàu da đầu vảy trắng rơi đầy áo",
+    "da đầu nhiều gàu ngứa râm ran khó chịu"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

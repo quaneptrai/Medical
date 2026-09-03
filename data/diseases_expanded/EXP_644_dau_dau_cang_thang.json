@@ -1,0 +1,87 @@
+{
+  "disease_id": "EXP_644",
+  "name_vi": "Đau đầu căng thẳng",
+  "name_en": "Tension-Type Headache",
+  "category": "neurology",
+  "aliases": [
+    "Đau đầu căng cơ",
+    "Đau đầu do stress",
+    "Đau đầu như có vòng siết"
+  ],
+  "tier": 1,
+  "description": "Dạng đau đầu nguyên phát phổ biến nhất, đặc trưng bởi cơn đau âm ỉ ê ẩm đều hai bên đầu như có dải băng siết chặt, liên quan mật thiết đến căng cơ cổ vai và áp lực tâm lý.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau âm ỉ ê ẩm đều cả hai bên đầu",
+        "name_en": "Dull, pressing ache bilaterally",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác căng thắt như có vòng siết quanh trán thái dương",
+        "name_en": "Band-like tightness around forehead and temples",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Không có cảm giác mạch đập giật thon thót",
+        "name_en": "Non-pulsating quality",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Căng tức nhẹ cơ vùng gáy và hai bả vai",
+        "name_en": "Mild neck and pericranial tenderness",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Mệt mỏi, khó tập trung làm việc",
+        "name_en": "Fatigue and difficulty concentrating",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau đầu dữ dội đột ngột như sét đánh đạt đỉnh trong vài giây (nghi xuất huyết dưới nhện)",
+    "Đau đầu kèm sốt cao, cứng gáy, nôn vọt",
+    "Đau đầu kèm yếu liệt nửa người, méo miệng, nói ngọng, nhìn mờ",
+    "Đau đầu mới xuất hiện tăng dần ở người trên 50 tuổi"
+  ],
+  "risk_factors": [
+    "Căng thẳng công việc",
+    "Thiếu ngủ, thức khuya",
+    "Ngồi máy tính sai tư thế lâu",
+    "Bỏ bữa ăn"
+  ],
+  "questions_to_ask": [
+    "Cơn đau đầu có đều hai bên trán thái dương hay giật một bên kèm buồn nôn?",
+    "Cơn đau có dữ dội đột ngột như sét đánh không?",
+    "Bạn có bị sốt cao, cứng gáy hoặc nhìn mờ, yếu tay chân không?"
+  ],
+  "differential_diagnoses": [
+    "Đau nửa đầu Migraine",
+    "Đau đầu chuỗi (Cluster headache)",
+    "Đau đầu do viêm xoang",
+    "Tăng áp lực nội sọ"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Đau đầu sét đánh dữ dội chưa từng có trong đời",
+    "Đau đầu kèm sốt cao cứng gáy nôn vọt hoặc dấu hiệu đột quỵ (liệt nửa người, méo miệng)"
+  ],
+  "user_language_variants": [
+    "đầu cứ đau âm ỉ ê ẩm hai bên thái dương như có ai bóp chặt",
+    "áp lực công việc làm đầu căng như dây đàn nặng trịch đỉnh đầu",
+    "đau đầu căng thẳng cả ngày nghỉ ngơi xoa bóp thì hơi đỡ",
+    "đau đầu như có vòng đai siết chặt quanh đầu",
+    "đau đầu âm ỉ hai bên trán do căng thẳng mất ngủ"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

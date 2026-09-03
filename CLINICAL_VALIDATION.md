@@ -7,6 +7,10 @@ lâm sàng hoặc “zero false negatives”. Benchmark hiện tại là validat
 để chọn `alpha=0.07`; 34 ca cấp cứu chỉ cho Wilson lower bound xấp xỉ 89,8% khi quan sát
 34/34 hit.
 
+`data/test_cases/clinical_holdout.json` hiện chưa tồn tại. File
+`real_benchmark_candidates.csv` có 441 ca thô nhưng `actual_label` đang trống toàn bộ.
+Không được tạo nhãn, reviewer ID hoặc ca cấp cứu giả bằng LLM để vượt cổng này.
+
 ## Final holdout bắt buộc
 
 Tập final holdout phải có tối thiểu 200 ca cấp cứu và 200 ca thường, lấy từ ca thật đã
@@ -22,6 +26,26 @@ Schema thực thi nằm tại `src/evaluation/holdout_schema.py`. Khi dữ liệ
 ```powershell
 python scripts/validate_clinical_holdout.py data/test_cases/clinical_holdout.json
 ```
+
+Khởi tạo biểu mẫu adjudication trống và build holdout sau khi con người hoàn tất review:
+
+```powershell
+python scripts/prepare_clinical_adjudication.py
+python scripts/audit_clinical_review_progress.py --require-ready
+python scripts/build_clinical_holdout.py --dataset-id clinical-final-v1
+python scripts/validate_clinical_holdout.py data/test_cases/clinical_holdout.json
+```
+
+49 hồ sơ primary-care cũng có một cổng review riêng trước train:
+
+```powershell
+python scripts/prepare_common_49_review.py
+# Reviewer lâm sàng điền 49 dòng; không dùng LLM để tạo approval/reviewer.
+python scripts/validate_common_49_readiness.py --require-clinical-review
+```
+
+Lệnh build sẽ từ chối dòng thiếu nhãn, thiếu reviewer, reviewer trùng nhau, thiếu lý do
+loại hoặc không đủ 200/200. Nó không tự sinh nội dung lâm sàng.
 
 Script kiểm tra số lượng, trùng câu, trạng thái review và ghi SHA-256 vào
 `artifacts/evaluation/clinical_holdout_manifest.json`. Sau khi đã xem kết quả final
@@ -46,3 +70,7 @@ final; mọi thay đổi phải chuyển sang một phiên bản holdout mới c
 Không thuê GPU chỉ để lặp lại cấu hình train cũ. Chỉ train vòng mới sau khi đã chuẩn bị
 hard negatives cho các bệnh/típ bệnh dễ nhầm, tách selection/validation/final holdout và
 định trước tiêu chí dừng. Mọi gain sau đó vẫn phải được xác minh trên final holdout.
+
+Preflight của pipeline GPU bắt buộc holdout đã tồn tại, `release_ready=true` và SHA-256
+khớp manifest. Preflight chỉ kiểm tra/fingerprint; nó không dùng metric final để chọn
+alpha, threshold, BM25 weight hoặc hyperparameter.

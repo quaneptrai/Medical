@@ -1,0 +1,83 @@
+{
+  "disease_id": "EXP_608",
+  "name_vi": "Nghẹt mũi",
+  "name_en": "Nasal Congestion",
+  "category": "respiratory",
+  "aliases": [
+    "Ngạt mũi",
+    "Tịt mũi",
+    "Tắc nghẹt mũi"
+  ],
+  "tier": 1,
+  "description": "Sự tắc nghẽn luồng không khí qua hốc mũi do phù nề niêm mạc mũi hoặc ứ đọng dịch nhầy.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Khó thở bằng mũi",
+        "name_en": "Difficulty breathing through nose",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Phải há miệng để thở",
+        "name_en": "Mouth breathing",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Giọng nói nghẹt đặc (giọng mũi)",
+        "name_en": "Hyponasal speech",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Cảm giác tức nặng sống mũi",
+        "name_en": "Heaviness across nasal bridge",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Khô miệng do thở bằng miệng ban đêm",
+        "name_en": "Dry mouth from mouth breathing",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Nghẹt mũi một bên liên tục kéo dài kèm chảy máu cam và nổi hạch cổ (cần tầm soát ung thư vòm họng)",
+    "Đau nhức sưng phù nửa mặt quanh ổ mắt dữ dội"
+  ],
+  "risk_factors": [
+    "Thời tiết lạnh hanh",
+    "Nằm ngủ đầu thấp",
+    "Lạm dụng thuốc xịt co mạch mũi",
+    "Vách ngăn mũi vẹo"
+  ],
+  "questions_to_ask": [
+    "Bạn bị nghẹt một bên hay luân phiên cả hai bên mũi?",
+    "Nghẹt mũi tăng lên khi nằm xuống hay khi nào?",
+    "Bạn có xịt thuốc co mạch mũi kéo dài nhiều ngày không?"
+  ],
+  "differential_diagnoses": [
+    "Lệch vách ngăn mũi",
+    "Viêm mũi xoang",
+    "Polyp mũi"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Sưng nề mắt, nhìn đôi, lồi mắt kèm sốt cao (biến chứng ổ mắt của viêm xoang)"
+  ],
+  "user_language_variants": [
+    "tịt hai bên lỗ mũi không thở được phải thở bằng mồm",
+    "nghẹt cứng mũi nằm xuống là khó thở ngột ngạt",
+    "ngạt mũi đặc tiếng nói như bị bóp nghẹt mũi",
+    "mũi bị tịt cứng không hít thở được",
+    "nghẹt mũi khó thở về ban đêm"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

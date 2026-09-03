@@ -1,3 +1,9 @@
+# ⚠ HISTORICAL / SUPERSEDED — KHÔNG PHẢI BẰNG CHỨNG PHÁT HÀNH
+
+Báo cáo ba ca này dùng stack retrieval và cấu hình cũ. Nội dung được giữ lại chỉ
+để audit; không được dùng làm bằng chứng chất lượng, an toàn hay validation hiện tại.
+Xem `evaluation_report_current.md` để biết trạng thái đang có hiệu lực.
+
 # BÁO CÁO ĐÁNH GIÁ (EVALUATION REPORT) - RAG V0
 
 **Tỉ lệ vượt qua:** 3/3

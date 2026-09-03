@@ -8,12 +8,16 @@ import torch
 
 from scripts.calibrate_guardrail_threshold import load_labeled_cases
 from scripts.blend_embedding_models import reconstruct_target_tensor
+from scripts.check_gpu_environment import validate_hardware
 from scripts.compare_embeddings import (
     _is_expected,
     _matches,
     _mcnemar_exact_pvalue,
+    enforce_common_49_gate,
+    enforce_medical_dominance,
     enforce_quality_gate,
 )
+from scripts.validate_common_49_readiness import validate_common_49
 from src.safety.guardrails import ClinicalGuardrailEngine
 from src.retrieval.search_engine import (
     CONFIGURED_EMBEDDING_MODEL,
@@ -27,6 +31,108 @@ from src.conversation.state import ConversationState
 
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def test_common_49_validation_is_complete_and_has_no_exact_train_overlap():
+    result = validate_common_49(
+        ROOT / "data" / "common_diseases_manual.json",
+        ROOT / "data" / "diseases_expanded",
+        ROOT / "data" / "test_cases" / "common_49_validation.json",
+    )
+    assert result["diseases"] == 49
+    assert result["benchmark_cases"] == 245
+    assert result["cases_per_disease"] == 5
+    assert result["exact_train_overlap"] == 0
+
+
+def test_common_49_gate_rejects_a_single_unlearned_disease():
+    good_per_disease = {
+        f"EXP_{index:03d}": {"cases": 5, "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0}
+        for index in range(604, 653)
+    }
+    weak_per_disease = {key: dict(value) for key, value in good_per_disease.items()}
+    weak_per_disease["EXP_626"]["recall@5"] = 0.6
+    incumbent = {
+        "common_49": {
+            "dense": {"recall@1": 0.82, "recall@5": 0.96, "per_disease": good_per_disease},
+            "hybrid": {"recall@1": 0.91, "recall@5": 0.99, "per_disease": good_per_disease},
+        }
+    }
+    candidate = {
+        "common_49": {
+            "dense": {"recall@1": 0.85, "recall@5": 0.96, "per_disease": weak_per_disease},
+            "hybrid": {"recall@1": 0.92, "recall@5": 0.99, "per_disease": good_per_disease},
+        }
+    }
+    with pytest.raises(SystemExit, match="EXP_626"):
+        enforce_common_49_gate({"incumbent": incumbent, "candidate": candidate}, "incumbent")
+
+
+def test_a100_40gb_profile_hardware_gate():
+    assert validate_hardware(
+        profile="cloud-a100",
+        gpu_name="NVIDIA A100-PCIE-40GB",
+        vram_gib=39.4,
+        compute_capability=(8, 0),
+        bf16_supported=True,
+        free_disk_gib=100.0,
+        min_free_disk_gib=75.0,
+    ) == []
+    errors = validate_hardware(
+        profile="cloud-a100",
+        gpu_name="24 GB GPU",
+        vram_gib=23.7,
+        compute_capability=(8, 6),
+        bf16_supported=True,
+        free_disk_gib=100.0,
+        min_free_disk_gib=75.0,
+    )
+    assert any("VRAM" in error for error in errors)
+
+
+def test_medical_dominance_rejects_a_tie_below_the_ceiling():
+    def result(value, emergency=1.0):
+        metrics = {
+            "recall@1": value,
+            "recall@3": value + 0.10,
+            "recall@5": value + 0.20,
+            "mrr": value + 0.05,
+            "emergency_recall@5": emergency,
+        }
+        return {"medical": {"dense": dict(metrics), "hybrid": dict(metrics)}}
+
+    with pytest.raises(SystemExit, match="does not beat base"):
+        enforce_medical_dominance(
+            {
+                "base": result(0.50),
+                "incumbent": result(0.50),
+                "candidate": result(0.50),
+            },
+            "base",
+            "incumbent",
+        )
+
+
+def test_medical_dominance_allows_equal_safety_at_the_ceiling():
+    def result(value):
+        metrics = {
+            "recall@1": value,
+            "recall@3": value + 0.10,
+            "recall@5": value + 0.20,
+            "mrr": value + 0.05,
+            "emergency_recall@5": 1.0,
+        }
+        return {"medical": {"dense": dict(metrics), "hybrid": dict(metrics)}}
+
+    enforce_medical_dominance(
+        {
+            "base": result(0.50),
+            "incumbent": result(0.52),
+            "candidate": result(0.56),
+        },
+        "base",
+        "incumbent",
+    )
 
 
 def test_embedding_metric_requires_exact_canonical_name():
@@ -92,6 +198,34 @@ def test_quality_gate_rejects_any_emergency_recall_regression():
     }
     with pytest.raises(SystemExit, match=r"dense\.emergency_recall@5"):
         enforce_quality_gate({"base": baseline, "candidate": candidate}, tolerance=0.005)
+
+
+def test_quality_gate_checks_production_incumbent_as_well_as_base():
+    metrics = {
+        "generated_colloquial": {
+            "dense": {"recall@1": 0.6, "recall@5": 0.8},
+            "hybrid": {"recall@1": 0.6, "recall@5": 0.8},
+        }
+    }
+    base = metrics
+    incumbent = {
+        "generated_colloquial": {
+            "dense": {"recall@1": 0.7, "recall@5": 0.9},
+            "hybrid": {"recall@1": 0.7, "recall@5": 0.9},
+        }
+    }
+    candidate = {
+        "generated_colloquial": {
+            "dense": {"recall@1": 0.65, "recall@5": 0.85},
+            "hybrid": {"recall@1": 0.65, "recall@5": 0.85},
+        }
+    }
+    with pytest.raises(SystemExit, match="vs incumbent"):
+        enforce_quality_gate(
+            {"base": base, "incumbent": incumbent, "candidate": candidate},
+            tolerance=0.005,
+            baseline_names=["base", "incumbent"],
+        )
 
 
 def test_exact_mcnemar_uses_paired_disagreements():

@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_649",
+  "name_vi": "Phồng rộp da do ma sát",
+  "name_en": "Friction Blister",
+  "category": "dermatology",
+  "aliases": [
+    "Bóng nước do cọ xát",
+    "Phồng chân do giày",
+    "Bọng nước ma sát"
+  ],
+  "tier": 1,
+  "description": "Bọng dịch nông hình thành khi da bị cọ xát lặp lại, thường ở gót chân hoặc lòng bàn tay, gây rát và đau khi tiếp tục tì đè.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Bọng nước trong tại vùng bị cọ xát",
+        "name_en": "Clear blister at friction site",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Rát và đau khi tì đè",
+        "name_en": "Burning pain with pressure",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Da quanh bọng hơi đỏ",
+        "name_en": "Mild redness around blister",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Lớp da mái bọng bị rách",
+        "name_en": "Blister roof tears",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Rỉ dịch trong sau khi bọng vỡ",
+        "name_en": "Clear drainage after rupture",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Dịch chuyển đục như mủ, vùng đỏ nóng lan rộng hoặc kèm sốt",
+    "Bọng nước xuất hiện dày đặc không do cọ xát hoặc kèm tổn thương niêm mạc",
+    "Bọng chân ở người đái tháo đường, mất cảm giác hoặc tuần hoàn chân kém"
+  ],
+  "risk_factors": [
+    "Giày mới hoặc quá chật",
+    "Đi bộ đường dài",
+    "Lao động cầm nắm lặp lại",
+    "Da ẩm do mồ hôi"
+  ],
+  "questions_to_ask": [
+    "Bọng xuất hiện sau đi giày mới, đi bộ hoặc cầm dụng cụ lâu phải không?",
+    "Dịch trong bọng còn trong hay đã đục và có mùi?",
+    "Bạn có đái tháo đường hoặc mất cảm giác bàn chân không?"
+  ],
+  "differential_diagnoses": [
+    "Bỏng độ hai",
+    "Chàm tổ đỉa",
+    "Chốc bọng nước"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Đỏ nóng lan nhanh, chảy mủ kèm sốt hoặc tổn thương ở bàn chân đái tháo đường"
+  ],
+  "user_language_variants": [
+    "đi giày mới làm gót chân nổi bóng nước trong rất rát",
+    "đi bộ xa xong lòng bàn chân phồng bọng đau",
+    "tay cầm dụng cụ lâu nổi bọng nước do cọ xát",
+    "mép giày chà vào chân làm da phồng rộp",
+    "bóng nước ở gót bị vỡ rỉ dịch trong"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

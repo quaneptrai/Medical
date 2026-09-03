@@ -1,0 +1,83 @@
+{
+  "disease_id": "EXP_625",
+  "name_vi": "Hắc lào",
+  "name_en": "Tinea Corporis",
+  "category": "dermatology",
+  "aliases": [
+    "Lác đồng tiền",
+    "Nấm da hắc lào",
+    "Nấm hắc lào"
+  ],
+  "tier": 1,
+  "description": "Bệnh nhiễm vi nấm sợi nông ngoài da (Dermatophytes), đặc trưng bởi các dát đỏ hình tròn hoặc bầu dục có ranh giới rõ viền mụn nước li ti, ngứa ngáy nhiều.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Vết da đỏ hình tròn có ranh giới rõ như đồng xu",
+        "name_en": "Annular erythematous patch with sharp borders",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Viền gồ cao có mụn nước li ti",
+        "name_en": "Raised border with tiny vesicles",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ngứa ngáy nhiều, tăng lên khi đổ mồ hôi",
+        "name_en": "Intense pruritus, worse with sweating",
+        "frequency": "very_common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Trung tâm tổn thương có xu hướng lành nhạt màu",
+        "name_en": "Central clearing of lesion",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Lan rộng hoặc lây sang các vùng da khác",
+        "name_en": "Peripheral spread to other body parts",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Vùng tổn thương bội nhiễm vi khuẩn sưng tấy mủ, đau nhức dữ dội kèm sốt cao",
+    "Tổn thương nấm lan rộng toàn thân ở người suy giảm miễn dịch nặng"
+  ],
+  "risk_factors": [
+    "Khí hậu nóng ẩm",
+    "Mặc quần áo ẩm ướt chật chội",
+    "Dùng chung khăn quần áo",
+    "Nuôi thú cưng chó mèo bị nấm"
+  ],
+  "questions_to_ask": [
+    "Vết đỏ có hình tròn như đồng xu với viền mụn nước xung quanh không?",
+    "Bạn bị ngứa nhiều ở vùng da nào (bẹn, mông, đùi, lưng)?",
+    "Trong nhà có ai hoặc thú cưng bị nấm da tương tự không?"
+  ],
+  "differential_diagnoses": [
+    "Vảy nến thể mảng",
+    "Chàm đồng tiền (Nummular eczema)",
+    "Viêm da tiếp xúc"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Nhiễm trùng bội nhiễm sưng tấy mủ diện rộng kèm sốt cao rét run"
+  ],
+  "user_language_variants": [
+    "vùng bẹn nổi vệt tròn viền đỏ mụn nước ngứa như điên lúc ra mồ hôi",
+    "bị lác đồng tiền ở mông ngứa râm ran viền gồ đỏ mụn nước",
+    "da nổi hình tròn đồng xu viền mụn nước li ti ngứa ngáy",
+    "bị hắc lào nổi nốt tròn đỏ ngứa ở đùi",
+    "nấm da hắc lào lác đồng tiền ngứa gãi trầy da"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

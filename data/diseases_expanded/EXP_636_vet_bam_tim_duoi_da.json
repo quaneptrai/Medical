@@ -1,0 +1,79 @@
+{
+  "disease_id": "EXP_636",
+  "name_vi": "Vết bầm tím dưới da",
+  "name_en": "Ecchymosis",
+  "category": "dermatology",
+  "aliases": [
+    "Bầm tím dưới da",
+    "Tụ máu va đập",
+    "Vết thâm tím chấn thương nhẹ"
+  ],
+  "tier": 1,
+  "description": "Sự thoát mạch máu nhỏ vào mô liên kết dưới da sau va đập nhẹ, tạo thành mảng da đổi màu tím xanh sau đó chuyển sang vàng lục và tự tiêu biến.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Mảng da đổi màu tím xanh hoặc đỏ tím sau va chạm",
+        "name_en": "Purplish-blue patch after minor trauma",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ấn vào thấy đau tức nhẹ tại chỗ bầm",
+        "name_en": "Mild tenderness on palpation",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Màu sắc chuyển sang vàng lục rồi nhạt dần sau 1-2 tuần",
+        "name_en": "Color transition to yellow-green resolving over 1-2 weeks",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Sưng nề nhẹ mô mềm dưới da",
+        "name_en": "Mild localized soft tissue swelling",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Xuất huyết bầm tím tự phát lan rộng toàn thân không rõ nguyên nhân va đập",
+    "Kèm theo chảy máu chân răng, chảy máu cam khó cầm, đi tiểu ra máu",
+    "Khối tụ máu to nhanh căng cứng dữ dội sau chấn thương"
+  ],
+  "risk_factors": [
+    "Va đập đồ đạc",
+    "Tập luyện thể thao",
+    "Người cao tuổi thành mạch yếu",
+    "Dùng thuốc chống đông/aspirin"
+  ],
+  "questions_to_ask": [
+    "Vết bầm xuất hiện sau cú va đập cụ thể hay tự nhiên nổi lên?",
+    "Bạn có bị nhiều vết bầm cùng lúc khắp người hoặc chảy máu chân răng không?",
+    "Bạn có đang dùng thuốc chống đông máu hay thuốc giảm đau kháng viêm không?"
+  ],
+  "differential_diagnoses": [
+    "Xuất huyết giảm tiểu cầu",
+    "Rối loạn đông máu (Hemophilia)",
+    "Viêm mao mạch dị ứng Henoch-Schonlein"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Chảy máu bầm dập ồ ạt kèm choáng ngất tụt huyết áp sau chấn thương nặng"
+  ],
+  "user_language_variants": [
+    "va chân vào cạnh bàn nổi một cục bầm tím ấn vào hơi đau",
+    "tay bị va quệt thâm tím một mảng xanh tím sau ngã",
+    "vết bầm tím ở đùi sau khi va chạm thể thao nhẹ",
+    "bị bầm dập tím tái dưới da sau va đập",
+    "vết thâm tím tụ máu ở chân ấn vào đau tức"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

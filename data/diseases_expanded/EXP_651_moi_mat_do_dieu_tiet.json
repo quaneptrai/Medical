@@ -1,0 +1,83 @@
+{
+  "disease_id": "EXP_651",
+  "name_vi": "Mỏi mắt do điều tiết",
+  "name_en": "Asthenopia and Eye Strain",
+  "category": "ophthalmology",
+  "aliases": [
+    "Mỏi mắt",
+    "Căng mỏi mắt",
+    "Mỏi mắt do đọc sách dùng điện thoại"
+  ],
+  "tier": 1,
+  "description": "Tình trạng căng mỏi cơ thể mi và cơ vận nhãn do mắt phải điều tiết liên tục để nhìn gần trong thời gian dài (đọc sách, dùng điện thoại, làm việc máy tính).",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cảm giác nặng trĩu mí mắt và mỏi nhức quanh ổ mắt",
+        "name_en": "Heavy eyelids and aching around eye sockets",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Khó tập trung nhìn rõ sau khi đọc sách hoặc xem màn hình lâu",
+        "name_en": "Difficulty focusing after prolonged near work",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Nhức nhẹ hai bên thái dương",
+        "name_en": "Mild temporal tension ache",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Nhìn đôi thoáng qua khi quá mệt",
+        "name_en": "Transient diplopia when fatigued",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Chảy nước mắt nhẹ và muốn nhắm nghiền mắt lại nghỉ ngơi",
+        "name_en": "Mild lacrimation and desire to close eyes",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Mất thị lực hoàn toàn một bên mắt đột ngột",
+    "Đau nhức mắt dữ dội kèm buồn nôn, nhìn đèn thấy quầng xanh đỏ (Glaucoma góc đóng cấp)",
+    "Sụp mi đột ngột hoặc lác mắt liệt cơ vận nhãn"
+  ],
+  "risk_factors": [
+    "Dùng điện thoại trong bóng tối",
+    "Tật khúc xạ (cận, loạn, viễn) chưa chỉnh kính đúng",
+    "Ánh sáng phòng làm việc không đủ"
+  ],
+  "questions_to_ask": [
+    "Bạn có cảm giác mỏi mắt sau khi đọc sách hay xem điện thoại nhiều giờ không?",
+    "Bạn đã kiểm tra độ kính mắt gần đây chưa?",
+    "Có bị đau nhức mắt dữ dội kèm buồn nôn không?"
+  ],
+  "differential_diagnoses": [
+    "Tật khúc xạ chưa chỉnh kính",
+    "Hội chứng khô mắt",
+    "Glaucoma"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Đau nhức mắt dữ dội kèm nhìn mờ thấy quầng tán sắc và nôn ói (cơn Glocom cấp)"
+  ],
+  "user_language_variants": [
+    "đọc sách với xem điện thoại một lúc là hai mắt mỏi nhừ nhức quanh hốc mắt",
+    "mắt căng mỏi trĩu mí mắt nhìn lóa nhức thái dương",
+    "nhìn màn hình nhiều mắt mỏi mệt muốn nhắm nghiền mắt",
+    "bị mỏi mắt căng cơ mắt khi dùng máy tính lâu",
+    "hai mắt mỏi nhừ nhức hốc mắt do nhìn gần"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "disease_id": "EXP_606",
+  "name_vi": "Ho có đờm",
+  "name_en": "Productive Cough",
+  "category": "respiratory",
+  "aliases": [
+    "Ho khạc đờm",
+    "Ho ứ đờm",
+    "Ho có đờm đường hô hấp"
+  ],
+  "tier": 1,
+  "description": "Tình trạng ho kèm theo tống xuất chất tiết nhầy (đờm) từ đường thở dưới hoặc hầu họng ra ngoài.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Ho khạc ra đờm",
+        "name_en": "Cough with sputum production",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác vướng đờm ở cổ họng",
+        "name_en": "Mucus sensation in throat",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Nặng ngực nhẹ do ứ đọng dịch",
+        "name_en": "Mild chest heaviness from mucus",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Tiếng thở lọc sọc do đờm",
+        "name_en": "Rattling breath sounds from phlegm",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Khạc đờm nhiều vào buổi sáng",
+        "name_en": "Morning sputum clearing",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đờm có màu rỉ sắt kèm sốt cao rét run (nghi ngờ viêm phổi thùy)",
+    "Khạc ra máu tươi hoặc đờm lẫn máu cục",
+    "Khó thở nặng, thở khò khè rút lõm lồng ngực"
+  ],
+  "risk_factors": [
+    "Viêm đường hô hấp",
+    "Hút thuốc lá",
+    "Bụi nghề nghiệp",
+    "Thời tiết ẩm lạnh"
+  ],
+  "questions_to_ask": [
+    "Đờm của bạn có màu gì (trắng trong, trắng đục, vàng hay xanh)?",
+    "Bạn có cảm thấy khó thở hoặc đau nhói ngực khi hít thở sâu không?",
+    "Bạn có bị sốt hoặc ho ra máu không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm phế quản cấp",
+    "Viêm phổi",
+    "Giãn phế quản"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Ho khạc máu ồ ạt",
+    "Khó thở dữ dội kèm sốt cao rét run và đau tức ngực"
+  ],
+  "user_language_variants": [
+    "cứ ho là khạc ra cục đờm đặc quánh ở cổ",
+    "sáng ngủ dậy đờm nhớt ứ đầy họng phải ho khạc mãi mới ra",
+    "ho sù sụ có đờm trắng đục lọc sọc trong ngực",
+    "ho khạc đờm nhớt vướng cổ họng khó chịu",
+    "ho nhiều đờm đờm đặc ở cổ họng"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

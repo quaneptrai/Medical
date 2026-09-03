@@ -1,0 +1,86 @@
+{
+  "disease_id": "EXP_624",
+  "name_vi": "Đau răng",
+  "name_en": "Toothache",
+  "category": "digestive",
+  "aliases": [
+    "Đau nhức răng",
+    "Nhức răng",
+    "Đau răng do kích ứng tủy nhẹ"
+  ],
+  "tier": 1,
+  "description": "Cảm giác đau nhức âm ỉ hoặc nhói ở răng và cấu trúc xung quanh, thường do sâu răng tiến triển, kích ứng tủy răng hoặc viêm quanh cuống nhẹ.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau nhức âm ỉ hoặc nhói ở thân răng",
+        "name_en": "Dull ache or throbbing pain in tooth",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Tăng đau khi cắn nhai hoặc chạm vào răng",
+        "name_en": "Pain worsened by chewing pressure",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Đau lan nhẹ lên thái dương cùng bên",
+        "name_en": "Mild radiation to ipsilateral temple",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Nhức răng tăng về ban đêm khi nằm",
+        "name_en": "Worse pain at night when lying down",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Nướu quanh chân răng hơi sưng nhẹ",
+        "name_en": "Mild swelling of surrounding gingiva",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Sưng húp mặt một bên, sưng lan xuống cổ hoặc góc hàm",
+    "Sốt cao rét run kèm há miệng hạn chế",
+    "Cơn đau thắt ngực lan lên hàm dưới (phân biệt nhồi máu cơ tim)"
+  ],
+  "risk_factors": [
+    "Sâu răng không điều trị",
+    "Miếng hàn răng bị hở",
+    "Nghiến răng khi ngủ",
+    "Nứt răng"
+  ],
+  "questions_to_ask": [
+    "Cơn đau răng có giật theo nhịp đập của tim không?",
+    "Vùng má hoặc nướu có bị sưng mủ to không?",
+    "Cơn đau có lan ra ngực hay cánh tay trái không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm tủy răng hoại tử",
+    "Áp xe quanh chóp răng",
+    "Đau dây thần kinh sinh ba",
+    "Nhồi máu cơ tim đau lan hàm"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Sưng to góc hàm khó thở khó nuốt sốt cao",
+    "Đau nhức hàm kèm đau tức ngực vã mồ hôi khó thở"
+  ],
+  "user_language_variants": [
+    "răng hàm đau nhức ê ẩm cả đêm không ngủ được",
+    "cắn mạnh vào cái răng bị sâu đau nhói lên thái dương",
+    "nhức răng buốt lên tận đầu ê ẩm cả hàm",
+    "đau nhức răng hàm dưới buốt răng",
+    "bị đau răng nhức nhối khó ăn uống"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

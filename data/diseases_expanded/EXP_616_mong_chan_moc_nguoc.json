@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_616",
+  "name_vi": "Móng chân mọc ngược",
+  "name_en": "Ingrown Toenail",
+  "category": "dermatology",
+  "aliases": [
+    "Móng quặp",
+    "Móng chân chọc thịt",
+    "Móng mọc vào khóe"
+  ],
+  "tier": 1,
+  "description": "Bờ móng chân, thường ở ngón cái, cong và chèn vào rãnh móng gây đau, đỏ và sưng tại khóe móng.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau ở một bên khóe móng chân",
+        "name_en": "Pain along one toenail edge",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Bờ móng cong chọc vào da",
+        "name_en": "Nail edge curves into skin",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Da quanh khóe móng đỏ và sưng",
+        "name_en": "Red swollen skin beside nail",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Đau tăng khi mang giày chật",
+        "name_en": "Pain worsened by tight shoes",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Mô hạt nhỏ hoặc rỉ dịch ở khóe móng",
+        "name_en": "Granulation tissue or mild drainage",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Khóe móng chảy mủ, đỏ lan lên bàn chân hoặc kèm sốt",
+    "Ngón chân tím tái, lạnh hoặc mất cảm giác",
+    "Móng mọc ngược ở người đái tháo đường hoặc bệnh mạch máu ngoại biên"
+  ],
+  "risk_factors": [
+    "Cắt móng quá sát và bo tròn",
+    "Mang giày chật",
+    "Móng cong bẩm sinh",
+    "Chấn thương ngón chân"
+  ],
+  "questions_to_ask": [
+    "Bờ móng có đang chọc sâu vào da và chảy mủ không?",
+    "Bạn thường cắt móng sát hoặc mang giày chật không?",
+    "Bạn có đái tháo đường, mất cảm giác chân hoặc bệnh mạch máu không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm quanh móng",
+    "Nấm móng",
+    "Chấn thương giường móng"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Đỏ sưng lan nhanh kèm sốt hoặc ngón chân tím lạnh mất cảm giác"
+  ],
+  "user_language_variants": [
+    "khóe móng ngón cái chọc vào thịt đi giày rất đau",
+    "móng chân bị quặp làm một bên ngón sưng đỏ",
+    "cắt móng sát xong mép móng đâm vào da đau nhói",
+    "bờ móng chân mọc xiên vào khóe có ít dịch",
+    "ngón chân đau ở rãnh móng mỗi khi bước đi"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

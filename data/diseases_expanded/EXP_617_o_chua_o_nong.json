@@ -1,0 +1,85 @@
+{
+  "disease_id": "EXP_617",
+  "name_vi": "Ợ chua ợ nóng",
+  "name_en": "Heartburn and Pyrosis",
+  "category": "digestive",
+  "aliases": [
+    "Ợ chua",
+    "Ợ nóng",
+    "Nóng rát thượng vị sau ăn"
+  ],
+  "tier": 1,
+  "description": "Cảm giác nóng rát lan từ vùng thượng vị lên sau xương ức và lên cổ họng do axit dịch vị kích thích niêm mạc thực quản sau bữa ăn nhiều dầu mỡ, cay nóng.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cảm giác nóng rát sau xương ức",
+        "name_en": "Retrosternal burning sensation",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ợ lên chất lỏng chua hoặc đắng ở cuống họng",
+        "name_en": "Acid regurgitation with sour taste",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Tăng cảm giác nóng rát khi nằm xuống sau ăn",
+        "name_en": "Worse when lying down after eating",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Cảm giác vướng nhẹ ở cổ họng",
+        "name_en": "Mild lump in throat sensation",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Tiết nhiều nước bọt trong miệng",
+        "name_en": "Water brash",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau thắt ngực kiểu đè nặng bóp nghẹt lan lên vai/tay trái (dấu hiệu nhồi máu cơ tim)",
+    "Nuốt nghẹn, thức ăn tắc ở cổ họng hoặc nôn ra máu",
+    "Sụt cân nhanh không rõ nguyên nhân"
+  ],
+  "risk_factors": [
+    "Ăn no nằm ngay",
+    "Thức ăn cay nóng, nhiều mỡ, sô-cô-la",
+    "Uống rượu bia, cà phê",
+    "Thừa cân béo phì"
+  ],
+  "questions_to_ask": [
+    "Cảm giác nóng rát xuất hiện sau khi ăn đồ chua cay hay khi nằm xuống?",
+    "Cơn đau có lan lên vai trái, tay trái hay làm bạn vã mồ hôi khó thở không?",
+    "Bạn có cảm giác nuốt nghẹn hay nôn ra máu không?"
+  ],
+  "differential_diagnoses": [
+    "Hội chứng vành cấp / Nhồi máu cơ tim",
+    "Trào ngược dạ dày thực quản (GERD)",
+    "Co thắt tâm vị"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Đau tức ngực dữ dội đè nặng lan tay trái, vã mồ hôi lạnh, khó thở",
+    "Nôn ra máu hoặc ngất xỉu"
+  ],
+  "user_language_variants": [
+    "cứ ăn no xong là ợ lên nước chua lòm bỏng rát cổ",
+    "nóng rát từ dạ dày bốc ngược lên ngực sau khi uống cà phê",
+    "hay bị ợ chua nóng ran sau xương ức lúc nằm ngủ",
+    "ợ nóng rát cổ họng vị chua đắng ở miệng",
+    "ăn xong nằm xuống bị trào nước chua nóng rát lồng ngực"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

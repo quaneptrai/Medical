@@ -1,0 +1,78 @@
+{
+  "disease_id": "EXP_637",
+  "name_vi": "Da khô nứt nẻ",
+  "name_en": "Xerosis Cutis",
+  "category": "dermatology",
+  "aliases": [
+    "Khô da mùa đông",
+    "Da nứt nẻ vảy cá",
+    "Khô ráp da toàn thân"
+  ],
+  "tier": 1,
+  "description": "Tình trạng suy giảm độ ẩm và lipid lớp sừng biểu bì làm da thô ráp, bong vảy cá mịn, căng ngứa đặc biệt vào mùa đông lạnh hoặc tắm nước quá nóng.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Da thô ráp sần sùi khi sờ",
+        "name_en": "Rough, scaly skin texture",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Bong vảy mịn như vảy cá ở cẳng chân, cánh tay",
+        "name_en": "Fine scaling, especially on shins and arms",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác căng da và ngứa ngáy sau khi tắm",
+        "name_en": "Tightness and itching after bathing",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Nứt nông hình mạng lưới",
+        "name_en": "Superficial reticular cracking",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Da nứt nẻ chảy máu, sưng tấy mủ vàng bội nhiễm",
+    "Đỏ da toàn thân tróc vảy kèm sốt cao rét run (đỏ da toàn thân)"
+  ],
+  "risk_factors": [
+    "Thời tiết mùa đông lạnh khô",
+    "Tắm nước nóng quá lâu",
+    "Dùng xà phòng tẩy rửa mạnh",
+    "Người cao tuổi"
+  ],
+  "questions_to_ask": [
+    "Da bạn bị khô ngứa nhiều vào mùa đông sau khi tắm nước nóng phải không?",
+    "Bạn đã bôi kem dưỡng ẩm thường xuyên chưa?",
+    "Da có bị nứt toác chảy máu hoặc nhiễm trùng mủ không?"
+  ],
+  "differential_diagnoses": [
+    "Bệnh vảy cá",
+    "Chàm khô (Asteatotic eczema)",
+    "Viêm da cơ địa"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Đỏ da tróc vảy toàn thân kèm sốt cao rét run và rối loạn thân nhiệt"
+  ],
+  "user_language_variants": [
+    "mùa đông da khô ráp như vảy cá ngứa ngáy sau khi tắm",
+    "cẳng chân khô nứt nẻ trắng mốc bong vảy ngứa",
+    "da tay chân khô khốc căng rát vào mùa lạnh",
+    "da bị khô nẻ sần sùi ngứa ngáy khắp người",
+    "khô da mùa đông bong tróc vảy trắng"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

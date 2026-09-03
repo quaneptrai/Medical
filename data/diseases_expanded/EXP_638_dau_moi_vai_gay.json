@@ -1,0 +1,86 @@
+{
+  "disease_id": "EXP_638",
+  "name_vi": "Đau mỏi vai gáy",
+  "name_en": "Cervical Myofascial Pain",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Đau vai gáy",
+    "Mỏi cổ vai gáy",
+    "Căng cơ cổ vai",
+    "Đau cổ vai cơ năng"
+  ],
+  "tier": 1,
+  "description": "Hội chứng đau cơ mạc vùng cổ gáy và hai bả vai do co thắt, căng cơ liên tục sau khi ngồi sai tư thế, làm việc máy tính lâu hoặc nằm gối quá cao.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau nhức căng cứng cơ vùng cổ và hai bên vai",
+        "name_en": "Stiffness and aching pain in neck and shoulders",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Hạn chế động tác xoay hoặc cúi ngửa cổ",
+        "name_en": "Restricted neck range of motion",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Đau tăng sau nhiều giờ ngồi làm việc máy tính",
+        "name_en": "Pain worsens after prolonged desk work",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Đau nhức lan nhẹ lên sau đầu vùng chẩm",
+        "name_en": "Radiation to occipital region",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Cảm giác nặng trịch hai bả vai",
+        "name_en": "Heavy sensation on shoulders",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau lan dọc cánh tay xuống bàn tay kèm tê bì, mất cảm giác hoặc yếu liệt tay (chèn ép rễ thần kinh cổ)",
+    "Đau cổ dữ dội sau chấn thương ngã hoặc tai nạn giao thông",
+    "Kèm sốt cao, cứng gáy không gập được cằm vào ngực (nghi viêm màng não)"
+  ],
+  "risk_factors": [
+    "Ngồi máy tính sai tư thế kéo dài",
+    "Gối đầu quá cao khi ngủ",
+    "Ít vận động thể dục",
+    "Stress căng thẳng"
+  ],
+  "questions_to_ask": [
+    "Cơn đau có lan dọc xuống cánh tay hay làm bạn bị tê bì ngón tay không?",
+    "Bạn có thể cúi cằm chạm vào ngực được không?",
+    "Cơn đau xuất hiện sau khi ngồi làm việc lâu hay sau khi ngủ dậy gối cao?"
+  ],
+  "differential_diagnoses": [
+    "Thoát vị đĩa đệm cột sống cổ",
+    "Thoái hóa cột sống cổ",
+    "Viêm màng não"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Sốt cao cứng gáy nôn vọt (viêm màng não)",
+    "Yếu liệt tay đột ngột sau chấn thương vùng cổ"
+  ],
+  "user_language_variants": [
+    "ngủ dậy bị vẹo cổ đau cứng cơ vai gáy không quay đầu được",
+    "ngồi làm việc văn phòng máy tính cả ngày vai gáy mỏi nhừ căng cứng",
+    "đau nhức cơ hai bên bả vai với sau gáy mỏi ê ẩm",
+    "bị đau mỏi cổ vai gáy cứng đơ cổ",
+    "mỏi vai gáy nhức cơ cổ sau khi làm việc máy tính"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

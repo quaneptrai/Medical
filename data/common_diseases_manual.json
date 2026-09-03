@@ -1,0 +1,3556 @@
+[
+  {
+    "name_vi": "Cảm lạnh thông thường",
+    "name_en": "Common Cold",
+    "category": "respiratory",
+    "aliases": [
+      "Cảm thường",
+      "Cảm lạnh",
+      "Nhiễm lạnh",
+      "Viêm long hô hấp trên"
+    ],
+    "urgency": "low",
+    "description": "Bệnh nhiễm virus cấp tính đường hô hấp trên tự giới hạn, đặc trưng bởi chảy nước mũi trong, hắt hơi, nghẹt mũi và rát họng nhẹ.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Sổ mũi nước trong",
+          "name_en": "Clear rhinorrhea",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Hắt hơi liên tục",
+          "name_en": "Frequent sneezing",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Nghẹt mũi",
+          "name_en": "Nasal congestion",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Rát họng nhẹ",
+          "name_en": "Mild sore throat",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Ho khan nhẹ",
+          "name_en": "Mild dry cough",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Đau mỏi mình mẩy nhẹ",
+          "name_en": "Mild body aches",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Sốt nhẹ hoặc gai rét",
+          "name_en": "Low-grade fever or mild chills",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Sốt cao liên tục trên 39 độ C không hạ khi dùng thuốc",
+      "Khó thở, thở rít hoặc đau tức ngực dữ dội",
+      "Triệu chứng không đỡ và nặng lên rõ rệt sau 10 ngày"
+    ],
+    "risk_factors": [
+      "Tiếp xúc người bị cảm",
+      "Thời tiết thay đổi đột ngột",
+      "Nhiễm lạnh",
+      "Sức đề kháng suy giảm"
+    ],
+    "questions_to_ask": [
+      "Bạn bị sổ mũi, hắt hơi từ mấy hôm nay rồi?",
+      "Nước mũi trong hay đã chuyển sang màu vàng xanh đặc?",
+      "Bạn có sốt cao hoặc cảm thấy khó thở không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm mũi dị ứng",
+      "Cúm mùa",
+      "Viêm xoang cấp"
+    ],
+    "when_to_seek_emergency": [
+      "Khó thở nặng, tím tái hoặc đau tức ngực",
+      "Sốt cao co giật hoặc li bì khó đánh thức"
+    ],
+    "user_language_variants": [
+      "tôi bị cảm lạnh hắt hơi sổ mũi suốt mấy hôm nay",
+      "người gai gai sốt chảy nước mũi trong ngạt cứng mũi",
+      "hắt xì hơi liên tục chảy nước mũi rát họng",
+      "bị nhiễm lạnh sổ mũi khụt khịt ho húng hắng",
+      "cảm xoàng sổ mũi hắt xì ngứa cổ"
+    ]
+  },
+  {
+    "name_vi": "Ho khan",
+    "name_en": "Dry Cough",
+    "category": "respiratory",
+    "aliases": [
+      "Ho không có đờm",
+      "Cơn ho khan kích ứng",
+      "Ho rát cổ họng"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng ho từng cơn không có chất tiết (đờm), thường do kích ứng niêm mạc hầu họng, khí quản hoặc tiếp xúc khói bụi, thời tiết hanh khô.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Ho từng cơn không có đờm",
+          "name_en": "Non-productive paroxysmal cough",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Ngứa rát cổ họng",
+          "name_en": "Throat tickle and irritation",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác vướng họng",
+          "name_en": "Globus sensation in throat",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Khàn giọng nhẹ sau cơn ho",
+          "name_en": "Mild hoarseness after coughing",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Đau rát cơ ngực do ho nhiều",
+          "name_en": "Chest wall muscle soreness from coughing",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Ho ra máu tươi hoặc đờm lẫn vệt máu",
+      "Ho khan kéo dài trên 3 tuần kèm sụt cân không rõ nguyên nhân",
+      "Khó thở cấp hoặc thở rít"
+    ],
+    "risk_factors": [
+      "Khói thuốc lá",
+      "Không khí hanh khô lạnh",
+      "Bụi bẩn",
+      "Trào ngược dạ dày thực quản"
+    ],
+    "questions_to_ask": [
+      "Cơn ho xuất hiện nhiều vào thời điểm nào (ban đêm, lúc mới ngủ dậy hay khi tiếp xúc gió lạnh)?",
+      "Bạn có cảm giác ngứa cổ hay trào ngược dịch chua từ dạ dày lên họng không?",
+      "Bạn có bị ho ra máu hoặc khó thở không?"
+    ],
+    "differential_diagnoses": [
+      "Ho do trào ngược GERD",
+      "Hen phế quản thể ho",
+      "Ho do tác dụng phụ thuốc ức chế men chuyển"
+    ],
+    "when_to_seek_emergency": [
+      "Ho ra máu lượng nhiều",
+      "Khó thở cấp dữ dội, tím tái môi đầu chi"
+    ],
+    "user_language_variants": [
+      "bị ho khan ngứa cổ ho rũ rượi từng cơn không có tí đờm nào",
+      "cổ họng cứ ngứa ran rồi ho khùng khục rát hết cả họng",
+      "cứ đêm nằm xuống là ho khan sù sụ không ngủ được",
+      "ho khan rát cổ khó chịu ngứa ngáy ở họng",
+      "ho khọt khẹt ngứa cổ họng không khạc ra đờm"
+    ]
+  },
+  {
+    "name_vi": "Ho có đờm",
+    "name_en": "Productive Cough",
+    "category": "respiratory",
+    "aliases": [
+      "Ho khạc đờm",
+      "Ho ứ đờm",
+      "Ho có đờm đường hô hấp"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng ho kèm theo tống xuất chất tiết nhầy (đờm) từ đường thở dưới hoặc hầu họng ra ngoài.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Ho khạc ra đờm",
+          "name_en": "Cough with sputum production",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác vướng đờm ở cổ họng",
+          "name_en": "Mucus sensation in throat",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Nặng ngực nhẹ do ứ đọng dịch",
+          "name_en": "Mild chest heaviness from mucus",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Tiếng thở lọc sọc do đờm",
+          "name_en": "Rattling breath sounds from phlegm",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Khạc đờm nhiều vào buổi sáng",
+          "name_en": "Morning sputum clearing",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Đờm có màu rỉ sắt kèm sốt cao rét run (nghi ngờ viêm phổi thùy)",
+      "Khạc ra máu tươi hoặc đờm lẫn máu cục",
+      "Khó thở nặng, thở khò khè rút lõm lồng ngực"
+    ],
+    "risk_factors": [
+      "Viêm đường hô hấp",
+      "Hút thuốc lá",
+      "Bụi nghề nghiệp",
+      "Thời tiết ẩm lạnh"
+    ],
+    "questions_to_ask": [
+      "Đờm của bạn có màu gì (trắng trong, trắng đục, vàng hay xanh)?",
+      "Bạn có cảm thấy khó thở hoặc đau nhói ngực khi hít thở sâu không?",
+      "Bạn có bị sốt hoặc ho ra máu không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm phế quản cấp",
+      "Viêm phổi",
+      "Giãn phế quản"
+    ],
+    "when_to_seek_emergency": [
+      "Ho khạc máu ồ ạt",
+      "Khó thở dữ dội kèm sốt cao rét run và đau tức ngực"
+    ],
+    "user_language_variants": [
+      "cứ ho là khạc ra cục đờm đặc quánh ở cổ",
+      "sáng ngủ dậy đờm nhớt ứ đầy họng phải ho khạc mãi mới ra",
+      "ho sù sụ có đờm trắng đục lọc sọc trong ngực",
+      "ho khạc đờm nhớt vướng cổ họng khó chịu",
+      "ho nhiều đờm đờm đặc ở cổ họng"
+    ]
+  },
+  {
+    "name_vi": "Sổ mũi",
+    "name_en": "Rhinorrhea",
+    "category": "respiratory",
+    "aliases": [
+      "Chảy nước mũi",
+      "Chảy nước mũi trong",
+      "Chảy dịch mũi cấp"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng niêm mạc mũi tăng tiết dịch nhầy lỏng trong suốt, thường gặp trong nhiễm lạnh, thay đổi thời tiết hoặc viêm long hô hấp giai đoạn đầu.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Chảy nước mũi trong liên tục",
+          "name_en": "Continuous clear nasal discharge",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác ngứa mũi",
+          "name_en": "Nasal pruritus",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Kích ứng đỏ quanh cánh mũi do lau chùi",
+          "name_en": "Erythema around nostrils from wiping",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Hắt hơi ngắt quãng",
+          "name_en": "Intermittent sneezing",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Cảm giác nghẹt mũi thoáng qua",
+          "name_en": "Transient nasal congestion",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Chảy dịch mũi một bên kèm mùi hôi thối nồng nặc (nghi dị vật mũi hoặc viêm xoang do nấm/răng)",
+      "Chảy dịch trong liên tục như nước sau chấn thương đầu (nghi rò dịch não tủy)"
+    ],
+    "risk_factors": [
+      "Gặp lạnh",
+      "Gió lùa",
+      "Thay đổi nhiệt độ phòng điều hòa",
+      "Kích ứng bụi"
+    ],
+    "questions_to_ask": [
+      "Nước mũi của bạn chảy ở một hay cả hai bên lỗ mũi?",
+      "Dịch mũi hoàn toàn trong suốt hay có màu vàng đục, mủ?",
+      "Bạn có bị sốt hoặc đau nhức các hốc xoang trên mặt không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm mũi dị ứng",
+      "Cảm lạnh",
+      "Viêm xoang cấp"
+    ],
+    "when_to_seek_emergency": [
+      "Chảy dịch mũi sau tai nạn giao thông hoặc va đập mạnh vùng đầu",
+      "Sốt cao cứng gáy nôn vọt"
+    ],
+    "user_language_variants": [
+      "nước mũi chảy ròng ròng lau không kịp ướt hết cả khăn",
+      "mũi cứ thò lò nước trong ngứa mũi hắt xì liên tục",
+      "chảy dịch mũi trong suốt quẹt mũi rát cả cánh mũi",
+      "sổ mũi chảy nước mũi lòng thòng ròng ròng",
+      "bị chảy nước mũi nước trong chảy suốt ngày"
+    ]
+  },
+  {
+    "name_vi": "Nghẹt mũi",
+    "name_en": "Nasal Congestion",
+    "category": "respiratory",
+    "aliases": [
+      "Ngạt mũi",
+      "Tịt mũi",
+      "Tắc nghẹt mũi"
+    ],
+    "urgency": "low",
+    "description": "Sự tắc nghẽn luồng không khí qua hốc mũi do phù nề niêm mạc mũi hoặc ứ đọng dịch nhầy.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Khó thở bằng mũi",
+          "name_en": "Difficulty breathing through nose",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Phải há miệng để thở",
+          "name_en": "Mouth breathing",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Giọng nói nghẹt đặc (giọng mũi)",
+          "name_en": "Hyponasal speech",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Cảm giác tức nặng sống mũi",
+          "name_en": "Heaviness across nasal bridge",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Khô miệng do thở bằng miệng ban đêm",
+          "name_en": "Dry mouth from mouth breathing",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Nghẹt mũi một bên liên tục kéo dài kèm chảy máu cam và nổi hạch cổ (cần tầm soát ung thư vòm họng)",
+      "Đau nhức sưng phù nửa mặt quanh ổ mắt dữ dội"
+    ],
+    "risk_factors": [
+      "Thời tiết lạnh hanh",
+      "Nằm ngủ đầu thấp",
+      "Lạm dụng thuốc xịt co mạch mũi",
+      "Vách ngăn mũi vẹo"
+    ],
+    "questions_to_ask": [
+      "Bạn bị nghẹt một bên hay luân phiên cả hai bên mũi?",
+      "Nghẹt mũi tăng lên khi nằm xuống hay khi nào?",
+      "Bạn có xịt thuốc co mạch mũi kéo dài nhiều ngày không?"
+    ],
+    "differential_diagnoses": [
+      "Lệch vách ngăn mũi",
+      "Viêm mũi xoang",
+      "Polyp mũi"
+    ],
+    "when_to_seek_emergency": [
+      "Sưng nề mắt, nhìn đôi, lồi mắt kèm sốt cao (biến chứng ổ mắt của viêm xoang)"
+    ],
+    "user_language_variants": [
+      "tịt hai bên lỗ mũi không thở được phải thở bằng mồm",
+      "nghẹt cứng mũi nằm xuống là khó thở ngột ngạt",
+      "ngạt mũi đặc tiếng nói như bị bóp nghẹt mũi",
+      "mũi bị tịt cứng không hít thở được",
+      "nghẹt mũi khó thở về ban đêm"
+    ]
+  },
+  {
+    "name_vi": "Hăm kẽ do ẩm",
+    "name_en": "Intertrigo",
+    "category": "dermatology",
+    "aliases": [
+      "Hăm kẽ",
+      "Viêm da kẽ",
+      "Hăm da do ẩm"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng viêm kích ứng ở vùng hai bề mặt da cọ xát và giữ ẩm như bẹn, nách, dưới vú hoặc nếp bụng, gây đỏ rát và dễ bội nhiễm.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Mảng da đỏ ẩm ở nếp gấp",
+          "name_en": "Moist red patch in a skin fold",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Rát xót tăng khi ra mồ hôi",
+          "name_en": "Burning worsened by sweating",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Ngứa nhẹ đến vừa tại vùng da cọ xát",
+          "name_en": "Mild to moderate itch at friction area",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Da nứt nông hoặc rỉ dịch nhẹ",
+          "name_en": "Superficial fissuring or mild weeping",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Mùi khó chịu ở nếp da ẩm",
+          "name_en": "Odor from the moist skin fold",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Vùng đỏ sưng nóng lan nhanh, đau tăng hoặc chảy mủ kèm sốt",
+      "Da chuyển tím đen, phồng rộp hoặc đau dữ dội bất thường",
+      "Tổn thương lan rộng ở người đái tháo đường hoặc suy giảm miễn dịch"
+    ],
+    "risk_factors": [
+      "Thời tiết nóng ẩm",
+      "Thừa cân có nhiều nếp da",
+      "Quần áo chật bí",
+      "Ra nhiều mồ hôi"
+    ],
+    "questions_to_ask": [
+      "Vùng đỏ nằm ở nếp bẹn, nách, dưới vú hay nếp bụng?",
+      "Da có rỉ dịch, mùi hôi, mụn mủ hoặc lan nhanh không?",
+      "Bạn có đái tháo đường hoặc đang suy giảm miễn dịch không?"
+    ],
+    "differential_diagnoses": [
+      "Nấm Candida kẽ",
+      "Hắc lào vùng bẹn",
+      "Viêm da tiếp xúc"
+    ],
+    "when_to_seek_emergency": [
+      "Sốt kèm vùng da sưng nóng đỏ lan nhanh, đau dữ dội hoặc hoại tử"
+    ],
+    "user_language_variants": [
+      "nếp bẹn đỏ ẩm rát mỗi khi đi lại ra mồ hôi",
+      "dưới ngực bị hăm đỏ ngứa và có mùi lúc trời nóng",
+      "nếp bụng ẩm ướt cọ vào nhau đau rát",
+      "vùng nách đỏ hăm do mồ hôi bí lâu ngày",
+      "da giữa các nếp gấp đỏ rỉ nhẹ và xót"
+    ]
+  },
+  {
+    "name_vi": "Chảy máu cam nhẹ",
+    "name_en": "Mild Epistaxis",
+    "category": "ent",
+    "aliases": [
+      "Chảy máu cam",
+      "Chảy máu mũi nhẹ",
+      "Xuất huyết mao mạch mũi"
+    ],
+    "urgency": "low",
+    "description": "Hiện tượng máu rỉ từ các mao mạch nông ở điểm mạch Kiesselbach ở phần trước vách ngăn mũi, thường do ngoáy mũi, khô niêm mạc hoặc thời tiết hanh khô.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Máu đỏ tươi rỉ từ một bên lỗ mũi",
+          "name_en": "Bright red blood dripping from one nostril",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác vướng máu ở cửa mũi",
+          "name_en": "Blood sensation at nostril",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Chảy máu tự cầm sau khi bóp cánh mũi 5-10 phút",
+          "name_en": "Bleeding stops after 5-10 minutes of direct pressure",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Có vảy máu khô trong hốc mũi",
+          "name_en": "Dried blood crusts in nasal cavity",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Máu chảy xối xả liên tục trên 15-20 phút ép chặt cánh mũi không cầm",
+      "Chảy máu mũi sau chấn thương vùng đầu mặt hoặc tai nạn",
+      "Kèm theo hoa mắt, chóng mặt, vã mồ hôi, da nhợt nhạt, tụt huyết áp"
+    ],
+    "risk_factors": [
+      "Thói quen ngoáy mũi",
+      "Thời tiết hanh khô lạnh",
+      "Xì mũi mạnh",
+      "Tăng huyết áp"
+    ],
+    "questions_to_ask": [
+      "Máu chảy từ một hay cả hai bên mũi?",
+      "Bạn đã bóp chặt cánh mũi liên tục 10 phút chưa, máu có ngưng chảy không?",
+      "Gần đây bạn có đo huyết áp hoặc có dùng thuốc chống đông máu không?"
+    ],
+    "differential_diagnoses": [
+      "Chảy máu mũi do tăng huyết áp",
+      "Dị vật mũi",
+      "Rối loạn đông máu"
+    ],
+    "when_to_seek_emergency": [
+      "Chảy máu mũi ồ ạt không cầm sau 15 phút ép cánh mũi",
+      "Kèm choáng ngất, tụt huyết áp hoặc nôn ra nhiều máu đỏ tươi"
+    ],
+    "user_language_variants": [
+      "tự nhiên bị chảy máu cam rỉ ra ở mũi đỏ tươi",
+      "trời hanh khô ngoáy mũi xong bị chảy máu mũi một bên",
+      "chảy máu cam bóp mũi một lúc thì ngưng chảy",
+      "bị chảy máu cam ở mũi rớm máu đỏ",
+      "mũi tự nhiên chảy máu tươi ít một"
+    ]
+  },
+  {
+    "name_vi": "Ù tai cơ năng",
+    "name_en": "Functional Tinnitus",
+    "category": "ent",
+    "aliases": [
+      "Ù tai cơ năng",
+      "Tiếng ve kêu trong tai",
+      "Tai có tiếng ro ro"
+    ],
+    "urgency": "low",
+    "description": "Cảm giác âm thanh ảo (tiếng vo ve, ro ro, tiếng gió) trong tai không do nguồn âm thanh bên ngoài, thường do thay đổi áp suất, mệt mỏi hoặc căng thẳng.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Tiếng vo ve hoặc ro ro trong tai",
+          "name_en": "Buzzing or ringing sound in ear",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác bít tai nhẹ sau đi máy bay hoặc thang máy",
+          "name_en": "Mild ear fullness after barometric changes",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Khó chịu tăng lên ở không gian yên tĩnh ban đêm",
+          "name_en": "Increased awareness in quiet environments",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Mệt mỏi, khó ngủ do tiếng ù",
+          "name_en": "Fatigue and sleep disturbance from tinnitus",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Ù tai kèm giảm thính lực đột ngột hoàn toàn một bên (cấp cứu điếc đột ngột trong 72h)",
+      "Chóng mặt quay cuồng mất thăng bằng dữ dội kèm nôn ói",
+      "Chảy dịch mủ hoặc máu từ ống tai"
+    ],
+    "risk_factors": [
+      "Đi máy bay / lặn biển",
+      "Nghe tai nghe âm lượng lớn",
+      "Căng thẳng mất ngủ",
+      "Uống nhiều cà phê"
+    ],
+    "questions_to_ask": [
+      "Tiếng ù tai nghe như tiếng ve kêu, tiếng gió hay tiếng đập theo nhịp tim?",
+      "Bạn có cảm thấy bị giảm sức nghe hoặc chóng mặt quay cuồng không?",
+      "Ù tai xuất hiện sau khi đi máy bay, nghe nhạc to hay khi mệt mỏi căng thẳng?"
+    ],
+    "differential_diagnoses": [
+      "Điếc đột ngột",
+      "Bệnh Meniere",
+      "Viêm tai giữa",
+      "Nút ráy tai"
+    ],
+    "when_to_seek_emergency": [
+      "Mất thính lực đột ngột một bên tai trong vòng vài giờ",
+      "Liệt mặt cùng bên hoặc yếu nửa người"
+    ],
+    "user_language_variants": [
+      "trong tai cứ nghe tiếng ve kêu ro ro khó chịu",
+      "đi máy bay về bị ù đặc một bên tai như bị bịt nút bông",
+      "tai cứ lùng bùng nghe tiếng o o bên trong",
+      "bị ù tai tiếng ve kêu ro ro trong tai",
+      "tai nghe tiếng lùng bùng vo ve lúc nửa đêm"
+    ]
+  },
+  {
+    "name_vi": "Nút ráy tai",
+    "name_en": "Impacted Cerumen",
+    "category": "ent",
+    "aliases": [
+      "Tắc ráy tai",
+      "Ráy tai bít kín",
+      "Nút biểu bì ống tai ngoài"
+    ],
+    "urgency": "low",
+    "description": "Sự tích tụ và vón cục của ráy tai làm bít tắc một phần hoặc toàn bộ ống tai ngoài, gây giảm thính lực tạm thời và cảm giác cộm nghẹt.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cảm giác cộm nghẹt trong ống tai",
+          "name_en": "Fullness and blockage in ear canal",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Nghe kém nhẹ bên tai bị bít",
+          "name_en": "Mild conductive hearing loss in affected ear",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Ngứa nhẹ trong ống tai",
+          "name_en": "Mild itching in ear canal",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Ù tai nhẹ kiểu bít nghẹt",
+          "name_en": "Mild low-pitch tinnitus from blockage",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Đau tức nhẹ khi nước vào làm nở ráy tai",
+          "name_en": "Mild discomfort when water expands cerumen",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Đau nhức tai dữ dội kèm sốt",
+      "Chảy mủ vàng hôi hoặc máu từ lỗ tai",
+      "Chóng mặt buồn nôn dữ dội"
+    ],
+    "risk_factors": [
+      "Dùng tăm bông ngoáy đẩy ráy tai vào sâu",
+      "Ống tai hẹp",
+      "Dùng tai nghe nhét tai thường xuyên"
+    ],
+    "questions_to_ask": [
+      "Bạn có thói quen dùng tăm bông ngoáy sâu vào tai không?",
+      "Cảm giác nghẹt tai xuất hiện sau khi tắm hoặc đi bơi phải không?",
+      "Tai bạn có bị đau nhức hay chảy dịch mủ không?"
+    ],
+    "differential_diagnoses": [
+      "Dị vật ống tai",
+      "Viêm tai ngoài",
+      "Viêm tai giữa ứ dịch"
+    ],
+    "when_to_seek_emergency": [
+      "Đau tai dữ dội lan nửa đầu kèm sốt cao và sưng tấy sau tai"
+    ],
+    "user_language_variants": [
+      "cảm giác trong tai có cục ráy tai to bít chặt nghe không rõ",
+      "ngoáy tai bị đẩy ráy tai vào sâu cộm nghẹt tai",
+      "ráy tai vón cục đặc bít kín lỗ tai nghe nghẹt nghẹt",
+      "bị tắc ráy tai đi bơi nước vào nở ra cộm tai",
+      "ráy tai đầy cộm nghẹt tai nghe kém một bên"
+    ]
+  },
+  {
+    "name_vi": "Nước vào tai",
+    "name_en": "Water Trapped in Ear",
+    "category": "ent",
+    "aliases": [
+      "Đọng nước trong tai",
+      "Nước vào tai khi tắm bơi",
+      "Tai lùng bùng do nước"
+    ],
+    "urgency": "low",
+    "description": "Nước đọng lại trong ống tai ngoài sau khi bơi lội, tắm gội, gây cảm giác ọc ọc, lùng bùng và giảm sức nghe tạm thời.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cảm giác lùng bùng ọc ọc trong tai",
+          "name_en": "Bubbling and sloshing sensation in ear",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Nghe nhỏ hoặc nghẹt bên tai dính nước",
+          "name_en": "Muffled hearing in affected ear",
+          "frequency": "very_common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Cảm giác dịch di chuyển khi nghiêng lắc đầu",
+          "name_en": "Sensation of fluid shifting when tilting head",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Ngứa nhẹ ống tai",
+          "name_en": "Mild ear canal itching",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Tai đau nhức dữ dội, kéo vành tai thấy đau chói (dấu hiệu viêm tai ngoài cấp)",
+      "Chảy dịch mủ vàng đục mùi hôi sau vài ngày nước vào tai",
+      "Sốt cao"
+    ],
+    "risk_factors": [
+      "Đi bơi",
+      "Tắm gội đầu không bịt tai",
+      "Ráy tai hút nước trương nở"
+    ],
+    "questions_to_ask": [
+      "Bạn bị đọng nước trong tai sau khi bơi hay tắm gội?",
+      "Khi kéo nhẹ vành tai bạn có thấy đau buốt dữ dội không?",
+      "Nước vào tai đã bao nhiêu ngày rồi, có chảy mủ không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm tai ngoài cấp",
+      "Nút ráy tai hút nước",
+      "Thủng màng nhĩ"
+    ],
+    "when_to_seek_emergency": [
+      "Sưng đỏ toàn bộ vành tai và mặt bên tai kèm sốt cao"
+    ],
+    "user_language_variants": [
+      "đi bơi về bị nước lọt vào tai lùng bùng ọc ọc",
+      "tắm xong nước đọng trong tai nghiêng đầu nhảy mãi không ra",
+      "tai bị vô nước nghe nghẹt nghẹt ọc ọc bên trong",
+      "nước vào tai nghe lùng bùng khó chịu",
+      "tắm gội bị nước vào tai lắc đầu nghe tiếng nước"
+    ]
+  },
+  {
+    "name_vi": "Rát họng kích ứng",
+    "name_en": "Irritant Sore Throat",
+    "category": "respiratory",
+    "aliases": [
+      "Rát cổ họng do khô bụi",
+      "Khô rát họng điều hòa",
+      "Đau rát họng nhẹ"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng đau rát khô niêm mạc hầu họng do hít phải không khí khô điều hòa, khói bụi, thuốc lá hoặc la hét nhiều, không có dấu hiệu nhiễm trùng nặng.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cảm giác khô rát ở cổ họng",
+          "name_en": "Dry and scratchy sensation in throat",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Hơi đau rát khi nuốt nước bọt vào buổi sáng",
+          "name_en": "Mild throat discomfort when swallowing in morning",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Khát nước, cảm giác háo nước ở họng",
+          "name_en": "Throat thirst and dryness",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Húng hắng ho nhẹ để làm ẩm cổ họng",
+          "name_en": "Mild clearing cough",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Giảm rát sau khi uống nước ấm",
+          "name_en": "Relief after drinking warm water",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Khó nuốt nặng, không nuốt được nước bọt, chảy nước dãi (nghi áp xe quanh amidan hoặc viêm nắp thanh thiệt)",
+      "Khó thở, thở rít",
+      "Sốt cao rét run kèm amidan sưng to phủ mủ trắng"
+    ],
+    "risk_factors": [
+      "Nằm ngủ phòng điều hòa nhiệt độ thấp",
+      "Hút thuốc lá",
+      "Môi trường nhiều khói bụi",
+      "Uống nhiều nước đá lạnh"
+    ],
+    "questions_to_ask": [
+      "Cổ họng bạn rát nhiều vào buổi sáng ngủ dậy phải không?",
+      "Bạn có bị sốt hoặc thấy amidan có đốm mủ trắng không?",
+      "Uống nước ấm vào có thấy đỡ rát họng không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm họng cấp do virus/vi khuẩn",
+      "Trào ngược họng thanh quản",
+      "Viêm amidan"
+    ],
+    "when_to_seek_emergency": [
+      "Khó thở, khó nuốt nặng không thể nuốt được nước bọt"
+    ],
+    "user_language_variants": [
+      "ngủ điều hòa cả đêm dậy cổ họng khô khốc rát buốt",
+      "cổ họng cứ khô rát ngứa ngáy uống ngụm nước ấm thì đỡ",
+      "hít phải khói bụi về rát hết cả cổ họng",
+      "rát họng khô họng sau khi nằm quạt điều hòa",
+      "cổ họng khô ráp nuốt nước bọt hơi rát"
+    ]
+  },
+  {
+    "name_vi": "Nhiệt miệng",
+    "name_en": "Aphthous Stomatitis",
+    "category": "digestive",
+    "aliases": [
+      "Loét miệng aphthous",
+      "Đẹn miệng",
+      "Lở miệng"
+    ],
+    "urgency": "low",
+    "description": "Tổn thương loét nông lành tính ở niêm mạc miệng (má trong, môi, dưới lưỡi) hình tròn đáy màu trắng vàng viền đỏ, gây đau xót khi ăn uống.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Vết loét tròn nhỏ đáy trắng viền đỏ ở niêm mạc miệng",
+          "name_en": "Small round ulcer with yellow-white base and red border",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Đau rát xót khi ăn đồ mặn, chua, cay",
+          "name_en": "Sharp pain when eating salty, acidic, spicy foods",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Đau rát khi dùng lưỡi chạm vào vết loét",
+          "name_en": "Tenderness on touch with tongue",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Tăng tiết nước bọt nhẹ",
+          "name_en": "Mild hypersalivation",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Sưng nề nhẹ vùng mô xung quanh vết loét",
+          "name_en": "Mild surrounding edema",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Vết loét to cứng gồ mép kéo dài trên 3 tuần không lành (nghi ung thư niêm mạc miệng)",
+      "Loét miệng dày đặc kèm sốt cao, nổi hạch cổ to",
+      "Kèm tổn thương loét ở cơ quan sinh dục và viêm mắt (hội chứng Behcet)"
+    ],
+    "risk_factors": [
+      "Căng thẳng stress",
+      "Vô tình cắn vào má",
+      "Thiếu vitamin B12, kẽm, sắt",
+      "Ăn nhiều đồ cay nóng"
+    ],
+    "questions_to_ask": [
+      "Vết loét xuất hiện ở vị trí nào trong miệng (môi, má, lưỡi)?",
+      "Vết loét đã có bao nhiêu ngày rồi, kích thước có to lên không?",
+      "Bạn có bị sốt hoặc nổi hạch dưới hàm không?"
+    ],
+    "differential_diagnoses": [
+      "Herpes môi miệng",
+      "Nấm miệng Candida",
+      "Ung thư biểu mô khoang miệng"
+    ],
+    "when_to_seek_emergency": [
+      "Loét miệng hoại tử lan rộng kèm sốt cao và nhiễm trùng nặng toàn thân"
+    ],
+    "user_language_variants": [
+      "bị nhiệt miệng nổi nốt loét trắng ở môi trong ăn xót đau điếng",
+      "trong má nổi bọng nước vỡ ra vết loét đỏ xót khi ăn đồ mặn",
+      "lở miệng loét mép ăn cơm chấm mắm cay rát buốt",
+      "bị nhiệt miệng ở cuống lưỡi rát chạm vào là đau",
+      "nổi vết loét đẹn miệng trắng xóa ở nướu xót"
+    ]
+  },
+  {
+    "name_vi": "Móng chân mọc ngược",
+    "name_en": "Ingrown Toenail",
+    "category": "dermatology",
+    "aliases": [
+      "Móng quặp",
+      "Móng chân chọc thịt",
+      "Móng mọc vào khóe"
+    ],
+    "urgency": "low",
+    "description": "Bờ móng chân, thường ở ngón cái, cong và chèn vào rãnh móng gây đau, đỏ và sưng tại khóe móng.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Đau ở một bên khóe móng chân",
+          "name_en": "Pain along one toenail edge",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Bờ móng cong chọc vào da",
+          "name_en": "Nail edge curves into skin",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Da quanh khóe móng đỏ và sưng",
+          "name_en": "Red swollen skin beside nail",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Đau tăng khi mang giày chật",
+          "name_en": "Pain worsened by tight shoes",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Mô hạt nhỏ hoặc rỉ dịch ở khóe móng",
+          "name_en": "Granulation tissue or mild drainage",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Khóe móng chảy mủ, đỏ lan lên bàn chân hoặc kèm sốt",
+      "Ngón chân tím tái, lạnh hoặc mất cảm giác",
+      "Móng mọc ngược ở người đái tháo đường hoặc bệnh mạch máu ngoại biên"
+    ],
+    "risk_factors": [
+      "Cắt móng quá sát và bo tròn",
+      "Mang giày chật",
+      "Móng cong bẩm sinh",
+      "Chấn thương ngón chân"
+    ],
+    "questions_to_ask": [
+      "Bờ móng có đang chọc sâu vào da và chảy mủ không?",
+      "Bạn thường cắt móng sát hoặc mang giày chật không?",
+      "Bạn có đái tháo đường, mất cảm giác chân hoặc bệnh mạch máu không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm quanh móng",
+      "Nấm móng",
+      "Chấn thương giường móng"
+    ],
+    "when_to_seek_emergency": [
+      "Đỏ sưng lan nhanh kèm sốt hoặc ngón chân tím lạnh mất cảm giác"
+    ],
+    "user_language_variants": [
+      "khóe móng ngón cái chọc vào thịt đi giày rất đau",
+      "móng chân bị quặp làm một bên ngón sưng đỏ",
+      "cắt móng sát xong mép móng đâm vào da đau nhói",
+      "bờ móng chân mọc xiên vào khóe có ít dịch",
+      "ngón chân đau ở rãnh móng mỗi khi bước đi"
+    ]
+  },
+  {
+    "name_vi": "Ợ chua ợ nóng",
+    "name_en": "Heartburn and Pyrosis",
+    "category": "digestive",
+    "aliases": [
+      "Ợ chua",
+      "Ợ nóng",
+      "Nóng rát thượng vị sau ăn"
+    ],
+    "urgency": "low",
+    "description": "Cảm giác nóng rát lan từ vùng thượng vị lên sau xương ức và lên cổ họng do axit dịch vị kích thích niêm mạc thực quản sau bữa ăn nhiều dầu mỡ, cay nóng.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cảm giác nóng rát sau xương ức",
+          "name_en": "Retrosternal burning sensation",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Ợ lên chất lỏng chua hoặc đắng ở cuống họng",
+          "name_en": "Acid regurgitation with sour taste",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Tăng cảm giác nóng rát khi nằm xuống sau ăn",
+          "name_en": "Worse when lying down after eating",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Cảm giác vướng nhẹ ở cổ họng",
+          "name_en": "Mild lump in throat sensation",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Tiết nhiều nước bọt trong miệng",
+          "name_en": "Water brash",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Đau thắt ngực kiểu đè nặng bóp nghẹt lan lên vai/tay trái (dấu hiệu nhồi máu cơ tim)",
+      "Nuốt nghẹn, thức ăn tắc ở cổ họng hoặc nôn ra máu",
+      "Sụt cân nhanh không rõ nguyên nhân"
+    ],
+    "risk_factors": [
+      "Ăn no nằm ngay",
+      "Thức ăn cay nóng, nhiều mỡ, sô-cô-la",
+      "Uống rượu bia, cà phê",
+      "Thừa cân béo phì"
+    ],
+    "questions_to_ask": [
+      "Cảm giác nóng rát xuất hiện sau khi ăn đồ chua cay hay khi nằm xuống?",
+      "Cơn đau có lan lên vai trái, tay trái hay làm bạn vã mồ hôi khó thở không?",
+      "Bạn có cảm giác nuốt nghẹn hay nôn ra máu không?"
+    ],
+    "differential_diagnoses": [
+      "Hội chứng vành cấp / Nhồi máu cơ tim",
+      "Trào ngược dạ dày thực quản (GERD)",
+      "Co thắt tâm vị"
+    ],
+    "when_to_seek_emergency": [
+      "Đau tức ngực dữ dội đè nặng lan tay trái, vã mồ hôi lạnh, khó thở",
+      "Nôn ra máu hoặc ngất xỉu"
+    ],
+    "user_language_variants": [
+      "cứ ăn no xong là ợ lên nước chua lòm bỏng rát cổ",
+      "nóng rát từ dạ dày bốc ngược lên ngực sau khi uống cà phê",
+      "hay bị ợ chua nóng ran sau xương ức lúc nằm ngủ",
+      "ợ nóng rát cổ họng vị chua đắng ở miệng",
+      "ăn xong nằm xuống bị trào nước chua nóng rát lồng ngực"
+    ]
+  },
+  {
+    "name_vi": "Nấc cụt",
+    "name_en": "Hiccups",
+    "category": "digestive",
+    "aliases": [
+      "Nấc cục",
+      "Nấc cụt cơ năng",
+      "Co thắt cơ hoành cấp"
+    ],
+    "urgency": "low",
+    "description": "Hiện tượng co thắt đột ngột, không tự chủ của cơ hoành lặp đi lặp lại kèm theo đóng nhanh thanh môn tạo ra tiếng nấc đặc trưng.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Co thắt cơ hoành tạo tiếng nấc ngắt quãng",
+          "name_en": "Involuntary diaphragmatic spasms with hic sound",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác giật cục nhẹ ở vùng ngực bụng",
+          "name_en": "Mild jerking sensation in chest-abdomen",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Mệt mỏi cơ ngực nếu nấc kéo dài vài chục phút",
+          "name_en": "Mild chest muscle fatigue",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Cơn nấc liên tục kéo dài trên 48 giờ không dứt (nấc dai dẳng nghi bệnh lý thần kinh trung ương/lồng ngực)",
+      "Nấc kèm đau tức ngực dữ dội, khó thở hoặc sốt cao",
+      "Nấc kèm nuốt nghẹn hoàn toàn, sụt cân"
+    ],
+    "risk_factors": [
+      "Uống nước lạnh quá nhanh",
+      "Ăn quá no",
+      "Uống nước có ga",
+      "Cười nhiều",
+      "Căng thẳng"
+    ],
+    "questions_to_ask": [
+      "Cơn nấc cụt của bạn đã kéo dài bao lâu (vài phút, vài giờ hay nhiều ngày)?",
+      "Nấc xuất hiện sau khi ăn uống đồ lạnh/có ga phải không?",
+      "Bạn có cảm thấy đau ngực, khó thở hoặc yếu liệt cơ thể không?"
+    ],
+    "differential_diagnoses": [
+      "Trào ngược dạ dày thực quản",
+      "U trung thất",
+      "Rối loạn điện giải"
+    ],
+    "when_to_seek_emergency": [
+      "Nấc cụt kèm méo miệng, yếu liệt nửa người, nói ngọng (dấu hiệu đột quỵ thân não)"
+    ],
+    "user_language_variants": [
+      "bị nấc cụt liên tục không dứt được uống nước không hết",
+      "tự nhiên lên cơn nấc cục ặc ặc mãi cả tiếng đồng hồ",
+      "nấc cụt liên hồi sau khi ăn no uống nước ngọt",
+      "bị nấc cục giật bụng liên tục khó chịu",
+      "cơn nấc cụt kéo dài làm mệt cả người"
+    ]
+  },
+  {
+    "name_vi": "Viêm quanh móng nhẹ",
+    "name_en": "Mild Paronychia",
+    "category": "dermatology",
+    "aliases": [
+      "Sưng khóe móng",
+      "Chín mé nhẹ",
+      "Viêm nếp móng"
+    ],
+    "urgency": "low",
+    "description": "Viêm khu trú ở nếp da quanh móng tay hoặc móng chân, thường sau xước da, cắn móng hoặc làm móng, gây đỏ, sưng và đau tại chỗ.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Nếp da cạnh móng đỏ và sưng",
+          "name_en": "Red swollen nail fold",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Đau nhói khi ấn quanh móng",
+          "name_en": "Tenderness around nail",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác căng tức ở khóe móng",
+          "name_en": "Tight pressure at nail edge",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Túi mủ nhỏ sát bờ móng",
+          "name_en": "Small pus pocket beside nail",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Da quanh móng bong xước",
+          "name_en": "Torn skin around nail",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Đỏ sưng lan nhanh dọc ngón hoặc bàn tay kèm sốt",
+      "Đau dữ dội, ngón căng cứng hoặc có vệt đỏ chạy lên cánh tay",
+      "Nhiễm trùng quanh móng ở người đái tháo đường hoặc suy giảm miễn dịch"
+    ],
+    "risk_factors": [
+      "Cắn móng tay",
+      "Cắt khóe móng sâu",
+      "Làm móng gây xước",
+      "Tay thường xuyên ngâm nước"
+    ],
+    "questions_to_ask": [
+      "Quanh móng có túi mủ hay đỏ lan khỏi ngón không?",
+      "Trước đó bạn có cắt da, cắn móng hoặc làm móng không?",
+      "Bạn có sốt, đái tháo đường hoặc suy giảm miễn dịch không?"
+    ],
+    "differential_diagnoses": [
+      "Móng mọc ngược",
+      "Chín mé sâu đầu ngón",
+      "Herpes đầu ngón"
+    ],
+    "when_to_seek_emergency": [
+      "Sốt, đau tăng nhanh, đỏ lan theo bàn tay hoặc có vệt đỏ chạy lên cánh tay"
+    ],
+    "user_language_variants": [
+      "khóe móng tay sưng đỏ ấn vào đau sau khi cắt da",
+      "cạnh móng có một chấm mủ nhỏ và căng tức",
+      "cắn móng xong phần da quanh móng viêm đau",
+      "nếp móng ngón tay đỏ nhức nhưng chưa lan",
+      "làm móng về khóe móng sưng và rát"
+    ]
+  },
+  {
+    "name_vi": "Say tàu xe",
+    "name_en": "Motion Sickness",
+    "category": "general",
+    "aliases": [
+      "Say xe",
+      "Say tàu xe",
+      "Say sóng",
+      "Nôn nao khi đi ô tô"
+    ],
+    "urgency": "low",
+    "description": "Rối loạn thăng bằng sinh lý do sự mâu thuẫn giữa tín hiệu thị giác và hệ thống tiền đình tai trong khi cơ thể di chuyển trên phương tiện giao thông.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cảm giác nôn nao, cồn cào trong bụng",
+          "name_en": "Stomach awareness and nausea",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Chóng mặt, choáng váng khi xe di chuyển",
+          "name_en": "Dizziness and lightheadedness in motion",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Vã mồ hôi lạnh",
+          "name_en": "Cold sweats",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Nôn mửa",
+          "name_en": "Vomiting",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Mệt lả, buồn ngủ rũ rượi",
+          "name_en": "Drowsiness and malaise",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Nôn vọt dữ dội kèm đau đầu dữ dội như búa bổ (nghi tăng áp lực nội sọ)",
+      "Yếu liệt nửa người, nói ngọng, méo miệng",
+      "Mất ý thức, co giật"
+    ],
+    "risk_factors": [
+      "Ngồi ghế sau xe",
+      "Đọc sách xem điện thoại khi xe chạy",
+      "Mùi xăng xe",
+      "Thiếu ngủ trước chuyến đi"
+    ],
+    "questions_to_ask": [
+      "Triệu chứng nôn nao chỉ xuất hiện khi bạn đi xe/tàu/thuyền phải không?",
+      "Sau khi xuống xe nghỉ ngơi bạn có trở lại bình thường không?",
+      "Bạn có bị đau đầu dữ dội hoặc nhìn mờ, yếu tay chân không?"
+    ],
+    "differential_diagnoses": [
+      "Rối loạn tiền đình",
+      "Hạ đường huyết",
+      "Viêm dạ dày cấp"
+    ],
+    "when_to_seek_emergency": [
+      "Nôn vọt liên tục kèm đau đầu dữ dội, lú lẫn hoặc co giật"
+    ],
+    "user_language_variants": [
+      "cứ lên ô tô là chóng mặt buồn nôn say xe nôn thốc nôn tháo",
+      "ngửi mùi xe là cồn cào ruột gan vã mồ hôi lạnh buồn nôn",
+      "say sóng đi tàu thuyền người chao đảo nôn nao mệt rũ",
+      "say xe ô tô say tàu xe nôn nao chóng mặt",
+      "lên xe là say xe chóng mặt cồn cào muốn ói"
+    ]
+  },
+  {
+    "name_vi": "Sâu răng",
+    "name_en": "Dental Caries",
+    "category": "digestive",
+    "aliases": [
+      "Sâu răng",
+      "Sâu men răng",
+      "Lỗ sâu răng"
+    ],
+    "urgency": "low",
+    "description": "Bệnh lý phá hủy cấu trúc vôi hóa của răng do axit sinh ra từ vi khuẩn lên men carbohydrate mảng bám, tạo thành các lỗ khuyết trên răng.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Lỗ khuyết sâu màu nâu đen trên bề mặt răng",
+          "name_en": "Visible brown or black cavity on tooth",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Ê buốt khi ăn đồ ngọt, lạnh hoặc nóng",
+          "name_en": "Tooth sensitivity to sweets, cold, or heat",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Thức ăn hay dắt vào kẽ răng sâu",
+          "name_en": "Food impaction in cavity",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Đau nhức nhẹ thoáng qua khi nhai trúng",
+          "name_en": "Transient pain on biting",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Hơi thở có mùi hôi từ lỗ sâu",
+          "name_en": "Bad breath from decayed tooth",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Sưng to vùng góc hàm, má hoặc dưới cằm kèm sốt cao (viêm mô tế bào lan tỏa sàn miệng)",
+      "Khó thở, khó nuốt do sưng tấy chèn ép đường thở",
+      "Đau nhức dữ dội giật theo nhịp mạch đập không đáp ứng thuốc giảm đau"
+    ],
+    "risk_factors": [
+      "Ăn nhiều đồ ngọt bánh kẹo",
+      "Vệ sinh răng miệng kém",
+      "Ít dùng chỉ nha khoa",
+      "Khô miệng"
+    ],
+    "questions_to_ask": [
+      "Răng bạn ê buốt khi ăn đồ ngọt hay đồ nóng lạnh?",
+      "Cơn đau có tự phát vào ban đêm hay chỉ đau khi nhai vào lỗ sâu?",
+      "Vùng má hay nướu quanh răng có bị sưng mủ không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm tủy răng cấp",
+      "Mòn cổ răng",
+      "Nứt thân răng"
+    ],
+    "when_to_seek_emergency": [
+      "Sưng phù to nửa mặt kèm sốt cao và khó thở, há miệng hạn chế"
+    ],
+    "user_language_variants": [
+      "răng hàm có lỗ sâu đen ăn đồ ngọt hay kem là buốt tận óc",
+      "bị sâu răng thức ăn hay nhét vào lỗ đen ê ẩm",
+      "răng bị mẻ sâu đen nhức nhẹ khi uống nước đá lạnh",
+      "lỗ sâu răng màu đen ê buốt khi ăn nhai",
+      "bị sâu răng hàm thức ăn dắt vào buốt răng"
+    ]
+  },
+  {
+    "name_vi": "Viêm lợi",
+    "name_en": "Gingivitis",
+    "category": "digestive",
+    "aliases": [
+      "Viêm nướu răng",
+      "Sưng nướu",
+      "Chảy máu chân răng"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng viêm nhiễm mạn tính không phá hủy xương ổ răng của mô nướu do tích tụ mảng bám vi khuẩn và cao răng quanh viền nướu.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Nướu sưng đỏ bóng",
+          "name_en": "Swollen, red, shiny gums",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Dễ chảy máu khi chải răng hoặc dùng chỉ nha khoa",
+          "name_en": "Bleeding gums on brushing or flossing",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác ngứa tức chân răng",
+          "name_en": "Tenderness and itching along gumline",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Hơi thở có mùi hôi",
+          "name_en": "Halitosis from inflamed gums",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Tụt nướu nhẹ lộ chân răng",
+          "name_en": "Mild gum recession",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Răng lung lay hàng loạt (chuyển sang viêm nha chu phá hủy xương)",
+      "Chảy mủ từ túi nướu kèm sốt cao và nổi hạch góc hàm",
+      "Loét hoại tử nướu đau đớn dữ dội (viêm nướu hoại tử lở loét)"
+    ],
+    "risk_factors": [
+      "Cao răng mảng bám tích tụ",
+      "Chải răng không đúng cách",
+      "Hút thuốc lá",
+      "Thay đổi nội tiết thai kỳ"
+    ],
+    "questions_to_ask": [
+      "Nướu của bạn chảy máu khi đánh răng hay tự nhiên chảy máu?",
+      "Răng có bị lung lay hoặc chảy mủ chân răng không?",
+      "Lần gần nhất bạn đi lấy cao răng là khi nào?"
+    ],
+    "differential_diagnoses": [
+      "Viêm nha chu",
+      "Chảy máu chân răng do thiếu vitamin C",
+      "Bệnh bạch cầu cấp"
+    ],
+    "when_to_seek_emergency": [
+      "Chảy máu nướu ồ ạt không cầm kèm bầm tím toàn thân và sốt cao"
+    ],
+    "user_language_variants": [
+      "đánh răng hay bị chảy máu chân răng nướu sưng đỏ ửng",
+      "lợi bị sưng phồng đỏ chạm bàn chải vào là chảy máu",
+      "chân răng bị viêm đỏ tấy ngứa ngáy chảy máu nướu",
+      "sưng nướu răng đánh răng chảy máu đỏ",
+      "viêm lợi sưng đỏ chân răng chảy máu"
+    ]
+  },
+  {
+    "name_vi": "Hôi miệng",
+    "name_en": "Halitosis",
+    "category": "digestive",
+    "aliases": [
+      "Hơi thở có mùi",
+      "Hôi miệng cơ năng",
+      "Khô miệng hôi miệng"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng hơi thở phát ra mùi hôi khó chịu, chủ yếu do vi khuẩn kỵ khí phân hủy protein trong khoang miệng (mảng bám lưỡi, thức ăn dắt, cao răng).",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Hơi thở phát ra mùi khó chịu",
+          "name_en": "Unpleasant odor from breath",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác đắng miệng hoặc chua miệng buổi sáng",
+          "name_en": "Bitter or sour taste in mouth",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Mảng bám trắng dày trên bề mặt lưỡi",
+          "name_en": "Thick white coating on tongue",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Cảm giác khô miệng giảm tiết nước bọt",
+          "name_en": "Dry mouth sensation",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Hơi thở có mùi khai amoniac (nghi suy thận giai đoạn cuối) hoặc mùi táo thối ceton (nhiễm toan ceton đái tháo đường)",
+      "Khạc ra mủ có mùi thối khẳn kèm sốt (áp xe phổi hoặc viêm xoang mủ)",
+      "Loét sùi hoại tử trong miệng không lành"
+    ],
+    "risk_factors": [
+      "Vệ sinh lưỡi kém",
+      "Cao răng nhiều",
+      "Ăn hành tỏi thực phẩm nặng mùi",
+      "Hút thuốc lá",
+      "Khô miệng"
+    ],
+    "questions_to_ask": [
+      "Bạn có cạo lưỡi và lấy cao răng định kỳ không?",
+      "Bạn có bị ợ chua trào ngược hoặc viêm xoang chảy dịch mũi sau xuống họng không?",
+      "Bạn có mắc bệnh đái tháo đường hay bệnh thận mạn tính không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm amidan hốc mủ (sỏi amidan)",
+      "Trào ngược dạ dày thực quản",
+      "Viêm xoang mạn"
+    ],
+    "when_to_seek_emergency": [
+      "Mùi thở ceton kèm thở nhanh sâu, lơ mơ, đường huyết tăng vọt"
+    ],
+    "user_language_variants": [
+      "mồm miệng hay có mùi hôi khó chịu dù đánh răng kỹ",
+      "sáng dậy đắng miệng hơi thở hôi mất tự tin khi giao tiếp",
+      "bị hôi miệng lưỡi bám mảng trắng dày",
+      "hơi thở có mùi hôi khó chịu từ trong họng",
+      "mùi hôi miệng hơi thở nặng mùi"
+    ]
+  },
+  {
+    "name_vi": "Đau răng",
+    "name_en": "Toothache",
+    "category": "digestive",
+    "aliases": [
+      "Đau nhức răng",
+      "Nhức răng",
+      "Đau răng do kích ứng tủy nhẹ"
+    ],
+    "urgency": "low",
+    "description": "Cảm giác đau nhức âm ỉ hoặc nhói ở răng và cấu trúc xung quanh, thường do sâu răng tiến triển, kích ứng tủy răng hoặc viêm quanh cuống nhẹ.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Đau nhức âm ỉ hoặc nhói ở thân răng",
+          "name_en": "Dull ache or throbbing pain in tooth",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Tăng đau khi cắn nhai hoặc chạm vào răng",
+          "name_en": "Pain worsened by chewing pressure",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Đau lan nhẹ lên thái dương cùng bên",
+          "name_en": "Mild radiation to ipsilateral temple",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Nhức răng tăng về ban đêm khi nằm",
+          "name_en": "Worse pain at night when lying down",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Nướu quanh chân răng hơi sưng nhẹ",
+          "name_en": "Mild swelling of surrounding gingiva",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Sưng húp mặt một bên, sưng lan xuống cổ hoặc góc hàm",
+      "Sốt cao rét run kèm há miệng hạn chế",
+      "Cơn đau thắt ngực lan lên hàm dưới (phân biệt nhồi máu cơ tim)"
+    ],
+    "risk_factors": [
+      "Sâu răng không điều trị",
+      "Miếng hàn răng bị hở",
+      "Nghiến răng khi ngủ",
+      "Nứt răng"
+    ],
+    "questions_to_ask": [
+      "Cơn đau răng có giật theo nhịp đập của tim không?",
+      "Vùng má hoặc nướu có bị sưng mủ to không?",
+      "Cơn đau có lan ra ngực hay cánh tay trái không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm tủy răng hoại tử",
+      "Áp xe quanh chóp răng",
+      "Đau dây thần kinh sinh ba",
+      "Nhồi máu cơ tim đau lan hàm"
+    ],
+    "when_to_seek_emergency": [
+      "Sưng to góc hàm khó thở khó nuốt sốt cao",
+      "Đau nhức hàm kèm đau tức ngực vã mồ hôi khó thở"
+    ],
+    "user_language_variants": [
+      "răng hàm đau nhức ê ẩm cả đêm không ngủ được",
+      "cắn mạnh vào cái răng bị sâu đau nhói lên thái dương",
+      "nhức răng buốt lên tận đầu ê ẩm cả hàm",
+      "đau nhức răng hàm dưới buốt răng",
+      "bị đau răng nhức nhối khó ăn uống"
+    ]
+  },
+  {
+    "name_vi": "Hắc lào",
+    "name_en": "Tinea Corporis",
+    "category": "dermatology",
+    "aliases": [
+      "Lác đồng tiền",
+      "Nấm da hắc lào",
+      "Nấm hắc lào"
+    ],
+    "urgency": "low",
+    "description": "Bệnh nhiễm vi nấm sợi nông ngoài da (Dermatophytes), đặc trưng bởi các dát đỏ hình tròn hoặc bầu dục có ranh giới rõ viền mụn nước li ti, ngứa ngáy nhiều.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Vết da đỏ hình tròn có ranh giới rõ như đồng xu",
+          "name_en": "Annular erythematous patch with sharp borders",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Viền gồ cao có mụn nước li ti",
+          "name_en": "Raised border with tiny vesicles",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Ngứa ngáy nhiều, tăng lên khi đổ mồ hôi",
+          "name_en": "Intense pruritus, worse with sweating",
+          "frequency": "very_common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Trung tâm tổn thương có xu hướng lành nhạt màu",
+          "name_en": "Central clearing of lesion",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Lan rộng hoặc lây sang các vùng da khác",
+          "name_en": "Peripheral spread to other body parts",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Vùng tổn thương bội nhiễm vi khuẩn sưng tấy mủ, đau nhức dữ dội kèm sốt cao",
+      "Tổn thương nấm lan rộng toàn thân ở người suy giảm miễn dịch nặng"
+    ],
+    "risk_factors": [
+      "Khí hậu nóng ẩm",
+      "Mặc quần áo ẩm ướt chật chội",
+      "Dùng chung khăn quần áo",
+      "Nuôi thú cưng chó mèo bị nấm"
+    ],
+    "questions_to_ask": [
+      "Vết đỏ có hình tròn như đồng xu với viền mụn nước xung quanh không?",
+      "Bạn bị ngứa nhiều ở vùng da nào (bẹn, mông, đùi, lưng)?",
+      "Trong nhà có ai hoặc thú cưng bị nấm da tương tự không?"
+    ],
+    "differential_diagnoses": [
+      "Vảy nến thể mảng",
+      "Chàm đồng tiền (Nummular eczema)",
+      "Viêm da tiếp xúc"
+    ],
+    "when_to_seek_emergency": [
+      "Nhiễm trùng bội nhiễm sưng tấy mủ diện rộng kèm sốt cao rét run"
+    ],
+    "user_language_variants": [
+      "vùng bẹn nổi vệt tròn viền đỏ mụn nước ngứa như điên lúc ra mồ hôi",
+      "bị lác đồng tiền ở mông ngứa râm ran viền gồ đỏ mụn nước",
+      "da nổi hình tròn đồng xu viền mụn nước li ti ngứa ngáy",
+      "bị hắc lào nổi nốt tròn đỏ ngứa ở đùi",
+      "nấm da hắc lào lác đồng tiền ngứa gãi trầy da"
+    ]
+  },
+  {
+    "name_vi": "Lang ben",
+    "name_en": "Tinea Versicolor",
+    "category": "dermatology",
+    "aliases": [
+      "Nấm lang ben",
+      "Lang ben đốm trắng đốm nâu",
+      "Pityriasis versicolor"
+    ],
+    "urgency": "low",
+    "description": "Bệnh nhiễm nấm men Malassezia nông ở lớp sừng của biểu bì, đặc trưng bởi các đốm đổi màu da (trắng, nâu, hồng) có vảy mịn, châm chích nhẹ khi ra mồ hôi.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Các đốm da loang lổ đổi màu trắng hoặc nâu nhạt",
+          "name_en": "Macules with hypo- or hyper-pigmentation",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Bề mặt tổn thương có vảy mịn như cám khi cạo nhẹ",
+          "name_en": "Fine scale on surface when scratched",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Vị trí hay gặp ở ngực, lưng, cổ, bắp tay",
+          "name_en": "Commonly on chest, back, neck, upper arms",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Cảm giác châm chích ngứa nhẹ khi ra nắng hoặc đổ mồ hôi",
+          "name_en": "Mild prickling itch with heat and sweat",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Không có dấu hiệu cấp cứu đe dọa tính mạng"
+    ],
+    "risk_factors": [
+      "Thời tiết nóng ẩm nhiệt đới",
+      "Đổ nhiều mồ hôi",
+      "Da dầu nhờn",
+      "Vệ sinh cá nhân chưa tốt"
+    ],
+    "questions_to_ask": [
+      "Các đốm đổi màu xuất hiện ở lưng, ngực hay cánh tay?",
+      "Khi cạo nhẹ có thấy lớp vảy cám mịn tróc ra không?",
+      "Khi ra mồ hôi bạn có cảm giác châm chích ngứa nhẹ không?"
+    ],
+    "differential_diagnoses": [
+      "Bạch biến",
+      "Vảy phấn hồng Gibert",
+      "Viêm da dầu"
+    ],
+    "when_to_seek_emergency": [
+      "Không cần cấp cứu khẩn cấp"
+    ],
+    "user_language_variants": [
+      "trên lưng với ngực loang lổ nhiều đốm trắng như mốc",
+      "ra mồ hôi thấy châm chích ngứa ở các vệt da đổi màu loang lổ",
+      "bị lang ben từng mảng trắng ở cổ và vai mất thẩm mỹ",
+      "da lưng nổi đốm trắng đốm nâu lang ben",
+      "bị nấm lang ben loang lổ khắp ngực lưng"
+    ]
+  },
+  {
+    "name_vi": "Gàu da đầu",
+    "name_en": "Dandruff",
+    "category": "dermatology",
+    "aliases": [
+      "Gàu",
+      "Vảy gàu da đầu",
+      "Viêm da tiết bã da đầu nhẹ"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng bong tróc quá mức của các tế bào sừng chết trên da đầu tạo thành các vảy màu trắng hoặc xám rơi rụng trên tóc và vai áo.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Vảy trắng hoặc vàng bong tróc trên da đầu và tóc",
+          "name_en": "White or yellowish flakes shedding from scalp",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Ngứa da đầu nhẹ đến vừa",
+          "name_en": "Mild to moderate scalp pruritus",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Vảy gàu rơi bám trên vai áo",
+          "name_en": "Flakes visible on clothing",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Da đầu bóng nhờn hoặc khô ráp",
+          "name_en": "Oily or dry scalp condition",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Đỏ nhẹ chân tóc khi gãi nhiều",
+          "name_en": "Mild erythema from scratching",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Da đầu viêm loét chảy mủ vàng hôi, sưng đau dữ dội",
+      "Rụng tóc từng mảng lớn tạo sẹo hoặc hói loang lổ"
+    ],
+    "risk_factors": [
+      "Tăng tiết bã nhờn da đầu",
+      "Nấm men Malassezia phát triển",
+      "Căng thẳng stress",
+      "Gội đầu nước quá nóng"
+    ],
+    "questions_to_ask": [
+      "Gàu của bạn dạng vảy khô trắng hay vảy nhờn dính vào da đầu?",
+      "Bạn có bị ngứa nhiều hoặc da đầu có bị đỏ ửng lở loét không?",
+      "Tóc có bị rụng thành từng mảng lớn không?"
+    ],
+    "differential_diagnoses": [
+      "Vảy nến da đầu",
+      "Nấm da đầu (Tinea capitis)",
+      "Viêm da tiếp xúc dị ứng dầu gội"
+    ],
+    "when_to_seek_emergency": [
+      "Nhiễm trùng da đầu sâu áp xe hóa chảy mủ kèm sốt cao"
+    ],
+    "user_language_variants": [
+      "đầu nhiều gàu rụng trắng xóa cả vai áo ngứa ngáy",
+      "da đầu bong tróc vảy gàu trắng ngứa gãi liên tục",
+      "tóc nhiều gàu ngứa bết dính dù mới gội đầu",
+      "bị gàu da đầu vảy trắng rơi đầy áo",
+      "da đầu nhiều gàu ngứa râm ran khó chịu"
+    ]
+  },
+  {
+    "name_vi": "Vết côn trùng cắn",
+    "name_en": "Insect Bite Reaction",
+    "category": "dermatology",
+    "aliases": [
+      "Côn trùng cắn",
+      "Muỗi đốt",
+      "Vết bọ cắn",
+      "Kiến cắn"
+    ],
+    "urgency": "low",
+    "description": "Phản ứng viêm tại chỗ do độc tố hoặc nước bọt của côn trùng (muỗi, kiến, bọ, dĩn) khi đốt cắn vào da, gây sẩn đỏ ngứa rát.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Nốt sẩn đỏ sưng nề nhẹ tại vị trí đốt",
+          "name_en": "Erythematous papule and localized swelling",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Ngứa rát châm chích tại chỗ",
+          "name_en": "Localized itching and stinging",
+          "frequency": "very_common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Vết chích nhỏ hoặc mụn nước nhỏ ở trung tâm",
+          "name_en": "Central punctum or tiny vesicle",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Vết thâm da sau khi lành tổn thương",
+          "name_en": "Post-inflammatory hyperpigmentation",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Sưng phù môi, mắt, lưỡi, họng kèm khó thở, thở rít sau khi bị côn trùng đốt (sốc phản vệ)",
+      "Tụt huyết áp, choáng váng, ngất xỉu",
+      "Vết cắn hoại tử đen lan rộng (ong độc, nhện độc cắn)"
+    ],
+    "risk_factors": [
+      "Đi rừng, cắm trại",
+      "Môi trường nhiều cây cối bụi rậm",
+      "Không dùng thuốc xịt chống muỗi"
+    ],
+    "questions_to_ask": [
+      "Bạn bị côn trùng gì đốt (muỗi, kiến lửa, ong hay bọ)?",
+      "Ngoài nốt ngứa tại chỗ bạn có bị khó thở, sưng môi mắt hay nổi mề đay toàn thân không?",
+      "Vết cắn có bị sưng mủ hay hoại tử đen không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm da tiếp xúc do kiến ba khoang",
+      "Mề đay cấp",
+      "Viêm mô tế bào"
+    ],
+    "when_to_seek_emergency": [
+      "Khó thở, phù nề môi mắt họng, tụt huyết áp sau khi bị côn trùng đốt (sốc phản vệ khẩn cấp 115)"
+    ],
+    "user_language_variants": [
+      "bị muỗi với dĩn đốt nổi cục sưng đỏ ngứa gãi trầy da",
+      "con gì cắn ở bắp chân sưng đỏ ngứa rát một cục to",
+      "vết kiến cắn nổi nốt đỏ ngứa ngáy châm chích",
+      "bị côn trùng cắn sưng một cục ngứa gãi liên tục",
+      "nốt muỗi cắn sưng đỏ ngứa ngáy ở tay chân"
+    ]
+  },
+  {
+    "name_vi": "Rôm sảy",
+    "name_en": "Miliaria",
+    "category": "dermatology",
+    "aliases": [
+      "Rôm sảy mùa hè",
+      "Nổi sảy",
+      "Kê mùa hè do nóng"
+    ],
+    "urgency": "low",
+    "description": "Bệnh lý viêm da ứ đọng tuyến mồ hôi do tắc nghẽn ống bài xuất mồ hôi khi thời tiết nóng ẩm, tạo thành các sẩn mụn nước nhỏ li ti ngứa ngáy.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Mụn nước nhỏ li ti hoặc sẩn đỏ mọc thành đám",
+          "name_en": "Tiny vesicular or erythematous papules in crops",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác châm chích ngứa ngáy khi ra mồ hôi",
+          "name_en": "Prickly itching exacerbated by heat and sweating",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Vị trí ở ngực, lưng, cổ, nếp gấp da",
+          "name_en": "Distributed on chest, back, neck, skin folds",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Da đỏ ửng nhẹ vùng tổn thương",
+          "name_en": "Mild background erythema",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Rôm sảy hóa mủ thành các nhọt mủ sưng tấy diện rộng kèm sốt cao",
+      "Trẻ li bì, bỏ bú, sốt cao không hạ"
+    ],
+    "risk_factors": [
+      "Thời tiết mùa hè nóng ẩm",
+      "Mặc quần áo quá dày bí",
+      "Vận động ra nhiều mồ hôi",
+      "Trẻ nhỏ nằm phòng kín"
+    ],
+    "questions_to_ask": [
+      "Các nốt mụn rôm mọc ở ngực, lưng hay nếp gấp cổ nách?",
+      "Trẻ có bị sốt hoặc các nốt rôm có hóa mủ sưng đau không?",
+      "Sau khi tắm mát và ở phòng thoáng khí triệu chứng có dịu bớt không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm nang lông",
+      "Thủy đậu",
+      "Sốt phát ban"
+    ],
+    "when_to_seek_emergency": [
+      "Bội nhiễm nhọt mủ diện rộng kèm sốt cao co giật ở trẻ nhỏ"
+    ],
+    "user_language_variants": [
+      "trời nóng người nổi đầy rôm sảy lấm tấm đỏ ở lưng ngực ngứa châm chích",
+      "mụn kê li ti nổi mẩn ngứa ở cổ mùa hè ra mồ hôi là xót",
+      "nổi sảy ngứa ngáy khi ra mồ hôi nhiều ở trẻ",
+      "bị rôm sảy mùa hè lưng đỏ lấm tấm hạt ngứa",
+      "rôm sảy nổi đầy ngực và lưng ngứa râm ran"
+    ]
+  },
+  {
+    "name_vi": "Trầy xước da",
+    "name_en": "Skin Abrasion",
+    "category": "dermatology",
+    "aliases": [
+      "Trầy xước da",
+      "Vết xây xát da nông",
+      "Tróc da do va quệt"
+    ],
+    "urgency": "low",
+    "description": "Tổn thương mất lớp biểu bì da nông do ma sát hoặc va quệt bề mặt thô ráp, làm lộ lớp đáy mao mạch rỉ huyết tương hoặc ít máu.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Mất lớp da biểu bì nông để lộ mô đỏ ướt",
+          "name_en": "Superficial epidermal loss exposing red moist base",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Rỉ dịch huyết tương hoặc vài giọt máu nhỏ",
+          "name_en": "Serosanguinous oozing",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Rát buốt khi tiếp xúc với nước hoặc cồn",
+          "name_en": "Stinging pain on contact with fluids",
+          "frequency": "very_common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Đóng vảy tiết nâu sau 24-48 giờ",
+          "name_en": "Crust formation within 24-48 hours",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Vết thương sâu rách toạc lộ mỡ, gân cơ, xương",
+      "Máu chảy thành dòng hoặc phun thành tia không cầm sau 10 phút ép chặt",
+      "Vết thương dính bùn đất bẩn nghi ngờ nhiễm trùng uốn ván",
+      "Vết thương sưng tấy mủ vàng mùi hôi, sốt cao"
+    ],
+    "risk_factors": [
+      "Ngã xe",
+      "Trượt chân thể thao",
+      "Va quệt bề mặt nhám thô ráp"
+    ],
+    "questions_to_ask": [
+      "Vết xước nông ngoài da hay có vết rách sâu lộ mỡ gân xương?",
+      "Vết thương có dính đất cát bẩn không, bạn đã tiêm phòng uốn ván chưa?",
+      "Máu đã cầm hoàn toàn chưa?"
+    ],
+    "differential_diagnoses": [
+      "Vết rách da (Laceration)",
+      "Bỏng nhiệt",
+      "Vết thương thấu khớp"
+    ],
+    "when_to_seek_emergency": [
+      "Vết thương sâu đứt mạch máu phun máu dữ dội",
+      "Vết thương toác rộng cần khâu phẫu thuật gấp"
+    ],
+    "user_language_variants": [
+      "bị ngã xe quẹt trầy xước da ở đầu gối rớm máu rát buốt",
+      "tay bị cọ vào tường tróc một mảng da rỉ dịch xót",
+      "vết xây xát ngoài da rát khi dính nước rửa",
+      "ngã trầy da chảy máu nhẹ ở cùi chỏ và đầu gối",
+      "xây xước da ngoài đường rát buốt"
+    ]
+  },
+  {
+    "name_vi": "Bỏng nhẹ độ 1",
+    "name_en": "First-Degree Burn",
+    "category": "dermatology",
+    "aliases": [
+      "Bỏng độ 1",
+      "Bỏng biểu bì do nhiệt nhẹ",
+      "Bỏng nước sôi nhẹ"
+    ],
+    "urgency": "low",
+    "description": "Tổn thương bỏng nông giới hạn ở lớp biểu bì ngoài cùng do tiếp xúc ngắn với nguồn nhiệt nhẹ (nước nóng, hơi nước, chạm đồ nóng), da đỏ rát nhưng chưa nổi bọng nước lớn.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Vùng da bỏng đỏ ửng",
+          "name_en": "Erythema of burned skin",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Nóng rát tại chỗ, đau buốt khi chạm vào",
+          "name_en": "Localized burning pain and tenderness",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Sưng nề nhẹ không có bọng nước lớn",
+          "name_en": "Mild swelling without large blisters",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Bong vảy da khô sau vài ngày",
+          "name_en": "Dry skin peeling after several days",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Bỏng diện tích lớn trên 10% cơ thể",
+      "Bỏng ở các vị trí đặc biệt: mặt, mắt, cổ, bàn tay, khớp lớn, cơ quan sinh dục",
+      "Da chuyển sang màu trắng bệch, xám hoặc cháy đen mất cảm giác (bỏng sâu độ 3)",
+      "Bỏng hóa chất hoặc bỏng điện"
+    ],
+    "risk_factors": [
+      "Nấu ăn chạm nồi chảo nóng",
+      "Nước sôi bắn trúng",
+      "Chạm bô xe máy thoáng qua"
+    ],
+    "questions_to_ask": [
+      "Bạn bị bỏng do nước sôi, bô xe máy hay hóa chất/điện?",
+      "Vết bỏng diện tích to bằng bàn tay không, có nổi bọng nước phồng rộp không?",
+      "Bạn đã ngâm xả vết bỏng dưới vòi nước mát sạch 15-20 phút chưa?"
+    ],
+    "differential_diagnoses": [
+      "Bỏng độ 2 (có bọng nước)",
+      "Bỏng hóa chất",
+      "Viêm da tiếp xúc kích ứng"
+    ],
+    "when_to_seek_emergency": [
+      "Bỏng diện rộng, bỏng vùng mặt cổ khó thở, bỏng điện hoặc bỏng hóa chất"
+    ],
+    "user_language_variants": [
+      "vô tình chạm tay vào nồi canh nóng da đỏ ửng rát bỏng",
+      "bị nước sôi bắn vào mu bàn tay đỏ rát chưa phồng rộp",
+      "bỏng bô nhẹ quẹt vào đỏ tấy rát buốt da",
+      "bị bỏng nhiệt nhẹ da đỏ rực nóng rát",
+      "chạm vào vật nóng da bị bỏng đỏ rát buốt"
+    ]
+  },
+  {
+    "name_vi": "Cháy nắng",
+    "name_en": "Sunburn",
+    "category": "dermatology",
+    "aliases": [
+      "Cháy nắng",
+      "Bỏng nắng",
+      "Đỏ rát da do phơi nắng"
+    ],
+    "urgency": "low",
+    "description": "Phản ứng viêm bức xạ cấp tính của da do tiếp xúc quá mức với tia cực tím (UV) từ ánh nắng mặt trời, gây đỏ rực, nóng rát và bong da sau đó.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Da đỏ rực nóng bừng ở vùng phơi nắng",
+          "name_en": "Erythematous, hot skin in sun-exposed areas",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Rát buốt châm chích khi chạm áo quần",
+          "name_en": "Tenderness and stinging on contact with clothes",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Vùng tổn thương ở vai, lưng, mặt, cánh tay",
+          "name_en": "Distributed on shoulders, back, face, arms",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Bong tróc da khô sau 3-5 ngày",
+          "name_en": "Peeling of dry skin after 3-5 days",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Cảm giác ớn lạnh nhẹ toàn thân",
+          "name_en": "Mild systemic chills",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Bỏng nắng phồng rộp bọng nước diện rộng toàn thân",
+      "Sốt cao rét run, lú lẫn, hoa mắt, nôn mửa, kiệt sức vì nhiệt",
+      "Nhiễm trùng bọng nước chảy mủ vàng"
+    ],
+    "risk_factors": [
+      "Tắm biển giữa trưa nắng gắt",
+      "Không thoa kem chống nắng",
+      "Da trắng nhạy cảm UV"
+    ],
+    "questions_to_ask": [
+      "Bạn bị cháy nắng sau khi đi biển hoặc phơi nắng ngoài trời bao lâu?",
+      "Da chỉ đỏ rát hay có nổi các bọng nước phồng rộp không?",
+      "Bạn có bị sốt cao, chóng mặt hay buồn nôn không?"
+    ],
+    "differential_diagnoses": [
+      "Bỏng nhiệt",
+      "Dị ứng ánh sáng do thuốc",
+      "Lupus ban đỏ da"
+    ],
+    "when_to_seek_emergency": [
+      "Cháy nắng diện rộng kèm sốt cao, mê sảng, co giật hoặc kiệt sức vì nhiệt"
+    ],
+    "user_language_variants": [
+      "đi tắm biển về cả lưng đỏ rực bỏng rát chạm áo vào là xót",
+      "da mặt với bả vai cháy nắng đỏ ửng nóng ran rát buốt",
+      "phơi nắng lâu về người đỏ như tôm luộc rát buốt",
+      "cháy nắng đỏ da sau khi đi ngoài trời nắng gắt",
+      "da bị bỏng nắng đỏ rực rát rộp sau chuyến du lịch biển"
+    ]
+  },
+  {
+    "name_vi": "Nấm kẽ chân",
+    "name_en": "Tinea Pedis",
+    "category": "dermatology",
+    "aliases": [
+      "Nước ăn chân",
+      "Nấm kẽ ngón chân",
+      "Athlete's foot"
+    ],
+    "urgency": "low",
+    "description": "Bệnh nhiễm vi nấm sợi nông ở các kẽ ngón chân (thường là kẽ ngón 3-4 và 4-5) do ẩm ướt, lội nước bẩn, làm da bong tróc, mủn trắng và ngứa ngáy dữ dội.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Da kẽ ngón chân bị bong tróc, mủn trắng ẩm ướt",
+          "name_en": "Macerated, peeling white skin between toes",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Ngứa ngáy dữ dội ở các kẽ ngón chân",
+          "name_en": "Intense itching in interdigital spaces",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Nứt nẻ kẽ chân gây rát buốt khi dính nước",
+          "name_en": "Fissures and stinging pain on water contact",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Mùi hôi khó chịu ở kẽ chân",
+          "name_en": "Foul odor from foot crevices",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Mụn nước nhỏ li ti ở rìa kẽ ngón",
+          "name_en": "Tiny vesicles along toe margins",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Bàn chân sưng to, mu chân đỏ rực nóng đau lan lên cẳng chân (viêm mô tế bào biến chứng)",
+      "Nổi hạch bẹn sưng đau kèm sốt cao rét run",
+      "Người bệnh đái tháo đường bị loét kẽ chân"
+    ],
+    "risk_factors": [
+      "Lội nước mưa, ngập lụt",
+      "Đi giày bít tất ẩm ướt cả ngày",
+      "Dùng chung dép thảm lau chân"
+    ],
+    "questions_to_ask": [
+      "Bạn có lội nước mưa ngập hoặc đi giày ẩm ướt nhiều giờ không?",
+      "Kẽ ngón chân có bị nứt rách chảy máu hay chảy mủ không?",
+      "Bàn chân có bị sưng đỏ lan rộng hoặc bạn có bị sốt không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm da tiếp xúc dị ứng da giày",
+      "Chàm kẽ ngón chân",
+      "Nhiễm khuẩn kẽ ngón"
+    ],
+    "when_to_seek_emergency": [
+      "Viêm mô tế bào bàn chân sưng đỏ nóng đau dữ dội kèm sốt cao ở bệnh nhân tiểu đường"
+    ],
+    "user_language_variants": [
+      "lội nước mưa về kẽ ngón chân bị ngứa loét trắng nước ăn chân",
+      "kẽ chân bong da nứt nẻ ngứa gãi chảy nước rát buốt",
+      "nấm ở kẽ ngón chân ngứa buốt mủn da màu trắng",
+      "bị nước ăn chân kẽ ngón chân nứt toác ngứa rát",
+      "nấm kẽ chân ngứa ngáy khó chịu sau khi đi mưa"
+    ]
+  },
+  {
+    "name_vi": "Khô môi nứt môi",
+    "name_en": "Cheilitis and Chapped Lips",
+    "category": "dermatology",
+    "aliases": [
+      "Nẻ môi",
+      "Khô môi",
+      "Nứt nẻ môi",
+      "Viêm môi bong vảy nhẹ"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng niêm mạc môi mất nước, khô ráp, bong vảy sừng và nứt nẻ do thời tiết hanh khô lạnh, thói quen liếm môi hoặc thiếu nước.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Môi khô ráp, căng tức",
+          "name_en": "Dry, tight feeling on lips",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Bong tróc vảy da chết ở môi",
+          "name_en": "Peeling flakes on vermilion border",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Nứt nẻ rãnh dọc ở môi, rớm máu khi cười to",
+          "name_en": "Vertical fissures with mild bleeding on stretch",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Rát buốt khi ăn đồ mặn hoặc chua",
+          "name_en": "Stinging when eating salty or sour foods",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Môi lở loét hoại tử sâu, đóng mày mủ dày kéo dài trên 3 tuần",
+      "Sưng phù to môi đột ngột kèm khó thở (phù mạch dị ứng)"
+    ],
+    "risk_factors": [
+      "Mùa đông hanh khô",
+      "Thói quen liếm môi thường xuyên",
+      "Uống ít nước",
+      "Thở bằng miệng"
+    ],
+    "questions_to_ask": [
+      "Môi bạn khô nẻ theo mùa hanh khô hay bị quanh năm?",
+      "Bạn có thói quen liếm môi hoặc bóc vảy da môi không?",
+      "Môi có bị sưng phù to hoặc lở loét chảy mủ không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm môi tiếp xúc dị ứng son môi",
+      "Herpes môi",
+      "Viêm môi ánh sáng"
+    ],
+    "when_to_seek_emergency": [
+      "Sưng phù môi đột ngột kèm nghẹn họng khó thở (sốc phản vệ / phù mạch)"
+    ],
+    "user_language_variants": [
+      "mùa đông môi khô nứt toác rớm máu đau rát khi cười",
+      "môi khô ráp bong từng mảng da bóc ra là chảy máu",
+      "mép môi nứt nẻ há miệng ra ăn là đau buốt",
+      "nẻ môi khô nứt môi chảy máu mùa hanh khô",
+      "môi khô nứt nẻ bong tróc vảy xót"
+    ]
+  },
+  {
+    "name_vi": "Nứt gót chân",
+    "name_en": "Cracked Heels",
+    "category": "dermatology",
+    "aliases": [
+      "Nứt gót chân",
+      "Chai nứt gót chân",
+      "Da gót chân nứt toác"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng lớp sừng da dày ở gót chân bị khô cứng quá mức mất độ đàn hồi, hình thành các rãnh nứt dọc sâu gây thốn đau khi chịu lực.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Vùng da rìa gót chân dày sừng, khô cứng màu vàng nâu",
+          "name_en": "Hyperkeratotic, thick dry callus on heel border",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Các rãnh nứt dọc sâu ở gót chân",
+          "name_en": "Deep vertical fissures on heel",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Đau thốn khi đặt gót chân xuống đất đi lại",
+          "name_en": "Pain and discomfort when walking on heels",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Rớm máu ở đáy rãnh nứt sâu",
+          "name_en": "Minor bleeding from deep fissure crevices",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Rãnh nứt sưng tấy đỏ rực, chảy mủ hôi, đau nhức liên tục (nhiễm trùng)",
+      "Bệnh nhân đái tháo đường bị nứt gót loét sâu bàn chân"
+    ],
+    "risk_factors": [
+      "Đi chân đất nhiều",
+      "Đứng lâu trên sàn cứng",
+      "Thời tiết hanh khô",
+      "Thừa cân béo phì tạo áp lực gót"
+    ],
+    "questions_to_ask": [
+      "Gót chân bị nứt có chảy máu hoặc đau thốn khi đi lại không?",
+      "Bạn có bị đái tháo đường hoặc suy giãn tĩnh mạch chân không?",
+      "Rãnh nứt có bị sưng mủ viêm đỏ không?"
+    ],
+    "differential_diagnoses": [
+      "Vảy nến bàn chân",
+      "Chàm khô nứt nẻ",
+      "Nấm da bàn chân thể dày sừng"
+    ],
+    "when_to_seek_emergency": [
+      "Nhiễm trùng loét bàn chân đái tháo đường sưng hoại tử lan rộng"
+    ],
+    "user_language_variants": [
+      "gót chân khô nứt toác từng rãnh đi lại thốn đau",
+      "da gót chân dày cộp nứt chảy máu khi mùa hanh khô",
+      "gót chân bị chai nẻ xước xát đau khi dẫm xuống đất",
+      "nứt gót chân chảy máu đau rát",
+      "da gót chân dày nứt nẻ đi lại thốn buốt"
+    ]
+  },
+  {
+    "name_vi": "Vết bầm tím dưới da",
+    "name_en": "Ecchymosis",
+    "category": "dermatology",
+    "aliases": [
+      "Bầm tím dưới da",
+      "Tụ máu va đập",
+      "Vết thâm tím chấn thương nhẹ"
+    ],
+    "urgency": "low",
+    "description": "Sự thoát mạch máu nhỏ vào mô liên kết dưới da sau va đập nhẹ, tạo thành mảng da đổi màu tím xanh sau đó chuyển sang vàng lục và tự tiêu biến.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Mảng da đổi màu tím xanh hoặc đỏ tím sau va chạm",
+          "name_en": "Purplish-blue patch after minor trauma",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Ấn vào thấy đau tức nhẹ tại chỗ bầm",
+          "name_en": "Mild tenderness on palpation",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Màu sắc chuyển sang vàng lục rồi nhạt dần sau 1-2 tuần",
+          "name_en": "Color transition to yellow-green resolving over 1-2 weeks",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Sưng nề nhẹ mô mềm dưới da",
+          "name_en": "Mild localized soft tissue swelling",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Xuất huyết bầm tím tự phát lan rộng toàn thân không rõ nguyên nhân va đập",
+      "Kèm theo chảy máu chân răng, chảy máu cam khó cầm, đi tiểu ra máu",
+      "Khối tụ máu to nhanh căng cứng dữ dội sau chấn thương"
+    ],
+    "risk_factors": [
+      "Va đập đồ đạc",
+      "Tập luyện thể thao",
+      "Người cao tuổi thành mạch yếu",
+      "Dùng thuốc chống đông/aspirin"
+    ],
+    "questions_to_ask": [
+      "Vết bầm xuất hiện sau cú va đập cụ thể hay tự nhiên nổi lên?",
+      "Bạn có bị nhiều vết bầm cùng lúc khắp người hoặc chảy máu chân răng không?",
+      "Bạn có đang dùng thuốc chống đông máu hay thuốc giảm đau kháng viêm không?"
+    ],
+    "differential_diagnoses": [
+      "Xuất huyết giảm tiểu cầu",
+      "Rối loạn đông máu (Hemophilia)",
+      "Viêm mao mạch dị ứng Henoch-Schonlein"
+    ],
+    "when_to_seek_emergency": [
+      "Chảy máu bầm dập ồ ạt kèm choáng ngất tụt huyết áp sau chấn thương nặng"
+    ],
+    "user_language_variants": [
+      "va chân vào cạnh bàn nổi một cục bầm tím ấn vào hơi đau",
+      "tay bị va quệt thâm tím một mảng xanh tím sau ngã",
+      "vết bầm tím ở đùi sau khi va chạm thể thao nhẹ",
+      "bị bầm dập tím tái dưới da sau va đập",
+      "vết thâm tím tụ máu ở chân ấn vào đau tức"
+    ]
+  },
+  {
+    "name_vi": "Da khô nứt nẻ",
+    "name_en": "Xerosis Cutis",
+    "category": "dermatology",
+    "aliases": [
+      "Khô da mùa đông",
+      "Da nứt nẻ vảy cá",
+      "Khô ráp da toàn thân"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng suy giảm độ ẩm và lipid lớp sừng biểu bì làm da thô ráp, bong vảy cá mịn, căng ngứa đặc biệt vào mùa đông lạnh hoặc tắm nước quá nóng.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Da thô ráp sần sùi khi sờ",
+          "name_en": "Rough, scaly skin texture",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Bong vảy mịn như vảy cá ở cẳng chân, cánh tay",
+          "name_en": "Fine scaling, especially on shins and arms",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác căng da và ngứa ngáy sau khi tắm",
+          "name_en": "Tightness and itching after bathing",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Nứt nông hình mạng lưới",
+          "name_en": "Superficial reticular cracking",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Da nứt nẻ chảy máu, sưng tấy mủ vàng bội nhiễm",
+      "Đỏ da toàn thân tróc vảy kèm sốt cao rét run (đỏ da toàn thân)"
+    ],
+    "risk_factors": [
+      "Thời tiết mùa đông lạnh khô",
+      "Tắm nước nóng quá lâu",
+      "Dùng xà phòng tẩy rửa mạnh",
+      "Người cao tuổi"
+    ],
+    "questions_to_ask": [
+      "Da bạn bị khô ngứa nhiều vào mùa đông sau khi tắm nước nóng phải không?",
+      "Bạn đã bôi kem dưỡng ẩm thường xuyên chưa?",
+      "Da có bị nứt toác chảy máu hoặc nhiễm trùng mủ không?"
+    ],
+    "differential_diagnoses": [
+      "Bệnh vảy cá",
+      "Chàm khô (Asteatotic eczema)",
+      "Viêm da cơ địa"
+    ],
+    "when_to_seek_emergency": [
+      "Đỏ da tróc vảy toàn thân kèm sốt cao rét run và rối loạn thân nhiệt"
+    ],
+    "user_language_variants": [
+      "mùa đông da khô ráp như vảy cá ngứa ngáy sau khi tắm",
+      "cẳng chân khô nứt nẻ trắng mốc bong vảy ngứa",
+      "da tay chân khô khốc căng rát vào mùa lạnh",
+      "da bị khô nẻ sần sùi ngứa ngáy khắp người",
+      "khô da mùa đông bong tróc vảy trắng"
+    ]
+  },
+  {
+    "name_vi": "Đau mỏi vai gáy",
+    "name_en": "Cervical Myofascial Pain",
+    "category": "musculoskeletal",
+    "aliases": [
+      "Đau vai gáy",
+      "Mỏi cổ vai gáy",
+      "Căng cơ cổ vai",
+      "Đau cổ vai cơ năng"
+    ],
+    "urgency": "low",
+    "description": "Hội chứng đau cơ mạc vùng cổ gáy và hai bả vai do co thắt, căng cơ liên tục sau khi ngồi sai tư thế, làm việc máy tính lâu hoặc nằm gối quá cao.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Đau nhức căng cứng cơ vùng cổ và hai bên vai",
+          "name_en": "Stiffness and aching pain in neck and shoulders",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Hạn chế động tác xoay hoặc cúi ngửa cổ",
+          "name_en": "Restricted neck range of motion",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Đau tăng sau nhiều giờ ngồi làm việc máy tính",
+          "name_en": "Pain worsens after prolonged desk work",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Đau nhức lan nhẹ lên sau đầu vùng chẩm",
+          "name_en": "Radiation to occipital region",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Cảm giác nặng trịch hai bả vai",
+          "name_en": "Heavy sensation on shoulders",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Đau lan dọc cánh tay xuống bàn tay kèm tê bì, mất cảm giác hoặc yếu liệt tay (chèn ép rễ thần kinh cổ)",
+      "Đau cổ dữ dội sau chấn thương ngã hoặc tai nạn giao thông",
+      "Kèm sốt cao, cứng gáy không gập được cằm vào ngực (nghi viêm màng não)"
+    ],
+    "risk_factors": [
+      "Ngồi máy tính sai tư thế kéo dài",
+      "Gối đầu quá cao khi ngủ",
+      "Ít vận động thể dục",
+      "Stress căng thẳng"
+    ],
+    "questions_to_ask": [
+      "Cơn đau có lan dọc xuống cánh tay hay làm bạn bị tê bì ngón tay không?",
+      "Bạn có thể cúi cằm chạm vào ngực được không?",
+      "Cơn đau xuất hiện sau khi ngồi làm việc lâu hay sau khi ngủ dậy gối cao?"
+    ],
+    "differential_diagnoses": [
+      "Thoát vị đĩa đệm cột sống cổ",
+      "Thoái hóa cột sống cổ",
+      "Viêm màng não"
+    ],
+    "when_to_seek_emergency": [
+      "Sốt cao cứng gáy nôn vọt (viêm màng não)",
+      "Yếu liệt tay đột ngột sau chấn thương vùng cổ"
+    ],
+    "user_language_variants": [
+      "ngủ dậy bị vẹo cổ đau cứng cơ vai gáy không quay đầu được",
+      "ngồi làm việc văn phòng máy tính cả ngày vai gáy mỏi nhừ căng cứng",
+      "đau nhức cơ hai bên bả vai với sau gáy mỏi ê ẩm",
+      "bị đau mỏi cổ vai gáy cứng đơ cổ",
+      "mỏi vai gáy nhức cơ cổ sau khi làm việc máy tính"
+    ]
+  },
+  {
+    "name_vi": "Đau lưng cơ năng",
+    "name_en": "Mechanical Low Back Pain",
+    "category": "musculoskeletal",
+    "aliases": [
+      "Đau thắt lưng cơ năng",
+      "Căng cơ lưng",
+      "Đau lưng do sai tư thế"
+    ],
+    "urgency": "low",
+    "description": "Cơn đau nhức vùng cột sống thắt lưng do căng cơ, giãn dây chằng cạnh sống sau khi mang vác vật nặng, cúi gập người sai tư thế hoặc ngồi lâu.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Đau âm ỉ hoặc căng cứng vùng thắt lưng dưới",
+          "name_en": "Dull ache or stiffness in lower back",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Đau tăng khi cúi ngửa hoặc xoay người",
+          "name_en": "Pain aggravated by bending or twisting",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Giảm đau rõ rệt khi nằm nghỉ ngơi",
+          "name_en": "Relief with rest and lying down",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Co thắt cơ cạnh sống thắt lưng",
+          "name_en": "Paraspinal muscle spasm",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Đau mỏi ngang hông lưng sau khi ngồi lâu",
+          "name_en": "Lumbosacral fatigue after prolonged sitting",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Đau lan xuống mông chân kèm tê bì mất cảm giác vùng đáy chậu (hội chứng chùm đuôi ngựa)",
+      "Bí tiểu tiện hoặc đại tiểu tiện không tự chủ",
+      "Đau lưng dữ dội không giảm khi nằm kèm sụt cân, sốt hoặc tiền sử ung thư"
+    ],
+    "risk_factors": [
+      "Bê vác vật nặng sai tư thế",
+      "Thừa cân béo phì",
+      "Ngồi làm việc lâu không vận động",
+      "Cơ bụng cơ lưng yếu"
+    ],
+    "questions_to_ask": [
+      "Cơn đau có lan xuống mông hoặc dọc theo chân không?",
+      "Bạn có bị tê bì vùng hậu môn sinh dục hay khó khăn khi đi tiểu không?",
+      "Cơn đau xuất hiện sau khi khiêng vác nặng hay cúi người sai tư thế?"
+    ],
+    "differential_diagnoses": [
+      "Thoát vị đĩa đệm thắt lưng (đau thần kinh tọa)",
+      "Trượt đốt sống",
+      "Sỏi thận / Cơn đau quặn thận"
+    ],
+    "when_to_seek_emergency": [
+      "Bí tiểu hoặc mất tự chủ đại tiểu tiện kèm tê bì vùng yên ngựa (hội chứng chùm đuôi ngựa cấp cứu)"
+    ],
+    "user_language_variants": [
+      "hôm qua bê chậu cây sai tư thế nay đau nhức ngang thắt lưng",
+      "cúi xuống nhặt đồ xong đau cứng lưng đứng lên không nổi",
+      "đau mỏi ngang hông lưng sau khi ngồi xe máy đường dài",
+      "đau lưng ê ẩm vùng thắt lưng khi đứng cúi",
+      "bị đau lưng cơ năng mỏi cột sống thắt lưng"
+    ]
+  },
+  {
+    "name_vi": "Chuột rút",
+    "name_en": "Muscle Cramps",
+    "category": "musculoskeletal",
+    "aliases": [
+      "Chuột rút bắp chân",
+      "Co thắt cơ bắp",
+      "Vọp bẻ"
+    ],
+    "urgency": "low",
+    "description": "Cơn co rút đột ngột, đau đớn và không tự chủ của một hoặc nhóm cơ (hay gặp nhất ở bắp chân và bàn chân), kéo dài từ vài giây đến vài phút.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cơ bắp chân co cứng ngắt thành cục đau nhói dữ dội",
+          "name_en": "Sudden intense pain and hard knot in calf muscle",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Không thể cử động bàn chân trong cơn co rút",
+          "name_en": "Inability to move foot during spasm",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Cảm giác đau ê ẩm cơ bắp sau khi cơn rút đã hết",
+          "name_en": "Residual muscle soreness after cramp resolves",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Thường xảy ra vào ban đêm lúc ngủ hoặc khi bơi lội",
+          "name_en": "Occurs frequently at night or during swimming",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Bắp chân một bên sưng to nóng đỏ đau liên tục (nghi ngờ huyết khối tĩnh mạch sâu chi dưới)",
+      "Chuột rút liên tục toàn thân kèm co cứng hàm hoặc co giật",
+      "Khó thở, đau ngực đi kèm"
+    ],
+    "risk_factors": [
+      "Thiếu nước và chất điện giải (magie, canxi, kali)",
+      "Vận động cơ bắp quá sức",
+      "Mang thai",
+      "Thời tiết lạnh ban đêm"
+    ],
+    "questions_to_ask": [
+      "Chuột rút xảy ra ở bắp chân vào ban đêm hay khi tập thể thao?",
+      "Sau khi hết cơn chuột rút, chân có bị sưng đỏ nóng đau liên tục không?",
+      "Bạn có đang mang thai hoặc uống thuốc lợi tiểu không?"
+    ],
+    "differential_diagnoses": [
+      "Huyết khối tĩnh mạch sâu chi dưới (DVT)",
+      "Hội chứng chân không yên",
+      "Thiếu canxi máu"
+    ],
+    "when_to_seek_emergency": [
+      "Một bên bắp chân sưng phù nóng đỏ đau dữ dội kèm khó thở đau ngực (nghi thuyên tắc phổi do huyết khối)"
+    ],
+    "user_language_variants": [
+      "đang ngủ nửa đêm bắp chân giật cứng co thắt đau thấu trời",
+      "bị chuột rút bắp chuối cứng đơ phải duỗi gập ngón chân",
+      "bị vọp bẻ căng cứng cơ chân lúc sáng sớm lạnh",
+      "chuột rút bắp chân đau điếng khi đang bơi",
+      "chân hay bị chuột rút co cứng bắp thịt ban đêm"
+    ]
+  },
+  {
+    "name_vi": "Bong gân mắt cá chân",
+    "name_en": "Ankle Sprain",
+    "category": "musculoskeletal",
+    "aliases": [
+      "Bong gân cổ chân",
+      "Trẹo chân mắt cá",
+      "Giãn dây chằng cổ chân nhẹ"
+    ],
+    "urgency": "low",
+    "description": "Tổn thương căng giãn hoặc rách vi thể dây chằng chày mác trước ở mắt cá ngoài sau động tác lật vặn cổ chân đột ngột khi bước hụt hoặc trẹo chân.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Đau nhói ở vùng mắt cá ngoài cổ chân sau trẹo chân",
+          "name_en": "Sharp pain at lateral malleolus after twisting",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Sưng nề nhẹ đến vừa quanh mắt cá chân",
+          "name_en": "Swelling around lateral ankle",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Vẫn có thể chịu lực đi lại nhẹ nhàng được",
+          "name_en": "Able to bear weight with mild limp",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Vết bầm tím tụ máu dưới da mắt cá sau 24 giờ",
+          "name_en": "Ecchymosis around ankle after 24 hours",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Không thể bước đi hay chịu lực quá 4 bước ngay sau chấn thương (tiêu chuẩn Ottawa nghi gãy xương)",
+      "Khớp cổ chân biến dạng lệch trục hoàn toàn",
+      "Tiếng 'rắc' lớn kèm mất cảm giác hoặc lạnh tái bàn chân"
+    ],
+    "risk_factors": [
+      "Đi giày cao gót",
+      "Chơi thể thao đổi hướng nhanh (bóng đá, bóng rổ)",
+      "Mặt đường gồ ghề",
+      "Tiền sử trẹo cổ chân"
+    ],
+    "questions_to_ask": [
+      "Bạn có thể đặt chân xuống đất đi được vài bước không?",
+      "Cổ chân có bị biến dạng méo mó hoặc bầm tím sưng to dữ dội không?",
+      "Lúc bị ngã bạn có nghe thấy tiếng gãy 'rắc' lớn ở xương không?"
+    ],
+    "differential_diagnoses": [
+      "Gãy xương mắt cá chân (gãy mắt cá ngoài)",
+      "Đứt hoàn toàn dây chằng cổ chân",
+      "Đứt gân gót Achilles"
+    ],
+    "when_to_seek_emergency": [
+      "Khớp cổ chân biến dạng toác, lộ đầu xương hoặc không thể đặt chân xuống đất"
+    ],
+    "user_language_variants": [
+      "bước trượt bậc cầu thang bị lật sơ mi trẹo mắt cá chân sưng phù",
+      "trẹo chân khi đá bóng mắt cá ngoài sưng đau ấn vào buốt",
+      "bị bong gân cổ chân đi khập khiễng nhức mắt cá",
+      "lật cổ chân mắt cá sưng vù đau khi dẫm chân",
+      "bong gân trẹo mắt cá chân sau khi bước hụt"
+    ]
+  },
+  {
+    "name_vi": "Đau mỏi cơ sau vận động",
+    "name_en": "Delayed Onset Muscle Soreness (DOMS)",
+    "category": "musculoskeletal",
+    "aliases": [
+      "Đau cơ sau tập gym",
+      "Đau nhức cơ bắp do vận động",
+      "DOMS"
+    ],
+    "urgency": "low",
+    "description": "Hiện tượng đau nhức căng cơ xuất hiện sau 24-48 giờ tập luyện thể lực cường độ cao hoặc bài tập cơ mới, do tổn thương vi thể sợi cơ và tự hồi phục sau vài ngày.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Đau nhức ê ẩm các khối cơ vận động (đùi, bắp tay, ngực)",
+          "name_en": "Aching soreness in exercised muscle groups",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cơ bắp căng cứng nhẹ, giảm độ linh hoạt khi vận động",
+          "name_en": "Muscle stiffness and reduced range of motion",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Đau tăng lên khi co cơ hoặc kéo giãn khối cơ bị ê",
+          "name_en": "Pain with contraction or stretching",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Cảm giác mỏi cơ giảm sức mạnh cơ bắp tạm thời",
+          "name_en": "Temporary loss of muscle strength",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Nước tiểu đổi màu nâu sẫm như xì dầu hoặc nước ngọt Coca-Cola (dấu hiệu tiêu cơ vân cấp)",
+      "Cơ bắp sưng to căng cứng dữ dội mất cảm giác (hội chứng chèn ép khoang)",
+      "Thiểu niệu, vô niệu hoặc kiệt sức lơ mơ"
+    ],
+    "risk_factors": [
+      "Tập bài tập cơ lệch tâm (eccentric exercises)",
+      "Tập tạ quá nặng đột ngột",
+      "Chạy bộ leo dốc đường dài không khởi động"
+    ],
+    "questions_to_ask": [
+      "Bạn mới tập thể thao hoặc làm việc nặng cường độ cao 1-2 hôm trước phải không?",
+      "Nước tiểu của bạn có màu vàng bình thường hay chuyển sang màu nâu đen như nước tương?",
+      "Khối cơ bị đau có sưng to căng cứng mất cảm giác không?"
+    ],
+    "differential_diagnoses": [
+      "Tiêu cơ vân cấp (Rhabdomyolysis)",
+      "Rách cơ chấn thương",
+      "Huyết khối tĩnh mạch sâu"
+    ],
+    "when_to_seek_emergency": [
+      "Nước tiểu màu nâu đen xì dầu kèm đau cơ dữ dội và mệt lả (tiêu cơ vân cấp cứu lọc máu)"
+    ],
+    "user_language_variants": [
+      "mới đi tập gym hôm qua về hôm nay cả người ê ẩm đau nhức cơ bắp",
+      "leo núi về hai bắp đùi căng mỏi bước lên cầu thang đau điếng",
+      "tập tạ xong hôm sau đau cơ bắp tay không duỗi thẳng tay được",
+      "đau cơ sau tập gym ê ẩm khắp người",
+      "cơ bắp đau nhức sau khi vận động thể thao mạnh"
+    ]
+  },
+  {
+    "name_vi": "Đau gót chân do viêm cân gan chân",
+    "name_en": "Plantar Fasciitis",
+    "category": "musculoskeletal",
+    "aliases": [
+      "Viêm cân gan bàn chân",
+      "Thốn gót chân buổi sáng",
+      "Đau gót chân khi thức dậy"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng kích ứng và thoái hóa dải mô liên kết dày (cân gan chân) nâng đỡ vòm bàn chân, đặc trưng bởi cơn đau thốn buốt ở mặt dưới gót chân trong những bước đi đầu tiên buổi sáng.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Đau nhói thốn ở mặt dưới gót chân khi đặt bước chân đầu tiên buổi sáng",
+          "name_en": "Sharp heel pain with first steps in morning",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Đau giảm bớt sau khi đi lại vận động một lúc",
+          "name_en": "Pain improves after warming up and walking",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Đau thốn tăng lại vào cuối ngày khi đứng lâu",
+          "name_en": "Pain worsens by end of day after prolonged standing",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Căng cứng vòm lòng bàn chân",
+          "name_en": "Tightness in plantar arch",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Đau gót chân dữ dội không thể đặt chân xuống đất sau chấn thương ngã cao (nghi gãy xương gót)",
+      "Gót chân sưng nóng đỏ rực chảy mủ",
+      "Mất cảm giác bàn chân kèm loét ở bệnh nhân tiểu đường"
+    ],
+    "risk_factors": [
+      "Đứng làm việc liên tục nhiều giờ",
+      "Chạy bộ trên nền cứng",
+      "Bàn chân bẹt hoặc vòm chân quá cao",
+      "Thừa cân"
+    ],
+    "questions_to_ask": [
+      "Cơn đau thốn gót chân xuất hiện rõ nhất vào lúc nào (bước chân đầu tiên ngủ dậy phải không)?",
+      "Bạn có phải đứng làm việc trên sàn cứng nhiều giờ mỗi ngày không?",
+      "Gót chân có bị sưng nóng đỏ hay bầm tím sau ngã cao không?"
+    ],
+    "differential_diagnoses": [
+      "Gai xương gót",
+      "Gãy rạn xương gót do mỏi",
+      "Chèn ép dây thần kinh ống cổ chân"
+    ],
+    "when_to_seek_emergency": [
+      "Chấn thương ngã từ trên cao dồn lực gót chân không đặt chân được"
+    ],
+    "user_language_variants": [
+      "sáng ngủ dậy đặt chân xuống đất thốn buốt gót chân đi lại một lúc mới đỡ",
+      "gót chân bị đau nhức mặt dưới khi đứng bán hàng lâu",
+      "thốn gót chân bước đi như dẫm vào đinh nhọn",
+      "bị đau gót chân buổi sáng bước xuống giường thốn buốt",
+      "viêm cân gan chân thốn gót chân đi khập khiễng"
+    ]
+  },
+  {
+    "name_vi": "Đau đầu căng thẳng",
+    "name_en": "Tension-Type Headache",
+    "category": "neurology",
+    "aliases": [
+      "Đau đầu căng cơ",
+      "Đau đầu do stress",
+      "Đau đầu như có vòng siết"
+    ],
+    "urgency": "low",
+    "description": "Dạng đau đầu nguyên phát phổ biến nhất, đặc trưng bởi cơn đau âm ỉ ê ẩm đều hai bên đầu như có dải băng siết chặt, liên quan mật thiết đến căng cơ cổ vai và áp lực tâm lý.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Đau âm ỉ ê ẩm đều cả hai bên đầu",
+          "name_en": "Dull, pressing ache bilaterally",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác căng thắt như có vòng siết quanh trán thái dương",
+          "name_en": "Band-like tightness around forehead and temples",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Không có cảm giác mạch đập giật thon thót",
+          "name_en": "Non-pulsating quality",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Căng tức nhẹ cơ vùng gáy và hai bả vai",
+          "name_en": "Mild neck and pericranial tenderness",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Mệt mỏi, khó tập trung làm việc",
+          "name_en": "Fatigue and difficulty concentrating",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Đau đầu dữ dội đột ngột như sét đánh đạt đỉnh trong vài giây (nghi xuất huyết dưới nhện)",
+      "Đau đầu kèm sốt cao, cứng gáy, nôn vọt",
+      "Đau đầu kèm yếu liệt nửa người, méo miệng, nói ngọng, nhìn mờ",
+      "Đau đầu mới xuất hiện tăng dần ở người trên 50 tuổi"
+    ],
+    "risk_factors": [
+      "Căng thẳng công việc",
+      "Thiếu ngủ, thức khuya",
+      "Ngồi máy tính sai tư thế lâu",
+      "Bỏ bữa ăn"
+    ],
+    "questions_to_ask": [
+      "Cơn đau đầu có đều hai bên trán thái dương hay giật một bên kèm buồn nôn?",
+      "Cơn đau có dữ dội đột ngột như sét đánh không?",
+      "Bạn có bị sốt cao, cứng gáy hoặc nhìn mờ, yếu tay chân không?"
+    ],
+    "differential_diagnoses": [
+      "Đau nửa đầu Migraine",
+      "Đau đầu chuỗi (Cluster headache)",
+      "Đau đầu do viêm xoang",
+      "Tăng áp lực nội sọ"
+    ],
+    "when_to_seek_emergency": [
+      "Đau đầu sét đánh dữ dội chưa từng có trong đời",
+      "Đau đầu kèm sốt cao cứng gáy nôn vọt hoặc dấu hiệu đột quỵ (liệt nửa người, méo miệng)"
+    ],
+    "user_language_variants": [
+      "đầu cứ đau âm ỉ ê ẩm hai bên thái dương như có ai bóp chặt",
+      "áp lực công việc làm đầu căng như dây đàn nặng trịch đỉnh đầu",
+      "đau đầu căng thẳng cả ngày nghỉ ngơi xoa bóp thì hơi đỡ",
+      "đau đầu như có vòng đai siết chặt quanh đầu",
+      "đau đầu âm ỉ hai bên trán do căng thẳng mất ngủ"
+    ]
+  },
+  {
+    "name_vi": "Say nắng nhẹ",
+    "name_en": "Mild Heat Exhaustion",
+    "category": "general",
+    "aliases": [
+      "Say nắng nhẹ",
+      "Cảm nắng nhẹ",
+      "Kiệt sức do nóng mức độ nhẹ"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng kiệt sức, mất nước và điện giải nhẹ qua mồ hôi do hoạt động hoặc ở ngoài trời nắng nóng kéo dài, cơ thể vẫn còn khả năng điều hòa thân nhiệt.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Mệt mỏi rã rời, hoa mắt chóng mặt",
+          "name_en": "Severe fatigue, dizziness and lightheadedness",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Vã mồ hôi nhiều, da ẩm ướt",
+          "name_en": "Profuse sweating with cool, moist skin",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Cảm giác khát nước dữ dội",
+          "name_en": "Intense thirst",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Nhức đầu nhẹ vùng trán",
+          "name_en": "Mild frontal headache",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Buồn nôn nhẹ",
+          "name_en": "Mild nausea",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Tim đập nhanh",
+          "name_en": "Tachycardia",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Thân nhiệt tăng vọt trên 40 độ C, da nóng khô không còn tiết mồ hôi (sốc nhiệt thể nặng / Heat stroke)",
+      "Lú lẫn, nói nhảm, kích động, co giật hoặc hôn mê bất tỉnh",
+      "Nôn mửa dữ dội, tụt huyết áp ngất xỉu"
+    ],
+    "risk_factors": [
+      "Lao động ngoài trời nắng gắt",
+      "Uống không đủ nước",
+      "Mặc quần áo dày không thoát nhiệt",
+      "Người cao tuổi hoặc trẻ nhỏ"
+    ],
+    "questions_to_ask": [
+      "Bạn bị mệt sau khi đi ngoài trời nắng gắt bao lâu?",
+      "Cơ thể bạn vẫn còn ra mồ hôi hay da đã khô nóng ran?",
+      "Bạn có bị lú lẫn, ngất xỉu hoặc sốt cao trên 39.5 độ C không?"
+    ],
+    "differential_diagnoses": [
+      "Sốc nhiệt (Heat Stroke - Cấp cứu)",
+      "Hạ đường huyết",
+      "Ngộ độc thực phẩm"
+    ],
+    "when_to_seek_emergency": [
+      "Sốt cao trên 40 độ C, da khô nóng mất mồ hôi, co giật hoặc hôn mê (sốc nhiệt cấp cứu 115 ngay)"
+    ],
+    "user_language_variants": [
+      "đi ngoài trời nắng chang chang về người mệt lả hoa mắt vã mồ hôi",
+      "bị cảm nắng đầu váng vất khát nước bủn rủn tay chân",
+      "say nắng hơi sốt nhẹ người rũ rượi buồn nôn",
+      "đi nắng về bị say nắng mệt mỏi hoa mắt chóng mặt",
+      "cảm nắng say nắng người nóng bừng vã mồ hôi"
+    ]
+  },
+  {
+    "name_vi": "Suy nhược cơ thể",
+    "name_en": "General Fatigue and Asthenia",
+    "category": "general",
+    "aliases": [
+      "Suy nhược cơ thể",
+      "Mệt mỏi mạn tính nhẹ",
+      "Kiệt sức thể lực"
+    ],
+    "urgency": "low",
+    "description": "Trạng thái mệt mỏi kéo dài, kiệt sức về thể chất và tinh thần không thuyên giảm hoàn toàn sau khi nghỉ ngơi, thường liên quan đến làm việc quá tải, dinh dưỡng kém hoặc stress.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cảm giác mệt mỏi uể oải triền miên",
+          "name_en": "Persistent fatigue and lethargy",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Chân tay rã rời, thiếu năng lượng làm việc",
+          "name_en": "Lack of energy and limb weakness sensation",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Giảm tập trung và giảm trí nhớ ngắn hạn",
+          "name_en": "Poor concentration and brain fog",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Ăn uống kém ngon miệng",
+          "name_en": "Decreased appetite",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Ngủ dậy vẫn cảm thấy mệt mỏi",
+          "name_en": "Unrefreshing sleep",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Sụt cân nhanh không rõ nguyên nhân (trên 5% trọng lượng cơ thể)",
+      "Sốt nhẹ về chiều kéo dài, đổ mồ hôi trộm ban đêm",
+      "Nổi hạch ở cổ, nách, bẹn không đau",
+      "Khó thở khi gắng sức nhẹ, da xanh xao niêm mạc nhợt nhạt"
+    ],
+    "risk_factors": [
+      "Làm việc quá sức không nghỉ ngơi",
+      "Thiếu ngủ triền miên",
+      "Chế độ ăn thiếu chất dinh dưỡng",
+      "Sau đợt ốm virus kéo dài"
+    ],
+    "questions_to_ask": [
+      "Tình trạng mệt mỏi đã kéo dài bao nhiêu tuần/tháng rồi?",
+      "Bạn có bị sụt cân, sốt nhẹ về chiều hoặc sưng hạch ở đâu không?",
+      "Bạn có cảm thấy khó thở hoặc đánh trống ngực khi đi lại nhẹ nhàng không?"
+    ],
+    "differential_diagnoses": [
+      "Thiếu máu thiếu sắt",
+      "Suy giáp",
+      "Trầm cảm",
+      "Đái tháo đường"
+    ],
+    "when_to_seek_emergency": [
+      "Mệt lả kiệt sức kèm khó thở dữ dội, đau ngực hoặc ngất xỉu"
+    ],
+    "user_language_variants": [
+      "dạo này người cứ suy nhược uể oải không có chút sức sống nào",
+      "ngủ dậy vẫn thấy mệt mỏi chân tay rã rời không muốn làm gì",
+      "người kiệt sức hụt hơi ăn uống không ngon miệng sút cân nhẹ",
+      "bị suy nhược cơ thể người mệt mỏi uể oải suốt ngày",
+      "cơ thể suy nhược mệt mỏi rã rời thiếu sức sống"
+    ]
+  },
+  {
+    "name_vi": "Căng thẳng thần kinh",
+    "name_en": "Psychological Stress",
+    "category": "general",
+    "aliases": [
+      "Căng thẳng thần kinh",
+      "Stress tâm lý",
+      "Áp lực công việc quá tải"
+    ],
+    "urgency": "low",
+    "description": "Phản ứng tâm lý và sinh lý của cơ thể trước các áp lực, yêu cầu quá tải từ công việc, học tập hoặc biến cố đời sống, gây bồn chồn, lo âu và khó ngủ.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cảm giác bồn chồn, lo nghĩ căng thẳng triền miên",
+          "name_en": "Persistent worry and restlessness",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Khó vào giấc ngủ hoặc hay trằn trọc tỉnh giấc",
+          "name_en": "Difficulty falling asleep and fragmented sleep",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Dễ cáu gắt, hồi hộp tim đập nhanh nhẹ khi nghĩ đến công việc",
+          "name_en": "Irritability and mild palpitations",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Đau căng cơ vùng gáy và thái dương",
+          "name_en": "Tension headaches and neck stiffness",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Đầy tức bụng hoặc rối loạn tiêu hóa nhẹ do căng thẳng",
+          "name_en": "Stress-related digestive discomfort",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Ý nghĩ tự gây hại hoặc tự sát",
+      "Cơn hoảng loạn kịch phát (Panic attack) nghẹt thở, đau thắt ngực sợ chết",
+      "Hoang tưởng, ảo giác, mất kết nối thực tế"
+    ],
+    "risk_factors": [
+      "Áp lực công việc / thi cử",
+      "Xung đột gia đình",
+      "Biến cố tài chính",
+      "Thiếu thời gian nghỉ ngơi giải tỏa"
+    ],
+    "questions_to_ask": [
+      "Bạn cảm thấy căng thẳng nhiều nhất vì công việc, học tập hay chuyện gia đình?",
+      "Bạn có ngủ được không, giấc ngủ có bị chập chờn không?",
+      "Bạn có bao giờ cảm thấy bế tắc tuyệt vọng hoặc có ý nghĩ tiêu cực muốn buông xuôi không?"
+    ],
+    "differential_diagnoses": [
+      "Rối loạn lo âu lan tỏa (GAD)",
+      "Trầm cảm",
+      "Cường giáp"
+    ],
+    "when_to_seek_emergency": [
+      "Có ý nghĩ hoặc kế hoạch tự sát cụ thể",
+      "Cơn hoảng loạn dữ dội kèm đau thắt ngực khó thở cấp"
+    ],
+    "user_language_variants": [
+      "dạo này áp lực công việc quá đầu óc căng thẳng bồn chồn khó ngủ",
+      "stress nhiều hay cáu gắt tim đập hồi hộp lo lắng suốt",
+      "tinh thần căng thẳng mệt mỏi mất ngủ triền miên",
+      "bị stress công việc căng thẳng thần kinh đau đầu",
+      "đầu óc căng thẳng lo nghĩ không ngủ được"
+    ]
+  },
+  {
+    "name_vi": "Sốt phát ban do virus",
+    "name_en": "Viral Exanthem",
+    "category": "infectious",
+    "aliases": [
+      "Sốt phát ban lành tính",
+      "Ban đào do virus",
+      "Sốt ban đỏ sau sốt"
+    ],
+    "urgency": "low",
+    "description": "Bệnh nhiễm virus lành tính thường gặp ở trẻ nhỏ và thanh thiếu niên, đặc trưng bởi sốt nhẹ 2-3 ngày, khi hạ sốt thì xuất hiện ban hồng mịn rải rác toàn thân.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Sốt nhẹ đến vừa trong 2-3 ngày đầu",
+          "name_en": "Low to moderate fever for 2-3 days",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Nổi ban hồng mịn li ti khắp ngực, bụng sau khi hết sốt",
+          "name_en": "Maculopapular pink rash on trunk after fever subsides",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Ban biến mất khi ấn căng da (dấu hiệu căng da mất ban)",
+          "name_en": "Blanching rash on pressure",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Chảy nước mũi nhẹ hoặc ho húng hắng",
+          "name_en": "Mild coryza or cough",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Hạch nhỏ vùng cổ hoặc sau tai hơi đau",
+          "name_en": "Small tender cervical or postauricular lymph nodes",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Ban xuất huyết dạng chấm tím đen KHÔNG biến mất khi căng da (nghi ngờ nhiễm não mô cầu hoặc sốt xuất huyết)",
+      "Sốt cao co giật, li bì, nôn vọt, thở rút lõm lồng ngực",
+      "Chảy máu cam, chảy máu chân răng hoặc nôn ra máu"
+    ],
+    "risk_factors": [
+      "Trẻ em dưới 5 tuổi",
+      "Môi trường nhà trẻ trường học",
+      "Thời điểm giao mùa"
+    ],
+    "questions_to_ask": [
+      "Ban nổi lên khi người bệnh còn đang sốt cao hay sau khi đã cắt sốt?",
+      "Khi lấy tay căng vùng da có nốt đỏ thì nốt có mờ biến mất không?",
+      "Bệnh nhân có tỉnh táo ăn uống được không hay li bì mệt mỏi?"
+    ],
+    "differential_diagnoses": [
+      "Sốt xuất huyết Dengue",
+      "Bệnh Sởi",
+      "Bệnh Rubella",
+      "Nhiễm khuẩn huyết do não mô cầu"
+    ],
+    "when_to_seek_emergency": [
+      "Nốt ban tím đen không lặn khi căng da kèm sốt cao li bì (cấp cứu nhiễm não mô cầu ngay)"
+    ],
+    "user_language_variants": [
+      "sau khi cắt sốt thì người nổi mẩn đỏ li ti khắp bụng lưng",
+      "bé sốt 3 hôm nay hạ sốt rồi thấy phát ban hồng toàn thân",
+      "sốt phát ban lấm tấm đỏ trên da nhưng người đã khỏe tỉnh táo",
+      "hạ sốt xong nổi ban đỏ lấm tấm khắp người",
+      "bị sốt phát ban sau khi sốt nổi nốt đỏ li ti không ngứa"
+    ]
+  },
+  {
+    "name_vi": "Phồng rộp da do ma sát",
+    "name_en": "Friction Blister",
+    "category": "dermatology",
+    "aliases": [
+      "Bóng nước do cọ xát",
+      "Phồng chân do giày",
+      "Bọng nước ma sát"
+    ],
+    "urgency": "low",
+    "description": "Bọng dịch nông hình thành khi da bị cọ xát lặp lại, thường ở gót chân hoặc lòng bàn tay, gây rát và đau khi tiếp tục tì đè.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Bọng nước trong tại vùng bị cọ xát",
+          "name_en": "Clear blister at friction site",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Rát và đau khi tì đè",
+          "name_en": "Burning pain with pressure",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Da quanh bọng hơi đỏ",
+          "name_en": "Mild redness around blister",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Lớp da mái bọng bị rách",
+          "name_en": "Blister roof tears",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Rỉ dịch trong sau khi bọng vỡ",
+          "name_en": "Clear drainage after rupture",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Dịch chuyển đục như mủ, vùng đỏ nóng lan rộng hoặc kèm sốt",
+      "Bọng nước xuất hiện dày đặc không do cọ xát hoặc kèm tổn thương niêm mạc",
+      "Bọng chân ở người đái tháo đường, mất cảm giác hoặc tuần hoàn chân kém"
+    ],
+    "risk_factors": [
+      "Giày mới hoặc quá chật",
+      "Đi bộ đường dài",
+      "Lao động cầm nắm lặp lại",
+      "Da ẩm do mồ hôi"
+    ],
+    "questions_to_ask": [
+      "Bọng xuất hiện sau đi giày mới, đi bộ hoặc cầm dụng cụ lâu phải không?",
+      "Dịch trong bọng còn trong hay đã đục và có mùi?",
+      "Bạn có đái tháo đường hoặc mất cảm giác bàn chân không?"
+    ],
+    "differential_diagnoses": [
+      "Bỏng độ hai",
+      "Chàm tổ đỉa",
+      "Chốc bọng nước"
+    ],
+    "when_to_seek_emergency": [
+      "Đỏ nóng lan nhanh, chảy mủ kèm sốt hoặc tổn thương ở bàn chân đái tháo đường"
+    ],
+    "user_language_variants": [
+      "đi giày mới làm gót chân nổi bóng nước trong rất rát",
+      "đi bộ xa xong lòng bàn chân phồng bọng đau",
+      "tay cầm dụng cụ lâu nổi bọng nước do cọ xát",
+      "mép giày chà vào chân làm da phồng rộp",
+      "bóng nước ở gót bị vỡ rỉ dịch trong"
+    ]
+  },
+  {
+    "name_vi": "Khô mắt",
+    "name_en": "Dry Eye Syndrome",
+    "category": "ophthalmology",
+    "aliases": [
+      "Hội chứng khô mắt",
+      "Khô mỏi mắt do màn hình",
+      "Khô rát mắt dùng máy tính"
+    ],
+    "urgency": "low",
+    "description": "Rối loạn màng phim nước mắt do giảm tiết nước mắt hoặc bốc hơi nước mắt quá nhanh, thường gặp ở người làm việc màn hình máy tính lâu hoặc ngồi phòng điều hòa.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cảm giác cộm rát như có hạt cát trong mắt",
+          "name_en": "Gritty, sandy sensation in eyes",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Khô châm chích mắt",
+          "name_en": "Burning and stinging eye dryness",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Nhìn mờ thoáng qua, chớp mắt nhiều lần thì trong lại",
+          "name_en": "Fluctuating blurry vision cleared by blinking",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Chảy nước mắt phản xạ khi ra gió hoặc nhìn màn hình lâu",
+          "name_en": "Reflex tearing in wind or screen time",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Đỏ nhẹ kết mạc mắt",
+          "name_en": "Mild conjunctival hyperemia",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Đau nhức mắt dữ dội sâu trong hốc mắt",
+      "Sợ ánh sáng chói lóa kèm giảm thị lực rõ rệt không cải thiện khi chớp mắt (nghi viêm loét giác mạc)",
+      "Mắt chảy dịch mủ vàng đặc dính mí mắt"
+    ],
+    "risk_factors": [
+      "Nhìn màn hình máy tính điện thoại nhiều giờ không chớp mắt",
+      "Ngồi phòng điều hòa độ ẩm thấp",
+      "Đeo kính áp tròng kéo dài",
+      "Người cao tuổi"
+    ],
+    "questions_to_ask": [
+      "Mắt bạn cộm rát nhiều khi làm việc máy tính hay khi nào?",
+      "Nhìn mờ có rõ lại sau khi bạn chớp mắt vài lần không?",
+      "Mắt có bị đau nhức dữ dội hoặc sợ ánh sáng chói không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm kết mạc dị ứng",
+      "Viêm bờ mi",
+      "Viêm loét giác mạc"
+    ],
+    "when_to_seek_emergency": [
+      "Đau nhức mắt dữ dội sợ ánh sáng và giảm thị lực đột ngột"
+    ],
+    "user_language_variants": [
+      "ngồi máy tính cả ngày mắt khô khốc cộm rát như có bụi bên trong",
+      "mắt cứ châm chích khô rát chớp mắt liên tục mới nhìn rõ",
+      "làm việc màn hình nhiều mắt khô và mờ nhoè chảy nước mắt sống",
+      "bị khô mắt cộm rát khi ngồi phòng máy lạnh",
+      "mắt khô ráp châm chích khó chịu khi nhìn màn hình"
+    ]
+  },
+  {
+    "name_vi": "Mỏi mắt do điều tiết",
+    "name_en": "Asthenopia and Eye Strain",
+    "category": "ophthalmology",
+    "aliases": [
+      "Mỏi mắt",
+      "Căng mỏi mắt",
+      "Mỏi mắt do đọc sách dùng điện thoại"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng căng mỏi cơ thể mi và cơ vận nhãn do mắt phải điều tiết liên tục để nhìn gần trong thời gian dài (đọc sách, dùng điện thoại, làm việc máy tính).",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Cảm giác nặng trĩu mí mắt và mỏi nhức quanh ổ mắt",
+          "name_en": "Heavy eyelids and aching around eye sockets",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Khó tập trung nhìn rõ sau khi đọc sách hoặc xem màn hình lâu",
+          "name_en": "Difficulty focusing after prolonged near work",
+          "frequency": "common"
+        },
+        {
+          "name_vi": "Nhức nhẹ hai bên thái dương",
+          "name_en": "Mild temporal tension ache",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Nhìn đôi thoáng qua khi quá mệt",
+          "name_en": "Transient diplopia when fatigued",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Chảy nước mắt nhẹ và muốn nhắm nghiền mắt lại nghỉ ngơi",
+          "name_en": "Mild lacrimation and desire to close eyes",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Mất thị lực hoàn toàn một bên mắt đột ngột",
+      "Đau nhức mắt dữ dội kèm buồn nôn, nhìn đèn thấy quầng xanh đỏ (Glaucoma góc đóng cấp)",
+      "Sụp mi đột ngột hoặc lác mắt liệt cơ vận nhãn"
+    ],
+    "risk_factors": [
+      "Dùng điện thoại trong bóng tối",
+      "Tật khúc xạ (cận, loạn, viễn) chưa chỉnh kính đúng",
+      "Ánh sáng phòng làm việc không đủ"
+    ],
+    "questions_to_ask": [
+      "Bạn có cảm giác mỏi mắt sau khi đọc sách hay xem điện thoại nhiều giờ không?",
+      "Bạn đã kiểm tra độ kính mắt gần đây chưa?",
+      "Có bị đau nhức mắt dữ dội kèm buồn nôn không?"
+    ],
+    "differential_diagnoses": [
+      "Tật khúc xạ chưa chỉnh kính",
+      "Hội chứng khô mắt",
+      "Glaucoma"
+    ],
+    "when_to_seek_emergency": [
+      "Đau nhức mắt dữ dội kèm nhìn mờ thấy quầng tán sắc và nôn ói (cơn Glocom cấp)"
+    ],
+    "user_language_variants": [
+      "đọc sách với xem điện thoại một lúc là hai mắt mỏi nhừ nhức quanh hốc mắt",
+      "mắt căng mỏi trĩu mí mắt nhìn lóa nhức thái dương",
+      "nhìn màn hình nhiều mắt mỏi mệt muốn nhắm nghiền mắt",
+      "bị mỏi mắt căng cơ mắt khi dùng máy tính lâu",
+      "hai mắt mỏi nhừ nhức hốc mắt do nhìn gần"
+    ]
+  },
+  {
+    "name_vi": "Dày sừng nang lông",
+    "name_en": "Keratosis Pilaris",
+    "category": "dermatology",
+    "aliases": [
+      "Da gà ở cánh tay",
+      "Sần nang lông",
+      "Keratosis pilaris"
+    ],
+    "urgency": "low",
+    "description": "Tình trạng keratin tích tụ tại nang lông tạo nhiều sẩn nhỏ ráp như da gà, thường ở mặt ngoài cánh tay, đùi hoặc má và không lây.",
+    "symptoms": {
+      "common": [
+        {
+          "name_vi": "Nhiều nốt nhỏ ráp đồng đều quanh nang lông",
+          "name_en": "Uniform rough follicular bumps",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Da sờ giống da gà hoặc giấy nhám",
+          "name_en": "Gooseflesh or sandpaper texture",
+          "frequency": "very_common"
+        },
+        {
+          "name_vi": "Tập trung ở mặt ngoài cánh tay hoặc đùi",
+          "name_en": "Outer upper arms or thighs affected",
+          "frequency": "common"
+        }
+      ],
+      "occasional": [
+        {
+          "name_vi": "Nốt hơi đỏ hoặc ngứa khi da khô",
+          "name_en": "Mild redness or itch with dry skin",
+          "frequency": "occasional"
+        },
+        {
+          "name_vi": "Tăng rõ vào mùa lạnh",
+          "name_en": "Worsens in cold dry weather",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "red_flags": [
+      "Sẩn chuyển thành mụn mủ đau, sưng nóng lan rộng hoặc kèm sốt",
+      "Ban đỏ lan toàn thân kèm khó thở hoặc phù môi lưỡi",
+      "Tổn thương bong trợt rộng hoặc xuất huyết không giải thích được"
+    ],
+    "risk_factors": [
+      "Da khô",
+      "Viêm da cơ địa",
+      "Tiền sử gia đình",
+      "Thời tiết lạnh khô"
+    ],
+    "questions_to_ask": [
+      "Các nốt có tập trung ở mặt ngoài cánh tay và tồn tại lâu không?",
+      "Nốt chỉ ráp hay có mủ, đau và lan nhanh?",
+      "Bạn có da khô hoặc viêm da cơ địa không?"
+    ],
+    "differential_diagnoses": [
+      "Viêm nang lông",
+      "Mụn trứng cá",
+      "Rôm sảy"
+    ],
+    "when_to_seek_emergency": [
+      "Khó thở, phù môi lưỡi hoặc ban đỏ lan nhanh toàn thân"
+    ],
+    "user_language_variants": [
+      "mặt ngoài cánh tay nổi hạt li ti sờ ráp như da gà",
+      "da đùi có nhiều chấm sần quanh lỗ chân lông",
+      "tay sần như giấy nhám nặng hơn lúc trời lạnh",
+      "các nốt da gà nhỏ đều không đau không lây",
+      "da khô nổi hạt quanh nang lông hơi đỏ"
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_615",
+  "name_vi": "Nhiệt miệng",
+  "name_en": "Aphthous Stomatitis",
+  "category": "digestive",
+  "aliases": [
+    "Loét miệng aphthous",
+    "Đẹn miệng",
+    "Lở miệng"
+  ],
+  "tier": 1,
+  "description": "Tổn thương loét nông lành tính ở niêm mạc miệng (má trong, môi, dưới lưỡi) hình tròn đáy màu trắng vàng viền đỏ, gây đau xót khi ăn uống.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Vết loét tròn nhỏ đáy trắng viền đỏ ở niêm mạc miệng",
+        "name_en": "Small round ulcer with yellow-white base and red border",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau rát xót khi ăn đồ mặn, chua, cay",
+        "name_en": "Sharp pain when eating salty, acidic, spicy foods",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau rát khi dùng lưỡi chạm vào vết loét",
+        "name_en": "Tenderness on touch with tongue",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Tăng tiết nước bọt nhẹ",
+        "name_en": "Mild hypersalivation",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Sưng nề nhẹ vùng mô xung quanh vết loét",
+        "name_en": "Mild surrounding edema",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Vết loét to cứng gồ mép kéo dài trên 3 tuần không lành (nghi ung thư niêm mạc miệng)",
+    "Loét miệng dày đặc kèm sốt cao, nổi hạch cổ to",
+    "Kèm tổn thương loét ở cơ quan sinh dục và viêm mắt (hội chứng Behcet)"
+  ],
+  "risk_factors": [
+    "Căng thẳng stress",
+    "Vô tình cắn vào má",
+    "Thiếu vitamin B12, kẽm, sắt",
+    "Ăn nhiều đồ cay nóng"
+  ],
+  "questions_to_ask": [
+    "Vết loét xuất hiện ở vị trí nào trong miệng (môi, má, lưỡi)?",
+    "Vết loét đã có bao nhiêu ngày rồi, kích thước có to lên không?",
+    "Bạn có bị sốt hoặc nổi hạch dưới hàm không?"
+  ],
+  "differential_diagnoses": [
+    "Herpes môi miệng",
+    "Nấm miệng Candida",
+    "Ung thư biểu mô khoang miệng"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Loét miệng hoại tử lan rộng kèm sốt cao và nhiễm trùng nặng toàn thân"
+  ],
+  "user_language_variants": [
+    "bị nhiệt miệng nổi nốt loét trắng ở môi trong ăn xót đau điếng",
+    "trong má nổi bọng nước vỡ ra vết loét đỏ xót khi ăn đồ mặn",
+    "lở miệng loét mép ăn cơm chấm mắm cay rát buốt",
+    "bị nhiệt miệng ở cuống lưỡi rát chạm vào là đau",
+    "nổi vết loét đẹn miệng trắng xóa ở nướu xót"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

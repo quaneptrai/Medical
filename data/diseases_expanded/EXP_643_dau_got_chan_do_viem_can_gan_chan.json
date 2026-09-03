@@ -1,0 +1,79 @@
+{
+  "disease_id": "EXP_643",
+  "name_vi": "Đau gót chân do viêm cân gan chân",
+  "name_en": "Plantar Fasciitis",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Viêm cân gan bàn chân",
+    "Thốn gót chân buổi sáng",
+    "Đau gót chân khi thức dậy"
+  ],
+  "tier": 1,
+  "description": "Tình trạng kích ứng và thoái hóa dải mô liên kết dày (cân gan chân) nâng đỡ vòm bàn chân, đặc trưng bởi cơn đau thốn buốt ở mặt dưới gót chân trong những bước đi đầu tiên buổi sáng.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau nhói thốn ở mặt dưới gót chân khi đặt bước chân đầu tiên buổi sáng",
+        "name_en": "Sharp heel pain with first steps in morning",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau giảm bớt sau khi đi lại vận động một lúc",
+        "name_en": "Pain improves after warming up and walking",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau thốn tăng lại vào cuối ngày khi đứng lâu",
+        "name_en": "Pain worsens by end of day after prolonged standing",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Căng cứng vòm lòng bàn chân",
+        "name_en": "Tightness in plantar arch",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau gót chân dữ dội không thể đặt chân xuống đất sau chấn thương ngã cao (nghi gãy xương gót)",
+    "Gót chân sưng nóng đỏ rực chảy mủ",
+    "Mất cảm giác bàn chân kèm loét ở bệnh nhân tiểu đường"
+  ],
+  "risk_factors": [
+    "Đứng làm việc liên tục nhiều giờ",
+    "Chạy bộ trên nền cứng",
+    "Bàn chân bẹt hoặc vòm chân quá cao",
+    "Thừa cân"
+  ],
+  "questions_to_ask": [
+    "Cơn đau thốn gót chân xuất hiện rõ nhất vào lúc nào (bước chân đầu tiên ngủ dậy phải không)?",
+    "Bạn có phải đứng làm việc trên sàn cứng nhiều giờ mỗi ngày không?",
+    "Gót chân có bị sưng nóng đỏ hay bầm tím sau ngã cao không?"
+  ],
+  "differential_diagnoses": [
+    "Gai xương gót",
+    "Gãy rạn xương gót do mỏi",
+    "Chèn ép dây thần kinh ống cổ chân"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Chấn thương ngã từ trên cao dồn lực gót chân không đặt chân được"
+  ],
+  "user_language_variants": [
+    "sáng ngủ dậy đặt chân xuống đất thốn buốt gót chân đi lại một lúc mới đỡ",
+    "gót chân bị đau nhức mặt dưới khi đứng bán hàng lâu",
+    "thốn gót chân bước đi như dẫm vào đinh nhọn",
+    "bị đau gót chân buổi sáng bước xuống giường thốn buốt",
+    "viêm cân gan chân thốn gót chân đi khập khiễng"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

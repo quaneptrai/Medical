@@ -1,0 +1,96 @@
+{
+  "disease_id": "EXP_604",
+  "name_vi": "Cảm lạnh thông thường",
+  "name_en": "Common Cold",
+  "category": "respiratory",
+  "aliases": [
+    "Cảm thường",
+    "Cảm lạnh",
+    "Nhiễm lạnh",
+    "Viêm long hô hấp trên"
+  ],
+  "tier": 1,
+  "description": "Bệnh nhiễm virus cấp tính đường hô hấp trên tự giới hạn, đặc trưng bởi chảy nước mũi trong, hắt hơi, nghẹt mũi và rát họng nhẹ.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Sổ mũi nước trong",
+        "name_en": "Clear rhinorrhea",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Hắt hơi liên tục",
+        "name_en": "Frequent sneezing",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Nghẹt mũi",
+        "name_en": "Nasal congestion",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Rát họng nhẹ",
+        "name_en": "Mild sore throat",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Ho khan nhẹ",
+        "name_en": "Mild dry cough",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Đau mỏi mình mẩy nhẹ",
+        "name_en": "Mild body aches",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Sốt nhẹ hoặc gai rét",
+        "name_en": "Low-grade fever or mild chills",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Sốt cao liên tục trên 39 độ C không hạ khi dùng thuốc",
+    "Khó thở, thở rít hoặc đau tức ngực dữ dội",
+    "Triệu chứng không đỡ và nặng lên rõ rệt sau 10 ngày"
+  ],
+  "risk_factors": [
+    "Tiếp xúc người bị cảm",
+    "Thời tiết thay đổi đột ngột",
+    "Nhiễm lạnh",
+    "Sức đề kháng suy giảm"
+  ],
+  "questions_to_ask": [
+    "Bạn bị sổ mũi, hắt hơi từ mấy hôm nay rồi?",
+    "Nước mũi trong hay đã chuyển sang màu vàng xanh đặc?",
+    "Bạn có sốt cao hoặc cảm thấy khó thở không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm mũi dị ứng",
+    "Cúm mùa",
+    "Viêm xoang cấp"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Khó thở nặng, tím tái hoặc đau tức ngực",
+    "Sốt cao co giật hoặc li bì khó đánh thức"
+  ],
+  "user_language_variants": [
+    "tôi bị cảm lạnh hắt hơi sổ mũi suốt mấy hôm nay",
+    "người gai gai sốt chảy nước mũi trong ngạt cứng mũi",
+    "hắt xì hơi liên tục chảy nước mũi rát họng",
+    "bị nhiễm lạnh sổ mũi khụt khịt ho húng hắng",
+    "cảm xoàng sổ mũi hắt xì ngứa cổ"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

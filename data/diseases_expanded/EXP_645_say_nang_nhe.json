@@ -1,0 +1,89 @@
+{
+  "disease_id": "EXP_645",
+  "name_vi": "Say nắng nhẹ",
+  "name_en": "Mild Heat Exhaustion",
+  "category": "general",
+  "aliases": [
+    "Say nắng nhẹ",
+    "Cảm nắng nhẹ",
+    "Kiệt sức do nóng mức độ nhẹ"
+  ],
+  "tier": 1,
+  "description": "Tình trạng kiệt sức, mất nước và điện giải nhẹ qua mồ hôi do hoạt động hoặc ở ngoài trời nắng nóng kéo dài, cơ thể vẫn còn khả năng điều hòa thân nhiệt.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Mệt mỏi rã rời, hoa mắt chóng mặt",
+        "name_en": "Severe fatigue, dizziness and lightheadedness",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Vã mồ hôi nhiều, da ẩm ướt",
+        "name_en": "Profuse sweating with cool, moist skin",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác khát nước dữ dội",
+        "name_en": "Intense thirst",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Nhức đầu nhẹ vùng trán",
+        "name_en": "Mild frontal headache",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Buồn nôn nhẹ",
+        "name_en": "Mild nausea",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Tim đập nhanh",
+        "name_en": "Tachycardia",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Thân nhiệt tăng vọt trên 40 độ C, da nóng khô không còn tiết mồ hôi (sốc nhiệt thể nặng / Heat stroke)",
+    "Lú lẫn, nói nhảm, kích động, co giật hoặc hôn mê bất tỉnh",
+    "Nôn mửa dữ dội, tụt huyết áp ngất xỉu"
+  ],
+  "risk_factors": [
+    "Lao động ngoài trời nắng gắt",
+    "Uống không đủ nước",
+    "Mặc quần áo dày không thoát nhiệt",
+    "Người cao tuổi hoặc trẻ nhỏ"
+  ],
+  "questions_to_ask": [
+    "Bạn bị mệt sau khi đi ngoài trời nắng gắt bao lâu?",
+    "Cơ thể bạn vẫn còn ra mồ hôi hay da đã khô nóng ran?",
+    "Bạn có bị lú lẫn, ngất xỉu hoặc sốt cao trên 39.5 độ C không?"
+  ],
+  "differential_diagnoses": [
+    "Sốc nhiệt (Heat Stroke - Cấp cứu)",
+    "Hạ đường huyết",
+    "Ngộ độc thực phẩm"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Sốt cao trên 40 độ C, da khô nóng mất mồ hôi, co giật hoặc hôn mê (sốc nhiệt cấp cứu 115 ngay)"
+  ],
+  "user_language_variants": [
+    "đi ngoài trời nắng chang chang về người mệt lả hoa mắt vã mồ hôi",
+    "bị cảm nắng đầu váng vất khát nước bủn rủn tay chân",
+    "say nắng hơi sốt nhẹ người rũ rượi buồn nôn",
+    "đi nắng về bị say nắng mệt mỏi hoa mắt chóng mặt",
+    "cảm nắng say nắng người nóng bừng vã mồ hôi"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

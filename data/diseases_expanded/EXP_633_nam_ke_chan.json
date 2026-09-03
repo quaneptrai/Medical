@@ -1,0 +1,83 @@
+{
+  "disease_id": "EXP_633",
+  "name_vi": "Nấm kẽ chân",
+  "name_en": "Tinea Pedis",
+  "category": "dermatology",
+  "aliases": [
+    "Nước ăn chân",
+    "Nấm kẽ ngón chân",
+    "Athlete's foot"
+  ],
+  "tier": 1,
+  "description": "Bệnh nhiễm vi nấm sợi nông ở các kẽ ngón chân (thường là kẽ ngón 3-4 và 4-5) do ẩm ướt, lội nước bẩn, làm da bong tróc, mủn trắng và ngứa ngáy dữ dội.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Da kẽ ngón chân bị bong tróc, mủn trắng ẩm ướt",
+        "name_en": "Macerated, peeling white skin between toes",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Ngứa ngáy dữ dội ở các kẽ ngón chân",
+        "name_en": "Intense itching in interdigital spaces",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Nứt nẻ kẽ chân gây rát buốt khi dính nước",
+        "name_en": "Fissures and stinging pain on water contact",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Mùi hôi khó chịu ở kẽ chân",
+        "name_en": "Foul odor from foot crevices",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Mụn nước nhỏ li ti ở rìa kẽ ngón",
+        "name_en": "Tiny vesicles along toe margins",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Bàn chân sưng to, mu chân đỏ rực nóng đau lan lên cẳng chân (viêm mô tế bào biến chứng)",
+    "Nổi hạch bẹn sưng đau kèm sốt cao rét run",
+    "Người bệnh đái tháo đường bị loét kẽ chân"
+  ],
+  "risk_factors": [
+    "Lội nước mưa, ngập lụt",
+    "Đi giày bít tất ẩm ướt cả ngày",
+    "Dùng chung dép thảm lau chân"
+  ],
+  "questions_to_ask": [
+    "Bạn có lội nước mưa ngập hoặc đi giày ẩm ướt nhiều giờ không?",
+    "Kẽ ngón chân có bị nứt rách chảy máu hay chảy mủ không?",
+    "Bàn chân có bị sưng đỏ lan rộng hoặc bạn có bị sốt không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm da tiếp xúc dị ứng da giày",
+    "Chàm kẽ ngón chân",
+    "Nhiễm khuẩn kẽ ngón"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Viêm mô tế bào bàn chân sưng đỏ nóng đau dữ dội kèm sốt cao ở bệnh nhân tiểu đường"
+  ],
+  "user_language_variants": [
+    "lội nước mưa về kẽ ngón chân bị ngứa loét trắng nước ăn chân",
+    "kẽ chân bong da nứt nẻ ngứa gãi chảy nước rát buốt",
+    "nấm ở kẽ ngón chân ngứa buốt mủn da màu trắng",
+    "bị nước ăn chân kẽ ngón chân nứt toác ngứa rát",
+    "nấm kẽ chân ngứa ngáy khó chịu sau khi đi mưa"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

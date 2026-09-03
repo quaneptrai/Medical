@@ -1,0 +1,79 @@
+{
+  "disease_id": "EXP_641",
+  "name_vi": "Bong gân mắt cá chân",
+  "name_en": "Ankle Sprain",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Bong gân cổ chân",
+    "Trẹo chân mắt cá",
+    "Giãn dây chằng cổ chân nhẹ"
+  ],
+  "tier": 1,
+  "description": "Tổn thương căng giãn hoặc rách vi thể dây chằng chày mác trước ở mắt cá ngoài sau động tác lật vặn cổ chân đột ngột khi bước hụt hoặc trẹo chân.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau nhói ở vùng mắt cá ngoài cổ chân sau trẹo chân",
+        "name_en": "Sharp pain at lateral malleolus after twisting",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Sưng nề nhẹ đến vừa quanh mắt cá chân",
+        "name_en": "Swelling around lateral ankle",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Vẫn có thể chịu lực đi lại nhẹ nhàng được",
+        "name_en": "Able to bear weight with mild limp",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Vết bầm tím tụ máu dưới da mắt cá sau 24 giờ",
+        "name_en": "Ecchymosis around ankle after 24 hours",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Không thể bước đi hay chịu lực quá 4 bước ngay sau chấn thương (tiêu chuẩn Ottawa nghi gãy xương)",
+    "Khớp cổ chân biến dạng lệch trục hoàn toàn",
+    "Tiếng 'rắc' lớn kèm mất cảm giác hoặc lạnh tái bàn chân"
+  ],
+  "risk_factors": [
+    "Đi giày cao gót",
+    "Chơi thể thao đổi hướng nhanh (bóng đá, bóng rổ)",
+    "Mặt đường gồ ghề",
+    "Tiền sử trẹo cổ chân"
+  ],
+  "questions_to_ask": [
+    "Bạn có thể đặt chân xuống đất đi được vài bước không?",
+    "Cổ chân có bị biến dạng méo mó hoặc bầm tím sưng to dữ dội không?",
+    "Lúc bị ngã bạn có nghe thấy tiếng gãy 'rắc' lớn ở xương không?"
+  ],
+  "differential_diagnoses": [
+    "Gãy xương mắt cá chân (gãy mắt cá ngoài)",
+    "Đứt hoàn toàn dây chằng cổ chân",
+    "Đứt gân gót Achilles"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Khớp cổ chân biến dạng toác, lộ đầu xương hoặc không thể đặt chân xuống đất"
+  ],
+  "user_language_variants": [
+    "bước trượt bậc cầu thang bị lật sơ mi trẹo mắt cá chân sưng phù",
+    "trẹo chân khi đá bóng mắt cá ngoài sưng đau ấn vào buốt",
+    "bị bong gân cổ chân đi khập khiễng nhức mắt cá",
+    "lật cổ chân mắt cá sưng vù đau khi dẫm chân",
+    "bong gân trẹo mắt cá chân sau khi bước hụt"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

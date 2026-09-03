@@ -1,3 +1,9 @@
+# ⚠ HISTORICAL / SUPERSEDED — KẾT QUẢ 10/10 KHÔNG CÒN HỢP LỆ
+
+Báo cáo cũ đã cho GTC_009 vượt qua dù phản hồi sai chuyên khoa. Nó được giữ
+nguyên để audit, không phải bằng chứng clinical pass hay release hiện tại. Chỉ
+báo cáo JSON sinh bởi evaluator đã harden mới được dùng sau khi chạy lại Ollama.
+
 # BÁO CÁO ĐÁNH GIÁ LÂM SÀNG THẬT (END-TO-END GOLDEN EVALUATION)
 
 - **Mô hình suy luận (LLM):** `llama3.1:8b` qua Ollama (Local)

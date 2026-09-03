@@ -1,0 +1,85 @@
+{
+  "disease_id": "EXP_620",
+  "name_vi": "Say tàu xe",
+  "name_en": "Motion Sickness",
+  "category": "general",
+  "aliases": [
+    "Say xe",
+    "Say tàu xe",
+    "Say sóng",
+    "Nôn nao khi đi ô tô"
+  ],
+  "tier": 1,
+  "description": "Rối loạn thăng bằng sinh lý do sự mâu thuẫn giữa tín hiệu thị giác và hệ thống tiền đình tai trong khi cơ thể di chuyển trên phương tiện giao thông.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cảm giác nôn nao, cồn cào trong bụng",
+        "name_en": "Stomach awareness and nausea",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Chóng mặt, choáng váng khi xe di chuyển",
+        "name_en": "Dizziness and lightheadedness in motion",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Vã mồ hôi lạnh",
+        "name_en": "Cold sweats",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Nôn mửa",
+        "name_en": "Vomiting",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Mệt lả, buồn ngủ rũ rượi",
+        "name_en": "Drowsiness and malaise",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Nôn vọt dữ dội kèm đau đầu dữ dội như búa bổ (nghi tăng áp lực nội sọ)",
+    "Yếu liệt nửa người, nói ngọng, méo miệng",
+    "Mất ý thức, co giật"
+  ],
+  "risk_factors": [
+    "Ngồi ghế sau xe",
+    "Đọc sách xem điện thoại khi xe chạy",
+    "Mùi xăng xe",
+    "Thiếu ngủ trước chuyến đi"
+  ],
+  "questions_to_ask": [
+    "Triệu chứng nôn nao chỉ xuất hiện khi bạn đi xe/tàu/thuyền phải không?",
+    "Sau khi xuống xe nghỉ ngơi bạn có trở lại bình thường không?",
+    "Bạn có bị đau đầu dữ dội hoặc nhìn mờ, yếu tay chân không?"
+  ],
+  "differential_diagnoses": [
+    "Rối loạn tiền đình",
+    "Hạ đường huyết",
+    "Viêm dạ dày cấp"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Nôn vọt liên tục kèm đau đầu dữ dội, lú lẫn hoặc co giật"
+  ],
+  "user_language_variants": [
+    "cứ lên ô tô là chóng mặt buồn nôn say xe nôn thốc nôn tháo",
+    "ngửi mùi xe là cồn cào ruột gan vã mồ hôi lạnh buồn nôn",
+    "say sóng đi tàu thuyền người chao đảo nôn nao mệt rũ",
+    "say xe ô tô say tàu xe nôn nao chóng mặt",
+    "lên xe là say xe chóng mặt cồn cào muốn ói"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

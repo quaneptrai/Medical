@@ -44,6 +44,7 @@ def reconstruct_target_tensor(
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--base-model", default="BAAI/bge-m3")
+    parser.add_argument("--base-revision", required=True)
     source_group = parser.add_mutually_exclusive_group(required=True)
     source_group.add_argument("--tuned-model")
     source_group.add_argument(
@@ -69,10 +70,19 @@ def main() -> None:
         parser.error("--source-alpha is only valid with --source-blend")
 
     print(f"Loading base model: {args.base_model}")
-    base = SentenceTransformer(args.base_model, device="cpu")
+    if len(args.base_revision) != 40:
+        parser.error("--base-revision must be a full 40-character commit SHA")
+    base = SentenceTransformer(
+        args.base_model,
+        device="cpu",
+        revision=args.base_revision,
+    )
     source_kind = "known blend" if args.source_blend else "tuned model"
     print(f"Loading {source_kind}: {source_reference}")
-    source_model = SentenceTransformer(source_reference, device="cpu")
+    source_model = SentenceTransformer(
+        source_reference,
+        device="cpu",
+    )
 
     base_state = base.state_dict()
     source_state = source_model.state_dict()
@@ -114,6 +124,7 @@ def main() -> None:
             else "linear_weight_delta_scaling"
         ),
         "base_model": args.base_model,
+        "base_revision": args.base_revision,
         "tuned_model": args.tuned_model,
         "source_blend": args.source_blend,
         "source_alpha": args.source_alpha,

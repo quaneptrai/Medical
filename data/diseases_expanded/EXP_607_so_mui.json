@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_607",
+  "name_vi": "Sổ mũi",
+  "name_en": "Rhinorrhea",
+  "category": "respiratory",
+  "aliases": [
+    "Chảy nước mũi",
+    "Chảy nước mũi trong",
+    "Chảy dịch mũi cấp"
+  ],
+  "tier": 1,
+  "description": "Tình trạng niêm mạc mũi tăng tiết dịch nhầy lỏng trong suốt, thường gặp trong nhiễm lạnh, thay đổi thời tiết hoặc viêm long hô hấp giai đoạn đầu.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Chảy nước mũi trong liên tục",
+        "name_en": "Continuous clear nasal discharge",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác ngứa mũi",
+        "name_en": "Nasal pruritus",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Kích ứng đỏ quanh cánh mũi do lau chùi",
+        "name_en": "Erythema around nostrils from wiping",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Hắt hơi ngắt quãng",
+        "name_en": "Intermittent sneezing",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Cảm giác nghẹt mũi thoáng qua",
+        "name_en": "Transient nasal congestion",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Chảy dịch mũi một bên kèm mùi hôi thối nồng nặc (nghi dị vật mũi hoặc viêm xoang do nấm/răng)",
+    "Chảy dịch trong liên tục như nước sau chấn thương đầu (nghi rò dịch não tủy)"
+  ],
+  "risk_factors": [
+    "Gặp lạnh",
+    "Gió lùa",
+    "Thay đổi nhiệt độ phòng điều hòa",
+    "Kích ứng bụi"
+  ],
+  "questions_to_ask": [
+    "Nước mũi của bạn chảy ở một hay cả hai bên lỗ mũi?",
+    "Dịch mũi hoàn toàn trong suốt hay có màu vàng đục, mủ?",
+    "Bạn có bị sốt hoặc đau nhức các hốc xoang trên mặt không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm mũi dị ứng",
+    "Cảm lạnh",
+    "Viêm xoang cấp"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Chảy dịch mũi sau tai nạn giao thông hoặc va đập mạnh vùng đầu",
+    "Sốt cao cứng gáy nôn vọt"
+  ],
+  "user_language_variants": [
+    "nước mũi chảy ròng ròng lau không kịp ướt hết cả khăn",
+    "mũi cứ thò lò nước trong ngứa mũi hắt xì liên tục",
+    "chảy dịch mũi trong suốt quẹt mũi rát cả cánh mũi",
+    "sổ mũi chảy nước mũi lòng thòng ròng ròng",
+    "bị chảy nước mũi nước trong chảy suốt ngày"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

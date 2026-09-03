@@ -1,0 +1,58 @@
+{
+  "EXP_153": {
+    "aliases": [
+      "Khản tiếng",
+      "Khản tiếng cơ năng"
+    ],
+    "user_language_variants": [
+      "nói nhiều cả ngày xong giọng rè và nhanh hết hơi",
+      "sau khi hát lớn gần như mất tiếng nhưng không sốt",
+      "dạy học xong giọng đục nghỉ nói thì đỡ"
+    ]
+  },
+  "EXP_566": {
+    "aliases": [
+      "Đầy bụng khó tiêu chức năng",
+      "Khó tiêu chức năng"
+    ],
+    "user_language_variants": [
+      "ăn một ít đã no và vùng trên rốn cứ ậm ạch",
+      "sau bữa nhiều dầu mỡ đầy bụng và hơi buồn nôn",
+      "bụng trên nặng tức hay ợ hơi nhưng không đau dữ"
+    ]
+  },
+  "EXP_351": {
+    "aliases": [
+      "Táo bón chức năng",
+      "Khó đi đại tiện"
+    ],
+    "user_language_variants": [
+      "cả tuần chỉ đi ngoài hai lần phân rất khô",
+      "đi cầu phải rặn lâu mà vẫn có cảm giác chưa hết",
+      "phân vón thành viên nhỏ và bụng dưới hơi chướng"
+    ]
+  },
+  "EXP_603": {
+    "aliases": [
+      "Ốm nghén",
+      "Ốm nghén nôn nhiều",
+      "Nôn nghén"
+    ],
+    "user_language_variants": [
+      "mới mang thai buồn nôn buổi sáng và rất sợ mùi cơm",
+      "thai kỳ đầu hay nôn khan nhưng vẫn uống nước được",
+      "ngửi đồ chiên là cồn cào và muốn ói"
+    ]
+  },
+  "EXP_474": {
+    "aliases": [
+      "Đau mắt đỏ",
+      "Viêm kết mạc cấp"
+    ],
+    "user_language_variants": [
+      "sáng dậy hai mí dính ghèn và lòng trắng đỏ",
+      "một mắt đỏ cộm rồi hôm sau lây sang mắt kia",
+      "mắt đỏ chảy nước và có nhiều dử nhưng thị lực vẫn rõ"
+    ]
+  }
+}

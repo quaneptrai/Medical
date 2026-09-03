@@ -5,7 +5,9 @@
   "category": "ophthalmology",
   "aliases": [
     "Viêm Kết Mạc",
-    "Viem Ket Mac"
+    "Viem Ket Mac",
+    "Đau mắt đỏ",
+    "Viêm kết mạc cấp"
   ],
   "tier": 2,
   "description": "Viêm Kết Mạc (Chuyên khoa: ophthalmology)",
@@ -140,7 +142,10 @@
     "Tôi bị tắc tuyến lệ và mắt bị kích ứng, chảy nước mắt. Tôi có thể đang bị bệnh gì?",
     "Tôi bị tắc tuyến lệ, chất nhầy chảy ra từ mắt, tiết dịch khô tạo thành lớp vảy trên mắt. Tôi có thể đang bị bệnh gì?",
     "Tôi bị tắc tuyến lệ, mờ mắt, sưng một bên mũi gần mắt. Tôi có thể đang bị bệnh gì?",
-    "Tôi bị tắc tuyến lệ, chảy máu mắt, sốt. Tôi có thể đang bị bệnh gì?"
+    "Tôi bị tắc tuyến lệ, chảy máu mắt, sốt. Tôi có thể đang bị bệnh gì?",
+    "sáng dậy hai mí dính ghèn và lòng trắng đỏ",
+    "một mắt đỏ cộm rồi hôm sau lây sang mắt kia",
+    "mắt đỏ chảy nước và có nhiều dử nhưng thị lực vẫn rõ"
   ],
   "provenance": {
     "source_document": "ViMedical_Disease Dataset",

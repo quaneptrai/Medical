@@ -1,0 +1,50 @@
+﻿disease_id,review_status,reviewer_id,content_accuracy,red_flag_safety,urgency_appropriate,reviewed_at,notes
+EXP_604,,,,,,,Review: Cảm lạnh thông thường
+EXP_605,,,,,,,Review: Ho khan
+EXP_606,,,,,,,Review: Ho có đờm
+EXP_607,,,,,,,Review: Sổ mũi
+EXP_608,,,,,,,Review: Nghẹt mũi
+EXP_609,,,,,,,Review: Hăm kẽ do ẩm
+EXP_610,,,,,,,Review: Chảy máu cam nhẹ
+EXP_611,,,,,,,Review: Ù tai cơ năng
+EXP_612,,,,,,,Review: Nút ráy tai
+EXP_613,,,,,,,Review: Nước vào tai
+EXP_614,,,,,,,Review: Rát họng kích ứng
+EXP_615,,,,,,,Review: Nhiệt miệng
+EXP_616,,,,,,,Review: Móng chân mọc ngược
+EXP_617,,,,,,,Review: Ợ chua ợ nóng
+EXP_618,,,,,,,Review: Nấc cụt
+EXP_619,,,,,,,Review: Viêm quanh móng nhẹ
+EXP_620,,,,,,,Review: Say tàu xe
+EXP_621,,,,,,,Review: Sâu răng
+EXP_622,,,,,,,Review: Viêm lợi
+EXP_623,,,,,,,Review: Hôi miệng
+EXP_624,,,,,,,Review: Đau răng
+EXP_625,,,,,,,Review: Hắc lào
+EXP_626,,,,,,,Review: Lang ben
+EXP_627,,,,,,,Review: Gàu da đầu
+EXP_628,,,,,,,Review: Vết côn trùng cắn
+EXP_629,,,,,,,Review: Rôm sảy
+EXP_630,,,,,,,Review: Trầy xước da
+EXP_631,,,,,,,Review: Bỏng nhẹ độ 1
+EXP_632,,,,,,,Review: Cháy nắng
+EXP_633,,,,,,,Review: Nấm kẽ chân
+EXP_634,,,,,,,Review: Khô môi nứt môi
+EXP_635,,,,,,,Review: Nứt gót chân
+EXP_636,,,,,,,Review: Vết bầm tím dưới da
+EXP_637,,,,,,,Review: Da khô nứt nẻ
+EXP_638,,,,,,,Review: Đau mỏi vai gáy
+EXP_639,,,,,,,Review: Đau lưng cơ năng
+EXP_640,,,,,,,Review: Chuột rút
+EXP_641,,,,,,,Review: Bong gân mắt cá chân
+EXP_642,,,,,,,Review: Đau mỏi cơ sau vận động
+EXP_643,,,,,,,Review: Đau gót chân do viêm cân gan chân
+EXP_644,,,,,,,Review: Đau đầu căng thẳng
+EXP_645,,,,,,,Review: Say nắng nhẹ
+EXP_646,,,,,,,Review: Suy nhược cơ thể
+EXP_647,,,,,,,Review: Căng thẳng thần kinh
+EXP_648,,,,,,,Review: Sốt phát ban do virus
+EXP_649,,,,,,,Review: Phồng rộp da do ma sát
+EXP_650,,,,,,,Review: Khô mắt
+EXP_651,,,,,,,Review: Mỏi mắt do điều tiết
+EXP_652,,,,,,,Review: Dày sừng nang lông

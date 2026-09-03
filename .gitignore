@@ -5,6 +5,8 @@ __pycache__/
 venv/
 # Vector index is a rebuildable artifact and is model-specific — never sync it.
 data/embeddings/
+data/diseases_expanded.backup-before-rebuild*/
+data/diseases_expanded.staging-*/
 .pytest_cache/
 .idea/
 .vscode/
@@ -16,6 +18,10 @@ build/
 *.part.*
 PIPELINE_SUCCESS
 data/finetune/
+data/clinical_review/clinical_adjudication.csv
+data/clinical_review/adjudication_summary.json
+artifacts/training/
+artifacts/evaluation/gpu_training_preflight.json
 dataset_candidates.json
 models/*
 !models/registry.json
@@ -23,3 +29,17 @@ models/*
 models/*/*
 !models/*/blend_manifest.json
 !models/*/precision_manifest.json
+
+# Frontend
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+*.tsbuildinfo
+next-env.d.ts
+*.sqlite*
+*.db*
+frontend/clinic/data/*.db*
+
+# External repos
+s32k144-learning-universe/

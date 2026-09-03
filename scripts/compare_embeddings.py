@@ -77,6 +77,7 @@ def _ranking_metrics(rankings: list[list[int]], cases: list[dict], diseases: lis
     emergency_hits = 0
     emergency_total = 0
     per_case = []
+    per_disease: dict[str, dict[str, int]] = {}
 
     for indices, case in zip(rankings, cases):
         rank = next(
@@ -98,6 +99,14 @@ def _ranking_metrics(rankings: list[list[int]], cases: list[dict], diseases: lis
             "hit@3": bool(rank is not None and rank <= 3),
             "hit@5": bool(rank is not None and rank <= 5),
         })
+        disease_key = case.get("disease_id") or _expected_names(case)[0]
+        disease_row = per_disease.setdefault(
+            disease_key,
+            {"cases": 0, "hit@1": 0, "hit@3": 0, "hit@5": 0},
+        )
+        disease_row["cases"] += 1
+        for cutoff in (1, 3, 5):
+            disease_row[f"hit@{cutoff}"] += int(rank is not None and rank <= cutoff)
 
     total = len(cases)
     metrics = {
@@ -107,6 +116,15 @@ def _ranking_metrics(rankings: list[list[int]], cases: list[dict], diseases: lis
         "mrr": float(np.mean(reciprocal_ranks)),
         "cases": total,
         "per_case": per_case,
+        "per_disease": {
+            disease_id: {
+                "cases": row["cases"],
+                "recall@1": row["hit@1"] / row["cases"],
+                "recall@3": row["hit@3"] / row["cases"],
+                "recall@5": row["hit@5"] / row["cases"],
+            }
+            for disease_id, row in sorted(per_disease.items())
+        },
     }
     if emergency_total:
         metrics["emergency_recall@5"] = emergency_hits / emergency_total
@@ -214,26 +232,41 @@ def evaluate_corpus(
 
 
 def evaluate_model(model_name: str, args) -> dict:
-    model = SentenceTransformer(model_name, device=args.device)
+    revision = args.base_revision if model_name == args.base_model_name else None
+    model = SentenceTransformer(
+        model_name,
+        device=args.device,
+        revision=revision,
+    )
     model.max_seq_length = args.seq_len
-    results = {
-        "generated_colloquial": evaluate_corpus(
+    results = {}
+    if "generated_colloquial" in args.benchmarks:
+        results["generated_colloquial"] = evaluate_corpus(
             model,
             ROOT / "data" / "diseases",
             ROOT / "data" / "test_cases" / "generated_benchmark.json",
             encode_batch_size=args.encode_batch_size,
             bm25_weight=args.bm25_weight,
             limit=args.limit_generated,
-        ),
-        "diseases_603": evaluate_corpus(
+        )
+    if "diseases_603" in args.benchmarks:
+        results["diseases_603"] = evaluate_corpus(
             model,
             ROOT / "data" / "diseases_expanded",
             ROOT / "data" / "test_cases" / "benchmark_603_diseases.json",
             encode_batch_size=args.encode_batch_size,
             bm25_weight=args.bm25_weight,
             limit=args.limit_603,
-        ),
-    }
+        )
+    if "common_49" in args.benchmarks:
+        results["common_49"] = evaluate_corpus(
+            model,
+            ROOT / "data" / "diseases_expanded",
+            ROOT / "data" / "test_cases" / "common_49_validation.json",
+            encode_batch_size=args.encode_batch_size,
+            bm25_weight=args.bm25_weight,
+            limit=args.limit_common_49,
+        )
     del model
     try:
         import torch
@@ -257,39 +290,182 @@ def _print_model_results(model_name: str, results: dict) -> None:
             )
 
 
-def enforce_quality_gate(all_results: dict, tolerance: float) -> None:
+def enforce_quality_gate(
+    all_results: dict,
+    tolerance: float,
+    baseline_names: list[str] | None = None,
+) -> None:
     model_names = list(all_results)
     if len(model_names) < 2:
         raise ValueError("Quality gate requires baseline first and candidate last")
-    baseline = all_results[model_names[0]]
-    candidate = all_results[model_names[-1]]
+    candidate_name = model_names[-1]
+    candidate = all_results[candidate_name]
+    baseline_names = baseline_names or [model_names[0]]
+    missing_baselines = [name for name in baseline_names if name not in all_results]
+    if missing_baselines:
+        raise ValueError(f"Quality gate baselines were not evaluated: {missing_baselines}")
+    if candidate_name in baseline_names:
+        raise ValueError("Candidate cannot also be a quality-gate baseline")
     regressions = []
-    for benchmark in baseline:
-        for mode in ("dense", "hybrid"):
-            metrics = ["recall@1", "recall@5"]
-            if "emergency_recall@5" in baseline[benchmark][mode]:
-                metrics.append("emergency_recall@5")
-            for metric in metrics:
-                before = baseline[benchmark][mode][metric]
-                after = candidate[benchmark][mode].get(metric)
-                metric_tolerance = 0.0 if metric == "emergency_recall@5" else tolerance
-                if after is None:
-                    regressions.append(f"{benchmark}.{mode}.{metric}: missing in candidate")
-                elif after + metric_tolerance < before:
-                    regressions.append(
-                        f"{benchmark}.{mode}.{metric}: {before:.2%} -> {after:.2%}"
-                    )
+    for baseline_name in baseline_names:
+        baseline = all_results[baseline_name]
+        for benchmark in baseline:
+            for mode in ("dense", "hybrid"):
+                metrics = ["recall@1", "recall@5"]
+                if "emergency_recall@5" in baseline[benchmark][mode]:
+                    metrics.append("emergency_recall@5")
+                for metric in metrics:
+                    before = baseline[benchmark][mode][metric]
+                    after = candidate[benchmark][mode].get(metric)
+                    metric_tolerance = 0.0 if metric == "emergency_recall@5" else tolerance
+                    prefix = f"vs {baseline_name}: " if len(baseline_names) > 1 else ""
+                    if after is None:
+                        regressions.append(f"{prefix}{benchmark}.{mode}.{metric}: missing in candidate")
+                    elif after + metric_tolerance < before:
+                        regressions.append(
+                            f"{prefix}{benchmark}.{mode}.{metric}: {before:.2%} -> {after:.2%}"
+                        )
     if regressions:
         raise SystemExit("[QUALITY GATE FAILED]\n" + "\n".join(regressions))
-    print(f"\n[QUALITY GATE PASSED] No key metric regressed by more than {tolerance:.2%}.")
+    print(
+        f"\n[QUALITY GATE PASSED] Candidate did not regress against "
+        f"{', '.join(baseline_names)} by more than {tolerance:.2%}."
+    )
+
+
+def enforce_common_49_gate(all_results: dict, incumbent_name: str) -> None:
+    """Require useful coverage, not merely non-regression, on every new disease."""
+    candidate_name = list(all_results)[-1]
+    candidate = all_results[candidate_name].get("common_49")
+    if candidate is None:
+        raise SystemExit("[COMMON-49 GATE FAILED] common_49 benchmark was not evaluated")
+    floors = {
+        "dense": {"recall@1": 0.80, "recall@5": 0.95},
+        "hybrid": {"recall@1": 0.90, "recall@5": 0.98},
+    }
+    failures = []
+    for mode, metrics in floors.items():
+        for metric, floor in metrics.items():
+            actual = candidate[mode][metric]
+            if actual < floor:
+                failures.append(f"{mode}.{metric}: {actual:.2%} < required {floor:.2%}")
+        weak = [
+            disease_id
+            for disease_id, row in candidate[mode]["per_disease"].items()
+            if row["recall@5"] < 0.80
+        ]
+        if weak:
+            failures.append(
+                f"{mode}.per_disease.recall@5 < 80% for {len(weak)} diseases: {weak[:12]}"
+            )
+    if incumbent_name not in all_results:
+        failures.append(f"incumbent was not evaluated: {incumbent_name}")
+    else:
+        before = all_results[incumbent_name]["common_49"]["dense"]["recall@1"]
+        after = candidate["dense"]["recall@1"]
+        if after < 0.90 and after < before + 0.02:
+            failures.append(
+                f"dense.recall@1 did not improve by 2 points vs incumbent: "
+                f"{before:.2%} -> {after:.2%} (90% absolute waives gain requirement)"
+            )
+    if failures:
+        raise SystemExit("[COMMON-49 GATE FAILED]\n" + "\n".join(failures))
+    print("\n[COMMON-49 GATE PASSED] Aggregate and per-disease coverage floors passed.")
+
+
+def enforce_medical_dominance(
+    all_results: dict,
+    base_name: str,
+    incumbent_name: str,
+    *,
+    min_dense_recall1_gain: float = 0.02,
+) -> None:
+    """Accept only a candidate that Pareto-dominates base on medical validation."""
+    candidate_name = list(all_results)[-1]
+    missing = [name for name in (base_name, incumbent_name) if name not in all_results]
+    if missing:
+        raise ValueError(f"Medical-dominance references were not evaluated: {missing}")
+    if candidate_name in {base_name, incumbent_name}:
+        raise ValueError("Candidate must be distinct from base and incumbent")
+
+    base = all_results[base_name]
+    incumbent = all_results[incumbent_name]
+    candidate = all_results[candidate_name]
+    failures = []
+    for benchmark, base_benchmark in base.items():
+        if benchmark not in incumbent or benchmark not in candidate:
+            failures.append(f"{benchmark}: missing from incumbent or candidate")
+            continue
+        for mode in ("dense", "hybrid"):
+            for metric in ("recall@1", "recall@3", "recall@5", "mrr"):
+                before = base_benchmark[mode].get(metric)
+                current = candidate[benchmark][mode].get(metric)
+                production = incumbent[benchmark][mode].get(metric)
+                if before is None or current is None or production is None:
+                    failures.append(f"{benchmark}.{mode}.{metric}: missing metric")
+                    continue
+                # A metric already at its mathematical ceiling may only tie.
+                if before >= 1.0 - 1e-12:
+                    if current < before:
+                        failures.append(
+                            f"{benchmark}.{mode}.{metric}: ceiling regressed "
+                            f"{before:.2%} -> {current:.2%}"
+                        )
+                elif current <= before:
+                    failures.append(
+                        f"{benchmark}.{mode}.{metric}: candidate does not beat base "
+                        f"({before:.4f} -> {current:.4f})"
+                    )
+                if current < production:
+                    failures.append(
+                        f"{benchmark}.{mode}.{metric}: candidate regresses incumbent "
+                        f"({production:.4f} -> {current:.4f})"
+                    )
+
+            for metric in ("emergency_recall@5",):
+                if metric not in base_benchmark[mode]:
+                    continue
+                before = base_benchmark[mode][metric]
+                current = candidate[benchmark][mode].get(metric)
+                production = incumbent[benchmark][mode].get(metric)
+                if current is None or current < before or (
+                    production is not None and current < production
+                ):
+                    failures.append(
+                        f"{benchmark}.{mode}.{metric}: safety recall must not regress"
+                    )
+
+        base_r1 = base_benchmark["dense"]["recall@1"]
+        candidate_r1 = candidate[benchmark]["dense"]["recall@1"]
+        if base_r1 < 1.0 - 1e-12 and candidate_r1 - base_r1 < min_dense_recall1_gain:
+            failures.append(
+                f"{benchmark}.dense.recall@1 gain is only "
+                f"{candidate_r1 - base_r1:+.2%}; required >= {min_dense_recall1_gain:.2%}"
+            )
+
+    if failures:
+        raise SystemExit("[MEDICAL DOMINANCE GATE FAILED]\n" + "\n".join(failures))
+    print(
+        "\n[MEDICAL DOMINANCE GATE PASSED] Candidate beats base on every "
+        "non-ceiling medical metric, preserves ceiling/safety metrics, and does not "
+        "regress the production incumbent."
+    )
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--models", nargs="+", default=["BAAI/bge-m3", "models/bge-m3-medical-v2"])
     parser.add_argument("--device", default=resolve_device())
+    parser.add_argument("--base-model-name", default="BAAI/bge-m3")
+    parser.add_argument("--base-revision")
     parser.add_argument("--seq-len", type=int, default=768)
     parser.add_argument("--encode-batch-size", type=int, default=32)
+    parser.add_argument(
+        "--benchmarks",
+        nargs="+",
+        choices=("generated_colloquial", "diseases_603", "common_49"),
+        default=["generated_colloquial", "diseases_603", "common_49"],
+    )
     parser.add_argument(
         "--bm25-weight",
         type=float,
@@ -297,13 +473,27 @@ def main():
     )
     parser.add_argument("--limit-generated", type=int, default=0, help="0 evaluates all cases")
     parser.add_argument("--limit-603", type=int, default=0, help="0 evaluates all cases")
+    parser.add_argument("--limit-common-49", type=int, default=0, help="0 evaluates all cases")
     parser.add_argument("--report", default="artifacts/evaluation/bge_m3_comparison.json")
     parser.add_argument("--quality-gate", action="store_true")
+    parser.add_argument(
+        "--gate-baselines",
+        nargs="+",
+        help="Evaluated model names that the final candidate must not regress against",
+    )
     parser.add_argument("--regression-tolerance", type=float, default=0.005)
+    parser.add_argument("--strict-medical-dominance", action="store_true")
+    parser.add_argument("--min-dense-recall1-gain", type=float, default=0.02)
     args = parser.parse_args()
 
     if not 0.0 <= args.bm25_weight <= 1.0:
         parser.error("--bm25-weight must be between 0 and 1")
+    if args.base_revision and len(args.base_revision) != 40:
+        parser.error("--base-revision must be a full 40-character commit SHA")
+    if not 0.0 <= args.min_dense_recall1_gain <= 1.0:
+        parser.error("--min-dense-recall1-gain must be between 0 and 1")
+    if args.strict_medical_dominance and not args.quality_gate:
+        parser.error("--strict-medical-dominance requires --quality-gate")
 
     all_results = {}
     for model_name in args.models:
@@ -317,6 +507,8 @@ def main():
         "device": args.device,
         "sequence_length": args.seq_len,
         "bm25_weight": args.bm25_weight,
+        "base_model_name": args.base_model_name,
+        "base_revision": args.base_revision,
         "models": all_results,
         "paired_comparison": _paired_comparison(all_results),
         "evaluation_role": "validation",
@@ -332,7 +524,17 @@ def main():
     print(f"\nReport: {report_path}")
 
     if args.quality_gate:
-        enforce_quality_gate(all_results, args.regression_tolerance)
+        enforce_quality_gate(all_results, args.regression_tolerance, args.gate_baselines)
+        if not args.gate_baselines or len(args.gate_baselines) < 2:
+            raise SystemExit("[COMMON-49 GATE FAILED] base and incumbent baselines are both required")
+        enforce_common_49_gate(all_results, args.gate_baselines[-1])
+        if args.strict_medical_dominance:
+            enforce_medical_dominance(
+                all_results,
+                args.gate_baselines[0],
+                args.gate_baselines[-1],
+                min_dense_recall1_gain=args.min_dense_recall1_gain,
+            )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_619",
+  "name_vi": "Viêm quanh móng nhẹ",
+  "name_en": "Mild Paronychia",
+  "category": "dermatology",
+  "aliases": [
+    "Sưng khóe móng",
+    "Chín mé nhẹ",
+    "Viêm nếp móng"
+  ],
+  "tier": 1,
+  "description": "Viêm khu trú ở nếp da quanh móng tay hoặc móng chân, thường sau xước da, cắn móng hoặc làm móng, gây đỏ, sưng và đau tại chỗ.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Nếp da cạnh móng đỏ và sưng",
+        "name_en": "Red swollen nail fold",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau nhói khi ấn quanh móng",
+        "name_en": "Tenderness around nail",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác căng tức ở khóe móng",
+        "name_en": "Tight pressure at nail edge",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Túi mủ nhỏ sát bờ móng",
+        "name_en": "Small pus pocket beside nail",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Da quanh móng bong xước",
+        "name_en": "Torn skin around nail",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đỏ sưng lan nhanh dọc ngón hoặc bàn tay kèm sốt",
+    "Đau dữ dội, ngón căng cứng hoặc có vệt đỏ chạy lên cánh tay",
+    "Nhiễm trùng quanh móng ở người đái tháo đường hoặc suy giảm miễn dịch"
+  ],
+  "risk_factors": [
+    "Cắn móng tay",
+    "Cắt khóe móng sâu",
+    "Làm móng gây xước",
+    "Tay thường xuyên ngâm nước"
+  ],
+  "questions_to_ask": [
+    "Quanh móng có túi mủ hay đỏ lan khỏi ngón không?",
+    "Trước đó bạn có cắt da, cắn móng hoặc làm móng không?",
+    "Bạn có sốt, đái tháo đường hoặc suy giảm miễn dịch không?"
+  ],
+  "differential_diagnoses": [
+    "Móng mọc ngược",
+    "Chín mé sâu đầu ngón",
+    "Herpes đầu ngón"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Sốt, đau tăng nhanh, đỏ lan theo bàn tay hoặc có vệt đỏ chạy lên cánh tay"
+  ],
+  "user_language_variants": [
+    "khóe móng tay sưng đỏ ấn vào đau sau khi cắt da",
+    "cạnh móng có một chấm mủ nhỏ và căng tức",
+    "cắn móng xong phần da quanh móng viêm đau",
+    "nếp móng ngón tay đỏ nhức nhưng chưa lan",
+    "làm móng về khóe móng sưng và rát"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

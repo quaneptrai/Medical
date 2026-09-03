@@ -5,7 +5,9 @@
   "category": "general",
   "aliases": [
     "Táo Bón",
-    "Tao Bon"
+    "Tao Bon",
+    "Táo bón chức năng",
+    "Khó đi đại tiện"
   ],
   "tier": 2,
   "description": "Táo Bón (Chuyên khoa: general)",
@@ -130,7 +132,10 @@
     "Tôi muốn tìm hiểu về cách điều trị táo bón. Tôi có thể đang bị bệnh gì?",
     "Tôi muốn tìm một cơ sở y tế uy tín để điều trị táo bón. Tôi có thể đang bị bệnh gì?",
     "Tôi muốn được tư vấn về các vấn đề sức khỏe liên quan đến táo bón. Tôi có thể đang bị bệnh gì?",
-    "Tôi muốn tìm hiểu về cách phòng ngừa táo bón. Tôi có thể đang bị bệnh gì?"
+    "Tôi muốn tìm hiểu về cách phòng ngừa táo bón. Tôi có thể đang bị bệnh gì?",
+    "cả tuần chỉ đi ngoài hai lần phân rất khô",
+    "đi cầu phải rặn lâu mà vẫn có cảm giác chưa hết",
+    "phân vón thành viên nhỏ và bụng dưới hơi chướng"
   ],
   "provenance": {
     "source_document": "ViMedical_Disease Dataset",

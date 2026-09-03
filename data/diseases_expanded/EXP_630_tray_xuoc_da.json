@@ -1,0 +1,80 @@
+{
+  "disease_id": "EXP_630",
+  "name_vi": "Trầy xước da",
+  "name_en": "Skin Abrasion",
+  "category": "dermatology",
+  "aliases": [
+    "Trầy xước da",
+    "Vết xây xát da nông",
+    "Tróc da do va quệt"
+  ],
+  "tier": 1,
+  "description": "Tổn thương mất lớp biểu bì da nông do ma sát hoặc va quệt bề mặt thô ráp, làm lộ lớp đáy mao mạch rỉ huyết tương hoặc ít máu.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Mất lớp da biểu bì nông để lộ mô đỏ ướt",
+        "name_en": "Superficial epidermal loss exposing red moist base",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Rỉ dịch huyết tương hoặc vài giọt máu nhỏ",
+        "name_en": "Serosanguinous oozing",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Rát buốt khi tiếp xúc với nước hoặc cồn",
+        "name_en": "Stinging pain on contact with fluids",
+        "frequency": "very_common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Đóng vảy tiết nâu sau 24-48 giờ",
+        "name_en": "Crust formation within 24-48 hours",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Vết thương sâu rách toạc lộ mỡ, gân cơ, xương",
+    "Máu chảy thành dòng hoặc phun thành tia không cầm sau 10 phút ép chặt",
+    "Vết thương dính bùn đất bẩn nghi ngờ nhiễm trùng uốn ván",
+    "Vết thương sưng tấy mủ vàng mùi hôi, sốt cao"
+  ],
+  "risk_factors": [
+    "Ngã xe",
+    "Trượt chân thể thao",
+    "Va quệt bề mặt nhám thô ráp"
+  ],
+  "questions_to_ask": [
+    "Vết xước nông ngoài da hay có vết rách sâu lộ mỡ gân xương?",
+    "Vết thương có dính đất cát bẩn không, bạn đã tiêm phòng uốn ván chưa?",
+    "Máu đã cầm hoàn toàn chưa?"
+  ],
+  "differential_diagnoses": [
+    "Vết rách da (Laceration)",
+    "Bỏng nhiệt",
+    "Vết thương thấu khớp"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Vết thương sâu đứt mạch máu phun máu dữ dội",
+    "Vết thương toác rộng cần khâu phẫu thuật gấp"
+  ],
+  "user_language_variants": [
+    "bị ngã xe quẹt trầy xước da ở đầu gối rớm máu rát buốt",
+    "tay bị cọ vào tường tróc một mảng da rỉ dịch xót",
+    "vết xây xát ngoài da rát khi dính nước rửa",
+    "ngã trầy da chảy máu nhẹ ở cùi chỏ và đầu gối",
+    "xây xước da ngoài đường rát buốt"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

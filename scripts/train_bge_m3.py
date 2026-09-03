@@ -9,10 +9,12 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import importlib.metadata
 import json
 import os
 import platform
 import random
+import subprocess
 import sys
 from dataclasses import asdict, dataclass
 from pathlib import Path
@@ -36,7 +38,10 @@ class TrainProfile:
 
 
 PROFILES = {
-    "cloud-a100": TrainProfile(128, 16, 768, 8, False),
+    # Safe default for the 40 GB PCIe card. GradCache preserves the 128-way
+    # contrastive batch while limiting activation memory to eight examples.
+    "cloud-a100": TrainProfile(128, 8, 768, 8, False),
+    "cloud-a100-80": TrainProfile(128, 16, 768, 8, False),
     "cloud-48gb": TrainProfile(128, 8, 768, 6, True),
     "local-debug": TrainProfile(8, 2, 256, 0, True),
 }
@@ -159,8 +164,18 @@ def train(args, profile: TrainProfile):
             "the disease-aware sampler cannot build such a batch."
         )
 
-    model = SentenceTransformer(args.base_model)
+    model = SentenceTransformer(
+        args.base_model,
+        revision=args.base_revision,
+    )
     model.max_seq_length = args.seq_len
+    if args.gradient_checkpointing:
+        transformer = model[0].auto_model
+        if not hasattr(transformer, "enable_input_require_grads"):
+            raise RuntimeError("Base transformer cannot safely enable gradient checkpointing")
+        # Without this, PyTorch can checkpoint a segment whose inputs do not
+        # require gradients and silently skip gradients for that segment.
+        transformer.enable_input_require_grads()
 
     if args.loss == "cached-mnrl":
         loss = losses.CachedMultipleNegativesRankingLoss(
@@ -248,8 +263,24 @@ def train(args, profile: TrainProfile):
     result = trainer.train(resume_from_checkpoint=resume_checkpoint)
     model.save_pretrained(str(args.out_path))
 
+    try:
+        git_commit = subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True, stderr=subprocess.DEVNULL
+        ).strip()
+    except (OSError, subprocess.CalledProcessError):
+        git_commit = None
+    package_names = ("torch", "sentence-transformers", "transformers", "datasets", "accelerate")
+    package_versions = {}
+    for package_name in package_names:
+        try:
+            package_versions[package_name] = importlib.metadata.version(package_name)
+        except importlib.metadata.PackageNotFoundError:
+            package_versions[package_name] = None
+
     manifest = {
         "base_model": args.base_model,
+        "base_revision": args.base_revision,
+        "git_commit": git_commit,
         "output_dir": str(args.out_path),
         "profile": args.profile,
         "profile_defaults": asdict(profile),
@@ -275,6 +306,7 @@ def train(args, profile: TrainProfile):
             "torch": torch.__version__,
             "cuda": torch.version.cuda,
             "gpu": torch.cuda.get_device_name(0) if torch.cuda.is_available() else None,
+            "packages": package_versions,
         },
         "train_metrics": result.metrics,
     }
@@ -287,6 +319,11 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--triplets-file", default="data/finetune/task_triplets_633.jsonl")
     parser.add_argument("--base-model", default="BAAI/bge-m3")
+    parser.add_argument(
+        "--base-revision",
+        required=True,
+        help="Full immutable Hugging Face commit SHA for the base model",
+    )
     parser.add_argument("--out", default="models/bge-m3-medical-v2")
     parser.add_argument("--profile", choices=sorted(PROFILES), default="cloud-a100")
     parser.add_argument("--loss", choices=("cached-mnrl", "mnrl"), default="cached-mnrl")
@@ -327,6 +364,10 @@ def parse_args():
         parser.error("batch sizes must be positive and contrastive batch-size must be > 1")
     if args.mini_batch_size > args.batch_size:
         parser.error("mini-batch-size cannot exceed batch-size")
+    if len(args.base_revision) != 40 or any(
+        character not in "0123456789abcdef" for character in args.base_revision.casefold()
+    ):
+        parser.error("--base-revision must be a full 40-character commit SHA")
     return args, profile
 
 

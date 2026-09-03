@@ -1,0 +1,78 @@
+{
+  "disease_id": "EXP_613",
+  "name_vi": "Nước vào tai",
+  "name_en": "Water Trapped in Ear",
+  "category": "ent",
+  "aliases": [
+    "Đọng nước trong tai",
+    "Nước vào tai khi tắm bơi",
+    "Tai lùng bùng do nước"
+  ],
+  "tier": 1,
+  "description": "Nước đọng lại trong ống tai ngoài sau khi bơi lội, tắm gội, gây cảm giác ọc ọc, lùng bùng và giảm sức nghe tạm thời.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cảm giác lùng bùng ọc ọc trong tai",
+        "name_en": "Bubbling and sloshing sensation in ear",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Nghe nhỏ hoặc nghẹt bên tai dính nước",
+        "name_en": "Muffled hearing in affected ear",
+        "frequency": "very_common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Cảm giác dịch di chuyển khi nghiêng lắc đầu",
+        "name_en": "Sensation of fluid shifting when tilting head",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Ngứa nhẹ ống tai",
+        "name_en": "Mild ear canal itching",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Tai đau nhức dữ dội, kéo vành tai thấy đau chói (dấu hiệu viêm tai ngoài cấp)",
+    "Chảy dịch mủ vàng đục mùi hôi sau vài ngày nước vào tai",
+    "Sốt cao"
+  ],
+  "risk_factors": [
+    "Đi bơi",
+    "Tắm gội đầu không bịt tai",
+    "Ráy tai hút nước trương nở"
+  ],
+  "questions_to_ask": [
+    "Bạn bị đọng nước trong tai sau khi bơi hay tắm gội?",
+    "Khi kéo nhẹ vành tai bạn có thấy đau buốt dữ dội không?",
+    "Nước vào tai đã bao nhiêu ngày rồi, có chảy mủ không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm tai ngoài cấp",
+    "Nút ráy tai hút nước",
+    "Thủng màng nhĩ"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Sưng đỏ toàn bộ vành tai và mặt bên tai kèm sốt cao"
+  ],
+  "user_language_variants": [
+    "đi bơi về bị nước lọt vào tai lùng bùng ọc ọc",
+    "tắm xong nước đọng trong tai nghiêng đầu nhảy mãi không ra",
+    "tai bị vô nước nghe nghẹt nghẹt ọc ọc bên trong",
+    "nước vào tai nghe lùng bùng khó chịu",
+    "tắm gội bị nước vào tai lắc đầu nghe tiếng nước"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

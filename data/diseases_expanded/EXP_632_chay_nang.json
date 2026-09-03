@@ -1,0 +1,83 @@
+{
+  "disease_id": "EXP_632",
+  "name_vi": "Cháy nắng",
+  "name_en": "Sunburn",
+  "category": "dermatology",
+  "aliases": [
+    "Cháy nắng",
+    "Bỏng nắng",
+    "Đỏ rát da do phơi nắng"
+  ],
+  "tier": 1,
+  "description": "Phản ứng viêm bức xạ cấp tính của da do tiếp xúc quá mức với tia cực tím (UV) từ ánh nắng mặt trời, gây đỏ rực, nóng rát và bong da sau đó.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Da đỏ rực nóng bừng ở vùng phơi nắng",
+        "name_en": "Erythematous, hot skin in sun-exposed areas",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Rát buốt châm chích khi chạm áo quần",
+        "name_en": "Tenderness and stinging on contact with clothes",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Vùng tổn thương ở vai, lưng, mặt, cánh tay",
+        "name_en": "Distributed on shoulders, back, face, arms",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Bong tróc da khô sau 3-5 ngày",
+        "name_en": "Peeling of dry skin after 3-5 days",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Cảm giác ớn lạnh nhẹ toàn thân",
+        "name_en": "Mild systemic chills",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Bỏng nắng phồng rộp bọng nước diện rộng toàn thân",
+    "Sốt cao rét run, lú lẫn, hoa mắt, nôn mửa, kiệt sức vì nhiệt",
+    "Nhiễm trùng bọng nước chảy mủ vàng"
+  ],
+  "risk_factors": [
+    "Tắm biển giữa trưa nắng gắt",
+    "Không thoa kem chống nắng",
+    "Da trắng nhạy cảm UV"
+  ],
+  "questions_to_ask": [
+    "Bạn bị cháy nắng sau khi đi biển hoặc phơi nắng ngoài trời bao lâu?",
+    "Da chỉ đỏ rát hay có nổi các bọng nước phồng rộp không?",
+    "Bạn có bị sốt cao, chóng mặt hay buồn nôn không?"
+  ],
+  "differential_diagnoses": [
+    "Bỏng nhiệt",
+    "Dị ứng ánh sáng do thuốc",
+    "Lupus ban đỏ da"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Cháy nắng diện rộng kèm sốt cao, mê sảng, co giật hoặc kiệt sức vì nhiệt"
+  ],
+  "user_language_variants": [
+    "đi tắm biển về cả lưng đỏ rực bỏng rát chạm áo vào là xót",
+    "da mặt với bả vai cháy nắng đỏ ửng nóng ran rát buốt",
+    "phơi nắng lâu về người đỏ như tôm luộc rát buốt",
+    "cháy nắng đỏ da sau khi đi ngoài trời nắng gắt",
+    "da bị bỏng nắng đỏ rực rát rộp sau chuyến du lịch biển"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

@@ -46,3 +46,31 @@ def test_holdout_release_gate_enforces_counts_and_uniqueness():
     blocked = validate_release_holdout(dataset)
     assert blocked["release_ready"] is False
     assert len(blocked["errors"]) == 2
+
+
+def test_holdout_rejects_duplicate_case_ids_even_when_queries_differ():
+    dataset = ClinicalHoldoutDataset(
+        dataset_id="clinical-final-v1",
+        frozen_at=datetime.now(timezone.utc),
+        cases=[
+            _case(),
+            _case("HLD_0001", "khó thở tăng dần khi nằm", False),
+        ],
+    )
+    result = validate_release_holdout(dataset, min_emergencies=0, min_non_emergencies=0)
+    assert result["release_ready"] is False
+    assert "duplicate case IDs" in result["errors"][0]
+
+
+@pytest.mark.parametrize(
+    "query",
+    [
+        "liên hệ tôi qua patient@example.com vì đang đau ngực",
+        "tôi khó thở hãy gọi số 0912345678 giúp tôi",
+    ],
+)
+def test_holdout_rejects_obvious_identifiers(query):
+    payload = _case().model_dump()
+    payload["query"] = query
+    with pytest.raises(ValidationError, match="de-identified|phone number"):
+        ClinicalHoldoutCase(**payload)

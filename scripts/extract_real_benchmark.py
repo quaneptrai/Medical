@@ -16,7 +16,10 @@ def extract_real_benchmark(threshold=0.5, top_k=200):
     disease_descriptions = [f"{d.name} {d.description} {' '.join(d.symptoms)}" for d in diseases]
 
     print("\n2. Loading BGE-M3 Model on GPU...")
-    model = SentenceTransformer("BAAI/bge-m3", device="cuda" if torch.cuda.is_available() else "cpu")
+    model = SentenceTransformer(
+        "BAAI/bge-m3",
+        device="cuda" if torch.cuda.is_available() else "cpu",
+    )
     
     print("   Embedding 30 disease profiles...")
     disease_embeddings = model.encode(disease_descriptions, convert_to_tensor=True, normalize_embeddings=True)

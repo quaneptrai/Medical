@@ -1,0 +1,75 @@
+{
+  "disease_id": "EXP_618",
+  "name_vi": "Nấc cụt",
+  "name_en": "Hiccups",
+  "category": "digestive",
+  "aliases": [
+    "Nấc cục",
+    "Nấc cụt cơ năng",
+    "Co thắt cơ hoành cấp"
+  ],
+  "tier": 1,
+  "description": "Hiện tượng co thắt đột ngột, không tự chủ của cơ hoành lặp đi lặp lại kèm theo đóng nhanh thanh môn tạo ra tiếng nấc đặc trưng.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Co thắt cơ hoành tạo tiếng nấc ngắt quãng",
+        "name_en": "Involuntary diaphragmatic spasms with hic sound",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác giật cục nhẹ ở vùng ngực bụng",
+        "name_en": "Mild jerking sensation in chest-abdomen",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Mệt mỏi cơ ngực nếu nấc kéo dài vài chục phút",
+        "name_en": "Mild chest muscle fatigue",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Cơn nấc liên tục kéo dài trên 48 giờ không dứt (nấc dai dẳng nghi bệnh lý thần kinh trung ương/lồng ngực)",
+    "Nấc kèm đau tức ngực dữ dội, khó thở hoặc sốt cao",
+    "Nấc kèm nuốt nghẹn hoàn toàn, sụt cân"
+  ],
+  "risk_factors": [
+    "Uống nước lạnh quá nhanh",
+    "Ăn quá no",
+    "Uống nước có ga",
+    "Cười nhiều",
+    "Căng thẳng"
+  ],
+  "questions_to_ask": [
+    "Cơn nấc cụt của bạn đã kéo dài bao lâu (vài phút, vài giờ hay nhiều ngày)?",
+    "Nấc xuất hiện sau khi ăn uống đồ lạnh/có ga phải không?",
+    "Bạn có cảm thấy đau ngực, khó thở hoặc yếu liệt cơ thể không?"
+  ],
+  "differential_diagnoses": [
+    "Trào ngược dạ dày thực quản",
+    "U trung thất",
+    "Rối loạn điện giải"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Nấc cụt kèm méo miệng, yếu liệt nửa người, nói ngọng (dấu hiệu đột quỵ thân não)"
+  ],
+  "user_language_variants": [
+    "bị nấc cụt liên tục không dứt được uống nước không hết",
+    "tự nhiên lên cơn nấc cục ặc ặc mãi cả tiếng đồng hồ",
+    "nấc cụt liên hồi sau khi ăn no uống nước ngọt",
+    "bị nấc cục giật bụng liên tục khó chịu",
+    "cơn nấc cụt kéo dài làm mệt cả người"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

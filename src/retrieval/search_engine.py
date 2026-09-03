@@ -65,6 +65,17 @@ DEFAULT_GENERAL_BM25_WEIGHT = float(
 )
 
 
+def build_collection_name(embedding_model: str, diseases_dir: str | Path) -> str:
+    """Create a Chroma collection key isolated by model and knowledge-base path."""
+    safe_key = re.sub(r"[^a-z0-9_-]", "_", embedding_model.lower())
+    if len(safe_key) > 24:
+        model_digest = hashlib.md5(embedding_model.encode()).hexdigest()[:8]
+        safe_key = f"{safe_key[:24].strip('_')}_{model_digest}"
+    corpus_path = str(Path(diseases_dir).resolve()).lower()
+    corpus_digest = hashlib.md5(corpus_path.encode()).hexdigest()[:8]
+    return f"disease_collection_{safe_key}_{corpus_digest}"
+
+
 def resolve_device(device: Optional[str] = None) -> str:
     """Pick the compute device: explicit override, else CUDA when usable, else CPU."""
     if device:
@@ -115,6 +126,14 @@ class HybridDiseaseSearcher:
             uid = str(uuid.uuid5(uuid.NAMESPACE_DNS, d.name_vi.lower().strip()))
             self.disease_map[uid] = d
 
+        corpus_payload = [
+            disease.model_dump(mode="json")
+            for disease in sorted(self.diseases, key=lambda item: item.disease_id)
+        ]
+        self.corpus_sha256 = hashlib.sha256(
+            json.dumps(corpus_payload, ensure_ascii=False, sort_keys=True).encode("utf-8")
+        ).hexdigest()
+
         # Initialize ChromaDB Vector Store
         self.chroma_client = chromadb.PersistentClient(path=str(self.db_path))
         self.emb_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
@@ -128,12 +147,8 @@ class HybridDiseaseSearcher:
         # Chroma caps collection names at 63 chars, which a model given as a
         # filesystem path blows past; keep a readable prefix and disambiguate
         # with a hash of the full key.
-        safe_key = re.sub(r"[^a-z0-9_-]", "_", embedding_model.lower())
-        if len(safe_key) > 24:
-            digest = hashlib.md5(embedding_model.encode()).hexdigest()[:8]
-            safe_key = f"{safe_key[:24].strip('_')}_{digest}"
         self.collection = self.chroma_client.get_or_create_collection(
-            name=f"disease_collection_{safe_key}",
+            name=build_collection_name(embedding_model, self.diseases_dir),
             embedding_function=self.emb_fn,
             metadata={"hnsw:space": "cosine"},
         )
@@ -214,15 +229,82 @@ class HybridDiseaseSearcher:
             tokens = tokenize_vietnamese(doc_text)
             tokenized_corpus.append(tokens)
             
-        # Re-index ChromaDB if count differs or force rebuild
+        # Keep indexes isolated and resumable. Encoding the expanded BGE-M3
+        # corpus can take a long time on CPU, so committing one giant add call
+        # would lose all progress after an interruption.
+        collection_metadata = dict(self.collection.metadata or {})
         existing_count = self.collection.count()
-        if force_rebuild or existing_count != len(docs):
+        stored_corpus_sha256 = collection_metadata.get("corpus_sha256")
+        existing_payload = self.collection.get() if existing_count else {"ids": [], "documents": []}
+        existing_id_set = set(existing_payload["ids"])
+        expected_documents = dict(zip(ids, docs))
+        existing_documents = dict(
+            zip(existing_payload["ids"], existing_payload.get("documents") or [])
+        )
+        legacy_partial_matches = (
+            stored_corpus_sha256 is None
+            and existing_id_set.issubset(expected_documents)
+            and len(existing_documents) == existing_count
+            and all(
+                expected_documents[doc_id] == document
+                for doc_id, document in existing_documents.items()
+            )
+        )
+        corpus_changed = (
+            stored_corpus_sha256 != self.corpus_sha256
+            and not legacy_partial_matches
+        )
+
+        if force_rebuild or corpus_changed or existing_count > len(docs):
             if existing_count > 0:
-                existing_ids = self.collection.get()["ids"]
-                if existing_ids:
-                    self.collection.delete(ids=existing_ids)
-            if docs:
-                self.collection.add(documents=docs, metadatas=metadatas, ids=ids)
+                if existing_id_set:
+                    self.collection.delete(ids=list(existing_id_set))
+            existing_count = 0
+            existing_id_set = set()
+
+        missing_indexes = [idx for idx, doc_id in enumerate(ids) if doc_id not in existing_id_set]
+        if missing_indexes:
+            batch_size = max(1, int(os.getenv("BOTMED_INDEX_BATCH_SIZE", "16")))
+            self.collection.modify(
+                metadata={
+                    **{
+                        key: value
+                        for key, value in collection_metadata.items()
+                        if key != "hnsw:space"
+                    },
+                    "corpus_sha256": self.corpus_sha256,
+                    "index_state": "building",
+                    "target_document_count": len(docs),
+                }
+            )
+            completed = len(docs) - len(missing_indexes)
+            for offset in range(0, len(missing_indexes), batch_size):
+                batch_indexes = missing_indexes[offset : offset + batch_size]
+                self.collection.add(
+                    documents=[docs[idx] for idx in batch_indexes],
+                    metadatas=[metadatas[idx] for idx in batch_indexes],
+                    ids=[ids[idx] for idx in batch_indexes],
+                )
+                completed += len(batch_indexes)
+                print(f"[INDEX] Encoded {completed}/{len(docs)} disease documents")
+
+        final_count = self.collection.count()
+        if final_count != len(docs):
+            raise RuntimeError(
+                f"Incomplete vector index: expected {len(docs)} documents, found {final_count}"
+            )
+        self.collection.modify(
+            metadata={
+                **{
+                    key: value
+                    for key, value in dict(self.collection.metadata or {}).items()
+                    if key != "hnsw:space"
+                },
+                "corpus_sha256": self.corpus_sha256,
+                "index_state": "ready",
+                "target_document_count": len(docs),
+            }
+        )
                 
         # Build BM25
         if tokenized_corpus:
@@ -305,6 +387,8 @@ class HybridDiseaseSearcher:
                     "category": disease.category,
                     "urgency": disease.urgency.value,
                     "score": round(float(final_score), 5),
+                    "dense_score": round(float(v_score), 5),
+                    "bm25_score": round(float(b_score), 5),
                     "raw_bm25": round(float(bm25_scores[idx]), 2),
                     "schema": disease
                 })

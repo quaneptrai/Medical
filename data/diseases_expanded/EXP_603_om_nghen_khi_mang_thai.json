@@ -5,7 +5,10 @@
   "category": "obstetrics_gynecology",
   "aliases": [
     "Ốm Nghén Khi Mang Thai",
-    "Om Nghen Khi Mang Thai"
+    "Om Nghen Khi Mang Thai",
+    "Ốm nghén",
+    "Ốm nghén nôn nhiều",
+    "Nôn nghén"
   ],
   "tier": 2,
   "description": "Ốm Nghén Khi Mang Thai (Chuyên khoa: obstetrics_gynecology)",
@@ -180,7 +183,10 @@
     "Tôi mang thai và cảm thấy đầy bụng, khó chịu sau khi ăn một lượng nhỏ thức ăn. Tôi có thể đang bị bệnh gì?",
     "Tôi mang thai và thấy thèm ăn những thứ lạ như đất sét, phấn. Tôi có thể đang bị bệnh gì?",
     "Tôi mang thai và bị nôn khan khi đánh răng. Tôi có thể đang bị bệnh gì?",
-    "Tôi mang thai và thấy buồn nôn, nôn sau khi uống vitamin. Tôi có thể đang bị bệnh gì?"
+    "Tôi mang thai và thấy buồn nôn, nôn sau khi uống vitamin. Tôi có thể đang bị bệnh gì?",
+    "mới mang thai buồn nôn buổi sáng và rất sợ mùi cơm",
+    "thai kỳ đầu hay nôn khan nhưng vẫn uống nước được",
+    "ngửi đồ chiên là cồn cào và muốn ói"
   ],
   "provenance": {
     "source_document": "ViMedical_Disease Dataset",

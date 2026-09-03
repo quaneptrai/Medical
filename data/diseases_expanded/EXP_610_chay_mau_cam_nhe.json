@@ -1,0 +1,80 @@
+{
+  "disease_id": "EXP_610",
+  "name_vi": "Chảy máu cam nhẹ",
+  "name_en": "Mild Epistaxis",
+  "category": "ent",
+  "aliases": [
+    "Chảy máu cam",
+    "Chảy máu mũi nhẹ",
+    "Xuất huyết mao mạch mũi"
+  ],
+  "tier": 1,
+  "description": "Hiện tượng máu rỉ từ các mao mạch nông ở điểm mạch Kiesselbach ở phần trước vách ngăn mũi, thường do ngoáy mũi, khô niêm mạc hoặc thời tiết hanh khô.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Máu đỏ tươi rỉ từ một bên lỗ mũi",
+        "name_en": "Bright red blood dripping from one nostril",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác vướng máu ở cửa mũi",
+        "name_en": "Blood sensation at nostril",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Chảy máu tự cầm sau khi bóp cánh mũi 5-10 phút",
+        "name_en": "Bleeding stops after 5-10 minutes of direct pressure",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Có vảy máu khô trong hốc mũi",
+        "name_en": "Dried blood crusts in nasal cavity",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Máu chảy xối xả liên tục trên 15-20 phút ép chặt cánh mũi không cầm",
+    "Chảy máu mũi sau chấn thương vùng đầu mặt hoặc tai nạn",
+    "Kèm theo hoa mắt, chóng mặt, vã mồ hôi, da nhợt nhạt, tụt huyết áp"
+  ],
+  "risk_factors": [
+    "Thói quen ngoáy mũi",
+    "Thời tiết hanh khô lạnh",
+    "Xì mũi mạnh",
+    "Tăng huyết áp"
+  ],
+  "questions_to_ask": [
+    "Máu chảy từ một hay cả hai bên mũi?",
+    "Bạn đã bóp chặt cánh mũi liên tục 10 phút chưa, máu có ngưng chảy không?",
+    "Gần đây bạn có đo huyết áp hoặc có dùng thuốc chống đông máu không?"
+  ],
+  "differential_diagnoses": [
+    "Chảy máu mũi do tăng huyết áp",
+    "Dị vật mũi",
+    "Rối loạn đông máu"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Chảy máu mũi ồ ạt không cầm sau 15 phút ép cánh mũi",
+    "Kèm choáng ngất, tụt huyết áp hoặc nôn ra nhiều máu đỏ tươi"
+  ],
+  "user_language_variants": [
+    "tự nhiên bị chảy máu cam rỉ ra ở mũi đỏ tươi",
+    "trời hanh khô ngoáy mũi xong bị chảy máu mũi một bên",
+    "chảy máu cam bóp mũi một lúc thì ngưng chảy",
+    "bị chảy máu cam ở mũi rớm máu đỏ",
+    "mũi tự nhiên chảy máu tươi ít một"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

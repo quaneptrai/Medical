@@ -1,0 +1,83 @@
+{
+  "disease_id": "EXP_612",
+  "name_vi": "Nút ráy tai",
+  "name_en": "Impacted Cerumen",
+  "category": "ent",
+  "aliases": [
+    "Tắc ráy tai",
+    "Ráy tai bít kín",
+    "Nút biểu bì ống tai ngoài"
+  ],
+  "tier": 1,
+  "description": "Sự tích tụ và vón cục của ráy tai làm bít tắc một phần hoặc toàn bộ ống tai ngoài, gây giảm thính lực tạm thời và cảm giác cộm nghẹt.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cảm giác cộm nghẹt trong ống tai",
+        "name_en": "Fullness and blockage in ear canal",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Nghe kém nhẹ bên tai bị bít",
+        "name_en": "Mild conductive hearing loss in affected ear",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Ngứa nhẹ trong ống tai",
+        "name_en": "Mild itching in ear canal",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Ù tai nhẹ kiểu bít nghẹt",
+        "name_en": "Mild low-pitch tinnitus from blockage",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đau tức nhẹ khi nước vào làm nở ráy tai",
+        "name_en": "Mild discomfort when water expands cerumen",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau nhức tai dữ dội kèm sốt",
+    "Chảy mủ vàng hôi hoặc máu từ lỗ tai",
+    "Chóng mặt buồn nôn dữ dội"
+  ],
+  "risk_factors": [
+    "Dùng tăm bông ngoáy đẩy ráy tai vào sâu",
+    "Ống tai hẹp",
+    "Dùng tai nghe nhét tai thường xuyên"
+  ],
+  "questions_to_ask": [
+    "Bạn có thói quen dùng tăm bông ngoáy sâu vào tai không?",
+    "Cảm giác nghẹt tai xuất hiện sau khi tắm hoặc đi bơi phải không?",
+    "Tai bạn có bị đau nhức hay chảy dịch mủ không?"
+  ],
+  "differential_diagnoses": [
+    "Dị vật ống tai",
+    "Viêm tai ngoài",
+    "Viêm tai giữa ứ dịch"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Đau tai dữ dội lan nửa đầu kèm sốt cao và sưng tấy sau tai"
+  ],
+  "user_language_variants": [
+    "cảm giác trong tai có cục ráy tai to bít chặt nghe không rõ",
+    "ngoáy tai bị đẩy ráy tai vào sâu cộm nghẹt tai",
+    "ráy tai vón cục đặc bít kín lỗ tai nghe nghẹt nghẹt",
+    "bị tắc ráy tai đi bơi nước vào nở ra cộm tai",
+    "ráy tai đầy cộm nghẹt tai nghe kém một bên"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

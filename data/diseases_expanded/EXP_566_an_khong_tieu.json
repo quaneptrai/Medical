@@ -5,7 +5,9 @@
   "category": "general",
   "aliases": [
     "Ăn Không Tiêu",
-    "An Khong Tieu"
+    "An Khong Tieu",
+    "Đầy bụng khó tiêu chức năng",
+    "Khó tiêu chức năng"
   ],
   "tier": 2,
   "description": "Ăn Không Tiêu (Chuyên khoa: general)",
@@ -215,7 +217,10 @@
     "Tôi hay bị đầy hơi, khó tiêu và táo bón xen kẽ. Tôi có thể đang bị bệnh gì?",
     "Tôi hiện đang có các triệu chứng như ợ nóng, đau ngực và khó nuốt. Tôi có thể đang bị bệnh gì?",
     "Tôi đang cảm thấy buồn nôn, chóng mặt và đổ mồ hôi lạnh sau khi ăn. Tôi có thể đang bị bệnh gì?",
-    "Tôi hay bị đau bụng âm ỉ, đầy hơi và xì hơi nhiều. Tôi có thể đang bị bệnh gì?"
+    "Tôi hay bị đau bụng âm ỉ, đầy hơi và xì hơi nhiều. Tôi có thể đang bị bệnh gì?",
+    "ăn một ít đã no và vùng trên rốn cứ ậm ạch",
+    "sau bữa nhiều dầu mỡ đầy bụng và hơi buồn nôn",
+    "bụng trên nặng tức hay ợ hơi nhưng không đau dữ"
   ],
   "provenance": {
     "source_document": "ViMedical_Disease Dataset",

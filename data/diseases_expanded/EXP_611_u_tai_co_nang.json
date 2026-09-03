@@ -1,0 +1,81 @@
+{
+  "disease_id": "EXP_611",
+  "name_vi": "Ù tai cơ năng",
+  "name_en": "Functional Tinnitus",
+  "category": "ent",
+  "aliases": [
+    "Ù tai cơ năng",
+    "Tiếng ve kêu trong tai",
+    "Tai có tiếng ro ro"
+  ],
+  "tier": 1,
+  "description": "Cảm giác âm thanh ảo (tiếng vo ve, ro ro, tiếng gió) trong tai không do nguồn âm thanh bên ngoài, thường do thay đổi áp suất, mệt mỏi hoặc căng thẳng.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Tiếng vo ve hoặc ro ro trong tai",
+        "name_en": "Buzzing or ringing sound in ear",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác bít tai nhẹ sau đi máy bay hoặc thang máy",
+        "name_en": "Mild ear fullness after barometric changes",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Khó chịu tăng lên ở không gian yên tĩnh ban đêm",
+        "name_en": "Increased awareness in quiet environments",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Mệt mỏi, khó ngủ do tiếng ù",
+        "name_en": "Fatigue and sleep disturbance from tinnitus",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Ù tai kèm giảm thính lực đột ngột hoàn toàn một bên (cấp cứu điếc đột ngột trong 72h)",
+    "Chóng mặt quay cuồng mất thăng bằng dữ dội kèm nôn ói",
+    "Chảy dịch mủ hoặc máu từ ống tai"
+  ],
+  "risk_factors": [
+    "Đi máy bay / lặn biển",
+    "Nghe tai nghe âm lượng lớn",
+    "Căng thẳng mất ngủ",
+    "Uống nhiều cà phê"
+  ],
+  "questions_to_ask": [
+    "Tiếng ù tai nghe như tiếng ve kêu, tiếng gió hay tiếng đập theo nhịp tim?",
+    "Bạn có cảm thấy bị giảm sức nghe hoặc chóng mặt quay cuồng không?",
+    "Ù tai xuất hiện sau khi đi máy bay, nghe nhạc to hay khi mệt mỏi căng thẳng?"
+  ],
+  "differential_diagnoses": [
+    "Điếc đột ngột",
+    "Bệnh Meniere",
+    "Viêm tai giữa",
+    "Nút ráy tai"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Mất thính lực đột ngột một bên tai trong vòng vài giờ",
+    "Liệt mặt cùng bên hoặc yếu nửa người"
+  ],
+  "user_language_variants": [
+    "trong tai cứ nghe tiếng ve kêu ro ro khó chịu",
+    "đi máy bay về bị ù đặc một bên tai như bị bịt nút bông",
+    "tai cứ lùng bùng nghe tiếng o o bên trong",
+    "bị ù tai tiếng ve kêu ro ro trong tai",
+    "tai nghe tiếng lùng bùng vo ve lúc nửa đêm"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

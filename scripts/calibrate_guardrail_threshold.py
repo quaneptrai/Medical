@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import gc
+import hashlib
 import io
 import json
 import math
@@ -33,6 +34,14 @@ def _atomic_json_write(path: Path, payload: dict) -> None:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
         handle.flush()
     temporary.replace(path)
+
+
+def _sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def load_labeled_cases(path: Path) -> list[dict]:
@@ -118,19 +127,26 @@ def run_threshold_sweep(
     *,
     thresholds: list[float],
     batch_size: int,
-    min_emergencies: int,
-    min_non_emergencies: int,
+    min_evaluation_emergencies: int,
+    min_evaluation_non_emergencies: int,
+    deployment_min_emergencies: int,
+    deployment_min_non_emergencies: int,
     min_specificity: float,
+    require_deployment_approval: bool = False,
 ):
     cases = load_labeled_cases(dataset_path)
     labels = np.asarray([row["is_emergency"] for row in cases], dtype=bool)
     emergency_count = int(labels.sum())
     non_emergency_count = int((~labels).sum())
-    if emergency_count < min_emergencies or non_emergency_count < min_non_emergencies:
+    if (
+        emergency_count < min_evaluation_emergencies
+        or non_emergency_count < min_evaluation_non_emergencies
+    ):
         raise SystemExit(
             "Calibration dataset is too small: "
             f"{emergency_count} emergency / {non_emergency_count} non-emergency; "
-            f"required at least {min_emergencies} / {min_non_emergencies}."
+            f"required to evaluate at least {min_evaluation_emergencies} / "
+            f"{min_evaluation_non_emergencies}."
         )
 
     print(f"Loading required semantic model: {model_path}")
@@ -159,17 +175,43 @@ def run_threshold_sweep(
     )
     deployable = [row for row in zero_observed_fn if row["specificity"] >= min_specificity]
     selected = min(deployable, key=lambda row: (row["false_positives"], -row["threshold"]), default=None)
-    deployment_approved = selected is not None
+    sample_size_gate = (
+        emergency_count >= deployment_min_emergencies
+        and non_emergency_count >= deployment_min_non_emergencies
+    )
+    deployment_approved = selected is not None and sample_size_gate
     reported = selected or advisory
+    approval_blockers = []
+    if not sample_size_gate:
+        approval_blockers.append(
+            f"sample size {emergency_count}/{non_emergency_count} is below deployment minimum "
+            f"{deployment_min_emergencies}/{deployment_min_non_emergencies}"
+        )
+    if selected is None:
+        approval_blockers.append(
+            f"no threshold achieved zero observed false negatives and specificity >= {min_specificity:.1%}"
+        )
+    blend_manifest_path = model_path / "blend_manifest.json"
+    blend_manifest = (
+        json.loads(blend_manifest_path.read_text(encoding="utf-8"))
+        if blend_manifest_path.exists() else {}
+    )
 
     report = {
         "schema_version": 1,
         "model": _project_reference(model_path),
+        "model_role": "semantic_guardrail_advisory" if not deployment_approved else "semantic_guardrail_auto",
+        "model_alpha": blend_manifest.get("alpha"),
+        "model_sha256": _sha256(model_path / "model.safetensors"),
         "selected_threshold": reported["threshold"] if reported else None,
         "selection_rule": (
             "zero observed false negatives and minimum specificity gate, then minimum false positives"
         ),
         "minimum_specificity": min_specificity,
+        "deployment_minimum_counts": {
+            "emergency": deployment_min_emergencies,
+            "non_emergency": deployment_min_non_emergencies,
+        },
         "dataset": _project_reference(dataset_path),
         "sample_counts": {
             "total_unique": len(cases),
@@ -180,6 +222,7 @@ def run_threshold_sweep(
         "deployment_approved": deployment_approved,
         "semantic_mode": "auto" if deployment_approved else "advisory",
         "runtime_verified": False,
+        "approval_blockers": approval_blockers,
         "limitations": [
             "Zero observed false negatives is not a guarantee of zero false negatives in production.",
             "The Wilson confidence interval quantifies sampling uncertainty.",
@@ -190,11 +233,8 @@ def run_threshold_sweep(
     }
     _atomic_json_write(report_path, report)
 
-    if not deployment_approved:
-        raise SystemExit(
-            "No semantic threshold met both zero observed false negatives and "
-            f"specificity >= {min_specificity:.1%}. Report saved as advisory-only: {report_path}"
-        )
+    if require_deployment_approval and not deployment_approved:
+        raise SystemExit("Semantic deployment approval was required but blocked: " + "; ".join(approval_blockers))
 
     # Verify the exact default production constructor consumes this artifact.
     del engine
@@ -210,21 +250,23 @@ def run_threshold_sweep(
         calibration_path=str(report_path),
         require_semantic=True,
         allow_unverified_config=True,
-        semantic_mode="auto",
+        semantic_mode="auto" if deployment_approved else "advisory",
     )
     if Path(runtime_engine.model_path).resolve() != model_path.resolve():
         raise RuntimeError(
             f"Runtime loaded {runtime_engine.model_path}, expected {model_path.resolve()}"
         )
-    if not math.isclose(runtime_engine.semantic_threshold, selected["threshold"], abs_tol=1e-12):
+    if reported is None:
+        raise RuntimeError("No advisory semantic threshold could be selected")
+    if not math.isclose(runtime_engine.semantic_threshold, reported["threshold"], abs_tol=1e-12):
         raise RuntimeError(
-            f"Runtime loaded threshold {runtime_engine.semantic_threshold}, expected {selected['threshold']}"
+            f"Runtime loaded threshold {runtime_engine.semantic_threshold}, expected {reported['threshold']}"
         )
     report["runtime_verified"] = True
     _atomic_json_write(report_path, report)
     print(
-        f"Selected threshold {selected['threshold']:.3f}; observed FN={selected['false_negatives']}, "
-        f"FP={selected['false_positives']}, recall 95% CI={selected['recall_wilson_95']}."
+        f"Selected threshold {reported['threshold']:.3f}; observed FN={reported['false_negatives']}, "
+        f"FP={reported['false_positives']}, recall 95% CI={reported['recall_wilson_95']}."
     )
     print(f"Production runtime wiring verified via {report_path}")
 
@@ -238,9 +280,12 @@ def main():
     parser.add_argument("--threshold-stop", type=float, default=0.70)
     parser.add_argument("--threshold-step", type=float, default=0.01)
     parser.add_argument("--batch-size", type=int, default=64)
-    parser.add_argument("--min-emergencies", type=int, default=200)
-    parser.add_argument("--min-non-emergencies", type=int, default=200)
+    parser.add_argument("--min-evaluation-emergencies", type=int, default=30)
+    parser.add_argument("--min-evaluation-non-emergencies", type=int, default=100)
+    parser.add_argument("--deployment-min-emergencies", type=int, default=200)
+    parser.add_argument("--deployment-min-non-emergencies", type=int, default=200)
     parser.add_argument("--min-specificity", type=float, default=0.90)
+    parser.add_argument("--require-deployment-approval", action="store_true")
     args = parser.parse_args()
 
     def rooted(value: str) -> Path:
@@ -267,9 +312,12 @@ def main():
         report_path,
         thresholds=thresholds,
         batch_size=args.batch_size,
-        min_emergencies=args.min_emergencies,
-        min_non_emergencies=args.min_non_emergencies,
+        min_evaluation_emergencies=args.min_evaluation_emergencies,
+        min_evaluation_non_emergencies=args.min_evaluation_non_emergencies,
+        deployment_min_emergencies=args.deployment_min_emergencies,
+        deployment_min_non_emergencies=args.deployment_min_non_emergencies,
         min_specificity=args.min_specificity,
+        require_deployment_approval=args.require_deployment_approval,
     )
 
 

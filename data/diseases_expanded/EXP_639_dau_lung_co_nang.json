@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_639",
+  "name_vi": "Đau lưng cơ năng",
+  "name_en": "Mechanical Low Back Pain",
+  "category": "musculoskeletal",
+  "aliases": [
+    "Đau thắt lưng cơ năng",
+    "Căng cơ lưng",
+    "Đau lưng do sai tư thế"
+  ],
+  "tier": 1,
+  "description": "Cơn đau nhức vùng cột sống thắt lưng do căng cơ, giãn dây chằng cạnh sống sau khi mang vác vật nặng, cúi gập người sai tư thế hoặc ngồi lâu.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Đau âm ỉ hoặc căng cứng vùng thắt lưng dưới",
+        "name_en": "Dull ache or stiffness in lower back",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau tăng khi cúi ngửa hoặc xoay người",
+        "name_en": "Pain aggravated by bending or twisting",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Giảm đau rõ rệt khi nằm nghỉ ngơi",
+        "name_en": "Relief with rest and lying down",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Co thắt cơ cạnh sống thắt lưng",
+        "name_en": "Paraspinal muscle spasm",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đau mỏi ngang hông lưng sau khi ngồi lâu",
+        "name_en": "Lumbosacral fatigue after prolonged sitting",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau lan xuống mông chân kèm tê bì mất cảm giác vùng đáy chậu (hội chứng chùm đuôi ngựa)",
+    "Bí tiểu tiện hoặc đại tiểu tiện không tự chủ",
+    "Đau lưng dữ dội không giảm khi nằm kèm sụt cân, sốt hoặc tiền sử ung thư"
+  ],
+  "risk_factors": [
+    "Bê vác vật nặng sai tư thế",
+    "Thừa cân béo phì",
+    "Ngồi làm việc lâu không vận động",
+    "Cơ bụng cơ lưng yếu"
+  ],
+  "questions_to_ask": [
+    "Cơn đau có lan xuống mông hoặc dọc theo chân không?",
+    "Bạn có bị tê bì vùng hậu môn sinh dục hay khó khăn khi đi tiểu không?",
+    "Cơn đau xuất hiện sau khi khiêng vác nặng hay cúi người sai tư thế?"
+  ],
+  "differential_diagnoses": [
+    "Thoát vị đĩa đệm thắt lưng (đau thần kinh tọa)",
+    "Trượt đốt sống",
+    "Sỏi thận / Cơn đau quặn thận"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Bí tiểu hoặc mất tự chủ đại tiểu tiện kèm tê bì vùng yên ngựa (hội chứng chùm đuôi ngựa cấp cứu)"
+  ],
+  "user_language_variants": [
+    "hôm qua bê chậu cây sai tư thế nay đau nhức ngang thắt lưng",
+    "cúi xuống nhặt đồ xong đau cứng lưng đứng lên không nổi",
+    "đau mỏi ngang hông lưng sau khi ngồi xe máy đường dài",
+    "đau lưng ê ẩm vùng thắt lưng khi đứng cúi",
+    "bị đau lưng cơ năng mỏi cột sống thắt lưng"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

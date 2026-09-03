@@ -1,0 +1,78 @@
+{
+  "disease_id": "EXP_635",
+  "name_vi": "Nứt gót chân",
+  "name_en": "Cracked Heels",
+  "category": "dermatology",
+  "aliases": [
+    "Nứt gót chân",
+    "Chai nứt gót chân",
+    "Da gót chân nứt toác"
+  ],
+  "tier": 1,
+  "description": "Tình trạng lớp sừng da dày ở gót chân bị khô cứng quá mức mất độ đàn hồi, hình thành các rãnh nứt dọc sâu gây thốn đau khi chịu lực.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Vùng da rìa gót chân dày sừng, khô cứng màu vàng nâu",
+        "name_en": "Hyperkeratotic, thick dry callus on heel border",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Các rãnh nứt dọc sâu ở gót chân",
+        "name_en": "Deep vertical fissures on heel",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Đau thốn khi đặt gót chân xuống đất đi lại",
+        "name_en": "Pain and discomfort when walking on heels",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Rớm máu ở đáy rãnh nứt sâu",
+        "name_en": "Minor bleeding from deep fissure crevices",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Rãnh nứt sưng tấy đỏ rực, chảy mủ hôi, đau nhức liên tục (nhiễm trùng)",
+    "Bệnh nhân đái tháo đường bị nứt gót loét sâu bàn chân"
+  ],
+  "risk_factors": [
+    "Đi chân đất nhiều",
+    "Đứng lâu trên sàn cứng",
+    "Thời tiết hanh khô",
+    "Thừa cân béo phì tạo áp lực gót"
+  ],
+  "questions_to_ask": [
+    "Gót chân bị nứt có chảy máu hoặc đau thốn khi đi lại không?",
+    "Bạn có bị đái tháo đường hoặc suy giãn tĩnh mạch chân không?",
+    "Rãnh nứt có bị sưng mủ viêm đỏ không?"
+  ],
+  "differential_diagnoses": [
+    "Vảy nến bàn chân",
+    "Chàm khô nứt nẻ",
+    "Nấm da bàn chân thể dày sừng"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Nhiễm trùng loét bàn chân đái tháo đường sưng hoại tử lan rộng"
+  ],
+  "user_language_variants": [
+    "gót chân khô nứt toác từng rãnh đi lại thốn đau",
+    "da gót chân dày cộp nứt chảy máu khi mùa hanh khô",
+    "gót chân bị chai nẻ xước xát đau khi dẫm xuống đất",
+    "nứt gót chân chảy máu đau rát",
+    "da gót chân dày nứt nẻ đi lại thốn buốt"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

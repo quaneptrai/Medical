@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_652",
+  "name_vi": "Dày sừng nang lông",
+  "name_en": "Keratosis Pilaris",
+  "category": "dermatology",
+  "aliases": [
+    "Da gà ở cánh tay",
+    "Sần nang lông",
+    "Keratosis pilaris"
+  ],
+  "tier": 1,
+  "description": "Tình trạng keratin tích tụ tại nang lông tạo nhiều sẩn nhỏ ráp như da gà, thường ở mặt ngoài cánh tay, đùi hoặc má và không lây.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Nhiều nốt nhỏ ráp đồng đều quanh nang lông",
+        "name_en": "Uniform rough follicular bumps",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Da sờ giống da gà hoặc giấy nhám",
+        "name_en": "Gooseflesh or sandpaper texture",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Tập trung ở mặt ngoài cánh tay hoặc đùi",
+        "name_en": "Outer upper arms or thighs affected",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Nốt hơi đỏ hoặc ngứa khi da khô",
+        "name_en": "Mild redness or itch with dry skin",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Tăng rõ vào mùa lạnh",
+        "name_en": "Worsens in cold dry weather",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Sẩn chuyển thành mụn mủ đau, sưng nóng lan rộng hoặc kèm sốt",
+    "Ban đỏ lan toàn thân kèm khó thở hoặc phù môi lưỡi",
+    "Tổn thương bong trợt rộng hoặc xuất huyết không giải thích được"
+  ],
+  "risk_factors": [
+    "Da khô",
+    "Viêm da cơ địa",
+    "Tiền sử gia đình",
+    "Thời tiết lạnh khô"
+  ],
+  "questions_to_ask": [
+    "Các nốt có tập trung ở mặt ngoài cánh tay và tồn tại lâu không?",
+    "Nốt chỉ ráp hay có mủ, đau và lan nhanh?",
+    "Bạn có da khô hoặc viêm da cơ địa không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm nang lông",
+    "Mụn trứng cá",
+    "Rôm sảy"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Khó thở, phù môi lưỡi hoặc ban đỏ lan nhanh toàn thân"
+  ],
+  "user_language_variants": [
+    "mặt ngoài cánh tay nổi hạt li ti sờ ráp như da gà",
+    "da đùi có nhiều chấm sần quanh lỗ chân lông",
+    "tay sần như giấy nhám nặng hơn lúc trời lạnh",
+    "các nốt da gà nhỏ đều không đau không lây",
+    "da khô nổi hạt quanh nang lông hơi đỏ"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

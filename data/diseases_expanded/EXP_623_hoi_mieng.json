@@ -1,0 +1,80 @@
+{
+  "disease_id": "EXP_623",
+  "name_vi": "Hôi miệng",
+  "name_en": "Halitosis",
+  "category": "digestive",
+  "aliases": [
+    "Hơi thở có mùi",
+    "Hôi miệng cơ năng",
+    "Khô miệng hôi miệng"
+  ],
+  "tier": 1,
+  "description": "Tình trạng hơi thở phát ra mùi hôi khó chịu, chủ yếu do vi khuẩn kỵ khí phân hủy protein trong khoang miệng (mảng bám lưỡi, thức ăn dắt, cao răng).",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Hơi thở phát ra mùi khó chịu",
+        "name_en": "Unpleasant odor from breath",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác đắng miệng hoặc chua miệng buổi sáng",
+        "name_en": "Bitter or sour taste in mouth",
+        "frequency": "common"
+      },
+      {
+        "name_vi": "Mảng bám trắng dày trên bề mặt lưỡi",
+        "name_en": "Thick white coating on tongue",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Cảm giác khô miệng giảm tiết nước bọt",
+        "name_en": "Dry mouth sensation",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Hơi thở có mùi khai amoniac (nghi suy thận giai đoạn cuối) hoặc mùi táo thối ceton (nhiễm toan ceton đái tháo đường)",
+    "Khạc ra mủ có mùi thối khẳn kèm sốt (áp xe phổi hoặc viêm xoang mủ)",
+    "Loét sùi hoại tử trong miệng không lành"
+  ],
+  "risk_factors": [
+    "Vệ sinh lưỡi kém",
+    "Cao răng nhiều",
+    "Ăn hành tỏi thực phẩm nặng mùi",
+    "Hút thuốc lá",
+    "Khô miệng"
+  ],
+  "questions_to_ask": [
+    "Bạn có cạo lưỡi và lấy cao răng định kỳ không?",
+    "Bạn có bị ợ chua trào ngược hoặc viêm xoang chảy dịch mũi sau xuống họng không?",
+    "Bạn có mắc bệnh đái tháo đường hay bệnh thận mạn tính không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm amidan hốc mủ (sỏi amidan)",
+    "Trào ngược dạ dày thực quản",
+    "Viêm xoang mạn"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Mùi thở ceton kèm thở nhanh sâu, lơ mơ, đường huyết tăng vọt"
+  ],
+  "user_language_variants": [
+    "mồm miệng hay có mùi hôi khó chịu dù đánh răng kỹ",
+    "sáng dậy đắng miệng hơi thở hôi mất tự tin khi giao tiếp",
+    "bị hôi miệng lưỡi bám mảng trắng dày",
+    "hơi thở có mùi hôi khó chịu từ trong họng",
+    "mùi hôi miệng hơi thở nặng mùi"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

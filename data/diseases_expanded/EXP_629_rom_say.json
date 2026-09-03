@@ -1,0 +1,78 @@
+{
+  "disease_id": "EXP_629",
+  "name_vi": "Rôm sảy",
+  "name_en": "Miliaria",
+  "category": "dermatology",
+  "aliases": [
+    "Rôm sảy mùa hè",
+    "Nổi sảy",
+    "Kê mùa hè do nóng"
+  ],
+  "tier": 1,
+  "description": "Bệnh lý viêm da ứ đọng tuyến mồ hôi do tắc nghẽn ống bài xuất mồ hôi khi thời tiết nóng ẩm, tạo thành các sẩn mụn nước nhỏ li ti ngứa ngáy.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Mụn nước nhỏ li ti hoặc sẩn đỏ mọc thành đám",
+        "name_en": "Tiny vesicular or erythematous papules in crops",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Cảm giác châm chích ngứa ngáy khi ra mồ hôi",
+        "name_en": "Prickly itching exacerbated by heat and sweating",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Vị trí ở ngực, lưng, cổ, nếp gấp da",
+        "name_en": "Distributed on chest, back, neck, skin folds",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Da đỏ ửng nhẹ vùng tổn thương",
+        "name_en": "Mild background erythema",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Rôm sảy hóa mủ thành các nhọt mủ sưng tấy diện rộng kèm sốt cao",
+    "Trẻ li bì, bỏ bú, sốt cao không hạ"
+  ],
+  "risk_factors": [
+    "Thời tiết mùa hè nóng ẩm",
+    "Mặc quần áo quá dày bí",
+    "Vận động ra nhiều mồ hôi",
+    "Trẻ nhỏ nằm phòng kín"
+  ],
+  "questions_to_ask": [
+    "Các nốt mụn rôm mọc ở ngực, lưng hay nếp gấp cổ nách?",
+    "Trẻ có bị sốt hoặc các nốt rôm có hóa mủ sưng đau không?",
+    "Sau khi tắm mát và ở phòng thoáng khí triệu chứng có dịu bớt không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm nang lông",
+    "Thủy đậu",
+    "Sốt phát ban"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Bội nhiễm nhọt mủ diện rộng kèm sốt cao co giật ở trẻ nhỏ"
+  ],
+  "user_language_variants": [
+    "trời nóng người nổi đầy rôm sảy lấm tấm đỏ ở lưng ngực ngứa châm chích",
+    "mụn kê li ti nổi mẩn ngứa ở cổ mùa hè ra mồ hôi là xót",
+    "nổi sảy ngứa ngáy khi ra mồ hôi nhiều ở trẻ",
+    "bị rôm sảy mùa hè lưng đỏ lấm tấm hạt ngứa",
+    "rôm sảy nổi đầy ngực và lưng ngứa râm ran"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

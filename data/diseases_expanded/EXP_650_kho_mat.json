@@ -1,0 +1,84 @@
+{
+  "disease_id": "EXP_650",
+  "name_vi": "Khô mắt",
+  "name_en": "Dry Eye Syndrome",
+  "category": "ophthalmology",
+  "aliases": [
+    "Hội chứng khô mắt",
+    "Khô mỏi mắt do màn hình",
+    "Khô rát mắt dùng máy tính"
+  ],
+  "tier": 1,
+  "description": "Rối loạn màng phim nước mắt do giảm tiết nước mắt hoặc bốc hơi nước mắt quá nhanh, thường gặp ở người làm việc màn hình máy tính lâu hoặc ngồi phòng điều hòa.",
+  "symptoms": {
+    "common": [
+      {
+        "name_vi": "Cảm giác cộm rát như có hạt cát trong mắt",
+        "name_en": "Gritty, sandy sensation in eyes",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Khô châm chích mắt",
+        "name_en": "Burning and stinging eye dryness",
+        "frequency": "very_common"
+      },
+      {
+        "name_vi": "Nhìn mờ thoáng qua, chớp mắt nhiều lần thì trong lại",
+        "name_en": "Fluctuating blurry vision cleared by blinking",
+        "frequency": "common"
+      }
+    ],
+    "occasional": [
+      {
+        "name_vi": "Chảy nước mắt phản xạ khi ra gió hoặc nhìn màn hình lâu",
+        "name_en": "Reflex tearing in wind or screen time",
+        "frequency": "occasional"
+      },
+      {
+        "name_vi": "Đỏ nhẹ kết mạc mắt",
+        "name_en": "Mild conjunctival hyperemia",
+        "frequency": "occasional"
+      }
+    ]
+  },
+  "red_flags": [
+    "Đau nhức mắt dữ dội sâu trong hốc mắt",
+    "Sợ ánh sáng chói lóa kèm giảm thị lực rõ rệt không cải thiện khi chớp mắt (nghi viêm loét giác mạc)",
+    "Mắt chảy dịch mủ vàng đặc dính mí mắt"
+  ],
+  "risk_factors": [
+    "Nhìn màn hình máy tính điện thoại nhiều giờ không chớp mắt",
+    "Ngồi phòng điều hòa độ ẩm thấp",
+    "Đeo kính áp tròng kéo dài",
+    "Người cao tuổi"
+  ],
+  "questions_to_ask": [
+    "Mắt bạn cộm rát nhiều khi làm việc máy tính hay khi nào?",
+    "Nhìn mờ có rõ lại sau khi bạn chớp mắt vài lần không?",
+    "Mắt có bị đau nhức dữ dội hoặc sợ ánh sáng chói không?"
+  ],
+  "differential_diagnoses": [
+    "Viêm kết mạc dị ứng",
+    "Viêm bờ mi",
+    "Viêm loét giác mạc"
+  ],
+  "urgency": "low",
+  "when_to_seek_emergency": [
+    "Đau nhức mắt dữ dội sợ ánh sáng và giảm thị lực đột ngột"
+  ],
+  "user_language_variants": [
+    "ngồi máy tính cả ngày mắt khô khốc cộm rát như có bụi bên trong",
+    "mắt cứ châm chích khô rát chớp mắt liên tục mới nhìn rõ",
+    "làm việc màn hình nhiều mắt khô và mờ nhoè chảy nước mắt sống",
+    "bị khô mắt cộm rát khi ngồi phòng máy lạnh",
+    "mắt khô ráp châm chích khó chịu khi nhìn màn hình"
+  ],
+  "provenance": {
+    "source_document": "Curated common primary-care conditions (non-clinician-authored)",
+    "issuing_body": "BotMedical KB curation",
+    "year": 2026,
+    "evidence_level": "Kiến thức y khoa phổ thông, cần bác sĩ rà soát",
+    "reviewed_by": null,
+    "review_date": null
+  }
+}

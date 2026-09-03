@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Giao diện kiểm thử local cho mô hình tìm kiếm Phòng khám YG." />
+    <title>Phòng khám YG · Retrieval Lab</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <script src="/assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua tới nội dung chính</a>
+
+    <header class="topbar">
+      <div class="brand" aria-label="Phòng khám YG Retrieval Lab">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2v20M2 12h20" /></svg>
+        </span>
+        <span><strong>Phòng khám YG</strong><small>Retrieval Lab</small></span>
+      </div>
+      <div class="header-actions">
+        <span class="release-badge"><i></i> V2 production</span>
+        <button id="theme-toggle" class="icon-button" type="button" aria-label="Đổi giao diện sáng tối">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-1-.1-1.5A7 7 0 0 1 12 3Z" /></svg>
+        </button>
+        <a class="emergency-link" href="tel:115" aria-label="Gọi cấp cứu 115">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2.1Z" /></svg>
+          Gọi 115
+        </a>
+      </div>
+    </header>
+
+    <div id="emergency-banner" class="emergency-banner" role="alert" aria-live="assertive" hidden>
+      <div class="emergency-copy">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.3 3.5 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.5a2 2 0 0 0-3.4 0ZM12 9v4m0 4h.01" /></svg>
+        <div><strong>Phát hiện dấu hiệu nguy hiểm</strong><p id="emergency-message">Hãy gọi cấp cứu ngay.</p></div>
+      </div>
+      <a href="tel:115">Gọi 115 ngay</a>
+    </div>
+
+    <main id="main" class="page-shell">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Không gian kiểm thử nội bộ</p>
+          <h1 id="page-title">Thử khả năng tìm kiếm y khoa bằng tiếng Việt</h1>
+          <p class="intro-copy">Nhập cách một người bệnh mô tả triệu chứng. Hệ thống sẽ tìm các mục kiến thức liên quan và cho bạn xem route cùng điểm xếp hạng kỹ thuật.</p>
+        </div>
+        <div class="model-card" aria-label="Trạng thái phiên bản">
+          <div><span>Đang dùng</span><strong id="model-release">V2 production</strong></div>
+          <div><span>Kho kiến thức</span><strong id="kb-count">Đang kiểm tra…</strong></div>
+          <div><span>V3</span><strong class="paused">Tạm dừng · chưa deploy</strong></div>
+        </div>
+      </section>
+
+      <section id="tester" class="workspace" aria-label="Công cụ kiểm thử retrieval">
+        <div class="query-panel">
+          <form id="search-form">
+            <div class="form-heading">
+              <div><p class="step-label">01 · Mô tả</p><h2>Người bệnh đang gặp vấn đề gì?</h2></div>
+              <span id="model-state" class="status-pill"><i></i> Model chưa nạp</span>
+            </div>
+
+            <label for="query">Mô tả triệu chứng bằng lời tự nhiên</label>
+            <textarea id="query" name="query" rows="5" minlength="2" maxlength="2000" placeholder="Ví dụ: Tôi đau ngực dữ dội, khó thở và vã mồ hôi lạnh…" required></textarea>
+            <div class="input-meta"><span id="char-count">0 / 2000</span><span>Dữ liệu không được lưu</span></div>
+
+            <div class="examples" aria-label="Câu thử nhanh">
+              <span>Thử nhanh</span>
+              <button type="button" data-query="Tôi bị hắt hơi, sổ mũi và nghẹt mũi hai ngày nay">Cảm lạnh</button>
+              <button type="button" data-query="Đau đầu căng như vòng siết sau một ngày làm việc">Đau đầu</button>
+              <button type="button" data-query="Đau ngực dữ dội lan tay trái, khó thở và vã mồ hôi lạnh">Ca cấp cứu</button>
+            </div>
+
+            <div class="controls-row">
+              <fieldset>
+                <legend>Route retrieval</legend>
+                <div class="segmented">
+                  <label><input type="radio" name="mode" value="auto" checked /><span>Tự động</span></label>
+                  <label><input type="radio" name="mode" value="hybrid" /><span>Hybrid</span></label>
+                  <label><input type="radio" name="mode" value="dense" /><span>Dense</span></label>
+                </div>
+              </fieldset>
+              <label class="top-k">Số kết quả
+                <select id="top-k" name="top_k">
+                  <option value="3">3</option>
+                  <option value="5" selected>5</option>
+                  <option value="10">10</option>
+                </select>
+              </label>
+              <button id="submit-button" class="primary-button" type="submit">
+                <span>Tìm mục liên quan</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+              </button>
+            </div>
+          </form>
+
+          <aside class="disclaimer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v5m0-8h.01" /></svg>
+            <p>Đây là công cụ kiểm thử retrieval, chỉ cung cấp gợi ý tham khảo và không thay thế đánh giá trực tiếp của bác sĩ.</p>
+          </aside>
+        </div>
+
+        <div class="results-panel" aria-labelledby="results-title">
+          <div class="results-heading">
+            <div><p class="step-label">02 · Kết quả</p><h2 id="results-title">Các mục được truy hồi</h2></div>
+            <button id="clear-button" class="text-button" type="button">Làm mới</button>
+          </div>
+
+          <div id="empty-state" class="empty-state">
+            <div class="radar" aria-hidden="true"><span></span><i></i></div>
+            <h3>Sẵn sàng để kiểm thử</h3>
+            <p>Kết quả Top‑K, mức khẩn và điểm xếp hạng sẽ xuất hiện ở đây.</p>
+          </div>
+
+          <div id="loading-state" class="loading-state" aria-live="polite" hidden>
+            <div class="spinner" aria-hidden="true"></div>
+            <div><strong>Đang nạp model và tìm kiếm…</strong><p>Lần chạy đầu trên CPU có thể mất lâu hơn.</p></div>
+          </div>
+
+          <div id="error-state" class="error-state" role="alert" hidden></div>
+
+          <div id="result-content" hidden>
+            <div class="run-meta">
+              <span id="route-badge"></span>
+              <span id="latency"></span>
+              <button id="technical-toggle" type="button" aria-expanded="false" aria-controls="technical-note">Điểm kỹ thuật</button>
+            </div>
+            <p id="technical-note" class="technical-note" hidden>Score chỉ dùng để so thứ tự trong cùng một truy vấn, không phải xác suất và không phải độ chắc chắn y khoa.</p>
+            <ol id="candidate-list" class="candidate-list" aria-live="polite"></ol>
+            <aside class="disclaimer result-disclaimer"><p id="result-disclaimer"></p></aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>Phòng khám YG Retrieval Lab</strong> · Chỉ dùng cho kiểm thử nội bộ.</p>
+      <a href="tel:115">Cấp cứu: 115</a>
+    </footer>
+  </body>
+</html>
+
