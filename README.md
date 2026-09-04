@@ -109,10 +109,14 @@ Toàn bộ dự án được tổ chức theo kiến trúc module hóa chặt ch
 ```
 D:\BotMedical\
 ├── .env                              # Biến môi trường local (API keys, ports)
+├── .env.example                       # Mẫu biến môi trường để người dùng mới copy thành .env
 ├── .gitignore                         # Danh sách file loại trừ khỏi Git
 ├── requirements.txt                   # Thư viện phục vụ chạy ứng dụng (FastAPI, ChromaDB...)
 ├── requirements-train.txt             # Thư viện huấn luyện GPU (GradCache, SentenceTransformers...)
+├── SETUP.md                           # Hướng dẫn cài đặt & xử lý sự cố cho người dùng mới
+├── setup.ps1                          # Cài đặt tự động 1 lệnh (venv, pip, npm, .env, index)
 ├── start-botmedical.ps1               # Script chạy song song Backend + Frontend 1-click
+├── stop-botmedical.ps1                # Dừng cả hai dịch vụ, giải phóng cổng 8000/3000
 ├── CLINICAL_VALIDATION.md             # Tiêu chuẩn phê duyệt lâm sàng & cổng kiểm định
 ├── TRAINING.md                        # Sổ tay hướng dẫn huấn luyện GPU trên Cloud
 ├── evaluation_report_current.md       # Báo cáo kỹ thuật model V2 phục hồi hiện hành
@@ -134,7 +138,11 @@ D:\BotMedical\
 
 ### 3.1 Thư mục gốc (Root Files)
 
-- [`start-botmedical.ps1`](file:///D:/BotMedical/start-botmedical.ps1): Script PowerShell một chạm mở 2 cửa sổ terminal riêng biệt: một cửa sổ chạy FastAPI Backend (`uvicorn src.web.app:app --port 8000`), một cửa sổ chạy Next.js Frontend (`npm run dev` trên port 3000).
+- [`SETUP.md`](file:///D:/BotMedical/SETUP.md): Hướng dẫn cài đặt từng bước cho người dùng mới, kèm bảng xử lý sự cố thường gặp.
+- [`setup.ps1`](file:///D:/BotMedical/setup.ps1): Cài đặt tự động một lệnh — dò Python 3.10/3.11, tạo `venv/`, cài `requirements.txt`, kiểm tra Node.js, chạy `npm install`, tạo `.env`, xác minh model embedding và dựng chỉ mục ChromaDB. Chạy lại nhiều lần đều an toàn (bỏ qua bước đã xong).
+- [`start-botmedical.ps1`](file:///D:/BotMedical/start-botmedical.ps1): Script PowerShell một chạm: kiểm tra tiền điều kiện (venv, `node_modules`, model, chỉ mục, cổng trống), mở 2 cửa sổ terminal riêng biệt — một chạy FastAPI Backend (`uvicorn src.web.app:app --port 8000`), một chạy Next.js Frontend (`npm run dev` trên port 3000) — rồi chờ backend báo `ready` trước khi mở trình duyệt. Hỗ trợ `-NoBrowser`, `-NoReload`, `-BackendPort`, `-FrontendPort`, `-SkipChecks`.
+- [`stop-botmedical.ps1`](file:///D:/BotMedical/stop-botmedical.ps1): Dừng cả hai dịch vụ theo PID đã ghi trong `.botmedical-run.json`, đồng thời quét giải phóng cổng 8000/3000.
+- [`.env.example`](file:///D:/BotMedical/.env.example): Mẫu biến môi trường (`BOTMED_DEVICE`, `BOTMED_LLM_PROVIDER`, `GEMINI_API_KEY`, `BOTMED_BACKEND_URL`) để người dùng mới copy thành `.env`.
 - [`requirements.txt`](file:///D:/BotMedical/requirements.txt): Định nghĩa các thư viện phục vụ runtime: `fastapi`, `uvicorn`, `chromadb`, `rank-bm25`, `pydantic`, `unidecode`, `torch`, `transformers`, `sentence-transformers`, `pyyaml`.
 - [`requirements-train.txt`](file:///D:/BotMedical/requirements-train.txt): Thư viện phục vụ huấn luyện mô hình embedding chuyên sâu trên máy chủ GPU: bổ sung `GradCache`, `bitsandbytes`, `scikit-learn`, `scipy`.
 - [`CLINICAL_VALIDATION.md`](file:///D:/BotMedical/CLINICAL_VALIDATION.md): Văn kiện pháp lý và tiêu chuẩn kỹ thuật quy định các bước thẩm định y khoa bắt buộc trước khi triển khai thực tế. Yêu cầu tối thiểu 400 ca test độc lập (200 cấp cứu, 200 thường) được 2 bác sĩ review độc lập và 1 bác sĩ phân xử (adjudicator).
@@ -432,55 +440,44 @@ Theo chỉ thị y khoa tại [`docs/V3_FREEZE_STATUS.md`](file:///D:/BotMedical
 
 ## 5. Hướng dẫn cài đặt & Khởi chạy (Quick Start)
 
+> Hướng dẫn đầy đủ cho người dùng mới (kèm bảng xử lý sự cố): **[SETUP.md](file:///D:/BotMedical/SETUP.md)**
+
 ### Yêu cầu hệ thống
-- **Hệ điều hành:** Windows 10/11 hoặc Linux (Ubuntu 20.04/22.04).
+- **Hệ điều hành:** Windows 10/11 (bộ script `.ps1` chạy trên PowerShell).
 - **Python:** Phiên bản `3.10` hoặc `3.11`.
 - **Node.js:** Phiên bản `18.x` hoặc `20.x LTS`.
 - **Phần cứng khuyến nghị:** 16GB RAM, ổ cứng SSD trống tối thiểu 10GB. Có GPU NVIDIA (từ 6GB VRAM) để đạt tốc độ xử lý nhanh nhất (hệ thống tự động fallback về CPU nếu không có CUDA).
 
-### Các bước cài đặt
+### Bước 0: Model embedding (bắt buộc, KHÔNG có trong Git)
 
-#### Bước 1: Thiết lập môi trường Python (Backend)
-```powershell
-# Di chuyển vào thư mục dự án
-cd D:\BotMedical
+Trọng số `models/bge-m3-medical-v2-recovered-a050-fp16/model.safetensors` nặng 1.1 GB nên bị loại khỏi Git (xem `.gitignore`). Sau khi `git clone`, phải **copy thủ công** cả thư mục `models/bge-m3-medical-v2-recovered-a050-fp16/` từ máy đã có sẵn vào đúng vị trí, trước khi chạy `setup.ps1`.
 
-# Tạo môi trường ảo
-python -m venv venv
+### Bước 1: Cài đặt tự động (một lệnh duy nhất)
 
-# Kích hoạt môi trường ảo
-.\venv\Scripts\Activate.ps1
-
-# Cài đặt các thư viện phụ thuộc
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-#### Bước 2: Thiết lập môi trường Node.js (Frontend)
-```powershell
-cd D:\BotMedical\frontend\clinic
-npm install
-```
-
-#### Bước 3: Tạo chỉ mục Vector (ChromaDB Index)
-Trước khi chạy lần đầu, cần biên dịch và lập chỉ mục cho 652 file bệnh học:
-```powershell
-# Chạy trên máy có GPU CUDA (khuyến nghị):
-cd D:\BotMedical
-.\venv\Scripts\python.exe scripts\build_retrieval_index.py --device cuda --batch-size 32
-
-# Hoặc chạy trên CPU:
-.\venv\Scripts\python.exe scripts\build_retrieval_index.py --device cpu --batch-size 8
-```
-Sau khi màn hình hiển thị `[READY] Collection ... contains 652 items`, hệ thống đã sẵn sàng.
-
-#### Bước 4: Khởi chạy ứng dụng
-Chạy script tự động:
 ```powershell
 cd D:\BotMedical
+.\setup.ps1
+```
+
+[`setup.ps1`](file:///D:/BotMedical/setup.ps1) tự động: tìm Python 3.10/3.11 → tạo `venv/` → cài `requirements.txt` → kiểm tra Node.js → `npm install` cho `frontend/clinic` → tạo `.env` từ `.env.example` → kiểm tra model → dựng chỉ mục ChromaDB 652 bệnh. Script an toàn khi chạy lại: bước nào đã xong sẽ được bỏ qua.
+
+Tham số tùy chọn:
+
+```powershell
+.\setup.ps1 -Device cuda -BatchSize 32   # máy có GPU NVIDIA + torch bản CUDA
+.\setup.ps1 -ForceIndex                  # dựng lại chỉ mục từ đầu
+```
+
+Nếu PowerShell chặn script: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`.
+
+### Bước 2: Khởi chạy
+
+```powershell
 .\start-botmedical.ps1
 ```
-Script sẽ tự động mở 2 dịch vụ:
+
+[`start-botmedical.ps1`](file:///D:/BotMedical/start-botmedical.ps1) kiểm tra tiền điều kiện (venv, node_modules, model, chỉ mục, cổng trống), mở 2 cửa sổ dịch vụ, chờ backend báo `ready` rồi mở trình duyệt:
+
 - **FastAPI Backend (Phân loại & Tìm kiếm):** `http://127.0.0.1:8000`
   - Swagger UI kiểm thử API: `http://127.0.0.1:8000/api/docs`
   - Giao diện Retrieval Lab nội bộ: `http://127.0.0.1:8000`
@@ -488,6 +485,22 @@ Script sẽ tự động mở 2 dịch vụ:
   - Bàn tư vấn triệu chứng AI: `http://localhost:3000/tro-ly`
   - Danh mục chuyên khoa: `http://localhost:3000/chuyen-khoa`
   - Đặt lịch khám: `http://localhost:3000/dat-lich`
+
+Tham số tùy chọn: `-NoBrowser`, `-NoReload`, `-BackendPort 8010 -FrontendPort 3010`, `-SkipChecks`.
+
+> Lần tìm kiếm triệu chứng **đầu tiên mất ~40 giây** do nạp model 1.1 GB vào RAM (trên CPU); các lần sau trả kết quả dưới 1 giây.
+
+### Bước 3: Dừng hệ thống
+
+```powershell
+.\stop-botmedical.ps1
+```
+
+Đóng cả hai cửa sổ dịch vụ và giải phóng cổng 8000/3000 — dùng khi gặp lỗi `Port is already in use`.
+
+### Lưu ý về LLM
+
+Ứng dụng web **không gọi LLM**: luồng `/tro-ly` chỉ đi qua guardrail regex + hybrid retrieval (ChromaDB + BM25). Vì vậy **không cần Ollama và không cần `GEMINI_API_KEY`** để chạy web. LLM chỉ phục vụ các script dòng lệnh trong `scripts/` (`test_chat.py`, `run_golden_eval.py`, `run_eval.py`).
 
 ---
 

@@ -17,6 +17,8 @@ build/
 *.tar
 *.part.*
 PIPELINE_SUCCESS
+# Runtime state written by start-botmedical.ps1
+.botmedical-run.json
 data/finetune/
 data/clinical_review/clinical_adjudication.csv
 data/clinical_review/adjudication_summary.json
