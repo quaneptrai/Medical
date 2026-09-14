@@ -25,12 +25,28 @@ data/clinical_review/adjudication_summary.json
 artifacts/training/
 artifacts/evaluation/gpu_training_preflight.json
 dataset_candidates.json
+# --- Models ---------------------------------------------------------------
+# Weight files are far past GitHub's 100 MB per-file limit, so the production
+# retrieval model ships as <95 MB parts under models/<id>/parts/ and setup.ps1
+# reassembles model.safetensors locally. Other models stay on-disk only.
 models/*
 !models/registry.json
 !models/*/
 models/*/*
 !models/*/blend_manifest.json
 !models/*/precision_manifest.json
+
+# Production retrieval model - the only one the web app loads (src/web/app.py
+# runs the guardrail with semantic_mode='off', so safe-fp16 is not needed).
+!models/bge-m3-medical-v2-recovered-a050-fp16/*.json
+!models/bge-m3-medical-v2-recovered-a050-fp16/README.md
+!models/bge-m3-medical-v2-recovered-a050-fp16/1_Pooling/
+!models/bge-m3-medical-v2-recovered-a050-fp16/2_Normalize/
+!models/bge-m3-medical-v2-recovered-a050-fp16/parts/
+# Re-includes the split weights, which the global "*.part.*" rule above hides.
+!models/bge-m3-medical-v2-recovered-a050-fp16/parts/*
+# The reassembled artifact is derived from parts/ - never commit it.
+models/*/model.safetensors
 
 # Frontend
 node_modules/
@@ -45,3 +61,14 @@ frontend/clinic/data/*.db*
 
 # External repos
 s32k144-learning-universe/
+
+# Local credentials and browser sessions must stay on the originating machine.
+.env.*
+!.env.example
+**/.chrome-*/
+**/data/bootstrap-admin.json
+# Local QA captures can contain account/patient details; regenerate on your own DB.
+artifacts/*.png
+artifacts/admin-qa/*.png
+
+artifacts/model-transfer-originals-*/

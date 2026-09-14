@@ -3,13 +3,13 @@ import { MapPin, Phone, Mail, Clock, ShieldAlert, PhoneCall, CheckCircle2 } from
 import { CLINIC_INFO } from '@/lib/clinic-data';
 
 export const metadata = {
-  title: 'Liên hệ & Chỉ đường · Phòng khám Đa khoa Quốc tế YG',
-  description: 'Địa chỉ, số điện thoại, giờ làm việc và hướng dẫn di chuyển tới Phòng khám YG.',
+  title: 'Liên hệ & Chỉ đường · Phòng khám Đa khoa Quốc tế Quang Thanh',
+  description: 'Địa chỉ, số điện thoại, giờ làm việc và hướng dẫn di chuyển tới Phòng khám Quang Thanh.',
 };
 
 export default function ContactPage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12">
+    <div className="clinic-page space-y-12">
       <div className="text-center max-w-2xl mx-auto space-y-3">
         <span className="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200 inline-block">
           Thông tin liên hệ
@@ -18,34 +18,34 @@ export default function ContactPage() {
           Địa chỉ & Thời gian phục vụ
         </h1>
         <p className="text-sm md:text-base text-neutral-600">
-          Hệ thống cơ sở khang trang tại trung tâm Hà Nội và TP. Hồ Chí Minh. Sẵn sàng đón tiếp và tư vấn người bệnh.
+          Điểm khám Quang Thanh tại An Lão, Hải Phòng, sẵn sàng tiếp nhận và hỗ trợ người bệnh mỗi ngày.
         </p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Contact Info Cards (7 cols) */}
         <div className="lg:col-span-7 space-y-6">
-          {/* Branch 1: Hanoi */}
+          {/* Main clinic */}
           <div className="bg-neutral-0 rounded-xl p-6 border border-neutral-200 shadow-xs space-y-3">
             <div className="flex items-center gap-2 text-brand-700 font-bold text-base">
               <MapPin className="w-5 h-5" />
-              <span>Cơ sở 1 (Hà Nội - Trụ sở chính)</span>
+              <span>Phòng khám Quang Thanh · An Lão</span>
             </div>
             <p className="text-sm text-neutral-800 font-medium">{CLINIC_INFO.address}</p>
             <p className="text-xs text-neutral-500">
-              Cách Ngã Tư Sở 800m, có bãi đỗ ô tô và xe máy rộng rãi miễn phí cho người bệnh.
+              Khu vực Quang Trung, thuận tiện di chuyển trong huyện An Lão và các khu vực lân cận.
             </p>
           </div>
 
-          {/* Branch 2: HCMC */}
+          {/* Arrival information */}
           <div className="bg-neutral-0 rounded-xl p-6 border border-neutral-200 shadow-xs space-y-3">
             <div className="flex items-center gap-2 text-brand-700 font-bold text-base">
               <MapPin className="w-5 h-5" />
-              <span>Cơ sở 2 (TP. Hồ Chí Minh)</span>
+              <span>Hướng dẫn khi đến khám</span>
             </div>
-            <p className="text-sm text-neutral-800 font-medium">{CLINIC_INFO.branchHcm}</p>
+            <p className="text-sm text-neutral-800 font-medium">Có mặt trước lịch hẹn 15 phút để hoàn tất tiếp nhận.</p>
             <p className="text-xs text-neutral-500">
-              Gần Bưu điện Thành phố, thuận tiện di chuyển từ các quận trung tâm.
+              Mang theo giấy tờ tùy thân, hồ sơ khám cũ và đơn thuốc đang sử dụng nếu có.
             </p>
           </div>
 

@@ -16,12 +16,11 @@
         "alpha": 0.07,
         "method": "extrapolated_from_quantized_linear_blend"
       },
-      "status": "local_available",
-      "backup": "not_recorded",
+      "status": "packaged_in_git_parts",
+      "backup": "models/bge-m3-medical-v2-recovered-a050-fp16/parts/parts_manifest.json",
       "limitations": [
         "Original FP32 tuned checkpoint is unavailable.",
-        "The FP16 source rounding error was amplified by alpha 0.50 / 0.07.",
-        "Model binaries remain outside git and require an external content-addressed backup."
+        "The FP16 source rounding error was amplified by alpha 0.50 / 0.07."
       ]
     },
     {

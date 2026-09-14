@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff0ea"/><stop offset="1" stop-color="#bcdfd3"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef3f2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="200" cy="206" r="150" fill="#ffffff" opacity=".34"/>
+
+  <!-- cổ -->
+  <path d="M172 288h56v70a28 28 0 0 1-56 0z" fill="#e6c29f"/>
+
+  <!-- áo blouse và áo trong -->
+  <path d="M200 352c74 0 128 44 134 116l2 32H64l2-32c6-72 60-116 134-116z" fill="url(#coat)"/>
+  <path d="M200 352l34 14-34 60-34-60z" fill="#3f7d6b"/>
+  <path d="M166 366l34 60-30 74-42-104a132 132 0 0 1 38-30z" fill="#ffffff"/>
+  <path d="M234 366l-34 60 30 74 42-104a132 132 0 0 0-38-30z" fill="#ffffff"/>
+  <path d="M166 366l34 60-30 74-42-104a132 132 0 0 1 38-30z" fill="none" stroke="#d5e0dd" stroke-width="2"/>
+  <path d="M234 366l-34 60 30 74 42-104a132 132 0 0 0-38-30z" fill="none" stroke="#d5e0dd" stroke-width="2"/>
+
+  <!-- ống nghe -->
+  <path d="M168 362c-14 44-6 86 22 106" fill="none" stroke="#3a4a55" stroke-width="9" stroke-linecap="round"/>
+  <path d="M232 362c14 40 10 74-8 96" fill="none" stroke="#3a4a55" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="216" cy="466" r="16" fill="#c9d3d8" stroke="#3a4a55" stroke-width="7"/>
+
+  <!-- tai -->
+  <ellipse cx="126" cy="222" rx="14" ry="20" fill="#e6c29f"/>
+  <ellipse cx="274" cy="222" rx="14" ry="20" fill="#e6c29f"/>
+
+  <!-- khuôn mặt -->
+  <ellipse cx="200" cy="208" rx="76" ry="92" fill="#f7dcc0"/>
+  <path d="M118 224c-8-70 34-114 82-114s90 44 82 114c-8-34-22-52-40-58-24 14-66 16-96 0-14 10-22 26-28 58z" fill="#241a13"/>
+     <path d="M282 196c22 14 30 48 24 86-4 26-18 42-34 44 12-30 14-62 4-92z" fill="#241a13"/>
+
+  <!-- mắt, lông mày, mũi, miệng -->
+  <path d="M158 196q18-12 36-2" fill="none" stroke="#241a13" stroke-width="7" stroke-linecap="round"/>
+  <path d="M206 194q18-10 36 2" fill="none" stroke="#241a13" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="174" cy="220" rx="8" ry="9" fill="#2c2622"/>
+  <ellipse cx="226" cy="220" rx="8" ry="9" fill="#2c2622"/>
+  <circle cx="177" cy="217" r="2.6" fill="#ffffff"/>
+  <circle cx="229" cy="217" r="2.6" fill="#ffffff"/>
+  <path d="M200 226v22l-10 8" fill="none" stroke="#e6c29f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M180 272q20 16 40 0" fill="none" stroke="#a35e57" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#33413c" stroke-width="5">
+    <rect x="148" y="202" width="52" height="38" rx="14"/>
+    <rect x="200" y="202" width="52" height="38" rx="14"/>
+    <path d="M124 210h24M252 210h24"/>
+  </g>
+</svg>

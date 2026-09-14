@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Bản mẫu thiết kế trang chủ tiếp nhận triệu chứng bằng giọng nói cho Phòng khám Đa khoa Quốc tế Quang Thanh." />
+    <title>Quang Thanh · Ngày khỏe hơn</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua đến nội dung chính</a>
+
+    <div class="utility-bar">
+      <div class="shell utility-inner">
+        <p><span class="status-dot" aria-hidden="true"></span>Tiếp nhận lịch khám hôm nay</p>
+        <div>
+          <a href="tel:115" class="emergency-link">Cấp cứu 115</a>
+          <span class="utility-divider" aria-hidden="true"></span>
+          <span>Thôn Câu Hạ A, xã Quang Trung, An Lão, Hải Phòng</span>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#" aria-label="Quang Thanh — trang chủ">
+          <span class="brand-mark" aria-hidden="true">
+            <span></span><span></span>
+          </span>
+          <span>
+            <strong>QUANG THANH</strong>
+            <small>Phòng khám đa khoa quốc tế</small>
+          </span>
+        </a>
+
+        <nav aria-label="Điều hướng chính">
+          <a class="active" href="#">Trang chủ</a>
+          <a href="#services">Chuyên khoa</a>
+          <a href="#doctors">Bác sĩ</a>
+          <a href="#voice-intake">Trợ lý sức khỏe</a>
+          <a href="#">Bảng giá</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="text-action" href="#">Đăng nhập</a>
+          <a class="button button-primary" href="#booking">Đặt lịch khám <span aria-hidden="true">→</span></a>
+          <button class="menu-button" type="button" aria-label="Mở menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero shell">
+        <div class="hero-copy">
+          <div class="eyebrow"><span aria-hidden="true">✦</span> Chăm sóc bắt đầu từ lắng nghe</div>
+          <h1>Kể điều bạn đang thấy <em>không ổn.</em></h1>
+          <p class="hero-lead">
+            Nói hoặc nhập triệu chứng bằng cách tự nhiên. Trợ lý sẽ giúp bạn sắp xếp thông tin,
+            kiểm tra dấu hiệu cần chú ý và gợi ý chuyên khoa phù hợp trước khi gặp bác sĩ.
+          </p>
+
+          <div id="voice-intake" class="voice-card" data-state="idle">
+            <div class="voice-card-top">
+              <div>
+                <span class="step-label">BƯỚC 1 · MÔ TẢ TRIỆU CHỨNG</span>
+                <h2>Hôm nay bạn cảm thấy thế nào?</h2>
+              </div>
+              <span class="privacy-note">Không lưu khi chưa đồng ý</span>
+            </div>
+
+            <div class="voice-stage">
+              <button id="voiceButton" class="voice-button" type="button" aria-pressed="false" aria-label="Bắt đầu nói">
+                <span class="mic-icon" aria-hidden="true"></span>
+                <span class="voice-button-label">Chạm để nói</span>
+              </button>
+              <div class="waveform" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <p id="voiceHint">Bạn có thể nói: “Tôi ho và sốt nhẹ từ tối qua...”</p>
+            </div>
+
+            <div class="transcript" id="transcript" aria-live="polite">
+              <span>Bản ghi sẽ xuất hiện tại đây</span>
+              <p></p>
+              <button id="confirmVoice" type="button">Dùng mô tả này <span aria-hidden="true">→</span></button>
+            </div>
+
+            <div class="text-entry">
+              <label for="symptomText">Hoặc nhập bằng bàn phím</label>
+              <div class="input-row">
+                <input id="symptomText" type="text" placeholder="Ví dụ: đau đầu, chóng mặt từ sáng..." />
+                <button type="button" aria-label="Gửi mô tả">→</button>
+              </div>
+            </div>
+
+            <div class="quick-prompts" aria-label="Gợi ý triệu chứng thường gặp">
+              <span>Gợi ý nhanh:</span>
+              <button type="button">Ho & sốt nhẹ</button>
+              <button type="button">Đau vai gáy</button>
+              <button type="button">Khó chịu vùng bụng</button>
+            </div>
+          </div>
+
+          <p class="medical-note">
+            <span aria-hidden="true">ⓘ</span> Kết quả chỉ hỗ trợ định hướng ban đầu, không thay thế thăm khám của bác sĩ.
+          </p>
+        </div>
+
+        <aside class="hero-visual" aria-label="Thông tin tiếp nhận tại phòng khám">
+          <div class="visual-frame">
+            <img src="./assets/clinic-family-hero.png" alt="Bác sĩ trò chuyện thân thiện với một gia đình tại phòng khám" />
+          </div>
+          <div class="clinic-today">
+            <div class="clinic-today-title">
+              <div><span>Tiếp nhận tại phòng khám</span><h2>Thông tin cần biết hôm nay</h2></div>
+              <span class="open-label"><i aria-hidden="true"></i> Đang tiếp nhận</span>
+            </div>
+            <dl>
+              <div><dt>Giờ khám</dt><dd>Thứ 2 — Chủ nhật</dd></div>
+              <div><dt>Địa chỉ</dt><dd>Quang Trung, An Lão, Hải Phòng</dd></div>
+              <div><dt>Hỗ trợ</dt><dd><a href="#booking">Đặt lịch</a> · <a href="#">Xem bảng giá</a></dd></div>
+            </dl>
+            <div class="urgent-row"><strong>Khi có dấu hiệu nguy hiểm</strong><a href="tel:115">Gọi 115</a></div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="services" class="services-band">
+        <div class="shell">
+          <div class="section-heading">
+            <div><span class="eyebrow subtle">Dịch vụ nổi bật</span><h2>Chọn điểm bắt đầu phù hợp</h2></div>
+            <a href="#">Xem tất cả chuyên khoa <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="service-grid">
+            <article class="service-card sky">
+              <span class="service-icon" aria-hidden="true">◎</span>
+              <div><h3>Nội tổng quát</h3><p>Khám ban đầu khi triệu chứng chưa rõ nguyên nhân.</p></div>
+              <a href="#" aria-label="Xem Nội tổng quát">↗</a>
+            </article>
+            <article class="service-card yellow">
+              <span class="service-icon" aria-hidden="true">◌</span>
+              <div><h3>Sản · Phụ khoa</h3><p>Chăm sóc sức khỏe phụ nữ và theo dõi thai kỳ.</p></div>
+              <a href="#" aria-label="Xem Sản Phụ khoa">↗</a>
+            </article>
+            <article class="service-card mint">
+              <span class="service-icon" aria-hidden="true">◇</span>
+              <div><h3>Răng Hàm Mặt</h3><p>Khám, tư vấn và chăm sóc sức khỏe răng miệng.</p></div>
+              <a href="#" aria-label="Xem Răng Hàm Mặt">↗</a>
+            </article>
+            <article class="service-card coral-card">
+              <span class="service-icon" aria-hidden="true">⌁</span>
+              <div><h3>Chẩn đoán hình ảnh</h3><p>Hỗ trợ bác sĩ đánh giá bằng thiết bị chuyên môn.</p></div>
+              <a href="#" aria-label="Xem Chẩn đoán hình ảnh">↗</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking" class="journey shell">
+        <div>
+          <span class="eyebrow subtle">Một hành trình, không nhập lại</span>
+          <h2>Từ điều bạn kể đến lịch hẹn phù hợp.</h2>
+        </div>
+        <ol>
+          <li><span>01</span><div><strong>Mô tả triệu chứng</strong><p>Nói hoặc nhập theo cách tự nhiên.</p></div></li>
+          <li><span>02</span><div><strong>Nhận hướng dẫn ban đầu</strong><p>Kiểm tra dấu hiệu cần chú ý và chuyên khoa gợi ý.</p></div></li>
+          <li><span>03</span><div><strong>Chọn bác sĩ & khung giờ</strong><p>Giữ lại thông tin cần thiết khi bạn đồng ý.</p></div></li>
+        </ol>
+      </section>
+    </main>
+
+    <script src="./prototype.js"></script>
+  </body>
+</html>

@@ -145,17 +145,17 @@ export function TriageDesk({ initialQuery, className }: TriageDeskProps) {
           aria-label="Sổ ghi tham vấn triệu chứng"
         >
           {/* Header Bar */}
-          <div className="flex items-center justify-between border-b border-white/[0.08] bg-white/[0.025] px-4 py-3 sm:px-5">
+          <div className="flex items-center justify-between border-b border-[#d8e4df] bg-[#f7fbf9] px-4 py-3 sm:px-5">
             <div className="flex items-center gap-2">
               <FileText className="w-4 h-4 text-mineral" />
-              <span className="text-[10px] font-semibold uppercase tracking-[.15em] text-zinc-300 sm:text-xs">
+              <span className="text-[10px] font-semibold uppercase tracking-[.15em] text-[#18312d] sm:text-xs">
                 Cuộc trò chuyện của bạn
               </span>
             </div>
             <button
               type="button"
               onClick={handleReset}
-              className="inline-flex items-center gap-1 rounded-lg px-2 py-1 text-[11px] text-zinc-500 transition-colors hover:bg-white/5 hover:text-white"
+              className="inline-flex items-center gap-1 rounded-lg px-2 py-1 text-[11px] text-[#60736f] transition-colors hover:bg-[#eaf6f1] hover:text-[#075f59]"
               title="Làm mới sổ ghi"
             >
               <RotateCcw className="w-3.5 h-3.5" />
@@ -173,8 +173,8 @@ export function TriageDesk({ initialQuery, className }: TriageDeskProps) {
             {entries.map((entry) => {
               if (entry.type === 'patient_input') {
                 return (
-                  <div key={entry.id} className="ml-auto max-w-[88%] space-y-1 rounded-2xl rounded-tr-sm bg-violet-600 p-4 shadow-[0_12px_30px_rgba(124,58,237,.2)]">
-                    <div className="flex items-center gap-2 text-[10px] font-semibold text-violet-100/70">
+                  <div key={entry.id} className="ml-auto max-w-[88%] space-y-1 rounded-2xl rounded-tr-sm bg-[#087f73] p-4 shadow-[0_12px_30px_rgba(8,127,115,.16)]">
+                    <div className="flex items-center gap-2 text-[10px] font-semibold text-white/70">
                       <User className="w-3.5 h-3.5" />
                       <span>Người bệnh mô tả ({entry.timestamp})</span>
                     </div>
@@ -194,8 +194,8 @@ export function TriageDesk({ initialQuery, className }: TriageDeskProps) {
               }
 
               return (
-                <div key={entry.id} className="max-w-[92%] space-y-2 rounded-2xl rounded-tl-sm border border-white/[0.08] bg-white/[0.04] p-4 text-xs leading-relaxed text-zinc-300 sm:text-sm">
-                  <div className="flex items-center gap-1.5 text-[10px] font-medium text-zinc-500">
+                <div key={entry.id} className="max-w-[92%] space-y-2 rounded-2xl rounded-tl-sm border border-[#d8e4df] bg-[#f7fbf9] p-4 text-xs leading-relaxed text-[#405954] sm:text-sm">
+                  <div className="flex items-center gap-1.5 text-[10px] font-medium text-[#60736f]">
                     <Stethoscope className="w-3.5 h-3.5 text-mineral" />
                     <span>Ghi nhận hệ thống ({entry.timestamp})</span>
                   </div>
@@ -205,14 +205,14 @@ export function TriageDesk({ initialQuery, className }: TriageDeskProps) {
             })}
 
             {loading && (
-              <div className="max-w-[92%] animate-pulse rounded-2xl rounded-tl-sm border border-violet-300/10 bg-violet-400/[0.05] p-4 text-xs text-violet-200/70">
+              <div className="max-w-[92%] animate-pulse rounded-2xl rounded-tl-sm border border-[#bce6d6] bg-[#edf8f4] p-4 text-xs text-[#60736f]">
                 AI đang đối chiếu mô tả của bạn...
               </div>
             )}
           </div>
 
           {/* Sticky Composer */}
-          <div className="border-t border-white/[0.08] bg-black/20 p-3 sm:p-4">
+          <div className="border-t border-[#d8e4df] bg-[#f0f7f4] p-3 sm:p-4">
             {emergency ? (
               <div className="p-3.5 bg-emergency-soft border border-emergency rounded-md text-center space-y-2">
                 <p className="text-xs font-bold text-emergency uppercase tracking-wider">
@@ -234,19 +234,19 @@ export function TriageDesk({ initialQuery, className }: TriageDeskProps) {
                 }}
                 className="space-y-2"
               >
-                <div className="flex gap-2 rounded-xl border border-white/[0.09] bg-white/[0.035] p-1.5 focus-within:border-violet-400/50">
+                <div className="flex gap-2 rounded-xl border border-[#c7ded7] bg-white p-1.5 focus-within:border-[#087f73]">
                   <input
                     type="text"
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
                     placeholder="Mô tả triệu chứng tiếp theo hoặc bổ sung chi tiết..."
                     disabled={loading}
-                    className="min-h-[44px] min-w-0 flex-1 bg-transparent px-3 py-2 text-sm text-white placeholder:text-zinc-600 focus:outline-none"
+                    className="min-h-[44px] min-w-0 flex-1 bg-transparent px-3 py-2 text-sm text-[#18312d] placeholder:text-[#8a9d99] focus:outline-none"
                   />
                   <button
                     type="submit"
                     disabled={!input.trim() || loading}
-                    className="min-h-[44px] shrink-0 rounded-lg bg-white px-5 py-2.5 text-xs font-semibold text-black transition-colors hover:bg-violet-100 disabled:opacity-50"
+                    className="min-h-[44px] shrink-0 rounded-lg bg-[#087f73] px-5 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-[#075f59] disabled:opacity-50"
                   >
                     <span>Gửi</span>
                   </button>

@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import { AppointmentForm } from '@/components/clinic/AppointmentForm';
+import { BookingGate } from '@/components/clinic/BookingGate';
 import { Calendar, PhoneCall, Clock } from 'lucide-react';
 import { CLINIC_INFO } from '@/lib/clinic-data';
 
 export default function BookingPage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-10">
+    <div className="clinic-page space-y-10">
       <div className="text-center max-w-2xl mx-auto space-y-3">
         <span className="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200 inline-block">
           Tiếp nhận trực tuyến
@@ -16,13 +16,13 @@ export default function BookingPage() {
           Đăng ký lịch khám chữa bệnh
         </h1>
         <p className="text-sm md:text-base text-neutral-600">
-          Chủ động lựa chọn chuyên khoa, bác sĩ và khung giờ thuận tiện nhất. Xác nhận lịch nhanh chóng trong 15 phút.
+          Chủ động chọn chuyên khoa, bác sĩ và khung giờ thuận tiện. Lịch được gắn với hồ sơ tài khoản của bạn nên chỉ cần khai thông tin cá nhân một lần.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-neutral-500 pt-1">
           <span className="flex items-center gap-1">
             <Clock className="w-3.5 h-3.5 text-brand-600" />
-            <span>Giờ làm việc: 07:30 – 20:00</span>
+            <span>Giờ khám: Sáng 08:00–12:00 · Chiều 13:00–19:00</span>
           </span>
           <span className="flex items-center gap-1">
             <PhoneCall className="w-3.5 h-3.5 text-brand-600" />
@@ -38,7 +38,7 @@ export default function BookingPage() {
           </div>
         }
       >
-        <AppointmentForm />
+        <BookingGate />
       </React.Suspense>
     </div>
   );

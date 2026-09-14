@@ -1,0 +1,10 @@
+# The split model weights must survive checkout byte-for-byte on every machine.
+# Git's binary auto-detection only sniffs the first 8 KB, and core.autocrlf
+# varies per developer, so mark them explicitly instead of relying on either.
+models/*/parts/model.safetensors.part.* binary
+*.safetensors binary
+
+# Keep the PowerShell entry points CRLF so Windows tooling never sees LF-only
+# scripts, and keep shell scripts LF so they stay runnable under WSL/Git Bash.
+*.ps1 text eol=crlf
+*.sh  text eol=lf

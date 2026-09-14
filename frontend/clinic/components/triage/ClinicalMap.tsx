@@ -27,21 +27,21 @@ export function ClinicalMap({
   return (
     <aside
       className={cn(
-        'flex h-full flex-col overflow-hidden border-l border-white/[0.08] bg-black/15',
+        'flex h-full flex-col overflow-hidden border-l border-[#d8e4df] bg-[#f0f7f4]',
         className
       )}
       aria-label="Tóm tắt định hướng lâm sàng"
     >
       {/* Top Header */}
-      <div className="flex items-center justify-between border-b border-white/[0.08] p-4">
+      <div className="flex items-center justify-between border-b border-[#d8e4df] p-4">
         <div className="flex items-center gap-2">
           <Activity className="w-4 h-4 text-mineral" />
-          <span className="text-[10px] font-semibold uppercase tracking-[.15em] text-zinc-300">
-            Health snapshot
+          <span className="text-[10px] font-semibold uppercase tracking-[.15em] text-[#405954]">
+            Tóm tắt phiên
           </span>
         </div>
-        <span className="rounded-full border border-violet-300/15 bg-violet-400/[0.06] px-2 py-0.5 text-[10px] text-violet-300">
-          Live
+        <span className="rounded-lg border border-[#bce6d6] bg-white px-2 py-0.5 text-[10px] font-bold text-[#087f73]">
+          Trực tiếp
         </span>
       </div>
 

@@ -1,116 +1,103 @@
-import * as React from 'react';
 import Link from 'next/link';
-import { SPECIALTIES } from '@/lib/clinic-data';
-import {
-  Wind,
-  Activity,
-  Sparkles,
-  Shield,
-  Ear,
-  Brain,
-  ArrowRight,
-  UserCheck,
-  Stethoscope,
-} from 'lucide-react';
+import { ArrowRight, BookOpen, MessageSquareText, Stethoscope, UsersRound } from 'lucide-react';
+import { getCatalogDoctors, getCatalogSpecialties } from '@/lib/doctor-catalog';
+import { BODY_SYSTEMS, countDiseasesBySystem } from '@/lib/disease-library';
 
 export const metadata = {
-  title: 'Danh mục Chuyên khoa · Phòng khám Đa khoa Quốc tế YG',
-  description: 'Các chuyên khoa sâu tại Phòng khám YG: Hô hấp, Tiêu hóa, Da liễu, Cơ xương khớp, Tai Mũi Họng, Thần kinh.',
+  title: 'Chuyên khoa khám chữa bệnh · Phòng khám Đa khoa Quốc tế Quang Thanh',
+  description: 'Phạm vi tiếp nhận, triệu chứng thường gặp và đội ngũ bác sĩ của từng chuyên khoa tại Phòng khám Quang Thanh.',
 };
+export const dynamic = 'force-dynamic';
 
 export default function SpecialtiesPage() {
-  const getIcon = (iconName: string) => {
-    switch (iconName) {
-      case 'Wind':
-        return <Wind className="w-6 h-6" />;
-      case 'Activity':
-        return <Activity className="w-6 h-6" />;
-      case 'Sparkles':
-        return <Sparkles className="w-6 h-6" />;
-      case 'Shield':
-        return <Shield className="w-6 h-6" />;
-      case 'Ear':
-        return <Ear className="w-6 h-6" />;
-      case 'Brain':
-        return <Brain className="w-6 h-6" />;
-      default:
-        return <Stethoscope className="w-6 h-6" />;
-    }
-  };
+  const specialties = getCatalogSpecialties();
+  const doctors = getCatalogDoctors();
+  const diseaseCounts = countDiseasesBySystem();
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12">
-      <div className="text-center max-w-3xl mx-auto space-y-3">
-        <span className="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200 inline-block">
-          Hệ thống 6 Chuyên khoa
-        </span>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-neutral-900 font-heading tracking-tight">
-          Danh mục chuyên khoa lâm sàng
-        </h1>
-        <p className="text-sm md:text-base text-neutral-600">
-          Trang thiết bị chẩn đoán hiện đại, phác đồ điều trị chuẩn mực y tế ban đầu và đội ngũ bác sĩ chuyên sâu từng khoa.
-        </p>
-      </div>
+    <div className="clinic-page space-y-10">
+      <section className="grid grid-cols-[1.25fr_.75fr] items-end gap-10 rounded-[28px] border border-[#cfe1db] bg-[#eaf6f1] px-10 py-9">
+        <div>
+          <span className="clinic-kicker">Chuyên khoa khám chữa bệnh</span>
+          <h1 className="mt-3 text-[46px] leading-[1.06]">Vào đúng khoa ngay từ lần khám đầu tiên</h1>
+          <p className="mt-4 max-w-2xl text-sm leading-7 text-[#526a65]">
+            Phần lớn người bệnh đến phòng khám với một triệu chứng chứ không phải một chẩn đoán. Mỗi khoa dưới đây ghi rõ
+            những dấu hiệu mà khoa đó tiếp nhận và ai là người sẽ khám cho bạn — nếu vẫn phân vân, trợ lý sức khỏe sẽ
+            gợi ý khoa phù hợp trước khi bạn đặt lịch.
+          </p>
+          <div className="mt-6 flex gap-3">
+            <Link href="/tro-ly" className="inline-flex min-h-12 items-center gap-2 rounded-xl bg-[#087f73] px-6 text-sm font-bold text-white"><MessageSquareText className="h-4 w-4" /> Mô tả triệu chứng để được gợi ý khoa</Link>
+            <Link href="/co-the-nguoi" className="inline-flex min-h-12 items-center rounded-xl border border-[#9ec7bd] bg-white px-6 text-sm font-bold text-[#075f59]">Tra cứu theo cơ quan</Link>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 gap-3">
+          <div className="rounded-2xl bg-white p-5"><strong className="block text-3xl text-[#087f73]">{specialties.length}</strong><span className="text-xs text-[#60736f]">Chuyên khoa</span></div>
+          <div className="rounded-2xl bg-white p-5"><strong className="block text-3xl text-[#087f73]">{doctors.length}</strong><span className="text-xs text-[#60736f]">Bác sĩ tiếp nhận</span></div>
+        </div>
+      </section>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {SPECIALTIES.map((spec) => (
-          <article
-            key={spec.id}
-            className="bg-neutral-0 border border-neutral-200 rounded-xl p-6 shadow-xs hover:border-brand-300 hover:shadow-sm transition-all duration-200 flex flex-col justify-between space-y-6"
-          >
-            <div className="space-y-4">
-              <div className="flex items-center justify-between">
-                <div className="p-3 bg-brand-50 text-brand-600 rounded-lg border border-brand-200 shrink-0">
-                  {getIcon(spec.iconName)}
-                </div>
-                <span className="text-xs font-semibold text-neutral-500 bg-neutral-100 px-2.5 py-1 rounded">
-                  {spec.diseasesCovered} bệnh lý
-                </span>
-              </div>
-
-              <div className="space-y-1">
-                <h2 className="text-xl font-bold text-neutral-900 font-heading">
-                  {spec.name}
-                </h2>
-                <p className="text-xs text-brand-700 font-medium">
-                  Chuyên khoa: {spec.category.toUpperCase()}
-                </p>
-              </div>
-
-              <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">
-                {spec.fullDesc}
-              </p>
-
-              <div className="space-y-2 pt-2 border-t border-neutral-100">
-                <p className="text-xs font-bold text-neutral-700">Triệu chứng hay gặp:</p>
-                <div className="flex flex-wrap gap-1.5">
-                  {spec.commonSymptoms.map((sym, idx) => (
-                    <span
-                      key={idx}
-                      className="text-xs bg-neutral-50 text-neutral-700 px-2 py-0.5 rounded border border-neutral-200"
-                    >
-                      {sym}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            <div className="pt-4 border-t border-neutral-100 flex flex-col gap-2.5">
-              <div className="flex items-center gap-2 text-xs text-neutral-600">
-                <UserCheck className="w-4 h-4 text-brand-600 shrink-0" />
-                <span>Trưởng khoa: <strong>{spec.chiefDoctor}</strong></span>
-              </div>
-              <Link
-                href={`/dat-lich?khoa=${spec.id}`}
-                className="w-full inline-flex items-center justify-center gap-1.5 py-2.5 px-4 bg-brand-600 hover:bg-brand-700 text-white font-semibold text-xs rounded-md shadow-xs transition-colors"
-              >
-                <span>Đặt lịch khám khoa {spec.name}</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </Link>
-            </div>
-          </article>
+      <nav className="flex flex-wrap gap-2" aria-label="Chuyển nhanh tới chuyên khoa">
+        {specialties.map((specialty) => (
+          <a key={specialty.id} href={`#${specialty.id}`} className="rounded-full border border-[#d8e4df] bg-white px-4 py-2 text-xs font-bold text-[#4e625e] hover:border-[#8fc7b9] hover:text-[#075f59]">
+            {specialty.name.replace(/^Khoa\s+/, '')}
+          </a>
         ))}
+      </nav>
+
+      <div className="space-y-6">
+        {specialties.map((specialty, index) => {
+          const team = doctors.filter((doctor) => doctor.specialtyId === specialty.id);
+          const system = BODY_SYSTEMS.find((item) => item.specialtyId === specialty.id);
+          return (
+            <section key={specialty.id} id={specialty.id} className="grid scroll-mt-28 grid-cols-[.72fr_1.28fr] gap-8 rounded-[24px] border border-[#d8e4df] bg-white p-7 shadow-[0_14px_40px_rgba(27,78,69,.06)]">
+              <div className="flex flex-col justify-between">
+                <div>
+                  <span className="flex items-center gap-2 text-xs font-bold text-[#087f73]"><Stethoscope className="h-4 w-4" /> Khoa {String(index + 1).padStart(2, '0')}</span>
+                  <h2 className="mt-3 text-3xl">{specialty.name}</h2>
+                  <p className="mt-3 text-sm leading-6 text-[#60736f]">{specialty.shortDesc}</p>
+                  {specialty.fullDesc ? <p className="mt-2 text-sm leading-6 text-[#879995]">{specialty.fullDesc}</p> : null}
+
+                  {specialty.commonSymptoms.length ? (
+                    <div className="mt-5">
+                      <p className="text-[11px] font-bold uppercase tracking-[.1em] text-[#879995]">Thường gặp tại khoa</p>
+                      <div className="mt-2 flex flex-wrap gap-1.5">
+                        {specialty.commonSymptoms.map((symptom) => (
+                          <span key={symptom} className="rounded-lg bg-[#f2f8f6] px-2.5 py-1 text-[11px] text-[#4e625e]">{symptom}</span>
+                        ))}
+                      </div>
+                    </div>
+                  ) : null}
+
+                  {system ? (
+                    <Link href={`/co-the-nguoi/${system.slug}`} className="mt-5 inline-flex items-center gap-1.5 text-xs font-bold text-[#075f59]">
+                      <BookOpen className="h-3.5 w-3.5" /> {diseaseCounts[system.slug] || 0} bệnh lý liên quan trong cẩm nang
+                    </Link>
+                  ) : null}
+                </div>
+
+                <div className="mt-5 flex items-center justify-between border-t border-[#e3ece9] pt-4">
+                  <span className="flex items-center gap-2 text-xs text-[#60736f]"><UsersRound className="h-4 w-4 text-[#087f73]" /> {team.length} bác sĩ đang tiếp nhận</span>
+                  <Link href={`/dat-lich?khoa=${specialty.id}`} className="inline-flex items-center gap-1.5 text-xs font-bold text-[#075f59]">Đặt lịch khoa này <ArrowRight className="h-3.5 w-3.5" /></Link>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3">
+                {team.map((doctor) => (
+                  <Link key={doctor.id} href={`/bac-si/${doctor.id}`} className="group flex min-h-[118px] gap-3 rounded-2xl border border-[#e0e9e5] bg-[#fbfdfc] p-4 hover:border-[#8fc7b9]">
+                    {doctor.imageUrl
+                      ? <img src={doctor.imageUrl} alt="" className="h-16 w-16 shrink-0 rounded-xl object-cover object-top" />
+                      : <span className="grid h-16 w-16 shrink-0 place-items-center rounded-xl bg-[#dff3ed] text-sm font-black text-[#075f59]">{doctor.name.split(' ').slice(-2).map((word) => word[0]).join('')}</span>}
+                    <span>
+                      <strong className="block text-sm text-[#18312d] group-hover:text-[#087f73]">{doctor.name}</strong>
+                      <span className="mt-1 block text-[11px] text-[#60736f]">{doctor.title} · {doctor.experienceYears} năm</span>
+                      <span className="mt-2 block text-[11px] font-bold text-[#087f73]">Khám ban đầu miễn phí</span>
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })}
       </div>
     </div>
   );

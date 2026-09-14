@@ -3,7 +3,7 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Lock, Mail, ArrowRight, ShieldCheck, AlertCircle } from 'lucide-react';
+import { Lock, UserRound, ArrowRight, ShieldCheck, AlertCircle } from 'lucide-react';
 import { AuthShell } from '@/components/auth/AuthShell';
 
 function LoginContent() {
@@ -11,7 +11,7 @@ function LoginContent() {
   const searchParams = useSearchParams();
   const returnUrl = searchParams.get('returnUrl') || '/tai-khoan';
 
-  const [email, setEmail] = React.useState('');
+  const [identifier, setIdentifier] = React.useState('');
   const [password, setPassword] = React.useState('');
   const [error, setError] = React.useState('');
   const [loading, setLoading] = React.useState(false);
@@ -25,7 +25,7 @@ function LoginContent() {
       const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ identifier, password }),
       });
 
       const data = await res.json();
@@ -37,7 +37,8 @@ function LoginContent() {
         throw new Error(data.detail || 'Đăng nhập không thành công.');
       }
 
-      router.push(returnUrl.startsWith('/') ? returnUrl : '/tai-khoan');
+      const safeReturnUrl = returnUrl.startsWith('/') ? returnUrl : '/tai-khoan';
+      router.push(data.roles?.includes('super_admin') && safeReturnUrl === '/tai-khoan' ? '/quan-tri' : safeReturnUrl);
       router.refresh();
     } catch (err: any) {
       setError(err.message);
@@ -50,11 +51,11 @@ function LoginContent() {
     <AuthShell mode="login">
       <div className="space-y-7">
       <div className="space-y-2 border-b border-line pb-6">
-        <span className="text-[10px] font-semibold uppercase tracking-[.18em] text-violet-300">
-          Welcome back
+        <span className="text-[10px] font-semibold uppercase tracking-[.18em] text-[#087f73]">
+          Chào mừng trở lại
         </span>
         <h1 className="text-3xl sm:text-4xl font-semibold text-white">
-          Đăng nhập Phòng khám YG
+          Đăng nhập Quang Thanh
         </h1>
         <p className="text-sm text-zinc-500">
           Tiếp tục không gian sức khỏe và quản lý lịch hẹn của bạn.
@@ -70,19 +71,19 @@ function LoginContent() {
 
       <form onSubmit={handleSubmit} className="space-y-5">
         <div>
-          <label htmlFor="login-email" className="block text-xs font-bold uppercase tracking-wider text-ink mb-1.5">
-            Địa chỉ Email
+          <label htmlFor="login-identifier" className="block text-xs font-bold uppercase tracking-wider text-ink mb-1.5">
+            Email hoặc tên đăng nhập
           </label>
           <div className="relative">
-            <Mail className="w-4 h-4 text-ink-muted absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <UserRound className="w-4 h-4 text-ink-muted absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
-              id="login-email"
-              type="email"
+              id="login-identifier"
+              type="text"
               required
-              autoComplete="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="nguyen.van.a@gmail.com"
+              autoComplete="username"
+              value={identifier}
+              onChange={(e) => setIdentifier(e.target.value)}
+              placeholder="nguyen.van.a@gmail.com hoặc nguyenvana"
               className="w-full pl-10 pr-3.5 py-2.5 rounded-md border border-line bg-paper-raised text-sm text-ink focus:outline-none focus:ring-2 focus:ring-mineral"
             />
           </div>
@@ -118,7 +119,7 @@ function LoginContent() {
         <button
           type="submit"
           disabled={loading}
-          className="w-full flex items-center justify-center gap-2 py-3.5 bg-white hover:bg-violet-100 text-black font-semibold text-sm rounded-xl transition-all disabled:opacity-50 min-h-[48px]"
+          className="w-full flex items-center justify-center gap-2 py-3.5 bg-mineral hover:bg-mineral-hover text-white font-semibold text-sm rounded-xl transition-all disabled:opacity-50 min-h-[48px]"
         >
           <span>{loading ? 'Đang xác thực...' : 'Đăng nhập'}</span>
           <ArrowRight className="w-4 h-4" />
@@ -135,7 +136,7 @@ function LoginContent() {
         </Link>
       </div>
 
-      <div className="p-3.5 bg-white/[0.025] rounded-xl border border-white/[0.08] text-[11px] text-zinc-500 flex items-center gap-2">
+      <div className="p-3.5 bg-sage rounded-xl border border-line text-[11px] text-ink-muted flex items-center gap-2">
         <ShieldCheck className="w-4 h-4 text-mineral shrink-0" />
         <span>Bảo mật phiên bằng HttpOnly Cookie và mã hóa Argon2id chuẩn OWASP.</span>
       </div>

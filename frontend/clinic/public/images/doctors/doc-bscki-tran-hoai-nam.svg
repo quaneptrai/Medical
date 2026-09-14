@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4ecd8"/><stop offset="1" stop-color="#e6d6ae"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef3f2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="200" cy="206" r="150" fill="#ffffff" opacity=".34"/>
+
+  <!-- cổ -->
+  <path d="M172 288h56v70a28 28 0 0 1-56 0z" fill="#dbab7e"/>
+
+  <!-- áo blouse và áo trong -->
+  <path d="M200 352c74 0 128 44 134 116l2 32H64l2-32c6-72 60-116 134-116z" fill="url(#coat)"/>
+  <path d="M200 352l34 14-34 60-34-60z" fill="#0d7f74"/>
+  <path d="M166 366l34 60-30 74-42-104a132 132 0 0 1 38-30z" fill="#ffffff"/>
+  <path d="M234 366l-34 60 30 74 42-104a132 132 0 0 0-38-30z" fill="#ffffff"/>
+  <path d="M166 366l34 60-30 74-42-104a132 132 0 0 1 38-30z" fill="none" stroke="#d5e0dd" stroke-width="2"/>
+  <path d="M234 366l-34 60 30 74 42-104a132 132 0 0 0-38-30z" fill="none" stroke="#d5e0dd" stroke-width="2"/>
+
+  <!-- ống nghe -->
+  <path d="M168 362c-14 44-6 86 22 106" fill="none" stroke="#3a4a55" stroke-width="9" stroke-linecap="round"/>
+  <path d="M232 362c14 40 10 74-8 96" fill="none" stroke="#3a4a55" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="216" cy="466" r="16" fill="#c9d3d8" stroke="#3a4a55" stroke-width="7"/>
+
+  <!-- tai -->
+  <ellipse cx="126" cy="222" rx="14" ry="20" fill="#dbab7e"/>
+  <ellipse cx="274" cy="222" rx="14" ry="20" fill="#dbab7e"/>
+
+  <!-- khuôn mặt -->
+  <ellipse cx="200" cy="208" rx="76" ry="92" fill="#eec49c"/>
+  <path d="M118 214c-6-62 30-98 82-98s88 36 82 98c-6-30-18-44-34-50-20 10-58 12-90-2-18 8-32 22-40 52z" fill="#241a13"/>
+
+  <!-- mắt, lông mày, mũi, miệng -->
+  <path d="M158 194q18-12 36-2" fill="none" stroke="#241a13" stroke-width="7" stroke-linecap="round"/>
+  <path d="M206 192q18-10 36 2" fill="none" stroke="#241a13" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="174" cy="220" rx="8" ry="9" fill="#2c2622"/>
+  <ellipse cx="226" cy="220" rx="8" ry="9" fill="#2c2622"/>
+  <circle cx="177" cy="217" r="2.6" fill="#ffffff"/>
+  <circle cx="229" cy="217" r="2.6" fill="#ffffff"/>
+  <path d="M200 226v22l-10 8" fill="none" stroke="#dbab7e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M180 272q20 16 40 0" fill="none" stroke="#a35e57" stroke-width="7" stroke-linecap="round"/>
+
+</svg>

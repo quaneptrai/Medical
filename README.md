@@ -1,3 +1,56 @@
+# Phòng khám Quang Thanh — BotMedical
+
+## Hướng dẫn
+
+- [Cài đặt và chạy sau khi clone](SETUP.md)
+- [Sử dụng các trang và đủ 18 chức năng quản trị](docs/USER_GUIDE.md)
+- [Scale database: SQLite, backup/restore, chuyển PostgreSQL, nhiều cơ sở](docs/DATABASE_SCALING.md)
+
+## Clone và chạy bản mới
+
+Yêu cầu Windows, Python 3.10/3.11 và Node.js 22+ (đã kiểm tra với Node.js 24). Model retrieval được đóng gói trong Git; clone lần đầu tải khoảng 1,1 GB trọng số.
+
+```powershell
+git clone https://github.com/quaneptrai/Medical.git
+cd Medical
+.\setup.ps1
+.\start-botmedical.ps1
+```
+
+Mở http://localhost:3000; quản trị tại http://localhost:3000/quan-tri. `setup.ps1` tạo DB mới, danh mục công khai và tài khoản quản trị riêng cho máy. Thông tin đăng nhập nằm trong `frontend/clinic/data/bootstrap-admin.json` (file cục bộ được Git bỏ qua). Chạy lại không đổi mật khẩu hoặc quyền của tài khoản đã tồn tại.
+
+Chỉ chạy giao diện/quản trị trước, chưa dùng AI tìm triệu chứng:
+
+```powershell
+cd frontend/clinic
+npm ci --ignore-scripts
+npm run dev
+```
+
+`predev` tự khởi tạo DB. Để đặt tài khoản ban đầu, thiết lập `BOTMED_ADMIN_EMAIL` và `BOTMED_ADMIN_PASSWORD` (tối thiểu 12 ký tự) trước khi chạy; nếu bỏ trống, script sinh mật khẩu ngẫu nhiên. Danh mục bác sĩ là dữ liệu demo, cần thay bằng hồ sơ đã xác minh khi triển khai thực tế. DB người dùng, lịch hẹn, phiên đăng nhập, `.env`, cache và ảnh QA chứa thông tin tài khoản không được chia sẻ qua Git.
+
+Chi tiết: [SETUP.md](SETUP.md). UI admin có 18 mục; thư viện giao diện có 669 mục bệnh. Danh sách có giới hạn tải; thanh toán là mô phỏng. Lịch hẹn, kho, đánh giá và hội thoại trên máy mới bắt đầu trống. Dữ liệu vận hành demo chỉ thêm khi chủ động chạy `node scripts/seed-operations.cjs`.
+
+## Sử dụng nhanh
+
+Đăng nhập `/quan-tri`, dùng ô tìm không dấu để chọn chức năng. Lịch hẹn đi qua xác nhận → tiếp nhận → hoàn thành; hủy cần lý do. Kho phân biệt nhập/xuất với điều chỉnh số tồn cuối, có thể kiểm kê về 0. Mục cẩm nang lưu ghi chú nội bộ; hóa đơn hiện mô phỏng. Các bảng chỉ tải một số bản ghi gần nhất và CSV chỉ xuất phần đã tải/lọc. Quy trình từng mục nằm trong [hướng dẫn sử dụng](docs/USER_GUIDE.md).
+
+## Mở rộng database
+
+Bản hiện tại dùng SQLite tại `frontend/clinic/data/auth.db` trên một máy, WAL đã bật. Không chia sẻ file DB qua ổ mạng. Khi cần nhiều máy ghi đồng thời, cần chuyển lớp truy cập SQL và migration sang database client/server; không chỉ thay connection string. Lộ trình, cách backup/restore và các việc cần làm để cách ly nhiều cơ sở nằm trong [hướng dẫn scale database](docs/DATABASE_SCALING.md).
+
+## Model có trong bản clone
+
+Chỉ gửi model ứng dụng đang sử dụng: `bge-m3-medical-v2-recovered-a050-fp16`. Đủ **88 mảnh**, tổng **1.135.554.344 byte**; Kích thước từng mảnh được ghi trong manifest; các phần truyền bổ sung tối đa 4 MiB. Có cấu hình, tokenizer, pooling và manifest SHA-256. `setup.ps1` tự ghép; kiểm tra bằng `scripts/model-parts.ps1 -Mode verify`.
+
+SHA-256 trọng số hoàn chỉnh: `4e4a45962d7a1063366968463314bbe4d45d9373202199c882a62b84dc6b6446`. Model guardrail advisory và các checkpoint cũ không nằm trong gói chạy ứng dụng này; web hiện tắt semantic guardrail.
+
+---
+
+## Tài liệu kiến trúc và nghiên cứu trước đây
+
+Phần dưới mô tả các giai đoạn trước, còn một số tên YG và số liệu 652 bệnh của bộ retrieval. Quy trình cài đặt hiện hành ở đầu trang và SETUP.md.
+
 # Phòng khám YG — Trợ lý Y tế & Hệ thống Định hướng Triệu chứng AI (AI Health OS)
 
 Hệ thống trợ lý y tế thông minh hỗ trợ người bệnh mô tả triệu chứng bằng ngôn ngữ tự nhiên, tự động sàng lọc dấu hiệu cấp cứu nguy hiểm (Red Flags), tra cứu định hướng bệnh học dựa trên cơ sở tri thức 652 bệnh, chỉ dẫn đúng chuyên khoa và kết nối lịch khám bác sĩ tại **Phòng khám Đa khoa Quốc tế YG**.
@@ -138,66 +191,66 @@ D:\BotMedical\
 
 ### 3.1 Thư mục gốc (Root Files)
 
-- [`SETUP.md`](file:///D:/BotMedical/SETUP.md): Hướng dẫn cài đặt từng bước cho người dùng mới, kèm bảng xử lý sự cố thường gặp.
-- [`setup.ps1`](file:///D:/BotMedical/setup.ps1): Cài đặt tự động một lệnh — dò Python 3.10/3.11, tạo `venv/`, cài `requirements.txt`, kiểm tra Node.js, chạy `npm install`, tạo `.env`, xác minh model embedding và dựng chỉ mục ChromaDB. Chạy lại nhiều lần đều an toàn (bỏ qua bước đã xong).
-- [`start-botmedical.ps1`](file:///D:/BotMedical/start-botmedical.ps1): Script PowerShell một chạm: kiểm tra tiền điều kiện (venv, `node_modules`, model, chỉ mục, cổng trống), mở 2 cửa sổ terminal riêng biệt — một chạy FastAPI Backend (`uvicorn src.web.app:app --port 8000`), một chạy Next.js Frontend (`npm run dev` trên port 3000) — rồi chờ backend báo `ready` trước khi mở trình duyệt. Hỗ trợ `-NoBrowser`, `-NoReload`, `-BackendPort`, `-FrontendPort`, `-SkipChecks`.
-- [`stop-botmedical.ps1`](file:///D:/BotMedical/stop-botmedical.ps1): Dừng cả hai dịch vụ theo PID đã ghi trong `.botmedical-run.json`, đồng thời quét giải phóng cổng 8000/3000.
-- [`.env.example`](file:///D:/BotMedical/.env.example): Mẫu biến môi trường (`BOTMED_DEVICE`, `BOTMED_LLM_PROVIDER`, `GEMINI_API_KEY`, `BOTMED_BACKEND_URL`) để người dùng mới copy thành `.env`.
-- [`requirements.txt`](file:///D:/BotMedical/requirements.txt): Định nghĩa các thư viện phục vụ runtime: `fastapi`, `uvicorn`, `chromadb`, `rank-bm25`, `pydantic`, `unidecode`, `torch`, `transformers`, `sentence-transformers`, `pyyaml`.
-- [`requirements-train.txt`](file:///D:/BotMedical/requirements-train.txt): Thư viện phục vụ huấn luyện mô hình embedding chuyên sâu trên máy chủ GPU: bổ sung `GradCache`, `bitsandbytes`, `scikit-learn`, `scipy`.
-- [`CLINICAL_VALIDATION.md`](file:///D:/BotMedical/CLINICAL_VALIDATION.md): Văn kiện pháp lý và tiêu chuẩn kỹ thuật quy định các bước thẩm định y khoa bắt buộc trước khi triển khai thực tế. Yêu cầu tối thiểu 400 ca test độc lập (200 cấp cứu, 200 thường) được 2 bác sĩ review độc lập và 1 bác sĩ phân xử (adjudicator).
-- [`TRAINING.md`](file:///D:/BotMedical/TRAINING.md): Cẩm nang thiết lập môi trường và cấu hình các profile huấn luyện GPU (A100 40GB, A100 80GB, L40S/A6000 48GB), kỹ thuật mini-batch caching và sequence length 768 tokens.
-- [`evaluation_report_current.md`](file:///D:/BotMedical/evaluation_report_current.md): Báo cáo kỹ thuật ghi nhận chỉ số thực nghiệm của mô hình phục hồi `bge-m3-medical-v2-recovered-a050-fp16` trên 2 tập dữ liệu 476 ca dân gian và 3.015 ca 603 bệnh lý.
-- [`golden_evaluation_report.md`](file:///D:/BotMedical/golden_evaluation_report.md): Báo cáo chi tiết 10 ca kiểm thử lâm sàng mẫu (Nhồi máu cơ tim, Viêm ruột thừa, GERD, Sốt xuất huyết, Mề đay, Viêm phổi...) với LLM Llama-3.1-8B.
-- [`.env`](file:///D:/BotMedical/.env): Lưu cấu hình môi trường cục bộ như `BOTMED_DEVICE=cuda`, `OLLAMA_BASE_URL`, `GEMINI_API_KEY`.
+- [`SETUP.md`](SETUP.md): Hướng dẫn cài đặt từng bước cho người dùng mới, kèm bảng xử lý sự cố thường gặp.
+- [`setup.ps1`](setup.ps1): Cài đặt tự động một lệnh — dò Python 3.10/3.11, tạo `venv/`, cài `requirements.txt`, kiểm tra Node.js, chạy `npm install`, tạo `.env`, xác minh model embedding và dựng chỉ mục ChromaDB. Chạy lại nhiều lần đều an toàn (bỏ qua bước đã xong).
+- [`start-botmedical.ps1`](start-botmedical.ps1): Script PowerShell một chạm: kiểm tra tiền điều kiện (venv, `node_modules`, model, chỉ mục, cổng trống), mở 2 cửa sổ terminal riêng biệt — một chạy FastAPI Backend (`uvicorn src.web.app:app --port 8000`), một chạy Next.js Frontend (`npm run dev` trên port 3000) — rồi chờ backend báo `ready` trước khi mở trình duyệt. Hỗ trợ `-NoBrowser`, `-NoReload`, `-BackendPort`, `-FrontendPort`, `-SkipChecks`.
+- [`stop-botmedical.ps1`](stop-botmedical.ps1): Dừng cả hai dịch vụ theo PID đã ghi trong `.botmedical-run.json`, đồng thời quét giải phóng cổng 8000/3000.
+- [`.env.example`](.env.example): Mẫu biến môi trường (`BOTMED_DEVICE`, `BOTMED_LLM_PROVIDER`, `GEMINI_API_KEY`, `BOTMED_BACKEND_URL`) để người dùng mới copy thành `.env`.
+- [`requirements.txt`](requirements.txt): Định nghĩa các thư viện phục vụ runtime: `fastapi`, `uvicorn`, `chromadb`, `rank-bm25`, `pydantic`, `unidecode`, `torch`, `transformers`, `sentence-transformers`, `pyyaml`.
+- [`requirements-train.txt`](requirements-train.txt): Thư viện phục vụ huấn luyện mô hình embedding chuyên sâu trên máy chủ GPU: bổ sung `GradCache`, `bitsandbytes`, `scikit-learn`, `scipy`.
+- [`CLINICAL_VALIDATION.md`](CLINICAL_VALIDATION.md): Văn kiện pháp lý và tiêu chuẩn kỹ thuật quy định các bước thẩm định y khoa bắt buộc trước khi triển khai thực tế. Yêu cầu tối thiểu 400 ca test độc lập (200 cấp cứu, 200 thường) được 2 bác sĩ review độc lập và 1 bác sĩ phân xử (adjudicator).
+- [`TRAINING.md`](TRAINING.md): Cẩm nang thiết lập môi trường và cấu hình các profile huấn luyện GPU (A100 40GB, A100 80GB, L40S/A6000 48GB), kỹ thuật mini-batch caching và sequence length 768 tokens.
+- [`evaluation_report_current.md`](evaluation_report_current.md): Báo cáo kỹ thuật ghi nhận chỉ số thực nghiệm của mô hình phục hồi `bge-m3-medical-v2-recovered-a050-fp16` trên 2 tập dữ liệu 476 ca dân gian và 3.015 ca 603 bệnh lý.
+- [`golden_evaluation_report.md`](golden_evaluation_report.md): Báo cáo chi tiết 10 ca kiểm thử lâm sàng mẫu (Nhồi máu cơ tim, Viêm ruột thừa, GERD, Sốt xuất huyết, Mề đay, Viêm phổi...) với LLM Llama-3.1-8B.
+- [`.env`](.env): Lưu cấu hình môi trường cục bộ như `BOTMED_DEVICE=cuda`, `OLLAMA_BASE_URL`, `GEMINI_API_KEY`.
 
 ---
 
 ### 3.2 Module lõi Python: `src/`
 
-Nằm tại [`src/`](file:///D:/BotMedical/src), chứa toàn bộ kiến trúc xử lý nghiệp vụ y tế:
+Nằm tại [`src/`](src), chứa toàn bộ kiến trúc xử lý nghiệp vụ y tế:
 
 #### `src/runtime_config.py`
-- File nạp và giải quyết cấu hình trung tâm từ file [`config/settings.yaml`](file:///D:/BotMedical/config/settings.yaml).
+- File nạp và giải quyết cấu hình trung tâm từ file [`config/settings.yaml`](config/settings.yaml).
 - Hàm `get_setting(key_path)` hỗ trợ truy vấn cấu hình dạng chuỗi lồng nhau (vd: `retrieval.embedding_model`).
 - Hàm `resolve_project_path(rel_path)` biến đổi các đường dẫn tương đối thành đường dẫn tuyệt đối chuẩn xác theo thư mục gốc của dự án, chống lỗi đường dẫn khi chạy từ các thư mục làm việc khác nhau.
 
 #### `src/conversation/`
-- [`state.py`](file:///D:/BotMedical/src/conversation/state.py): Định nghĩa máy trạng thái hội thoại y tế đa lượt (`ConversationState`). Quản lý danh sách triệu chứng đã bóc tách (`SymptomExtracted` gồm tên, thời gian, mức độ), danh sách cờ đỏ nguy hiểm (`red_flags`), tiến trình câu hỏi (`turn_count` / `max_turns`), và trạng thái phân loại (`stage`: `emergency`, `follow_up`, `concluded`).
+- [`state.py`](src/conversation/state.py): Định nghĩa máy trạng thái hội thoại y tế đa lượt (`ConversationState`). Quản lý danh sách triệu chứng đã bóc tách (`SymptomExtracted` gồm tên, thời gian, mức độ), danh sách cờ đỏ nguy hiểm (`red_flags`), tiến trình câu hỏi (`turn_count` / `max_turns`), và trạng thái phân loại (`stage`: `emergency`, `follow_up`, `concluded`).
 
 #### `src/knowledge/`
-- [`schema.py`](file:///D:/BotMedical/src/knowledge/schema.py): Sử dụng Pydantic v2 xây dựng mô hình dữ liệu bệnh học chuẩn hóa:
+- [`schema.py`](src/knowledge/schema.py): Sử dụng Pydantic v2 xây dựng mô hình dữ liệu bệnh học chuẩn hóa:
   - `DiseaseSchema`: Khóa bệnh (`disease_id` dạng `RESP_001`), tên tiếng Việt, tên tiếng Anh, chuyên khoa (`category`), danh sách tên gọi khác (`aliases`), cấp độ dữ liệu (`tier`: 1 core duyệt tay, 2 scaled thực nghiệm), triệu chứng theo tần suất (`very_common`, `common`, `occasional`, `rare`), mức độ khẩn cấp (`urgency`), các dấu hiệu cảnh báo (`red_flags`), và nguồn tài liệu tham chiếu (`provenance`).
   - Hàm `load_all_diseases()` nạp và validate toàn bộ các file JSON bệnh học trong thư mục dữ liệu.
 
 #### `src/safety/`
-- [`guardrails.py`](file:///D:/BotMedical/src/safety/guardrails.py): Động cơ kiểm soát an toàn kép:
+- [`guardrails.py`](src/safety/guardrails.py): Động cơ kiểm soát an toàn kép:
   1. **Deterministic Guardrail (Bắt buộc & Khóa cứng):** Sử dụng hệ thống biểu thức chính quy (Regex) sâu trên tiếng Việt (có dấu và chuẩn hóa không dấu) để bắt trọn các triệu chứng đe dọa sinh mạng: Nhồi máu cơ tim (đau ngực lan vai/tay trái, vã mồ hôi lạnh), Đột quỵ não (yếu liệt nửa người, méo miệng, nói ngọng), Viêm ruột thừa cấp (đau nhói bụng dưới bên phải / hố chậu phải kèm sốt), Khó thở thanh quản / hen suyễn ác tính, Sốc phản vệ sau ăn hải sản/dùng thuốc, Xuất huyết tiêu hóa (nôn ra máu, đi ngoài phân đen).
   2. **Semantic Guardrail (Cố vấn / Advisory):** Sử dụng embedding cosine similarity so với tập vector ca mẫu cấp cứu đã được cân chỉnh. Hiện tại ở chế độ `advisory` (chỉ khuyến nghị, không kích hoạt tự động ở UI) nhằm tránh hiện tượng báo động giả (False Positive) khi chưa có 400 ca clinical holdout phê duyệt.
 
 #### `src/retrieval/`
-- [`search_engine.py`](file:///D:/BotMedical/src/retrieval/search_engine.py): Động cơ tìm kiếm lai kết hợp:
+- [`search_engine.py`](src/retrieval/search_engine.py): Động cơ tìm kiếm lai kết hợp:
   - **Dense Retrieval:** Vector database ChromaDB kết hợp mô hình `BGE-M3 Direct Embedding` tùy chỉnh trên PyTorch với float16 và CUDA. Mã hóa đoạn mô tả bệnh thành vector không gian 1024 chiều.
   - **Sparse Lexical Search:** Thuật toán BM25Okapi với hàm tách từ `tokenize_vietnamese(text)` phát sinh đồng thời cả token nguyên bản có dấu và token chuẩn hóa không dấu (Unidecode), giải quyết triệt để lỗi gõ tiếng Việt của người bệnh.
   - **Cân bằng trọng số:** Hợp nhất điểm số qua công thức: `Score = (1 - w) * DenseScore + w * BM25NormalizedScore`. Trọng số tối ưu `w = 0.10` được chọn thông qua quét thực nghiệm sweep trên 3.015 ca benchmark.
   - **Định tuyến cấp cứu:** Nếu câu hỏi chứa dấu hiệu cấp cứu, hệ thống tự động ngắt BM25 và dùng Dense-only để tránh bị nhiễu bởi các từ ngữ thông thường.
 
 #### `src/llm/`
-- [`triage_bot.py`](file:///D:/BotMedical/src/llm/triage_bot.py): Lớp điều phối LLM thông minh:
+- [`triage_bot.py`](src/llm/triage_bot.py): Lớp điều phối LLM thông minh:
   - Tiếp nhận thông tin từ Guardrails và Top-5 bệnh do Retrieval Engine truy xuất.
   - Xây dựng prompt lâm sàng nghiêm ngặt: Ép buộc LLM trả về format JSON thuần túy (gồm `new_symptoms`, `new_red_flags`, `stage`, `bot_reply`, `reasoning`).
   - Hỗ trợ kết nối cả mô hình local mã nguồn mở qua Ollama (`llama3.1:8b`) lẫn API cloud (`gemini-3.6-flash`).
 
 #### `src/evaluation/`
-- [`golden_evaluator.py`](file:///D:/BotMedical/src/evaluation/golden_evaluator.py): Bộ thẩm định tự động end-to-end các cuộc hội thoại lâm sàng, kiểm tra xem LLM có phát hiện đúng cấp cứu, đúng chuyên khoa, và không vi phạm điều răn an toàn hay không.
-- [`golden_schema.py`](file:///D:/BotMedical/src/evaluation/golden_schema.py): Định nghĩa cấu trúc các ca kiểm thử Golden Test Case (GTC) chuẩn.
-- [`holdout_schema.py`](file:///D:/BotMedical/src/evaluation/holdout_schema.py): Định nghĩa schema nghiêm ngặt cho tập Clinical Holdout (yêu cầu 2 reviewer độc lập, 1 adjudicator, hash toàn vẹn).
+- [`golden_evaluator.py`](src/evaluation/golden_evaluator.py): Bộ thẩm định tự động end-to-end các cuộc hội thoại lâm sàng, kiểm tra xem LLM có phát hiện đúng cấp cứu, đúng chuyên khoa, và không vi phạm điều răn an toàn hay không.
+- [`golden_schema.py`](src/evaluation/golden_schema.py): Định nghĩa cấu trúc các ca kiểm thử Golden Test Case (GTC) chuẩn.
+- [`holdout_schema.py`](src/evaluation/holdout_schema.py): Định nghĩa schema nghiêm ngặt cho tập Clinical Holdout (yêu cầu 2 reviewer độc lập, 1 adjudicator, hash toàn vẹn).
 
 #### `src/web/`
-- [`app.py`](file:///D:/BotMedical/src/web/app.py): Ứng dụng FastAPI bất đồng bộ cung cấp RESTful API:
+- [`app.py`](src/web/app.py): Ứng dụng FastAPI bất đồng bộ cung cấp RESTful API:
   - `POST /search`: Nhận query triệu chứng, trả về Top-K bệnh tương ứng, điểm tin cậy, thông tin chuyên khoa và cảnh báo cấp cứu.
   - `GET /status`: Trả về trạng thái hoạt động của mô hình đang nạp, số lượng bệnh trong kho tri thức, trạng thái index vector.
-- [`static/`](file:///D:/BotMedical/src/web/static): Giao diện kiểm thử nội bộ siêu nhẹ viết bằng HTML5/CSS3/Vanilla JS (`index.html`, `styles.css`, `app.js`) dành cho lập trình viên và bác sĩ kiểm tra chất lượng truy xuất cục bộ mà không cần bật Next.js.
+- [`static/`](src/web/static): Giao diện kiểm thử nội bộ siêu nhẹ viết bằng HTML5/CSS3/Vanilla JS (`index.html`, `styles.css`, `app.js`) dành cho lập trình viên và bác sĩ kiểm tra chất lượng truy xuất cục bộ mà không cần bật Next.js.
 
 ---
 
@@ -251,21 +304,21 @@ frontend/clinic/
 
 ### 3.4 Cơ sở tri thức & Dữ liệu: `data/`
 
-- [`data/diseases_expanded/`](file:///D:/BotMedical/data/diseases_expanded): Chứa **652 file JSON** đại diện cho 652 mặt bệnh học lâm sàng được biên soạn theo cấu trúc `DiseaseSchema`. Mỗi file mô tả chi tiết:
+- [`data/diseases_expanded/`](data/diseases_expanded): Chứa **652 file JSON** đại diện cho 652 mặt bệnh học lâm sàng được biên soạn theo cấu trúc `DiseaseSchema`. Mỗi file mô tả chi tiết:
   - Tên tiếng Việt, tiếng Anh, chuyên khoa.
   - Các triệu chứng điển hình (Common Symptoms), triệu chứng ít gặp (Occasional), triệu chứng hiếm (Rare).
   - Cờ đỏ báo động khẩn cấp (Red Flags).
   - Khuyến nghị sơ cứu và hướng xử trí y tế.
   - Nguồn trích dẫn: Phác đồ chẩn đoán và điều trị của Bộ Y Tế Việt Nam, WHO, CDC.
-- [`data/clinical_review/`](file:///D:/BotMedical/data/clinical_review): Nơi lưu trữ tiến trình thẩm định của các chuyên gia y tế:
+- [`data/clinical_review/`](data/clinical_review): Nơi lưu trữ tiến trình thẩm định của các chuyên gia y tế:
   - `common_49_review.csv`: Bảng thẩm định 49 bệnh lý thường gặp nhất trong chăm sóc ban đầu.
   - `clinical_adjudication.csv`: Bảng phân xử lâm sàng độc lập giữa các bác sĩ.
-- [`data/finetune/`](file:///D:/BotMedical/data/finetune): Chứa các bộ dữ liệu huấn luyện dạng triplets `(anchor, positive, negative)` phục vụ bài toán contrastive learning.
-- [`data/test_cases/`](file:///D:/BotMedical/data/test_cases): Chứa các tập benchmark đánh giá độ chính xác truy xuất:
+- [`data/finetune/`](data/finetune): Chứa các bộ dữ liệu huấn luyện dạng triplets `(anchor, positive, negative)` phục vụ bài toán contrastive learning.
+- [`data/test_cases/`](data/test_cases): Chứa các tập benchmark đánh giá độ chính xác truy xuất:
   - `colloquial_symptoms_test.json`: 476 câu hỏi triệu chứng viết bằng ngôn ngữ đời thường tự nhiên của người bệnh.
   - `diseases_603_test.json`: 3.015 câu hỏi phủ rộng trên 603 mặt bệnh.
   - `clinical_holdout.json`: File mẫu bị khóa dành riêng cho tập đánh giá lâm sàng độc lập cuối cùng.
-- [`data/embeddings/`](file:///D:/BotMedical/data/embeddings): Thư mục lưu trữ database vector ChromaDB đã được vector hóa từ toàn bộ 652 file bệnh học.
+- [`data/embeddings/`](data/embeddings): Thư mục lưu trữ database vector ChromaDB đã được vector hóa từ toàn bộ 652 file bệnh học.
 
 ---
 
@@ -273,7 +326,7 @@ frontend/clinic/
 
 Quản lý các checkpoint và nguồn gốc (provenance) của mô hình embedding:
 
-- [`models/registry.json`](file:///D:/BotMedical/models/registry.json): Sổ đăng ký kiểm kê trạng thái, đường dẫn artifact, định dạng số học (float16/float32), giá trị alpha blend, và mã băm **SHA-256** của từng model:
+- [`models/registry.json`](models/registry.json): Sổ đăng ký kiểm kê trạng thái, đường dẫn artifact, định dạng số học (float16/float32), giá trị alpha blend, và mã băm **SHA-256** của từng model:
   1. `bge-m3-medical-v2-recovered-a050-fp16`: Model production phục vụ tìm kiếm hiện tại (alpha = 0.50, SHA-256: `4e4a45962d7a1063366968463314bbe4d45d9373202199c882a62b84dc6b6446`).
   2. `bge-m3-medical-v2-safe-fp16`: Model chuyên biệt cho Semantic Guardrail (alpha = 0.07, SHA-256: `e72ee7ad51b883cd31057c5c642b8530ad485e0335e8f125af8276433da83fbb`).
   3. `bge-m3-medical-v2`: Checkpoint nguyên bản FP32 (được ghi nhận trạng thái đã thất lạc trong registry để phục vụ audit).
@@ -369,7 +422,7 @@ Mô hình nền tảng **BGE-M3** (BAAI General Embedding M3) do Viện Trí tu�
 
 ### 4.3 Bảng đối chiếu số liệu Benchmark thực nghiệm
 
-Dữ liệu được trích xuất trực tiếp từ các báo cáo đánh giá thực nghiệm độc lập tại [`artifacts/evaluation/recovered_alpha050_comparison.json`](file:///D:/BotMedical/artifacts/evaluation/recovered_alpha050_comparison.json) và [`evaluation_report_current.md`](file:///D:/BotMedical/evaluation_report_current.md):
+Dữ liệu được trích xuất trực tiếp từ các báo cáo đánh giá thực nghiệm độc lập tại [`artifacts/evaluation/recovered_alpha050_comparison.json`](artifacts/evaluation/recovered_alpha050_comparison.json) và [`evaluation_report_current.md`](evaluation_report_current.md):
 
 #### 1. Trên tập triệu chứng đời thường (Generated Colloquial Benchmark - N = 476 ca)
 
@@ -428,10 +481,10 @@ $$\Delta W = W_{tuned} - W_{base} = \frac{W_{blend\_0.07} - W_{base}}{\alpha_1}$
 Từ đó, trọng số mô hình candidate $\alpha_2 = 0.50$ được tái thiết lập theo công thức:
 $$W_{recovered} = W_{base} + \frac{\alpha_2}{\alpha_1} \cdot (W_{blend\_0.07} - W_{base})$$
 
-Quá trình này được thực hiện tự động thông qua hàm `reconstruct_target_tensor` trong [`scripts/blend_embedding_models.py`](file:///D:/BotMedical/scripts/blend_embedding_models.py). Mô hình sau khi tái thiết lập đã được kiểm chứng toàn diện qua benchmark, đạt hiệu năng truy xuất tương đương checkpoint gốc và được đóng gói thành artifact chính thức `bge-m3-medical-v2-recovered-a050-fp16` với mã băm SHA-256 được lưu vết minh bạch tại [`models/registry.json`](file:///D:/BotMedical/models/registry.json).
+Quá trình này được thực hiện tự động thông qua hàm `reconstruct_target_tensor` trong [`scripts/blend_embedding_models.py`](scripts/blend_embedding_models.py). Mô hình sau khi tái thiết lập đã được kiểm chứng toàn diện qua benchmark, đạt hiệu năng truy xuất tương đương checkpoint gốc và được đóng gói thành artifact chính thức `bge-m3-medical-v2-recovered-a050-fp16` với mã băm SHA-256 được lưu vết minh bạch tại [`models/registry.json`](models/registry.json).
 
 #### Trạng thái đóng băng V3 (V3 Freeze Status)
-Theo chỉ thị y khoa tại [`docs/V3_FREEZE_STATUS.md`](file:///D:/BotMedical/docs/V3_FREEZE_STATUS.md):
+Theo chỉ thị y khoa tại [`docs/V3_FREEZE_STATUS.md`](docs/V3_FREEZE_STATUS.md):
 - **Ứng viên thế hệ tiếp theo (Model V3) hiện đang được ĐÓNG BĂNG TẠM THỜI (PAUSED).**
 - Hệ thống runtime tuyệt đối **không được gán nhãn V3 đã phát hành** cho tới khi hoàn tất tập dữ liệu độc lập `clinical_holdout.json` đủ tối thiểu 400 ca (200 cấp cứu / 200 thường) được các bác sĩ lâm sàng độc lập thẩm định bằng tay.
 - Mọi hoạt động phát triển hiện tại đều sử dụng runtime chuẩn mực và an toàn tuyệt đối của **Model V2 Recovered**.
@@ -440,7 +493,7 @@ Theo chỉ thị y khoa tại [`docs/V3_FREEZE_STATUS.md`](file:///D:/BotMedical
 
 ## 5. Hướng dẫn cài đặt & Khởi chạy (Quick Start)
 
-> Hướng dẫn đầy đủ cho người dùng mới (kèm bảng xử lý sự cố): **[SETUP.md](file:///D:/BotMedical/SETUP.md)**
+> Hướng dẫn đầy đủ cho người dùng mới (kèm bảng xử lý sự cố): **[SETUP.md](SETUP.md)**
 
 ### Yêu cầu hệ thống
 - **Hệ điều hành:** Windows 10/11 (bộ script `.ps1` chạy trên PowerShell).
@@ -448,9 +501,12 @@ Theo chỉ thị y khoa tại [`docs/V3_FREEZE_STATUS.md`](file:///D:/BotMedical
 - **Node.js:** Phiên bản `18.x` hoặc `20.x LTS`.
 - **Phần cứng khuyến nghị:** 16GB RAM, ổ cứng SSD trống tối thiểu 10GB. Có GPU NVIDIA (từ 6GB VRAM) để đạt tốc độ xử lý nhanh nhất (hệ thống tự động fallback về CPU nếu không có CUDA).
 
-### Bước 0: Model embedding (bắt buộc, KHÔNG có trong Git)
+### Bước 0: Model embedding (đã có sẵn trong Git)
 
-Trọng số `models/bge-m3-medical-v2-recovered-a050-fp16/model.safetensors` nặng 1.1 GB nên bị loại khỏi Git (xem `.gitignore`). Sau khi `git clone`, phải **copy thủ công** cả thư mục `models/bge-m3-medical-v2-recovered-a050-fp16/` từ máy đã có sẵn vào đúng vị trí, trước khi chạy `setup.ps1`.
+Trọng số `models/bge-m3-medical-v2-recovered-a050-fp16/model.safetensors` nặng 1.1 GB, vượt giới hạn 100 MB/file của GitHub. Repo vì vậy commit nó dưới dạng **88 mảnh 95 MB** trong `models/bge-m3-medical-v2-recovered-a050-fp16/parts/`, và `setup.ps1` tự ghép lại rồi đối chiếu SHA-256 với `models/registry.json`. Không cần copy tay gì cả — `git clone` là đủ.
+
+Ghép hoặc kiểm tra thủ công: `.\scripts\model-parts.ps1 -Mode join` / `-Mode verify`.
+Sau khi train lại model, chạy `.\scripts\model-parts.ps1 -Mode split -Force` rồi commit `parts/`.
 
 ### Bước 1: Cài đặt tự động (một lệnh duy nhất)
 
@@ -459,7 +515,7 @@ cd D:\BotMedical
 .\setup.ps1
 ```
 
-[`setup.ps1`](file:///D:/BotMedical/setup.ps1) tự động: tìm Python 3.10/3.11 → tạo `venv/` → cài `requirements.txt` → kiểm tra Node.js → `npm install` cho `frontend/clinic` → tạo `.env` từ `.env.example` → kiểm tra model → dựng chỉ mục ChromaDB 652 bệnh. Script an toàn khi chạy lại: bước nào đã xong sẽ được bỏ qua.
+[`setup.ps1`](setup.ps1) tự động: tìm Python 3.10/3.11 → tạo `venv/` → cài `requirements.txt` → kiểm tra Node.js → `npm install` cho `frontend/clinic` → tạo `.env` từ `.env.example` → kiểm tra model → dựng chỉ mục ChromaDB 652 bệnh. Script an toàn khi chạy lại: bước nào đã xong sẽ được bỏ qua.
 
 Tham số tùy chọn:
 
@@ -476,7 +532,7 @@ Nếu PowerShell chặn script: `Set-ExecutionPolicy -Scope CurrentUser RemoteSi
 .\start-botmedical.ps1
 ```
 
-[`start-botmedical.ps1`](file:///D:/BotMedical/start-botmedical.ps1) kiểm tra tiền điều kiện (venv, node_modules, model, chỉ mục, cổng trống), mở 2 cửa sổ dịch vụ, chờ backend báo `ready` rồi mở trình duyệt:
+[`start-botmedical.ps1`](start-botmedical.ps1) kiểm tra tiền điều kiện (venv, node_modules, model, chỉ mục, cổng trống), mở 2 cửa sổ dịch vụ, chờ backend báo `ready` rồi mở trình duyệt:
 
 - **FastAPI Backend (Phân loại & Tìm kiếm):** `http://127.0.0.1:8000`
   - Swagger UI kiểm thử API: `http://127.0.0.1:8000/api/docs`
@@ -509,7 +565,7 @@ Tham số tùy chọn: `-NoBrowser`, `-NoReload`, `-BackendPort 8010 -FrontendPo
 ### 6.1 Thêm bệnh mới vào Knowledge Base
 
 1. Tạo một file JSON mới trong thư mục tương ứng theo chuyên khoa tại `data/diseases_expanded/<chuyen_khoa>/<MA_BENH>.json` (Ví dụ: `RESP_050.json`).
-2. Định dạng file tuân thủ theo `DiseaseSchema` trong [`src/knowledge/schema.py`](file:///D:/BotMedical/src/knowledge/schema.py):
+2. Định dạng file tuân thủ theo `DiseaseSchema` trong [`src/knowledge/schema.py`](src/knowledge/schema.py):
 ```json
 {
   "disease_id": "RESP_050",

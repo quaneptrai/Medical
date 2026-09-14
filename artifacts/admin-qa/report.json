@@ -1,0 +1,281 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "module": "overview",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "appointments",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "patients",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "chat",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "doctors",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "specialties",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "services",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "triage",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "feedback",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "content",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "inventory",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "maintenance",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "invoices",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "reports",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "users",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "roles",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "tenants",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 1440,
+      "module": "audit",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "overview",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "appointments",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "patients",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "chat",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "doctors",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "specialties",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "services",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "triage",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "feedback",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "content",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "inventory",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "maintenance",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "invoices",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "reports",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "users",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "roles",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "tenants",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "width": 390,
+      "module": "audit",
+      "overflow": false,
+      "errors": 0,
+      "heading": true
+    },
+    {
+      "check": "unaccented menu search",
+      "pass": true
+    },
+    {
+      "check": "refresh preserves unsaved draft",
+      "pass": true
+    },
+    {
+      "check": "account keyboard trap, Escape and focus return",
+      "pass": true
+    },
+    {
+      "check": "appointment keyboard trap, Escape and focus return",
+      "pass": true
+    },
+    {
+      "check": "mobile drawer overflow",
+      "overflow": false
+    },
+    {
+      "check": "anatomy image loaded",
+      "pass": true
+    }
+  ],
+  "runtimeErrors": []
+}

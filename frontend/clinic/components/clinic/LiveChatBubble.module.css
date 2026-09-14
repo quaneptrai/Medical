@@ -1,0 +1,41 @@
+.root { position: fixed; right: 30px; bottom: 28px; z-index: 80; font-family: "Segoe UI", Arial, sans-serif; }
+.launcher { position: relative; display: grid; place-items: center; width: 62px; height: 62px; border: 4px solid #fff; border-radius: 50%; background: #087f73; color: #fff; box-shadow: 0 15px 38px rgba(7,95,89,.28); }
+.launcher svg { width: 25px; height: 25px; }
+.launcher span { position: absolute; right: -3px; top: -5px; display: grid; place-items: center; min-width: 22px; height: 22px; padding: 0 5px; border: 2px solid #fff; border-radius: 11px; background: #ff8168; color: #fff; font-size: 10px; font-weight: 800; }
+.panel { position: absolute; right: 0; bottom: 76px; display: flex; width: 440px; height: 670px; flex-direction: column; overflow: hidden; border: 1px solid #c9ddd6; border-radius: 24px; background: #fff; box-shadow: 0 28px 85px rgba(24,49,45,.22); }
+.header { display: flex; min-height: 78px; align-items: center; justify-content: space-between; padding: 16px 18px; background: #075f59; color: #fff; }
+.identity { display: flex; align-items: center; gap: 11px; }
+.avatar { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 14px 14px 14px 5px; background: #fff; color: #087f73; }
+.avatar svg { width: 21px; }
+.identity strong { display: block; font-size: 14px; }
+.identity span { display: flex; align-items: center; gap: 6px; margin-top: 3px; color: #ccebe2; font-size: 10px; }
+.identity i { width: 6px; height: 6px; border-radius: 50%; background: #8ff0ad; }
+.headerActions { display: flex; gap: 6px; }
+.headerActions button { display: grid; width: 34px; height: 34px; place-items: center; border: 0; border-radius: 9px; background: rgba(255,255,255,.1); color: #fff; }
+.headerActions svg { width: 17px; }
+.context { padding: 10px 16px; border-bottom: 1px solid #dfe9e5; background: #edf8f4; color: #49635e; font-size: 10px; }
+.messages { flex: 1; overflow-y: auto; padding: 18px; background: #fffdf9; }
+.message { display: flex; margin-bottom: 12px; }
+.message > div { max-width: 86%; padding: 11px 13px; border: 1px solid #d8e4df; border-radius: 15px 15px 15px 4px; background: #fff; color: #405954; font-size: 12px; line-height: 1.55; white-space: pre-line; }
+.message.user { justify-content: flex-end; }
+.message.user > div { border-color: #087f73; border-radius: 15px 15px 4px 15px; background: #087f73; color: #fff; }
+.message.danger > div { border-color: #e6b9b5; background: #fff0ed; color: #8f252b; font-weight: 650; }
+.commands { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 7px 0 14px; }
+.commands button { display: flex; min-height: 55px; align-items: center; gap: 9px; padding: 10px; border: 1px solid #c9ddd6; border-radius: 12px; background: #fff; color: #18312d; text-align: left; font-size: 11px; font-weight: 750; }
+.commands button:hover { border-color: #087f73; background: #edf8f4; }
+.commands svg { width: 18px; height: 18px; flex: 0 0 auto; color: #087f73; }
+.action { display: flex; width: 100%; min-height: 42px; align-items: center; justify-content: center; gap: 8px; margin-top: 9px; border: 0; border-radius: 10px; background: #ffdd79; color: #18312d; font-size: 11px; font-weight: 850; }
+.loginAction { display: flex; width: 100%; min-height: 42px; align-items: center; justify-content: center; gap: 8px; margin-top: 9px; border-radius: 10px; background: #087f73; color: #fff; font-size: 11px; font-weight: 850; }
+.composer { padding: 12px; border-top: 1px solid #d8e4df; background: #f2f8f5; }
+.composer form { display: flex; gap: 7px; }
+.composer input { min-width: 0; flex: 1; min-height: 44px; padding: 0 12px; border: 1px solid #c7ded7; border-radius: 11px; background: #fff; color: #18312d; font-size: 12px; outline: none; }
+.composer input:focus { border-color: #087f73; box-shadow: 0 0 0 3px rgba(8,127,115,.1); }
+.composer button { display: grid; width: 44px; height: 44px; place-items: center; border: 0; border-radius: 11px; background: #087f73; color: #fff; }
+.composer button:disabled { opacity: .45; }
+.composer svg { width: 18px; }
+.privacy { margin: 7px 4px 0; color: #728783; font-size: 9px; text-align: center; }
+.typing { display: inline-flex; align-items: center; gap: 5px; color: #60736f; font-size: 10px; }
+.typing i { width: 5px; height: 5px; border-radius: 50%; background: #087f73; animation: pulse 1s infinite alternate; }
+.typing i:nth-child(2) { animation-delay: .2s; }
+.typing i:nth-child(3) { animation-delay: .4s; }
+@keyframes pulse { to { opacity: .25; transform: translateY(-2px); } }

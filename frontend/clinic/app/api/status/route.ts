@@ -21,7 +21,7 @@ export async function GET() {
     return NextResponse.json(
       {
         service: 'offline',
-        detail: 'Không thể kết nối tới backend Phòng khám YG.',
+        detail: 'Không thể kết nối tới backend Phòng khám Quang Thanh.',
       },
       { status: 503 }
     );

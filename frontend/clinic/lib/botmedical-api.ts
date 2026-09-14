@@ -73,7 +73,7 @@ export async function fetchSystemStatus(): Promise<SystemStatus> {
     throw new Error(
       error instanceof Error
         ? error.message
-        : 'Không thể kiểm tra trạng thái máy chủ Phòng khám YG.'
+        : 'Không thể kiểm tra trạng thái máy chủ Phòng khám Quang Thanh.'
     );
   }
 }
@@ -105,7 +105,7 @@ export async function searchSymptoms(
     throw new Error(
       error instanceof Error
         ? error.message
-        : 'Không thể kết nối đến máy chủ phân loại Phòng khám YG.'
+        : 'Không thể kết nối đến máy chủ phân loại Phòng khám Quang Thanh.'
     );
   }
 }

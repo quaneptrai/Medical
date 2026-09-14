@@ -1,108 +1,249 @@
 'use client';
 
 import * as React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { motion } from 'framer-motion';
-import { Activity, ArrowRight, ArrowUpRight, BrainCircuit, CalendarDays, Check, ChevronRight, CircleDot, HeartPulse, LockKeyhole, MessageSquareText, Mic, Send, ShieldCheck, Sparkles, Stethoscope, Zap } from 'lucide-react';
+import {
+  ArrowRight,
+  Clock3,
+  HeartPulse,
+  LockKeyhole,
+  MapPin,
+  Mic,
+  PhoneCall,
+  ScanLine,
+  Send,
+  ShieldCheck,
+  Smile,
+  Stethoscope,
+} from 'lucide-react';
+import styles from './AiDashboardHome.module.css';
 
-const reveal = { hidden: { opacity: 0, y: 22 }, show: { opacity: 1, y: 0 } };
+type VoiceState = 'idle' | 'listening' | 'ready' | 'unsupported' | 'error';
 
-function HealthOrb() {
-  return (
-    <div className="relative mx-auto aspect-square w-full max-w-[520px] select-none" aria-hidden="true">
-      <div className="absolute inset-[8%] rounded-full border border-violet-300/15 orb-ring">
-        <span className="absolute left-[11%] top-[8%] h-2 w-2 rounded-full bg-cyan-300 shadow-[0_0_18px_4px_rgba(103,232,249,.55)]" />
-        <span className="absolute bottom-[12%] right-[6%] h-1.5 w-1.5 rounded-full bg-violet-300 shadow-[0_0_16px_4px_rgba(196,181,253,.6)]" />
-      </div>
-      <div className="absolute inset-[19%] rotate-45 rounded-[42%] border border-dashed border-white/10 orb-ring-reverse" />
-      <div className="absolute inset-[25%] rounded-full orb-core float-slow" />
-      <svg className="absolute inset-[15%] h-[70%] w-[70%] text-violet-300/45" viewBox="0 0 300 300">
-        <path d="M20 154 C48 154, 54 132, 72 132 S92 196, 112 196 S130 74, 151 74 S170 174, 190 174 S205 144, 224 144 S245 154, 280 154" fill="none" stroke="currentColor" strokeWidth="1.2" className="dash-flow" />
-      </svg>
-      <div className="absolute left-[7%] top-[30%] rounded-xl border border-white/10 bg-black/50 px-3 py-2 backdrop-blur-xl float-slow"><p className="text-[9px] uppercase tracking-[.18em] text-zinc-500">Phản hồi</p><p className="mt-0.5 text-sm font-semibold text-white">Theo thời gian thực</p></div>
-      <div className="absolute bottom-[20%] right-[2%] rounded-xl border border-white/10 bg-black/50 px-3 py-2 backdrop-blur-xl float-slow"><p className="flex items-center gap-1.5 text-xs font-medium text-emerald-300"><ShieldCheck className="h-3.5 w-3.5" /> Bảo vệ riêng tư</p></div>
-    </div>
-  );
+interface SpeechRecognitionEventLike {
+  results: ArrayLike<{ 0: { transcript: string }; isFinal: boolean }>;
 }
 
-function MiniConversation() {
-  return (
-    <div className="relative h-full min-h-[350px] overflow-hidden rounded-2xl border border-white/[0.09] bg-black/25 p-4 sm:p-5">
-      <div className="scan-line pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-transparent via-violet-400/[0.08] to-transparent" />
-      <div className="mb-6 flex items-center justify-between border-b border-white/[0.08] pb-4">
-        <div className="flex items-center gap-2.5"><span className="grid h-8 w-8 place-items-center rounded-lg bg-violet-500/15"><BrainCircuit className="h-4 w-4 text-violet-300" /></span><div><p className="text-xs font-semibold text-white">Trợ lý Phòng khám YG</p><p className="text-[10px] text-zinc-500">Phiên tư vấn riêng tư</p></div></div>
-        <span className="flex items-center gap-1.5 text-[10px] text-emerald-300"><CircleDot className="h-3 w-3" /> Sẵn sàng</span>
-      </div>
-      <motion.div initial={{ opacity: 0, y: 8 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mb-4 max-w-[88%] rounded-2xl rounded-tl-sm border border-white/[0.08] bg-white/[0.045] p-3.5 text-xs leading-5 text-zinc-300">Chào bạn, hãy mô tả điều khiến bạn khó chịu. Mình sẽ giúp sắp xếp thông tin và gợi ý bước tiếp theo.</motion.div>
-      <motion.div initial={{ opacity: 0, y: 8 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .22 }} viewport={{ once: true }} className="ml-auto mb-4 max-w-[82%] rounded-2xl rounded-tr-sm bg-violet-500 p-3.5 text-xs leading-5 text-white shadow-[0_12px_32px_rgba(124,58,237,.22)]">Tôi ho khan ba ngày, hơi sốt và mệt nhiều vào buổi tối.</motion.div>
-      <motion.div initial={{ opacity: 0, y: 8 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .44 }} viewport={{ once: true }} className="rounded-xl border border-cyan-300/15 bg-cyan-300/[0.045] p-4">
-        <p className="mb-3 flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[.14em] text-cyan-200"><Sparkles className="h-3.5 w-3.5" /> Đang làm rõ thông tin</p>
-        <div className="space-y-2 text-xs text-zinc-300"><p className="flex items-center gap-2"><Check className="h-3.5 w-3.5 text-cyan-300" /> Thời gian xuất hiện: 3 ngày</p><p className="flex items-center gap-2"><Check className="h-3.5 w-3.5 text-cyan-300" /> Ho khan, sốt nhẹ, mệt về tối</p><p className="flex items-center gap-2 text-zinc-500"><CircleDot className="h-3.5 w-3.5" /> Cần hỏi thêm dấu hiệu khó thở</p></div>
-      </motion.div>
-    </div>
-  );
+interface SpeechRecognitionErrorEventLike { error: string; }
+
+interface SpeechRecognitionLike {
+  lang: string;
+  continuous: boolean;
+  interimResults: boolean;
+  onresult: ((event: SpeechRecognitionEventLike) => void) | null;
+  onerror: ((event: SpeechRecognitionErrorEventLike) => void) | null;
+  onend: (() => void) | null;
+  start: () => void;
+  stop: () => void;
 }
+
+type SpeechRecognitionConstructor = new () => SpeechRecognitionLike;
+
+declare global {
+  interface Window {
+    SpeechRecognition?: SpeechRecognitionConstructor;
+    webkitSpeechRecognition?: SpeechRecognitionConstructor;
+  }
+}
+
+const quickPrompts = ['Ho và sốt nhẹ', 'Đau mỏi vai gáy', 'Khó chịu vùng bụng'];
+
+const specialties = [
+  { title: 'Nội tổng quát', description: 'Khám ban đầu khi triệu chứng chưa rõ nguyên nhân.', icon: Stethoscope, tone: 'sky' },
+  { title: 'Sản · Phụ khoa', description: 'Chăm sóc sức khỏe phụ nữ và theo dõi thai kỳ.', icon: HeartPulse, tone: 'yellow' },
+  { title: 'Răng Hàm Mặt', description: 'Khám, tư vấn và chăm sóc sức khỏe răng miệng.', icon: Smile, tone: 'mint' },
+  { title: 'Chẩn đoán hình ảnh', description: 'Hỗ trợ bác sĩ đánh giá bằng thiết bị chuyên môn.', icon: ScanLine, tone: 'coral' },
+] as const;
 
 export function AiDashboardHome() {
   const router = useRouter();
   const [input, setInput] = React.useState('');
-  const submit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (input.trim()) sessionStorage.setItem('botmed_initial_intake', input.trim());
+  const [voiceState, setVoiceState] = React.useState<VoiceState>('idle');
+  const [voiceMessage, setVoiceMessage] = React.useState('Bạn có thể nói: “Tôi ho và sốt nhẹ từ tối qua...”');
+  const recognitionRef = React.useRef<SpeechRecognitionLike | null>(null);
+
+  React.useEffect(() => () => recognitionRef.current?.stop(), []);
+
+  const continueToTriage = React.useCallback((text: string) => {
+    const value = text.trim();
+    if (value) sessionStorage.setItem('botmed_initial_intake', value);
     router.push('/tro-ly');
+  }, [router]);
+
+  const submit = (event: React.FormEvent) => {
+    event.preventDefault();
+    continueToTriage(input);
+  };
+
+  const toggleVoice = () => {
+    if (voiceState === 'listening') {
+      recognitionRef.current?.stop();
+      return;
+    }
+
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!Recognition) {
+      setVoiceState('unsupported');
+      setVoiceMessage('Trình duyệt này chưa hỗ trợ nhập giọng nói. Bạn vẫn có thể nhập bằng bàn phím.');
+      return;
+    }
+
+    const recognition = new Recognition();
+    recognition.lang = 'vi-VN';
+    recognition.continuous = false;
+    recognition.interimResults = true;
+    recognitionRef.current = recognition;
+    let finalTranscript = '';
+
+    recognition.onresult = (event) => {
+      let interimTranscript = '';
+      for (let index = 0; index < event.results.length; index += 1) {
+        const result = event.results[index];
+        if (result.isFinal) finalTranscript += result[0].transcript;
+        else interimTranscript += result[0].transcript;
+      }
+      const nextTranscript = (finalTranscript || interimTranscript).trim();
+      if (nextTranscript) setInput(nextTranscript);
+    };
+
+    recognition.onerror = (event) => {
+      setVoiceState('error');
+      setVoiceMessage(event.error === 'not-allowed'
+        ? 'Micro đang bị chặn. Hãy cấp quyền hoặc dùng bàn phím.'
+        : 'Chưa nghe rõ. Bạn có thể thử nói lại hoặc nhập bằng bàn phím.');
+    };
+
+    recognition.onend = () => {
+      recognitionRef.current = null;
+      setVoiceState((current) => {
+        if (current === 'error' || current === 'unsupported') return current;
+        return finalTranscript.trim() ? 'ready' : 'idle';
+      });
+      setVoiceMessage(finalTranscript.trim()
+        ? 'Đã ghi nhận. Kiểm tra lại nội dung trước khi tiếp tục.'
+        : 'Chạm micro và nói chậm, rõ để thử lại.');
+    };
+
+    setVoiceState('listening');
+    setVoiceMessage('Đang nghe… Hãy mô tả triệu chứng và thời điểm bắt đầu.');
+    recognition.start();
   };
 
   return (
-    <div className="relative overflow-hidden">
-      <div className="app-grid pointer-events-none absolute inset-x-0 top-0 h-[950px]" />
-      <div className="noise-overlay pointer-events-none fixed inset-0 z-[60] mix-blend-soft-light" />
+    <div className={styles.home}>
+      <section className={styles.intakeSection} aria-labelledby="home-heading">
+        <div className={styles.intakeColumn}>
+          <p className={styles.eyebrow}>✦ Chăm sóc bắt đầu từ lắng nghe</p>
+          <h1 id="home-heading">Kể điều bạn đang thấy <em>không ổn.</em></h1>
+          <p className={styles.lead}>
+            Nói hoặc nhập triệu chứng bằng cách tự nhiên. Trợ lý sẽ giúp bạn sắp xếp thông tin,
+            kiểm tra dấu hiệu cần chú ý và gợi ý chuyên khoa phù hợp trước khi gặp bác sĩ.
+          </p>
 
-      <section className="relative mx-auto grid min-h-[calc(100vh-68px)] max-w-[1440px] items-center gap-10 px-4 py-14 sm:px-6 md:py-20 lg:grid-cols-[1.05fr_.95fr] lg:px-10 lg:py-12">
-        <motion.div initial="hidden" animate="show" transition={{ staggerChildren: .1 }} className="relative z-10 max-w-3xl">
-          <motion.div variants={reveal} className="mb-6 inline-flex items-center gap-2 rounded-full border border-violet-300/20 bg-violet-400/[0.07] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[.18em] text-violet-200"><Sparkles className="h-3.5 w-3.5" /> Trợ lý sức khỏe thế hệ mới</motion.div>
-          <motion.h1 variants={reveal} className="max-w-[760px] text-[clamp(3.25rem,7vw,7.2rem)] font-semibold leading-[.91] tracking-[-.075em]"><span className="text-white">Hiểu cơ thể.</span><br /><span className="text-gradient">Chủ động hơn.</span></motion.h1>
-          <motion.p variants={reveal} className="mt-7 max-w-xl text-base leading-7 text-zinc-300 sm:text-lg">Một không gian AI riêng tư giúp bạn mô tả triệu chứng, nhận diện dấu hiệu cần chú ý và tìm đúng hướng chăm sóc ban đầu.</motion.p>
+          <form className={styles.voiceCard} onSubmit={submit}>
+            <div className={styles.voiceHeader}>
+              <div><span>BƯỚC 1 · MÔ TẢ TRIỆU CHỨNG</span><h2>Hôm nay bạn cảm thấy thế nào?</h2></div>
+              <p><LockKeyhole aria-hidden="true" /> Không lưu khi chưa đồng ý</p>
+            </div>
 
-          <motion.form variants={reveal} onSubmit={submit} className="electric-border mt-9 rounded-2xl bg-[#0b0a14] p-[1px] shadow-[0_30px_100px_rgba(76,29,149,.25)]">
-            <div className="rounded-[15px] bg-[#0a0912] p-3 sm:p-4">
-              <div className="mb-3 flex items-center justify-between px-1"><span className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[.16em] text-zinc-500"><MessageSquareText className="h-3.5 w-3.5 text-violet-300" /> Bắt đầu với một câu</span><span className="text-[10px] text-zinc-600">Không lưu mặc định</span></div>
-              <div className="flex items-center gap-2">
-                <input value={input} onChange={(e) => setInput(e.target.value)} className="min-w-0 flex-1 bg-transparent px-2 py-3 text-sm text-white placeholder:text-zinc-500 focus:outline-none sm:text-base" placeholder="Ví dụ: Tôi đau đầu và chóng mặt từ sáng..." aria-label="Mô tả triệu chứng" />
-                <button type="button" className="hidden h-11 w-11 shrink-0 place-items-center rounded-xl border border-white/10 text-zinc-500 hover:text-white sm:grid" aria-label="Nhập bằng giọng nói"><Mic className="h-4 w-4" /></button>
-                <button type="submit" className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-white text-black transition hover:scale-[1.04] hover:bg-violet-100" aria-label="Mở trợ lý"><Send className="h-4 w-4" /></button>
+            <div className={`${styles.voiceStage} ${styles[voiceState]}`} aria-live="polite">
+              <button className={styles.voiceButton} type="button" onClick={toggleVoice} aria-pressed={voiceState === 'listening'}>
+                <Mic aria-hidden="true" />
+                <span>{voiceState === 'listening' ? 'Dừng nghe' : voiceState === 'ready' ? 'Nói lại' : 'Chạm để nói'}</span>
+              </button>
+              <div className={styles.voiceFeedback}>
+                <div className={styles.waveform} aria-hidden="true">
+                  {Array.from({ length: 11 }).map((_, index) => <i key={index} />)}
+                </div>
+                <p>{voiceMessage}</p>
               </div>
             </div>
-          </motion.form>
-          <motion.div variants={reveal} className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-3 text-xs text-zinc-400"><span className="flex items-center gap-2"><LockKeyhole className="h-3.5 w-3.5 text-zinc-300" /> Bảo mật phiên</span><span className="flex items-center gap-2"><ShieldCheck className="h-3.5 w-3.5 text-zinc-300" /> Luôn kiểm tra dấu hiệu khẩn cấp</span><Link href="/tro-ly" className="flex items-center gap-1 font-medium text-violet-300 hover:text-violet-200">Mở toàn màn hình <ArrowRight className="h-3.5 w-3.5" /></Link></motion.div>
-        </motion.div>
-        <motion.div initial={{ opacity: 0, scale: .86 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .9, ease: [0.2, 0.8, 0.2, 1] }} className="relative min-h-[420px] lg:min-h-[640px]"><HealthOrb /></motion.div>
+
+            {input && voiceState === 'ready' ? (
+              <div className={styles.transcript}>
+                <div><span>Bản ghi đã nhận</span><p>{input}</p></div>
+                <button type="submit">Dùng mô tả này <ArrowRight aria-hidden="true" /></button>
+              </div>
+            ) : null}
+
+            <div className={styles.textEntry}>
+              <label htmlFor="home-symptom-input">Hoặc nhập bằng bàn phím</label>
+              <div>
+                <input
+                  id="home-symptom-input"
+                  value={input}
+                  onChange={(event) => {
+                    setInput(event.target.value);
+                    if (voiceState === 'ready') setVoiceState('idle');
+                  }}
+                  placeholder="Ví dụ: đau đầu, chóng mặt từ sáng..."
+                />
+                <button type="submit" aria-label="Tiếp tục với mô tả đã nhập"><Send aria-hidden="true" /></button>
+              </div>
+            </div>
+
+            <div className={styles.quickPrompts}>
+              <span>Gợi ý nhanh:</span>
+              {quickPrompts.map((prompt) => <button key={prompt} type="button" onClick={() => setInput(prompt)}>{prompt}</button>)}
+            </div>
+          </form>
+
+          <p className={styles.disclaimer}>
+            <ShieldCheck aria-hidden="true" /> Kết quả chỉ hỗ trợ định hướng ban đầu, không thay thế thăm khám của bác sĩ.
+          </p>
+        </div>
+
+        <aside className={styles.receptionColumn} aria-label="Thông tin tiếp nhận tại phòng khám">
+          <div className={styles.clinicImage}>
+            <Image src="/images/clinic-family-hero.png" alt="Bác sĩ trò chuyện với một gia đình trong không gian phòng khám sáng" fill priority sizes="680px" />
+          </div>
+          <div className={styles.todayPanel}>
+            <div className={styles.todayHeading}>
+              <div><span>Tiếp nhận tại phòng khám</span><h2>Thông tin cần biết hôm nay</h2></div>
+              <p><i aria-hidden="true" /> Đang tiếp nhận</p>
+            </div>
+            <dl>
+              <div><dt><Clock3 aria-hidden="true" /> Giờ khám</dt><dd>Sáng 08:00–12:00 · Chiều 13:00–19:00, Thứ Hai–Chủ nhật</dd></div>
+              <div><dt><MapPin aria-hidden="true" /> Địa chỉ</dt><dd>Quang Trung, An Lão, Hải Phòng</dd></div>
+              <div><dt><Stethoscope aria-hidden="true" /> Hỗ trợ</dt><dd><Link href="/dat-lich">Đặt lịch</Link> · <Link href="/chuyen-khoa">Chọn chuyên khoa</Link></dd></div>
+            </dl>
+            <div className={styles.urgentRow}>
+              <div><strong>Khi có dấu hiệu nguy hiểm</strong><span>Không tiếp tục chờ tư vấn trực tuyến</span></div>
+              <a href="tel:115"><PhoneCall aria-hidden="true" /> Gọi 115</a>
+            </div>
+          </div>
+        </aside>
       </section>
 
-      <section className="relative mx-auto max-w-[1400px] px-4 pb-24 sm:px-6 lg:px-10 lg:pb-32">
-        <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"><div><p className="mb-2 text-[10px] font-semibold uppercase tracking-[.2em] text-violet-300">Your health command center</p><h2 className="text-3xl font-semibold sm:text-5xl">Mọi bước chăm sóc, trong một nơi.</h2></div><p className="max-w-sm text-sm leading-6 text-zinc-500">Không chỉ là chat. Phòng khám YG kết nối định hướng triệu chứng, chuyên khoa và lịch khám thành một hành trình liền mạch.</p></div>
-        <div className="grid auto-rows-[minmax(180px,auto)] gap-4 lg:grid-cols-12">
-          <motion.article initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} className="glass-panel lg:col-span-7 lg:row-span-2 rounded-3xl p-3"><MiniConversation /></motion.article>
-          <motion.article initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .1 }} viewport={{ once: true, margin: '-80px' }} className="glass-panel group relative overflow-hidden rounded-3xl p-6 lg:col-span-5">
-            <div className="absolute -right-14 -top-14 h-40 w-40 rounded-full bg-violet-500/20 blur-3xl transition group-hover:bg-violet-500/30" />
-            <div className="mb-8 flex items-start justify-between"><span className="grid h-11 w-11 place-items-center rounded-2xl border border-violet-300/15 bg-violet-400/10"><BrainCircuit className="h-5 w-5 text-violet-300" /></span><ArrowUpRight className="h-5 w-5 text-zinc-600 transition group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white" /></div>
-            <h3 className="text-xl">Định hướng bằng AI</h3><p className="mt-2 max-w-sm text-sm leading-6 text-zinc-500">Đối chiếu mô tả tự nhiên với kho 652 mục kiến thức để tìm thông tin có thể liên quan.</p>
-          </motion.article>
-          <motion.article initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .16 }} viewport={{ once: true, margin: '-80px' }} className="glass-panel rounded-3xl p-6 lg:col-span-5">
-            <div className="mb-8 flex items-center justify-between"><span className="grid h-11 w-11 place-items-center rounded-2xl border border-cyan-300/15 bg-cyan-300/[0.08]"><CalendarDays className="h-5 w-5 text-cyan-300" /></span><span className="rounded-full border border-emerald-300/15 bg-emerald-300/[0.06] px-2.5 py-1 text-[10px] text-emerald-300">Luồng liền mạch</span></div>
-            <h3 className="text-xl">Đặt lịch đúng chuyên khoa</h3><p className="mt-2 text-sm leading-6 text-zinc-500">Chuyển từ kết quả tham khảo sang bước đặt lịch mà không phải nhập lại thông tin.</p><Link href="/dat-lich" className="mt-5 inline-flex items-center gap-1.5 text-xs font-semibold text-cyan-200 hover:text-white">Khám các khung giờ <ChevronRight className="h-3.5 w-3.5" /></Link>
-          </motion.article>
-          <motion.article initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} className="relative overflow-hidden rounded-3xl border border-white/[0.09] bg-gradient-to-br from-violet-600 to-indigo-950 p-7 lg:col-span-4">
-            <Zap className="mb-8 h-6 w-6 text-violet-100" /><p className="text-4xl font-semibold tracking-[-.06em]">652</p><p className="mt-1 text-sm text-violet-200">mục kiến thức bệnh học đang được đối chiếu</p>
-          </motion.article>
-          <motion.article initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .08 }} viewport={{ once: true, margin: '-80px' }} className="glass-panel rounded-3xl p-7 lg:col-span-4"><Stethoscope className="mb-8 h-6 w-6 text-violet-300" /><p className="text-4xl font-semibold tracking-[-.06em]">06</p><p className="mt-1 text-sm text-zinc-500">nhóm chuyên khoa để tiếp tục thăm khám</p></motion.article>
-          <motion.article initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .16 }} viewport={{ once: true, margin: '-80px' }} className="glass-panel rounded-3xl p-7 lg:col-span-4"><HeartPulse className="mb-8 h-6 w-6 text-red-300" /><p className="text-4xl font-semibold tracking-[-.06em]">115</p><p className="mt-1 text-sm text-zinc-500">luôn ở một thao tác khi cần hỗ trợ khẩn cấp</p></motion.article>
+      <section className={styles.specialtySection} aria-labelledby="specialty-heading">
+        <div className={styles.sectionHeading}>
+          <div><span>Dịch vụ nổi bật</span><h2 id="specialty-heading">Chọn điểm bắt đầu phù hợp</h2></div>
+          <Link href="/chuyen-khoa">Xem tất cả chuyên khoa <ArrowRight aria-hidden="true" /></Link>
+        </div>
+        <div className={styles.specialtyGrid}>
+          {specialties.map(({ title, description, icon: Icon, tone }) => (
+            <article key={title} className={`${styles.specialtyCard} ${styles[tone]}`}>
+              <Icon aria-hidden="true" />
+              <div><h3>{title}</h3><p>{description}</p></div>
+              <Link href="/chuyen-khoa" aria-label={`Xem ${title}`}><ArrowRight aria-hidden="true" /></Link>
+            </article>
+          ))}
         </div>
       </section>
 
-      <section className="relative border-t border-white/[0.08] px-4 py-24 sm:px-6 lg:px-10 lg:py-32">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_100%,rgba(124,58,237,.18),transparent_45%)]" />
-        <div className="relative mx-auto max-w-4xl text-center"><p className="mb-4 text-[10px] font-semibold uppercase tracking-[.22em] text-violet-300">Ready when you are</p><h2 className="text-4xl font-semibold leading-tight sm:text-6xl">Tạo không gian sức khỏe<br className="hidden sm:block" /> dành riêng cho bạn.</h2><p className="mx-auto mt-5 max-w-xl text-sm leading-6 text-zinc-500">Lưu lịch hẹn, quản lý hồ sơ cá nhân và quay lại hành trình chăm sóc của bạn ở bất kỳ đâu.</p><div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row"><Link href="/dang-ky" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-white px-6 text-sm font-semibold text-black hover:bg-violet-100">Tạo tài khoản miễn phí <ArrowRight className="h-4 w-4" /></Link><Link href="/dang-nhap" className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/10 bg-white/[0.04] px-6 text-sm font-medium text-white hover:bg-white/[0.08]">Đăng nhập</Link></div></div>
+      <section className={styles.journeySection} aria-labelledby="journey-heading">
+        <div>
+          <span>Một hành trình, không nhập lại</span>
+          <h2 id="journey-heading">Từ điều bạn kể đến lịch hẹn phù hợp.</h2>
+          <Link href="/dat-lich">Đặt lịch khám <ArrowRight aria-hidden="true" /></Link>
+        </div>
+        <ol>
+          <li><span>01</span><div><strong>Mô tả triệu chứng</strong><p>Nói hoặc nhập theo cách tự nhiên.</p></div></li>
+          <li><span>02</span><div><strong>Nhận hướng dẫn ban đầu</strong><p>Kiểm tra dấu hiệu cần chú ý và chuyên khoa gợi ý.</p></div></li>
+          <li><span>03</span><div><strong>Chọn bác sĩ và khung giờ</strong><p>Chỉ giữ lại thông tin cần thiết khi bạn đồng ý.</p></div></li>
+        </ol>
       </section>
     </div>
   );

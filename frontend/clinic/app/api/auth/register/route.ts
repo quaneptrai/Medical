@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getDb } from '@/lib/auth/db';
 import { hashPassword, validatePasswordStrength } from '@/lib/auth/password';
 import { generateId, generateTokenCode } from '@/lib/auth/session';
+import { normaliseUsername, validateUsername } from '@/lib/auth/profile';
 
 export async function POST(req: NextRequest) {
   try {
@@ -9,9 +10,15 @@ export async function POST(req: NextRequest) {
     const email = (body.email || '').trim().toLowerCase();
     const password = body.password || '';
     const displayName = (body.displayName || '').trim();
+    const username = normaliseUsername(body.username);
 
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return NextResponse.json({ detail: 'Email không hợp lệ.' }, { status: 400 });
+    }
+
+    const usernameProblem = validateUsername(username);
+    if (usernameProblem) {
+      return NextResponse.json({ detail: usernameProblem }, { status: 400 });
     }
 
     const pwCheck = validatePasswordStrength(password);
@@ -20,6 +27,12 @@ export async function POST(req: NextRequest) {
     }
 
     const db = getDb();
+    // Tên đăng nhập hiển thị công khai nên báo trùng trực tiếp được; email thì không, tránh dò tài khoản.
+    const usernameTaken = db.prepare('SELECT id FROM users WHERE username = ?').get(username);
+    if (usernameTaken) {
+      return NextResponse.json({ detail: 'Tên đăng nhập này đã có người dùng. Vui lòng chọn tên khác.' }, { status: 409 });
+    }
+
     const existing = db.prepare('SELECT id FROM users WHERE email = ?').get(email);
     if (existing) {
       // Neutral message to prevent email enumeration attacks
@@ -34,9 +47,9 @@ export async function POST(req: NextRequest) {
     const now = Math.floor(Date.now() / 1000);
 
     db.prepare(`
-      INSERT INTO users (id, email, password_hash, display_name, is_verified, created_at, updated_at)
-      VALUES (?, ?, ?, ?, 0, ?, ?)
-    `).run(userId, email, passwordHash, displayName || null, now, now);
+      INSERT INTO users (id, email, username, password_hash, display_name, full_name, is_verified, created_at, updated_at)
+      VALUES (?, ?, ?, ?, ?, ?, 0, ?, ?)
+    `).run(userId, email, username, passwordHash, displayName || null, displayName || null, now, now);
 
     // Generate 6-digit verification code valid for 24h
     const verificationCode = generateTokenCode();

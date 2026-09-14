@@ -34,7 +34,7 @@ export function HeroSection({ className }: { className?: string }) {
           <div className="flex items-center gap-3 text-xs font-mono uppercase tracking-widest text-ink-muted border-b border-line pb-2">
             <span>Folio 01 · Tiếp nhận người bệnh</span>
             <span>—</span>
-            <span>Hà Nội & TP.HCM</span>
+            <span>An Lão, Hải Phòng</span>
           </div>
 
           {/* Main Headline */}
@@ -50,7 +50,7 @@ export function HeroSection({ className }: { className?: string }) {
 
           {/* Editorial Paragraph */}
           <p className="text-base text-ink-muted leading-relaxed max-w-prose">
-            Phòng khám Đa khoa Quốc tế YG kết hợp quy trình khám chữa bệnh tận tâm và hệ thống tra cứu 652 mục tri thức bệnh lý để hỗ trợ bạn định hướng ban đầu, sàng lọc dấu hiệu cấp cứu trước khi thăm khám trực tiếp cùng bác sĩ.
+            Phòng khám Đa khoa Quốc tế Quang Thanh kết hợp quy trình khám chữa bệnh tận tâm và hệ thống tra cứu 652 mục tri thức bệnh lý để hỗ trợ bạn định hướng ban đầu, sàng lọc dấu hiệu cấp cứu trước khi thăm khám trực tiếp cùng bác sĩ.
           </p>
 
           {/* Compact Intake Form */}
@@ -110,7 +110,7 @@ export function HeroSection({ className }: { className?: string }) {
                   Môi trường y tế vô trùng & trang thiết bị chẩn đoán hiện đại
                 </h2>
                 <p className="text-xs text-ink-muted leading-relaxed">
-                  Tại Phòng khám YG, mỗi người bệnh đều được lắng nghe toàn diện từ biểu hiện ban đầu đến kế hoạch chăm sóc phục hồi.
+                  Tại Phòng khám Quang Thanh, mỗi người bệnh đều được lắng nghe toàn diện từ biểu hiện ban đầu đến kế hoạch chăm sóc phục hồi.
                 </p>
               </div>
 
@@ -121,13 +121,13 @@ export function HeroSection({ className }: { className?: string }) {
                 </p>
                 <p className="flex items-center gap-2">
                   <MapPin className="w-4 h-4 text-mineral shrink-0" />
-                  <span>Cơ sở chính: 184 Nguyễn Lương Bằng, Đống Đa, Hà Nội</span>
+                  <span>Điểm khám: Quang Trung, An Lão, Hải Phòng</span>
                 </p>
               </div>
             </div>
           </div>
           <p className="text-[11px] text-ink-muted font-mono italic text-right">
-            Ảnh tư liệu Phòng khám Đa khoa Quốc tế YG
+            Ảnh tư liệu Phòng khám Đa khoa Quốc tế Quang Thanh
           </p>
         </div>
       </div>

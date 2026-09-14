@@ -59,9 +59,9 @@ if (-not $SkipChecks) {
     Write-Ok 'web dependencies'
 
     if (-not (Test-Path (Join-Path $root 'models\bge-m3-medical-v2-recovered-a050-fp16\model.safetensors'))) {
-        Fail 'The embedding model is missing (1.1 GB, not stored in git).' @(
-            'Copy models\bge-m3-medical-v2-recovered-a050-fp16\ from a machine that has it,',
-            'then run:  .\setup.ps1'
+        Fail 'The embedding model has not been assembled yet.' @(
+            'The 1.1 GB weights ship as split parts under models\...\parts\.',
+            'Run the installer, which joins and verifies them:  .\setup.ps1'
         )
     }
     Write-Ok 'embedding model'

@@ -28,7 +28,7 @@ export function FAQAccordion({ className }: { className?: string }) {
           Câu hỏi thường gặp
         </h2>
         <p className="text-sm md:text-base text-neutral-600">
-          Những thông tin quan trọng về quy trình khám, bảo hiểm và trợ lý phân loại Phòng khám YG.
+          Những thông tin quan trọng về quy trình khám, bảo hiểm và trợ lý phân loại Phòng khám Quang Thanh.
         </p>
       </div>
 

@@ -2,212 +2,200 @@
 
 import * as React from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { User, Calendar, ShieldCheck, LogOut, Clock, MapPin, MessageSquareText, Sparkles, ArrowUpRight } from 'lucide-react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import {
+  AlertCircle, ArrowUpRight, Calendar, CalendarDays, Clock, LayoutDashboard, LogOut, MapPin,
+  MessageSquareText, ShieldCheck, User, UserCheck,
+} from 'lucide-react';
 import { CLINIC_INFO } from '@/lib/clinic-data';
+import { PatientProfile, ProfileForm, emptyProfile, missingLabels } from '@/components/clinic/ProfileForm';
 
-export default function AccountDashboardPage() {
+const GENDER_TEXT: Record<string, string> = { male: 'Nam', female: 'Nữ', other: 'Khác' };
+
+function AccountDashboard() {
   const router = useRouter();
-  const [activeTab, setActiveTab] = React.useState<'appointments' | 'profile' | 'security'>('appointments');
+  const searchParams = useSearchParams();
+  const [activeTab, setActiveTab] = React.useState<'appointments' | 'profile' | 'security'>(
+    searchParams.get('tab') === 'ho-so' ? 'profile' : 'appointments',
+  );
   const [loading, setLoading] = React.useState(true);
   const [userData, setUserData] = React.useState<any>(null);
   const [appointments, setAppointments] = React.useState<any[]>([]);
-
-  const fetchProfile = async () => {
-    try {
-      const res = await fetch('/api/auth/me');
-      if (!res.ok) {
-        router.push('/dang-nhap?returnUrl=/tai-khoan');
-        return;
-      }
-      const data = await res.json();
-      setUserData(data.user);
-      setAppointments(data.appointments || []);
-    } catch {
-      router.push('/dang-nhap');
-    } finally {
-      setLoading(false);
-    }
-  };
+  const [profile, setProfile] = React.useState<PatientProfile>(emptyProfile);
+  const [missing, setMissing] = React.useState<string[]>([]);
 
   React.useEffect(() => {
-    fetchProfile();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    fetch('/api/auth/me')
+      .then(async (response) => {
+        if (!response.ok) { router.push('/dang-nhap?returnUrl=/tai-khoan'); return; }
+        const data = await response.json();
+        setUserData(data.user);
+        setAppointments(data.appointments || []);
+        setProfile({ ...emptyProfile, ...(data.user?.profile || {}) });
+        setMissing(data.profileMissing || []);
+      })
+      .catch(() => router.push('/dang-nhap'))
+      .finally(() => setLoading(false));
+  }, [router]);
 
-  const handleLogout = async () => {
+  const logout = async () => {
     await fetch('/api/auth/logout', { method: 'POST' });
     router.push('/dang-nhap');
     router.refresh();
   };
 
-  if (loading) {
-    return (
-      <div className="max-w-4xl mx-auto px-4 py-16 text-center text-sm text-ink-muted">
-        Đang nạp hồ sơ người bệnh...
-      </div>
-    );
-  }
+  if (loading) return <div className="clinic-page text-sm text-[#60736f]">Đang tải hồ sơ...</div>;
+
+  const isStaff = userData?.roles?.includes('super_admin') || userData?.roles?.includes('clinic_admin');
+  const incomplete = missing.length > 0;
+  const greeting = profile.fullName || userData?.display_name;
 
   return (
-    <div className="relative mx-auto max-w-6xl space-y-6 px-4 py-8 sm:px-6 md:py-12 lg:px-8">
-      <div className="app-grid pointer-events-none absolute inset-x-0 top-0 -z-10 h-[700px]" />
-      {/* Account top header */}
-      <div className="relative flex flex-col justify-between gap-6 overflow-hidden rounded-3xl border border-violet-300/15 bg-gradient-to-br from-violet-600/30 via-[#121126] to-cyan-400/[0.06] p-6 sm:flex-row sm:items-end md:p-8">
-        <div className="absolute -right-20 -top-28 h-72 w-72 rounded-full bg-violet-500/25 blur-[80px]" />
-        <div className="space-y-1">
-          <span className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[.18em] text-violet-200">
-            <Sparkles className="h-3.5 w-3.5" /> Personal health dashboard
-          </span>
-          <h1 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">
-            {userData?.display_name ? `Chào mừng, ${userData.display_name}` : 'Tài khoản người bệnh'}
-          </h1>
-          <p className="text-xs text-zinc-400">
-            {userData?.email} · <span className="font-semibold text-emerald-300">Tài khoản đã xác minh</span>
+    <div className="clinic-page space-y-6">
+      <section className="flex items-end justify-between rounded-[28px] border border-[#cfe1db] bg-[#eaf6f1] p-9">
+        <div>
+          <span className="clinic-kicker">Không gian tài khoản</span>
+          <h1 className="mt-3 text-[44px]">{greeting ? `Xin chào, ${greeting}` : 'Hồ sơ người bệnh'}</h1>
+          <p className="mt-2 text-sm text-[#60736f]">
+            {userData?.username ? <>{userData.username} · </> : null}{userData?.email} · <strong className="text-[#087f73]">Đã xác minh</strong>
           </p>
         </div>
+        <div className="flex gap-2">
+          {isStaff ? (
+            <Link href="/quan-tri" className="inline-flex min-h-11 items-center gap-2 rounded-xl bg-[#ffdd79] px-5 text-xs font-extrabold text-[#18312d]"><LayoutDashboard className="h-4 w-4" /> Mở bảng điều hành</Link>
+          ) : (
+            <Link href="/tro-ly" className="inline-flex min-h-11 items-center gap-2 rounded-xl bg-[#087f73] px-5 text-xs font-bold text-white"><MessageSquareText className="h-4 w-4" /> Hỏi trợ lý <ArrowUpRight className="h-4 w-4" /></Link>
+          )}
+          <button type="button" onClick={logout} className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-[#c7ded7] bg-white px-5 text-xs font-bold text-[#526a65]"><LogOut className="h-4 w-4" /> Đăng xuất</button>
+        </div>
+      </section>
 
-        <div className="relative flex flex-wrap gap-2"><Link href="/tro-ly" className="inline-flex min-h-10 items-center gap-2 rounded-full bg-white px-4 text-xs font-semibold text-black hover:bg-violet-100"><MessageSquareText className="h-3.5 w-3.5" /> Hỏi trợ lý <ArrowUpRight className="h-3.5 w-3.5" /></Link><button type="button" onClick={handleLogout} className="inline-flex min-h-10 items-center gap-1.5 rounded-full border border-white/10 bg-black/20 px-4 text-xs font-medium text-zinc-300 transition hover:bg-black/30 hover:text-white"><LogOut className="h-3.5 w-3.5" /><span>Đăng xuất</span></button></div>
+      {incomplete ? (
+        <div className="flex items-center justify-between gap-6 rounded-2xl border border-[#eadcae] bg-[#fff8df] px-6 py-4">
+          <p className="flex items-start gap-2.5 text-sm leading-6 text-[#70550a]">
+            <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" />
+            <span>
+              Hồ sơ của bạn còn thiếu: <strong>{missingLabels(missing)}</strong>. Cần khai đủ những mục này thì mới đặt được lịch khám.
+            </span>
+          </p>
+          <button
+            type="button"
+            onClick={() => setActiveTab('profile')}
+            className="shrink-0 rounded-xl bg-[#18312d] px-5 py-2.5 text-xs font-extrabold text-white"
+          >
+            Hoàn thiện ngay
+          </button>
+        </div>
+      ) : null}
+
+      <div className="grid grid-cols-3 gap-4">
+        <div className="rounded-2xl border border-[#d8e4df] bg-white p-5"><Calendar className="mb-4 h-5 w-5 text-[#087f73]" /><p className="text-3xl font-bold">{appointments.length}</p><p className="text-xs text-[#60736f]">Lịch hẹn trong tài khoản</p></div>
+        <div className="rounded-2xl border border-[#d8e4df] bg-white p-5"><UserCheck className="mb-4 h-5 w-5 text-[#087f73]" /><p className="text-sm font-bold">{incomplete ? `Còn thiếu ${missing.length} mục` : 'Đã đầy đủ'}</p><p className="mt-1 text-xs text-[#60736f]">Hồ sơ người bệnh</p></div>
+        <div className="rounded-2xl border border-[#d8e4df] bg-white p-5"><Clock className="mb-4 h-5 w-5 text-[#087f73]" /><p className="text-sm font-bold">08:00–12:00 · 13:00–19:00</p><p className="mt-1 text-xs text-[#60736f]">Giờ tiếp nhận hằng ngày</p></div>
       </div>
 
-      <div className="grid gap-3 sm:grid-cols-3"><div className="glass-panel rounded-2xl p-5"><Calendar className="mb-4 h-5 w-5 text-violet-300" /><p className="text-2xl font-semibold text-white">{appointments.length}</p><p className="text-xs text-zinc-500">Lịch hẹn trong tài khoản</p></div><div className="glass-panel rounded-2xl p-5"><ShieldCheck className="mb-4 h-5 w-5 text-emerald-300" /><p className="text-sm font-semibold text-white">Đã xác minh</p><p className="mt-1 text-xs text-zinc-500">Trạng thái bảo mật email</p></div><Link href="/tro-ly" className="glass-panel group rounded-2xl p-5 transition hover:border-violet-400/30"><MessageSquareText className="mb-4 h-5 w-5 text-cyan-300" /><p className="flex items-center justify-between text-sm font-semibold text-white">Phiên AI mới <ArrowUpRight className="h-4 w-4 text-zinc-600 group-hover:text-white" /></p><p className="mt-1 text-xs text-zinc-500">Mô tả triệu chứng ngay</p></Link></div>
-
-      {/* Navigation tabs */}
-      <div className="flex gap-2 overflow-x-auto rounded-2xl border border-white/[0.08] bg-white/[0.025] p-1.5 text-xs font-semibold">
-        <button
-          type="button"
-          onClick={() => setActiveTab('appointments')}
-          className={`whitespace-nowrap rounded-xl px-4 py-2.5 transition-colors ${
-            activeTab === 'appointments' ? 'bg-white/[0.09] text-white' : 'text-zinc-500 hover:text-white'
-          }`}
-        >
-          Lịch hẹn khám ({appointments.length})
-        </button>
-        <button
-          type="button"
-          onClick={() => setActiveTab('profile')}
-          className={`whitespace-nowrap rounded-xl px-4 py-2.5 transition-colors ${
-            activeTab === 'profile' ? 'bg-white/[0.09] text-white' : 'text-zinc-500 hover:text-white'
-          }`}
-        >
-          Thông tin cá nhân
-        </button>
-        <button
-          type="button"
-          onClick={() => setActiveTab('security')}
-          className={`whitespace-nowrap rounded-xl px-4 py-2.5 transition-colors ${
-            activeTab === 'security' ? 'bg-white/[0.09] text-white' : 'text-zinc-500 hover:text-white'
-          }`}
-        >
-          Bảo mật & Quyền riêng tư
-        </button>
+      <div className="flex gap-2 rounded-2xl border border-[#d8e4df] bg-white p-1.5 text-xs font-bold">
+        {([
+          ['appointments', `Lịch hẹn (${appointments.length})`],
+          ['profile', incomplete ? 'Thông tin cá nhân ·  cần bổ sung' : 'Thông tin cá nhân'],
+          ['security', 'Bảo mật tài khoản'],
+        ] as const).map(([key, label]) => (
+          <button key={key} onClick={() => setActiveTab(key)} className={`rounded-xl px-5 py-2.5 ${activeTab === key ? 'bg-[#eaf6f1] text-[#075f59]' : 'text-[#60736f]'}`}>
+            {label}
+          </button>
+        ))}
       </div>
 
-      {/* Tab 1: Appointments List */}
       {activeTab === 'appointments' && (
-        <div className="space-y-6">
-          <div className="flex items-center justify-between">
-            <h2 className="text-lg font-serif font-bold text-ink">
-              Lịch khám đã đăng ký
-            </h2>
-            <Link
-              href="/dat-lich"
-              className="text-xs font-bold text-mineral hover:underline"
-            >
-              + Đăng ký khám mới
-            </Link>
+        <section className="rounded-2xl border border-[#d8e4df] bg-white p-7">
+          <div className="mb-5 flex items-center justify-between">
+            <h2 className="font-sans text-lg font-bold">Lịch khám đã đăng ký</h2>
+            <Link href="/dat-lich" className="text-xs font-bold text-[#087f73]">+ Đặt lịch mới</Link>
           </div>
-
-          {appointments.length > 0 ? (
+          {appointments.length ? (
             <div className="space-y-3">
-              {appointments.map((apt) => (
-                <article
-                  key={apt.id}
-                  className="p-5 bg-paper-raised rounded-xl border border-line space-y-3 shadow-xs"
-                >
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold uppercase tracking-wider text-mineral bg-sage px-2.5 py-0.5 rounded">
-                      Khoa {apt.specialty_id.toUpperCase()}
-                    </span>
-                    <span className="text-xs text-ink-muted font-mono">
-                      Mã: {apt.id.slice(0, 8)}
-                    </span>
+              {appointments.map((item) => (
+                <article key={item.id} className="grid grid-cols-[1fr_1fr_auto] items-center gap-4 rounded-xl border border-[#e0e9e5] bg-[#f7fbf9] p-5">
+                  <div><strong className="block text-sm">{item.patient_name}</strong><span className="text-xs text-[#60736f]">Khoa {item.specialty_id}</span></div>
+                  <div className="text-xs">
+                    <p>{item.appointment_date} · {item.appointment_time}</p>
+                    <p className="mt-1 flex items-center gap-1 text-[#60736f]"><MapPin className="h-3.5 w-3.5" /> {CLINIC_INFO.address}</p>
                   </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-ink">
-                    <p className="flex items-center gap-1.5">
-                      <Calendar className="w-4 h-4 text-mineral" />
-                      <span>Ngày: <strong>{apt.appointment_date}</strong> (Giờ: {apt.appointment_time})</span>
-                    </p>
-                    <p className="flex items-center gap-1.5">
-                      <User className="w-4 h-4 text-mineral" />
-                      <span>Người khám: <strong>{apt.patient_name}</strong> ({apt.patient_phone})</span>
-                    </p>
-                  </div>
-                  <div className="pt-2 border-t border-line text-[11px] text-ink-muted flex items-center gap-1.5">
-                    <MapPin className="w-3.5 h-3.5" />
-                    <span>Địa điểm: {CLINIC_INFO.address}</span>
-                  </div>
+                  <span className="rounded-lg bg-[#dff5e9] px-3 py-1 text-xs font-bold text-[#075f59]">{item.status}</span>
                 </article>
               ))}
             </div>
           ) : (
-            <div className="p-8 bg-paper-raised rounded-xl border border-line text-center space-y-3">
-              <Calendar className="w-8 h-8 mx-auto text-ink-muted" />
-              <p className="text-sm text-ink-muted">Bạn chưa có lịch hẹn khám nào.</p>
-              <Link
-                href="/dat-lich"
-                className="inline-block px-5 py-2 bg-mineral hover:bg-mineral-hover text-white text-xs font-bold rounded-md"
-              >
-                Đăng ký lịch khám ngay
-              </Link>
+            <div className="rounded-xl border border-dashed border-[#c7ded7] bg-[#f7fbf9] p-9 text-center">
+              <Calendar className="mx-auto mb-3 h-7 w-7 text-[#87a19b]" />
+              <p className="text-sm text-[#60736f]">Chưa có lịch hẹn nào.</p>
             </div>
           )}
-        </div>
+        </section>
       )}
 
-      {/* Tab 2: Profile */}
       {activeTab === 'profile' && (
-        <div className="max-w-xl space-y-5 bg-paper-raised p-6 rounded-xl border border-line">
-          <h2 className="text-lg font-serif font-bold text-ink">Thông tin cá nhân</h2>
-          <div className="space-y-3 text-xs text-ink">
-            <div>
-              <span className="text-ink-muted block text-[11px] uppercase tracking-wider">Họ và tên</span>
-              <p className="font-semibold text-sm">{userData?.display_name || 'Chưa cập nhật'}</p>
+        <section className="grid grid-cols-[1.15fr_.85fr] gap-6">
+          <div className="rounded-2xl border border-[#d8e4df] bg-white p-7">
+            <h2 className="mb-1 font-sans text-lg font-bold">Thông tin cá nhân</h2>
+            <p className="mb-6 text-xs leading-6 text-[#879995]">
+              Đây là thông tin sẽ được dùng để lập hồ sơ khám bệnh. Bạn cần điền đủ các mục có dấu * trước khi đặt lịch.
+            </p>
+            <ProfileForm
+              initialProfile={profile}
+              email={userData?.email}
+              username={userData?.username}
+              onSaved={(next) => { setProfile(next); setMissing([]); }}
+            />
+          </div>
+
+          <div className="space-y-4">
+            <div className="rounded-2xl border border-[#d8e4df] bg-white p-7">
+              <h3 className="mb-4 font-sans text-sm font-bold uppercase tracking-[.08em] text-[#60736f]">Hồ sơ hiện tại</h3>
+              <dl className="space-y-3 text-sm">
+                <Row label="Họ và tên" value={profile.fullName} />
+                <Row label="Số điện thoại" value={profile.phone} />
+                <Row label="Ngày sinh" value={profile.dateOfBirth} />
+                <Row label="Giới tính" value={profile.gender ? GENDER_TEXT[profile.gender] : ''} />
+                <Row label="Địa chỉ" value={profile.address} />
+              </dl>
             </div>
-            <div>
-              <span className="text-ink-muted block text-[11px] uppercase tracking-wider">Email</span>
-              <p className="font-semibold text-sm">{userData?.email}</p>
-            </div>
-            <div>
-              <span className="text-ink-muted block text-[11px] uppercase tracking-wider">Trạng thái hồ sơ</span>
-              <p className="font-semibold text-mineral">Đã kích hoạt xác thực email</p>
+            <div className="rounded-2xl border border-[#d8e4df] bg-[#f7fbf9] p-6">
+              <p className="flex items-start gap-2.5 text-xs leading-6 text-[#60736f]">
+                <CalendarDays className="mt-0.5 h-4 w-4 shrink-0 text-[#087f73]" />
+                Khi hồ sơ đã đầy đủ, biểu mẫu đặt lịch sẽ tự điền họ tên và số điện thoại — bạn chỉ cần chọn khoa, bác sĩ và giờ khám.
+              </p>
             </div>
           </div>
-        </div>
+        </section>
       )}
 
-      {/* Tab 3: Security */}
       {activeTab === 'security' && (
-        <div className="max-w-xl space-y-5 bg-paper-raised p-6 rounded-xl border border-line">
-          <h2 className="text-lg font-serif font-bold text-ink">Bảo mật & Quyền riêng tư</h2>
-          <div className="space-y-4 text-xs text-ink-muted">
-            <div className="flex items-start gap-2.5">
-              <ShieldCheck className="w-5 h-5 text-mineral shrink-0 mt-0.5" />
-              <div>
-                <p className="font-bold text-ink">Mã hóa mật khẩu Argon2id</p>
-                <p>Mật khẩu của bạn được băm và bảo vệ bằng tiêu chuẩn bộ nhớ cứng an toàn nhất.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-2.5">
-              <Clock className="w-5 h-5 text-mineral shrink-0 mt-0.5" />
-              <div>
-                <p className="font-bold text-ink">Phiên làm việc HttpOnly</p>
-                <p>Cookie phiên được bảo vệ hoàn toàn khỏi các kịch bản JavaScript độc hại (XSS).</p>
-              </div>
-            </div>
+        <section className="max-w-2xl rounded-2xl border border-[#d8e4df] bg-white p-7">
+          <h2 className="mb-5 font-sans text-lg font-bold">Bảo mật & quyền riêng tư của bạn</h2>
+          <div className="space-y-4 text-sm text-[#60736f]">
+            <p className="flex gap-3"><ShieldCheck className="h-5 w-5 shrink-0 text-[#087f73]" /><span><strong className="block text-[#18312d]">Mật khẩu Argon2id</strong>Mật khẩu chỉ được lưu dưới dạng giá trị băm có tăng cường bộ nhớ.</span></p>
+            <p className="flex gap-3"><User className="h-5 w-5 shrink-0 text-[#087f73]" /><span><strong className="block text-[#18312d]">Phiên HttpOnly</strong>Cookie phiên không thể được đọc bởi JavaScript trên trình duyệt.</span></p>
           </div>
-        </div>
+        </section>
       )}
     </div>
+  );
+}
+
+function Row({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex justify-between gap-4 border-b border-[#f0f5f3] pb-2.5 last:border-0">
+      <dt className="shrink-0 text-xs text-[#879995]">{label}</dt>
+      <dd className={`text-right ${value ? 'font-semibold text-[#18312d]' : 'text-[#c0ccc8]'}`}>{value || 'Chưa cập nhật'}</dd>
+    </div>
+  );
+}
+
+export default function AccountPage() {
+  return (
+    <React.Suspense fallback={<div className="clinic-page text-sm text-[#60736f]">Đang tải hồ sơ...</div>}>
+      <AccountDashboard />
+    </React.Suspense>
   );
 }

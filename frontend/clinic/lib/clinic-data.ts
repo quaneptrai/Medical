@@ -21,6 +21,10 @@ export interface Doctor {
   hospitalAffiliation: string;
   bio: string;
   availableDays: string[];
+  consultationFee?: number;
+  imageUrl?: string;
+  qualifications?: string[];
+  achievements?: string[];
 }
 
 export interface FAQItem {
@@ -30,16 +34,16 @@ export interface FAQItem {
 }
 
 export const CLINIC_INFO = {
-  name: "Phòng khám Đa khoa Quốc tế YG",
-  brandName: "Phòng khám YG",
+  name: "Phòng khám Đa khoa Quốc tế Quang Thanh",
+  brandName: "Phòng khám Quang Thanh",
   slogan: "Thấu hiểu triệu chứng — Định hướng y khoa chuẩn xác",
   license: "Giấy phép hoạt động số 0892/SYT-GPHĐ do Sở Y Tế cấp",
-  hotline: "1900 6868",
+  hotline: "0222 444 56687",
   emergencyPhone: "115",
-  address: "184 Nguyễn Lương Bằng, Phường Quang Trung, Quận Đống Đa, Hà Nội",
-  branchHcm: "45 Lê Duẩn, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+  address: "Quang Trung, An Lão, Hải Phòng",
+  branchHcm: "Chưa triển khai chi nhánh khác",
   email: "tuvan@phongkhamyg.vn",
-  openingHours: "07:30 – 20:00 (Thứ Hai – Chủ Nhật, kể cả ngày lễ)",
+  openingHours: "Sáng 08:00–12:00 · Chiều 13:00–19:00 (Thứ Hai–Chủ nhật)",
   stats: [
     { label: "Năm phục vụ sức khỏe", value: "18+", sub: "Từ năm 2008" },
     { label: "Lượt người bệnh đồng hành", value: "120.000+", sub: "Hài lòng và tin cậy" },
@@ -195,7 +199,7 @@ export const DOCTORS: Doctor[] = [
 export const FAQS: FAQItem[] = [
   {
     category: "triage",
-    question: "Trợ lý triệu chứng Phòng khám YG có thay thế bác sĩ khám bệnh không?",
+    question: "Trợ lý triệu chứng Quang Thanh có thay thế bác sĩ khám bệnh không?",
     answer: "Tuyệt đối KHÔNG. Trợ lý AI chỉ giúp bạn tra cứu các thông tin y khoa liên quan và gợi ý mức độ khẩn cấp để bạn biết khi nào nên đi khám hoặc cần đến bệnh viện ngay. Mọi kết luận chính xác đều phải do bác sĩ khám lâm sàng trực tiếp.",
   },
   {
@@ -221,7 +225,7 @@ export const FAQS: FAQItem[] = [
   {
     category: "general",
     question: "Giờ làm việc của phòng khám như thế nào?",
-    answer: "Phòng khám mở cửa liên tục từ 07:30 đến 20:00 tất cả các ngày trong tuần (kể cả Thứ Bảy, Chủ Nhật và các ngày nghỉ lễ).",
+    answer: "Phòng khám tiếp nhận buổi sáng từ 08:00 đến 12:00 và buổi chiều từ 13:00 đến 19:00, từ Thứ Hai đến Chủ nhật.",
   },
 ];
 

@@ -115,7 +115,7 @@ if ($script:NativeExitCode -ne 0) { Fail 'pip install failed.' @('Check your int
 Write-Ok 'Python dependencies installed'
 
 # ------------------------------------------------------------- Node.js -----
-Write-Step 'Checking Node.js (18+ required)'
+Write-Step 'Checking Node.js (22+ required; tested with 24)'
 if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
     Fail 'Node.js is not installed or not on PATH.' @(
         'Install the LTS build from https://nodejs.org/ then re-run .\setup.ps1'
@@ -123,8 +123,8 @@ if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
 }
 $nodeVersion = (& node --version).TrimStart('v')
 $nodeMajor = [int]($nodeVersion.Split('.')[0])
-if ($nodeMajor -lt 18) {
-    Fail "Node.js $nodeVersion is too old." @('Install Node.js 20 LTS or newer from https://nodejs.org/')
+if ($nodeMajor -lt 22) {
+    Fail "Node.js $nodeVersion is too old." @('Install Node.js 22 or 24 from https://nodejs.org/')
 }
 Write-Ok "Node.js v$nodeVersion"
 
@@ -139,13 +139,22 @@ if (Test-Path (Join-Path $frontendDir 'node_modules\next')) {
 else {
     Push-Location $frontendDir
     try {
-        Write-Info 'running npm install ...'
-        Invoke-Native { & npm install }
+        Write-Info 'running npm ci --ignore-scripts ...'
+        Invoke-Native { & npm ci --ignore-scripts }
         if ($script:NativeExitCode -ne 0) { Fail 'npm install failed.' @('Delete frontend\clinic\node_modules and re-run .\setup.ps1') }
     }
     finally { Pop-Location }
     Write-Ok 'web dependencies installed'
 }
+
+# ------------------------------------------------------ Application data -----
+Write-Step 'Preparing clinic catalog and local administrator'
+Push-Location $frontendDir
+try {
+    Invoke-Native { & npm run db:init }
+    if ($script:NativeExitCode -ne 0) { Fail 'Clinic database initialization failed.' }
+}
+finally { Pop-Location }
 
 # ---------------------------------------------------------------- .env -----
 Write-Step 'Preparing .env'
@@ -164,23 +173,38 @@ else {
 }
 
 # --------------------------------------------------------------- Model -----
-Write-Step 'Checking the embedding model'
+Write-Step 'Preparing the embedding model'
 $modelDir = Join-Path $root 'models\bge-m3-medical-v2-recovered-a050-fp16'
 $modelWeights = Join-Path $modelDir 'model.safetensors'
-if (-not (Test-Path $modelWeights)) {
-    Fail 'The fine-tuned embedding model is missing (1.1 GB - it is NOT stored in git).' @(
+$modelParts = Join-Path $modelDir 'parts'
+$joiner = Join-Path $root 'scripts\model-parts.ps1'
+
+# GitHub rejects any file over 100 MB, so the 1.1 GB weights are committed as
+# <95 MB parts. Reassemble them here - the joiner verifies SHA-256 against
+# models\registry.json and deletes the output if it does not match.
+if (Test-Path $modelParts) {
+    Invoke-Native { & powershell -NoProfile -ExecutionPolicy Bypass -File $joiner -Mode join }
+    if ($script:NativeExitCode -ne 0) {
+        Fail 'Could not reassemble the embedding model from its parts.' @(
+            'The clone is probably incomplete. Run:  git pull',
+            'Then re-run .\setup.ps1'
+        )
+    }
+}
+elseif (-not (Test-Path $modelWeights)) {
+    Fail 'The fine-tuned embedding model is missing (1.1 GB).' @(
         "Expected file: $modelWeights",
+        "or its split parts in: $modelParts",
         '',
-        'Copy the whole folder from a machine that already has it:',
+        'The repository ships the split parts, so "git pull" should restore',
+        'them. Otherwise copy the whole folder from a machine that has it:',
         '    models\bge-m3-medical-v2-recovered-a050-fp16\',
-        'It must contain: model.safetensors, config.json, tokenizer.json,',
-        'modules.json, 1_Pooling\, 2_Normalize\',
         '',
         'Then re-run .\setup.ps1'
     )
 }
 $sizeMB = [math]::Round((Get-Item $modelWeights).Length / 1MB)
-Write-Ok "model present ($sizeMB MB)"
+Write-Ok "model ready ($sizeMB MB)"
 
 # --------------------------------------------------------------- Index -----
 Write-Step 'Building the ChromaDB retrieval index (652 diseases)'
