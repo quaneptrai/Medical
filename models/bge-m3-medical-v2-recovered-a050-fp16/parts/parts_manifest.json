@@ -1,0 +1,70 @@
+﻿{
+    "model_id":  "bge-m3-medical-v2-recovered-a050-fp16",
+    "artifact":  "model.safetensors",
+    "total_bytes":  1135554344,
+    "sha256":  "4e4a45962d7a1063366968463314bbe4d45d9373202199c882a62b84dc6b6446",
+    "chunk_mb":  95,
+    "part_count":  12,
+    "parts":  [
+                  {
+                      "name":  "model.safetensors.part.00",
+                      "bytes":  99614720,
+                      "sha256":  "46ea9d8d70d7b42be8120549f352e49260cef92233500c940cb0f41e3b2fee86"
+                  },
+                  {
+                      "name":  "model.safetensors.part.01",
+                      "bytes":  99614720,
+                      "sha256":  "1098cbcec607f635f0eb378ebf2927d3b7fc30586fa2a8eaa80bf84e9031c688"
+                  },
+                  {
+                      "name":  "model.safetensors.part.02",
+                      "bytes":  99614720,
+                      "sha256":  "ca1111320d9d7471852c83e8f9494b62b41ca65dd3d117ad7a310f8c5ec4dd78"
+                  },
+                  {
+                      "name":  "model.safetensors.part.03",
+                      "bytes":  99614720,
+                      "sha256":  "522677a870651a6d81e3bcf0bd73ca27e4173e6113a20b23a1545184121d9ac3"
+                  },
+                  {
+                      "name":  "model.safetensors.part.04",
+                      "bytes":  99614720,
+                      "sha256":  "789bbe7cf66c768bca2d0d61f72ad0c8892ec03df1218ba5fa5cdfe0ff0e6cc2"
+                  },
+                  {
+                      "name":  "model.safetensors.part.05",
+                      "bytes":  99614720,
+                      "sha256":  "1e9f2d7649bd84b58156997d90ccb70ec3b6f4bdcba4a3159c7de9135dd09738"
+                  },
+                  {
+                      "name":  "model.safetensors.part.06",
+                      "bytes":  99614720,
+                      "sha256":  "c59e36620cf9b646b5584a7a1fc64ee0afdd80311b9ea712d6e502ad8290a574"
+                  },
+                  {
+                      "name":  "model.safetensors.part.07",
+                      "bytes":  99614720,
+                      "sha256":  "df118626e273d58b3463ce80c57028a9be440242b3b7a63cf5274fa610a543bf"
+                  },
+                  {
+                      "name":  "model.safetensors.part.08",
+                      "bytes":  99614720,
+                      "sha256":  "d0f2ad365eb7a7053f6334e9bd9407e05cdff51a4e7144edc789aeeeb211115a"
+                  },
+                  {
+                      "name":  "model.safetensors.part.09",
+                      "bytes":  99614720,
+                      "sha256":  "1ea3560077f7c67c13c76ae89d3282353f467d75ba7191d2dafe178865e1550e"
+                  },
+                  {
+                      "name":  "model.safetensors.part.10",
+                      "bytes":  99614720,
+                      "sha256":  "bd95a7691c8451d62b4fd1e7f09423ee0aed2e4cf4978dfa800054e04cde5ae6"
+                  },
+                  {
+                      "name":  "model.safetensors.part.11",
+                      "bytes":  39792424,
+                      "sha256":  "9702c37d5e3a06ccbb4fe708ac47fe75f6836f9de92442aa4287f7e10757a6ba"
+                  }
+              ]
+}
